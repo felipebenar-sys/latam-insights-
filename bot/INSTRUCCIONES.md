@@ -54,6 +54,15 @@ La página `glosario.html` muestra los "Términos del día" (los de la edición 
 
 La definición va en 2 a 4 frases, en lenguaje sencillo para un inversionista no profesional: qué es y por qué le importa a quien invierte. Aquí sí puedes usar conocimiento general (no viene de la noticia), pero solo conceptos establecidos y sin cifras que cambien con el tiempo. No modifiques las definiciones existentes salvo para corregir un error.
 
+## Dólar (`data/mercado.json`)
+En cada edición actualiza el dólar. Consulta con WebFetch `https://www.datos.gov.co/resource/32sa-8pi3.json?$order=vigenciadesde%20DESC&$limit=2` (TRM oficial) y escribe:
+
+```json
+{ "trm": { "valor": 3194.44, "vigente_desde": "2026-10-10", "anterior": 3218.75, "fuente": "Superintendencia Financiera vía datos.gov.co" }, "actualizado": "AAAA-MM-DD" }
+```
+
+`valor` y `vigente_desde` salen del primer registro; `anterior` es el valor del segundo. La página lo muestra en la barra superior.
+
 ## Dónde se publica
 Se agrega al inicio del arreglo `notas` de `data/notas.json` y se actualiza `actualizado`. Esquema de cada nota:
 

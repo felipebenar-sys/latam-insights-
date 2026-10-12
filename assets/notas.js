@@ -138,23 +138,32 @@
         const el = document.getElementById('barra-mercado');
         if (!el) return;
         const trmEl = el.querySelector('[data-trm]'), actEl = el.querySelector('[data-actualizado]');
+        const fmt = v => '$' + v.toLocaleString('es-CO', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+        const pinta = (hoy, ant, vigISO) => {
+            if (!Number.isFinite(hoy)) return;
+            const vig = String(vigISO).slice(0, 10).split('-').reverse().join('/');
+            let cambio = '';
+            if (Number.isFinite(ant) && ant) {
+                const dif = hoy - ant, pct = dif / ant * 100;
+                const col = dif > 0 ? 'text-emerald-400' : dif < 0 ? 'text-rose-400' : 'text-stone-400';
+                const sig = dif > 0 ? '▲' : dif < 0 ? '▼' : '■';
+                cambio = ` <span class="${col}">${sig} ${Math.abs(dif).toLocaleString('es-CO', { maximumFractionDigits: 2 })} (${pct.toFixed(2).replace('.', ',')}%)</span>`;
+            }
+            trmEl.innerHTML = `<span class="text-white font-semibold">${fmt(hoy)}</span>${cambio} <span class="text-stone-500">· vigente desde ${vig}</span>`;
+        };
         cargar().then(d => { if (d.actualizado) actEl.textContent = d.actualizado; }).catch(() => {});
-        fetch('https://www.datos.gov.co/resource/32sa-8pi3.json?$order=vigenciadesde%20DESC&$limit=2')
-            .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
-            .then(rows => {
-                const hoy = Number(rows[0].valor), ant = rows[1] ? Number(rows[1].valor) : NaN;
-                const fmt = v => '$' + v.toLocaleString('es-CO', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-                const vig = String(rows[0].vigenciadesde).slice(0, 10).split('-').reverse().join('/');
-                let cambio = '';
-                if (Number.isFinite(ant) && ant) {
-                    const dif = hoy - ant, pct = dif / ant * 100;
-                    const col = dif > 0 ? 'text-emerald-400' : dif < 0 ? 'text-rose-400' : 'text-stone-400';
-                    const sig = dif > 0 ? '▲' : dif < 0 ? '▼' : '■';
-                    cambio = ` <span class="${col}">${sig} ${Math.abs(dif).toLocaleString('es-CO', { maximumFractionDigits: 2 })} (${pct.toFixed(2).replace('.', ',')}%)</span>`;
-                }
-                trmEl.innerHTML = `<span class="text-white font-semibold">${fmt(hoy)}</span>${cambio} <span class="text-stone-500">· vigente desde ${vig}</span>`;
-            })
-            .catch(() => { trmEl.textContent = 'no disponible'; });
+        // 1) Valor guardado en el sitio (siempre disponible; lo actualiza la edición diaria)
+        fetch('data/mercado.json', { cache: 'no-store' }).then(r => r.json())
+            .then(m => { if (m && m.trm) pinta(Number(m.trm.valor), Number(m.trm.anterior), m.trm.vigente_desde); })
+            .catch(() => {})
+            // 2) Si el navegador puede consultar la fuente oficial, se usa el valor más reciente
+            .finally(() => {
+                fetch('https://www.datos.gov.co/resource/32sa-8pi3.json?$order=vigenciadesde%20DESC&$limit=2')
+                    .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+                    .then(rows => { if (rows && rows[0]) pinta(Number(rows[0].valor), rows[1] ? Number(rows[1].valor) : NaN, rows[0].vigenciadesde); })
+                    .catch(() => {})
+                    .finally(() => { if (/cargando/i.test(trmEl.textContent)) trmEl.textContent = 'no disponible'; });
+            });
     };
 
     // Página de glosario: términos del día (última edición) + glosario completo

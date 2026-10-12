@@ -1,6 +1,83 @@
 {
-  "actualizado": "11 oct 2026, 10:00 p. m. (hora Bogotá)",
+  "actualizado": "12 oct 2026, 8:40 a. m. (hora Bogotá)",
   "notas": [
+    {
+      "id": "2026-10-12-01",
+      "fecha": "2026-10-12",
+      "categoria": "macro",
+      "titulo": "El dólar cae 14% en el año y los analistas no lo ven volver a $4.000",
+      "resumen": "La TRM bajó 2,69% en la última semana, hasta $3.218,75, y acumula una caída de 14,33% en lo corrido del año, según cifras de Global66 citadas por Valora Analitik. Las proyecciones de cierre de 2026 de bancos y gremios se mueven entre unos $3.150 y $3.460.",
+      "contexto": "El dólar llegó a $3.349,63 el 29 de septiembre y desde entonces ha retrocedido. Entre las proyecciones de fin de año, Bank of America y Banco de Occidente están en el extremo bajo (cerca de $3.150), BBVA Research en $3.265 y BTG Pactual en el extremo alto ($3.460). Bancolombia estima que el valor de equilibrio del peso estaría cerca de $3.600, es decir, el dólar estaría hoy entre $200 y $300 por debajo de ese nivel.",
+      "afectados": [
+        "Peso colombiano",
+        "Importadores",
+        "Exportadores",
+        "Inversiones en dólares"
+      ],
+      "peso_alcista": 50,
+      "alcista": "Para quien tiene su portafolio en pesos, un peso fuerte reduce el costo de importaciones y viajes y ayuda a bajar la inflación. Las razones que da el artículo tienen sustento: la diferencia de tasas entre el Banco de la República (12,25%) y la Reserva Federal atrae capital, el petróleo caro trae dólares y las remesas siguen altas. Ningún analista consultado ve el dólar cerca de $4.000 este año.",
+      "bajista": "Para quien tiene inversiones o ahorros en dólares, la caída de 14% en el año ya redujo su valor medido en pesos, y exportadores y familias con remesas reciben menos. El artículo advierte que las finanzas públicas se deterioran y el déficit de cuenta corriente sube. BBVA Research y BTG Pactual esperan más volatilidad y una corrección gradual al alza hacia 2027, y Bancolombia ve el peso por encima de su valor de equilibrio.",
+      "mirar": "El debate del Presupuesto 2027 en el Congreso, que tiene plazo hasta la medianoche del 20 de octubre.",
+      "terminos": [
+        "TRM",
+        "Revaluación del peso",
+        "Tasa de política monetaria",
+        "Déficit de cuenta corriente",
+        "Remesas"
+      ],
+      "fuente": "Valora Analitik",
+      "url": "https://www.valoraanalitik.com/dolar-en-colombia-llegaria-a-4-000-a-finales-de-2026-proyecciones-se-mueven-entre-el-alivio-de-la-apreciacion-y-la-sombra-fiscal/"
+    },
+    {
+      "id": "2026-10-12-02",
+      "fecha": "2026-10-12",
+      "categoria": "macro",
+      "titulo": "La inflación solo ha estado dentro de la meta en seis de los últimos 16 años",
+      "resumen": "Con datos del DANE, Portafolio muestra que la inflación anual cerró dentro del rango de 2% a 4% del Banco de la República solo en 2010, 2011, 2012, 2014, 2018 y 2019. En septiembre de 2026 iba en 6,29%.",
+      "contexto": "La meta de 3%, con un margen de un punto hacia arriba o hacia abajo, rige desde 2010. En ocho años la inflación cerró por encima de 4%, con el pico de 13,12% en 2022, y en dos años quedó por debajo de 2%. El último año dentro del rango fue 2019, con 3,80%. Entre enero y septiembre de 2026 la inflación acumulada ya suma 5,74%.",
+      "afectados": [
+        "Tasas de interés",
+        "TES",
+        "Bancos",
+        "Ahorradores en pesos"
+      ],
+      "peso_alcista": 35,
+      "alcista": "El dato es histórico y no cambia por sí solo el panorama de corto plazo. Si la inflación sigue bajando desde los niveles de 2022, el Banco de la República tendría espacio para reducir su tasa más adelante, lo que suele favorecer a las acciones y a los bonos de largo plazo. Para el ahorrador, las tasas altas de hoy también ofrecen rendimientos por encima de la inflación en instrumentos de renta fija.",
+      "bajista": "Una inflación que en 10 de 16 años se salió del rango muestra que bajarla es difícil, y con 6,29% en septiembre sigue lejos de la meta de 3%. Eso hace más probable que el Banco de la República mantenga las tasas altas por más tiempo, lo que encarece el crédito y pesa sobre la valoración de las acciones. Para quien guarda dinero sin rendimiento, la inflación sigue reduciendo su poder de compra.",
+      "mirar": "El dato de inflación de octubre del DANE y la próxima decisión de tasas del Banco de la República.",
+      "terminos": [
+        "Inflación",
+        "Meta de inflación",
+        "Tasa de política monetaria",
+        "TES"
+      ],
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/finanzas/colombia-cumplio-el-rango-de-inflacion-del-banco-de-la-republica-en-solo-seis-de-los-ultimos-16-anos-504277"
+    },
+    {
+      "id": "2026-10-12-03",
+      "fecha": "2026-10-12",
+      "categoria": "macro",
+      "titulo": "Arranca la discusión del salario mínimo 2027: propuestas de 8% a 10%",
+      "resumen": "Tras conocerse la inflación de septiembre (6,29%), la CEO de la firma Lexacty propuso un aumento del salario mínimo para 2027 de entre 8% y 10%, según Portafolio. La cifra combina una inflación estimada cercana a 7% al cierre del año y un punto de productividad.",
+      "contexto": "La propuesta estima que la inflación de 2026 cerraría cerca de 7%, presionada por alimentos y tarifas de energía. El artículo recuerda que el costo de un trabajador para la empresa no es solo el salario: incluye aportes a salud y pensión, primas y cesantías. También señala que algunas empresas ya subieron precios para sostener su nómina.",
+      "afectados": [
+        "Consumo de los hogares",
+        "Empresas intensivas en mano de obra",
+        "Inflación",
+        "Minoristas"
+      ],
+      "peso_alcista": 40,
+      "alcista": "Un aumento del salario mínimo por encima de la inflación mejora el ingreso real de los hogares, lo que podría darle algo de aire al consumo, que viene frenándose. Eso favorecería a minoristas y empresas de consumo masivo. Además, por ahora es una propuesta de un actor privado y no una decisión: la cifra final sale de la negociación de fin de año.",
+      "bajista": "Un aumento de 8% a 10% elevaría los costos de las empresas con muchos empleados, que podrían trasladarlo a precios o recortar contratación. Como muchos precios y tarifas se ajustan con el salario mínimo, también podría mantener la inflación alta y retrasar los recortes de tasa del Banco de la República. Para el portafolio, eso significa presión sobre márgenes empresariales y tasas altas por más tiempo.",
+      "mirar": "La instalación de la mesa de concertación del salario mínimo y el dato de inflación de octubre.",
+      "terminos": [
+        "Inflación",
+        "Tasa de política monetaria"
+      ],
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/salario-minimo-de-2027-proponen-aumento-de-entre-8-y-10-tras-inflacion-superior-al-6-de-septiembre-504272"
+    },
     {
       "id": "2026-10-11-01",
       "fecha": "2026-10-11",
