@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Y Entonces? | Stag Research</title>
+    <meta name="description" content="¿Y Entonces?, el boletín diario de Stag Research: las noticias del mercado colombiano y latinoamericano con lectura alcista y bajista.">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .serif { font-family: 'Source Serif 4', serif; }
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-stone-950 text-stone-100 antialiased">
+
+    <!-- HEADER -->
+    <header class="border-b border-stone-800 bg-stone-900/60 sticky top-0 z-50 backdrop-blur">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+            <a href="index.html" class="text-xl font-extrabold tracking-tight">
+                <span class="text-amber-400">Stag</span><span class="text-white"> Research</span>
+            </a>
+            <nav class="hidden md:flex space-x-8 text-sm font-medium text-stone-300">
+                <a href="yentonces.html" class="text-amber-400">¿Y Entonces?</a>
+                <a href="index.html#research" class="hover:text-amber-400 transition">Research Pro</a>
+                <a href="index.html#metodo" class="hover:text-amber-400 transition">Método</a>
+            </nav>
+            <a href="index.html" class="border border-stone-700 hover:border-amber-400 text-stone-200 font-semibold px-4 py-2 rounded-lg text-sm transition">
+                Inicio
+            </a>
+        </div>
+    </header>
+
+    <!-- ENCABEZADO -->
+    <section class="pt-16 pb-10 px-4 sm:px-6 max-w-4xl mx-auto">
+        <span class="text-amber-400 text-xs font-semibold uppercase tracking-wider">Boletín diario gratuito</span>
+        <h1 class="serif text-4xl sm:text-5xl font-bold text-white mt-2 mb-4">¿Y Entonces?</h1>
+        <p class="text-lg text-stone-400 mb-6">Cada mañana, las noticias que mueven al mercado colombiano y regional, con el contexto, a quién afectan y las dos lecturas posibles: la alcista y la bajista.</p>
+        <div class="flex flex-wrap gap-2 text-xs">
+            <span class="bg-stone-900 border border-stone-800 text-stone-300 px-3 py-1 rounded-full">Qué pasó</span>
+            <span class="bg-stone-900 border border-stone-800 text-stone-300 px-3 py-1 rounded-full">Contexto</span>
+            <span class="bg-stone-900 border border-stone-800 text-stone-300 px-3 py-1 rounded-full">A quién afecta</span>
+            <span class="bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 px-3 py-1 rounded-full">Lectura alcista</span>
+            <span class="bg-rose-500/10 border border-rose-500/20 text-rose-400 px-3 py-1 rounded-full">Lectura bajista</span>
+            <span class="bg-stone-900 border border-stone-800 text-stone-300 px-3 py-1 rounded-full">Qué mirar después</span>
+        </div>
+    </section>
+
+    <!-- EDICIÓN -->
+    <section class="pb-20 px-4 sm:px-6 max-w-4xl mx-auto">
+        <div class="flex flex-wrap items-baseline justify-between gap-2 mb-2 border-t border-stone-800 pt-8">
+            <h2 class="text-white font-semibold text-xl" id="notas-hoy-titulo">Edición de hoy</h2>
+            <span class="text-stone-500 text-xs" id="notas-actualizado"></span>
+        </div>
+        <p class="text-stone-500 text-xs mb-8">Notas generadas automáticamente a partir de medios públicos. Cada una enlaza a su fuente original. Las lecturas alcista y bajista son escenarios educativos, no recomendaciones.</p>
+        <div id="notas-hoy" class="space-y-8">
+            <div class="border border-dashed border-stone-700 rounded-xl p-10 text-center"><p class="text-stone-500 text-sm">Cargando notas…</p></div>
+        </div>
+
+        <div id="archivo-wrap" class="mt-16 hidden">
+            <h2 class="text-white font-semibold text-xl mb-6 border-t border-stone-800 pt-8">Ediciones anteriores</h2>
+            <div id="archivo" class="space-y-8"></div>
+        </div>
+    </section>
+
+    <!-- FOOTER + AVISO LEGAL (obligatorio en todas las páginas) -->
+    <footer class="border-t border-stone-800 bg-stone-950 py-12 text-xs text-stone-500">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 space-y-4">
+            <p class="text-stone-300 font-semibold text-sm">Aviso legal y descargo de responsabilidad</p>
+            <p>El contenido publicado por Stag Research, incluidos el boletín ¿Y Entonces? y los reportes Research Pro, tiene fines exclusivamente informativos, educativos y de investigación independiente. No constituye asesoría de inversión, recomendación personalizada, oferta, solicitud ni invitación a comprar, vender o mantener valores o cualquier otro instrumento financiero.</p>
+            <p>Stag Research no es una entidad vigilada por la Superintendencia Financiera de Colombia, no administra recursos de terceros y no presta servicios de intermediación ni de asesoría en el mercado de valores. El contenido no tiene en cuenta los objetivos, la situación financiera ni el perfil de riesgo de ningún lector en particular.</p>
+            <p>La información se basa en fuentes públicas que consideramos confiables, pero no garantizamos su exactitud, integridad ni actualidad. Las opiniones, estimaciones y valoraciones reflejan el criterio de Stag Research a la fecha de publicación y pueden cambiar sin previo aviso. Las rentabilidades pasadas no garantizan resultados futuros. Invertir en acciones implica riesgos, incluida la posible pérdida del capital invertido.</p>
+            <p>Antes de tomar cualquier decisión de inversión, consulte con un asesor profesional debidamente autorizado. Stag Research y sus colaboradores no se hacen responsables por decisiones tomadas con base en este contenido.</p>
+            <p class="pt-4 border-t border-stone-900">© 2026 Stag Research. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="assets/notas.js"></script>
+    <script>renderPagina();</script>
+
+</body>
+</html>

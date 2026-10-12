@@ -1,0 +1,110 @@
+// Renderizado de notas ¿Y Entonces? — compartido por index.html y yentonces.html
+// Datos: data/notas.json (esquema en bot/INSTRUCCIONES.md)
+(function () {
+    const CAT = { bvc: 'BVC', macro: 'Macro Colombia', commodities: 'Commodities', latam: 'LatAm' };
+    const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+    const safeUrl = u => /^https?:\/\//i.test(u || '') ? u : '#';
+    const fmtFecha = f => {
+        const [y, m, d] = String(f).split('-').map(Number);
+        if (!y) return esc(f);
+        return new Date(y, m - 1, d).toLocaleDateString('es-CO', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+    };
+
+    function cabecera(n) {
+        return `
+            <div class="flex flex-wrap items-center gap-2 mb-3 text-xs">
+                <span class="bg-amber-400/10 text-amber-400 border border-amber-400/20 px-2 py-0.5 rounded-full font-semibold">${esc(CAT[n.categoria] || n.categoria)}</span>
+                <a href="${esc(safeUrl(n.url))}" target="_blank" rel="noopener noreferrer" class="text-stone-400 hover:text-amber-400 underline underline-offset-2">Fuente: ${esc(n.fuente)}</a>
+            </div>`;
+    }
+
+    // Tarjeta corta (portada)
+    function tarjetaCorta(n) {
+        return `
+        <article class="bg-stone-900 border border-stone-800 rounded-xl p-6 flex flex-col">
+            ${cabecera(n)}
+            <h4 class="serif text-lg font-bold text-white mb-2">${esc(n.titulo)}</h4>
+            <p class="text-stone-400 text-sm mb-4 flex-1">${esc(n.resumen)}</p>
+            <a href="yentonces.html#${esc(n.id)}" class="text-amber-400 text-sm font-semibold hover:text-amber-300">Leer lectura alcista y bajista →</a>
+        </article>`;
+    }
+
+    // Nota completa (página ¿Y Entonces?)
+    function notaCompleta(n) {
+        const afectados = Array.isArray(n.afectados) && n.afectados.length
+            ? `<div class="mb-5">
+                   <p class="text-stone-500 text-xs font-bold uppercase tracking-wider mb-2">A quién afecta</p>
+                   <div class="flex flex-wrap gap-2">${n.afectados.map(a => `<span class="bg-stone-800 text-stone-200 text-xs px-2.5 py-1 rounded-md">${esc(a)}</span>`).join('')}</div>
+               </div>` : '';
+        return `
+        <article id="${esc(n.id)}" class="bg-stone-900 border border-stone-800 rounded-xl p-6 sm:p-8 scroll-mt-24">
+            ${cabecera(n)}
+            <h3 class="serif text-2xl font-bold text-white mb-3">${esc(n.titulo)}</h3>
+            <p class="text-stone-200 mb-5">${esc(n.resumen)}</p>
+            ${n.contexto ? `<div class="mb-5">
+                <p class="text-stone-500 text-xs font-bold uppercase tracking-wider mb-1">Contexto</p>
+                <p class="text-stone-300 text-sm leading-relaxed">${esc(n.contexto)}</p>
+            </div>` : ''}
+            ${afectados}
+            <div class="grid md:grid-cols-2 gap-5 mb-5">
+                <div class="bg-emerald-500/5 border border-emerald-500/20 rounded-lg p-4">
+                    <p class="text-emerald-400 text-xs font-bold uppercase tracking-wider mb-2">Lectura alcista</p>
+                    <p class="text-stone-200 text-sm leading-relaxed">${esc(n.alcista)}</p>
+                </div>
+                <div class="bg-rose-500/5 border border-rose-500/20 rounded-lg p-4">
+                    <p class="text-rose-400 text-xs font-bold uppercase tracking-wider mb-2">Lectura bajista</p>
+                    <p class="text-stone-200 text-sm leading-relaxed">${esc(n.bajista)}</p>
+                </div>
+            </div>
+            ${n.mirar ? `<p class="text-sm text-stone-300 border-t border-stone-800 pt-4"><span class="text-amber-400 font-semibold">Qué mirar después:</span> ${esc(n.mirar)}</p>` : ''}
+        </article>`;
+    }
+
+    const vacio = msg => `<div class="border border-dashed border-stone-700 rounded-xl p-10 text-center"><p class="text-stone-500 text-sm">${esc(msg)}</p></div>`;
+
+    function cargar() {
+        return fetch('data/notas.json', { cache: 'no-store' }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); });
+    }
+
+    function agrupar(notas) {
+        const porFecha = {};
+        notas.forEach(n => (porFecha[n.fecha] ||= []).push(n));
+        return { porFecha, fechas: Object.keys(porFecha).sort().reverse() };
+    }
+
+    // Portada: últimas N notas en versión corta
+    window.renderPortada = function (contId, n = 3) {
+        const cont = document.getElementById(contId);
+        cargar().then(data => {
+            const notas = (Array.isArray(data.notas) ? data.notas : []).slice(0, n);
+            cont.innerHTML = notas.length ? notas.map(tarjetaCorta).join('') : vacio('Las primeras notas ¿Y Entonces? se publicarán muy pronto.');
+        }).catch(() => { cont.innerHTML = vacio('No pudimos cargar las notas en este momento.'); });
+    };
+
+    // Página ¿Y Entonces?: edición más reciente completa + archivo
+    window.renderPagina = function () {
+        const hoy = document.getElementById('notas-hoy');
+        cargar().then(data => {
+            const notas = Array.isArray(data.notas) ? data.notas : [];
+            if (data.actualizado) document.getElementById('notas-actualizado').textContent = 'Actualizado: ' + data.actualizado;
+            if (!notas.length) { hoy.innerHTML = vacio('Las primeras notas ¿Y Entonces? se publicarán muy pronto.'); return; }
+            const { porFecha, fechas } = agrupar(notas);
+            document.getElementById('notas-hoy-titulo').textContent = 'Edición del ' + fmtFecha(fechas[0]);
+            hoy.innerHTML = porFecha[fechas[0]].map(notaCompleta).join('');
+            const resto = fechas.slice(1);
+            if (resto.length) {
+                document.getElementById('archivo-wrap').classList.remove('hidden');
+                document.getElementById('archivo').innerHTML = resto.map(f => `
+                    <details class="group">
+                        <summary class="cursor-pointer text-stone-300 font-semibold capitalize hover:text-amber-400">${fmtFecha(f)} · ${porFecha[f].length} notas</summary>
+                        <div class="space-y-6 mt-4">${porFecha[f].map(notaCompleta).join('')}</div>
+                    </details>`).join('');
+            }
+            // Si llega con #id de una nota archivada, abrir su edición y desplazar
+            if (location.hash) {
+                const el = document.getElementById(location.hash.slice(1));
+                if (el) { const d = el.closest('details'); if (d) d.open = true; el.scrollIntoView(); }
+            }
+        }).catch(() => { hoy.innerHTML = vacio('No pudimos cargar las notas en este momento.'); });
+    };
+})();

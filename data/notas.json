@@ -7,8 +7,15 @@
       "categoria": "commodities",
       "titulo": "Tercer ataque a un petrolero en dos días en el estrecho de Ormuz",
       "resumen": "La Guardia Revolucionaria de Irán reportó el domingo una explosión, que atribuye a una mina, en un superpetrolero cargado de crudo que salía del golfo Pérsico. Irán sostiene que el estrecho está cerrado salvo por rutas que él autoriza; Estados Unidos dice que no hay bloqueo.",
-      "alcista": "Más riesgo sobre la oferta en Ormuz tiende a sostener el precio del crudo. Para Ecopetrol y para las cuentas externas y fiscales de Colombia, un petróleo más caro significa más ingresos por exportaciones y puede darle soporte al peso.",
-      "bajista": "Un crudo más alto encarece combustibles e importaciones, presiona la inflación global y puede alejar los recortes de tasas. Además, los episodios de tensión geopolítica suelen castigar a los activos de riesgo emergentes, incluida la bolsa colombiana.",
+      "contexto": "Irán declaró cerrado el estrecho en represalia por ataques de Estados Unidos y solo permite el paso por rutas que autorizan sus fuerzas armadas. La Guardia Revolucionaria dice que es el tercer ataque a un petrolero en dos días y advierte que tratará como hostiles a los barcos que apaguen sus sistemas de navegación. Estados Unidos afirma que mantiene el control militar de la zona, aunque su presencia se limita a la parte exterior del paso. Según una nota relacionada del mismo medio, el tránsito por el estrecho cayó a su nivel más bajo en más de dos meses.",
+      "afectados": [
+        "Ecopetrol",
+        "Peso colombiano",
+        "Aerolíneas y transporte",
+        "Inflación"
+      ],
+      "alcista": "Si la tensión se prolonga, el riesgo sobre la oferta tiende a sostener o subir el precio del crudo. Para Ecopetrol eso puede significar mejores precios de venta y más flujo de caja. Para Colombia, el petróleo sigue siendo una fuente clave de divisas y de ingresos fiscales, así que un crudo más caro puede darle soporte al peso y aliviar algo las cuentas del Gobierno.",
+      "bajista": "Un crudo más caro encarece combustibles, transporte e importaciones, y puede presionar la inflación cuando el Banco de la República aún mantiene tasas altas; eso podría retrasar los recortes y pesar sobre la valoración de las acciones locales. En episodios de tensión geopolítica los inversionistas también suelen salir de activos emergentes, lo que puede golpear a la bolsa colombiana y al peso aunque el petróleo suba. Para empresas intensivas en combustible, como las aerolíneas, es un aumento directo de costos.",
       "mirar": "Si el tránsito de petroleros por el estrecho se recupera o sigue cayendo, y cómo abre el Brent esta semana.",
       "fuente": "La República",
       "url": "https://www.larepublica.co/globoeconomia/iran-reporto-nueva-explosion-en-un-superpetrolero-en-el-estrecho-de-ormuz-4501258"
@@ -19,8 +26,15 @@
       "categoria": "macro",
       "titulo": "Los extranjeros vuelven a comprar TES con tasas cerca del 13%",
       "resumen": "Según un informe del Banco de Bogotá citado por Portafolio, los TES en pesos volvieron en septiembre a tasas cercanas al 13%, el nivel más alto desde mayo. Los extranjeros compraron cerca de $800.000 millones tras dos meses de ventas, los bancos sumaron cerca de $1 billón y los fondos de pensiones fueron los mayores compradores, con unos $6,1 billones.",
-      "alcista": "El regreso de los extranjeros y la preferencia de los fondos de pensiones por TES en pesos frente a los UVR apuntan a menores expectativas de inflación. Si la demanda se consolida, las tasas podrían ceder y valorizar los portafolios de deuda, incluidos los de los bancos.",
-      "bajista": "Tasas cerca del 13% muestran que el mercado sigue cobrando caro el riesgo fiscal. El mismo informe dice que los extranjeros esperan ver el ajuste fiscal antes de aumentar su exposición, así que esa demanda puede ser frágil. Tasas altas también elevan el costo de capital y pesan sobre la valoración de las acciones.",
+      "contexto": "En septiembre el Ministerio de Hacienda redujo su portafolio de TES en cerca de $1,1 billones y el Banco de la República pausó sus compras. El informe atribuye las ventas de extranjeros de agosto sobre todo a toma de utilidades de fondos puntuales, más que a una pérdida general de confianza en Colombia. Septiembre también trajo una sorpresa a la baja en la inflación.",
+      "afectados": [
+        "TES",
+        "Bancos",
+        "Fondos de pensiones",
+        "Peso colombiano"
+      ],
+      "alcista": "El regreso de los extranjeros tras dos meses de ventas sugiere que tasas cerca del 13% ya resultan atractivas. Que los fondos de pensiones prefieran TES en pesos frente a los UVR apunta a menores expectativas de inflación, en línea con la sorpresa a la baja de septiembre. Si esa demanda se sostiene, las tasas podrían ceder y valorizar los portafolios de deuda de bancos y fondos; tasas de largo plazo más bajas también mejoran la valoración de las acciones.",
+      "bajista": "Que los TES rindan cerca del 13% muestra que el mercado sigue exigiendo una prima alta por el riesgo fiscal. El propio informe dice que los extranjeros esperan ver el ajuste fiscal antes de aumentar su exposición, así que su demanda puede revertirse si el ajuste se demora. Con el Banco de la República fuera del mercado en septiembre hay un comprador menos, y tasas altas mantienen caro el costo de capital y compiten con las acciones por el dinero de los inversionistas.",
       "mirar": "Las señales de ajuste fiscal del Gobierno y el próximo dato de inflación.",
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/los-tes-en-pesos-regresaron-a-tasas-cercanas-al-13-y-abrieron-oportunidades-de-compra-para-bancos-y-extranjeros-504170"
@@ -31,8 +45,15 @@
       "categoria": "macro",
       "titulo": "El comercio minorista crece al menor ritmo en casi dos años",
       "resumen": "Las ventas minoristas crecieron 5,3% anual en julio, frente a 15% en junio, según un informe del Banco de Bogotá reseñado por Valora Analitik. Sin incluir vehículos, el avance fue de apenas 2,3%.",
-      "alcista": "Una demanda más débil ayuda a bajar la inflación, lo que con el tiempo abriría espacio para que el Banco de la República recorte su tasa, hoy en 12,25%. Eso favorecería a los bancos y a las empresas más endeudadas.",
-      "bajista": "El informe atribuye el frenazo a un mercado laboral más débil, tasas altas, un peso revaluado y el fin del impulso del Mundial, y anticipa un periodo prolongado de comercio débil, agravado por el terremoto de agosto. Es una mala señal para los minoristas y para la calidad de la cartera de consumo de los bancos.",
+      "contexto": "En julio de 2025 las ventas habían crecido 18,4%. De las 19 categorías que sigue el DANE, 6 aceleraron, 8 se frenaron y 5 cayeron; combustibles, vestuario y autopartes estuvieron entre las que retrocedieron. El informe suma otros factores, como el cansancio tras compras intensas de bienes durables y las expectativas sobre el ajuste fiscal. Después vino el terremoto del 10 de agosto: Fenalco reportó caídas de cerca de 45% en la facturación de comercios en zonas de Valle del Cauca y Risaralda.",
+      "afectados": [
+        "Minoristas",
+        "Bancos (cartera de consumo)",
+        "Banco de la República",
+        "Construcción"
+      ],
+      "alcista": "Una demanda que se enfría reduce la presión sobre los precios, que es lo que necesita el Banco de la República para empezar a bajar su tasa, que subió de 9,25% en diciembre de 2025 a 12,25% en septiembre de 2026. Si el ciclo de recortes se adelanta, los bancos y las empresas endeudadas estarían entre los primeros beneficiados. Además, la desaceleración se mide contra bases muy altas, así que parte del frenazo es efecto estadístico.",
+      "bajista": "El informe atribuye el frenazo a factores que no se corrigen rápido: un mercado laboral más débil, crédito caro, un peso revaluado que reduce el valor en pesos de las remesas y el fin del impulso del Mundial. El banco anticipa un periodo prolongado de comercio débil, con ventas en contracción, y el terremoto agrava el panorama en el centro-occidente. Para los minoristas son menos ventas; para los bancos, más riesgo de deterioro en la cartera de consumo.",
       "mirar": "El dato de comercio minorista de agosto del DANE, que ya reflejará el efecto del terremoto.",
       "fuente": "Valora Analitik",
       "url": "https://www.valoraanalitik.com/por-que-se-freno-el-comercio-en-colombia-en-julio-estos-factores-llevaron-las-ventas-a-su-nivel-mas-bajo-en-dos-anos/"
@@ -43,8 +64,15 @@
       "categoria": "macro",
       "titulo": "JP Morgan: Colombia necesitaría hasta US$72.000 millones en 2027",
       "resumen": "En un informe del 8 de octubre reseñado por Portafolio, JP Morgan estima que el Gobierno necesitaría entre unos US$50.000 millones (8% del PIB) y US$72.000 millones (11,6% del PIB) de financiamiento en 2027, según qué tan efectivo sea el ajuste fiscal.",
-      "alcista": "Si avanza el ajuste fiscal y se hacen operaciones de manejo de deuda, la necesidad bajaría a la parte baja del rango. JP Morgan además ve las metas fiscales del Gobierno en línea con lo que pediría un eventual programa con el FMI, que ofrecería financiamiento más barato que la deuda de mercado.",
-      "bajista": "El banco insiste en que la posición fiscal es la principal vulnerabilidad de Colombia. Sin ajuste, la mayor necesidad de deuda presiona las tasas de los TES y la prima de riesgo país. El informe también menciona menores dividendos de Ecopetrol entre las causas de la caída de los ingresos del Gobierno.",
+      "contexto": "Para 2026 la necesidad de financiamiento se estima en cerca de 9,6% del PIB, muy por encima del promedio de 5,3% de 2010-2019. A julio de 2026 el déficit total iba en 3,8% del PIB y JP Morgan proyecta que cierre el año en 7,4%. Los ingresos reales cayeron 11,8% anual en julio, en parte por menores dividendos de Ecopetrol, mientras la inversión pública real cae 11,4% en lo corrido del año.",
+      "afectados": [
+        "TES",
+        "Peso colombiano",
+        "Ecopetrol",
+        "Riesgo país"
+      ],
+      "alcista": "La Ley de Ajuste Fiscal busca bajar el déficit primario a cerca de 2,5% del PIB y JP Morgan espera alrededor de 2,6%, es decir, ve el ajuste como bastante creíble. Junto con operaciones para reducir amortizaciones, eso llevaría la necesidad a la parte baja del rango. Un eventual programa con el FMI daría financiamiento a algo más de 3%, frente a cerca de 7% que rinde el bono en dólares de 2031, y el banco ve las metas del Gobierno compatibles con lo que pediría el Fondo.",
+      "bajista": "JP Morgan insiste en que lo fiscal es la principal vulnerabilidad macro de Colombia. Si el ajuste no se aprueba o se diluye, la necesidad subiría hacia 11,6% del PIB y obligaría a emitir más deuda, presionando las tasas de los TES y la prima de riesgo país. Un programa con el FMI vendría con condiciones y desembolsos anuales limitados, de unos US$5.500 millones, y la caída de ingresos ligada a menores dividendos de Ecopetrol muestra lo expuesto que está el fisco al petróleo.",
       "mirar": "El avance de la Ley de Ajuste Fiscal y cualquier anuncio sobre un acuerdo con el FMI.",
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/crecimiento/colombia-necesitaria-entre-us-50-000-y-us-72-000-millones-de-financiamiento-en-2027-jp-morgan-504217"

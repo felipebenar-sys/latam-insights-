@@ -27,9 +27,11 @@ Selecciona entre **3 y 5** noticias, priorizando impacto en el mercado. Si en el
 
 ## Formato de cada nota
 - `titulo`: titular propio, claro, máximo ~90 caracteres. No copies el titular del medio.
-- `resumen`: qué pasó, en 1 a 2 frases con tus palabras.
-- `alcista`: lectura alcista (bullish) en 1 a 3 frases: por qué podría ser positivo y para quién.
-- `bajista`: lectura bajista (bearish) en 1 a 3 frases: por qué podría ser negativo y para quién.
+- `resumen`: qué pasó, en 1 a 2 frases con tus palabras. Es lo que se ve en la portada.
+- `contexto`: antecedentes en 2 a 4 frases: cifras de comparación, causas y hechos relacionados, solo los que aparezcan en la fuente.
+- `afectados`: lista de 2 a 5 etiquetas cortas con quién se ve afectado (emisores, sectores o variables), por ejemplo "Ecopetrol", "Bancos", "Peso colombiano", "TES".
+- `alcista`: lectura alcista (bullish) en 3 a 5 frases: por qué podría ser positivo, para quién y por qué mecanismo.
+- `bajista`: lectura bajista (bearish) en 3 a 5 frases: por qué podría ser negativo, para quién y por qué mecanismo.
 - `mirar`: el próximo dato, fecha o anuncio que confirmaría o cambiaría la lectura (1 frase).
 
 ## Reglas obligatorias
@@ -50,6 +52,8 @@ Se agrega al inicio del arreglo `notas` de `data/notas.json` y se actualiza `act
   "categoria": "bvc | macro | commodities | latam",
   "titulo": "",
   "resumen": "",
+  "contexto": "",
+  "afectados": ["", ""],
   "alcista": "",
   "bajista": "",
   "mirar": "",
@@ -58,4 +62,4 @@ Se agrega al inicio del arreglo `notas` de `data/notas.json` y se actualiza `act
 }
 ```
 
-La página (`index.html`) lee ese archivo y muestra las notas del día arriba y el archivo histórico debajo. El aviso legal ya está fijo al final de la página.
+La portada (`index.html`) muestra las 3 notas más recientes en versión corta (título y resumen) y la página `yentonces.html` muestra la edición completa y el archivo histórico. Ambas leen ese archivo mediante `assets/notas.js`. El aviso legal ya está fijo al final de cada página.
