@@ -5,5 +5,26 @@
     "anterior": 3218.75,
     "fuente": "Superintendencia Financiera vía datos.gov.co"
   },
+  "brent": {
+    "valor": 104.72,
+    "cambio_pct": 0.42,
+    "fecha": "2026-10-09",
+    "fuente": "Investing.com"
+  },
+  "colcap": {
+    "valor": 2531.23,
+    "cambio_pct": 0.23,
+    "fecha": "2026-10-09",
+    "fuente": "BVC vía La República"
+  },
+  "tasa_banrep": {
+    "valor": 12.25,
+    "fuente": "Banco de la República"
+  },
+  "inflacion": {
+    "valor": 6.29,
+    "periodo": "sep 2026",
+    "fuente": "DANE"
+  },
   "actualizado": "2026-10-12"
 }

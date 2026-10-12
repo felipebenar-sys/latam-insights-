@@ -83,6 +83,22 @@
     {
       "termino": "Remesas",
       "definicion": "Dinero que envían a sus familias los colombianos que viven en el exterior. Son una fuente importante de dólares para el país: cuando aumentan, ayudan a fortalecer el peso. Su valor en pesos depende de la tasa de cambio, así que un dólar más barato reduce lo que reciben las familias."
+    },
+    {
+      "termino": "4x1000",
+      "definicion": "Gravamen a los Movimientos Financieros (GMF): un impuesto que cobra $4 por cada $1.000 que se retiran o transfieren desde cuentas bancarias, con algunas exenciones. Encarece el uso del sistema financiero y por eso desestimula la bancarización; su eliminación sería positiva para los bancos y para quienes mueven dinero con frecuencia."
+    },
+    {
+      "termino": "Arancel",
+      "definicion": "Impuesto que un país cobra a los productos que importa. Un arancel alto encarece esos productos en el mercado de destino y les resta competitividad frente a los de otros países, lo que puede reducir las ventas y los ingresos de las empresas exportadoras."
+    },
+    {
+      "termino": "Bonos del Tesoro de EE. UU.",
+      "definicion": "Deuda que emite el Gobierno de Estados Unidos y que el mercado considera el activo más seguro del mundo. Su tasa, en especial la del bono a 10 años, es la referencia global: cuando sube, el dinero tiende a salir de mercados emergentes como Colombia y encarece la deuda del país y de sus empresas."
+    },
+    {
+      "termino": "Régimen de reparto",
+      "definicion": "Sistema pensional en el que los aportes de los trabajadores actuales pagan las pensiones de los jubilados de hoy; en Colombia lo administra Colpensiones. Se diferencia del régimen de ahorro individual, en el que cada persona acumula su propio ahorro en un fondo privado que se invierte en el mercado de capitales."
     }
   ]
 }

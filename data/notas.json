@@ -1,5 +1,5 @@
 {
-  "actualizado": "12 oct 2026, 8:40 a. m. (hora Bogotá)",
+  "actualizado": "12 oct 2026, 9:45 a. m. (hora Bogotá)",
   "notas": [
     {
       "id": "2026-10-12-01",
@@ -77,6 +77,106 @@
       ],
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/gobierno/salario-minimo-de-2027-proponen-aumento-de-entre-8-y-10-tras-inflacion-superior-al-6-de-septiembre-504272"
+    },
+    {
+      "id": "2026-10-12-04",
+      "fecha": "2026-10-12",
+      "categoria": "politica",
+      "titulo": "Ley de Rescate: el Gobierno prepara un ajuste fiscal de 2,2% del PIB",
+      "resumen": "El ministro de Hacienda anunció que el proyecto de Ley de Rescate se radicará en el Congreso en los próximos días. El Gobierno busca corregir el déficit primario en cerca de 2,2% del PIB en 2027, unos $42 billones, según El Tiempo.",
+      "contexto": "El texto aún no se conoce. Gremios y exfuncionarios consultados proponen recortar gasto de forma permanente, revisar subsidios mal focalizados (incluidos los de combustibles y servicios públicos), depurar exenciones de IVA sin subir la tarifa general de 19% y desmontar gradualmente el 4x1000. También se mencionan ventas de activos estatales y el desmonte de sobretasas al petróleo y la minería.",
+      "afectados": [
+        "TES",
+        "Peso colombiano",
+        "Bancos",
+        "Ecopetrol y sector minero-energético"
+      ],
+      "peso_alcista": 60,
+      "alcista": "Un ajuste creíble de más de 2% del PIB atacaría la principal vulnerabilidad del país, que es la fiscal. Si el mercado lo ve como permanente, podría bajar la prima de riesgo y las tasas de los TES, lo que valoriza los portafolios de renta fija y mejora el costo de capital de las empresas. El desmonte del 4x1000 y de sobretasas al sector minero-energético sería positivo para bancos, petroleras y mineras.",
+      "bajista": "El proyecto todavía no tiene texto y tendrá que pasar por el Congreso, donde puede diluirse. Si el ajuste se apoya en recortes de inversión pública o en impuestos nuevos, podría frenar una economía que ya muestra un consumo débil. Además, las propuestas de los gremios son solo eso: el contenido final puede ser distinto.",
+      "mirar": "La radicación del proyecto y la publicación de su articulado.",
+      "terminos": [
+        "Déficit primario",
+        "4x1000",
+        "Prima de riesgo país",
+        "TES"
+      ],
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/economia/sectores/iva-subsidios-4x1000-y-gasto-publico-todo-lo-que-deberia-incluir-la-ley-de-rescate-del-gobierno-de-la-espriella-3592375"
+    },
+    {
+      "id": "2026-10-12-05",
+      "fecha": "2026-10-12",
+      "categoria": "politica",
+      "titulo": "Colombia negocia con EE. UU. eliminar el arancel de 12,5% a parte de sus exportaciones",
+      "resumen": "Colombia negocia un Acuerdo de Comercio Recíproco con Estados Unidos para eliminar el arancel de 12,5% que pesa sobre parte de sus exportaciones, según Semana. La meta es que entre 90% y 93% de lo que Colombia exporta a ese mercado entre sin arancel.",
+      "contexto": "El arancel se impuso al final del gobierno anterior por la falta de controles a importaciones hechas con trabajo forzoso. Según AmCham Colombia, cubre 20,8% de las exportaciones a EE. UU.; café y petróleo quedaron por fuera, y los más afectados han sido flores y tilapia. El ministro de Comercio dijo que la semana pasada sería decisiva. El texto del acuerdo no se ha publicado.",
+      "afectados": [
+        "Exportadores",
+        "Floricultores",
+        "Peso colombiano",
+        "Comercio exterior"
+      ],
+      "peso_alcista": 65,
+      "alcista": "Eliminar el arancel devolvería competitividad a sectores golpeados por el arancel y por el dólar barato, como flores y acuicultura. El acuerdo no requiere aprobación del Congreso y Estados Unidos ya ha firmado diez similares, así que podría concretarse rápido. Más exportaciones también significan más entrada de dólares al país.",
+      "bajista": "No hay texto publicado y Estados Unidos podría exigir condiciones a cambio; los expertos mencionan, sin confirmación, restricciones a acuerdos con China o cambios en normas técnicas de vehículos. Mientras no se firme, los exportadores siguen pagando el arancel. Y aun sin arancel, el dólar bajo sigue reduciendo sus ingresos en pesos.",
+      "mirar": "El anuncio de cierre de la negociación y la publicación del texto del acuerdo.",
+      "terminos": [
+        "Arancel",
+        "Revaluación del peso"
+      ],
+      "fuente": "Semana",
+      "url": "https://www.semana.com/economia/macroeconomia/articulo/colombia-negocia-el-fin-de-los-aranceles-las-exigencias-que-podria-imponer-ee-uu/202600/"
+    },
+    {
+      "id": "2026-10-12-06",
+      "fecha": "2026-10-12",
+      "categoria": "internacional",
+      "titulo": "Las grandes tecnológicas emitirán más de US$1 millón de millones en deuda para la IA",
+      "resumen": "Amazon, Alphabet, Meta, Microsoft y Oracle emitirían más de US$1 millón de millones en deuda en los próximos años para financiar infraestructura de inteligencia artificial, según un análisis del Financial Times reproducido por La República.",
+      "contexto": "La oferta de bonos ha encarecido la financiación de otros emisores. La semana pasada, la tasa del bono del Tesoro de EE. UU. a 10 años llegó a su nivel más alto desde 2007, y algunos analistas lo relacionan en parte con esta competencia por capital, aunque otros creen que el efecto está exagerado. Analistas de BlackRock advierten que la demanda de capital podría mantener altos los costos de endeudamiento.",
+      "afectados": [
+        "Bonos del Tesoro de EE. UU.",
+        "Mercados emergentes",
+        "TES",
+        "Acciones tecnológicas"
+      ],
+      "peso_alcista": 35,
+      "alcista": "La inversión masiva en IA refleja confianza en el crecimiento del sector tecnológico, que impulsa buena parte de las bolsas mundiales y de los fondos internacionales en los que invierten muchos colombianos. Algunas tecnológicas ya prometieron pausar emisiones para no saturar el mercado, y parte de los analistas cree que el efecto sobre las tasas de los gobiernos es menor de lo que se dice.",
+      "bajista": "Si las tecnológicas compiten por el mismo dinero que los gobiernos, las tasas globales se mantienen altas, y eso encarece la deuda de países emergentes como Colombia y presiona las tasas de los TES. Si los flujos de caja esperados de la IA no se materializan, como advierte Apollo, los diferenciales de crédito podrían ampliarse y afectar a toda la renta fija y a las acciones del sector.",
+      "mirar": "La tasa del bono del Tesoro de EE. UU. a 10 años y los resultados trimestrales de las grandes tecnológicas.",
+      "terminos": [
+        "Bonos del Tesoro de EE. UU.",
+        "Costo de capital",
+        "Prima de riesgo país"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/gigantes-tecnologicos-preven-emitir-mas-de-us-1-billon-en-deuda-para-financiar-la-ia-4501294"
+    },
+    {
+      "id": "2026-10-12-07",
+      "fecha": "2026-10-12",
+      "categoria": "politica",
+      "titulo": "Toma fuerza una contrarreforma pensional antes de que arranque el nuevo sistema",
+      "resumen": "Congresistas y expertos plantean cambios a la reforma pensional (Ley 2381 de 2024) antes de que el nuevo sistema empiece a operar el 1 de abril de 2027, según El Tiempo. Una de las propuestas centrales es modificar el umbral de 2,3 salarios mínimos.",
+      "contexto": "La Corte Constitucional mantuvo la estructura de la reforma pero devolvió nueve artículos al Congreso. El Centro Democrático prepara un proyecto que daría más libertad de elección y limitaría subsidios a pensiones altas. Expertos de Anif y del sector proponen bajar el umbral a un salario mínimo y ajustar edades y semanas según la esperanza de vida. Según un exdirectivo de Asofondos, cerca de 85% de los cotizantes quedaría en el régimen de reparto.",
+      "afectados": [
+        "Fondos de pensiones",
+        "Colpensiones",
+        "Mercado de capitales",
+        "Finanzas públicas"
+      ],
+      "peso_alcista": 50,
+      "alcista": "Si el umbral baja, más ahorro pensional seguiría llegando a los fondos privados, que son de los mayores compradores de TES y de acciones colombianas. Eso sostendría la demanda en el mercado de capitales local. Varias propuestas también buscan reducir el costo fiscal de largo plazo del sistema, lo que ayudaría a las finanzas públicas.",
+      "bajista": "Por ahora son propuestas, sin texto radicado, y la discusión agrega incertidumbre a pocos meses del arranque del nuevo sistema. Si no prospera, la mayor parte de los aportes iría al régimen de reparto, con menos flujo hacia los fondos privados y hacia la bolsa. El tema también compite en el Congreso con la Ley de Rescate y el presupuesto.",
+      "mirar": "La radicación del proyecto de contrarreforma y el trámite de los nueve artículos devueltos por la Corte.",
+      "terminos": [
+        "Régimen de reparto",
+        "Fondos de pensiones",
+        "TES"
+      ],
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/economia/sectores/estas-son-las-claves-que-deberia-tener-una-contrarreforma-pensional-antes-de-que-opere-el-nuevo-sistema-3583733"
     },
     {
       "id": "2026-10-11-01",

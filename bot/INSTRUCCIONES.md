@@ -11,6 +11,9 @@ Una vez al día, publicado a las 7:00 a. m. hora Bogotá.
 - Portafolio, negocios: https://www.portafolio.co/rss/negocios.xml
 - Portafolio, internacional: https://www.portafolio.co/rss/internacional.xml
 - Valora Analitik: https://www.valoraanalitik.com/feed/
+- El Tiempo, economía: https://www.eltiempo.com/rss/economia.xml
+- Semana, economía: https://www.semana.com/arc/outboundfeeds/rss/category/economia/?outputType=xml
+- Bloomberg Línea: https://www.bloomberglinea.com/arc/outboundfeeds/rss/?outputType=xml
 
 X (Twitter) queda por fuera hasta que haya presupuesto para su API.
 
@@ -20,10 +23,13 @@ Solo noticias publicadas en las últimas ~24 horas sobre:
 - `macro`: macro Colombia (Banco de la República, inflación, tasa de cambio, TES, fiscal, regulación con impacto en mercado).
 - `commodities`: petróleo y commodities con impacto en Colombia.
 - `latam`: empresas latinoamericanas relevantes para el inversionista colombiano.
+- `internacional`: mercados internacionales (Reserva Federal, Wall Street, bonos de EE. UU., dólar global) cuando tengan efecto sobre Colombia.
+- `politica`: política económica y regulación (reformas, presupuesto, impuestos, pensiones, comercio exterior).
+- `sectores`: sectores reales (energía, construcción, vivienda, comercio, transporte, industria).
 
 Excluidas: biotecnología (por ahora), opinión, entretenimiento, deportes, política sin impacto de mercado, contenido promocional.
 
-Selecciona entre **3 y 5** noticias, priorizando impacto en el mercado. Si en el día no hay suficientes noticias relevantes, publica menos; nunca rellenes. Si una noticia aparece en varios medios, usa una sola nota con la fuente más completa. No repitas noticias cuya URL ya esté en `data/notas.json`.
+Selecciona entre **6 y 8** noticias, priorizando impacto en el portafolio del inversionista y buscando variedad de categorías. Revisa todas las fuentes antes de elegir. Solo si en el día (por ejemplo, un festivo) no hay suficientes noticias relevantes, publica menos; nunca rellenes con noticias sin impacto económico. Si una noticia aparece en varios medios, usa una sola nota con la fuente más completa. No repitas noticias cuya URL ya esté en `data/notas.json`.
 
 ## Formato de cada nota
 - `titulo`: titular propio, claro, máximo ~90 caracteres. No copies el titular del medio.
@@ -54,14 +60,25 @@ La página `glosario.html` muestra los "Términos del día" (los de la edición 
 
 La definición va en 2 a 4 frases, en lenguaje sencillo para un inversionista no profesional: qué es y por qué le importa a quien invierte. Aquí sí puedes usar conocimiento general (no viene de la noticia), pero solo conceptos establecidos y sin cifras que cambien con el tiempo. No modifiques las definiciones existentes salvo para corregir un error.
 
-## Dólar (`data/mercado.json`)
-En cada edición actualiza el dólar. Consulta con WebFetch `https://www.datos.gov.co/resource/32sa-8pi3.json?$order=vigenciadesde%20DESC&$limit=2` (TRM oficial) y escribe:
+## Indicadores (`data/mercado.json`)
+En cada edición actualiza los indicadores de la barra superior. Usa WebFetch:
+- **Dólar (TRM):** `https://www.datos.gov.co/resource/32sa-8pi3.json?$order=vigenciadesde%20DESC&$limit=2`. `valor` y `vigente_desde` del primer registro; `anterior` es el valor del segundo.
+- **Brent:** `https://mx.investing.com/commodities/brent-oil-historical-data`. Toma la fila más reciente de la tabla histórica (cierre, % de variación y fecha), no el precio del encabezado.
+- **MSCI COLCAP:** `https://www.larepublica.co/indicadores-economicos/movimiento-accionario/msci-colcap` (dato de la BVC): último valor, variación porcentual y fecha.
+- **Tasa del Banco de la República** e **inflación anual:** actualízalas solo cuando una noticia o fuente oficial informe un cambio (decisión de la junta del Banco de la República; dato mensual del IPC del DANE). Si no hay cambio, deja el valor anterior.
+
+Si una fuente no responde, conserva el valor anterior de ese indicador. Formato:
 
 ```json
-{ "trm": { "valor": 3194.44, "vigente_desde": "2026-10-10", "anterior": 3218.75, "fuente": "Superintendencia Financiera vía datos.gov.co" }, "actualizado": "AAAA-MM-DD" }
+{
+  "trm": { "valor": 3194.44, "vigente_desde": "2026-10-10", "anterior": 3218.75, "fuente": "Superintendencia Financiera vía datos.gov.co" },
+  "brent": { "valor": 104.72, "cambio_pct": 0.42, "fecha": "2026-10-09", "fuente": "Investing.com" },
+  "colcap": { "valor": 2531.23, "cambio_pct": 0.23, "fecha": "2026-10-09", "fuente": "BVC vía La República" },
+  "tasa_banrep": { "valor": 12.25, "fuente": "Banco de la República" },
+  "inflacion": { "valor": 6.29, "periodo": "sep 2026", "fuente": "DANE" },
+  "actualizado": "AAAA-MM-DD"
+}
 ```
-
-`valor` y `vigente_desde` salen del primer registro; `anterior` es el valor del segundo. La página lo muestra en la barra superior.
 
 ## Dónde se publica
 Se agrega al inicio del arreglo `notas` de `data/notas.json` y se actualiza `actualizado`. Esquema de cada nota:
@@ -70,7 +87,7 @@ Se agrega al inicio del arreglo `notas` de `data/notas.json` y se actualiza `act
 {
   "id": "2026-10-12-01",
   "fecha": "2026-10-12",
-  "categoria": "bvc | macro | commodities | latam",
+  "categoria": "bvc | macro | commodities | latam | internacional | politica | sectores",
   "titulo": "",
   "resumen": "",
   "contexto": "",

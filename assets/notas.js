@@ -1,7 +1,7 @@
 // Renderizado de notas ¿Y Entonces? — compartido por index.html y yentonces.html
 // Datos: data/notas.json (esquema en bot/INSTRUCCIONES.md)
 (function () {
-    const CAT = { bvc: 'BVC', macro: 'Macro Colombia', commodities: 'Commodities', latam: 'LatAm' };
+    const CAT = { bvc: 'BVC', macro: 'Macro Colombia', commodities: 'Commodities', latam: 'LatAm', internacional: 'Mercados internacionales', politica: 'Política económica', sectores: 'Sectores' };
     const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
     const slug = t => String(t).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
     const safeUrl = u => /^https?:\/\//i.test(u || '') ? u : '#';
@@ -137,33 +137,36 @@
     window.renderBarra = function () {
         const el = document.getElementById('barra-mercado');
         if (!el) return;
-        const trmEl = el.querySelector('[data-trm]'), actEl = el.querySelector('[data-actualizado]');
-        const fmt = v => '$' + v.toLocaleString('es-CO', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-        const pinta = (hoy, ant, vigISO) => {
-            if (!Number.isFinite(hoy)) return;
-            const vig = String(vigISO).slice(0, 10).split('-').reverse().join('/');
-            let cambio = '';
-            if (Number.isFinite(ant) && ant) {
-                const dif = hoy - ant, pct = dif / ant * 100;
-                const col = dif > 0 ? 'text-emerald-400' : dif < 0 ? 'text-rose-400' : 'text-stone-400';
-                const sig = dif > 0 ? '▲' : dif < 0 ? '▼' : '■';
-                cambio = ` <span class="${col}">${sig} ${Math.abs(dif).toLocaleString('es-CO', { maximumFractionDigits: 2 })} (${pct.toFixed(2).replace('.', ',')}%)</span>`;
-            }
-            trmEl.innerHTML = `<span class="text-white font-semibold">${fmt(hoy)}</span>${cambio} <span class="text-stone-500">· vigente desde ${vig}</span>`;
+        const q = k => el.querySelector(`[data-${k}]`);
+        const num = (v, d = 2) => Number(v).toLocaleString('es-CO', { minimumFractionDigits: d, maximumFractionDigits: d });
+        const fecha = iso => String(iso || '').slice(0, 10).split('-').reverse().slice(0, 2).join('/');
+        const var_ = pct => {
+            if (!Number.isFinite(pct)) return '';
+            const col = pct > 0 ? 'text-emerald-400' : pct < 0 ? 'text-rose-400' : 'text-stone-400';
+            const sig = pct > 0 ? '▲' : pct < 0 ? '▼' : '■';
+            return ` <span class="${col}">${sig} ${num(Math.abs(pct))}%</span>`;
         };
-        cargar().then(d => { if (d.actualizado) actEl.textContent = d.actualizado; }).catch(() => {});
-        // 1) Valor guardado en el sitio (siempre disponible; lo actualiza la edición diaria)
-        fetch('data/mercado.json', { cache: 'no-store' }).then(r => r.json())
-            .then(m => { if (m && m.trm) pinta(Number(m.trm.valor), Number(m.trm.anterior), m.trm.vigente_desde); })
-            .catch(() => {})
-            // 2) Si el navegador puede consultar la fuente oficial, se usa el valor más reciente
-            .finally(() => {
-                fetch('https://www.datos.gov.co/resource/32sa-8pi3.json?$order=vigenciadesde%20DESC&$limit=2')
-                    .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
-                    .then(rows => { if (rows && rows[0]) pinta(Number(rows[0].valor), rows[1] ? Number(rows[1].valor) : NaN, rows[0].vigenciadesde); })
-                    .catch(() => {})
-                    .finally(() => { if (/cargando/i.test(trmEl.textContent)) trmEl.textContent = 'no disponible'; });
-            });
+        const set = (k, html) => { const n = q(k); if (n) n.innerHTML = html; };
+        const pintaTrm = (hoy, ant, vig) => {
+            if (!Number.isFinite(hoy)) return;
+            const pct = Number.isFinite(ant) && ant ? (hoy - ant) / ant * 100 : NaN;
+            set('trm', `<span class="text-white font-semibold">$${num(hoy)}</span>${var_(pct)} <span class="text-stone-500">${fecha(vig)}</span>`);
+        };
+        cargar().then(d => { if (d.actualizado) set('actualizado', d.actualizado); }).catch(() => {});
+        fetch('data/mercado.json', { cache: 'no-store' }).then(r => r.json()).then(m => {
+            if (m.trm) pintaTrm(Number(m.trm.valor), Number(m.trm.anterior), m.trm.vigente_desde);
+            if (m.brent) set('brent', `<span class="text-white font-semibold">US$${num(m.brent.valor)}</span>${var_(Number(m.brent.cambio_pct))} <span class="text-stone-500">${fecha(m.brent.fecha)}</span>`);
+            if (m.colcap) set('colcap', `<span class="text-white font-semibold">${num(m.colcap.valor)}</span>${var_(Number(m.colcap.cambio_pct))} <span class="text-stone-500">${fecha(m.colcap.fecha)}</span>`);
+            if (m.tasa_banrep) set('banrep', `<span class="text-white font-semibold">${num(m.tasa_banrep.valor)}%</span>`);
+            if (m.inflacion) set('inflacion', `<span class="text-white font-semibold">${num(m.inflacion.valor)}%</span> <span class="text-stone-500">${m.inflacion.periodo || ''}</span>`);
+        }).catch(() => {}).finally(() => {
+            // Si el navegador alcanza la fuente oficial, la TRM se actualiza con el dato más reciente
+            fetch('https://www.datos.gov.co/resource/32sa-8pi3.json?$order=vigenciadesde%20DESC&$limit=2')
+                .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+                .then(rows => { if (rows && rows[0]) pintaTrm(Number(rows[0].valor), rows[1] ? Number(rows[1].valor) : NaN, rows[0].vigenciadesde); })
+                .catch(() => {})
+                .finally(() => el.querySelectorAll('[data-trm],[data-brent],[data-colcap],[data-banrep],[data-inflacion]').forEach(n => { if (/cargando/i.test(n.textContent)) n.textContent = 'n. d.'; }));
+        });
     };
 
     // Página de glosario: términos del día (última edición) + glosario completo
