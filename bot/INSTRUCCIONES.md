@@ -39,6 +39,10 @@ Selecciona entre **6 y 8** noticias, priorizando impacto en el portafolio del in
 - `alcista`: lectura alcista (bullish) en 3 a 5 frases: por qué podría ser positivo, para quién y por qué mecanismo.
 - `bajista`: lectura bajista (bearish) en 3 a 5 frases: por qué podría ser negativo, para quién y por qué mecanismo.
 - `peso_alcista`: ponderación de la lectura alcista, entero entre 20 y 80 en múltiplos de 5 (la bajista es 100 menos ese número). Refleja cuál de las dos lecturas tiene más sustento en la evidencia de la fuente, desde la perspectiva del mercado colombiano. Usa 50 solo cuando el balance sea realmente parejo; no lo uses por defecto.
+- `impacto`: cómo afecta la noticia al portafolio, después de ponderar las dos lecturas. Tiene dos partes:
+  - `conclusion`: 2 a 4 frases. Empieza diciendo qué lectura pesa más y por qué, y luego explica qué significa para quien invierte. Debe ser coherente con `peso_alcista` (la página calcula el "efecto neto" a partir de ese número: 70-80 positivo, 55-65 moderadamente positivo, 50 neutral, 35-45 moderadamente negativo, 20-30 negativo).
+  - `activos`: exactamente cuatro elementos, en este orden: `acciones` (acciones colombianas), `renta_fija` (TES y bonos ya en el portafolio: si las tasas suben, su precio baja), `dolar` (ahorros e inversiones en dólares o en el exterior, medidos en pesos) y `cdt` (CDT y ahorro en pesos: tasas altas los favorecen). Cada uno con `efecto` (`positivo`, `negativo`, `neutral` o `mixto`) y `detalle` (una frase con el porqué). Usa `neutral` con "Sin efecto directo." cuando la noticia no toque ese activo.
+  - Es un efecto general por tipo de activo, nunca una recomendación: no digas qué hacer con el portafolio.
 - `mirar`: el próximo dato, fecha o anuncio que confirmaría o cambiaría la lectura (1 frase).
 - `terminos`: lista de 2 a 5 términos técnicos usados en la nota que un inversionista no profesional podría no conocer (por ejemplo "TES", "Prima de riesgo país"). Cada término debe existir en `data/glosario.json` con exactamente el mismo nombre.
 
@@ -95,6 +99,15 @@ Se agrega al inicio del arreglo `notas` de `data/notas.json` y se actualiza `act
   "peso_alcista": 55,
   "alcista": "",
   "bajista": "",
+  "impacto": {
+    "conclusion": "",
+    "activos": [
+      { "activo": "acciones", "efecto": "negativo", "detalle": "" },
+      { "activo": "renta_fija", "efecto": "positivo", "detalle": "" },
+      { "activo": "dolar", "efecto": "neutral", "detalle": "Sin efecto directo." },
+      { "activo": "cdt", "efecto": "positivo", "detalle": "" }
+    ]
+  },
   "mirar": "",
   "terminos": ["TES", "Prima de riesgo país"],
   "fuente": "Portafolio",

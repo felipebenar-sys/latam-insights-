@@ -32,6 +32,45 @@
             </div>`;
     }
 
+
+    // Impacto en el portafolio: efecto neto (derivado de la ponderación) + efecto por tipo de activo
+    const ACT = { acciones: 'Acciones colombianas', renta_fija: 'Renta fija (TES y bonos)', dolar: 'Dólar e inversiones en el exterior', cdt: 'CDT y ahorro en pesos' };
+    const EF = {
+        positivo: ['▲ Positivo', 'text-emerald-400'], negativo: ['▼ Negativo', 'text-rose-400'],
+        neutral: ['■ Neutral', 'text-stone-400'], mixto: ['◆ Mixto', 'text-amber-400']
+    };
+    function neto(n) {
+        const a = Number(n.peso_alcista);
+        if (!Number.isFinite(a)) return null;
+        if (a >= 70) return ['Positivo', 'text-emerald-400'];
+        if (a >= 55) return ['Moderadamente positivo', 'text-emerald-400'];
+        if (a > 45) return ['Neutral', 'text-stone-300'];
+        if (a > 30) return ['Moderadamente negativo', 'text-rose-400'];
+        return ['Negativo', 'text-rose-400'];
+    }
+    function impacto(n) {
+        const im = n.impacto;
+        if (!im) return '';
+        const nt = neto(n);
+        const filas = (im.activos || []).map(x => {
+            const [lab, col] = EF[x.efecto] || [esc(x.efecto), 'text-stone-300'];
+            return `<div class="grid sm:grid-cols-[13rem_7rem_1fr] gap-x-4 gap-y-1 py-2.5 border-t border-stone-800 first:border-t-0">
+                <span class="text-stone-200 text-sm font-medium">${esc(ACT[x.activo] || x.activo)}</span>
+                <span class="${col} text-sm font-semibold">${lab}</span>
+                <span class="text-stone-400 text-sm">${esc(x.detalle)}</span>
+            </div>`;
+        }).join('');
+        return `
+            <div class="bg-stone-950 border border-amber-400/30 rounded-lg p-5 mb-5">
+                <div class="flex flex-wrap items-baseline justify-between gap-2 mb-2">
+                    <p class="text-amber-400 text-xs font-bold uppercase tracking-wider">Impacto en el portafolio</p>
+                    ${nt ? `<p class="text-sm"><span class="text-stone-500">Efecto neto:</span> <span class="${nt[1]} font-semibold">${nt[0]}</span></p>` : ''}
+                </div>
+                <p class="text-stone-200 text-sm leading-relaxed mb-3">${esc(im.conclusion)}</p>
+                <div>${filas}</div>
+            </div>`;
+    }
+
     function cabecera(n) {
         return `
             <div class="flex flex-wrap items-center gap-2 mb-3 text-xs">
@@ -48,6 +87,7 @@
             <h4 class="serif text-lg font-bold text-white mb-2">${esc(n.titulo)}</h4>
             <p class="text-stone-400 text-sm mb-4 flex-1">${esc(n.resumen)}</p>
             ${ponderacion(n, true)}
+            ${neto(n) ? `<p class="text-xs mb-4"><span class="text-stone-500">Impacto en el portafolio:</span> <span class="${neto(n)[1]} font-semibold">${neto(n)[0]}</span></p>` : ''}
             <a href="yentonces.html#${esc(n.id)}" class="text-amber-400 text-sm font-semibold hover:text-amber-300">Ver análisis →</a>
         </article>`;
     }
@@ -80,6 +120,7 @@
                     <p class="text-stone-200 text-sm leading-relaxed">${esc(n.bajista)}</p>
                 </div>
             </div>
+            ${impacto(n)}
             ${n.mirar ? `<p class="text-sm text-stone-300 border-t border-stone-800 pt-4"><span class="text-amber-400 font-semibold">Qué mirar después:</span> ${esc(n.mirar)}</p>` : ''}
             ${Array.isArray(n.terminos) && n.terminos.length ? `<p class="text-xs text-stone-500 mt-4">Términos en esta nota: ${n.terminos.map(t => `<a href="glosario.html#${slug(t)}" class="text-stone-300 underline underline-offset-2 hover:text-amber-400">${esc(t)}</a>`).join(' · ')}</p>` : ''}
         </article>`;

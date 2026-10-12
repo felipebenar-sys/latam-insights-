@@ -1,5 +1,5 @@
 {
-  "actualizado": "12 oct 2026, 9:15 a. m. (hora Bogotá)",
+  "actualizado": "12 oct 2026, 9:28 a. m. (hora Bogotá)",
   "notas": [
     {
       "id": "2026-10-12-01",
@@ -17,6 +17,31 @@
       "peso_alcista": 50,
       "alcista": "Para quien tiene su portafolio en pesos, un peso fuerte reduce el costo de importaciones y viajes y ayuda a bajar la inflación. Las razones que da el artículo tienen sustento: la diferencia de tasas entre el Banco de la República (12,25%) y la Reserva Federal atrae capital, el petróleo caro trae dólares y las remesas siguen altas. Ningún analista consultado ve el dólar cerca de $4.000 este año.",
       "bajista": "Para quien tiene inversiones o ahorros en dólares, la caída de 14% en el año ya redujo su valor medido en pesos, y exportadores y familias con remesas reciben menos. El artículo advierte que las finanzas públicas se deterioran y el déficit de cuenta corriente sube. BBVA Research y BTG Pactual esperan más volatilidad y una corrección gradual al alza hacia 2027, y Bancolombia ve el peso por encima de su valor de equilibrio.",
+      "impacto": {
+        "conclusion": "El balance es parejo: el efecto depende de en qué moneda esté el portafolio. Para quien tiene la mayor parte en pesos, el dólar barato ayuda a contener la inflación; para quien tiene ahorros o inversiones en dólares, la caída de 14% en el año ya redujo su valor en pesos, y los analistas no esperan una recuperación fuerte antes de fin de año.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "mixto",
+            "detalle": "Las empresas importadoras se benefician; las exportadoras, como las petroleras, reciben menos pesos por cada dólar vendido."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Un peso fuerte ayuda a bajar la inflación, pero el riesgo fiscal que menciona el artículo sigue pesando sobre las tasas."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "negativo",
+            "detalle": "Las inversiones en dólares valen menos en pesos; las proyecciones no ven el dólar por encima de $3.460 a fin de año."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo: la tasa del Banco de la República se mantendría en 12,25% según el artículo."
+          }
+        ]
+      },
       "mirar": "El debate del Presupuesto 2027 en el Congreso, que tiene plazo hasta la medianoche del 20 de octubre.",
       "terminos": [
         "TRM",
@@ -44,6 +69,31 @@
       "peso_alcista": 35,
       "alcista": "El dato es histórico y no cambia por sí solo el panorama de corto plazo. Si la inflación sigue bajando desde los niveles de 2022, el Banco de la República tendría espacio para reducir su tasa más adelante, lo que suele favorecer a las acciones y a los bonos de largo plazo. Para el ahorrador, las tasas altas de hoy también ofrecen rendimientos por encima de la inflación en instrumentos de renta fija.",
       "bajista": "Una inflación que en 10 de 16 años se salió del rango muestra que bajarla es difícil, y con 6,29% en septiembre sigue lejos de la meta de 3%. Eso hace más probable que el Banco de la República mantenga las tasas altas por más tiempo, lo que encarece el crédito y pesa sobre la valoración de las acciones. Para quien guarda dinero sin rendimiento, la inflación sigue reduciendo su poder de compra.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista: con la inflación en 6,29% y lejos de la meta de 3%, lo más probable es que las tasas sigan altas por más tiempo. Eso favorece a quien ahorra en instrumentos de renta fija nuevos, pero frena la valorización de acciones y de los bonos que ya están en el portafolio.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Tasas altas por más tiempo encarecen el crédito y reducen el valor que el mercado les asigna a las acciones."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "Menos espacio para que bajen las tasas significa menos valorización para los TES y bonos ya comprados."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo sobre el dólar."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "positivo",
+            "detalle": "Con tasas altas, los CDT y cuentas de ahorro siguen ofreciendo rendimientos por encima de la inflación."
+          }
+        ]
+      },
       "mirar": "El dato de inflación de octubre del DANE y la próxima decisión de tasas del Banco de la República.",
       "terminos": [
         "Inflación",
@@ -70,6 +120,31 @@
       "peso_alcista": 40,
       "alcista": "Un aumento del salario mínimo por encima de la inflación mejora el ingreso real de los hogares, lo que podría darle algo de aire al consumo, que viene frenándose. Eso favorecería a minoristas y empresas de consumo masivo. Además, por ahora es una propuesta de un actor privado y no una decisión: la cifra final sale de la negociación de fin de año.",
       "bajista": "Un aumento de 8% a 10% elevaría los costos de las empresas con muchos empleados, que podrían trasladarlo a precios o recortar contratación. Como muchos precios y tarifas se ajustan con el salario mínimo, también podría mantener la inflación alta y retrasar los recortes de tasa del Banco de la República. Para el portafolio, eso significa presión sobre márgenes empresariales y tasas altas por más tiempo.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista: un aumento de 8% a 10% elevaría costos para las empresas y podría mantener la inflación alta. Para el portafolio, eso se traduce en presión sobre las utilidades de empresas con mucho personal y tasas altas por más tiempo. Por ahora es solo una propuesta; la cifra se define a fin de año.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Presión sobre márgenes de empresas intensivas en mano de obra, como comercio y servicios, aunque el consumo podría recibir algo de impulso."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "Si el aumento mantiene la inflación alta, se aplazan los recortes de tasa y los bonos se valorizan menos."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo sobre el dólar."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "positivo",
+            "detalle": "Tasas altas por más tiempo sostienen los rendimientos de CDT y ahorro."
+          }
+        ]
+      },
       "mirar": "La instalación de la mesa de concertación del salario mínimo y el dato de inflación de octubre.",
       "terminos": [
         "Inflación",
@@ -94,6 +169,31 @@
       "peso_alcista": 60,
       "alcista": "Un ajuste creíble de más de 2% del PIB atacaría la principal vulnerabilidad del país, que es la fiscal. Si el mercado lo ve como permanente, podría bajar la prima de riesgo y las tasas de los TES, lo que valoriza los portafolios de renta fija y mejora el costo de capital de las empresas. El desmonte del 4x1000 y de sobretasas al sector minero-energético sería positivo para bancos, petroleras y mineras.",
       "bajista": "El proyecto todavía no tiene texto y tendrá que pasar por el Congreso, donde puede diluirse. Si el ajuste se apoya en recortes de inversión pública o en impuestos nuevos, podría frenar una economía que ya muestra un consumo débil. Además, las propuestas de los gremios son solo eso: el contenido final puede ser distinto.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura alcista: un ajuste fiscal creíble ataca la principal debilidad del país y suele traducirse en tasas más bajas y más confianza. El efecto real depende de que el proyecto se apruebe sin diluirse; hasta que se conozca el texto, es una expectativa y no un hecho.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "positivo",
+            "detalle": "Bancos y empresas minero-energéticas serían los más favorecidos si se desmontan el 4x1000 y las sobretasas."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "positivo",
+            "detalle": "Un menor déficit reduce la prima de riesgo y podría bajar las tasas de los TES, lo que valoriza los bonos ya comprados."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "negativo",
+            "detalle": "Más confianza en el país tiende a fortalecer el peso, lo que reduce el valor en pesos de las inversiones en dólares."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Efecto de mediano plazo: si las tasas bajan, los CDT nuevos rendirían menos."
+          }
+        ]
+      },
       "mirar": "La radicación del proyecto y la publicación de su articulado.",
       "terminos": [
         "Déficit primario",
@@ -120,6 +220,31 @@
       "peso_alcista": 65,
       "alcista": "Eliminar el arancel devolvería competitividad a sectores golpeados por el arancel y por el dólar barato, como flores y acuicultura. El acuerdo no requiere aprobación del Congreso y Estados Unidos ya ha firmado diez similares, así que podría concretarse rápido. Más exportaciones también significan más entrada de dólares al país.",
       "bajista": "No hay texto publicado y Estados Unidos podría exigir condiciones a cambio; los expertos mencionan, sin confirmación, restricciones a acuerdos con China o cambios en normas técnicas de vehículos. Mientras no se firme, los exportadores siguen pagando el arancel. Y aun sin arancel, el dólar bajo sigue reduciendo sus ingresos en pesos.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura alcista: eliminar el arancel devolvería competitividad a los exportadores afectados. Para un portafolio típico el efecto es limitado, porque floricultores y acuicultores casi no cotizan en bolsa; el impacto más amplio sería una mayor entrada de dólares al país.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "positivo",
+            "detalle": "Efecto limitado: favorece a exportadores, pero pocos de los sectores más afectados cotizan en la BVC."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo sobre las tasas."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "negativo",
+            "detalle": "Más exportaciones traen más dólares y pueden fortalecer el peso, lo que resta valor en pesos a las inversiones en dólares."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
       "mirar": "El anuncio de cierre de la negociación y la publicación del texto del acuerdo.",
       "terminos": [
         "Arancel",
@@ -144,6 +269,31 @@
       "peso_alcista": 35,
       "alcista": "La inversión masiva en IA refleja confianza en el crecimiento del sector tecnológico, que impulsa buena parte de las bolsas mundiales y de los fondos internacionales en los que invierten muchos colombianos. Algunas tecnológicas ya prometieron pausar emisiones para no saturar el mercado, y parte de los analistas cree que el efecto sobre las tasas de los gobiernos es menor de lo que se dice.",
       "bajista": "Si las tecnológicas compiten por el mismo dinero que los gobiernos, las tasas globales se mantienen altas, y eso encarece la deuda de países emergentes como Colombia y presiona las tasas de los TES. Si los flujos de caja esperados de la IA no se materializan, como advierte Apollo, los diferenciales de crédito podrían ampliarse y afectar a toda la renta fija y a las acciones del sector.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista para un portafolio colombiano: si las tecnológicas compiten por capital con los gobiernos, las tasas globales se mantienen altas y eso suele sacar dinero de los mercados emergentes. Quien tiene fondos internacionales de tecnología enfrenta un balance más mixto entre crecimiento y riesgo de crédito.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Tasas globales altas tienden a alejar capital de mercados emergentes como Colombia."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "La presión sobre las tasas internacionales se suele trasladar a los TES."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "Las acciones tecnológicas se benefician del auge de la IA, pero los bonos y el crédito del sector enfrentan más riesgo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
       "mirar": "La tasa del bono del Tesoro de EE. UU. a 10 años y los resultados trimestrales de las grandes tecnológicas.",
       "terminos": [
         "Bonos del Tesoro de EE. UU.",
@@ -169,6 +319,31 @@
       "peso_alcista": 50,
       "alcista": "Si el umbral baja, más ahorro pensional seguiría llegando a los fondos privados, que son de los mayores compradores de TES y de acciones colombianas. Eso sostendría la demanda en el mercado de capitales local. Varias propuestas también buscan reducir el costo fiscal de largo plazo del sistema, lo que ayudaría a las finanzas públicas.",
       "bajista": "Por ahora son propuestas, sin texto radicado, y la discusión agrega incertidumbre a pocos meses del arranque del nuevo sistema. Si no prospera, la mayor parte de los aportes iría al régimen de reparto, con menos flujo hacia los fondos privados y hacia la bolsa. El tema también compite en el Congreso con la Ley de Rescate y el presupuesto.",
+      "impacto": {
+        "conclusion": "El balance es parejo y todavía no hay proyecto radicado. El punto clave para el portafolio es el umbral: si baja, más ahorro pensional seguiría llegando a los fondos privados, que son grandes compradores de acciones y TES; si no cambia, ese flujo se reduce desde abril de 2027.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "mixto",
+            "detalle": "Depende del umbral final: más flujo hacia los fondos privados sostendría la demanda de acciones colombianas."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "mixto",
+            "detalle": "Los fondos privados son grandes compradores de TES; su peso en el sistema afecta esa demanda."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
       "mirar": "La radicación del proyecto de contrarreforma y el trámite de los nueve artículos devueltos por la Corte.",
       "terminos": [
         "Régimen de reparto",
@@ -194,6 +369,31 @@
       "peso_alcista": 55,
       "alcista": "Si la tensión se prolonga, el riesgo sobre la oferta tiende a sostener o subir el precio del crudo. Para Ecopetrol eso puede significar mejores precios de venta y más flujo de caja. Para Colombia, el petróleo sigue siendo una fuente clave de divisas y de ingresos fiscales, así que un crudo más caro puede darle soporte al peso y aliviar algo las cuentas del Gobierno.",
       "bajista": "Un crudo más caro encarece combustibles, transporte e importaciones, y puede presionar la inflación cuando el Banco de la República aún mantiene tasas altas; eso podría retrasar los recortes y pesar sobre la valoración de las acciones locales. En episodios de tensión geopolítica los inversionistas también suelen salir de activos emergentes, lo que puede golpear a la bolsa colombiana y al peso aunque el petróleo suba. Para empresas intensivas en combustible, como las aerolíneas, es un aumento directo de costos.",
+      "impacto": {
+        "conclusion": "Pesa levemente más la lectura alcista desde Colombia, por el beneficio del petróleo caro para Ecopetrol y las cuentas del país. Pero para un portafolio diversificado el efecto es mixto, porque la tensión geopolítica también aumenta la aversión al riesgo y presiona la inflación global.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "mixto",
+            "detalle": "Ecopetrol y el sector petrolero se benefician; el resto de la bolsa puede sufrir por la mayor aversión al riesgo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "Un crudo más caro presiona la inflación global y puede alejar los recortes de tasa."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "El petróleo caro trae dólares y fortalece el peso, pero la tensión puede hacer salir capital de emergentes."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
       "mirar": "Si el tránsito de petroleros por el estrecho se recupera o sigue cayendo, y cómo abre el Brent esta semana.",
       "terminos": [
         "Estrecho de Ormuz",
@@ -219,6 +419,31 @@
       "peso_alcista": 55,
       "alcista": "El regreso de los extranjeros tras dos meses de ventas sugiere que tasas cerca del 13% ya resultan atractivas. Que los fondos de pensiones prefieran TES en pesos frente a los UVR apunta a menores expectativas de inflación, en línea con la sorpresa a la baja de septiembre. Si esa demanda se sostiene, las tasas podrían ceder y valorizar los portafolios de deuda de bancos y fondos; tasas de largo plazo más bajas también mejoran la valoración de las acciones.",
       "bajista": "Que los TES rindan cerca del 13% muestra que el mercado sigue exigiendo una prima alta por el riesgo fiscal. El propio informe dice que los extranjeros esperan ver el ajuste fiscal antes de aumentar su exposición, así que su demanda puede revertirse si el ajuste se demora. Con el Banco de la República fuera del mercado en septiembre hay un comprador menos, y tasas altas mantienen caro el costo de capital y compiten con las acciones por el dinero de los inversionistas.",
+      "impacto": {
+        "conclusion": "Pesa levemente más la lectura alcista: el regreso de los extranjeros y la preferencia por TES en pesos apuntan a menores expectativas de inflación. Si la demanda se sostiene, las tasas podrían ceder, lo que valoriza los bonos y mejora las condiciones para las acciones.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "positivo",
+            "detalle": "Tasas de largo plazo más bajas mejoran la valoración de las acciones."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "positivo",
+            "detalle": "Si las tasas ceden, los TES y bonos ya comprados se valorizan."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "negativo",
+            "detalle": "La entrada de capital extranjero tiende a fortalecer el peso."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Si las tasas bajan, los CDT nuevos rendirían algo menos."
+          }
+        ]
+      },
       "mirar": "Las señales de ajuste fiscal del Gobierno y el próximo dato de inflación.",
       "terminos": [
         "TES",
@@ -246,6 +471,31 @@
       "peso_alcista": 35,
       "alcista": "Una demanda que se enfría reduce la presión sobre los precios, que es lo que necesita el Banco de la República para empezar a bajar su tasa, que subió de 9,25% en diciembre de 2025 a 12,25% en septiembre de 2026. Si el ciclo de recortes se adelanta, los bancos y las empresas endeudadas estarían entre los primeros beneficiados. Además, la desaceleración se mide contra bases muy altas, así que parte del frenazo es efecto estadístico.",
       "bajista": "El informe atribuye el frenazo a factores que no se corrigen rápido: un mercado laboral más débil, crédito caro, un peso revaluado que reduce el valor en pesos de las remesas y el fin del impulso del Mundial. El banco anticipa un periodo prolongado de comercio débil, con ventas en contracción, y el terremoto agrava el panorama en el centro-occidente. Para los minoristas son menos ventas; para los bancos, más riesgo de deterioro en la cartera de consumo.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista: el comercio se frena por factores que no se corrigen rápido. Eso golpea a minoristas y bancos, pero a la vez hace más probable que el Banco de la República baje su tasa más adelante, lo que favorecería a los bonos.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Menos ventas para minoristas y más riesgo en la cartera de consumo de los bancos."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "positivo",
+            "detalle": "Una economía más fría aumenta la probabilidad de recortes de tasa, lo que valoriza los bonos."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Por ahora las tasas siguen altas; si empiezan los recortes, los CDT nuevos rendirían menos."
+          }
+        ]
+      },
       "mirar": "El dato de comercio minorista de agosto del DANE, que ya reflejará el efecto del terremoto.",
       "terminos": [
         "Ventas minoristas",
@@ -272,6 +522,31 @@
       "peso_alcista": 45,
       "alcista": "La Ley de Ajuste Fiscal busca bajar el déficit primario a cerca de 2,5% del PIB y JP Morgan espera alrededor de 2,6%, es decir, ve el ajuste como bastante creíble. Junto con operaciones para reducir amortizaciones, eso llevaría la necesidad a la parte baja del rango. Un eventual programa con el FMI daría financiamiento a algo más de 3%, frente a cerca de 7% que rinde el bono en dólares de 2031, y el banco ve las metas del Gobierno compatibles con lo que pediría el Fondo.",
       "bajista": "JP Morgan insiste en que lo fiscal es la principal vulnerabilidad macro de Colombia. Si el ajuste no se aprueba o se diluye, la necesidad subiría hacia 11,6% del PIB y obligaría a emitir más deuda, presionando las tasas de los TES y la prima de riesgo país. Un programa con el FMI vendría con condiciones y desembolsos anuales limitados, de unos US$5.500 millones, y la caída de ingresos ligada a menores dividendos de Ecopetrol muestra lo expuesto que está el fisco al petróleo.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista: la necesidad de deuda es alta y depende de un ajuste fiscal que aún no está aprobado. Mientras eso no se resuelva, el riesgo fiscal seguirá presionando las tasas de los TES y la prima de riesgo del país.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Más riesgo fiscal suele traducirse en una prima de riesgo mayor y menor valoración de las acciones."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "Más emisión de deuda presiona al alza las tasas de los TES, lo que reduce el precio de los bonos ya comprados."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "positivo",
+            "detalle": "Si el riesgo fiscal debilita el peso, las inversiones en dólares ganan valor en pesos."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo de corto plazo."
+          }
+        ]
+      },
       "mirar": "El avance de la Ley de Ajuste Fiscal y cualquier anuncio sobre un acuerdo con el FMI.",
       "terminos": [
         "Necesidades de financiamiento",
