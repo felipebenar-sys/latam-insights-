@@ -25,10 +25,17 @@
                 <a href="yentonces.html" class="text-amber-400">¿Y Entonces?</a>
                 <a href="index.html#research" class="hover:text-amber-400 transition">Research Pro</a>
                 <a href="index.html#metodo" class="hover:text-amber-400 transition">Método</a>
+                <a href="glosario.html" class="hover:text-amber-400 transition">Glosario</a>
             </nav>
             <a href="index.html" class="border border-stone-700 hover:border-amber-400 text-stone-200 font-semibold px-4 py-2 rounded-lg text-sm transition">
                 Inicio
             </a>
+        </div>
+        <div id="barra-mercado" class="border-t border-stone-800/70 text-xs">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 py-1.5 flex flex-wrap gap-x-6 gap-y-1 text-stone-400">
+                <span>Dólar (TRM): <span data-trm>cargando…</span></span>
+                <span>Última actualización: <span data-actualizado class="text-stone-200">—</span></span>
+            </div>
         </div>
     </header>
 
@@ -77,6 +84,7 @@
     </footer>
 
     <script src="assets/notas.js"></script>
+    <script>renderBarra();</script>
     <script>renderPagina();</script>
 
 </body>

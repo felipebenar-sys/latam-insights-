@@ -3,6 +3,7 @@
 (function () {
     const CAT = { bvc: 'BVC', macro: 'Macro Colombia', commodities: 'Commodities', latam: 'LatAm' };
     const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+    const slug = t => String(t).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
     const safeUrl = u => /^https?:\/\//i.test(u || '') ? u : '#';
     const fmtFecha = f => {
         const [y, m, d] = String(f).split('-').map(Number);
@@ -80,6 +81,7 @@
                 </div>
             </div>
             ${n.mirar ? `<p class="text-sm text-stone-300 border-t border-stone-800 pt-4"><span class="text-amber-400 font-semibold">Qué mirar después:</span> ${esc(n.mirar)}</p>` : ''}
+            ${Array.isArray(n.terminos) && n.terminos.length ? `<p class="text-xs text-stone-500 mt-4">Términos en esta nota: ${n.terminos.map(t => `<a href="glosario.html#${slug(t)}" class="text-stone-300 underline underline-offset-2 hover:text-amber-400">${esc(t)}</a>`).join(' · ')}</p>` : ''}
         </article>`;
     }
 
@@ -129,5 +131,55 @@
                 if (el) { const d = el.closest('details'); if (d) d.open = true; el.scrollIntoView(); }
             }
         }).catch(() => { hoy.innerHTML = vacio('No pudimos cargar las notas en este momento.'); });
+    };
+
+    // Barra superior: dólar (TRM oficial, datos.gov.co) y última actualización
+    window.renderBarra = function () {
+        const el = document.getElementById('barra-mercado');
+        if (!el) return;
+        const trmEl = el.querySelector('[data-trm]'), actEl = el.querySelector('[data-actualizado]');
+        cargar().then(d => { if (d.actualizado) actEl.textContent = d.actualizado; }).catch(() => {});
+        fetch('https://www.datos.gov.co/resource/32sa-8pi3.json?$order=vigenciadesde%20DESC&$limit=2')
+            .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+            .then(rows => {
+                const hoy = Number(rows[0].valor), ant = rows[1] ? Number(rows[1].valor) : NaN;
+                const fmt = v => '$' + v.toLocaleString('es-CO', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+                const vig = String(rows[0].vigenciadesde).slice(0, 10).split('-').reverse().join('/');
+                let cambio = '';
+                if (Number.isFinite(ant) && ant) {
+                    const dif = hoy - ant, pct = dif / ant * 100;
+                    const col = dif > 0 ? 'text-emerald-400' : dif < 0 ? 'text-rose-400' : 'text-stone-400';
+                    const sig = dif > 0 ? '▲' : dif < 0 ? '▼' : '■';
+                    cambio = ` <span class="${col}">${sig} ${Math.abs(dif).toLocaleString('es-CO', { maximumFractionDigits: 2 })} (${pct.toFixed(2).replace('.', ',')}%)</span>`;
+                }
+                trmEl.innerHTML = `<span class="text-white font-semibold">${fmt(hoy)}</span>${cambio} <span class="text-stone-500">· vigente desde ${vig}</span>`;
+            })
+            .catch(() => { trmEl.textContent = 'no disponible'; });
+    };
+
+    // Página de glosario: términos del día (última edición) + glosario completo
+    window.renderGlosario = function () {
+        Promise.all([cargar(), fetch('data/glosario.json', { cache: 'no-store' }).then(r => r.json())]).then(([d, g]) => {
+            const terms = (g.terminos || []).slice().sort((a, b) => a.termino.localeCompare(b.termino, 'es'));
+            const mapa = Object.fromEntries(terms.map(t => [slug(t.termino), t]));
+            const ficha = (t, destacada) => `
+                <div id="${slug(t.termino)}" class="scroll-mt-24 ${destacada ? 'bg-stone-900 border border-amber-400/30' : 'bg-stone-900 border border-stone-800'} rounded-xl p-5">
+                    <p class="serif text-lg font-bold text-white mb-1">${esc(t.termino)}</p>
+                    <p class="text-stone-300 text-sm leading-relaxed">${esc(t.definicion)}</p>
+                </div>`;
+            const notas = Array.isArray(d.notas) ? d.notas : [];
+            const ult = notas.length ? notas.map(n => n.fecha).sort().reverse()[0] : null;
+            const delDia = [...new Set(notas.filter(n => n.fecha === ult).flatMap(n => n.terminos || []))]
+                .map(t => mapa[slug(t)]).filter(Boolean);
+            const dia = document.getElementById('terminos-dia');
+            if (ult) document.getElementById('terminos-dia-fecha').textContent = 'Edición del ' + fmtFecha(ult);
+            dia.innerHTML = delDia.length ? delDia.map(t => ficha(t, true)).join('') : vacio('Aún no hay términos para la edición de hoy.');
+            document.getElementById('glosario').innerHTML = terms.map(t => ficha(t, false).replace(`id="${slug(t.termino)}"`, `id="g-${slug(t.termino)}"`)).join('');
+            if (location.hash) {
+                const h = location.hash.slice(1);
+                const e = document.getElementById(h) || document.getElementById('g-' + h);
+                if (e) e.scrollIntoView();
+            }
+        }).catch(() => { document.getElementById('terminos-dia').innerHTML = vacio('No pudimos cargar el glosario en este momento.'); });
     };
 })();

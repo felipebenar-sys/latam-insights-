@@ -34,15 +34,25 @@ Selecciona entre **3 y 5** noticias, priorizando impacto en el mercado. Si en el
 - `bajista`: lectura bajista (bearish) en 3 a 5 frases: por qué podría ser negativo, para quién y por qué mecanismo.
 - `peso_alcista`: ponderación de la lectura alcista, entero entre 20 y 80 en múltiplos de 5 (la bajista es 100 menos ese número). Refleja cuál de las dos lecturas tiene más sustento en la evidencia de la fuente, desde la perspectiva del mercado colombiano. Usa 50 solo cuando el balance sea realmente parejo; no lo uses por defecto.
 - `mirar`: el próximo dato, fecha o anuncio que confirmaría o cambiaría la lectura (1 frase).
+- `terminos`: lista de 2 a 5 términos técnicos usados en la nota que un inversionista no profesional podría no conocer (por ejemplo "TES", "Prima de riesgo país"). Cada término debe existir en `data/glosario.json` con exactamente el mismo nombre.
 
 ## Reglas obligatorias
 1. **Derechos de autor:** nunca copies frases del artículo. Todo va con tus palabras, y siempre con el enlace a la fuente original.
 2. **Solo hechos de la fuente:** no inventes cifras, fechas ni citas. Si un dato no está en la fuente, no lo pongas. Ante la duda, omite.
 3. **No es recomendación:** prohibido "comprar", "vender", "mantener", precios objetivo o instrucciones de acción. Las lecturas son escenarios, no consejos.
 4. **Siempre los dos lados:** toda nota lleva lectura alcista y bajista, aunque uno de los lados sea más débil.
-5. **Tono y público:** español neutro y profesional, dirigido a inversionistas en general y a profesionales del mercado (no solo a accionistas). Claro y preciso, sin sensacionalismo, sin tutear al lector y sin coloquialismos.
+5. **Tono y público:** español neutro y profesional, dirigido a inversionistas no profesionales. La pregunta que responde cada nota es: ¿cómo afecta esto a mi portafolio? Claro y preciso, sin sensacionalismo, sin tutear al lector y sin coloquialismos; los términos técnicos se explican en el glosario.
 6. **Sin nombres propios del autor:** la firma es siempre Stag Research.
 7. **Sin menciones al proceso:** no indiques en las notas que fueron generadas automáticamente ni menciones herramientas o modelos.
+
+## Glosario (`data/glosario.json`)
+La página `glosario.html` muestra los "Términos del día" (los de la edición más reciente) y el glosario completo. Si una nota usa un término que todavía no está en `data/glosario.json`, agrégalo con este formato:
+
+```json
+{ "termino": "Nombre del término", "definicion": "" }
+```
+
+La definición va en 2 a 4 frases, en lenguaje sencillo para un inversionista no profesional: qué es y por qué le importa a quien invierte. Aquí sí puedes usar conocimiento general (no viene de la noticia), pero solo conceptos establecidos y sin cifras que cambien con el tiempo. No modifiques las definiciones existentes salvo para corregir un error.
 
 ## Dónde se publica
 Se agrega al inicio del arreglo `notas` de `data/notas.json` y se actualiza `actualizado`. Esquema de cada nota:
@@ -60,6 +70,7 @@ Se agrega al inicio del arreglo `notas` de `data/notas.json` y se actualiza `act
   "alcista": "",
   "bajista": "",
   "mirar": "",
+  "terminos": ["TES", "Prima de riesgo país"],
   "fuente": "Portafolio",
   "url": "https://..."
 }

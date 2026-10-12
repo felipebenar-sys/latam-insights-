@@ -25,10 +25,17 @@
                 <a href="yentonces.html" class="hover:text-amber-400 transition">¿Y Entonces?</a>
                 <a href="#research" class="hover:text-amber-400 transition">Research Pro</a>
                 <a href="#metodo" class="hover:text-amber-400 transition">Método</a>
+                <a href="glosario.html" class="hover:text-amber-400 transition">Glosario</a>
             </nav>
             <a href="yentonces.html" class="bg-amber-400 hover:bg-amber-300 text-stone-950 font-semibold px-4 py-2 rounded-lg text-sm transition">
                 Últimas notas
             </a>
+        </div>
+        <div id="barra-mercado" class="border-t border-stone-800/70 text-xs">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 py-1.5 flex flex-wrap gap-x-6 gap-y-1 text-stone-400">
+                <span>Dólar (TRM): <span data-trm>cargando…</span></span>
+                <span>Última actualización: <span data-actualizado class="text-stone-200">—</span></span>
+            </div>
         </div>
     </header>
 
@@ -56,11 +63,11 @@
             <div>
                 <h2 class="serif text-3xl font-bold text-white mb-4">El dato sin contexto no basta para decidir</h2>
                 <p class="text-stone-400">
-                    Los medios económicos reportan a diario resultados corporativos, decisiones del Banco de la República y movimientos del mercado. Pocas veces responden la pregunta que importa a inversionistas y profesionales del mercado: <span class="text-stone-200">¿qué cambia esto en las expectativas, la valoración y el riesgo?</span>
+                    Los medios económicos reportan a diario resultados corporativos, decisiones del Banco de la República y movimientos del mercado. Pocas veces responden la pregunta que importa a quien invierte: <span class="text-stone-200">¿cómo afecta esto a mi portafolio?</span>
                 </p>
             </div>
             <div class="bg-stone-950 border border-stone-800 rounded-xl p-6 text-sm space-y-3">
-                <p class="text-stone-500 uppercase tracking-wider text-xs font-semibold">La diferencia · Caso real, octubre de 2026</p>
+                <p class="text-stone-500 uppercase tracking-wider text-xs font-semibold">La diferencia</p>
                 <p><span class="text-stone-500">El dato:</span> <span class="text-stone-300">las ventas minoristas crecieron 5,3% anual en julio, frente a 15% en junio.</span></p>
                 <p><span class="text-amber-400 font-semibold">¿Y Entonces?:</span> <span class="text-stone-200">es el menor ritmo en casi dos años. Con la tasa del Banco de la República en 12,25%, el enfriamiento del consumo presiona a los minoristas y a la cartera de consumo de los bancos, pero también refuerza el caso de futuros recortes de tasa.</span></p>
                 <p class="text-xs text-stone-500">Fuente del dato: informe del Banco de Bogotá, reseñado por <a href="https://www.valoraanalitik.com/por-que-se-freno-el-comercio-en-colombia-en-julio-estos-factores-llevaron-las-ventas-a-su-nivel-mas-bajo-en-dos-anos/" target="_blank" rel="noopener noreferrer" class="underline underline-offset-2 hover:text-amber-400">Valora Analitik</a>.</p>
@@ -178,6 +185,7 @@
     </footer>
 
     <script src="assets/notas.js"></script>
+    <script>renderBarra();</script>
     <script>renderPortada('notas-portada', 3);</script>
 
 </body>

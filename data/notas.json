@@ -18,6 +18,11 @@
       "alcista": "Si la tensión se prolonga, el riesgo sobre la oferta tiende a sostener o subir el precio del crudo. Para Ecopetrol eso puede significar mejores precios de venta y más flujo de caja. Para Colombia, el petróleo sigue siendo una fuente clave de divisas y de ingresos fiscales, así que un crudo más caro puede darle soporte al peso y aliviar algo las cuentas del Gobierno.",
       "bajista": "Un crudo más caro encarece combustibles, transporte e importaciones, y puede presionar la inflación cuando el Banco de la República aún mantiene tasas altas; eso podría retrasar los recortes y pesar sobre la valoración de las acciones locales. En episodios de tensión geopolítica los inversionistas también suelen salir de activos emergentes, lo que puede golpear a la bolsa colombiana y al peso aunque el petróleo suba. Para empresas intensivas en combustible, como las aerolíneas, es un aumento directo de costos.",
       "mirar": "Si el tránsito de petroleros por el estrecho se recupera o sigue cayendo, y cómo abre el Brent esta semana.",
+      "terminos": [
+        "Estrecho de Ormuz",
+        "Brent",
+        "Inflación"
+      ],
       "fuente": "La República",
       "url": "https://www.larepublica.co/globoeconomia/iran-reporto-nueva-explosion-en-un-superpetrolero-en-el-estrecho-de-ormuz-4501258"
     },
@@ -38,6 +43,13 @@
       "alcista": "El regreso de los extranjeros tras dos meses de ventas sugiere que tasas cerca del 13% ya resultan atractivas. Que los fondos de pensiones prefieran TES en pesos frente a los UVR apunta a menores expectativas de inflación, en línea con la sorpresa a la baja de septiembre. Si esa demanda se sostiene, las tasas podrían ceder y valorizar los portafolios de deuda de bancos y fondos; tasas de largo plazo más bajas también mejoran la valoración de las acciones.",
       "bajista": "Que los TES rindan cerca del 13% muestra que el mercado sigue exigiendo una prima alta por el riesgo fiscal. El propio informe dice que los extranjeros esperan ver el ajuste fiscal antes de aumentar su exposición, así que su demanda puede revertirse si el ajuste se demora. Con el Banco de la República fuera del mercado en septiembre hay un comprador menos, y tasas altas mantienen caro el costo de capital y compiten con las acciones por el dinero de los inversionistas.",
       "mirar": "Las señales de ajuste fiscal del Gobierno y el próximo dato de inflación.",
+      "terminos": [
+        "TES",
+        "TES UVR",
+        "Fondos de pensiones",
+        "Toma de utilidades",
+        "Costo de capital"
+      ],
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/los-tes-en-pesos-regresaron-a-tasas-cercanas-al-13-y-abrieron-oportunidades-de-compra-para-bancos-y-extranjeros-504170"
     },
@@ -58,6 +70,12 @@
       "alcista": "Una demanda que se enfría reduce la presión sobre los precios, que es lo que necesita el Banco de la República para empezar a bajar su tasa, que subió de 9,25% en diciembre de 2025 a 12,25% en septiembre de 2026. Si el ciclo de recortes se adelanta, los bancos y las empresas endeudadas estarían entre los primeros beneficiados. Además, la desaceleración se mide contra bases muy altas, así que parte del frenazo es efecto estadístico.",
       "bajista": "El informe atribuye el frenazo a factores que no se corrigen rápido: un mercado laboral más débil, crédito caro, un peso revaluado que reduce el valor en pesos de las remesas y el fin del impulso del Mundial. El banco anticipa un periodo prolongado de comercio débil, con ventas en contracción, y el terremoto agrava el panorama en el centro-occidente. Para los minoristas son menos ventas; para los bancos, más riesgo de deterioro en la cartera de consumo.",
       "mirar": "El dato de comercio minorista de agosto del DANE, que ya reflejará el efecto del terremoto.",
+      "terminos": [
+        "Ventas minoristas",
+        "Tasa de política monetaria",
+        "Revaluación del peso",
+        "Cartera de consumo"
+      ],
       "fuente": "Valora Analitik",
       "url": "https://www.valoraanalitik.com/por-que-se-freno-el-comercio-en-colombia-en-julio-estos-factores-llevaron-las-ventas-a-su-nivel-mas-bajo-en-dos-anos/"
     },
@@ -78,6 +96,13 @@
       "alcista": "La Ley de Ajuste Fiscal busca bajar el déficit primario a cerca de 2,5% del PIB y JP Morgan espera alrededor de 2,6%, es decir, ve el ajuste como bastante creíble. Junto con operaciones para reducir amortizaciones, eso llevaría la necesidad a la parte baja del rango. Un eventual programa con el FMI daría financiamiento a algo más de 3%, frente a cerca de 7% que rinde el bono en dólares de 2031, y el banco ve las metas del Gobierno compatibles con lo que pediría el Fondo.",
       "bajista": "JP Morgan insiste en que lo fiscal es la principal vulnerabilidad macro de Colombia. Si el ajuste no se aprueba o se diluye, la necesidad subiría hacia 11,6% del PIB y obligaría a emitir más deuda, presionando las tasas de los TES y la prima de riesgo país. Un programa con el FMI vendría con condiciones y desembolsos anuales limitados, de unos US$5.500 millones, y la caída de ingresos ligada a menores dividendos de Ecopetrol muestra lo expuesto que está el fisco al petróleo.",
       "mirar": "El avance de la Ley de Ajuste Fiscal y cualquier anuncio sobre un acuerdo con el FMI.",
+      "terminos": [
+        "Necesidades de financiamiento",
+        "Déficit primario",
+        "Amortización",
+        "Prima de riesgo país",
+        "FMI"
+      ],
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/crecimiento/colombia-necesitaria-entre-us-50-000-y-us-72-000-millones-de-financiamiento-en-2027-jp-morgan-504217"
     }
