@@ -81,7 +81,7 @@ Si una fuente no responde, conserva el valor anterior de ese indicador. Formato:
 ```
 
 ## Dónde se publica
-Se agrega al inicio del arreglo `notas` de `data/notas.json` y se actualiza `actualizado`. Esquema de cada nota:
+Se agrega al inicio del arreglo `notas` de `data/notas.json` y se actualiza `actualizado`. La hora de `actualizado` debe ser la hora real de publicación: obtenla justo antes del commit con `TZ=America/Bogota date` y nunca la escribas de memoria ni la estimes. Formato: "12 oct 2026, 9:15 a. m. (hora Bogotá)". Esquema de cada nota:
 
 ```json
 {
