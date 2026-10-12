@@ -10,6 +10,27 @@
         return new Date(y, m - 1, d).toLocaleDateString('es-CO', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
     };
 
+
+    // Ponderación alcista/bajista (peso_alcista: 0-100; bajista = 100 - alcista)
+    function ponderacion(n, compacta) {
+        const a = Number(n.peso_alcista);
+        if (!Number.isFinite(a)) return '';
+        const al = Math.max(0, Math.min(100, Math.round(a))), ba = 100 - al;
+        const sesgo = al > 50 ? 'Sesgo alcista' : al < 50 ? 'Sesgo bajista' : 'Balance neutral';
+        return `
+            <div class="${compacta ? 'mb-4' : 'mb-5'}">
+                <div class="flex justify-between text-xs font-semibold mb-1.5">
+                    <span class="text-emerald-400">Alcista ${al}%</span>
+                    ${compacta ? '' : `<span class="text-stone-400 uppercase tracking-wider">Ponderación · ${sesgo}</span>`}
+                    <span class="text-rose-400">Bajista ${ba}%</span>
+                </div>
+                <div class="flex h-2 rounded-full overflow-hidden bg-stone-800" role="img" aria-label="Ponderación: alcista ${al}%, bajista ${ba}%">
+                    <div class="bg-emerald-500" style="width:${al}%"></div>
+                    <div class="bg-rose-500" style="width:${ba}%"></div>
+                </div>
+            </div>`;
+    }
+
     function cabecera(n) {
         return `
             <div class="flex flex-wrap items-center gap-2 mb-3 text-xs">
@@ -25,7 +46,8 @@
             ${cabecera(n)}
             <h4 class="serif text-lg font-bold text-white mb-2">${esc(n.titulo)}</h4>
             <p class="text-stone-400 text-sm mb-4 flex-1">${esc(n.resumen)}</p>
-            <a href="yentonces.html#${esc(n.id)}" class="text-amber-400 text-sm font-semibold hover:text-amber-300">Leer lectura alcista y bajista →</a>
+            ${ponderacion(n, true)}
+            <a href="yentonces.html#${esc(n.id)}" class="text-amber-400 text-sm font-semibold hover:text-amber-300">Ver análisis →</a>
         </article>`;
     }
 
@@ -46,6 +68,7 @@
                 <p class="text-stone-300 text-sm leading-relaxed">${esc(n.contexto)}</p>
             </div>` : ''}
             ${afectados}
+            ${ponderacion(n, false)}
             <div class="grid md:grid-cols-2 gap-5 mb-5">
                 <div class="bg-emerald-500/5 border border-emerald-500/20 rounded-lg p-4">
                     <p class="text-emerald-400 text-xs font-bold uppercase tracking-wider mb-2">Lectura alcista</p>

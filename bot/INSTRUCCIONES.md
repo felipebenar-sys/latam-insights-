@@ -32,6 +32,7 @@ Selecciona entre **3 y 5** noticias, priorizando impacto en el mercado. Si en el
 - `afectados`: lista de 2 a 5 etiquetas cortas con quién se ve afectado (emisores, sectores o variables), por ejemplo "Ecopetrol", "Bancos", "Peso colombiano", "TES".
 - `alcista`: lectura alcista (bullish) en 3 a 5 frases: por qué podría ser positivo, para quién y por qué mecanismo.
 - `bajista`: lectura bajista (bearish) en 3 a 5 frases: por qué podría ser negativo, para quién y por qué mecanismo.
+- `peso_alcista`: ponderación de la lectura alcista, entero entre 20 y 80 en múltiplos de 5 (la bajista es 100 menos ese número). Refleja cuál de las dos lecturas tiene más sustento en la evidencia de la fuente, desde la perspectiva del mercado colombiano. Usa 50 solo cuando el balance sea realmente parejo; no lo uses por defecto.
 - `mirar`: el próximo dato, fecha o anuncio que confirmaría o cambiaría la lectura (1 frase).
 
 ## Reglas obligatorias
@@ -39,8 +40,9 @@ Selecciona entre **3 y 5** noticias, priorizando impacto en el mercado. Si en el
 2. **Solo hechos de la fuente:** no inventes cifras, fechas ni citas. Si un dato no está en la fuente, no lo pongas. Ante la duda, omite.
 3. **No es recomendación:** prohibido "comprar", "vender", "mantener", precios objetivo o instrucciones de acción. Las lecturas son escenarios, no consejos.
 4. **Siempre los dos lados:** toda nota lleva lectura alcista y bajista, aunque uno de los lados sea más débil.
-5. **Tono:** español neutro, sencillo, para inversionista retail. Sin sensacionalismo.
+5. **Tono y público:** español neutro y profesional, dirigido a inversionistas en general y a profesionales del mercado (no solo a accionistas). Claro y preciso, sin sensacionalismo, sin tutear al lector y sin coloquialismos.
 6. **Sin nombres propios del autor:** la firma es siempre Stag Research.
+7. **Sin menciones al proceso:** no indiques en las notas que fueron generadas automáticamente ni menciones herramientas o modelos.
 
 ## Dónde se publica
 Se agrega al inicio del arreglo `notas` de `data/notas.json` y se actualiza `actualizado`. Esquema de cada nota:
@@ -54,6 +56,7 @@ Se agrega al inicio del arreglo `notas` de `data/notas.json` y se actualiza `act
   "resumen": "",
   "contexto": "",
   "afectados": ["", ""],
+  "peso_alcista": 55,
   "alcista": "",
   "bajista": "",
   "mirar": "",
