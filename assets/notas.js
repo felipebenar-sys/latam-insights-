@@ -71,11 +71,25 @@
             </div>`;
     }
 
+    // Puntaje de relevancia (0-10) con desglose al tocarlo
+    function relevancia(n) {
+        const p = n.puntaje;
+        if (!p || !Number.isFinite(Number(p.total))) return '';
+        const det = `Alcance ${p.alcance}/4 · Materialidad ${p.materialidad}/3 · Novedad ${p.novedad}/2 · Fuente ${p.fuente}/1`;
+        return `<details class="relative ml-auto">
+            <summary class="list-none cursor-pointer select-none text-stone-400 hover:text-amber-400 font-semibold" title="${det}">Relevancia <span class="text-white">${p.total}</span>/10</summary>
+            <div class="absolute right-0 z-20 mt-2 w-60 bg-stone-950 border border-stone-700 rounded-lg p-3 text-stone-300 font-normal leading-relaxed shadow-xl">
+                <p class="text-white font-semibold mb-1">Por qué entró esta noticia</p>
+                <p>Alcance en el portafolio: ${p.alcance}/4</p><p>Materialidad: ${p.materialidad}/3</p><p>Novedad: ${p.novedad}/2</p><p>Calidad de la fuente: ${p.fuente}/1</p>
+            </div></details>`;
+    }
+
     function cabecera(n) {
         return `
             <div class="flex flex-wrap items-center gap-2 mb-3 text-xs">
                 <span class="bg-amber-400/10 text-amber-400 border border-amber-400/20 px-2 py-0.5 rounded-full font-semibold">${esc(CAT[n.categoria] || n.categoria)}</span>
                 <a href="${esc(safeUrl(n.url))}" target="_blank" rel="noopener noreferrer" class="text-stone-400 hover:text-amber-400 underline underline-offset-2">Fuente: ${esc(n.fuente)}</a>
+                ${relevancia(n)}
             </div>`;
     }
 
@@ -301,6 +315,7 @@
     function agrupar(notas) {
         const porFecha = {};
         notas.forEach(n => (porFecha[n.fecha] ||= []).push(n));
+        Object.values(porFecha).forEach(l => l.sort((a, b) => ((b.puntaje && b.puntaje.total) || 0) - ((a.puntaje && a.puntaje.total) || 0)));
         return { porFecha, fechas: Object.keys(porFecha).sort().reverse() };
     }
 
@@ -309,7 +324,8 @@
         const cont = document.getElementById(contId), res = document.getElementById('resumen-portada');
         cargar().then(data => {
             const todas = Array.isArray(data.notas) ? data.notas : [];
-            const notas = todas.slice(0, n);
+            const { porFecha: pf, fechas: fs } = agrupar(todas);
+            const notas = (fs.length ? pf[fs[0]] : []).slice(0, n);
             cont.innerHTML = notas.length ? notas.map(tarjetaCorta).join('') : vacio('Las primeras notas ¿Y Entonces? se publicarán muy pronto.');
             if (res && todas.length) {
                 const { porFecha, fechas } = agrupar(todas);

@@ -2,9 +2,74 @@
   "actualizado": "12 oct 2026, 9:28 a. m. (hora Bogotá)",
   "notas": [
     {
+      "id": "2026-10-12-04",
+      "fecha": "2026-10-12",
+      "categoria": "politica",
+      "puntaje": {
+        "total": 8,
+        "alcance": 3,
+        "materialidad": 3,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "Ley de Rescate: el Gobierno prepara un ajuste fiscal de 2,2% del PIB",
+      "resumen": "El ministro de Hacienda anunció que el proyecto de Ley de Rescate se radicará en el Congreso en los próximos días. El Gobierno busca corregir el déficit primario en cerca de 2,2% del PIB en 2027, unos $42 billones, según El Tiempo.",
+      "contexto": "El texto aún no se conoce. Gremios y exfuncionarios consultados proponen recortar gasto de forma permanente, revisar subsidios mal focalizados (incluidos los de combustibles y servicios públicos), depurar exenciones de IVA sin subir la tarifa general de 19% y desmontar gradualmente el 4x1000. También se mencionan ventas de activos estatales y el desmonte de sobretasas al petróleo y la minería.",
+      "afectados": [
+        "TES",
+        "Peso colombiano",
+        "Bancos",
+        "Ecopetrol y sector minero-energético"
+      ],
+      "peso_alcista": 60,
+      "alcista": "Un ajuste creíble de más de 2% del PIB atacaría la principal vulnerabilidad del país, que es la fiscal. Si el mercado lo ve como permanente, podría bajar la prima de riesgo y las tasas de los TES, lo que valoriza los portafolios de renta fija y mejora el costo de capital de las empresas. El desmonte del 4x1000 y de sobretasas al sector minero-energético sería positivo para bancos, petroleras y mineras.",
+      "bajista": "El proyecto todavía no tiene texto y tendrá que pasar por el Congreso, donde puede diluirse. Si el ajuste se apoya en recortes de inversión pública o en impuestos nuevos, podría frenar una economía que ya muestra un consumo débil. Además, las propuestas de los gremios son solo eso: el contenido final puede ser distinto.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura alcista: un ajuste fiscal creíble ataca la principal debilidad del país y suele traducirse en tasas más bajas y más confianza. El efecto real depende de que el proyecto se apruebe sin diluirse; hasta que se conozca el texto, es una expectativa y no un hecho.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "positivo",
+            "detalle": "Bancos y empresas minero-energéticas serían los más favorecidos si se desmontan el 4x1000 y las sobretasas."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "positivo",
+            "detalle": "Un menor déficit reduce la prima de riesgo y podría bajar las tasas de los TES, lo que valoriza los bonos ya comprados."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "negativo",
+            "detalle": "Más confianza en el país tiende a fortalecer el peso, lo que reduce el valor en pesos de las inversiones en dólares."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Efecto de mediano plazo: si las tasas bajan, los CDT nuevos rendirían menos."
+          }
+        ]
+      },
+      "mirar": "La radicación del proyecto y la publicación de su articulado.",
+      "terminos": [
+        "Déficit primario",
+        "4x1000",
+        "Prima de riesgo país",
+        "TES"
+      ],
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/economia/sectores/iva-subsidios-4x1000-y-gasto-publico-todo-lo-que-deberia-incluir-la-ley-de-rescate-del-gobierno-de-la-espriella-3592375"
+    },
+    {
       "id": "2026-10-12-01",
       "fecha": "2026-10-12",
       "categoria": "macro",
+      "puntaje": {
+        "total": 7,
+        "alcance": 2,
+        "materialidad": 3,
+        "novedad": 1,
+        "fuente": 1
+      },
       "titulo": "El dólar cae 14% en el año y los analistas no lo ven volver a $4.000",
       "resumen": "La TRM bajó 2,69% en la última semana, hasta $3.218,75, y acumula una caída de 14,33% en lo corrido del año, según cifras de Global66 citadas por Valora Analitik. Las proyecciones de cierre de 2026 de bancos y gremios se mueven entre unos $3.150 y $3.460.",
       "contexto": "El dólar llegó a $3.349,63 el 29 de septiembre y desde entonces ha retrocedido. Entre las proyecciones de fin de año, Bank of America y Banco de Occidente están en el extremo bajo (cerca de $3.150), BBVA Research en $3.265 y BTG Pactual en el extremo alto ($3.460). Bancolombia estima que el valor de equilibrio del peso estaría cerca de $3.600, es decir, el dólar estaría hoy entre $200 y $300 por debajo de ese nivel.",
@@ -54,9 +119,73 @@
       "url": "https://www.valoraanalitik.com/dolar-en-colombia-llegaria-a-4-000-a-finales-de-2026-proyecciones-se-mueven-entre-el-alivio-de-la-apreciacion-y-la-sombra-fiscal/"
     },
     {
+      "id": "2026-10-12-06",
+      "fecha": "2026-10-12",
+      "categoria": "internacional",
+      "puntaje": {
+        "total": 7,
+        "alcance": 3,
+        "materialidad": 2,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "Las grandes tecnológicas emitirán más de US$1 millón de millones en deuda para la IA",
+      "resumen": "Amazon, Alphabet, Meta, Microsoft y Oracle emitirían más de US$1 millón de millones en deuda en los próximos años para financiar infraestructura de inteligencia artificial, según un análisis del Financial Times reproducido por La República.",
+      "contexto": "La oferta de bonos ha encarecido la financiación de otros emisores. La semana pasada, la tasa del bono del Tesoro de EE. UU. a 10 años llegó a su nivel más alto desde 2007, y algunos analistas lo relacionan en parte con esta competencia por capital, aunque otros creen que el efecto está exagerado. Analistas de BlackRock advierten que la demanda de capital podría mantener altos los costos de endeudamiento.",
+      "afectados": [
+        "Bonos del Tesoro de EE. UU.",
+        "Mercados emergentes",
+        "TES",
+        "Acciones tecnológicas"
+      ],
+      "peso_alcista": 35,
+      "alcista": "La inversión masiva en IA refleja confianza en el crecimiento del sector tecnológico, que impulsa buena parte de las bolsas mundiales y de los fondos internacionales en los que invierten muchos colombianos. Algunas tecnológicas ya prometieron pausar emisiones para no saturar el mercado, y parte de los analistas cree que el efecto sobre las tasas de los gobiernos es menor de lo que se dice.",
+      "bajista": "Si las tecnológicas compiten por el mismo dinero que los gobiernos, las tasas globales se mantienen altas, y eso encarece la deuda de países emergentes como Colombia y presiona las tasas de los TES. Si los flujos de caja esperados de la IA no se materializan, como advierte Apollo, los diferenciales de crédito podrían ampliarse y afectar a toda la renta fija y a las acciones del sector.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista para un portafolio colombiano: si las tecnológicas compiten por capital con los gobiernos, las tasas globales se mantienen altas y eso suele sacar dinero de los mercados emergentes. Quien tiene fondos internacionales de tecnología enfrenta un balance más mixto entre crecimiento y riesgo de crédito.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Tasas globales altas tienden a alejar capital de mercados emergentes como Colombia."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "La presión sobre las tasas internacionales se suele trasladar a los TES."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "Las acciones tecnológicas se benefician del auge de la IA, pero los bonos y el crédito del sector enfrentan más riesgo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La tasa del bono del Tesoro de EE. UU. a 10 años y los resultados trimestrales de las grandes tecnológicas.",
+      "terminos": [
+        "Bonos del Tesoro de EE. UU.",
+        "Costo de capital",
+        "Prima de riesgo país"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/gigantes-tecnologicos-preven-emitir-mas-de-us-1-billon-en-deuda-para-financiar-la-ia-4501294"
+    },
+    {
       "id": "2026-10-12-02",
       "fecha": "2026-10-12",
       "categoria": "macro",
+      "puntaje": {
+        "total": 6,
+        "alcance": 3,
+        "materialidad": 2,
+        "novedad": 0,
+        "fuente": 1
+      },
       "titulo": "La inflación solo ha estado dentro de la meta en seis de los últimos 16 años",
       "resumen": "Con datos del DANE, Portafolio muestra que la inflación anual cerró dentro del rango de 2% a 4% del Banco de la República solo en 2010, 2011, 2012, 2014, 2018 y 2019. En septiembre de 2026 iba en 6,29%.",
       "contexto": "La meta de 3%, con un margen de un punto hacia arriba o hacia abajo, rige desde 2010. En ocho años la inflación cerró por encima de 4%, con el pico de 13,12% en 2022, y en dos años quedó por debajo de 2%. El último año dentro del rango fue 2019, con 3,80%. Entre enero y septiembre de 2026 la inflación acumulada ya suma 5,74%.",
@@ -108,6 +237,13 @@
       "id": "2026-10-12-03",
       "fecha": "2026-10-12",
       "categoria": "macro",
+      "puntaje": {
+        "total": 6,
+        "alcance": 3,
+        "materialidad": 1,
+        "novedad": 1,
+        "fuente": 1
+      },
       "titulo": "Arranca la discusión del salario mínimo 2027: propuestas de 8% a 10%",
       "resumen": "Tras conocerse la inflación de septiembre (6,29%), la CEO de la firma Lexacty propuso un aumento del salario mínimo para 2027 de entre 8% y 10%, según Portafolio. La cifra combina una inflación estimada cercana a 7% al cierre del año y un punto de productividad.",
       "contexto": "La propuesta estima que la inflación de 2026 cerraría cerca de 7%, presionada por alimentos y tarifas de energía. El artículo recuerda que el costo de un trabajador para la empresa no es solo el salario: incluye aportes a salud y pensión, primas y cesantías. También señala que algunas empresas ya subieron precios para sostener su nómina.",
@@ -154,60 +290,16 @@
       "url": "https://www.portafolio.co/economia/gobierno/salario-minimo-de-2027-proponen-aumento-de-entre-8-y-10-tras-inflacion-superior-al-6-de-septiembre-504272"
     },
     {
-      "id": "2026-10-12-04",
-      "fecha": "2026-10-12",
-      "categoria": "politica",
-      "titulo": "Ley de Rescate: el Gobierno prepara un ajuste fiscal de 2,2% del PIB",
-      "resumen": "El ministro de Hacienda anunció que el proyecto de Ley de Rescate se radicará en el Congreso en los próximos días. El Gobierno busca corregir el déficit primario en cerca de 2,2% del PIB en 2027, unos $42 billones, según El Tiempo.",
-      "contexto": "El texto aún no se conoce. Gremios y exfuncionarios consultados proponen recortar gasto de forma permanente, revisar subsidios mal focalizados (incluidos los de combustibles y servicios públicos), depurar exenciones de IVA sin subir la tarifa general de 19% y desmontar gradualmente el 4x1000. También se mencionan ventas de activos estatales y el desmonte de sobretasas al petróleo y la minería.",
-      "afectados": [
-        "TES",
-        "Peso colombiano",
-        "Bancos",
-        "Ecopetrol y sector minero-energético"
-      ],
-      "peso_alcista": 60,
-      "alcista": "Un ajuste creíble de más de 2% del PIB atacaría la principal vulnerabilidad del país, que es la fiscal. Si el mercado lo ve como permanente, podría bajar la prima de riesgo y las tasas de los TES, lo que valoriza los portafolios de renta fija y mejora el costo de capital de las empresas. El desmonte del 4x1000 y de sobretasas al sector minero-energético sería positivo para bancos, petroleras y mineras.",
-      "bajista": "El proyecto todavía no tiene texto y tendrá que pasar por el Congreso, donde puede diluirse. Si el ajuste se apoya en recortes de inversión pública o en impuestos nuevos, podría frenar una economía que ya muestra un consumo débil. Además, las propuestas de los gremios son solo eso: el contenido final puede ser distinto.",
-      "impacto": {
-        "conclusion": "Pesa más la lectura alcista: un ajuste fiscal creíble ataca la principal debilidad del país y suele traducirse en tasas más bajas y más confianza. El efecto real depende de que el proyecto se apruebe sin diluirse; hasta que se conozca el texto, es una expectativa y no un hecho.",
-        "activos": [
-          {
-            "activo": "acciones",
-            "efecto": "positivo",
-            "detalle": "Bancos y empresas minero-energéticas serían los más favorecidos si se desmontan el 4x1000 y las sobretasas."
-          },
-          {
-            "activo": "renta_fija",
-            "efecto": "positivo",
-            "detalle": "Un menor déficit reduce la prima de riesgo y podría bajar las tasas de los TES, lo que valoriza los bonos ya comprados."
-          },
-          {
-            "activo": "dolar",
-            "efecto": "negativo",
-            "detalle": "Más confianza en el país tiende a fortalecer el peso, lo que reduce el valor en pesos de las inversiones en dólares."
-          },
-          {
-            "activo": "cdt",
-            "efecto": "neutral",
-            "detalle": "Efecto de mediano plazo: si las tasas bajan, los CDT nuevos rendirían menos."
-          }
-        ]
-      },
-      "mirar": "La radicación del proyecto y la publicación de su articulado.",
-      "terminos": [
-        "Déficit primario",
-        "4x1000",
-        "Prima de riesgo país",
-        "TES"
-      ],
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/economia/sectores/iva-subsidios-4x1000-y-gasto-publico-todo-lo-que-deberia-incluir-la-ley-de-rescate-del-gobierno-de-la-espriella-3592375"
-    },
-    {
       "id": "2026-10-12-05",
       "fecha": "2026-10-12",
       "categoria": "politica",
+      "puntaje": {
+        "total": 6,
+        "alcance": 2,
+        "materialidad": 2,
+        "novedad": 1,
+        "fuente": 1
+      },
       "titulo": "Colombia negocia con EE. UU. eliminar el arancel de 12,5% a parte de sus exportaciones",
       "resumen": "Colombia negocia un Acuerdo de Comercio Recíproco con Estados Unidos para eliminar el arancel de 12,5% que pesa sobre parte de sus exportaciones, según Semana. La meta es que entre 90% y 93% de lo que Colombia exporta a ese mercado entre sin arancel.",
       "contexto": "El arancel se impuso al final del gobierno anterior por la falta de controles a importaciones hechas con trabajo forzoso. Según AmCham Colombia, cubre 20,8% de las exportaciones a EE. UU.; café y petróleo quedaron por fuera, y los más afectados han sido flores y tilapia. El ministro de Comercio dijo que la semana pasada sería decisiva. El texto del acuerdo no se ha publicado.",
@@ -254,59 +346,16 @@
       "url": "https://www.semana.com/economia/macroeconomia/articulo/colombia-negocia-el-fin-de-los-aranceles-las-exigencias-que-podria-imponer-ee-uu/202600/"
     },
     {
-      "id": "2026-10-12-06",
-      "fecha": "2026-10-12",
-      "categoria": "internacional",
-      "titulo": "Las grandes tecnológicas emitirán más de US$1 millón de millones en deuda para la IA",
-      "resumen": "Amazon, Alphabet, Meta, Microsoft y Oracle emitirían más de US$1 millón de millones en deuda en los próximos años para financiar infraestructura de inteligencia artificial, según un análisis del Financial Times reproducido por La República.",
-      "contexto": "La oferta de bonos ha encarecido la financiación de otros emisores. La semana pasada, la tasa del bono del Tesoro de EE. UU. a 10 años llegó a su nivel más alto desde 2007, y algunos analistas lo relacionan en parte con esta competencia por capital, aunque otros creen que el efecto está exagerado. Analistas de BlackRock advierten que la demanda de capital podría mantener altos los costos de endeudamiento.",
-      "afectados": [
-        "Bonos del Tesoro de EE. UU.",
-        "Mercados emergentes",
-        "TES",
-        "Acciones tecnológicas"
-      ],
-      "peso_alcista": 35,
-      "alcista": "La inversión masiva en IA refleja confianza en el crecimiento del sector tecnológico, que impulsa buena parte de las bolsas mundiales y de los fondos internacionales en los que invierten muchos colombianos. Algunas tecnológicas ya prometieron pausar emisiones para no saturar el mercado, y parte de los analistas cree que el efecto sobre las tasas de los gobiernos es menor de lo que se dice.",
-      "bajista": "Si las tecnológicas compiten por el mismo dinero que los gobiernos, las tasas globales se mantienen altas, y eso encarece la deuda de países emergentes como Colombia y presiona las tasas de los TES. Si los flujos de caja esperados de la IA no se materializan, como advierte Apollo, los diferenciales de crédito podrían ampliarse y afectar a toda la renta fija y a las acciones del sector.",
-      "impacto": {
-        "conclusion": "Pesa más la lectura bajista para un portafolio colombiano: si las tecnológicas compiten por capital con los gobiernos, las tasas globales se mantienen altas y eso suele sacar dinero de los mercados emergentes. Quien tiene fondos internacionales de tecnología enfrenta un balance más mixto entre crecimiento y riesgo de crédito.",
-        "activos": [
-          {
-            "activo": "acciones",
-            "efecto": "negativo",
-            "detalle": "Tasas globales altas tienden a alejar capital de mercados emergentes como Colombia."
-          },
-          {
-            "activo": "renta_fija",
-            "efecto": "negativo",
-            "detalle": "La presión sobre las tasas internacionales se suele trasladar a los TES."
-          },
-          {
-            "activo": "dolar",
-            "efecto": "mixto",
-            "detalle": "Las acciones tecnológicas se benefician del auge de la IA, pero los bonos y el crédito del sector enfrentan más riesgo."
-          },
-          {
-            "activo": "cdt",
-            "efecto": "neutral",
-            "detalle": "Sin efecto directo."
-          }
-        ]
-      },
-      "mirar": "La tasa del bono del Tesoro de EE. UU. a 10 años y los resultados trimestrales de las grandes tecnológicas.",
-      "terminos": [
-        "Bonos del Tesoro de EE. UU.",
-        "Costo de capital",
-        "Prima de riesgo país"
-      ],
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/gigantes-tecnologicos-preven-emitir-mas-de-us-1-billon-en-deuda-para-financiar-la-ia-4501294"
-    },
-    {
       "id": "2026-10-12-07",
       "fecha": "2026-10-12",
       "categoria": "politica",
+      "puntaje": {
+        "total": 5,
+        "alcance": 2,
+        "materialidad": 2,
+        "novedad": 0,
+        "fuente": 1
+      },
       "titulo": "Toma fuerza una contrarreforma pensional antes de que arranque el nuevo sistema",
       "resumen": "Congresistas y expertos plantean cambios a la reforma pensional (Ley 2381 de 2024) antes de que el nuevo sistema empiece a operar el 1 de abril de 2027, según El Tiempo. Una de las propuestas centrales es modificar el umbral de 2,3 salarios mínimos.",
       "contexto": "La Corte Constitucional mantuvo la estructura de la reforma pero devolvió nueve artículos al Congreso. El Centro Democrático prepara un proyecto que daría más libertad de elección y limitaría subsidios a pensiones altas. Expertos de Anif y del sector proponen bajar el umbral a un salario mínimo y ajustar edades y semanas según la esperanza de vida. Según un exdirectivo de Asofondos, cerca de 85% de los cotizantes quedaría en el régimen de reparto.",
@@ -357,6 +406,13 @@
       "id": "2026-10-11-01",
       "fecha": "2026-10-11",
       "categoria": "commodities",
+      "puntaje": {
+        "total": 9,
+        "alcance": 3,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
       "titulo": "Tercer ataque a un petrolero en dos días en el estrecho de Ormuz",
       "resumen": "La Guardia Revolucionaria de Irán reportó el domingo una explosión, que atribuye a una mina, en un superpetrolero cargado de crudo que salía del golfo Pérsico. Irán sostiene que el estrecho está cerrado salvo por rutas que él autoriza; Estados Unidos dice que no hay bloqueo.",
       "contexto": "Irán declaró cerrado el estrecho en represalia por ataques de Estados Unidos y solo permite el paso por rutas que autorizan sus fuerzas armadas. La Guardia Revolucionaria dice que es el tercer ataque a un petrolero en dos días y advierte que tratará como hostiles a los barcos que apaguen sus sistemas de navegación. Estados Unidos afirma que mantiene el control militar de la zona, aunque su presencia se limita a la parte exterior del paso. Según una nota relacionada del mismo medio, el tránsito por el estrecho cayó a su nivel más bajo en más de dos meses.",
@@ -407,6 +463,13 @@
       "id": "2026-10-11-02",
       "fecha": "2026-10-11",
       "categoria": "macro",
+      "puntaje": {
+        "total": 9,
+        "alcance": 3,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
       "titulo": "Los extranjeros vuelven a comprar TES con tasas cerca del 13%",
       "resumen": "Según un informe del Banco de Bogotá citado por Portafolio, los TES en pesos volvieron en septiembre a tasas cercanas al 13%, el nivel más alto desde mayo. Los extranjeros compraron cerca de $800.000 millones tras dos meses de ventas, los bancos sumaron cerca de $1 billón y los fondos de pensiones fueron los mayores compradores, con unos $6,1 billones.",
       "contexto": "En septiembre el Ministerio de Hacienda redujo su portafolio de TES en cerca de $1,1 billones y el Banco de la República pausó sus compras. El informe atribuye las ventas de extranjeros de agosto sobre todo a toma de utilidades de fondos puntuales, más que a una pérdida general de confianza en Colombia. Septiembre también trajo una sorpresa a la baja en la inflación.",
@@ -456,60 +519,16 @@
       "url": "https://www.portafolio.co/economia/los-tes-en-pesos-regresaron-a-tasas-cercanas-al-13-y-abrieron-oportunidades-de-compra-para-bancos-y-extranjeros-504170"
     },
     {
-      "id": "2026-10-11-03",
-      "fecha": "2026-10-11",
-      "categoria": "macro",
-      "titulo": "El comercio minorista crece al menor ritmo en casi dos años",
-      "resumen": "Las ventas minoristas crecieron 5,3% anual en julio, frente a 15% en junio, según un informe del Banco de Bogotá reseñado por Valora Analitik. Sin incluir vehículos, el avance fue de apenas 2,3%.",
-      "contexto": "En julio de 2025 las ventas habían crecido 18,4%. De las 19 categorías que sigue el DANE, 6 aceleraron, 8 se frenaron y 5 cayeron; combustibles, vestuario y autopartes estuvieron entre las que retrocedieron. El informe suma otros factores, como el cansancio tras compras intensas de bienes durables y las expectativas sobre el ajuste fiscal. Después vino el terremoto del 10 de agosto: Fenalco reportó caídas de cerca de 45% en la facturación de comercios en zonas de Valle del Cauca y Risaralda.",
-      "afectados": [
-        "Minoristas",
-        "Bancos (cartera de consumo)",
-        "Banco de la República",
-        "Construcción"
-      ],
-      "peso_alcista": 35,
-      "alcista": "Una demanda que se enfría reduce la presión sobre los precios, que es lo que necesita el Banco de la República para empezar a bajar su tasa, que subió de 9,25% en diciembre de 2025 a 12,25% en septiembre de 2026. Si el ciclo de recortes se adelanta, los bancos y las empresas endeudadas estarían entre los primeros beneficiados. Además, la desaceleración se mide contra bases muy altas, así que parte del frenazo es efecto estadístico.",
-      "bajista": "El informe atribuye el frenazo a factores que no se corrigen rápido: un mercado laboral más débil, crédito caro, un peso revaluado que reduce el valor en pesos de las remesas y el fin del impulso del Mundial. El banco anticipa un periodo prolongado de comercio débil, con ventas en contracción, y el terremoto agrava el panorama en el centro-occidente. Para los minoristas son menos ventas; para los bancos, más riesgo de deterioro en la cartera de consumo.",
-      "impacto": {
-        "conclusion": "Pesa más la lectura bajista: el comercio se frena por factores que no se corrigen rápido. Eso golpea a minoristas y bancos, pero a la vez hace más probable que el Banco de la República baje su tasa más adelante, lo que favorecería a los bonos.",
-        "activos": [
-          {
-            "activo": "acciones",
-            "efecto": "negativo",
-            "detalle": "Menos ventas para minoristas y más riesgo en la cartera de consumo de los bancos."
-          },
-          {
-            "activo": "renta_fija",
-            "efecto": "positivo",
-            "detalle": "Una economía más fría aumenta la probabilidad de recortes de tasa, lo que valoriza los bonos."
-          },
-          {
-            "activo": "dolar",
-            "efecto": "neutral",
-            "detalle": "Sin efecto directo."
-          },
-          {
-            "activo": "cdt",
-            "efecto": "neutral",
-            "detalle": "Por ahora las tasas siguen altas; si empiezan los recortes, los CDT nuevos rendirían menos."
-          }
-        ]
-      },
-      "mirar": "El dato de comercio minorista de agosto del DANE, que ya reflejará el efecto del terremoto.",
-      "terminos": [
-        "Ventas minoristas",
-        "Tasa de política monetaria",
-        "Revaluación del peso",
-        "Cartera de consumo"
-      ],
-      "fuente": "Valora Analitik",
-      "url": "https://www.valoraanalitik.com/por-que-se-freno-el-comercio-en-colombia-en-julio-estos-factores-llevaron-las-ventas-a-su-nivel-mas-bajo-en-dos-anos/"
-    },
-    {
       "id": "2026-10-11-04",
       "fecha": "2026-10-11",
       "categoria": "macro",
+      "puntaje": {
+        "total": 9,
+        "alcance": 3,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
       "titulo": "JP Morgan: Colombia necesitaría hasta US$72.000 millones en 2027",
       "resumen": "En un informe del 8 de octubre reseñado por Portafolio, JP Morgan estima que el Gobierno necesitaría entre unos US$50.000 millones (8% del PIB) y US$72.000 millones (11,6% del PIB) de financiamiento en 2027, según qué tan efectivo sea el ajuste fiscal.",
       "contexto": "Para 2026 la necesidad de financiamiento se estima en cerca de 9,6% del PIB, muy por encima del promedio de 5,3% de 2010-2019. A julio de 2026 el déficit total iba en 3,8% del PIB y JP Morgan proyecta que cierre el año en 7,4%. Los ingresos reales cayeron 11,8% anual en julio, en parte por menores dividendos de Ecopetrol, mientras la inversión pública real cae 11,4% en lo corrido del año.",
@@ -557,6 +576,64 @@
       ],
       "fuente": "Portafolio",
       "url": "https://www.portafolio.co/economia/crecimiento/colombia-necesitaria-entre-us-50-000-y-us-72-000-millones-de-financiamiento-en-2027-jp-morgan-504217"
+    },
+    {
+      "id": "2026-10-11-03",
+      "fecha": "2026-10-11",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 7,
+        "alcance": 2,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "El comercio minorista crece al menor ritmo en casi dos años",
+      "resumen": "Las ventas minoristas crecieron 5,3% anual en julio, frente a 15% en junio, según un informe del Banco de Bogotá reseñado por Valora Analitik. Sin incluir vehículos, el avance fue de apenas 2,3%.",
+      "contexto": "En julio de 2025 las ventas habían crecido 18,4%. De las 19 categorías que sigue el DANE, 6 aceleraron, 8 se frenaron y 5 cayeron; combustibles, vestuario y autopartes estuvieron entre las que retrocedieron. El informe suma otros factores, como el cansancio tras compras intensas de bienes durables y las expectativas sobre el ajuste fiscal. Después vino el terremoto del 10 de agosto: Fenalco reportó caídas de cerca de 45% en la facturación de comercios en zonas de Valle del Cauca y Risaralda.",
+      "afectados": [
+        "Minoristas",
+        "Bancos (cartera de consumo)",
+        "Banco de la República",
+        "Construcción"
+      ],
+      "peso_alcista": 35,
+      "alcista": "Una demanda que se enfría reduce la presión sobre los precios, que es lo que necesita el Banco de la República para empezar a bajar su tasa, que subió de 9,25% en diciembre de 2025 a 12,25% en septiembre de 2026. Si el ciclo de recortes se adelanta, los bancos y las empresas endeudadas estarían entre los primeros beneficiados. Además, la desaceleración se mide contra bases muy altas, así que parte del frenazo es efecto estadístico.",
+      "bajista": "El informe atribuye el frenazo a factores que no se corrigen rápido: un mercado laboral más débil, crédito caro, un peso revaluado que reduce el valor en pesos de las remesas y el fin del impulso del Mundial. El banco anticipa un periodo prolongado de comercio débil, con ventas en contracción, y el terremoto agrava el panorama en el centro-occidente. Para los minoristas son menos ventas; para los bancos, más riesgo de deterioro en la cartera de consumo.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista: el comercio se frena por factores que no se corrigen rápido. Eso golpea a minoristas y bancos, pero a la vez hace más probable que el Banco de la República baje su tasa más adelante, lo que favorecería a los bonos.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Menos ventas para minoristas y más riesgo en la cartera de consumo de los bancos."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "positivo",
+            "detalle": "Una economía más fría aumenta la probabilidad de recortes de tasa, lo que valoriza los bonos."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Por ahora las tasas siguen altas; si empiezan los recortes, los CDT nuevos rendirían menos."
+          }
+        ]
+      },
+      "mirar": "El dato de comercio minorista de agosto del DANE, que ya reflejará el efecto del terremoto.",
+      "terminos": [
+        "Ventas minoristas",
+        "Tasa de política monetaria",
+        "Revaluación del peso",
+        "Cartera de consumo"
+      ],
+      "fuente": "Valora Analitik",
+      "url": "https://www.valoraanalitik.com/por-que-se-freno-el-comercio-en-colombia-en-julio-estos-factores-llevaron-las-ventas-a-su-nivel-mas-bajo-en-dos-anos/"
     }
   ]
 }

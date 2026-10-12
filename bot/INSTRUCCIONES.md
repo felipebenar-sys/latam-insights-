@@ -29,7 +29,16 @@ Solo noticias publicadas en las últimas ~24 horas sobre:
 
 Excluidas: biotecnología (por ahora), opinión, entretenimiento, deportes, política sin impacto de mercado, contenido promocional.
 
-Selecciona entre **6 y 8** noticias, priorizando impacto en el portafolio del inversionista y buscando variedad de categorías. Revisa todas las fuentes antes de elegir. Solo si en el día (por ejemplo, un festivo) no hay suficientes noticias relevantes, publica menos; nunca rellenes con noticias sin impacto económico. Si una noticia aparece en varios medios, usa una sola nota con la fuente más completa. No repitas noticias cuya URL ya esté en `data/notas.json`.
+## Cómo se eligen las noticias (puntaje de relevancia)
+1. Revisa **todas** las fuentes y arma la lista de candidatas que cumplan los temas de arriba. Si una noticia aparece en varios medios, es una sola candidata (usa la fuente más completa). Descarta las URL ya publicadas en `data/notas.json`.
+2. Califica cada candidata de 0 a 10 con estos criterios:
+   - **Alcance (0–4):** cuántos de los cuatro tipos de activo (acciones colombianas, renta fija, dólar/exterior, CDT y ahorro) tendrían un efecto distinto de "neutral". En la nota publicada debe coincidir con el número de activos no neutrales del bloque `impacto`.
+   - **Materialidad (0–3):** 3 = mueve directamente tasas de interés, dólar, finanzas públicas o resultados de emisores grandes de la BVC; 2 = efecto indirecto o concentrado en un sector; 1 = efecto marginal; 0 = sin efecto económico.
+   - **Novedad (0–2):** 2 = dato, decisión o hecho nuevo (cifra oficial, decisión de política, resultado, evento); 1 = anuncio, propuesta, proyección o negociación en curso; 0 = análisis, recopilación o seguimiento de algo ya conocido.
+   - **Fuente (0–1):** 1 si el artículo trae cifras verificables y cita fuentes primarias; 0 si no.
+3. **Prioridad automática:** entran siempre, aunque su puntaje sea menor, las decisiones de tasa del Banco de la República, los datos del DANE (inflación, PIB, desempleo), las medidas del Ministerio de Hacienda con efecto fiscal y la información relevante de emisores de la BVC publicada en las últimas 24 horas.
+4. Publica las de mayor puntaje hasta completar **6 a 8 notas**, con **máximo 3 por categoría**. No publiques candidatas con puntaje menor a 5 (salvo prioridad automática). Si un día (por ejemplo, un festivo) no hay suficientes candidatas con 5 o más, publica menos; nunca rellenes.
+5. Ordena las notas de la edición de mayor a menor puntaje y guarda el puntaje en cada nota (campo `puntaje`).
 
 ## Formato de cada nota
 - `titulo`: titular propio, claro, máximo ~90 caracteres. No copies el titular del medio.
@@ -92,6 +101,7 @@ Se agrega al inicio del arreglo `notas` de `data/notas.json` y se actualiza `act
   "id": "2026-10-12-01",
   "fecha": "2026-10-12",
   "categoria": "bvc | macro | commodities | latam | internacional | politica | sectores",
+  "puntaje": { "total": 8, "alcance": 3, "materialidad": 3, "novedad": 1, "fuente": 1 },
   "titulo": "",
   "resumen": "",
   "contexto": "",
