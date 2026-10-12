@@ -16,48 +16,77 @@
 <body class="bg-stone-950 text-stone-100 antialiased">
 
     <!-- HEADER -->
-    <header class="border-b border-stone-800 bg-stone-900/60 sticky top-0 z-50 backdrop-blur">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
-            <a href="#" class="text-xl font-extrabold tracking-tight">
+    <header class="border-b border-stone-800 bg-stone-900/80 sticky top-0 z-50 backdrop-blur">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-3">
+            <a href="index.html" class="text-xl font-extrabold tracking-tight shrink-0">
                 <span class="text-amber-400">Stag</span><span class="text-white"> Research</span>
             </a>
             <nav class="hidden md:flex space-x-8 text-sm font-medium text-stone-300">
                 <a href="yentonces.html" class="hover:text-amber-400 transition">¿Y Entonces?</a>
-                <a href="#research" class="hover:text-amber-400 transition">Research Pro</a>
-                <a href="#metodo" class="hover:text-amber-400 transition">Método</a>
+                <a href="index.html#research" class="hover:text-amber-400 transition">Research Pro</a>
+                <a href="index.html#metodo" class="hover:text-amber-400 transition">Método</a>
                 <a href="glosario.html" class="hover:text-amber-400 transition">Glosario</a>
             </nav>
-            <a href="yentonces.html" class="bg-amber-400 hover:bg-amber-300 text-stone-950 font-semibold px-4 py-2 rounded-lg text-sm transition">
-                Últimas notas
-            </a>
+            <div class="flex items-center gap-2">
+                <a href="yentonces.html" class="bg-amber-400 hover:bg-amber-300 text-stone-950 font-semibold px-4 py-2 rounded-lg text-sm transition">Edición de hoy</a>
+                <button id="menu-btn" type="button" class="md:hidden p-2 rounded-lg border border-stone-700 text-stone-200" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu-movil">
+                    <svg viewBox="0 0 24 24" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></svg>
+                </button>
+            </div>
         </div>
+        <nav id="menu-movil" class="hidden md:hidden border-t border-stone-800 px-2 py-2 text-sm font-medium">
+            <a href="yentonces.html" class="block px-4 py-3 rounded-lg text-stone-200 hover:bg-stone-800/60">¿Y Entonces?</a>
+            <a href="index.html#research" class="block px-4 py-3 rounded-lg text-stone-200 hover:bg-stone-800/60">Research Pro</a>
+            <a href="index.html#metodo" class="block px-4 py-3 rounded-lg text-stone-200 hover:bg-stone-800/60">Método</a>
+            <a href="glosario.html" class="block px-4 py-3 rounded-lg text-stone-200 hover:bg-stone-800/60">Glosario</a>
+        </nav>
         <div id="barra-mercado" class="border-t border-stone-800/70 text-xs">
-            <div class="max-w-6xl mx-auto px-4 sm:px-6 py-1.5 flex flex-wrap gap-x-5 gap-y-1 text-stone-400">
-                <span>Dólar (TRM) <span data-trm>cargando…</span></span>
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 py-1.5 flex flex-nowrap gap-x-4 overflow-x-auto whitespace-nowrap text-stone-400 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+                <span>TRM <span data-trm>cargando…</span></span>
                 <span>Brent <span data-brent>cargando…</span></span>
-                <span>MSCI COLCAP <span data-colcap>cargando…</span></span>
-                <span>Tasa BanRep <span data-banrep>cargando…</span></span>
+                <span>COLCAP <span data-colcap>cargando…</span></span>
+                <span>BanRep <span data-banrep>cargando…</span></span>
                 <span>Inflación <span data-inflacion>cargando…</span></span>
-                <span class="sm:ml-auto">Actualizado: <span data-actualizado class="text-stone-200">—</span></span>
+                <span class="ml-auto pl-2">Act. <span data-actualizado class="text-stone-200">—</span></span>
             </div>
         </div>
     </header>
 
-    <!-- HERO -->
-    <section class="py-20 lg:py-28 px-4 sm:px-6 max-w-6xl mx-auto text-center">
-        <span class="inline-block bg-amber-400/10 text-amber-400 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider mb-6 border border-amber-400/20">
+    <!-- HERO (compacto) -->
+    <section class="pt-10 pb-8 sm:pt-14 sm:pb-10 px-4 sm:px-6 max-w-6xl mx-auto">
+        <span class="inline-block bg-amber-400/10 text-amber-400 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider mb-4 border border-amber-400/20">
             Análisis independiente · Colombia y América Latina
         </span>
-        <h1 class="serif text-4xl sm:text-6xl font-bold tracking-tight text-white mb-6 max-w-4xl mx-auto leading-tight">
-            Las noticias informan qué pasó.<br>
-            <span class="text-amber-400">¿Y Entonces? explica qué significa.</span>
+        <h1 class="serif text-3xl sm:text-5xl font-bold tracking-tight text-white mb-3 max-w-3xl leading-tight">
+            Las noticias informan qué pasó. <span class="text-amber-400">¿Y Entonces? explica qué significa.</span>
         </h1>
-        <p class="text-lg sm:text-xl text-stone-400 mb-10 max-w-2xl mx-auto">
-            Análisis diario de las noticias que mueven a la BVC y a los emisores latinoamericanos: contexto, lecturas alcista y bajista ponderadas y próximos catalizadores.
+        <p class="text-base sm:text-lg text-stone-400 max-w-2xl">
+            Cada mañana, las noticias que mueven a la BVC y a los emisores latinoamericanos, con su impacto en cada tipo de activo del portafolio.
         </p>
-        <div class="flex flex-col sm:flex-row gap-3 justify-center">
-            <a href="#y-entonces" class="bg-amber-400 hover:bg-amber-300 text-stone-950 font-semibold px-6 py-3 rounded-lg transition">Ver ¿Y Entonces?</a>
-            <a href="#research" class="border border-stone-700 hover:border-amber-400 text-stone-200 font-semibold px-6 py-3 rounded-lg transition">Conocer Research Pro</a>
+    </section>
+
+    <!-- RESUMEN DEL DÍA -->
+    <section id="y-entonces" class="pb-12 px-4 sm:px-6 max-w-6xl mx-auto scroll-mt-28">
+        <div class="bg-stone-900 border border-stone-800 rounded-xl p-5 sm:p-6">
+            <div class="flex flex-wrap items-baseline justify-between gap-2 mb-4">
+                <div>
+                    <p class="text-amber-400 text-xs font-bold uppercase tracking-wider">Resumen del día</p>
+                    <h2 class="text-white font-semibold text-lg sm:text-xl" id="resumen-portada-fecha">Edición de hoy</h2>
+                </div>
+                <a href="yentonces.html" class="text-amber-400 text-sm font-semibold hover:text-amber-300">Ver la edición completa →</a>
+            </div>
+            <div id="resumen-portada"><p class="text-stone-500 text-sm">Cargando…</p></div>
+        </div>
+    </section>
+
+    <!-- ÚLTIMAS NOTAS -->
+    <section class="pb-16 px-4 sm:px-6 max-w-6xl mx-auto">
+        <div class="flex items-baseline justify-between mb-6">
+            <h2 class="text-white font-semibold text-lg">Últimas notas</h2>
+            <a href="yentonces.html" class="text-amber-400 text-sm font-semibold hover:text-amber-300">Ver todas →</a>
+        </div>
+        <div id="notas-portada" class="grid md:grid-cols-3 gap-6">
+            <div class="md:col-span-3 border border-dashed border-stone-700 rounded-xl p-10 text-center"><p class="text-stone-500 text-sm">Cargando notas…</p></div>
         </div>
     </section>
 
@@ -79,15 +108,12 @@
         </div>
     </section>
 
-    <!-- ¿Y ENTONCES? -->
-    <section id="y-entonces" class="py-20 px-4 sm:px-6 max-w-6xl mx-auto">
-        <div class="mb-10">
-            <span class="text-amber-400 text-xs font-semibold uppercase tracking-wider">Análisis diario</span>
-            <h2 class="serif text-3xl sm:text-4xl font-bold text-white mt-2 mb-3">¿Y Entonces?</h2>
-            <p class="text-stone-400 max-w-2xl">Las noticias que mueven al mercado colombiano y regional, analizadas con una estructura constante: el hecho, sus implicaciones y lo que conviene seguir.</p>
-        </div>
-
-        <div class="grid md:grid-cols-3 gap-6 mb-12">
+    <!-- CÓMO SE LEE UNA NOTA -->
+    <section class="py-16 px-4 sm:px-6 max-w-6xl mx-auto">
+        <span class="text-amber-400 text-xs font-semibold uppercase tracking-wider">Análisis diario</span>
+        <h2 class="serif text-3xl font-bold text-white mt-2 mb-3">Cómo se lee ¿Y Entonces?</h2>
+        <p class="text-stone-400 max-w-2xl mb-8">Cada nota sigue la misma estructura: el hecho, sus implicaciones y lo que conviene seguir.</p>
+        <div class="grid md:grid-cols-3 gap-6">
             <div class="bg-stone-900 border border-stone-800 rounded-xl p-6">
                 <p class="text-amber-400 font-bold text-sm mb-2">1 · Qué pasó</p>
                 <p class="text-stone-400 text-sm">El hecho, en síntesis, con enlace a la fuente original.</p>
@@ -102,17 +128,6 @@
             </div>
         </div>
 
-        <!-- Últimas notas (versión corta). La edición completa vive en yentonces.html -->
-        <div class="flex items-baseline justify-between mb-6">
-            <h3 class="text-white font-semibold text-lg">Últimas notas</h3>
-            <a href="yentonces.html" class="text-amber-400 text-sm font-semibold hover:text-amber-300">Ver todas →</a>
-        </div>
-        <div id="notas-portada" class="grid md:grid-cols-3 gap-6">
-            <div class="md:col-span-3 border border-dashed border-stone-700 rounded-xl p-10 text-center"><p class="text-stone-500 text-sm">Cargando notas…</p></div>
-        </div>
-        <div class="text-center mt-10">
-            <a href="yentonces.html" class="inline-block bg-amber-400 hover:bg-amber-300 text-stone-950 font-semibold px-6 py-3 rounded-lg transition">Ver análisis completo</a>
-        </div>
     </section>
 
     <!-- RESEARCH PRO -->
@@ -188,7 +203,8 @@
         </div>
     </footer>
 
-    <script src="assets/notas.js?v=20261012c"></script>
+    <script src="assets/notas.js?v=20261012e"></script>
+    <script>initMenu();</script>
     <script>renderBarra();</script>
     <script>renderPortada('notas-portada', 3);</script>
 

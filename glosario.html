@@ -16,9 +16,9 @@
 <body class="bg-stone-950 text-stone-100 antialiased">
 
     <!-- HEADER -->
-    <header class="border-b border-stone-800 bg-stone-900/60 sticky top-0 z-50 backdrop-blur">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
-            <a href="index.html" class="text-xl font-extrabold tracking-tight">
+    <header class="border-b border-stone-800 bg-stone-900/80 sticky top-0 z-50 backdrop-blur">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-3">
+            <a href="index.html" class="text-xl font-extrabold tracking-tight shrink-0">
                 <span class="text-amber-400">Stag</span><span class="text-white"> Research</span>
             </a>
             <nav class="hidden md:flex space-x-8 text-sm font-medium text-stone-300">
@@ -27,18 +27,27 @@
                 <a href="index.html#metodo" class="hover:text-amber-400 transition">Método</a>
                 <a href="glosario.html" class="text-amber-400">Glosario</a>
             </nav>
-            <a href="index.html" class="border border-stone-700 hover:border-amber-400 text-stone-200 font-semibold px-4 py-2 rounded-lg text-sm transition">
-                Inicio
-            </a>
+            <div class="flex items-center gap-2">
+                <a href="yentonces.html" class="bg-amber-400 hover:bg-amber-300 text-stone-950 font-semibold px-4 py-2 rounded-lg text-sm transition">Edición de hoy</a>
+                <button id="menu-btn" type="button" class="md:hidden p-2 rounded-lg border border-stone-700 text-stone-200" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu-movil">
+                    <svg viewBox="0 0 24 24" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></svg>
+                </button>
+            </div>
         </div>
+        <nav id="menu-movil" class="hidden md:hidden border-t border-stone-800 px-2 py-2 text-sm font-medium">
+            <a href="yentonces.html" class="block px-4 py-3 rounded-lg text-stone-200 hover:bg-stone-800/60">¿Y Entonces?</a>
+            <a href="index.html#research" class="block px-4 py-3 rounded-lg text-stone-200 hover:bg-stone-800/60">Research Pro</a>
+            <a href="index.html#metodo" class="block px-4 py-3 rounded-lg text-stone-200 hover:bg-stone-800/60">Método</a>
+            <a href="glosario.html" class="block px-4 py-3 rounded-lg text-amber-400 bg-stone-800/60">Glosario</a>
+        </nav>
         <div id="barra-mercado" class="border-t border-stone-800/70 text-xs">
-            <div class="max-w-6xl mx-auto px-4 sm:px-6 py-1.5 flex flex-wrap gap-x-5 gap-y-1 text-stone-400">
-                <span>Dólar (TRM) <span data-trm>cargando…</span></span>
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 py-1.5 flex flex-nowrap gap-x-4 overflow-x-auto whitespace-nowrap text-stone-400 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+                <span>TRM <span data-trm>cargando…</span></span>
                 <span>Brent <span data-brent>cargando…</span></span>
-                <span>MSCI COLCAP <span data-colcap>cargando…</span></span>
-                <span>Tasa BanRep <span data-banrep>cargando…</span></span>
+                <span>COLCAP <span data-colcap>cargando…</span></span>
+                <span>BanRep <span data-banrep>cargando…</span></span>
                 <span>Inflación <span data-inflacion>cargando…</span></span>
-                <span class="sm:ml-auto">Actualizado: <span data-actualizado class="text-stone-200">—</span></span>
+                <span class="ml-auto pl-2">Act. <span data-actualizado class="text-stone-200">—</span></span>
             </div>
         </div>
     </header>
@@ -79,7 +88,8 @@
         </div>
     </footer>
 
-    <script src="assets/notas.js?v=20261012c"></script>
+    <script src="assets/notas.js?v=20261012e"></script>
+    <script>initMenu();</script>
     <script>renderBarra();</script>
     <script>renderGlosario();</script>
 

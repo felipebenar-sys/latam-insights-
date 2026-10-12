@@ -16,9 +16,9 @@
 <body class="bg-stone-950 text-stone-100 antialiased">
 
     <!-- HEADER -->
-    <header class="border-b border-stone-800 bg-stone-900/60 sticky top-0 z-50 backdrop-blur">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
-            <a href="index.html" class="text-xl font-extrabold tracking-tight">
+    <header class="border-b border-stone-800 bg-stone-900/80 sticky top-0 z-50 backdrop-blur">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-3">
+            <a href="index.html" class="text-xl font-extrabold tracking-tight shrink-0">
                 <span class="text-amber-400">Stag</span><span class="text-white"> Research</span>
             </a>
             <nav class="hidden md:flex space-x-8 text-sm font-medium text-stone-300">
@@ -27,46 +27,59 @@
                 <a href="index.html#metodo" class="hover:text-amber-400 transition">Método</a>
                 <a href="glosario.html" class="hover:text-amber-400 transition">Glosario</a>
             </nav>
-            <a href="index.html" class="border border-stone-700 hover:border-amber-400 text-stone-200 font-semibold px-4 py-2 rounded-lg text-sm transition">
-                Inicio
-            </a>
+            <div class="flex items-center gap-2">
+                <a href="index.html" class="border border-stone-700 hover:border-amber-400 text-stone-200 font-semibold px-4 py-2 rounded-lg text-sm transition">Inicio</a>
+                <button id="menu-btn" type="button" class="md:hidden p-2 rounded-lg border border-stone-700 text-stone-200" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu-movil">
+                    <svg viewBox="0 0 24 24" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></svg>
+                </button>
+            </div>
         </div>
+        <nav id="menu-movil" class="hidden md:hidden border-t border-stone-800 px-2 py-2 text-sm font-medium">
+            <a href="yentonces.html" class="block px-4 py-3 rounded-lg text-amber-400 bg-stone-800/60">¿Y Entonces?</a>
+            <a href="index.html#research" class="block px-4 py-3 rounded-lg text-stone-200 hover:bg-stone-800/60">Research Pro</a>
+            <a href="index.html#metodo" class="block px-4 py-3 rounded-lg text-stone-200 hover:bg-stone-800/60">Método</a>
+            <a href="glosario.html" class="block px-4 py-3 rounded-lg text-stone-200 hover:bg-stone-800/60">Glosario</a>
+        </nav>
         <div id="barra-mercado" class="border-t border-stone-800/70 text-xs">
-            <div class="max-w-6xl mx-auto px-4 sm:px-6 py-1.5 flex flex-wrap gap-x-5 gap-y-1 text-stone-400">
-                <span>Dólar (TRM) <span data-trm>cargando…</span></span>
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 py-1.5 flex flex-nowrap gap-x-4 overflow-x-auto whitespace-nowrap text-stone-400 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+                <span>TRM <span data-trm>cargando…</span></span>
                 <span>Brent <span data-brent>cargando…</span></span>
-                <span>MSCI COLCAP <span data-colcap>cargando…</span></span>
-                <span>Tasa BanRep <span data-banrep>cargando…</span></span>
+                <span>COLCAP <span data-colcap>cargando…</span></span>
+                <span>BanRep <span data-banrep>cargando…</span></span>
                 <span>Inflación <span data-inflacion>cargando…</span></span>
-                <span class="sm:ml-auto">Actualizado: <span data-actualizado class="text-stone-200">—</span></span>
+                <span class="ml-auto pl-2">Act. <span data-actualizado class="text-stone-200">—</span></span>
             </div>
         </div>
     </header>
 
     <!-- ENCABEZADO -->
-    <section class="pt-16 pb-10 px-4 sm:px-6 max-w-4xl mx-auto">
+    <section class="pt-10 sm:pt-14 pb-6 px-4 sm:px-6 max-w-4xl mx-auto">
         <span class="text-amber-400 text-xs font-semibold uppercase tracking-wider">Análisis diario</span>
-        <h1 class="serif text-4xl sm:text-5xl font-bold text-white mt-2 mb-4">¿Y Entonces?</h1>
-        <p class="text-lg text-stone-400 mb-6">Cada mañana, las noticias que mueven al mercado colombiano y regional: contexto, a quién afectan y las lecturas alcista y bajista, con su ponderación.</p>
-        <div class="flex flex-wrap gap-2 text-xs">
-            <span class="bg-stone-900 border border-stone-800 text-stone-300 px-3 py-1 rounded-full">Qué pasó</span>
-            <span class="bg-stone-900 border border-stone-800 text-stone-300 px-3 py-1 rounded-full">Contexto</span>
-            <span class="bg-stone-900 border border-stone-800 text-stone-300 px-3 py-1 rounded-full">A quién afecta</span>
-            <span class="bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 px-3 py-1 rounded-full">Lectura alcista</span>
-            <span class="bg-rose-500/10 border border-rose-500/20 text-rose-400 px-3 py-1 rounded-full">Lectura bajista</span>
-            <span class="bg-stone-900 border border-stone-800 text-stone-300 px-3 py-1 rounded-full">Ponderación</span>
-            <span class="bg-amber-400/10 border border-amber-400/30 text-amber-400 px-3 py-1 rounded-full">Impacto en el portafolio</span>
-            <span class="bg-stone-900 border border-stone-800 text-stone-300 px-3 py-1 rounded-full">Qué mirar después</span>
+        <h1 class="serif text-4xl sm:text-5xl font-bold text-white mt-2 mb-3">¿Y Entonces?</h1>
+        <p class="text-base sm:text-lg text-stone-400">Las noticias que mueven al mercado colombiano y regional, con su impacto en cada tipo de activo del portafolio.</p>
+    </section>
+
+    <!-- RESUMEN DEL DÍA -->
+    <section class="pb-10 px-4 sm:px-6 max-w-4xl mx-auto">
+        <div class="bg-stone-900 border border-stone-800 rounded-xl p-5 sm:p-6">
+            <div class="flex flex-wrap items-baseline justify-between gap-2 mb-4">
+                <div>
+                    <p class="text-amber-400 text-xs font-bold uppercase tracking-wider">Resumen del día</p>
+                    <h2 class="text-white font-semibold text-lg sm:text-xl" id="notas-hoy-titulo">Edición de hoy</h2>
+                </div>
+                <span class="text-stone-500 text-xs" id="notas-actualizado"></span>
+            </div>
+            <div id="resumen-dia"><p class="text-stone-500 text-sm">Cargando…</p></div>
         </div>
     </section>
 
     <!-- EDICIÓN -->
     <section class="pb-20 px-4 sm:px-6 max-w-4xl mx-auto">
-        <div class="flex flex-wrap items-baseline justify-between gap-2 mb-8 border-t border-stone-800 pt-8">
-            <h2 class="text-white font-semibold text-xl" id="notas-hoy-titulo">Edición de hoy</h2>
-            <span class="text-stone-500 text-xs" id="notas-actualizado"></span>
+        <div class="border-t border-stone-800 pt-8 mb-6">
+            <h2 class="text-white font-semibold text-xl mb-4">Las notas</h2>
+            <div id="filtros"></div>
         </div>
-        <div id="notas-hoy" class="space-y-8">
+        <div id="notas-hoy" class="space-y-6">
             <div class="border border-dashed border-stone-700 rounded-xl p-10 text-center"><p class="text-stone-500 text-sm">Cargando notas…</p></div>
         </div>
 
@@ -88,7 +101,8 @@
         </div>
     </footer>
 
-    <script src="assets/notas.js?v=20261012c"></script>
+    <script src="assets/notas.js?v=20261012e"></script>
+    <script>initMenu();</script>
     <script>renderBarra();</script>
     <script>renderPagina();</script>
 

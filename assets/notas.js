@@ -92,38 +92,204 @@
         </article>`;
     }
 
-    // Nota completa (página ¿Y Entonces?)
+    // Botón de compartir por WhatsApp
+    function compartir(n) {
+        const url = location.origin + location.pathname.replace(/[^/]*$/, '') + 'yentonces.html#' + n.id;
+        const txt = `${n.titulo} | ¿Y Entonces? de Stag Research\n${url}`;
+        return `<a href="https://wa.me/?text=${encodeURIComponent(txt)}" target="_blank" rel="noopener noreferrer"
+                   class="inline-flex items-center gap-1.5 text-xs font-semibold text-stone-300 hover:text-emerald-400 border border-stone-700 hover:border-emerald-500/50 rounded-md px-2.5 py-1.5 transition">
+                   <svg viewBox="0 0 24 24" class="w-3.5 h-3.5 fill-current" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.8-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg>
+                   Compartir</a>`;
+    }
+
+    // Nota completa (página ¿Y Entonces?): lo esencial visible, el análisis completo plegable
     function notaCompleta(n) {
         const afectados = Array.isArray(n.afectados) && n.afectados.length
             ? `<div class="mb-5">
                    <p class="text-stone-500 text-xs font-bold uppercase tracking-wider mb-2">A quién afecta</p>
                    <div class="flex flex-wrap gap-2">${n.afectados.map(a => `<span class="bg-stone-800 text-stone-200 text-xs px-2.5 py-1 rounded-md">${esc(a)}</span>`).join('')}</div>
                </div>` : '';
+        const terminos = Array.isArray(n.terminos) && n.terminos.length
+            ? `<p class="text-xs text-stone-500 mt-4">Términos en esta nota: ${n.terminos.map(t => `<button type="button" data-termino="${esc(t)}" class="text-stone-300 underline decoration-dotted underline-offset-2 hover:text-amber-400">${esc(t)}</button>`).join(' · ')}</p>` : '';
         return `
-        <article id="${esc(n.id)}" class="bg-stone-900 border border-stone-800 rounded-xl p-6 sm:p-8 scroll-mt-24">
+        <article id="${esc(n.id)}" data-nota data-categoria="${esc(n.categoria)}" data-afecta="${esc((n.impacto && n.impacto.activos || []).filter(x => x.efecto !== 'neutral').map(x => x.activo).join(' '))}"
+                 class="bg-stone-900 border border-stone-800 rounded-xl p-5 sm:p-8 scroll-mt-32">
             ${cabecera(n)}
-            <h3 class="serif text-2xl font-bold text-white mb-3">${esc(n.titulo)}</h3>
-            <p class="text-stone-200 mb-5">${esc(n.resumen)}</p>
-            ${n.contexto ? `<div class="mb-5">
-                <p class="text-stone-500 text-xs font-bold uppercase tracking-wider mb-1">Contexto</p>
-                <p class="text-stone-300 text-sm leading-relaxed">${esc(n.contexto)}</p>
-            </div>` : ''}
-            ${afectados}
+            <h3 class="serif text-xl sm:text-2xl font-bold text-white mb-3">${esc(n.titulo)}</h3>
+            <p class="text-stone-200 mb-5" data-glosable>${esc(n.resumen)}</p>
             ${ponderacion(n, false)}
-            <div class="grid md:grid-cols-2 gap-5 mb-5">
-                <div class="bg-emerald-500/5 border border-emerald-500/20 rounded-lg p-4">
-                    <p class="text-emerald-400 text-xs font-bold uppercase tracking-wider mb-2">Lectura alcista</p>
-                    <p class="text-stone-200 text-sm leading-relaxed">${esc(n.alcista)}</p>
+            <div data-glosable>${impacto(n)}</div>
+            <details class="group" data-detalle>
+                <summary class="list-none cursor-pointer select-none inline-flex items-center gap-2 text-sm font-semibold text-amber-400 hover:text-amber-300">
+                    <span class="group-open:hidden">Ver análisis completo</span><span class="hidden group-open:inline">Ocultar análisis</span>
+                    <svg viewBox="0 0 20 20" class="w-4 h-4 fill-current transition group-open:rotate-180" aria-hidden="true"><path d="M5.3 7.3a1 1 0 0 1 1.4 0L10 10.6l3.3-3.3a1 1 0 1 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 0-1.4z"/></svg>
+                </summary>
+                <div class="mt-5" data-glosable>
+                    ${n.contexto ? `<div class="mb-5">
+                        <p class="text-stone-500 text-xs font-bold uppercase tracking-wider mb-1">Contexto</p>
+                        <p class="text-stone-300 text-sm leading-relaxed">${esc(n.contexto)}</p>
+                    </div>` : ''}
+                    ${afectados}
+                    <div class="grid md:grid-cols-2 gap-5 mb-5">
+                        <div class="bg-emerald-500/5 border border-emerald-500/20 rounded-lg p-4">
+                            <p class="text-emerald-400 text-xs font-bold uppercase tracking-wider mb-2">Lectura alcista</p>
+                            <p class="text-stone-200 text-sm leading-relaxed">${esc(n.alcista)}</p>
+                        </div>
+                        <div class="bg-rose-500/5 border border-rose-500/20 rounded-lg p-4">
+                            <p class="text-rose-400 text-xs font-bold uppercase tracking-wider mb-2">Lectura bajista</p>
+                            <p class="text-stone-200 text-sm leading-relaxed">${esc(n.bajista)}</p>
+                        </div>
+                    </div>
+                    ${n.mirar ? `<p class="text-sm text-stone-300 border-t border-stone-800 pt-4"><span class="text-amber-400 font-semibold">Qué mirar después:</span> ${esc(n.mirar)}</p>` : ''}
                 </div>
-                <div class="bg-rose-500/5 border border-rose-500/20 rounded-lg p-4">
-                    <p class="text-rose-400 text-xs font-bold uppercase tracking-wider mb-2">Lectura bajista</p>
-                    <p class="text-stone-200 text-sm leading-relaxed">${esc(n.bajista)}</p>
-                </div>
-            </div>
-            ${impacto(n)}
-            ${n.mirar ? `<p class="text-sm text-stone-300 border-t border-stone-800 pt-4"><span class="text-amber-400 font-semibold">Qué mirar después:</span> ${esc(n.mirar)}</p>` : ''}
-            ${Array.isArray(n.terminos) && n.terminos.length ? `<p class="text-xs text-stone-500 mt-4">Términos en esta nota: ${n.terminos.map(t => `<a href="glosario.html#${slug(t)}" class="text-stone-300 underline underline-offset-2 hover:text-amber-400">${esc(t)}</a>`).join(' · ')}</p>` : ''}
+            </details>
+            ${terminos}
+            <div class="mt-5 pt-4 border-t border-stone-800 flex justify-end">${compartir(n)}</div>
         </article>`;
+    }
+
+    // Resumen del día: noticias × tipos de activo + balance por activo
+    const SIM = { positivo: ['▲', 'text-emerald-400', 'Positivo'], negativo: ['▼', 'text-rose-400', 'Negativo'], neutral: ['■', 'text-stone-600', 'Neutral'], mixto: ['◆', 'text-amber-400', 'Mixto'] };
+    const ACT_CORTO = { acciones: 'Acciones', renta_fija: 'Renta fija', dolar: 'Dólar', cdt: 'CDT' };
+    function resumenDia(notas, enlaceBase) {
+        const claves = ['acciones', 'renta_fija', 'dolar', 'cdt'];
+        const efecto = (n, k) => ((n.impacto && n.impacto.activos) || []).find(x => x.activo === k);
+        const balance = claves.map(k => {
+            let pos = 0, neg = 0;
+            notas.forEach(n => { const e = efecto(n, k); if (e && e.efecto === 'positivo') pos++; if (e && e.efecto === 'negativo') neg++; });
+            const v = pos - neg;
+            const [lab, col] = v >= 2 ? ['Favorable', 'text-emerald-400 border-emerald-500/30 bg-emerald-500/5'] : v <= -2 ? ['Desfavorable', 'text-rose-400 border-rose-500/30 bg-rose-500/5'] : ['Mixto', 'text-amber-400 border-amber-400/30 bg-amber-400/5'];
+            return `<div class="border ${col} rounded-lg px-3 py-2">
+                        <p class="text-stone-400 text-[11px] uppercase tracking-wider">${ACT[k]}</p>
+                        <p class="font-semibold text-sm">${lab}</p>
+                        <p class="text-stone-500 text-[11px]">${pos} a favor · ${neg} en contra</p>
+                    </div>`;
+        }).join('');
+        const filas = notas.map(n => {
+            const nt = neto(n);
+            const celdas = claves.map(k => { const e = efecto(n, k); const [s, c, l] = SIM[e && e.efecto] || ['·', 'text-stone-600', '']; return `<td class="text-center px-2 py-2.5"><span class="${c} text-base" title="${l}${e && e.detalle ? ': ' + esc(e.detalle) : ''}">${s}</span></td>`; }).join('');
+            return `<tr class="border-t border-stone-800 hover:bg-stone-800/40">
+                <td class="py-2.5 pr-3 align-top"><a href="${enlaceBase}#${esc(n.id)}" data-ir="${esc(n.id)}" class="text-stone-200 hover:text-amber-400 text-sm leading-snug block min-w-[12rem]">${esc(n.titulo)}</a></td>
+                <td class="px-2 py-2.5 text-xs font-semibold whitespace-nowrap ${nt ? nt[1] : ''}">${nt ? nt[0] : ''}</td>
+                ${celdas}
+            </tr>`;
+        }).join('');
+        return `
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-5">${balance}</div>
+            <ul class="sm:hidden divide-y divide-stone-800">${notas.map(n => {
+                const nt = neto(n);
+                const ef = claves.map(k => { const e = efecto(n, k); const [s, c] = SIM[e && e.efecto] || ['·', 'text-stone-600']; return `<span class="whitespace-nowrap"><span class="text-stone-500">${ACT_CORTO[k]}</span> <span class="${c}">${s}</span></span>`; }).join('');
+                return `<li class="py-3"><a href="${enlaceBase}#${esc(n.id)}" data-ir="${esc(n.id)}" class="text-stone-200 text-sm leading-snug block mb-1.5">${esc(n.titulo)}</a>
+                    <div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs">${nt ? `<span class="${nt[1]} font-semibold">${nt[0]}</span>` : ''}${ef}</div></li>`;
+            }).join('')}</ul>
+            <div class="hidden sm:block overflow-x-auto -mx-1 px-1">
+                <table class="w-full text-left">
+                    <thead><tr class="text-stone-500 text-[11px] uppercase tracking-wider">
+                        <th class="pb-2 pr-3 font-semibold">Noticia</th><th class="pb-2 px-2 font-semibold">Efecto neto</th>
+                        ${claves.map(k => `<th class="pb-2 px-2 font-semibold text-center whitespace-nowrap">${ACT_CORTO[k]}</th>`).join('')}
+                    </tr></thead>
+                    <tbody>${filas}</tbody>
+                </table>
+            </div>
+            <p class="text-stone-500 text-xs mt-3"><span class="text-emerald-400">▲</span> positivo · <span class="text-rose-400">▼</span> negativo · <span class="text-amber-400">◆</span> mixto · <span class="text-stone-600">■</span> sin efecto directo. Efecto general por tipo de activo; no es una recomendación.</p>`;
+    }
+
+    // Glosario emergente: los términos de cada nota se explican sin salir de la página
+    let GLOSARIO = null;
+    const cargarGlosario = () => GLOSARIO ? Promise.resolve(GLOSARIO) :
+        fetch('data/glosario.json', { cache: 'no-store' }).then(r => r.json()).then(g => (GLOSARIO = Object.fromEntries((g.terminos || []).map(t => [slug(t.termino), t]))));
+    function marcarTerminos(raiz, n) {
+        const lista = (n.terminos || []).slice().sort((a, b) => b.length - a.length);
+        raiz.querySelectorAll('[data-glosable]').forEach(zona => {
+            lista.forEach(t => {
+                if (zona.querySelector(`[data-termino="${CSS.escape(t)}"]`)) return;
+                const re = new RegExp(`(^|[^\\p{L}\\p{N}])(${t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})(?=$|[^\\p{L}\\p{N}])`, 'iu');
+                const w = document.createTreeWalker(zona, NodeFilter.SHOW_TEXT, { acceptNode: x => x.parentElement.closest('button,a,[data-termino]') ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT });
+                let nodo;
+                while ((nodo = w.nextNode())) {
+                    const m = re.exec(nodo.nodeValue);
+                    if (!m) continue;
+                    const ini = m.index + m[1].length;
+                    const resto = nodo.splitText(ini); resto.splitText(m[2].length);
+                    const b = document.createElement('button');
+                    b.type = 'button'; b.dataset.termino = t;
+                    b.className = 'underline decoration-dotted decoration-amber-400/70 underline-offset-2 hover:text-amber-300 cursor-help';
+                    b.textContent = resto.nodeValue; resto.replaceWith(b);
+                    break;
+                }
+            });
+        });
+    }
+    function initPopover() {
+        if (document.getElementById('pop-termino')) return;
+        const pop = document.createElement('div');
+        pop.id = 'pop-termino'; pop.setAttribute('role', 'dialog');
+        pop.className = 'hidden fixed z-[60] max-w-xs bg-stone-900 border border-amber-400/40 rounded-lg shadow-2xl p-4 text-sm';
+        document.body.appendChild(pop);
+        const cerrar = () => pop.classList.add('hidden');
+        document.addEventListener('click', e => {
+            const b = e.target.closest('[data-termino]');
+            if (!b) { if (!e.target.closest('#pop-termino')) cerrar(); return; }
+            e.preventDefault();
+            cargarGlosario().then(G => {
+                const t = G[slug(b.dataset.termino)];
+                if (!t) { location.href = 'glosario.html#' + slug(b.dataset.termino); return; }
+                pop.innerHTML = `<p class="serif text-base font-bold text-white mb-1">${esc(t.termino)}</p>
+                    <p class="text-stone-300 leading-relaxed mb-2">${esc(t.definicion)}</p>
+                    <a href="glosario.html#${slug(t.termino)}" class="text-amber-400 text-xs font-semibold">Ver en el glosario →</a>`;
+                pop.classList.remove('hidden');
+                const r = b.getBoundingClientRect(), w = Math.min(320, innerWidth - 24);
+                pop.style.width = w + 'px';
+                pop.style.left = Math.max(12, Math.min(r.left, innerWidth - w - 12)) + 'px';
+                const h = pop.offsetHeight;
+                pop.style.top = (r.bottom + 8 + h < innerHeight ? r.bottom + 8 : Math.max(12, r.top - h - 8)) + 'px';
+            });
+        });
+        addEventListener('scroll', cerrar, { passive: true });
+        addEventListener('keydown', e => { if (e.key === 'Escape') cerrar(); });
+    }
+
+    // Filtros por tipo de activo y categoría (página ¿Y Entonces?)
+    function initFiltros(cont, notas) {
+        const box = document.getElementById('filtros');
+        if (!box) return;
+        const cats = [...new Set(notas.map(n => n.categoria))];
+        const chip = (grupo, valor, texto, activo) => `<button type="button" data-grupo="${grupo}" data-valor="${valor}" aria-pressed="${activo}"
+            class="px-3 py-1.5 rounded-full text-xs font-semibold border transition aria-pressed:bg-amber-400 aria-pressed:text-stone-950 aria-pressed:border-amber-400 border-stone-700 text-stone-300 hover:border-amber-400">${texto}</button>`;
+        box.innerHTML = `
+            <div class="flex flex-wrap items-center gap-2 mb-2"><span class="text-stone-500 text-xs w-24 shrink-0">Afecta a</span>
+                ${chip('activo', '', 'Todo', true)}${Object.keys(ACT).map(k => chip('activo', k, ACT_CORTO[k], false)).join('')}</div>
+            <div class="flex flex-wrap items-center gap-2"><span class="text-stone-500 text-xs w-24 shrink-0">Categoría</span>
+                ${chip('cat', '', 'Todas', true)}${cats.map(c => chip('cat', c, esc(CAT[c] || c), false)).join('')}</div>
+            <p id="filtros-conteo" class="text-stone-500 text-xs mt-3"></p>`;
+        const estado = { activo: '', cat: '' };
+        const aplicar = () => {
+            let vis = 0;
+            cont.querySelectorAll('[data-nota]').forEach(a => {
+                const ok = (!estado.activo || a.dataset.afecta.split(' ').includes(estado.activo)) && (!estado.cat || a.dataset.categoria === estado.cat);
+                a.classList.toggle('hidden', !ok); if (ok) vis++;
+            });
+            document.getElementById('filtros-conteo').textContent = `Mostrando ${vis} de ${notas.length} notas`;
+            const nada = document.getElementById('filtros-vacio');
+            if (nada) nada.classList.toggle('hidden', vis > 0);
+        };
+        box.addEventListener('click', e => {
+            const b = e.target.closest('[data-grupo]'); if (!b) return;
+            estado[b.dataset.grupo] = b.dataset.valor;
+            box.querySelectorAll(`[data-grupo="${b.dataset.grupo}"]`).forEach(x => x.setAttribute('aria-pressed', x === b));
+            aplicar();
+        });
+        aplicar();
+    }
+
+    // Abre una nota (y su edición archivada si aplica) y desplaza hasta ella
+    function irANota(id) {
+        const el = document.getElementById(id);
+        if (!el) return;
+        const ed = el.closest('details:not([data-detalle])'); if (ed) ed.open = true;
+        el.classList.remove('hidden');
+        const det = el.querySelector('[data-detalle]'); if (det) det.open = true;
+        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
 
     const vacio = msg => `<div class="border border-dashed border-stone-700 rounded-xl p-10 text-center"><p class="text-stone-500 text-sm">${esc(msg)}</p></div>`;
@@ -138,40 +304,63 @@
         return { porFecha, fechas: Object.keys(porFecha).sort().reverse() };
     }
 
-    // Portada: últimas N notas en versión corta
+    // Portada: resumen del día + últimas N notas en versión corta
     window.renderPortada = function (contId, n = 3) {
-        const cont = document.getElementById(contId);
+        const cont = document.getElementById(contId), res = document.getElementById('resumen-portada');
         cargar().then(data => {
-            const notas = (Array.isArray(data.notas) ? data.notas : []).slice(0, n);
+            const todas = Array.isArray(data.notas) ? data.notas : [];
+            const notas = todas.slice(0, n);
             cont.innerHTML = notas.length ? notas.map(tarjetaCorta).join('') : vacio('Las primeras notas ¿Y Entonces? se publicarán muy pronto.');
+            if (res && todas.length) {
+                const { porFecha, fechas } = agrupar(todas);
+                const t = document.getElementById('resumen-portada-fecha'); if (t) t.textContent = 'Edición del ' + fmtFecha(fechas[0]);
+                res.innerHTML = resumenDia(porFecha[fechas[0]], 'yentonces.html');
+            }
         }).catch(() => { cont.innerHTML = vacio('No pudimos cargar las notas en este momento.'); });
     };
 
-    // Página ¿Y Entonces?: edición más reciente completa + archivo
+    // Página ¿Y Entonces?: resumen del día, filtros, edición más reciente y archivo
     window.renderPagina = function () {
         const hoy = document.getElementById('notas-hoy');
+        initPopover();
         cargar().then(data => {
             const notas = Array.isArray(data.notas) ? data.notas : [];
-            if (data.actualizado) document.getElementById('notas-actualizado').textContent = 'Actualizado: ' + data.actualizado;
+            if (data.actualizado) document.getElementById('notas-actualizado').textContent = 'Actualizado: ' + data.actualizado.replace(/ \(hora Bogotá\)/, '');
             if (!notas.length) { hoy.innerHTML = vacio('Las primeras notas ¿Y Entonces? se publicarán muy pronto.'); return; }
             const { porFecha, fechas } = agrupar(notas);
+            const ed = porFecha[fechas[0]];
             document.getElementById('notas-hoy-titulo').textContent = 'Edición del ' + fmtFecha(fechas[0]);
-            hoy.innerHTML = porFecha[fechas[0]].map(notaCompleta).join('');
+            const r = document.getElementById('resumen-dia'); if (r) r.innerHTML = resumenDia(ed, '');
+            hoy.innerHTML = ed.map(notaCompleta).join('') + `<div id="filtros-vacio" class="hidden">${vacio('Ninguna nota de hoy coincide con ese filtro.')}</div>`;
+            ed.forEach(n => marcarTerminos(document.getElementById(n.id), n));
+            initFiltros(hoy, ed);
             const resto = fechas.slice(1);
             if (resto.length) {
                 document.getElementById('archivo-wrap').classList.remove('hidden');
                 document.getElementById('archivo').innerHTML = resto.map(f => `
-                    <details class="group">
+                    <details class="group/ed">
                         <summary class="cursor-pointer text-stone-300 font-semibold capitalize hover:text-amber-400">${fmtFecha(f)} · ${porFecha[f].length} notas</summary>
                         <div class="space-y-6 mt-4">${porFecha[f].map(notaCompleta).join('')}</div>
                     </details>`).join('');
+                resto.forEach(f => porFecha[f].forEach(n => marcarTerminos(document.getElementById(n.id), n)));
             }
-            // Si llega con #id de una nota archivada, abrir su edición y desplazar
-            if (location.hash) {
-                const el = document.getElementById(location.hash.slice(1));
-                if (el) { const d = el.closest('details'); if (d) d.open = true; el.scrollIntoView(); }
-            }
+            document.addEventListener('click', e => {
+                const a = e.target.closest('[data-ir]'); if (!a) return;
+                e.preventDefault(); history.replaceState(null, '', '#' + a.dataset.ir); irANota(a.dataset.ir);
+            });
+            if (location.hash) setTimeout(() => irANota(decodeURIComponent(location.hash.slice(1))), 50);
         }).catch(() => { hoy.innerHTML = vacio('No pudimos cargar las notas en este momento.'); });
+    };
+
+    // Menú móvil
+    window.initMenu = function () {
+        const btn = document.getElementById('menu-btn'), panel = document.getElementById('menu-movil');
+        if (!btn || !panel) return;
+        btn.addEventListener('click', () => {
+            const abierto = btn.getAttribute('aria-expanded') === 'true';
+            btn.setAttribute('aria-expanded', !abierto); panel.classList.toggle('hidden', abierto);
+        });
+        panel.addEventListener('click', e => { if (e.target.closest('a')) { btn.setAttribute('aria-expanded', 'false'); panel.classList.add('hidden'); } });
     };
 
     // Barra superior: dólar (TRM oficial, datos.gov.co) y última actualización
@@ -191,13 +380,13 @@
         const pintaTrm = (hoy, ant, vig) => {
             if (!Number.isFinite(hoy)) return;
             const pct = Number.isFinite(ant) && ant ? (hoy - ant) / ant * 100 : NaN;
-            set('trm', `<span class="text-white font-semibold">$${num(hoy)}</span>${var_(pct)} <span class="text-stone-500">${fecha(vig)}</span>`);
+            set('trm', `<span class="text-white font-semibold">$${num(hoy)}</span>${var_(pct)} <span class="text-stone-500 hidden xl:inline">${fecha(vig)}</span>`);
         };
-        cargar().then(d => { if (d.actualizado) set('actualizado', d.actualizado); }).catch(() => {});
+        cargar().then(d => { if (d.actualizado) set('actualizado', d.actualizado.replace(/, \d{4}/, '').replace(/ \(hora Bogotá\)/, '')); }).catch(() => {});
         fetch('data/mercado.json', { cache: 'no-store' }).then(r => r.json()).then(m => {
             if (m.trm) pintaTrm(Number(m.trm.valor), Number(m.trm.anterior), m.trm.vigente_desde);
-            if (m.brent) set('brent', `<span class="text-white font-semibold">US$${num(m.brent.valor)}</span>${var_(Number(m.brent.cambio_pct))} <span class="text-stone-500">${fecha(m.brent.fecha)}</span>`);
-            if (m.colcap) set('colcap', `<span class="text-white font-semibold">${num(m.colcap.valor)}</span>${var_(Number(m.colcap.cambio_pct))} <span class="text-stone-500">${fecha(m.colcap.fecha)}</span>`);
+            if (m.brent) set('brent', `<span class="text-white font-semibold">US$${num(m.brent.valor)}</span>${var_(Number(m.brent.cambio_pct))} <span class="text-stone-500 hidden xl:inline">${fecha(m.brent.fecha)}</span>`);
+            if (m.colcap) set('colcap', `<span class="text-white font-semibold">${num(m.colcap.valor)}</span>${var_(Number(m.colcap.cambio_pct))} <span class="text-stone-500 hidden xl:inline">${fecha(m.colcap.fecha)}</span>`);
             if (m.tasa_banrep) set('banrep', `<span class="text-white font-semibold">${num(m.tasa_banrep.valor)}%</span>`);
             if (m.inflacion) set('inflacion', `<span class="text-white font-semibold">${num(m.inflacion.valor)}%</span> <span class="text-stone-500">${m.inflacion.periodo || ''}</span>`);
         }).catch(() => {}).finally(() => {
