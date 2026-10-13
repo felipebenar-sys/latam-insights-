@@ -99,6 +99,34 @@
     {
       "termino": "Régimen de reparto",
       "definicion": "Sistema pensional en el que los aportes de los trabajadores actuales pagan las pensiones de los jubilados de hoy; en Colombia lo administra Colpensiones. Se diferencia del régimen de ahorro individual, en el que cada persona acumula su propio ahorro en un fondo privado que se invierte en el mercado de capitales."
+    },
+    {
+      "termino": "PIB",
+      "definicion": "Producto Interno Bruto: el valor de todo lo que produce la economía de un país en un periodo. Su crecimiento es la medida más usada para saber si la economía se expande o se frena; cuando crece poco, las empresas suelen vender y ganar menos."
+    },
+    {
+      "termino": "Fenómeno de El Niño",
+      "definicion": "Calentamiento periódico del océano Pacífico que en Colombia suele traer menos lluvias y más calor. Reduce el nivel de los embalses, que generan la mayor parte de la electricidad del país, y afecta las cosechas, por lo que tiende a encarecer la energía y los alimentos."
+    },
+    {
+      "termino": "Generación térmica",
+      "definicion": "Producción de electricidad con plantas que queman gas, carbón o combustibles líquidos. En Colombia sirve de respaldo cuando bajan los embalses, por ejemplo durante El Niño, pero es más costosa que la generación hidroeléctrica, lo que puede subir el precio de la energía."
+    },
+    {
+      "termino": "Iniciaciones de vivienda",
+      "definicion": "Número de viviendas cuya construcción empezó en un periodo. Es un indicador adelantado de la actividad del sector: si bajan las iniciaciones, en los meses siguientes habrá menos obras, menos empleo en construcción y menos demanda de materiales como el cemento."
+    },
+    {
+      "termino": "Guía de producción",
+      "definicion": "Rango de producción que una empresa (por ejemplo, una minera o petrolera) espera alcanzar en el año y que comunica al mercado. Cuando la sube, indica que la operación va mejor de lo previsto; cuando la baja, suele ser una mala señal para sus resultados."
+    },
+    {
+      "termino": "Consulta previa",
+      "definicion": "Derecho de las comunidades étnicas (indígenas, afrodescendientes y otras) a ser consultadas antes de que se desarrollen proyectos que las afecten en sus territorios. Es obligatoria para muchos proyectos de energía, minería e infraestructura, y su duración puede retrasar la inversión."
+    },
+    {
+      "termino": "Licencia ambiental",
+      "definicion": "Autorización que otorga la autoridad ambiental (en proyectos grandes, la ANLA) para construir y operar un proyecto con impacto sobre el medio ambiente. Sin ella, proyectos como minas, pozos petroleros, líneas de transmisión o carreteras no pueden avanzar."
     }
   ]
 }
