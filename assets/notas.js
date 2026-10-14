@@ -131,6 +131,10 @@
             ${cabecera(n)}
             <h3 class="serif text-xl sm:text-2xl font-bold text-white mb-3">${esc(n.titulo)}</h3>
             <p class="text-stone-200 mb-5" data-glosable>${esc(n.resumen)}</p>
+            ${n.contexto ? `<div class="mb-5" data-glosable>
+                <p class="text-stone-500 text-xs font-bold uppercase tracking-wider mb-1">Contexto</p>
+                <p class="text-stone-300 text-sm leading-relaxed">${esc(n.contexto)}</p>
+            </div>` : ''}
             ${ponderacion(n, false)}
             <div data-glosable>${impacto(n)}</div>
             <details class="group" data-detalle>
@@ -139,10 +143,6 @@
                     <svg viewBox="0 0 20 20" class="w-4 h-4 fill-current transition group-open:rotate-180" aria-hidden="true"><path d="M5.3 7.3a1 1 0 0 1 1.4 0L10 10.6l3.3-3.3a1 1 0 1 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 0-1.4z"/></svg>
                 </summary>
                 <div class="mt-5" data-glosable>
-                    ${n.contexto ? `<div class="mb-5">
-                        <p class="text-stone-500 text-xs font-bold uppercase tracking-wider mb-1">Contexto</p>
-                        <p class="text-stone-300 text-sm leading-relaxed">${esc(n.contexto)}</p>
-                    </div>` : ''}
                     ${afectados}
                     <div class="grid md:grid-cols-2 gap-5 mb-5">
                         <div class="bg-emerald-500/5 border border-emerald-500/20 rounded-lg p-4">
