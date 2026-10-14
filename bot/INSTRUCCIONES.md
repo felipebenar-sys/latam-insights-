@@ -76,11 +76,11 @@ La definición va en 2 a 4 frases, en lenguaje sencillo para un inversionista no
 ## Indicadores (`data/mercado.json`)
 En cada edición actualiza los indicadores de la barra superior. Usa WebFetch:
 - **Dólar (TRM):** `https://www.datos.gov.co/resource/32sa-8pi3.json?$order=vigenciadesde%20DESC&$limit=2`. `valor` y `vigente_desde` del primer registro; `anterior` es el valor del segundo.
-- **Brent:** `https://mx.investing.com/commodities/brent-oil-historical-data`. Toma la fila más reciente de la tabla histórica (cierre, % de variación y fecha), no el precio del encabezado.
+- **Brent:** `https://mx.investing.com/commodities/brent-oil-historical-data`. Toma la fila más reciente de la tabla histórica (cierre, % de variación y fecha), no el precio del encabezado. Si esa página no responde o pide permiso, usa la nota diaria de La República sobre precios del dólar y del petróleo (búscala en su RSS, categoría Finanzas, con un título como "Precios del dólar y del petróleo hoy") y toma el cierre más reciente del Brent que reporte, con su fecha. Si ninguna fuente da un cierre con fecha explícita, deja el valor anterior.
 - **MSCI COLCAP:** `https://www.larepublica.co/indicadores-economicos/movimiento-accionario/msci-colcap` (dato de la BVC): último valor, variación porcentual y fecha.
 - **Tasa del Banco de la República** e **inflación anual:** actualízalas solo cuando una noticia o fuente oficial informe un cambio (decisión de la junta del Banco de la República; dato mensual del IPC del DANE). Si no hay cambio, deja el valor anterior.
 
-Si una fuente no responde, conserva el valor anterior de ese indicador. Formato:
+Si una fuente no responde, conserva el valor anterior de ese indicador. La TRM y el MSCI COLCAP se actualizan todos los días hábiles: revisa que sus fechas correspondan al último día hábil antes de publicar. Formato:
 
 ```json
 {
