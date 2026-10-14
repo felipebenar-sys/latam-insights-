@@ -2,8 +2,8 @@
 
 Sitio web de **Stag Research**: análisis bursátil independiente sobre Colombia y América Latina.
 
-- **¿Y Entonces?** (gratis): noticias clave de la BVC y emisores latinoamericanos, con un párrafo que explica el impacto para el inversionista.
-- **Research Pro** (suscripción, próximamente): reportes de equity research sobre 3 a 4 emisores colombianos con presencia en Nueva York.
+- **¿Y Entonces?**: noticias clave de la BVC y emisores latinoamericanos, con un párrafo que explica el impacto para el inversionista.
+- **Research** (libre acceso, próximamente): reportes de industria y de emisores de la BVC.
 
 Publicado con GitHub Pages desde la rama principal.
 
