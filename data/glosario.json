@@ -127,6 +127,54 @@
     {
       "termino": "Licencia ambiental",
       "definicion": "Autorización que otorga la autoridad ambiental (en proyectos grandes, la ANLA) para construir y operar un proyecto con impacto sobre el medio ambiente. Sin ella, proyectos como minas, pozos petroleros, líneas de transmisión o carreteras no pueden avanzar."
+    },
+    {
+      "termino": "Endeudamiento neto",
+      "definicion": "Diferencia entre lo que una entidad, como el Gobierno, necesita pedir prestado y lo que ahorra en un periodo. Si es alto, significa que sus ingresos no alcanzan para cubrir sus gastos e inversiones y debe cubrir la diferencia con deuda. Para quien invierte importa porque un endeudamiento creciente suele traducirse en más emisión de bonos y mayores tasas de interés."
+    },
+    {
+      "termino": "Ahorro público",
+      "definicion": "Diferencia entre los ingresos corrientes del Estado (sobre todo impuestos) y sus gastos corrientes, como salarios, transferencias e intereses. Cuando es negativo, el Gobierno se endeuda incluso para pagar gastos de funcionamiento, no solo para invertir. Es una señal de la salud de las finanzas públicas que siguen de cerca los inversionistas en deuda."
+    },
+    {
+      "termino": "Utilidades del Banco de la República",
+      "definicion": "Ganancias que obtiene el banco central, en buena parte por el rendimiento de las reservas internacionales. Por ley, la mayor parte se transfiere al Gobierno nacional, por lo que son una fuente de ingresos para el presupuesto. Si caen, el Gobierno recibe menos recursos y puede necesitar más deuda."
+    },
+    {
+      "termino": "Reservas internacionales",
+      "definicion": "Activos en moneda extranjera, como dólares y bonos de otros países, que administra el Banco de la República. Sirven de respaldo para pagar obligaciones externas y para enfrentar choques financieros internacionales. Un nivel adecuado de reservas da confianza a los inversionistas sobre la estabilidad del país."
+    },
+    {
+      "termino": "Presupuesto General de la Nación",
+      "definicion": "Ley que fija cuánto puede gastar el Gobierno nacional en un año y en qué: funcionamiento, inversión y pago de deuda. Lo presenta el Gobierno y lo aprueba el Congreso. Para quien invierte es clave porque define el tamaño del déficit y, con él, cuánta deuda nueva tendrá que emitir el Estado."
+    },
+    {
+      "termino": "Servicio de la deuda",
+      "definicion": "Dinero que se destina a pagar la deuda en un periodo, tanto los intereses como el capital que vence. Cuando ocupa una parte grande del presupuesto, le quita espacio a otros gastos como la inversión. Es un indicador que siguen las calificadoras y los inversionistas para medir la carga de la deuda pública."
+    },
+    {
+      "termino": "Integración bancaria",
+      "definicion": "Proceso en el que dos entidades financieras unen sus operaciones, por ejemplo cuando una absorbe los activos, pasivos y clientes de la otra. Suele buscar ahorros de costos y una operación más simple. Para el accionista importa porque puede mejorar la eficiencia, pero también trae riesgos de ejecución durante la transición."
+    },
+    {
+      "termino": "Conglomerado financiero",
+      "definicion": "Grupo de empresas financieras (bancos, aseguradoras, fiduciarias, comisionistas, entre otras) que pertenecen a un mismo controlante. En Colombia, la Superintendencia Financiera los supervisa como un conjunto. Para el inversionista es útil saber a qué conglomerado pertenece una entidad, porque las decisiones del grupo pueden afectar a cada una de sus empresas."
+    },
+    {
+      "termino": "Regalías",
+      "definicion": "Pago que hacen al Estado las empresas que explotan recursos naturales no renovables, como petróleo, gas, carbón o minerales. Son una fuente importante de ingresos para la Nación y las regiones productoras. Cuando cae la producción, también bajan las regalías."
+    },
+    {
+      "termino": "Ferroníquel",
+      "definicion": "Aleación de hierro y níquel que se usa principalmente para fabricar acero inoxidable. En Colombia se produce a partir del mineral de níquel y requiere mucha energía en su proceso. Su producción depende del precio internacional del níquel y del suministro de energía y gas."
+    },
+    {
+      "termino": "Carbón térmico",
+      "definicion": "Tipo de carbón que se usa sobre todo para generar electricidad y calor en plantas industriales. Es uno de los principales productos de exportación de Colombia. Su demanda y su precio dependen de la economía mundial y de las políticas de transición energética."
+    },
+    {
+      "termino": "Balanza comercial",
+      "definicion": "Diferencia entre lo que un país exporta e importa. Si importa más de lo que exporta, tiene déficit comercial y necesita más dólares de otras fuentes. Para quien invierte importa porque influye en la oferta de dólares y, por tanto, en la tasa de cambio."
     }
   ]
 }

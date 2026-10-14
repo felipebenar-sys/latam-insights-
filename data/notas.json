@@ -1,6 +1,406 @@
 {
-  "actualizado": "13 oct 2026, 9:11 a. m. (hora Bogotá)",
+  "actualizado": "14 oct 2026, 7:05 a. m. (hora Bogotá)",
   "notas": [
+    {
+      "id": "2026-10-14-01",
+      "fecha": "2026-10-14",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 9,
+        "alcance": 4,
+        "materialidad": 3,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "Codirector del Banco de la República ve tasas altas por más tiempo y no descarta alzas",
+      "resumen": "Mauricio Villamizar, codirector del Banco de la República, afirmó que las tasas de interés seguirán altas durante un periodo prolongado y que se evalúan subidas adicionales si fueran necesarias, según Bloomberg Línea.",
+      "contexto": "Los analistas del Emisor proyectan inflación de 7,2% al cierre de 2026, 4,7% en 2027 y el regreso a la meta de 3% hacia finales de 2028. El banco subió su pronóstico de inflación de alimentos para 2026 de 9% a 10,5%, y un El Niño fuerte podría llevarla a 12%. Villamizar citó como riesgos El Niño, la guerra con Irán y un déficit fiscal que podría superar el 9% del PIB el próximo año. Colombia negocia un nuevo programa con el FMI que podría anunciarse a finales de octubre.",
+      "afectados": [
+        "Tasas de interés",
+        "TES",
+        "Bancos",
+        "Peso colombiano",
+        "CDT"
+      ],
+      "peso_alcista": 30,
+      "alcista": "Una postura firme del Emisor refuerza su credibilidad frente a la inflación, lo que con el tiempo puede reducir las expectativas de precios y la prima que exigen los inversionistas. Villamizar señaló que un acuerdo con el FMI enviaría una señal positiva a los mercados. También indicó que, si el Gobierno y el Congreso concretan recortes fiscales, se adelantaría el momento de bajar las tasas. Para el ahorrador en pesos, tasas altas por más tiempo sostienen la rentabilidad de los CDT.",
+      "bajista": "La posibilidad de nuevas alzas presiona los precios de los TES que ya están en los portafolios y encarece el crédito para empresas y hogares. Un pronóstico de inflación de 7,2% al cierre del año y de alimentos de hasta 12% con El Niño indica que el alivio tardará. Villamizar aclaró que un programa con el FMI no implicaría un recorte inmediato de tasas, y mucho menos en el corto plazo. Con tasas altas, las acciones locales compiten con rendimientos atractivos en renta fija y ahorro.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista: el mensaje es que las tasas no bajarán pronto y que incluso podrían subir, con una inflación que el propio Emisor ve en 7,2% al cierre de 2026. Para quien invierte, esto favorece al ahorro en pesos y presiona a los TES y a las acciones locales; un acuerdo con el FMI y recortes fiscales serían las señales que podrían cambiar el panorama.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Tasas altas por más tiempo encarecen el financiamiento y restan atractivo a la renta variable local."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "La posibilidad de nuevas alzas presiona a la baja el precio de los TES ya en el portafolio."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "Tasas altas atraen capital al peso, pero el riesgo fiscal y la inflación pueden debilitarlo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "positivo",
+            "detalle": "Las tasas de captación seguirían altas mientras el Emisor no recorte."
+          }
+        ]
+      },
+      "mirar": "El posible anuncio de un programa con el FMI a finales de octubre y la próxima reunión de la junta del Banco de la República.",
+      "terminos": [
+        "Tasa de política monetaria",
+        "Meta de inflación",
+        "FMI",
+        "Fenómeno de El Niño",
+        "TES"
+      ],
+      "fuente": "Bloomberg Línea",
+      "url": "https://www.bloomberglinea.com/latinoamerica/colombia/banquero-central-colombiano-ve-tasas-altas-por-un-periodo-largo-y-no-descarta-nuevas-alzas/"
+    },
+    {
+      "id": "2026-10-14-02",
+      "fecha": "2026-10-14",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 9,
+        "alcance": 4,
+        "materialidad": 3,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "Anif: el endeudamiento neto del Gobierno central llegó a 8,5% del PIB",
+      "resumen": "Un análisis de Anif con datos de cuentas nacionales del DANE calcula que, al segundo trimestre de 2026, el endeudamiento neto del Gobierno central llegó a $163 billones, equivalente a 8,5% del PIB, según Portafolio.",
+      "contexto": "El ahorro público fue negativo en $134 billones (cerca de 7% del PIB): en los últimos cuatro trimestres los ingresos sumaron $419 billones y crecieron 16% frente a 2023, mientras el gasto corriente aumentó 48%, con transferencias por $263 billones, consumo por $175 billones e intereses por $95 billones. El endeudamiento neto supera en más de 50% el de 2021 ($106 billones). Según Anif, cerca de 82% de esa necesidad se explica por ahorro negativo y 18% por inversión, y el ahorro privado financia cerca de 60% de lo que requiere el sector público.",
+      "afectados": [
+        "TES",
+        "Finanzas públicas",
+        "Peso colombiano",
+        "Tasas de interés"
+      ],
+      "peso_alcista": 25,
+      "alcista": "Las empresas no financieras y los hogares registran excedentes financieros ($56 billones y $27 billones), lo que muestra que el sector privado conserva capacidad de ahorro. La necesidad de financiación de toda la economía (3,6% del PIB) es menor que el máximo de 2022. Un diagnóstico tan claro puede reforzar el respaldo político al ajuste del gasto que prepara el Gobierno. Si ese ajuste se concreta, el mercado podría reducir la prima que exige a la deuda colombiana.",
+      "bajista": "El Gobierno gasta mucho más de lo que recauda y la brecha se cubre con deuda, lo que eleva la oferta de TES y presiona sus tasas al alza. Que el gasto corriente haya crecido tres veces más que los ingresos desde 2023 reduce el margen ante una desaceleración o nuevos choques externos. Parte del financiamiento depende de recursos externos, lo que hace al peso más sensible al apetito de los inversionistas extranjeros. Un déficit persistente también dificulta que el Banco de la República baje sus tasas.",
+      "impacto": {
+        "conclusion": "Pesa claramente la lectura bajista: la cifra confirma que el desequilibrio fiscal es grande y que se financia sobre todo con deuda para cubrir gasto corriente. Para el portafolio, esto implica presión sobre los TES y las acciones locales, y un peso más vulnerable; el ahorro en pesos se beneficia de tasas que seguirían altas.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Mayor riesgo fiscal eleva el costo de capital y pesa sobre la valoración de las empresas locales."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "Más emisión de deuda para cubrir el déficit presiona al alza las tasas de los TES y a la baja su precio."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "positivo",
+            "detalle": "La dependencia de financiamiento externo hace al peso más vulnerable, lo que eleva el valor en pesos de lo invertido en dólares."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "positivo",
+            "detalle": "El déficit dificulta la baja de tasas, lo que sostiene la rentabilidad del ahorro en pesos."
+          }
+        ]
+      },
+      "mirar": "La radicación de la Ley de Rescate fiscal y su efecto sobre el gasto corriente del Gobierno.",
+      "terminos": [
+        "Endeudamiento neto",
+        "Ahorro público",
+        "Necesidades de financiamiento",
+        "TES"
+      ],
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/endeudamiento-neto-del-gobierno-central-llego-a-163-billones-en-segundo-trimestre-equivale-al-8-5-del-pib-anif-504376"
+    },
+    {
+      "id": "2026-10-14-03",
+      "fecha": "2026-10-14",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 9,
+        "alcance": 3,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Banco de la República recorta a $8,6 billones su proyección de utilidades de 2026",
+      "resumen": "El Banco de la República proyectó ante la Comisión Tercera del Senado utilidades de $8,6 billones para 2026, por debajo del récord de $13,9 billones de 2025 y de lo estimado en agosto, según Portafolio.",
+      "contexto": "El gerente Leonardo Villar atribuyó el recorte a los cambios en las tasas de interés internacionales, que redujeron el valor de los bonos en las reservas, y dijo que la cifra es menor a la incluida en el presupuesto. Las utilidades se giran al Gobierno; las de 2025 se entregaron en marzo de 2026. Las reservas internacionales sumaban US$67.817 millones al 31 de agosto. El viceministro técnico de Hacienda, Juan Sebastián Betancur, dijo que el gasto supera al ingreso en cerca de $11 billones al mes, y Villar afirmó que no ve espacio para bajar tasas en el primer semestre de 2027.",
+      "afectados": [
+        "Finanzas públicas",
+        "TES",
+        "Tasas de interés",
+        "Banco de la República"
+      ],
+      "peso_alcista": 30,
+      "alcista": "Villar indicó que no prevé tener que constituir una reserva para cubrir pérdidas futuras, y que el resultado final dependerá de los mercados globales, por lo que la cifra podría mejorar. Las reservas internacionales crecieron US$2.350 millones en un año y el Emisor las considera adecuadas frente a choques externos. Villar también señaló que un ajuste fiscal significativo podría abrir espacio para bajar tasas en 2027.",
+      "bajista": "Menos utilidades significan un menor giro al Gobierno en un momento en que el gasto supera al ingreso en unos $11 billones al mes, lo que amplía el hueco que debe cubrirse con deuda. Más necesidad de financiamiento presiona la oferta de TES y sus tasas. Además, Villar no ve espacio para recortes de tasa en el primer semestre de 2027, lo que prolonga el costo alto del crédito para empresas y hogares.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista: el Gobierno recibiría menos recursos del Emisor justo cuando su déficit es alto, y el gerente descarta recortes de tasa en la primera mitad de 2027. Para el portafolio, esto presiona a los TES y a las acciones locales y sostiene la rentabilidad del ahorro en pesos.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Sin recortes de tasa a la vista, el financiamiento sigue caro para las empresas listadas."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "Un menor giro al Gobierno amplía sus necesidades de deuda y presiona los precios de los TES."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "positivo",
+            "detalle": "Tasas altas al menos hasta mediados de 2027 sostienen la rentabilidad del ahorro en pesos."
+          }
+        ]
+      },
+      "mirar": "La radicación de la Ley de Rescate fiscal en el Congreso, que el viceministro espera en días o semanas.",
+      "terminos": [
+        "Utilidades del Banco de la República",
+        "Reservas internacionales",
+        "Tasa de política monetaria",
+        "Necesidades de financiamiento"
+      ],
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/del-record-de-13-9-billones-a-8-6-billones-asi-cambia-la-proyeccion-de-utilidades-del-emisor-para-504385"
+    },
+    {
+      "id": "2026-10-14-04",
+      "fecha": "2026-10-14",
+      "categoria": "politica",
+      "puntaje": {
+        "total": 8,
+        "alcance": 2,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Presupuesto 2027: pasan $6 billones del pago de deuda a la reconstrucción",
+      "resumen": "Hacienda y el Congreso acordaron reducir en $6,4 billones el rubro de servicio de la deuda del Presupuesto General de la Nación de 2027; $6 billones irán a atender a los afectados por el terremoto y a la gestión del riesgo de desastres, según La República.",
+      "contexto": "El acuerdo lo confirmó el senador Christian Garcés, coordinador ponente del proyecto. Con el cambio, el servicio de la deuda queda en $149 billones, frente a $155,4 billones de la versión de primer debate. El presupuesto de 2027 crece 14,2% frente a la apropiación vigente de 2026 ($555,8 billones), y cerca de 70% de ese aumento va al pago de deuda, que sube 54,7%. La inversión baja de $89,5 billones a $86,9 billones (4,1% del PIB). Se añadió un artículo que obliga al Gobierno a presentar un plan de austeridad, y el Congreso tiene plazo hasta el 20 de octubre para aprobar la ley.",
+      "afectados": [
+        "Finanzas públicas",
+        "TES",
+        "Constructoras",
+        "Presupuesto 2027"
+      ],
+      "peso_alcista": 45,
+      "alcista": "Los $6 billones adicionales para la reconstrucción y la atención de desastres pueden impulsar la demanda de obras y vivienda en las zonas afectadas, lo que favorecería a constructoras y proveedores de materiales. El nuevo artículo que exige un plan de austeridad y de reducción de gastos de funcionamiento es una señal de control del gasto. El acuerdo entre Hacienda y el Congreso también despeja el camino para aprobar el presupuesto antes del 20 de octubre.",
+      "bajista": "Recortar la partida destinada a pagar deuda no elimina esa obligación, por lo que el mercado podría leerlo como una subestimación del servicio de la deuda que luego exigiría más ajustes o más endeudamiento. El pago de deuda ya explica cerca de 70% del aumento del presupuesto, lo que muestra la presión de los intereses. La inversión cae frente a 2026, lo que limita el impulso al crecimiento.",
+      "impacto": {
+        "conclusion": "Pesa ligeramente la lectura bajista: el ajuste redistribuye recursos hacia la reconstrucción, pero reduce la partida para una deuda que igual hay que pagar, en un presupuesto dominado por los intereses. Para el portafolio, el efecto se concentra en los TES, sensibles a cualquier duda sobre las cuentas públicas, y en las empresas ligadas a la construcción, que podrían recibir más demanda.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "positivo",
+            "detalle": "Más recursos para reconstrucción pueden elevar la demanda de constructoras y productores de materiales."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "mixto",
+            "detalle": "El plan de austeridad es una buena señal, pero recortar la partida de deuda puede generar dudas sobre las cuentas fiscales."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La votación del presupuesto antes del 20 de octubre y la posterior radicación de la Ley de Rescate fiscal.",
+      "terminos": [
+        "Presupuesto General de la Nación",
+        "Servicio de la deuda",
+        "TES"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/hacienda-y-congreso-acuerdan-reducir-6-4-billones-para-deuda-de-pgn-2027-4502059"
+    },
+    {
+      "id": "2026-10-14-05",
+      "fecha": "2026-10-14",
+      "categoria": "bvc",
+      "puntaje": {
+        "total": 6,
+        "alcance": 1,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Davivienda absorberá el negocio de DAVIbank desde el 1 de noviembre",
+      "resumen": "Banco Davivienda firmó el 13 de octubre el contrato para recibir los activos, pasivos y contratos del negocio bancario de DAVIbank (antes Scotiabank Colpatria), con activos que superan $38,3 billones; la integración será efectiva el 1 de noviembre, según Portafolio.",
+      "contexto": "Davivienda estima en cerca de $2,18 billones el valor neto de lo transferido. Como pago, entregará a DAVIbank acciones que posee en Holding Davivienda Internacional, la sociedad panameña que agrupa sus operaciones en Centroamérica, equivalentes a cerca de 22% de su capital; no hay pago en efectivo. Ambas entidades son filiales de Davivienda Group y del Conglomerado Financiero Bolívar. La valoración la hizo PwC con cifras a julio de 2026 y deberá actualizarse con datos al 31 de octubre.",
+      "afectados": [
+        "Davivienda",
+        "Davivienda Group",
+        "Bancos"
+      ],
+      "peso_alcista": 60,
+      "alcista": "Concentrar en una sola entidad el negocio en Colombia puede generar ahorros de costos y una operación más simple para el grupo. Davivienda suma activos por más de $38,3 billones sin desembolsar efectivo, ya que paga con acciones de su filial centroamericana. La operación avanza en el calendario previsto, lo que reduce la incertidumbre sobre la integración.",
+      "bajista": "Davivienda cede cerca de 22% de su holding centroamericano, lo que reduce su participación directa en esas operaciones. Las cifras aún deben actualizarse con la valoración al 31 de octubre, por lo que el valor final puede variar. Integrar dos bancos en medio de tasas altas y un mercado de crédito exigente implica riesgos de ejecución.",
+      "impacto": {
+        "conclusion": "Pesa algo más la lectura alcista: la integración avanza según lo previsto y no exige efectivo, lo que puede traducirse en eficiencias para el grupo. Para quien invierte, el efecto se concentra en la acción del grupo Davivienda; es un movimiento interno que no cambia el panorama de tasas ni del dólar.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "positivo",
+            "detalle": "Una operación más integrada puede mejorar la eficiencia del grupo Davivienda, que cotiza en la BVC."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La nueva valoración con cifras al 31 de octubre y la entrada en vigor de la integración el 1 de noviembre.",
+      "terminos": [
+        "Integración bancaria",
+        "Conglomerado financiero"
+      ],
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/negocios/empresas/davivienda-integrara-a-davibank-antes-scotiabank-colpatria-desde-noviembre-activos-superan-38-3-billones-504404"
+    },
+    {
+      "id": "2026-10-14-06",
+      "fecha": "2026-10-14",
+      "categoria": "sectores",
+      "puntaje": {
+        "total": 5,
+        "alcance": 1,
+        "materialidad": 2,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "Cerro Matoso opera a media capacidad por recortes de gas de Canacol",
+      "resumen": "Cerro Matoso lleva dos meses produciendo al 50% por restricciones en la entrega de gas de Canacol Energy, lo que le ha impedido producir unas 2.400 toneladas de níquel, según Portafolio.",
+      "contexto": "La empresa estima que la menor producción le resta más de US$33 millones en ingresos y que el país deja de recibir cerca de $1.500 millones diarios en impuestos, regalías y compras, un impacto acumulado cercano a $90.000 millones. Su contrato con Canacol es por 16.000 MBTUD hasta 2029, pero afirma que las entregas recientes cayeron a menos de una quinta parte de lo pactado. Desde agosto opera una sola de sus dos líneas, y unas 600 personas entre empleados y contratistas están afectadas. La compañía pidió a varios ministerios y superintendencias medidas conjuntas.",
+      "afectados": [
+        "Canacol Energy",
+        "Cerro Matoso",
+        "Gas natural",
+        "Córdoba"
+      ],
+      "peso_alcista": 30,
+      "alcista": "La empresa conserva la segunda línea en régimen de preservación, lo que permitiría reactivarla si se normaliza el suministro. El llamado a varias entidades del Gobierno puede acelerar una solución al problema del gas. Si se restablecen las entregas, la producción y los ingresos podrían recuperarse con rapidez.",
+      "bajista": "El caso evidencia el incumplimiento de Canacol en sus contratos de gas, lo que afecta su reputación y su relación con grandes clientes industriales. La escasez de gas golpea a una industria intensiva en energía y reduce el recaudo de impuestos y regalías en la región. Sin una solución pronta, las pérdidas se acumulan y el empleo asociado sigue en riesgo.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista: la falta de gas ya le cuesta a Cerro Matoso la mitad de su producción y deja en evidencia las fallas de suministro de Canacol. Para quien invierte, el efecto directo se concentra en la acción de Canacol en la BVC y en el riesgo de suministro de gas para la industria; no cambia el panorama de tasas ni del dólar.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Los incumplimientos en las entregas de gas afectan la percepción sobre Canacol, que cotiza en la BVC."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La respuesta del Ministerio de Minas y Energía y de las superintendencias a la solicitud de Cerro Matoso.",
+      "terminos": [
+        "Regalías",
+        "Ferroníquel"
+      ],
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/energia/cerro-matoso-dejo-de-producir-2-400-ton-de-niquel-por-falta-de-gas-y-hay-perdidas-para-el-pais-de-90-000-millones-504372"
+    },
+    {
+      "id": "2026-10-14-07",
+      "fecha": "2026-10-14",
+      "categoria": "commodities",
+      "puntaje": {
+        "total": 5,
+        "alcance": 1,
+        "materialidad": 1,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Colombia levanta la prohibición de exportar carbón térmico a Israel",
+      "resumen": "El Gobierno expidió el Decreto 1514 del 9 de octubre de 2026, que deroga las normas que prohibían exportar carbón térmico a Israel y devuelve ese producto al régimen general de exportación, según Portafolio.",
+      "contexto": "El decreto deroga el Decreto 1047 de 2024, que fijó la prohibición, y el 0949 de 2025, que eliminó sus excepciones. Según el Ministerio de Comercio, las ventas a Israel cayeron US$140,7 millones entre 2024 y 2025 y en 2026 llegaron a cero. El Gobierno argumentó, entre otras razones, la resolución 2803 del Consejo de Seguridad de la ONU sobre el alto el fuego en Gaza, la diversificación de mercados para los exportadores y posibles tensiones con normas de la OMC y el TLC con Israel. Rige desde el día siguiente a su publicación en el Diario Oficial.",
+      "afectados": [
+        "Carbón",
+        "Exportadores",
+        "Peso colombiano",
+        "Balanza comercial"
+      ],
+      "peso_alcista": 65,
+      "alcista": "Los exportadores de carbón recuperan un destino que antes de la prohibición representaba más de US$140 millones en ventas. Más exportaciones significan más dólares entrando al país, lo que ayuda a la balanza comercial. La medida reduce las tensiones con las reglas de la OMC y con el TLC vigente con Israel, lo que mejora la seguridad jurídica para el comercio exterior.",
+      "bajista": "Recuperar contratos perdidos no es inmediato y los compradores pudieron haber encontrado otros proveedores. El monto en juego es pequeño frente al total de exportaciones del país. La decisión puede generar controversia política y diplomática, y aún existe un proceso abierto en la Corte Internacional de Justicia sobre el tema.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura alcista: se elimina una restricción que había llevado a cero las ventas a un destino de más de US$140 millones. Para el portafolio, el efecto es limitado y se concentra en un posible aumento marginal en la entrada de dólares, que apoyaría al peso; no hay un emisor de la BVC directamente expuesto.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "negativo",
+            "detalle": "Más exportaciones pueden sumar oferta de dólares y fortalecer el peso, lo que reduce el valor en pesos de lo invertido en dólares."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La publicación del decreto en el Diario Oficial y los primeros embarques de carbón hacia Israel.",
+      "terminos": [
+        "Carbón térmico",
+        "Balanza comercial"
+      ],
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/tras-contraccion-de-mas-de-us-140-millones-el-gobierno-tumba-la-prohibicion-de-exportacion-de-carbon-a-israel-504410"
+    },
     {
       "id": "2026-10-13-01",
       "fecha": "2026-10-13",
