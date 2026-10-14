@@ -107,8 +107,8 @@
     }
 
     // Botón de compartir por WhatsApp
-    function compartir(n) {
-        const url = location.origin + location.pathname.replace(/[^/]*$/, '') + 'yentonces.html#' + n.id;
+    function compartir(n, pagina = 'yentonces.html') {
+        const url = location.origin + location.pathname.replace(/[^/]*$/, '') + pagina + '#' + n.id;
         const txt = `${n.titulo} | ¿Y Entonces? de Stag Research\n${url}`;
         return `<a href="https://wa.me/?text=${encodeURIComponent(txt)}" target="_blank" rel="noopener noreferrer"
                    class="inline-flex items-center gap-1.5 text-xs font-semibold text-stone-300 hover:text-emerald-400 border border-stone-700 hover:border-emerald-500/50 rounded-md px-2.5 py-1.5 transition">
@@ -366,6 +366,88 @@
             });
             if (location.hash) setTimeout(() => irANota(decodeURIComponent(location.hash.slice(1))), 50);
         }).catch(() => { hoy.innerHTML = vacio('No pudimos cargar las notas en este momento.'); });
+    };
+
+
+    // ===== Cobertura de biotecnología (data/biotech.json): solo noticias explicadas, sin opinión =====
+    function notaBiotech(n, empresas) {
+        const emp = empresas[n.empresa] || { nombre: n.empresa };
+        const fn = n.fecha_noticia ? fmtFecha(n.fecha_noticia) : '';
+        return `
+        <article id="${esc(n.id)}" data-nota data-empresa="${esc(n.empresa)}" class="bg-stone-900 border border-stone-800 rounded-xl p-5 sm:p-8 scroll-mt-32">
+            <div class="flex flex-wrap items-center gap-2 mb-3 text-xs">
+                <span class="bg-sky-400/10 text-sky-300 border border-sky-400/20 px-2 py-0.5 rounded-full font-semibold">${esc(n.empresa)} · ${esc(emp.nombre)}</span>
+                <span class="bg-stone-800 text-stone-300 px-2 py-0.5 rounded-full">${esc(n.tipo || '')}</span>
+                ${fn ? `<span class="text-stone-500">Noticia del ${fn}</span>` : ''}
+                <a href="${esc(safeUrl(n.url))}" target="_blank" rel="noopener noreferrer" class="text-stone-400 hover:text-amber-400 underline underline-offset-2">Fuente: ${esc(n.fuente)}</a>
+            </div>
+            <h3 class="serif text-xl sm:text-2xl font-bold text-white mb-3">${esc(n.titulo)}</h3>
+            <p class="text-stone-200 mb-5" data-glosable>${esc(n.resumen)}</p>
+            ${n.contexto ? `<div class="mb-5" data-glosable>
+                <p class="text-stone-500 text-xs font-bold uppercase tracking-wider mb-1">Contexto</p>
+                <p class="text-stone-300 text-sm leading-relaxed">${esc(n.contexto)}</p>
+            </div>` : ''}
+            ${n.que_significa ? `<div class="bg-sky-400/5 border border-sky-400/25 rounded-lg p-5 mb-5" data-glosable>
+                <p class="text-sky-300 text-xs font-bold uppercase tracking-wider mb-2">Qué significa, en palabras simples</p>
+                <p class="text-stone-200 text-sm leading-relaxed">${esc(n.que_significa)}</p>
+            </div>` : ''}
+            ${n.mirar ? `<p class="text-sm text-stone-300 border-t border-stone-800 pt-4"><span class="text-amber-400 font-semibold">Qué mirar después:</span> ${esc(n.mirar)}</p>` : ''}
+            ${Array.isArray(n.terminos) && n.terminos.length ? `<p class="text-xs text-stone-500 mt-4">Términos en esta nota: ${n.terminos.map(t => `<button type="button" data-termino="${esc(t)}" class="text-stone-300 underline decoration-dotted underline-offset-2 hover:text-amber-400">${esc(t)}</button>`).join(' · ')}</p>` : ''}
+            <div class="mt-5 pt-4 border-t border-stone-800 flex justify-end">${compartir(n, 'biotecnologia.html')}</div>
+        </article>`;
+    }
+    function fichaEmpresa(c) {
+        return `
+        <div class="bg-stone-900 border border-stone-800 rounded-xl p-5 flex flex-col">
+            <div class="flex items-baseline justify-between gap-2 mb-2">
+                <p class="text-white font-bold text-lg">${esc(c.nombre)}</p>
+                <span class="text-sky-300 text-xs font-semibold">${esc(c.bolsa)}: ${esc(c.ticker)}</span>
+            </div>
+            <p class="text-stone-300 text-sm leading-relaxed mb-3">${esc(c.que_hace)}</p>
+            <p class="text-stone-400 text-sm leading-relaxed mb-3"><span class="text-stone-500 text-xs font-bold uppercase tracking-wider block mb-1">Estado</span>${esc(c.estado)}</p>
+            <div class="mt-auto">
+                <p class="text-stone-500 text-xs font-bold uppercase tracking-wider mb-1">Próximos hitos</p>
+                <ul class="space-y-1">${(c.hitos || []).map(h => `<li class="text-sm text-stone-300 flex gap-2"><span class="text-amber-400 whitespace-nowrap text-xs pt-0.5">${esc(h.fecha)}</span><span>${esc(h.texto)}</span></li>`).join('')}</ul>
+                ${c.fuente_url ? `<a href="${esc(safeUrl(c.fuente_url))}" target="_blank" rel="noopener noreferrer" class="text-stone-500 hover:text-amber-400 text-xs underline underline-offset-2 mt-3 inline-block">Fuente</a>` : ''}
+            </div>
+        </div>`;
+    }
+    window.renderBiotech = function () {
+        const hoy = document.getElementById('bio-notas');
+        initPopover();
+        fetch('data/biotech.json', { cache: 'no-store' }).then(r => r.json()).then(d => {
+            const cias = d.companias || [];
+            const empresas = Object.fromEntries(cias.map(c => [c.ticker, c]));
+            document.getElementById('bio-empresas').innerHTML = cias.map(fichaEmpresa).join('');
+            if (d.actualizado) document.getElementById('bio-actualizado').textContent = 'Actualizado: ' + d.actualizado.replace(/ \(hora Bogotá\)/, '');
+            const notas = Array.isArray(d.notas) ? d.notas : [];
+            if (!notas.length) { hoy.innerHTML = vacio('Aún no hay noticias de las compañías cubiertas.'); return; }
+            const porFecha = {}; notas.forEach(n => (porFecha[n.fecha] ||= []).push(n));
+            const fechas = Object.keys(porFecha).sort().reverse();
+            document.getElementById('bio-titulo').textContent = 'Edición del ' + fmtFecha(fechas[0]);
+            hoy.innerHTML = porFecha[fechas[0]].map(n => notaBiotech(n, empresas)).join('') + `<div id="bio-vacio" class="hidden">${vacio('No hay noticias de esa compañía en esta edición.')}</div>`;
+            porFecha[fechas[0]].forEach(n => marcarTerminos(document.getElementById(n.id), n));
+            // Filtro por compañía
+            const box = document.getElementById('bio-filtro');
+            const chip = (v, txt, on) => `<button type="button" data-v="${v}" aria-pressed="${on}" class="px-3 py-1.5 rounded-full text-xs font-semibold border transition aria-pressed:bg-amber-400 aria-pressed:text-stone-950 aria-pressed:border-amber-400 border-stone-700 text-stone-300 hover:border-amber-400">${txt}</button>`;
+            box.innerHTML = chip('', 'Todas', true) + cias.map(c => chip(c.ticker, c.ticker, false)).join('');
+            box.addEventListener('click', e => {
+                const b = e.target.closest('[data-v]'); if (!b) return;
+                box.querySelectorAll('[data-v]').forEach(x => x.setAttribute('aria-pressed', x === b));
+                let vis = 0;
+                hoy.querySelectorAll('[data-nota]').forEach(a => { const ok = !b.dataset.v || a.dataset.empresa === b.dataset.v; a.classList.toggle('hidden', !ok); if (ok) vis++; });
+                document.getElementById('bio-vacio').classList.toggle('hidden', vis > 0);
+            });
+            const resto = fechas.slice(1);
+            if (resto.length) {
+                document.getElementById('bio-archivo-wrap').classList.remove('hidden');
+                document.getElementById('bio-archivo').innerHTML = resto.map(f => `
+                    <details><summary class="cursor-pointer text-stone-300 font-semibold hover:text-amber-400">${fmtFecha(f)} · ${porFecha[f].length} noticias</summary>
+                    <div class="space-y-6 mt-4">${porFecha[f].map(n => notaBiotech(n, empresas)).join('')}</div></details>`).join('');
+                resto.forEach(f => porFecha[f].forEach(n => marcarTerminos(document.getElementById(n.id), n)));
+            }
+            if (location.hash) setTimeout(() => { const el = document.getElementById(decodeURIComponent(location.hash.slice(1))); if (el) { const dd = el.closest('details'); if (dd) dd.open = true; el.scrollIntoView({ behavior: 'smooth' }); } }, 50);
+        }).catch(() => { hoy.innerHTML = vacio('No pudimos cargar la cobertura en este momento.'); });
     };
 
     // Menú móvil

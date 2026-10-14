@@ -27,7 +27,7 @@ Solo noticias publicadas en las últimas ~24 horas sobre:
 - `politica`: política económica y regulación (reformas, presupuesto, impuestos, pensiones, comercio exterior).
 - `sectores`: sectores reales (energía, construcción, vivienda, comercio, transporte, industria).
 
-Excluidas: biotecnología (por ahora), opinión, entretenimiento, deportes, política sin impacto de mercado, contenido promocional.
+Excluidas de ¿Y Entonces?: biotecnología (tiene su propia sección, ver "Cobertura de biotecnología" abajo), opinión, entretenimiento, deportes, política sin impacto de mercado, contenido promocional.
 
 ## Cómo se eligen las noticias (puntaje de relevancia)
 1. Revisa **todas** las fuentes y arma la lista de candidatas que cumplan los temas de arriba. Si una noticia aparece en varios medios, es una sola candidata (usa la fuente más completa). Descarta las URL ya publicadas en `data/notas.json`.
@@ -92,6 +92,46 @@ Si una fuente no responde, conserva el valor anterior de ese indicador. La TRM y
   "actualizado": "AAAA-MM-DD"
 }
 ```
+
+## Cobertura de biotecnología (`data/biotech.json`, página `biotecnologia.html`)
+Sección aparte, con reglas propias. Se actualiza en la misma corrida diaria.
+
+**Compañías cubiertas (solo estas):** Celcuity (CELC), Faeth Therapeutics (FTH, antes Sensei Biotherapeutics) y Relay Therapeutics (RLAY).
+
+**Fuentes:**
+- Comunicados por compañía: `https://www.financialcontent.com/quote/NQ:CELC/pressReleases`, `.../NQ:FTH/pressReleases`, `.../NQ:RLAY/pressReleases`. Para Celcuity esa página casi solo trae avisos de bufetes de abogados; complementa con WebSearch (por ejemplo "Celcuity press release" y "gedatolisib") y usa los comunicados de GlobeNewswire o la página de inversionistas.
+- Prensa especializada: Fierce Biotech (`https://www.fiercebiotech.com/rss/xml`) y Endpoints News (`https://endpoints.news/feed/`).
+- Regulatorio: decisiones, designaciones o comunicaciones de la FDA sobre estas compañías, tomadas de comunicados o de prensa especializada.
+- Competidores y sector: noticias de otras compañías o de la FDA que afecten directamente a estas tres (por ejemplo, resultados de un competidor en la misma vía PI3K/AKT/mTOR o en el mismo tipo de cáncer). La nota debe explicar la relación con la compañía cubierta.
+
+**Qué entra:** noticias publicadas en las últimas ~48 horas (72 en fines de semana o festivos): resultados de ensayos, resultados financieros, financiamiento, decisiones o designaciones regulatorias, presentaciones en congresos, alianzas, cambios relevantes de la administración y noticias de competidores con relación directa. **No entran** los avisos de bufetes de abogados que buscan demandantes, las notas promocionales ni los análisis de precio de la acción. Si no hay noticias nuevas, no publiques nada en esta sección ese día (nunca rellenes). No repitas URL ya publicadas.
+
+**Reglas especiales (obligatorias):**
+1. **Sin opinión:** prohibido incluir lecturas alcista o bajista, ponderaciones, puntajes, efectos en el portafolio, calificativos como "positivo", "negativo", "bueno", "malo", "prometedor" o "decepcionante", y cualquier recomendación. Solo hechos y su explicación.
+2. **Lenguaje para un joven de 15 años:** frases cortas, sin jerga; si un término técnico es inevitable, va en `terminos` y en el glosario.
+3. Valen las reglas generales de derechos de autor, hechos solo de la fuente, firma Stag Research y sin menciones al proceso.
+
+**Formato de cada nota** (se agregan al inicio de `notas` en `data/biotech.json`):
+
+```json
+{
+  "id": "AAAA-MM-DD-b01",
+  "fecha": "AAAA-MM-DD",
+  "fecha_noticia": "AAAA-MM-DD",
+  "empresa": "CELC | FTH | RLAY",
+  "tipo": "Ensayo clínico | Resultados financieros | Regulatorio (FDA) | Congreso médico | Financiamiento | Alianza | Competidores y sector | Gobierno corporativo",
+  "titulo": "",
+  "resumen": "Qué pasó, 1 a 2 frases.",
+  "contexto": "Antecedentes, 2 a 4 frases, solo hechos de la fuente.",
+  "que_significa": "Explicación sencilla de qué significa la noticia y por qué importa, 3 a 5 frases, sin opinión.",
+  "mirar": "El próximo dato o fecha relacionado (1 frase).",
+  "terminos": ["FDA", "Fases de un ensayo clínico"],
+  "fuente": "",
+  "url": "https://..."
+}
+```
+
+Actualiza también `actualizado` de `data/biotech.json` (hora real, como en ¿Y Entonces?) y, si una noticia cambia el estado o los próximos hitos de una compañía, actualiza su ficha en `companias` (campos `estado` y `hitos`), con `fuente_url` apuntando a la fuente de ese cambio. Los términos nuevos van al mismo `data/glosario.json`, con definiciones para un joven de 15 años.
 
 ## Dónde se publica
 Se agrega al inicio del arreglo `notas` de `data/notas.json` y se actualiza `actualizado`. La hora de `actualizado` debe ser la hora real de publicación: obtenla justo antes del commit con `TZ=America/Bogota date` y nunca la escribas de memoria ni la estimes. Formato: "12 oct 2026, 9:15 a. m. (hora Bogotá)". Esquema de cada nota:

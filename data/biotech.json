@@ -1,0 +1,125 @@
+{
+  "actualizado": "14 oct 2026, 4:57 p. m. (hora Bogotá)",
+  "companias": [
+    {
+      "ticker": "CELC",
+      "nombre": "Celcuity",
+      "bolsa": "Nasdaq",
+      "que_hace": "Desarrolla gedatolisib (marca REVTORPYK), un medicamento contra el cáncer de mama que bloquea varias piezas de la vía PI3K/AKT/mTOR, un circuito que las células tumorales usan para crecer.",
+      "estado": "Aprobado por la FDA en EE. UU. para un grupo de pacientes con cáncer de mama HR+/HER2- avanzado sin mutación PIK3CA, y comercialmente disponible en EE. UU.",
+      "hitos": [
+        {
+          "texto": "Resúmenes de ESMO 2026 publicados en línea",
+          "fecha": "19 oct 2026"
+        },
+        {
+          "texto": "Datos actualizados del estudio de fase 3 VIKTORIA-1 en ESMO (Madrid)",
+          "fecha": "24 oct 2026"
+        }
+      ],
+      "fuente_url": "https://www.globenewswire.com/news-release/2026/10/05/3374475/0/en/celcuity-announces-multiple-presentations-at-the-european-society-for-medical-oncology-esmo-congress-2026.html"
+    },
+    {
+      "ticker": "FTH",
+      "nombre": "Faeth Therapeutics",
+      "bolsa": "Nasdaq",
+      "que_hace": "Desarrolla PIKTOR, una combinación de dos pastillas (serabelisib y sapanisertib) que bloquea en dos puntos distintos la vía PI3K/AKT/mTOR, para cáncer de endometrio y de mama. Antes se llamaba Sensei Biotherapeutics.",
+      "estado": "En estudios clínicos (aún no aprobado). La FDA le otorgó la designación Fast Track en cáncer de endometrio avanzado en agosto de 2026.",
+      "hitos": [
+        {
+          "texto": "Primeros resultados (topline) del estudio de fase 2 en cáncer de endometrio",
+          "fecha": "antes de fin de 2026"
+        },
+        {
+          "texto": "Datos intermedios del estudio en cáncer de mama",
+          "fecha": "2027"
+        }
+      ],
+      "fuente_url": "https://www.nasdaq.com/press-release/faeth-therapeutics-host-virtual-kol-event-multi-nodal-inhibition-treatment"
+    },
+    {
+      "ticker": "RLAY",
+      "nombre": "Relay Therapeutics",
+      "bolsa": "Nasdaq",
+      "que_hace": "Desarrolla zovegalisib (RLY-2608), una pastilla diseñada para bloquear solo la versión mutada de la proteína PI3Kα, presente en muchos cánceres de mama; también la estudia en malformaciones vasculares.",
+      "estado": "En estudios clínicos (aún no aprobado). Tiene designación de terapia innovadora de la FDA y un estudio de fase 3 (ReDiscover-2) en curso en cáncer de mama.",
+      "hitos": [
+        {
+          "texto": "Actualización del reclutamiento del estudio de fase 3 ReDiscover-2",
+          "fecha": "antes de fin de 2026"
+        },
+        {
+          "texto": "Datos y actualización regulatoria en malformaciones vasculares",
+          "fecha": "antes de fin de 2026"
+        },
+        {
+          "texto": "Inicio previsto de un nuevo estudio de fase 3 en primera línea",
+          "fecha": "inicios de 2027"
+        }
+      ],
+      "fuente_url": "https://www.financialcontent.com/article/gnwcq-2026-8-6-relay-therapeutics-reports-second-quarter-2026-financial-results-and-corporate-updates"
+    }
+  ],
+  "notas": [
+    {
+      "id": "2026-10-14-b01",
+      "fecha": "2026-10-14",
+      "fecha_noticia": "2026-10-05",
+      "empresa": "CELC",
+      "tipo": "Congreso médico",
+      "titulo": "Celcuity presentará nuevos datos de gedatolisib en el congreso ESMO 2026",
+      "resumen": "Celcuity anunció que mostrará cuatro trabajos sobre gedatolisib en el congreso europeo de oncología ESMO, en Madrid, entre el 23 y el 27 de octubre. El principal es una presentación oral con resultados actualizados de su estudio de fase 3 VIKTORIA-1 en cáncer de mama.",
+      "contexto": "La presentación de VIKTORIA-1 está programada para el 24 de octubre y los resúmenes se publicarán en línea el 19 de octubre. Los otros tres trabajos son pósteres: un estudio en cáncer de próstata, una comparación de gedatolisib con otros tratamientos y el diseño de un nuevo estudio de fase 3 (VIKTORIA-2). El comunicado no incluye cifras de eficacia ni de seguridad. Gedatolisib ya está aprobado por la FDA y se vende en EE. UU. para un grupo de pacientes con cáncer de mama.",
+      "que_significa": "Los congresos médicos son el lugar donde las farmacéuticas muestran a médicos e inversionistas cómo les fue a sus medicamentos en los estudios. Una presentación oral de última hora (late-breaking) es un espacio que el congreso reserva para resultados nuevos. Por eso, el 24 de octubre se conocerán más detalles de cómo funciona gedatolisib en los pacientes del estudio. Como el medicamento ya se vende, esos datos ayudan a médicos y pacientes a decidir si lo usan.",
+      "mirar": "La publicación de los resúmenes el 19 de octubre y la presentación de VIKTORIA-1 el 24 de octubre.",
+      "terminos": [
+        "FDA",
+        "Fases de un ensayo clínico",
+        "Congreso ESMO",
+        "Cáncer de mama HR+/HER2-"
+      ],
+      "fuente": "GlobeNewswire (comunicado de Celcuity)",
+      "url": "https://www.globenewswire.com/news-release/2026/10/05/3374475/0/en/celcuity-announces-multiple-presentations-at-the-european-society-for-medical-oncology-esmo-congress-2026.html"
+    },
+    {
+      "id": "2026-10-14-b02",
+      "fecha": "2026-10-14",
+      "fecha_noticia": "2026-09-08",
+      "empresa": "FTH",
+      "tipo": "Ensayo clínico",
+      "titulo": "Faeth espera los primeros resultados de su estudio en cáncer de endometrio antes de fin de año",
+      "resumen": "Faeth Therapeutics realizó el 6 de octubre un evento virtual con expertos sobre PIKTOR, su combinación de dos pastillas para el cáncer de endometrio. La compañía espera publicar los primeros resultados de su estudio de fase 2 en esta enfermedad antes de que termine 2026.",
+      "contexto": "PIKTOR combina serabelisib, que bloquea la proteína PI3K-alfa, y sapanisertib, que bloquea mTORC1 y mTORC2: dos puntos distintos de la misma vía PI3K/AKT/mTOR. El estudio de fase 2 (FTH-PIK-201) es en pacientes con cáncer de endometrio avanzado que ya recibieron un primer tratamiento. La compañía también tiene un estudio en cáncer de mama que inició en abril, con datos intermedios esperados en 2027.",
+      "que_significa": "PIKTOR todavía no es un medicamento aprobado: está en pruebas con pacientes. Los resultados \"topline\" son el primer resumen de si el tratamiento funcionó en el estudio. Para una compañía pequeña que depende de un solo producto, ese dato suele ser el evento más importante del año, porque de él depende si el medicamento sigue avanzando hacia la aprobación.",
+      "mirar": "El anuncio de los resultados topline del estudio FTH-PIK-201, esperado antes de fin de 2026.",
+      "terminos": [
+        "Vía PI3K/AKT/mTOR",
+        "Fases de un ensayo clínico",
+        "Datos topline",
+        "Designación Fast Track"
+      ],
+      "fuente": "Nasdaq (comunicado de Faeth Therapeutics)",
+      "url": "https://www.nasdaq.com/press-release/faeth-therapeutics-host-virtual-kol-event-multi-nodal-inhibition-treatment"
+    },
+    {
+      "id": "2026-10-14-b03",
+      "fecha": "2026-10-14",
+      "fecha_noticia": "2026-08-06",
+      "empresa": "RLAY",
+      "tipo": "Resultados financieros",
+      "titulo": "Relay cerró junio con US$910,9 millones en caja y dice tener recursos hasta 2029",
+      "resumen": "Relay Therapeutics reportó que al 30 de junio tenía US$910,9 millones en caja e inversiones, frente a US$642,1 millones en marzo, gracias a una venta de acciones en mayo. La compañía dice que ese dinero le alcanza para operar hasta 2029.",
+      "contexto": "En el segundo trimestre perdió US$83,7 millones, más que los US$70,4 millones de un año antes, porque gastó más en los estudios de zovegalisib. Su estudio de fase 3 ReDiscover-2 en cáncer de mama sigue en curso. En malformaciones vasculares, 60% de los pacientes de la primera parte del estudio tuvo una reducción medible de la lesión a las 12 semanas. Antes de fin de año espera dar actualizaciones de ambos estudios.",
+      "que_significa": "Las biotecnológicas que aún no venden medicamentos gastan más de lo que ganan, así que viven del dinero que tienen guardado. La \"pista de caja\" dice cuánto tiempo pueden seguir operando sin conseguir más. Que Relay diga que tiene hasta 2029 significa que no necesitaría vender más acciones pronto; cuando una empresa vende acciones nuevas, la participación de los accionistas actuales se reduce.",
+      "mirar": "La actualización del reclutamiento de ReDiscover-2 y los datos en malformaciones vasculares, ambos esperados antes de fin de 2026.",
+      "terminos": [
+        "Pista de caja",
+        "Oferta pública de acciones",
+        "Fases de un ensayo clínico",
+        "Mutación PIK3CA"
+      ],
+      "fuente": "FinancialContent (comunicado de Relay Therapeutics)",
+      "url": "https://www.financialcontent.com/article/gnwcq-2026-8-6-relay-therapeutics-reports-second-quarter-2026-financial-results-and-corporate-updates"
+    }
+  ]
+}

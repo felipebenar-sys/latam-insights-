@@ -175,6 +175,50 @@
     {
       "termino": "Balanza comercial",
       "definicion": "Diferencia entre lo que un país exporta e importa. Si importa más de lo que exporta, tiene déficit comercial y necesita más dólares de otras fuentes. Para quien invierte importa porque influye en la oferta de dólares y, por tanto, en la tasa de cambio."
+    },
+    {
+      "termino": "FDA",
+      "definicion": "La Administración de Alimentos y Medicamentos de Estados Unidos. Es la entidad que decide si un medicamento es seguro y funciona lo suficiente para venderse en ese país. Su aprobación es el paso más importante para una biotecnológica, porque sin ella no puede vender su producto en el mayor mercado farmacéutico del mundo."
+    },
+    {
+      "termino": "Fases de un ensayo clínico",
+      "definicion": "Los medicamentos se prueban en personas en etapas. En la fase 1 se revisa, en pocos pacientes, si es seguro y qué dosis usar; en la fase 2 se mira si funciona en un grupo más grande; y en la fase 3 se compara con el tratamiento que ya existe en cientos o miles de pacientes. Solo después de la fase 3 se suele pedir la aprobación."
+    },
+    {
+      "termino": "Datos topline",
+      "definicion": "El primer resumen de los resultados de un estudio clínico: si el medicamento cumplió o no su objetivo principal. Se publica antes del análisis completo, y suele mover mucho el precio de la acción de una biotecnológica porque responde la pregunta más importante: si funcionó."
+    },
+    {
+      "termino": "Designación Fast Track",
+      "definicion": "Un estatus que da la FDA a medicamentos en desarrollo para enfermedades graves con pocas opciones de tratamiento. Permite reunirse más seguido con la FDA y presentar partes de la solicitud de aprobación por adelantado. Acelera el proceso, pero no garantiza que el medicamento sea aprobado."
+    },
+    {
+      "termino": "Designación de terapia innovadora",
+      "definicion": "En inglés, Breakthrough Therapy. La FDA la otorga cuando los primeros datos sugieren que un medicamento podría ser claramente mejor que los tratamientos actuales para una enfermedad grave. Incluye todos los beneficios de Fast Track y más acompañamiento de la FDA, pero tampoco garantiza la aprobación."
+    },
+    {
+      "termino": "Congreso ESMO",
+      "definicion": "El congreso anual de la Sociedad Europea de Oncología Médica, uno de los encuentros de cáncer más importantes del mundo. Allí las compañías presentan resultados de sus estudios ante médicos, investigadores e inversionistas, por lo que suele ser una fecha clave para las biotecnológicas de oncología."
+    },
+    {
+      "termino": "Vía PI3K/AKT/mTOR",
+      "definicion": "Una cadena de proteínas dentro de las células que funciona como un interruptor de crecimiento. En muchos cánceres este interruptor queda encendido y las células tumorales crecen sin control. Varios medicamentos buscan apagarlo bloqueando una o varias de sus piezas (PI3K, AKT o mTOR)."
+    },
+    {
+      "termino": "Mutación PIK3CA",
+      "definicion": "Un cambio en el gen que produce la proteína PI3K-alfa, una de las piezas de la vía PI3K/AKT/mTOR. Es frecuente en el tipo más común de cáncer de mama y hace que la vía quede encendida. Algunos medicamentos están diseñados para pacientes con esta mutación y otros para quienes no la tienen."
+    },
+    {
+      "termino": "Cáncer de mama HR+/HER2-",
+      "definicion": "El tipo de cáncer de mama más común. HR+ significa que el tumor crece con ayuda de hormonas (estrógeno o progesterona) y HER2- que no tiene exceso de la proteína HER2. Se trata con terapias hormonales y, cuando avanza, con medicamentos dirigidos como los que desarrollan estas compañías."
+    },
+    {
+      "termino": "Pista de caja",
+      "definicion": "En inglés, cash runway: el tiempo que una empresa puede seguir operando con el dinero que tiene, al ritmo al que lo gasta. Es clave en biotecnología, porque muchas compañías aún no venden productos; cuando la pista se acorta, suelen tener que conseguir más dinero."
+    },
+    {
+      "termino": "Oferta pública de acciones",
+      "definicion": "Cuando una empresa que ya cotiza en bolsa vende acciones nuevas para conseguir dinero. Le da recursos para seguir operando, pero reparte la empresa entre más acciones, así que la participación de cada accionista actual se reduce (lo que se conoce como dilución)."
     }
   ]
 }
