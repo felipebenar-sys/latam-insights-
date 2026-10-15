@@ -219,6 +219,42 @@
     {
       "termino": "Oferta pública de acciones",
       "definicion": "Cuando una empresa que ya cotiza en bolsa vende acciones nuevas para conseguir dinero. Le da recursos para seguir operando, pero reparte la empresa entre más acciones, así que la participación de cada accionista actual se reduce (lo que se conoce como dilución)."
+    },
+    {
+      "termino": "Bono de firma",
+      "definicion": "Pago que una petrolera hace al Estado para quedarse con el derecho a explorar un bloque en una subasta. Se paga al firmar el contrato, antes de saber si hay petróleo comercial, por lo que es un costo que se asume con riesgo."
+    },
+    {
+      "termino": "Contrato de concesión petrolera",
+      "definicion": "Acuerdo en el que el Estado le da a una empresa el derecho a explorar y producir petróleo en un área a cambio de pagos como bonos, regalías e impuestos. La empresa asume el riesgo y, si encuentra petróleo, se queda con la producción."
+    },
+    {
+      "termino": "ADR",
+      "definicion": "American Depositary Receipt: un certificado que representa acciones de una empresa extranjera y se negocia en las bolsas de EE. UU. Permite a los inversionistas comprar compañías como Petrobras o Grupo Cibest en Nueva York, en dólares."
+    },
+    {
+      "termino": "Dilución",
+      "definicion": "Pérdida de participación de los accionistas actuales cuando una empresa emite acciones nuevas. Si una compañía tiene 100 acciones y emite 20 más, quien tenía 10 pasa de ser dueño del 10% a cerca del 8,3%."
+    },
+    {
+      "termino": "Bono senior no garantizado",
+      "definicion": "Deuda que una empresa emite sin respaldarla con activos específicos. En caso de problemas se paga antes que otras deudas de menor rango (por eso es 'senior'), pero después de las deudas garantizadas."
+    },
+    {
+      "termino": "Cupón de un bono",
+      "definicion": "La tasa de interés que el emisor de un bono paga cada año sobre el valor de la deuda. Un cupón de 5,85% significa que por cada US$100 prestados la empresa paga US$5,85 al año en intereses."
+    },
+    {
+      "termino": "Recompra de acciones",
+      "definicion": "Cuando una empresa usa su propio dinero para comprar sus acciones en el mercado. Reduce el número de acciones en circulación y suele interpretarse como una señal de que la administración considera que la acción está barata."
+    },
+    {
+      "termino": "Descuento de holding",
+      "definicion": "Diferencia entre lo que vale en bolsa un holding (una empresa dueña de otras empresas) y la suma del valor de sus inversiones. En Colombia, varios holdings cotizan por debajo del valor de sus partes."
+    },
+    {
+      "termino": "EBITDA",
+      "definicion": "Utilidad de una empresa antes de intereses, impuestos, depreciaciones y amortizaciones. Mide cuánto genera la operación del negocio sin contar cómo está financiado ni los gastos contables por desgaste de activos."
     }
   ]
 }

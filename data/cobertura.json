@@ -1,0 +1,307 @@
+{
+  "actualizado": "14 oct 2026, 8:19 p. m. (hora Bogotá)",
+  "companias": [
+    {
+      "ticker": "MELI",
+      "nombre": "MercadoLibre",
+      "bolsa": "Nasdaq: MELI",
+      "que_hace": "Opera el principal marketplace de comercio electrónico de América Latina y Mercado Pago, su negocio de pagos y servicios financieros digitales.",
+      "estado": "Emitió en septiembre US$1.000 millones en bonos a 10 años.",
+      "hitos": [],
+      "fuente_url": "https://www.sec.gov/Archives/edgar/data/0001099590/000114036126036136/ef20081842_ex99-1.htm"
+    },
+    {
+      "ticker": "NU",
+      "nombre": "Nu Holdings (Nubank)",
+      "bolsa": "NYSE: NU",
+      "que_hace": "Banco digital con operación en Brasil, México y Colombia, y una estrategia de expansión internacional a través de Nu Global.",
+      "estado": "El 30 de septiembre descartó estar buscando la compra del banco digital británico Monzo.",
+      "hitos": [],
+      "fuente_url": "https://www.bloomberglinea.com.br/2026/09/30/nubank-diz-que-nao-busca-compra-do-britanico-monzo-apos-relatos-de-negocio-de-ate-10-bi/"
+    },
+    {
+      "ticker": "PBR",
+      "nombre": "Petrobras",
+      "bolsa": "NYSE: PBR (ADR)",
+      "que_hace": "Petrolera estatal de Brasil, una de las mayores productoras de petróleo de América Latina, con operación concentrada en aguas profundas.",
+      "estado": "Ganó 21 bloques exploratorios en las subastas de la ANP de octubre de 2026.",
+      "hitos": [
+        {
+          "texto": "Informe de producción y ventas del 3T26",
+          "fecha": "28 oct 2026"
+        },
+        {
+          "texto": "Resultados financieros del 3T26",
+          "fecha": "10 nov 2026"
+        },
+        {
+          "texto": "Pago de bonos por los bloques ganados",
+          "fecha": "30 dic 2026"
+        }
+      ],
+      "fuente_url": "https://stocktitan.net/sec-filings/PBR/6-k-petrobras-petroleo-brasileiro-sa-current-report-foreign-issuer-3637d76b6fce.html"
+    },
+    {
+      "ticker": "CIBEST",
+      "nombre": "Grupo Cibest",
+      "bolsa": "BVC y NYSE: CIB (ADR)",
+      "que_hace": "Holding financiero que agrupa a Bancolombia y sus filiales en Colombia y Centroamérica; es el mayor grupo bancario del país.",
+      "estado": "Sin noticias recientes verificadas.",
+      "hitos": [],
+      "fuente_url": "https://www.valoraanalitik.com/finalizo-la-evolucion-de-bancolombia-en-grupo-cibest-sus-acciones-estaran-disponibles-en-la-bvc-desde-el-lunes/"
+    },
+    {
+      "ticker": "GRUPOARGOS",
+      "nombre": "Grupo Argos",
+      "bolsa": "BVC: GRUPOARGOS",
+      "que_hace": "Holding de inversiones en infraestructura: cemento, energía, concesiones de vías y aeropuertos, y negocio inmobiliario.",
+      "estado": "Ejecuta el programa ACE 1.0, que incluye recompra de acciones por hasta $500.000 millones en 6 a 12 meses desde agosto de 2026.",
+      "hitos": [
+        {
+          "texto": "Ejecución de la recompra de acciones de ACE 1.0",
+          "fecha": "hasta mediados de 2027"
+        }
+      ],
+      "fuente_url": "https://es-us.noticias.yahoo.com/relevante-grupo-argos-lanza-programa-205400392.html"
+    },
+    {
+      "ticker": "PEI",
+      "nombre": "PEI",
+      "bolsa": "BVC: PEI",
+      "que_hace": "Patrimonio Estrategias Inmobiliarias: el mayor vehículo de inversión inmobiliaria listado en Colombia, dueño de centros comerciales, oficinas, bodegas y otros inmuebles que arrienda.",
+      "estado": "Sin noticias recientes verificadas.",
+      "hitos": [],
+      "fuente_url": "https://pei.com.co/en/relevant-information/"
+    }
+  ],
+  "notas": [
+    {
+      "id": "2026-10-14-c01",
+      "fecha": "2026-10-14",
+      "fecha_noticia": "2026-10-08",
+      "empresa": "PBR",
+      "categoria": "commodities",
+      "puntaje": {
+        "total": 6,
+        "alcance": 1,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Petrobras gana 21 bloques exploratorios y pagará R$3.219 millones en bonos",
+      "resumen": "Petrobras ganó 21 bloques en las subastas de exploración de la agencia petrolera de Brasil (ANP), con más de 18.000 km², según un reporte enviado a la SEC el 8 de octubre. Pagará en total R$3.219 millones en bonos de firma antes del 30 de diciembre.",
+      "contexto": "Dos bloques son bajo régimen de producción compartida (Campos y Santos), 100% de Petrobras. Los otros 19 son concesiones: 12 en la cuenca de Campos, 100% de Petrobras, y 7 en la cuenca de Ceará, donde Petrobras tiene 70% y QatarEnergy 30%. Casi todo el pago corresponde a los bloques de Campos. La compañía publicará su informe de producción del tercer trimestre el 28 de octubre y sus resultados financieros el 10 de noviembre.",
+      "afectados": [
+        "Petrobras",
+        "Producción de petróleo de Brasil"
+      ],
+      "peso_alcista": 55,
+      "alcista": "Sumar 21 bloques, varios en la cuenca de Campos donde Petrobras ya opera, amplía su inventario para descubrir y producir petróleo en la próxima década. Operar en zonas conocidas suele reducir costos y riesgos frente a fronteras nuevas. La alianza con QatarEnergy en Ceará comparte el riesgo exploratorio.",
+      "bajista": "El pago de R$3.219 millones sale de la caja este año, sin garantía de que los bloques tengan petróleo comercial. Los compromisos de trabajo exigen inversión adicional. La exploración tarda años en traducirse en producción, así que el beneficio, si llega, no es inmediato.",
+      "impacto": {
+        "conclusion": "Pesa levemente más la lectura alcista: la compañía amplía su inventario de exploración en zonas que conoce. Para el portafolio, el efecto se limita a quienes tienen acciones de Petrobras, y es de largo plazo; en lo inmediato, implica una salida de caja importante.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "Para quien tiene acciones de Petrobras: más reservas potenciales a futuro, pero un desembolso de R$3.219 millones en bonos este año."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "El informe de producción y ventas del tercer trimestre, el 28 de octubre.",
+      "terminos": [
+        "Bono de firma",
+        "Contrato de concesión petrolera"
+      ],
+      "fuente": "SEC (formulario 6-K de Petrobras, vía StockTitan)",
+      "url": "https://www.stocktitan.net/sec-filings/PBR/6-k-petrobras-petroleo-brasileiro-sa-current-report-foreign-issuer-0db585a0dd2b.html"
+    },
+    {
+      "id": "2026-10-14-c02",
+      "fecha": "2026-10-14",
+      "fecha_noticia": "2026-09-30",
+      "empresa": "NU",
+      "categoria": "latam",
+      "puntaje": {
+        "total": 6,
+        "alcance": 1,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Nubank descarta la compra del banco británico Monzo",
+      "resumen": "Nu Holdings, dueña de Nubank, informó a la SEC el 30 de septiembre que no está buscando una transacción con Monzo, luego de reportes de prensa sobre conversaciones para comprarlo por entre £8.000 y £10.000 millones, según Bloomberg Línea.",
+      "contexto": "Nubank dijo que normalmente no comenta oportunidades específicas, pero que hizo una excepción por la magnitud de la especulación. Añadió que evalúa con regularidad alianzas, inversiones y adquisiciones, y que su modelo de asignación de capital no ha cambiado. Sus prioridades declaradas son Brasil, crecer en México y Colombia y construir presencia en EE. UU. a través de Nu Global. Monzo, por su parte, reportó más de 16 millones de clientes.",
+      "afectados": [
+        "Nu Holdings",
+        "Banca digital",
+        "Colombia y México"
+      ],
+      "peso_alcista": 60,
+      "alcista": "Descartar una compra de hasta £10.000 millones elimina el riesgo de una adquisición costosa en un mercado nuevo, que podía diluir a los accionistas o comprometer capital. La compañía reafirmó que sus prioridades siguen siendo Brasil, México y Colombia, donde ya opera. Para los clientes colombianos, eso sugiere que el foco en el país se mantiene.",
+      "bajista": "El episodio deja ver que Nubank evalúa oportunidades de expansión fuera de América Latina, y la compañía no descartó otras operaciones en el futuro. La especulación coincidió con una caída de la acción. Mientras la estrategia internacional no se concrete, puede seguir generando volatilidad.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura alcista: la aclaración despeja la incertidumbre sobre una compra grande. El efecto se concentra en quienes tienen acciones de Nu, que cotiza en Nueva York.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "positivo",
+            "detalle": "Para quien tiene acciones de Nu: se despeja el riesgo de una compra grande y costosa en un mercado nuevo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "Los resultados del tercer trimestre de Nu Holdings y cualquier anuncio de Nu Global.",
+      "terminos": [
+        "ADR",
+        "Dilución"
+      ],
+      "fuente": "Bloomberg Línea",
+      "url": "https://www.bloomberglinea.com.br/2026/09/30/nubank-diz-que-nao-busca-compra-do-britanico-monzo-apos-relatos-de-negocio-de-ate-10-bi/"
+    },
+    {
+      "id": "2026-10-14-c03",
+      "fecha": "2026-10-14",
+      "fecha_noticia": "2026-09-09",
+      "empresa": "MELI",
+      "categoria": "latam",
+      "puntaje": {
+        "total": 6,
+        "alcance": 1,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "MercadoLibre emite US$1.000 millones en bonos a 10 años",
+      "resumen": "MercadoLibre anunció el 9 de septiembre la emisión de US$1.000 millones en bonos sin garantía con vencimiento en 2036 y un cupón de 5,850% anual, según su comunicado ante la SEC.",
+      "contexto": "Los recursos se destinarán a propósitos corporativos generales, sin un uso específico detallado en el comunicado. Son bonos senior no garantizados, es decir, deuda que no está respaldada por activos específicos de la compañía.",
+      "afectados": [
+        "MercadoLibre",
+        "Comercio electrónico",
+        "Pagos digitales"
+      ],
+      "peso_alcista": 55,
+      "alcista": "Conseguir US$1.000 millones a 10 años muestra que la compañía tiene acceso a financiación de largo plazo en el mercado internacional. Más liquidez le da margen para seguir invirtiendo en su marketplace, logística y servicios financieros sin vender acciones nuevas, lo que evita diluir a los accionistas.",
+      "bajista": "Es deuda adicional que pagará intereses de 5,85% al año durante una década. El comunicado no precisa en qué se usará el dinero. Si el crecimiento se desacelera, una carga de deuda mayor reduce el margen de maniobra de la compañía.",
+      "impacto": {
+        "conclusion": "Pesa levemente más la lectura alcista: la emisión le da liquidez de largo plazo sin diluir a los accionistas. El efecto se limita a quienes tienen acciones de MercadoLibre, que cotiza en el Nasdaq.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "Para quien tiene acciones de MercadoLibre: más liquidez para crecer, a cambio de más deuda e intereses."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "Los resultados del tercer trimestre de MercadoLibre.",
+      "terminos": [
+        "Bono senior no garantizado",
+        "Cupón de un bono",
+        "Dilución"
+      ],
+      "fuente": "SEC (comunicado de MercadoLibre)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001099590/000114036126036136/ef20081842_ex99-1.htm"
+    },
+    {
+      "id": "2026-10-14-c04",
+      "fecha": "2026-10-14",
+      "fecha_noticia": "2026-08-05",
+      "empresa": "GRUPOARGOS",
+      "categoria": "bvc",
+      "puntaje": {
+        "total": 6,
+        "alcance": 1,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Grupo Argos lanza un plan para cerrar el descuento de su acción, con recompra de $500.000 millones",
+      "resumen": "Grupo Argos presentó el programa ACE 1.0, que incluye recomprar acciones propias por $500.000 millones en los próximos 6 a 12 meses, con el objetivo declarado de cerrar la brecha entre el precio de su acción y su valor fundamental, según Valora Analitik.",
+      "contexto": "La asamblea de accionistas aprobó el monto de la recompra en marzo. La compañía podría sumar otros $1,5 billones, sujetos a aprobación, con recursos de la venta de activos. Sus metas a 24 a 36 meses son llevar el EBITDA consolidado de $3,2 billones a $5,6 billones, duplicar el dividendo por acción y generar un retorno total al accionista de 75% a 100%. También reorganizará su estructura: Odinsa pasará a ser su gestor único de activos y el negocio inmobiliario se separará.",
+      "afectados": [
+        "Grupo Argos",
+        "Holdings colombianos"
+      ],
+      "peso_alcista": 65,
+      "alcista": "Una recompra de $500.000 millones crea demanda por la acción y señala que la administración la considera subvalorada. Las metas de EBITDA y dividendos son concretas y medibles. Simplificar la estructura y separar negocios suele ayudar a que el mercado valore mejor un holding.",
+      "bajista": "Las metas son a 24 a 36 meses y dependen de ejecutar ventas de activos y reorganizaciones que requieren aprobaciones. El monto adicional de $1,5 billones aún no está aprobado. Los descuentos de los holdings pueden persistir durante años aunque se tomen medidas.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura alcista: la recompra está aprobada y en ejecución, y las metas son concretas. El efecto se concentra en quienes tienen acciones de Grupo Argos; el resultado depende de que la compañía cumpla su plan en los próximos años.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "positivo",
+            "detalle": "Para quien tiene acciones de Grupo Argos: la recompra y las metas buscan cerrar el descuento frente a su valor fundamental."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "El avance de la recompra y de la reorganización de Odinsa y el negocio inmobiliario.",
+      "terminos": [
+        "Recompra de acciones",
+        "Descuento de holding",
+        "EBITDA"
+      ],
+      "fuente": "Valora Analitik (vía Yahoo Noticias)",
+      "url": "https://es-us.noticias.yahoo.com/relevante-grupo-argos-lanza-programa-205400392.html"
+    }
+  ]
+}

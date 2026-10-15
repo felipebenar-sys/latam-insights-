@@ -93,6 +93,17 @@ Si una fuente no responde, conserva el valor anterior de ese indicador. La TRM y
 }
 ```
 
+## Cobertura LatAm (`data/cobertura.json`, página `cobertura.html`)
+Sección aparte para seis compañías. Usa **el mismo formato completo de ¿Y Entonces?** (contexto, afectados, lecturas alcista y bajista, `peso_alcista`, `impacto` con los cuatro activos, `puntaje`, `mirar`, `terminos`) y las mismas reglas obligatorias. Se actualiza en la misma corrida diaria.
+
+**Compañías cubiertas (solo estas):** MercadoLibre (`MELI`, Nasdaq), Nu Holdings (`NU`, NYSE), Petrobras (`PBR`, NYSE), Grupo Cibest (`CIBEST`, BVC y NYSE: CIB), Grupo Argos (`GRUPOARGOS`, BVC) y PEI (`PEI`, BVC).
+
+**Fuentes:** los RSS de ¿Y Entonces? (sobre todo La República, Valora Analitik, Portafolio y Bloomberg Línea), los reportes de información relevante de los emisores colombianos, los formularios de la SEC (6-K, 8-K) y comunicados de las compañías, y WebSearch por nombre de compañía para las de Nueva York. **No uses** como fuente sitios de alertas automáticas de acciones ni notas sobre movimientos de fondos o cambios de calificación de analistas sin otra información.
+
+**Qué entra:** noticias de las últimas ~48 horas (72 en fines de semana o festivos) sobre resultados, dividendos, recompras, emisiones de deuda o acciones, adquisiciones, cambios regulatorios o de gobierno corporativo, y hechos del sector que afecten directamente a la compañía. Si una noticia de estas compañías entra también en ¿Y Entonces?, publícala solo en Cobertura LatAm. Si no hay noticias nuevas, no publiques nada en esta sección ese día (nunca rellenes).
+
+**Formato:** igual que una nota de ¿Y Entonces?, más dos campos: `empresa` (el ticker de la lista) y `fecha_noticia` (fecha original de la noticia). El `id` lleva el sufijo `c`: `AAAA-MM-DD-c01`. Para el activo `dolar`, explica el efecto para quien tiene acciones de las compañías que cotizan en Nueva York. Actualiza `actualizado` (hora real) y, si cambia el estado o los próximos hitos de una compañía, su ficha en `companias` (`estado`, `hitos`, `fuente_url`).
+
 ## Cobertura de biotecnología (`data/biotech.json`, página `biotecnologia.html`)
 Sección aparte, con reglas propias. Se actualiza en la misma corrida diaria.
 
