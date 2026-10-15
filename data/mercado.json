@@ -1,9 +1,9 @@
 {
   "trm": {
-    "valor": 3181.74,
-    "vigente_desde": "2026-10-14",
-    "anterior": 3194.44,
-    "fuente": "Superintendencia Financiera vía datos.gov.co"
+    "valor": 3197.65,
+    "vigente_desde": "2026-10-15",
+    "anterior": 3181.74,
+    "fuente": "Superintendencia Financiera vía Semana"
   },
   "brent": {
     "valor": 104.72,
@@ -26,5 +26,5 @@
     "periodo": "sep 2026",
     "fuente": "DANE"
   },
-  "actualizado": "2026-10-14"
+  "actualizado": "2026-10-15"
 }

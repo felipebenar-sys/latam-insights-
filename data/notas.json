@@ -1,6 +1,404 @@
 {
-  "actualizado": "14 oct 2026, 7:05 a. m. (hora Bogotá)",
+  "actualizado": "15 oct 2026, 7:06 a. m. (hora Bogotá)",
   "notas": [
+    {
+      "id": "2026-10-15-01",
+      "fecha": "2026-10-15",
+      "categoria": "internacional",
+      "puntaje": {
+        "total": 8,
+        "alcance": 3,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "La inflación de EE. UU. sube a 3,7% y dispara los rendimientos de los bonos del Tesoro",
+      "resumen": "Los precios al consumidor en Estados Unidos subieron 0,6% en septiembre, el mayor aumento mensual desde abril, y la inflación anual llegó a 3,7%. El dato llevó a los mercados a aumentar sus apuestas por nuevas alzas de tasas de la Reserva Federal, según Bloomberg citado por La República.",
+      "contexto": "La inflación básica, que excluye alimentos y energía, subió 0,3% en el mes y 2,6% anual. Tras el dato, el rendimiento del bono del Tesoro a 2 años saltó 14 puntos básicos, a 4,92%, y el de 10 años subió 9 puntos, a 5,30%. El índice de dólar de Bloomberg avanzó 0,4% y los futuros del S&P 500 y del Nasdaq 100 cayeron 0,3% y 0,6%. Analistas citados esperan que la Fed haga una pausa en octubre y vuelva a subir tasas en diciembre; Michelle Bowman, vicepresidenta de supervisión de la Fed, dijo que la inflación sigue siendo demasiado alta.",
+      "afectados": [
+        "Bonos del Tesoro",
+        "Dólar",
+        "TES",
+        "Acciones globales"
+      ],
+      "peso_alcista": 30,
+      "alcista": "La inflación básica, de 2,6% anual, es mucho más baja que la general, lo que sugiere que buena parte de la presión viene de la energía y no de toda la economía. Analistas citados en la fuente esperan una pausa de la Fed en octubre, lo que da algo de margen a los mercados en el corto plazo. Para quien tiene ahorros en dólares, un dólar global más fuerte aumenta su valor medido en pesos. Las bolsas europeas subieron 0,4% ese día, lo que muestra que el golpe no fue generalizado.",
+      "bajista": "Rendimientos de 4,92% a 2 años y 5,30% a 10 años en EE. UU. hacen más atractivo invertir allá y pueden sacar capital de mercados emergentes como Colombia. Eso suele presionar al alza las tasas de los TES y a la baja el precio de los que ya están en los portafolios. La expectativa de más alzas de la Fed encarece el financiamiento global y pesa sobre las acciones. Un analista citado advirtió que la inflación de energía podría trasladarse a la inflación básica.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista: una inflación de 3,7% y bonos del Tesoro rindiendo más de 5% a 10 años aprietan las condiciones financieras globales. Para quien invierte en Colombia, esto suele traducirse en presión sobre los TES y las acciones locales, mientras los ahorros en dólares ganan valor en pesos.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Tasas más altas en EE. UU. restan atractivo a la renta variable de mercados emergentes."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "El alza de los rendimientos del Tesoro suele arrastrar al alza las tasas de los TES y bajar su precio."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "positivo",
+            "detalle": "Un dólar global más fuerte aumenta en pesos el valor de los ahorros en dólares."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La decisión de la Reserva Federal y las siguientes cifras de inflación de EE. UU.",
+      "terminos": [
+        "Inflación",
+        "Inflación básica",
+        "Bonos del Tesoro de EE. UU.",
+        "Reserva Federal"
+      ],
+      "fuente": "La República (Bloomberg)",
+      "url": "https://www.larepublica.co/globoeconomia/wall-street-cae-tras-la-inflacion-de-ee-uu-que-refuerza-apuestas-de-mas-alzas-de-la-fed-4502650"
+    },
+    {
+      "id": "2026-10-15-02",
+      "fecha": "2026-10-15",
+      "categoria": "commodities",
+      "puntaje": {
+        "total": 8,
+        "alcance": 3,
+        "materialidad": 3,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "El Brent ronda US$106 tras un ataque que dañó la sede de Saudi Aramco",
+      "resumen": "El petróleo Brent se negoció cerca de US$106 por barril luego de ataques de los rebeldes hutíes en Arabia Saudita, uno de los cuales dañó la sede de Saudi Aramco, y de nuevas agresiones contra buques en el estrecho de Ormuz, según Bloomberg citado por La República.",
+      "contexto": "Los futuros del Brent acumulan un alza de más de 70% en el año por la inestabilidad asociada a la guerra entre Estados Unidos e Irán. Los ataques a buques han llevado a más superpetroleros a evitar el golfo Pérsico y han elevado los fletes. El crudo físico de referencia en Europa estuvo cerca de US$130 por barril el martes, y el precio del diésel en Europa, que se ha más que duplicado en el año, retomó su alza. La Agencia Internacional de Energía advirtió que los combustibles seguirán bajo presión el próximo año.",
+      "afectados": [
+        "Ecopetrol",
+        "Petróleo",
+        "Peso colombiano",
+        "Inflación"
+      ],
+      "peso_alcista": 55,
+      "alcista": "Un Brent cerca de US$106 aumenta los ingresos de las petroleras que operan en Colombia, empezando por Ecopetrol, y los recursos que recibe el Estado por impuestos y regalías. Más dólares por exportaciones de crudo pueden darle soporte al peso. La fuente indica que la prima de riesgo en el precio es difícil de eliminar mientras la infraestructura y el transporte sigan expuestos, lo que sugiere precios altos por más tiempo.",
+      "bajista": "El encarecimiento de la energía y de los fletes presiona la inflación, lo que dificulta que el Banco de la República baje las tasas. Un diésel más caro sube los costos de transporte y de producción en sectores que no son petroleros. La volatilidad es alta: el precio osciló entre ganancias y pérdidas en la jornada, y un cambio en el conflicto podría revertir el alza.",
+      "impacto": {
+        "conclusion": "Pesa ligeramente más la lectura alcista para el mercado colombiano, por el peso del petróleo en las exportaciones y en las finanzas públicas. Sin embargo, el mismo choque alimenta la inflación y puede mantener las tasas altas por más tiempo, lo que deja un efecto mixto para la renta fija.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "positivo",
+            "detalle": "Precios altos del crudo favorecen a Ecopetrol y a las demás petroleras listadas."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "mixto",
+            "detalle": "Más ingresos petroleros ayudan a las cuentas fiscales, pero la presión inflacionaria juega en contra de los TES."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "Más dólares por exportaciones sostienen al peso, pero la aversión al riesgo global puede debilitarlo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La evolución de los ataques en el estrecho de Ormuz y el próximo dato de inflación en Colombia.",
+      "terminos": [
+        "Brent",
+        "Estrecho de Ormuz",
+        "Agencia Internacional de Energía"
+      ],
+      "fuente": "La República (Bloomberg)",
+      "url": "https://www.larepublica.co/globoeconomia/el-brent-ronda-us-106-mientras-los-ataques-amenazan-la-oferta-de-petroleo-4502435"
+    },
+    {
+      "id": "2026-10-15-03",
+      "fecha": "2026-10-15",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 7,
+        "alcance": 3,
+        "materialidad": 3,
+        "novedad": 1,
+        "fuente": 0
+      },
+      "titulo": "El FMI enviará una nueva misión a Colombia en noviembre",
+      "resumen": "El Ministerio de Hacienda confirmó que el Fondo Monetario Internacional enviará una misión oficial a Bogotá en noviembre, tras una visita técnica de funcionarios colombianos a Washington, según Valora Analitik.",
+      "contexto": "La delegación, encabezada por el viceministro técnico Juan Sebastián Betancur, presentó la estrategia para estabilizar las finanzas públicas y revisó alternativas de respaldo financiero del FMI; la fuente no detalla montos ni condiciones. La agenda de noviembre incluye preparar la consulta del Artículo IV y analizar herramientas para mejorar las condiciones de financiamiento de la Nación. El 29 de septiembre, el ministro Miguel Gómez y el director gerente adjunto del FMI, Nigel Clarke, acordaron en Bogotá iniciar conversaciones técnicas.",
+      "afectados": [
+        "TES",
+        "Gobierno",
+        "Peso colombiano",
+        "Prima de riesgo país"
+      ],
+      "peso_alcista": 65,
+      "alcista": "El acompañamiento del FMI puede reforzar la confianza de los inversionistas en el manejo fiscal, lo que tiende a reducir la prima de riesgo país. Si se concreta un respaldo financiero, el Gobierno podría financiarse en mejores condiciones, algo que la agenda de noviembre busca explícitamente. Menor riesgo percibido suele favorecer el precio de los TES y la estabilidad del peso. El ministro Gómez señaló que este acompañamiento ayuda a anclar la confianza en el país.",
+      "bajista": "La fuente no da montos, plazos ni condiciones, así que el alcance del apoyo sigue siendo incierto. Un programa con el FMI suele exigir ajustes fiscales que pueden frenar el gasto y la actividad económica. Que el país busque respaldo del FMI también refleja la presión que enfrentan sus finanzas públicas. Hasta noviembre, el mercado solo tiene anuncios y no decisiones.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura alcista: un acompañamiento formal del FMI es una señal de respaldo para las finanzas públicas y puede bajar el costo de la deuda. Para quien invierte, el principal beneficiario serían los TES; el efecto depende de que en noviembre se conozcan montos y condiciones concretas.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "positivo",
+            "detalle": "Menor percepción de riesgo país suele favorecer a la renta variable local."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "positivo",
+            "detalle": "Un respaldo del FMI podría reducir la prima de riesgo y mejorar el precio de los TES."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "Más confianza puede fortalecer el peso y restar valor en pesos a los ahorros en dólares."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La llegada de la misión del FMI en noviembre y los detalles de un eventual programa de apoyo.",
+      "terminos": [
+        "FMI",
+        "Consulta del Artículo IV",
+        "Prima de riesgo país",
+        "TES"
+      ],
+      "fuente": "Valora Analitik",
+      "url": "https://www.valoraanalitik.com/fmi-tendra-nueva-mision-a-colombia-avanzar-plan-de-rescate-fiscal/"
+    },
+    {
+      "id": "2026-10-15-04",
+      "fecha": "2026-10-15",
+      "categoria": "politica",
+      "puntaje": {
+        "total": 7,
+        "alcance": 2,
+        "materialidad": 3,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "Presupuesto 2027 llega a segundo debate con $8,4 billones menos para deuda",
+      "resumen": "La ponencia del Presupuesto General de la Nación de 2027 para segundo debate mantiene el monto total en $634,95 billones (29,9% del PIB), pero reduce el servicio de la deuda en $8,4 billones y sube la inversión pública a $94,63 billones, según Valora Analitik.",
+      "contexto": "El servicio de la deuda pasa de $155,4 billones en primer debate a $147,1 billones, por proyecciones financieras actualizadas y operaciones de reperfilamiento de bonos. La inversión sube $7,74 billones netos, equivale a 4,5% del PIB y crece 5,8% real frente a 2026. Según el senador Christian Garcés, hay $3 billones para subsidios de energía y gas, y Hacienda guarda una reserva de $3,9 billones para el terremoto y otras emergencias. El ministro Miguel Gómez y los ponentes dijeron que los cambios no alteran las metas de déficit de 2027 ni suman endeudamiento.",
+      "afectados": [
+        "Gobierno",
+        "TES",
+        "Construcción",
+        "Infraestructura"
+      ],
+      "peso_alcista": 55,
+      "alcista": "Más inversión pública, con énfasis en infraestructura regional y reconstrucción, puede impulsar a constructoras, cementeras y proveedores. El Gobierno afirma que no se cambian las metas de déficit ni se agrega endeudamiento global. Menos pagos de deuda en el presupuesto reflejan operaciones de reperfilamiento que alargan los vencimientos y alivian la caja en 2027.",
+      "bajista": "La reducción del servicio de la deuda no elimina la deuda: aplazar pagos mediante reperfilamiento puede trasladar la carga a años futuros. El monto total del presupuesto sigue en 29,9% del PIB, y los gastos de funcionamiento también suben. Si el mercado duda de las metas fiscales, podría exigir más rentabilidad a los TES. El proyecto aún debe ser aprobado en las plenarias.",
+      "impacto": {
+        "conclusion": "Pesa ligeramente más la lectura alcista, porque el aumento de la inversión llega sin cambiar las metas de déficit, según el Gobierno. Para quien invierte, el posible impulso se concentra en sectores ligados a obras públicas, mientras que en renta fija el efecto es mixto hasta que se vea cómo se cumplen esas metas.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "positivo",
+            "detalle": "Más inversión pública favorece a constructoras, cementeras y proveedores de infraestructura."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "mixto",
+            "detalle": "Menos pagos de deuda alivian la caja de 2027, pero el reperfilamiento traslada vencimientos al futuro."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La votación del Presupuesto 2027 en las plenarias del Congreso.",
+      "terminos": [
+        "Presupuesto General de la Nación",
+        "Servicio de la deuda",
+        "Inversión pública",
+        "PIB"
+      ],
+      "fuente": "Valora Analitik",
+      "url": "https://www.valoraanalitik.com/congreso-votara-presupuesto-2027-en-segundo-debate-con-menos-pagos-de-deuda-y-mayor-inversion/"
+    },
+    {
+      "id": "2026-10-15-05",
+      "fecha": "2026-10-15",
+      "categoria": "bvc",
+      "puntaje": {
+        "total": 7,
+        "alcance": 2,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Grupo Energía Bogotá ofrece hasta $400.000 millones en papeles comerciales",
+      "resumen": "Grupo Energía Bogotá (GEB) publicó el aviso de oferta del primer lote de su primera emisión de papeles comerciales de deuda pública interna, por $250.000 millones a tasa fija en pesos, ampliables hasta $400.000 millones si la demanda lo permite, según Valora Analitik.",
+      "contexto": "La emisión se hace en dos subseries, y los papeles tienen un valor nominal de $1 millón cada uno. Forma parte de un programa de bonos y papeles comerciales con un cupo de hasta $2,5 billones, bajo el cual no se habían hecho emisiones; tras esta oferta, el saldo por colocar queda en $2,1 billones. Los recursos se destinarán en su totalidad a propósitos corporativos generales. Los títulos estarán en el mercado principal, abiertos al público inversionista en general. La fuente no informa las tasas ni los plazos.",
+      "afectados": [
+        "Grupo Energía Bogotá",
+        "Renta fija corporativa",
+        "Inversionistas"
+      ],
+      "peso_alcista": 60,
+      "alcista": "Para el inversionista, la emisión agrega una alternativa de renta fija en pesos de un emisor grande y listado en la BVC, con un valor nominal de $1 millón. El cupo amplio del programa le da a GEB flexibilidad para financiarse en el mercado local. Si la demanda supera la oferta, la empresa podrá adjudicar hasta $150.000 millones adicionales, lo que sería una señal de apetito por su deuda.",
+      "bajista": "Para el accionista, más deuda implica mayores pagos de intereses, y la fuente no detalla en qué se usarán los recursos más allá de propósitos corporativos generales. Sin tasas ni plazos publicados, no se puede comparar todavía la rentabilidad con otras alternativas. Con tasas de interés altas en el país, el costo de este financiamiento podría ser elevado.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura alcista desde el punto de vista del inversionista en renta fija: aparece una nueva alternativa de un emisor de la BVC. Para el accionista de GEB el efecto es mixto, porque depende del costo final de la deuda y del uso que se dé a los recursos.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "mixto",
+            "detalle": "Para quien tiene acciones de GEB: más flexibilidad financiera, pero también más carga de intereses."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "positivo",
+            "detalle": "Amplía la oferta de títulos de renta fija corporativa en pesos para el inversionista."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "Las tasas de corte y el monto finalmente adjudicado en la subasta de los papeles comerciales.",
+      "terminos": [
+        "Papeles comerciales",
+        "Tasa fija",
+        "Sobreadjudicación"
+      ],
+      "fuente": "Valora Analitik",
+      "url": "https://www.valoraanalitik.com/geb-emitira-titulos-400-000-millones/"
+    },
+    {
+      "id": "2026-10-15-06",
+      "fecha": "2026-10-15",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 6,
+        "alcance": 1,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "La confianza del consumidor sube a 15,7%, pero los hogares ven peor su situación actual",
+      "resumen": "El Índice de Confianza del Consumidor de Fedesarrollo se ubicó en 15,7% en septiembre, 0,2 puntos más que en agosto, impulsado por mejores expectativas a 12 meses, mientras la evaluación de la situación actual de los hogares se deterioró, según La República.",
+      "contexto": "El índice de expectativas subió de 22,6% a 25,1%, y el de condiciones económicas cayó de 4,8% a 1,7%. Frente a septiembre de 2025, cuando el indicador estaba en 1,6%, el aumento es de 14,1 puntos. La disposición a comprar vivienda mejoró, pero sigue en terreno negativo (-24%), y la de comprar vehículo cayó a -23,4%. En el tercer trimestre el balance fue 17,3%, por debajo del 18,6% del segundo.",
+      "afectados": [
+        "Comercio",
+        "Consumo de los hogares",
+        "Vivienda",
+        "Vehículos"
+      ],
+      "peso_alcista": 45,
+      "alcista": "Las expectativas a 12 meses mejoraron 2,5 puntos, lo que puede anticipar más gasto de los hogares en los próximos meses. El indicador está 14,1 puntos por encima del de hace un año. La intención de comprar muebles y electrodomésticos subió a 8,1%, una señal favorable para el comercio minorista.",
+      "bajista": "La percepción de la situación actual de los hogares cayó a 1,7%, cerca de terreno negativo. La intención de comprar vivienda sigue en -24% y la de vehículos empeoró a -23,4%, lo que afecta a constructoras, bancos hipotecarios y concesionarios. El balance del tercer trimestre fue más bajo que el del segundo.",
+      "impacto": {
+        "conclusion": "Pesa ligeramente más la lectura bajista: el optimismo está en las expectativas, pero la situación actual de los hogares y la disposición a comprar bienes grandes se debilitaron. El efecto se concentra en las acciones de empresas ligadas al consumo, la vivienda y el crédito.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "mixto",
+            "detalle": "Mejores expectativas apoyan al comercio, pero la debilidad en vivienda y vehículos pesa sobre esos sectores."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "El próximo dato de ventas minoristas del DANE.",
+      "terminos": [
+        "Índice de Confianza del Consumidor",
+        "Bienes durables"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/indice-de-confianza-al-consumidor-en-septiembre-de-2026-entregado-por-fedesarrollo-4502556"
+    },
+    {
+      "id": "2026-10-15-07",
+      "fecha": "2026-10-15",
+      "categoria": "sectores",
+      "puntaje": {
+        "total": 5,
+        "alcance": 1,
+        "materialidad": 2,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "Las pérdidas aseguradas por el terremoto del 10 de agosto suben a $6,5 billones",
+      "resumen": "Fasecolda estimó en $6,5 billones las pérdidas aseguradas por el terremoto del 10 de agosto, 2,8% más que en el corte anterior, con 99.720 reclamaciones recibidas al 9 de octubre, según La República.",
+      "contexto": "La semana anterior la estimación era de $6,3 billones y las reclamaciones sumaban 97.251. La mayoría corresponde a seguros de incendio y hogar (91.944), seguidos de automóviles (1.301) y riesgos laborales (1.199). Las aseguradoras pagaron $215.533 millones en la última semana, 37,7% más que en el periodo anterior, y acumulan $786.543 millones en indemnizaciones. Es el noveno reporte de Fasecolda sobre el evento.",
+      "afectados": [
+        "Aseguradoras",
+        "Hogares",
+        "Copropiedades"
+      ],
+      "peso_alcista": 40,
+      "alcista": "El ritmo de pagos se aceleró: las indemnizaciones de la última semana crecieron 37,7%, lo que acelera la llegada de recursos a la reconstrucción. Esos pagos pueden impulsar la demanda de obras de reparación, materiales y servicios de construcción. Fasecolda indicó que las autoridades han ayudado a identificar casos prioritarios.",
+      "bajista": "La estimación de pérdidas sigue subiendo semana tras semana, lo que eleva el costo del evento para las aseguradoras. Hasta ahora solo se ha pagado cerca de una octava parte de lo estimado, así que la mayor parte del impacto financiero aún está por reflejarse. Las reclamaciones siguen creciendo, con más de 2.400 nuevas en una semana.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista para el sector asegurador, porque las pérdidas estimadas siguen aumentando y la mayor parte de los pagos está pendiente. Para quien invierte, el efecto se concentra en las acciones de grupos con negocio de seguros; los demás activos no se ven afectados de forma directa.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Pérdidas crecientes presionan los resultados de los grupos con negocio asegurador listados en la BVC."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "El próximo reporte semanal de Fasecolda sobre pérdidas e indemnizaciones.",
+      "terminos": [
+        "Pérdidas aseguradas",
+        "Indemnización"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/fasecolda-reporto-6-5-billones-en-perdidas-aseguradas-por-terremoto-del-10-de-agosto-4502510"
+    },
     {
       "id": "2026-10-14-01",
       "fecha": "2026-10-14",

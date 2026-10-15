@@ -1,5 +1,5 @@
 {
-  "actualizado": "14 oct 2026, 8:19 p. m. (hora Bogotá)",
+  "actualizado": "15 oct 2026, 7:06 a. m. (hora Bogotá)",
   "companias": [
     {
       "ticker": "MELI",
@@ -69,12 +69,69 @@
       "nombre": "PEI",
       "bolsa": "BVC: PEI",
       "que_hace": "Patrimonio Estrategias Inmobiliarias: el mayor vehículo de inversión inmobiliaria listado en Colombia, dueño de centros comerciales, oficinas, bodegas y otros inmuebles que arrienda.",
-      "estado": "Sin noticias recientes verificadas.",
+      "estado": "Desde el 14 de octubre de 2026 tiene dos formadores de liquidez para sus títulos: Alianza Valores y LarrainVial.",
       "hitos": [],
-      "fuente_url": "https://pei.com.co/en/relevant-information/"
+      "fuente_url": "https://www.valoraanalitik.com/pei-oficializo-segundo-formador-liquidez/"
     }
   ],
   "notas": [
+    {
+      "id": "2026-10-15-c01",
+      "fecha": "2026-10-15",
+      "empresa": "PEI",
+      "fecha_noticia": "2026-10-14",
+      "categoria": "bvc",
+      "puntaje": {
+        "total": 5,
+        "alcance": 1,
+        "materialidad": 1,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "PEI suma a LarrainVial como segundo formador de liquidez de sus títulos",
+      "resumen": "Pei Asset Management oficializó a la comisionista LarrainVial como segundo formador de liquidez de los títulos participativos de PEI en el mercado local, junto a Alianza Valores, según Valora Analitik.",
+      "contexto": "El objetivo declarado es mejorar las condiciones de negociación de los títulos en el mercado secundario y ampliar su alcance entre inversionistas locales e internacionales. LarrainVial, de origen chileno, también apoyará iniciativas de visibilidad, incluidas las relacionadas con una posible inclusión de los títulos en índices bursátiles. PEI tiene más de 1,15 millones de metros cuadrados de área arrendable, cerca de 1.500 arrendatarios, presencia en 32 ciudades y municipios, y un portafolio valorado en más de $10,1 billones.",
+      "afectados": [
+        "PEI",
+        "Fondos inmobiliarios"
+      ],
+      "peso_alcista": 65,
+      "alcista": "Un segundo formador de liquidez puede facilitar la negociación de los títulos de PEI, con más ofertas disponibles en el mercado. La red internacional de LarrainVial podría acercar los títulos a inversionistas extranjeros. Una eventual inclusión en índices bursátiles suele atraer demanda de fondos que replican esos índices.",
+      "bajista": "Un formador de liquidez mejora la negociación, pero no cambia los ingresos por arriendos ni el valor de los inmuebles. La inclusión en índices es solo una posibilidad mencionada, sin fecha ni compromiso. El efecto sobre el precio de los títulos depende de que realmente aumente el interés de los inversionistas.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura alcista: la medida apunta a uno de los puntos débiles de los títulos, su liquidez en el mercado secundario. El efecto se concentra en quienes tienen títulos de PEI y depende de que la mayor visibilidad se traduzca en más demanda.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "positivo",
+            "detalle": "Para quien tiene títulos de PEI: más liquidez y visibilidad pueden facilitar su negociación."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La evolución del volumen negociado de los títulos de PEI y cualquier anuncio sobre su inclusión en índices.",
+      "terminos": [
+        "Formador de liquidez",
+        "Títulos participativos",
+        "Mercado secundario"
+      ],
+      "fuente": "Valora Analitik",
+      "url": "https://www.valoraanalitik.com/pei-oficializo-segundo-formador-liquidez/"
+    },
     {
       "id": "2026-10-14-c01",
       "fecha": "2026-10-14",

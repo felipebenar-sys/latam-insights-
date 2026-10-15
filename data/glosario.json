@@ -255,6 +255,66 @@
     {
       "termino": "EBITDA",
       "definicion": "Utilidad de una empresa antes de intereses, impuestos, depreciaciones y amortizaciones. Mide cuánto genera la operación del negocio sin contar cómo está financiado ni los gastos contables por desgaste de activos."
+    },
+    {
+      "termino": "Inflación básica",
+      "definicion": "Medida de la inflación que excluye los precios más volátiles, como alimentos y energía. Sirve para ver la tendencia de fondo de los precios, sin el ruido de choques pasajeros, y es una de las cifras que más miran los bancos centrales para decidir las tasas de interés."
+    },
+    {
+      "termino": "Reserva Federal",
+      "definicion": "Banco central de Estados Unidos, también llamado Fed. Fija la tasa de interés de referencia de ese país; cuando la sube, el dólar suele fortalecerse y los inversionistas tienden a retirar dinero de mercados emergentes como Colombia, lo que afecta al peso, a los TES y a las acciones locales."
+    },
+    {
+      "termino": "Agencia Internacional de Energía",
+      "definicion": "Organismo internacional que analiza los mercados de petróleo, gas y otras fuentes de energía y coordina a sus países miembros en emergencias de suministro, por ejemplo con la liberación de reservas. Sus informes y advertencias influyen en las expectativas sobre el precio del crudo."
+    },
+    {
+      "termino": "Consulta del Artículo IV",
+      "definicion": "Revisión periódica, normalmente anual, que el FMI hace de la economía de cada país miembro. Evalúa las finanzas públicas, la política monetaria y los riesgos, y termina en un informe con recomendaciones que los inversionistas y las calificadoras siguen de cerca."
+    },
+    {
+      "termino": "Inversión pública",
+      "definicion": "Gasto del Estado en obras y proyectos que aumentan la capacidad productiva del país, como vías, acueductos, colegios o reconstrucción. Se diferencia del gasto de funcionamiento (salarios, pensiones y transferencias) y suele beneficiar a sectores como construcción e infraestructura."
+    },
+    {
+      "termino": "Papeles comerciales",
+      "definicion": "Títulos de deuda de corto plazo, normalmente de menos de un año, que emiten las empresas para financiarse directamente con los inversionistas. Quien los compra le presta dinero a la empresa y recibe a cambio intereses y la devolución del capital al vencimiento."
+    },
+    {
+      "termino": "Tasa fija",
+      "definicion": "Tasa de interés que no cambia durante toda la vida de un título o un crédito. Quien invierte sabe desde el principio cuánto va a recibir; si las tasas del mercado bajan después, el título gana valor, y si suben, lo pierde."
+    },
+    {
+      "termino": "Sobreadjudicación",
+      "definicion": "Posibilidad de que un emisor coloque más títulos de los ofrecidos inicialmente cuando la demanda de los inversionistas supera el monto de la oferta, hasta un límite fijado de antemano. Suele interpretarse como una señal de buen apetito por esa emisión."
+    },
+    {
+      "termino": "Índice de Confianza del Consumidor",
+      "definicion": "Indicador que mide, mediante encuestas a hogares, qué tan optimistas son las personas sobre su situación económica y la del país, y qué tan dispuestas están a comprar. En Colombia lo publica Fedesarrollo cada mes; un valor positivo indica más respuestas optimistas que pesimistas, y anticipa el comportamiento del consumo."
+    },
+    {
+      "termino": "Bienes durables",
+      "definicion": "Productos que se usan durante varios años, como vivienda, vehículos, muebles y electrodomésticos. Su compra suele aplazarse cuando los hogares se sienten inseguros, por eso la intención de comprarlos es una señal adelantada del consumo y del crédito."
+    },
+    {
+      "termino": "Pérdidas aseguradas",
+      "definicion": "Parte de los daños causados por un evento, como un terremoto, que está cubierta por pólizas de seguros y que, por lo tanto, deberán pagar las aseguradoras. Es una cifra clave para estimar el golpe a los resultados del sector asegurador."
+    },
+    {
+      "termino": "Indemnización",
+      "definicion": "Pago que hace una aseguradora a su cliente para compensar un daño o una pérdida cubierta por la póliza. El ritmo de las indemnizaciones muestra qué tan rápido llegan los recursos a los afectados."
+    },
+    {
+      "termino": "Formador de liquidez",
+      "definicion": "Entidad, usualmente una comisionista de bolsa, que se compromete a publicar de forma permanente ofertas de compra y de venta de un título. Su función es que los inversionistas puedan negociarlo con más facilidad y a precios más ajustados."
+    },
+    {
+      "termino": "Títulos participativos",
+      "definicion": "Valores que le dan a quien los compra una participación en un patrimonio o negocio, en lugar de una deuda con intereses fijos. En un vehículo inmobiliario como PEI, el inversionista recibe parte de los ingresos por arriendos y se beneficia o se perjudica con los cambios de valor de los inmuebles."
+    },
+    {
+      "termino": "Mercado secundario",
+      "definicion": "Mercado donde los inversionistas compran y venden entre ellos títulos que ya fueron emitidos, como acciones o bonos. Su profundidad determina qué tan fácil es salir de una inversión antes de su vencimiento y a qué precio."
     }
   ]
 }
