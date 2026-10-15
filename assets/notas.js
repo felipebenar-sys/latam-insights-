@@ -96,7 +96,7 @@
     }
 
     // Tarjeta corta (portada)
-    function tarjetaCorta(n) {
+    function tarjetaCorta(n, pagina = 'yentonces.html') {
         return `
         <article class="bg-stone-900 border border-stone-800 rounded-xl p-6 flex flex-col">
             ${cabecera(n)}
@@ -104,7 +104,7 @@
             <p class="text-stone-400 text-sm mb-4 flex-1">${esc(n.resumen)}</p>
             ${ponderacion(n, true)}
             ${neto(n) ? `<p class="text-xs mb-4"><span class="text-stone-500">Impacto en el portafolio:</span> <span class="${neto(n)[1]} font-semibold">${neto(n)[0]}</span></p>` : ''}
-            <a href="yentonces.html#${esc(n.id)}" class="text-amber-400 text-sm font-semibold hover:text-amber-300">Ver análisis →</a>
+            <a href="${pagina}#${esc(n.id)}" class="text-amber-400 text-sm font-semibold hover:text-amber-300">Ver análisis →</a>
         </article>`;
     }
 
@@ -492,8 +492,44 @@
         }).catch(() => { hoy.innerHTML = vacio('No pudimos cargar la cobertura en este momento.'); });
     };
 
+
+    // Portada: novedades de Cobertura LatAm y Biotecnología, solo si hay notas publicadas hoy (hora Bogotá)
+    window.renderNovedades = function () {
+        const sec = document.getElementById('novedades'), cont = document.getElementById('novedades-notas');
+        if (!sec || !cont) return;
+        const hoy = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Bogota', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
+        const leer = f => fetch(f, { cache: 'no-store' }).then(r => r.ok ? r.json() : { notas: [] }).catch(() => ({ notas: [] }));
+        Promise.all([leer('data/cobertura.json'), leer('data/biotech.json')]).then(([cob, bio]) => {
+            const nCob = (cob.notas || []).filter(n => n.fecha === hoy);
+            const nBio = (bio.notas || []).filter(n => n.fecha === hoy);
+            if (!nCob.length && !nBio.length) return;
+            const bioCard = n => `
+                <article class="bg-stone-900 border border-stone-800 rounded-xl p-6 flex flex-col">
+                    <div class="flex flex-wrap items-center gap-2 mb-3 text-xs">
+                        <span class="bg-sky-400/10 text-sky-300 border border-sky-400/20 px-2 py-0.5 rounded-full font-semibold">${esc(n.empresa)}</span>
+                        <span class="bg-stone-800 text-stone-300 px-2 py-0.5 rounded-full">Biotecnología</span>
+                    </div>
+                    <h4 class="serif text-lg font-bold text-white mb-2">${esc(n.titulo)}</h4>
+                    <p class="text-stone-400 text-sm mb-4 flex-1">${esc(n.resumen)}</p>
+                    <a href="biotecnologia.html#${esc(n.id)}" class="text-amber-400 text-sm font-semibold hover:text-amber-300">Leer la noticia →</a>
+                </article>`;
+            cont.innerHTML = nCob.map(n => tarjetaCorta(n, 'cobertura.html')).join('') + nBio.map(bioCard).join('');
+            sec.classList.remove('hidden');
+        });
+    };
+
     // Menú móvil
     window.initMenu = function () {
+        document.querySelectorAll('[data-dropdown]').forEach(dd => {
+            const b = dd.querySelector('button'), m = dd.querySelector('[data-menu]');
+            const set = abierto => { m.classList.toggle('hidden', !abierto); b.setAttribute('aria-expanded', abierto); };
+            let hoverAt = 0;
+            b.addEventListener('click', e => { e.stopPropagation(); if (Date.now() - hoverAt < 600) set(true); else set(m.classList.contains('hidden')); });
+            dd.addEventListener('pointerenter', e => { if (e.pointerType === 'mouse') { hoverAt = Date.now(); set(true); } });
+            dd.addEventListener('pointerleave', e => { if (e.pointerType === 'mouse') set(false); });
+            document.addEventListener('click', e => { if (!dd.contains(e.target)) set(false); });
+            document.addEventListener('keydown', e => { if (e.key === 'Escape') set(false); });
+        });
         const btn = document.getElementById('menu-btn'), panel = document.getElementById('menu-movil');
         if (!btn || !panel) return;
         btn.addEventListener('click', () => {
