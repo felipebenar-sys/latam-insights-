@@ -12,6 +12,29 @@
     };
 
 
+
+    // Sello visible de actualización: "Actualizado hoy, 7:05 a. m." (verde si es de hoy, gris si es antiguo)
+    const MES = { ene: 0, feb: 1, mar: 2, abr: 3, may: 4, jun: 5, jul: 6, ago: 7, sep: 8, oct: 9, nov: 10, dic: 11 };
+    function sello(act) {
+        if (!act) return '';
+        const t = String(act).replace(/ \(hora Bogotá\)/, '');
+        const hora = (t.match(/\d{1,2}:\d{2}\s*[ap]\.\s*m\./i) || [''])[0];
+        const f = t.match(/(\d{1,2})\s+([a-záéíóú]{3})[a-z]*\.?\s+(\d{4})/i);
+        const hoy = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Bogota', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
+        let esHoy = false, dia = '';
+        if (f && MES[f[2].toLowerCase()] !== undefined) {
+            const iso = `${f[3]}-${String(MES[f[2].toLowerCase()] + 1).padStart(2, '0')}-${String(f[1]).padStart(2, '0')}`;
+            esHoy = iso === hoy; dia = `${f[1]} ${f[2].toLowerCase()}`;
+        }
+        const txt = hora ? `Actualizado ${esHoy ? 'hoy' : dia}, ${hora}` : `Actualizado ${esc(t)}`;
+        const col = esHoy ? 'bg-emerald-500/10 border-emerald-500/30 text-emerald-300' : 'bg-stone-800 border-stone-700 text-stone-300';
+        const punto = esHoy
+            ? '<span class="relative flex w-2 h-2"><span class="absolute inline-flex w-full h-full rounded-full bg-emerald-400 opacity-60 animate-ping"></span><span class="relative inline-flex w-2 h-2 rounded-full bg-emerald-400"></span></span>'
+            : '<span class="inline-flex w-2 h-2 rounded-full bg-stone-500"></span>';
+        return `<span class="inline-flex items-center gap-2 border ${col} text-xs font-semibold px-2.5 py-1 rounded-full whitespace-nowrap" title="${esc(t)} (hora Bogotá)">${punto}${esc(txt)}</span>`;
+    }
+    window.selloActualizado = sello;
+
     // Ponderación alcista/bajista (peso_alcista: 0-100; bajista = 100 - alcista)
     function ponderacion(n, compacta) {
         const a = Number(n.peso_alcista);
@@ -104,18 +127,22 @@
             <p class="text-stone-400 text-sm mb-4 flex-1">${esc(n.resumen)}</p>
             ${ponderacion(n, true)}
             ${neto(n) ? `<p class="text-xs mb-4"><span class="text-stone-500">Impacto en el portafolio:</span> <span class="${neto(n)[1]} font-semibold">${neto(n)[0]}</span></p>` : ''}
-            <a href="${pagina}#${esc(n.id)}" class="text-amber-400 text-sm font-semibold hover:text-amber-300">Ver análisis →</a>
+            <div class="flex items-center justify-between gap-3">
+                <a href="${pagina}#${esc(n.id)}" class="text-amber-400 text-sm font-semibold hover:text-amber-300">Ver análisis →</a>
+                ${compartir(n, pagina)}
+            </div>
         </article>`;
     }
 
     // Botón de compartir por WhatsApp
     function compartir(n, pagina = 'yentonces.html') {
         const url = location.origin + location.pathname.replace(/[^/]*$/, '') + pagina + '#' + n.id;
-        const txt = `${n.titulo} | ¿Y Entonces? de Stag Research\n${url}`;
-        return `<a href="https://wa.me/?text=${encodeURIComponent(txt)}" target="_blank" rel="noopener noreferrer"
+        const nt = neto(n);
+        const txt = `*${n.titulo}*\n${nt ? `Impacto en el portafolio: ${nt[0]}\n` : ''}¿Y Entonces? · Stag Research\n${url}`;
+        return `<a href="https://wa.me/?text=${encodeURIComponent(txt)}" target="_blank" rel="noopener noreferrer" aria-label="Compartir por WhatsApp"
                    class="inline-flex items-center gap-1.5 text-xs font-semibold text-stone-300 hover:text-emerald-400 border border-stone-700 hover:border-emerald-500/50 rounded-md px-2.5 py-1.5 transition">
                    <svg viewBox="0 0 24 24" class="w-3.5 h-3.5 fill-current" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.8-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg>
-                   Compartir</a>`;
+                   WhatsApp</a>`;
     }
 
     // Nota completa (página ¿Y Entonces?): lo esencial visible, el análisis completo plegable
@@ -328,11 +355,12 @@
             const todas = Array.isArray(data.notas) ? data.notas : [];
             const { porFecha: pf, fechas: fs } = agrupar(todas);
             const notas = (fs.length ? pf[fs[0]] : []).slice(0, n);
-            cont.innerHTML = notas.length ? notas.map(tarjetaCorta).join('') : vacio('Las primeras notas ¿Y Entonces? se publicarán muy pronto.');
+            cont.innerHTML = notas.length ? notas.map(n => tarjetaCorta(n)).join('') : vacio('Las primeras notas ¿Y Entonces? se publicarán muy pronto.');
             if (res && todas.length) {
                 const { porFecha, fechas } = agrupar(todas);
                 const t = document.getElementById('resumen-portada-fecha'); if (t) t.textContent = 'Edición del ' + fmtFecha(fechas[0]);
                 res.innerHTML = resumenDia(porFecha[fechas[0]], 'yentonces.html');
+                const pa = document.getElementById('portada-actualizado'); if (pa && data.actualizado) pa.innerHTML = sello(data.actualizado);
             }
         }).catch(() => { cont.innerHTML = vacio('No pudimos cargar las notas en este momento.'); });
     };
@@ -343,7 +371,7 @@
         initPopover();
         cargar().then(data => {
             const notas = Array.isArray(data.notas) ? data.notas : [];
-            if (data.actualizado) document.getElementById('notas-actualizado').textContent = 'Actualizado: ' + data.actualizado.replace(/ \(hora Bogotá\)/, '');
+            if (data.actualizado) document.getElementById('notas-actualizado').innerHTML = sello(data.actualizado);
             if (!notas.length) { hoy.innerHTML = vacio('Las primeras notas ¿Y Entonces? se publicarán muy pronto.'); return; }
             const { porFecha, fechas } = agrupar(notas);
             const ed = porFecha[fechas[0]];
@@ -421,7 +449,7 @@
             const cias = d.companias || [];
             const empresas = Object.fromEntries(cias.map(c => [c.ticker, c]));
             document.getElementById('bio-empresas').innerHTML = cias.map(fichaEmpresa).join('');
-            if (d.actualizado) document.getElementById('bio-actualizado').textContent = 'Actualizado: ' + d.actualizado.replace(/ \(hora Bogotá\)/, '');
+            if (d.actualizado) document.getElementById('bio-actualizado').innerHTML = sello(d.actualizado);
             const notas = Array.isArray(d.notas) ? d.notas : [];
             if (!notas.length) { hoy.innerHTML = vacio('Aún no hay noticias de las compañías cubiertas.'); return; }
             const porFecha = {}; notas.forEach(n => (porFecha[n.fecha] ||= []).push(n));
@@ -460,7 +488,7 @@
         fetch('data/cobertura.json', { cache: 'no-store' }).then(r => r.json()).then(d => {
             const cias = d.companias || [];
             document.getElementById('cob-empresas').innerHTML = cias.map(fichaEmpresa).join('');
-            if (d.actualizado) document.getElementById('cob-actualizado').textContent = 'Actualizado: ' + d.actualizado.replace(/ \(hora Bogotá\)/, '');
+            if (d.actualizado) document.getElementById('cob-actualizado').innerHTML = sello(d.actualizado);
             const notas = Array.isArray(d.notas) ? d.notas : [];
             if (!notas.length) { hoy.innerHTML = vacio('Aún no hay noticias de las compañías cubiertas.'); return; }
             const { porFecha, fechas } = agrupar(notas);
@@ -512,7 +540,10 @@
                     </div>
                     <h4 class="serif text-lg font-bold text-white mb-2">${esc(n.titulo)}</h4>
                     <p class="text-stone-400 text-sm mb-4 flex-1">${esc(n.resumen)}</p>
-                    <a href="biotecnologia.html#${esc(n.id)}" class="text-amber-400 text-sm font-semibold hover:text-amber-300">Leer la noticia →</a>
+                    <div class="flex items-center justify-between gap-3">
+                        <a href="biotecnologia.html#${esc(n.id)}" class="text-amber-400 text-sm font-semibold hover:text-amber-300">Leer la noticia →</a>
+                        ${compartir(n, 'biotecnologia.html')}
+                    </div>
                 </article>`;
             cont.innerHTML = nCob.map(n => tarjetaCorta(n, 'cobertura.html')).join('') + nBio.map(bioCard).join('');
             sec.classList.remove('hidden');
