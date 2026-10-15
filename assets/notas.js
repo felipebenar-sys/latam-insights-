@@ -508,6 +508,7 @@
                     <div class="flex flex-wrap items-center gap-2 mb-3 text-xs">
                         <span class="bg-sky-400/10 text-sky-300 border border-sky-400/20 px-2 py-0.5 rounded-full font-semibold">${esc(n.empresa)}</span>
                         <span class="bg-stone-800 text-stone-300 px-2 py-0.5 rounded-full">Biotecnología</span>
+                        <a href="${esc(safeUrl(n.url))}" target="_blank" rel="noopener noreferrer" class="text-stone-400 hover:text-amber-400 underline underline-offset-2">Fuente: ${esc(n.fuente)}</a>
                     </div>
                     <h4 class="serif text-lg font-bold text-white mb-2">${esc(n.titulo)}</h4>
                     <p class="text-stone-400 text-sm mb-4 flex-1">${esc(n.resumen)}</p>
