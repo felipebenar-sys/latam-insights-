@@ -552,6 +552,8 @@
 
     // Menú móvil
     window.initMenu = function () {
+        // Aviso legal: abierto en computador, plegado en celular (el texto completo siempre está en la página)
+        if (matchMedia('(min-width: 768px)').matches) document.querySelectorAll('details[data-aviso]').forEach(d => d.open = true);
         document.querySelectorAll('[data-dropdown]').forEach(dd => {
             const b = dd.querySelector('button'), m = dd.querySelector('[data-menu]');
             const set = abierto => { m.classList.toggle('hidden', !abierto); b.setAttribute('aria-expanded', abierto); };
