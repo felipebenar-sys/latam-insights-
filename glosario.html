@@ -7,6 +7,17 @@
     <meta name="description" content="Glosario de Stag Research: los términos de las noticias económicas y del mercado explicados en lenguaje sencillo.">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
+    <style type="text/tailwindcss">
+        /* Paleta tonal: verde salvia (alcista) y terracota (bajista), menos saturados que los de Tailwind */
+        @theme {
+            --color-emerald-300: #a9cdb4;
+            --color-emerald-400: #84b896;
+            --color-emerald-500: #64a07b;
+            --color-rose-300: #e6ab97;
+            --color-rose-400: #d88a72;
+            --color-rose-500: #c06d55;
+        }
+    </style>
     <style>
         /* Sistema de diseño: tokens centrales del sitio */
         :root {
@@ -18,8 +29,8 @@
             --c-texto: #f5f5f4;          /* stone-100 */
             --c-texto-suave: #a8a29e;    /* stone-400 */
             --c-acento: #fbbf24;         /* amber-400 */
-            --c-alcista: #34d399;        /* emerald-400 */
-            --c-bajista: #fb7185;        /* rose-400 */
+            --c-alcista: #84b896;        /* verde salvia */
+            --c-bajista: #d88a72;        /* terracota */
             --c-esqueleto: #292524;      /* stone-800 */
             --c-esqueleto-brillo: #3a3532;
             --radio: 0.75rem;
@@ -143,11 +154,11 @@
                 <div class="space-y-4 mt-4">
                     <p class="text-stone-300 font-semibold text-sm">Aviso legal y descargo de responsabilidad</p>
                     <p>Todo el contenido publicado por Stag Research en este sitio, incluidos los análisis diarios, la cobertura de compañías, el glosario y los reportes de research, tiene fines exclusivamente informativos, educativos y de investigación independiente. No constituye asesoría de inversión, recomendación personalizada, oferta, solicitud ni invitación a comprar, vender o mantener valores o cualquier otro instrumento financiero.</p>
-            <p>Stag Research no es una entidad vigilada por la Superintendencia Financiera de Colombia, no administra recursos de terceros y no presta servicios de intermediación ni de asesoría en el mercado de valores. El contenido no tiene en cuenta los objetivos, la situación financiera ni el perfil de riesgo de ningún lector en particular.</p>
+            <p>Stag Research no es una entidad vigilada por la Superintendencia Financiera de Colombia, no administra recursos de terceros y no presta servicios de intermediación ni de asesoría en el mercado de valores. El contenido no tiene en cuenta tus objetivos, tu situación financiera ni tu perfil de riesgo.</p>
             <p>La información se basa en fuentes públicas que consideramos confiables, pero no garantizamos su exactitud, integridad ni actualidad. Las opiniones, estimaciones y valoraciones reflejan el criterio de Stag Research a la fecha de publicación y pueden cambiar sin previo aviso. Las rentabilidades pasadas no garantizan resultados futuros. Invertir en valores implica riesgos, incluida la posible pérdida del capital invertido.</p>
             <p><span class="text-stone-300 font-semibold">Datos de mercado.</span> Los indicadores que se muestran en el sitio, como la TRM, el MSCI COLCAP, el Brent, la tasa del Banco de la República y la inflación, provienen de fuentes públicas de terceros y se actualizan una vez al día. Pueden tener rezago frente al mercado en tiempo real, así como errores, omisiones o demoras en su actualización, y no deben usarse para operar.</p>
-            <p><span class="text-stone-300 font-semibold">Conflictos de interés.</span> Stag Research, sus colaboradores o personas vinculadas a ellos pueden tener, ahora o en el futuro, posiciones en los valores o en los emisores mencionados en este sitio. El lector debe tener en cuenta esta posibilidad al evaluar el contenido.</p>
-            <p>Antes de tomar cualquier decisión de inversión, consulte con un asesor profesional debidamente autorizado. Stag Research y sus colaboradores no se hacen responsables por decisiones tomadas con base en este contenido.</p>
+            <p><span class="text-stone-300 font-semibold">Conflictos de interés.</span> Stag Research, sus colaboradores o personas vinculadas a ellos pueden tener, ahora o en el futuro, posiciones en los valores o en los emisores mencionados en este sitio. Ten en cuenta esta posibilidad al evaluar el contenido.</p>
+            <p>Antes de tomar cualquier decisión de inversión, consulta con un asesor profesional debidamente autorizado. Stag Research y sus colaboradores no se hacen responsables por decisiones tomadas con base en este contenido.</p>
                 </div>
             </details>
             <p class="pt-4 border-t border-stone-900">© 2026 Stag Research. Todos los derechos reservados.</p>
