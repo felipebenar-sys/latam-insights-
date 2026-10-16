@@ -1,6 +1,12 @@
 // Renderizado de notas ¿Y Entonces? — compartido por index.html y yentonces.html
 // Datos: data/notas.json (esquema en bot/INSTRUCCIONES.md)
 (function () {
+    // Skeleton loaders: cuando un contenedor recibe su contenido real, deja de estar "ocupado" para lectores de pantalla
+    document.querySelectorAll('[aria-busy="true"]').forEach(el => {
+        const obs = new MutationObserver(() => { el.setAttribute('aria-busy', 'false'); obs.disconnect(); });
+        obs.observe(el, { childList: true });
+    });
+
     const CAT = { bvc: 'BVC', macro: 'Macro Colombia', commodities: 'Commodities', latam: 'LatAm', internacional: 'Mercados internacionales', politica: 'Política económica', sectores: 'Sectores' };
     const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
     const slug = t => String(t).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
@@ -605,7 +611,7 @@
                 .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
                 .then(rows => { if (rows && rows[0]) pintaTrm(Number(rows[0].valor), rows[1] ? Number(rows[1].valor) : NaN, rows[0].vigenciadesde); })
                 .catch(() => {})
-                .finally(() => el.querySelectorAll('[data-trm],[data-brent],[data-colcap],[data-banrep],[data-inflacion]').forEach(n => { if (/cargando/i.test(n.textContent)) n.textContent = 'n. d.'; }));
+                .finally(() => el.querySelectorAll('[data-trm],[data-brent],[data-colcap],[data-banrep],[data-inflacion]').forEach(n => { if (n.querySelector('.sk')) n.textContent = 'n. d.'; }));
         });
     };
 
