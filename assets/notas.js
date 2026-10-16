@@ -1,4 +1,4 @@
-// Renderizado de notas ¿Y Entonces? — compartido por index.html y yentonces.html
+// Renderizado de notas Hoy — compartido por index.html y yentonces.html
 // Datos: data/notas.json (esquema en bot/INSTRUCCIONES.md)
 (function () {
     // Skeleton loaders: cuando un contenedor recibe su contenido real, deja de estar "ocupado" para lectores de pantalla
@@ -144,14 +144,14 @@
     function compartir(n, pagina = 'yentonces.html') {
         const url = location.origin + location.pathname.replace(/[^/]*$/, '') + pagina + '#' + n.id;
         const nt = neto(n);
-        const txt = `*${n.titulo}*\n${nt ? `Impacto en el portafolio: ${nt[0]}\n` : ''}¿Y Entonces? · Stag Research\n${url}`;
+        const txt = `*${n.titulo}*\n${nt ? `Impacto en el portafolio: ${nt[0]}\n` : ''}Stag Research\n${url}`;
         return `<a href="https://wa.me/?text=${encodeURIComponent(txt)}" target="_blank" rel="noopener noreferrer" aria-label="Compartir por WhatsApp"
                    class="inline-flex items-center gap-1.5 text-xs font-semibold text-stone-300 hover:text-emerald-400 border border-stone-700 hover:border-emerald-500/50 rounded-md px-2.5 py-1.5 transition">
                    <svg viewBox="0 0 24 24" class="w-3.5 h-3.5 fill-current" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.8-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg>
                    WhatsApp</a>`;
     }
 
-    // Nota completa (página ¿Y Entonces?): lo esencial visible, el análisis completo plegable
+    // Nota completa (página Hoy): lo esencial visible, el análisis completo plegable
     function notaCompleta(n, pagina = 'yentonces.html') {
         const afectados = Array.isArray(n.afectados) && n.afectados.length
             ? `<div class="mb-5">
@@ -298,7 +298,7 @@
         addEventListener('keydown', e => { if (e.key === 'Escape') cerrar(); });
     }
 
-    // Filtros por tipo de activo y categoría (página ¿Y Entonces?)
+    // Filtros por tipo de activo y categoría (página Hoy)
     function initFiltros(cont, notas) {
         const box = document.getElementById('filtros');
         if (!box) return;
@@ -361,7 +361,7 @@
             const todas = Array.isArray(data.notas) ? data.notas : [];
             const { porFecha: pf, fechas: fs } = agrupar(todas);
             const notas = (fs.length ? pf[fs[0]] : []).slice(0, n);
-            cont.innerHTML = notas.length ? notas.map(n => tarjetaCorta(n)).join('') : vacio('Las primeras notas ¿Y Entonces? se publicarán muy pronto.');
+            cont.innerHTML = notas.length ? notas.map(n => tarjetaCorta(n)).join('') : vacio('Las primeras notas se publicarán muy pronto.');
             if (res && todas.length) {
                 const { porFecha, fechas } = agrupar(todas);
                 const t = document.getElementById('resumen-portada-fecha'); if (t) t.textContent = 'Edición del ' + fmtFecha(fechas[0]);
@@ -371,14 +371,14 @@
         }).catch(() => { cont.innerHTML = vacio('No pudimos cargar las notas en este momento.'); });
     };
 
-    // Página ¿Y Entonces?: resumen del día, filtros, edición más reciente y archivo
+    // Página Hoy: resumen del día, filtros, edición más reciente y archivo
     window.renderPagina = function () {
         const hoy = document.getElementById('notas-hoy');
         initPopover();
         cargar().then(data => {
             const notas = Array.isArray(data.notas) ? data.notas : [];
             if (data.actualizado) document.getElementById('notas-actualizado').innerHTML = sello(data.actualizado);
-            if (!notas.length) { hoy.innerHTML = vacio('Las primeras notas ¿Y Entonces? se publicarán muy pronto.'); return; }
+            if (!notas.length) { hoy.innerHTML = vacio('Las primeras notas se publicarán muy pronto.'); return; }
             const { porFecha, fechas } = agrupar(notas);
             const ed = porFecha[fechas[0]];
             document.getElementById('notas-hoy-titulo').textContent = 'Edición del ' + fmtFecha(fechas[0]);
@@ -487,7 +487,7 @@
     };
 
 
-    // ===== Cobertura LatAm (data/cobertura.json): formato completo de ¿Y Entonces? por compañía =====
+    // ===== Cobertura LatAm (data/cobertura.json): formato completo de Hoy por compañía =====
     window.renderCobertura = function () {
         const hoy = document.getElementById('cob-notas');
         initPopover();
