@@ -405,7 +405,7 @@
     };
 
 
-    // ===== Cobertura de biotecnología (data/biotech.json): solo noticias explicadas, sin opinión =====
+    // ===== Biotecnología (data/biotech.json): solo noticias explicadas, sin opinión =====
     function notaBiotech(n, empresas) {
         const emp = empresas[n.empresa] || { nombre: n.empresa };
         const fn = n.fecha_noticia ? fmtFecha(n.fecha_noticia) : '';
@@ -437,7 +437,7 @@
         <div class="bg-stone-900 border border-stone-800 rounded-xl p-5 flex flex-col">
             <div class="flex items-baseline justify-between gap-2 mb-2">
                 <p class="text-white font-bold text-lg">${esc(c.nombre)}</p>
-                <span class="text-sky-300 text-xs font-semibold">${esc(c.bolsa)}: ${esc(c.ticker)}</span>
+                <span class="text-sky-300 text-xs font-semibold">${String(c.bolsa || '').includes(':') ? esc(c.bolsa) : `${esc(c.bolsa)}: ${esc(c.ticker)}`}</span>
             </div>
             <p class="text-stone-300 text-sm leading-relaxed mb-3">${esc(c.que_hace)}</p>
             <p class="text-stone-400 text-sm leading-relaxed mb-3"><span class="text-stone-500 text-xs font-bold uppercase tracking-wider block mb-1">Estado</span>${esc(c.estado)}</p>
