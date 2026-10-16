@@ -315,6 +315,50 @@
     {
       "termino": "Mercado secundario",
       "definicion": "Mercado donde los inversionistas compran y venden entre ellos títulos que ya fueron emitidos, como acciones o bonos. Su profundidad determina qué tan fácil es salir de una inversión antes de su vencimiento y a qué precio."
+    },
+    {
+      "termino": "Carry trade",
+      "definicion": "Estrategia en la que un inversionista se endeuda en una moneda con tasas de interés bajas para invertir en otra con tasas altas, como el peso colombiano, y ganar la diferencia. Estos flujos pueden fortalecer la moneda de destino, pero se revierten rápido si cambian las tasas o aumenta el miedo en los mercados."
+    },
+    {
+      "termino": "Incidente de impacto fiscal",
+      "definicion": "Mecanismo por el cual el Gobierno pide a una alta corte que revise los efectos de un fallo sobre las finanzas públicas. La corte puede modular o aplazar la aplicación de su decisión, pero no cambiar su sentido. Le importa al inversionista porque puede alterar cuánto y cuándo debe gastar el Estado."
+    },
+    {
+      "termino": "Tasa de desempleo",
+      "definicion": "Porcentaje de las personas que buscan trabajo y no lo encuentran, dentro del total de la fuerza laboral. Un desempleo más alto suele reducir el consumo de los hogares y las ventas de las empresas, y puede aumentar los atrasos en el pago de créditos."
+    },
+    {
+      "termino": "Estatutos sociales",
+      "definicion": "Reglas internas de una empresa que definen, entre otras cosas, cómo se elige su junta directiva y su presidente y cómo se toman las decisiones. Sus cambios deben aprobarse en la asamblea de accionistas y pueden afectar los derechos de los accionistas minoritarios."
+    },
+    {
+      "termino": "Miembro independiente de junta",
+      "definicion": "Integrante de la junta directiva que no tiene vínculos laborales ni de propiedad relevantes con la empresa o con su accionista controlante. Su función es aportar un criterio imparcial y proteger los intereses de todos los accionistas, incluidos los minoritarios."
+    },
+    {
+      "termino": "Asamblea extraordinaria de accionistas",
+      "definicion": "Reunión de accionistas convocada fuera de la asamblea anual ordinaria para decidir un tema específico, como una reforma de estatutos o la elección de una nueva junta. Sus decisiones obligan a la empresa y a todos los accionistas."
+    },
+    {
+      "termino": "Acciones en circulación libre",
+      "definicion": "Parte de las acciones de una empresa que está disponible para negociarse en bolsa, sin contar las que tienen el controlante y otros grandes tenedores de largo plazo (en inglés, free float). Un porcentaje bajo suele limitar la liquidez y puede impedir la entrada en índices internacionales."
+    },
+    {
+      "termino": "Acuerdo de accionistas",
+      "definicion": "Contrato entre dos o más accionistas de una empresa para votar en el mismo sentido o actuar de forma coordinada en ciertas decisiones. Puede consolidar el control de la compañía en pocas manos y reducir la influencia de los demás accionistas."
+    },
+    {
+      "termino": "Beneficiario final",
+      "definicion": "Persona natural que, directa o indirectamente a través de sociedades, es la dueña real o controla una empresa o una participación accionaria. Conocerlo permite a los inversionistas saber quién toma realmente las decisiones."
+    },
+    {
+      "termino": "Corresponsal bancario",
+      "definicion": "Comercio, como una tienda o droguería, autorizado para prestar algunos servicios de un banco, como depósitos, retiros y pagos, en nombre de esa entidad. Permite a los bancos llegar a más clientes sin abrir oficinas propias."
+    },
+    {
+      "termino": "Superintendencia de Industria y Comercio",
+      "definicion": "Entidad del Estado colombiano que vigila la libre competencia y protege al consumidor. Debe autorizar las fusiones y compras entre empresas que superen ciertos tamaños, y puede negarlas o imponer condiciones si afectan la competencia."
     }
   ]
 }

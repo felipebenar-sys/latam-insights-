@@ -1,5 +1,5 @@
 {
-  "actualizado": "15 oct 2026, 7:06 a. m. (hora Bogotá)",
+  "actualizado": "16 oct 2026, 7:12 a. m. (hora Bogotá)",
   "companias": [
     {
       "ticker": "MELI",
@@ -46,9 +46,14 @@
       "nombre": "Grupo Cibest",
       "bolsa": "BVC y NYSE: CIB (ADR)",
       "que_hace": "Holding financiero que agrupa a Bancolombia y sus filiales en Colombia y Centroamérica; es el mayor grupo bancario del país.",
-      "estado": "Sin noticias recientes verificadas.",
-      "hitos": [],
-      "fuente_url": "https://www.valoraanalitik.com/finalizo-la-evolucion-de-bancolombia-en-grupo-cibest-sus-acciones-estaran-disponibles-en-la-bvc-desde-el-lunes/"
+      "estado": "Solicitó a la SIC autorización para tomar el control de la fintech Comercial Card, que administra una red de unos 28.844 comercios; la operación está pendiente de aprobación.",
+      "hitos": [
+        {
+          "texto": "Decisión de la SIC sobre la compra de Comercial Card",
+          "fecha": "por definir"
+        }
+      ],
+      "fuente_url": "https://www.portafolio.co/negocios/empresas/grupo-cibest-busca-comprar-comercial-card-fintech-con-una-red-de-28-844-comercios-en-colombia-504435"
     },
     {
       "ticker": "GRUPOARGOS",
@@ -75,6 +80,65 @@
     }
   ],
   "notas": [
+    {
+      "id": "2026-10-16-c01",
+      "fecha": "2026-10-16",
+      "empresa": "CIBEST",
+      "fecha_noticia": "2026-10-14",
+      "categoria": "bvc",
+      "puntaje": {
+        "total": 4,
+        "alcance": 1,
+        "materialidad": 1,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "Grupo Cibest pide permiso a la SIC para comprar la fintech Comercial Card",
+      "resumen": "Grupo Cibest, casa matriz de Bancolombia, solicitó a la Superintendencia de Industria y Comercio autorización para tomar el control de Comercial Card, una fintech que administra una red de unos 28.844 comercios, según Portafolio.",
+      "contexto": "La compra se haría mediante Estrategias Cibest S.A.S. con adquisición de acciones; el porcentaje y otros detalles son confidenciales, y el cierre depende de la aprobación de la SIC, a la que se pidió revisar la operación en Fase I. Comercial Card vincula y administra comercios que actúan como corresponsales bancarios de entidades como Bancolombia y Nequi, y además ofrece pagos de servicios públicos, recargas y plataformas de marca blanca. Las compañías señalaron que en ese mercado operan al menos diez agentes y que los comercios no pasarán automáticamente a las redes de Bancolombia o Nequi.",
+      "afectados": [
+        "Grupo Cibest",
+        "Bancolombia",
+        "Nequi",
+        "Corresponsales bancarios"
+      ],
+      "peso_alcista": 60,
+      "alcista": "Controlar a quien administra la red de comercios permitiría a Grupo Cibest ganar eficiencias en la operación de sus corresponsales bancarios, según la propia compañía. La operación suma una línea de negocio transaccional, con pagos y recargas, que complementa a Nequi y a la pasarela Wompi. La red de cerca de 28.844 comercios amplía los puntos físicos de contacto con clientes. La existencia de al menos diez competidores podría facilitar la aprobación de la SIC.",
+      "bajista": "La operación aún no está aprobada y la SIC debe evaluar sus efectos sobre la competencia. No se conocen el precio ni el porcentaje que se compraría, por lo que no es posible medir su peso en las finanzas del grupo. El tamaño de Comercial Card es pequeño frente al de Grupo Cibest, lo que limita su efecto en los resultados. Parte del negocio incluye recargas para portales de apuestas, una actividad sujeta a regulación.",
+      "impacto": {
+        "conclusion": "Pesa algo más la lectura alcista: la compra refuerza la red física y transaccional que usan Bancolombia y Nequi. Sin embargo, su efecto sobre las cifras del grupo parece acotado y depende de la aprobación de la SIC y de condiciones que no se han revelado.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "positivo",
+            "detalle": "Para quien tiene acciones de Grupo Cibest: suma eficiencias y negocio transaccional, con efecto acotado en resultados."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo para quien tiene ADR de Cibest (CIB) en Nueva York, más allá del movimiento de la acción."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La decisión de la SIC sobre la integración en Fase I.",
+      "terminos": [
+        "Corresponsal bancario",
+        "Superintendencia de Industria y Comercio",
+        "Conglomerado financiero"
+      ],
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/negocios/empresas/grupo-cibest-busca-comprar-comercial-card-fintech-con-una-red-de-28-844-comercios-en-colombia-504435"
+    },
     {
       "id": "2026-10-15-c01",
       "fecha": "2026-10-15",

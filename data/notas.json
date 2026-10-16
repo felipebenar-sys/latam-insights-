@@ -1,6 +1,404 @@
 {
-  "actualizado": "15 oct 2026, 7:06 a. m. (hora Bogotá)",
+  "actualizado": "16 oct 2026, 7:12 a. m. (hora Bogotá)",
   "notas": [
+    {
+      "id": "2026-10-16-01",
+      "fecha": "2026-10-16",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 8,
+        "alcance": 2,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "El dólar baja a $3.170 en Colombia, nivel que no se veía desde septiembre",
+      "resumen": "El dólar cerró el jueves en $3.170,42, $27,23 por debajo de la TRM del día, en medio de una caída fuerte de los rendimientos de los bonos del Tesoro de EE. UU., según La República.",
+      "contexto": "La TRM de la jornada era de $3.197,65 y el dólar se movió entre $3.157,70 y $3.183, con negocios por US$1.544 millones. La inflación de EE. UU. de septiembre fue de 3,7%, por encima del 3,6% esperado, pero luego comentarios cautelosos de la Reserva Federal redujeron las apuestas por un alza de tasas en octubre y bajaron los rendimientos del Tesoro. Un analista de Corficolombiana citado atribuyó el movimiento del peso sobre todo a las tasas de interés locales, que favorecen el carry trade, y al optimismo del mercado con el nuevo gobierno.",
+      "afectados": [
+        "Peso colombiano",
+        "Importadores",
+        "Exportadores",
+        "TES"
+      ],
+      "peso_alcista": 55,
+      "alcista": "Un peso más fuerte abarata las importaciones y los bienes que dependen del dólar, lo que puede ayudar a moderar la inflación. La caída de los rendimientos del Tesoro de EE. UU. reduce la presión sobre las tasas de los TES, lo que favorece el precio de los que ya están en los portafolios. El analista citado considera que la tendencia de fondo del dólar sigue siendo bajista y que los rebotes son pequeños. Las tasas locales altas siguen atrayendo flujos hacia activos en pesos.",
+      "bajista": "Para quien tiene ahorros o inversiones en dólares, la baja del dólar reduce su valor medido en pesos. Los exportadores y las empresas que venden en dólares reciben menos pesos por sus ventas. Parte del atractivo del peso depende del carry trade, una estrategia que puede revertirse rápido si cambian las tasas o el apetito por riesgo. La inflación de EE. UU. por encima de lo esperado mantiene abierta la posibilidad de nuevas alzas de la Reserva Federal.",
+      "impacto": {
+        "conclusion": "Pesa algo más la lectura alcista para el mercado local: un peso más fuerte y menores rendimientos del Tesoro alivian la presión sobre la inflación y sobre los TES. Para quien invierte, el principal efecto negativo está en los ahorros en dólares, que valen menos en pesos.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "positivo",
+            "detalle": "La baja de los rendimientos del Tesoro de EE. UU. reduce la presión sobre las tasas de los TES y favorece su precio."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "negativo",
+            "detalle": "Un dólar más barato reduce en pesos el valor de los ahorros e inversiones en dólares."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La TRM de los próximos días y la decisión de tasas de la Reserva Federal.",
+      "terminos": [
+        "TRM",
+        "Revaluación del peso",
+        "Carry trade",
+        "Bonos del Tesoro de EE. UU.",
+        "Reserva Federal"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/precio-del-dolar-y-petroleo-hoy-15-de-octubre-4503301"
+    },
+    {
+      "id": "2026-10-16-02",
+      "fecha": "2026-10-16",
+      "categoria": "politica",
+      "puntaje": {
+        "total": 7,
+        "alcance": 1,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "La Corte da 30 días a Hacienda para sustentar el costo fiscal de la reforma pensional",
+      "resumen": "La Corte Constitucional abrió por unanimidad un incidente de impacto fiscal sobre el fallo que avaló la reforma pensional y dio al Ministerio de Hacienda 30 días hábiles para justificar por qué no hay recursos para aplicarla a tiempo, según Valora Analitik.",
+      "contexto": "El ministro de Hacienda, Miguel Gómez, radicó la solicitud el 23 de septiembre y estimó que el nuevo sistema exigirá recursos adicionales para Colpensiones por cerca de $5 billones, que no quedaron en el Presupuesto de 2027. Si Hacienda no presenta la sustentación en el plazo, la solicitud se declarará desierta. La decisión no anula ni suspende la reforma, que debería entrar en vigor el 1 de abril de 2027. Colpensiones también pidió aplazar la vigencia un año, al 1 de abril de 2028, para preparar el traslado de afiliados, con el que pasaría de unos 3 millones a casi 10 millones de cotizantes.",
+      "afectados": [
+        "Finanzas públicas",
+        "TES",
+        "Colpensiones",
+        "Fondos de pensiones"
+      ],
+      "peso_alcista": 55,
+      "alcista": "El incidente abre una vía para que el Gobierno reorganice en el tiempo un gasto cercano a $5 billones que no estaba en el presupuesto. Si la Corte lo admite, se reduciría la presión inmediata sobre las finanzas públicas en un año de ajuste fiscal. Menos presión de gasto suele ser favorable para los TES. Un posible aplazamiento también daría tiempo a Colpensiones para recibir el traslado masivo de afiliados.",
+      "bajista": "Abrir el incidente es solo una etapa inicial y no significa que la Corte acepte los argumentos del Gobierno. Si la solicitud fracasa, el Estado tendría que encontrar cerca de $5 billones adicionales para Colpensiones. La incertidumbre sobre la fecha de entrada en vigor complica la planeación de afiliados, fondos de pensiones y Colpensiones. Un eventual aplazamiento podría generar nuevas discusiones jurídicas sobre la reforma.",
+      "impacto": {
+        "conclusion": "Pesa ligeramente más la lectura alcista: el trámite da al Gobierno una opción para contener un gasto no presupuestado, algo relevante para las cuentas fiscales. El resultado sigue abierto, de modo que el efecto para quien invierte se concentra en la renta fija y depende de la decisión final de la Corte.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "mixto",
+            "detalle": "Si la Corte acepta el aplazamiento, baja la presión de gasto, favorable para los TES; si no, aumenta la necesidad de recursos."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La entrega de la sustentación de Hacienda dentro de los 30 días hábiles y la decisión de la Corte sobre si admite el incidente.",
+      "terminos": [
+        "Incidente de impacto fiscal",
+        "Régimen de reparto",
+        "Fondos de pensiones",
+        "Presupuesto General de la Nación",
+        "TES"
+      ],
+      "fuente": "Valora Analitik",
+      "url": "https://www.valoraanalitik.com/corte-constitucional-le-da-30-dias-al-gobierno-para-sustentar-el-impacto-fiscal-de-5-billones-en-la-reforma-pensional/"
+    },
+    {
+      "id": "2026-10-16-03",
+      "fecha": "2026-10-16",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 6,
+        "alcance": 2,
+        "materialidad": 2,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "El FMI prevé que el desempleo en Colombia vuelva a dos dígitos en 2027",
+      "resumen": "El Fondo Monetario Internacional proyecta que la tasa de desempleo de Colombia subirá a 10% el próximo año, en línea con una perspectiva de menor crecimiento económico, según Valora Analitik.",
+      "contexto": "Según la fuente, durante varios años el desempleo se mantuvo incluso por debajo de 8%, y los datos recientes del DANE ya mostraron un aumento. El FMI atribuye la desaceleración a retos internos y a presiones sobre el financiamiento y los precios de las materias primas, y sugiere que Colombia tendría uno de los menores ritmos de crecimiento entre sus pares de la región. El gerente del Banco de la República, Leonardo Villar, señaló que buena parte del aumento reciente del desempleo podría deberse a la reducción del gasto público dirigido a generar empleo.",
+      "afectados": [
+        "Consumo de los hogares",
+        "Bancos",
+        "Comercio",
+        "Mercado laboral"
+      ],
+      "peso_alcista": 30,
+      "alcista": "Un mercado laboral más débil reduce las presiones sobre salarios y precios, lo que podría facilitar la baja de la inflación. Eso daría margen al Banco de la República para reducir tasas más adelante, algo favorable para los TES. La fuente señala que la contratación podría recuperarse según el aumento del salario mínimo y si la inflación se desacelera a mediados del próximo año. Se trata de una proyección, no de un dato observado.",
+      "bajista": "Más desempleo significa menos ingresos para los hogares, lo que suele frenar el consumo y las ventas de las empresas. Para los bancos, un deterioro del empleo puede traducirse en más dificultades de pago en la cartera de consumo. Un crecimiento entre los más bajos de la región resta atractivo a las acciones colombianas. La menor contratación pública, asociada a la austeridad, sugiere que el ajuste fiscal seguirá pesando sobre el empleo.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista: la proyección del FMI apunta a menor crecimiento y más desempleo, lo que afecta el consumo y los resultados de las empresas. Para quien invierte, el golpe principal está en las acciones, mientras que para la renta fija el efecto es mixto.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Menos empleo y crecimiento pueden reducir las ventas y utilidades de las empresas listadas."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "mixto",
+            "detalle": "Una economía más débil puede facilitar recortes de tasas, pero también presiona las cuentas fiscales."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "El próximo dato de desempleo del DANE y la negociación del salario mínimo de 2027.",
+      "terminos": [
+        "FMI",
+        "Tasa de desempleo",
+        "PIB",
+        "Cartera de consumo"
+      ],
+      "fuente": "Valora Analitik",
+      "url": "https://www.valoraanalitik.com/desempleo-en-colombia-podria-volver-al-doble-digito-alerta-importante-informe-del-fmi/"
+    },
+    {
+      "id": "2026-10-16-04",
+      "fecha": "2026-10-16",
+      "categoria": "politica",
+      "puntaje": {
+        "total": 5,
+        "alcance": 1,
+        "materialidad": 2,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "Hacienda pide al Congreso archivar cuatro aumentos de gasto del Presupuesto 2027",
+      "resumen": "El Ministerio de Hacienda pidió desaprobar y archivar cuatro proposiciones al Presupuesto General de 2027 aprobadas en primer debate sin su aval, por considerarlas contrarias a la Constitución, según Valora Analitik.",
+      "contexto": "Las proposiciones incluían $500.000 millones más para el SENA, una asignación directa de $1,2 billones al Congreso, reglas para la ejecución presupuestal del CNE y el traslado de $1,05 billones de partidas de Hacienda a órganos de control y justicia. El Gobierno recordó que la Constitución prohíbe al Congreso aumentar o incluir gastos sin autorización escrita del Ejecutivo, y las proposiciones se retiraron de la ponencia para segundo debate. La ponencia también recorta $170.000 millones a la JEP por las restricciones financieras del próximo año.",
+      "afectados": [
+        "Presupuesto 2027",
+        "TES",
+        "Finanzas públicas"
+      ],
+      "peso_alcista": 60,
+      "alcista": "Retirar aumentos de gasto que no tenían aval del Gobierno ayuda a contener el presupuesto en un año de fuertes restricciones fiscales. La medida reduce el riesgo de que la ley de presupuesto quede expuesta a demandas por inconstitucionalidad. Un manejo fiscal más estricto suele ser bien recibido por los tenedores de TES. El recorte a la JEP muestra que la ponencia busca ajustar gastos.",
+      "bajista": "La decisión final depende de las plenarias del Senado y la Cámara, que aún deben votar en segundo debate. Las sumas involucradas son pequeñas frente al tamaño total del presupuesto, por lo que no cambian por sí solas el panorama fiscal. El episodio muestra tensiones entre el Congreso y el Gobierno sobre el gasto, que podrían repetirse en otros trámites. Los sectores que esperaban más recursos, como el SENA, quedarían sin ellos.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura alcista: la petición de Hacienda apunta a proteger la disciplina fiscal y la solidez jurídica del presupuesto. El efecto para quien invierte es acotado y se concentra en la renta fija, a la espera de la votación en plenarias.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "positivo",
+            "detalle": "Contener el gasto no presupuestado reduce presión sobre las finanzas públicas, favorable para los TES."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La votación del Presupuesto 2027 en segundo debate en las plenarias del Senado y la Cámara.",
+      "terminos": [
+        "Presupuesto General de la Nación",
+        "TES"
+      ],
+      "fuente": "Valora Analitik",
+      "url": "https://www.valoraanalitik.com/minhacienda-pide-archivar-cuatro-polemicos-articulos-del-presupuesto-de-2027-que-se-aprobaron-sin-aval-del-gobierno/"
+    },
+    {
+      "id": "2026-10-16-05",
+      "fecha": "2026-10-16",
+      "categoria": "bvc",
+      "puntaje": {
+        "total": 5,
+        "alcance": 1,
+        "materialidad": 2,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "Ecopetrol propone cambiar cómo se eligen la junta y el presidente de ISA",
+      "resumen": "Ecopetrol, dueña del 51,41% de ISA, presentó una reforma de estatutos que permitiría renovar por completo la junta directiva de la transmisora y simplificar la elección de su presidente; se votará en una asamblea extraordinaria el 28 de octubre, según Valora Analitik.",
+      "contexto": "La propuesta elimina la exigencia de incluir en la plancha tres nombres del período anterior, entre ellos dos independientes, que pasaría a ser un criterio orientador; según la fuente, Ecopetrol ya eliminó ese requisito en su propia junta. La junta directiva elegiría al presidente con un proceso que ella misma diseñaría, y la asesoría de una firma de selección de ejecutivos sería opcional. Ecopetrol afirma que se mantienen el proceso de selección y sus criterios, con evaluación sustentada de los candidatos.",
+      "afectados": [
+        "ISA",
+        "Ecopetrol",
+        "Gobierno corporativo"
+      ],
+      "peso_alcista": 40,
+      "alcista": "Según Ecopetrol, la reforma busca preservar la continuidad institucional de ISA y dar a la asamblea más libertad para definir la junta. Un proceso de elección del presidente más ágil podría reducir demoras en decisiones clave. La obligación de documentar las razones del nombramiento mantiene un registro de cómo se elige al presidente. Para Ecopetrol, la reforma alinea las reglas de ISA con las que ya aplica en su propia junta.",
+      "bajista": "Eliminar la exigencia de mantener miembros del período anterior, incluidos independientes, reduce una garantía de continuidad para los accionistas minoritarios. Que el apoyo de una firma de selección de ejecutivos sea opcional da más discrecionalidad al accionista mayoritario. Los inversionistas suelen exigir una prima por riesgo cuando perciben menor independencia en el gobierno corporativo. Una renovación total de la junta podría traer cambios de estrategia en la compañía.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista: la propuesta reduce reglas que protegían la continuidad y la independencia de la junta de ISA, un tema sensible para los minoritarios. El efecto se concentra en quienes tienen acciones de ISA y dependerá de lo que apruebe la asamblea.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Para quien tiene acciones de ISA: menores garantías de gobierno corporativo pueden pesar en su valoración."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La asamblea extraordinaria de accionistas de ISA del 28 de octubre.",
+      "terminos": [
+        "Estatutos sociales",
+        "Miembro independiente de junta",
+        "Asamblea extraordinaria de accionistas"
+      ],
+      "fuente": "Valora Analitik",
+      "url": "https://www.valoraanalitik.com/ecopetrol-busca-cambios-en-isa/"
+    },
+    {
+      "id": "2026-10-16-06",
+      "fecha": "2026-10-16",
+      "categoria": "bvc",
+      "puntaje": {
+        "total": 5,
+        "alcance": 1,
+        "materialidad": 2,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "GEB alista su posible salto a Wall Street con ADR de US$20 a US$25",
+      "resumen": "Grupo Energía Bogotá tiene aprobación de sus accionistas para iniciar el proceso de listar ADR en la Bolsa de Nueva York, aunque aún no ha decidido hacerlo, según su vicepresidente financiero en entrevista con Valora Analitik.",
+      "contexto": "La empresa lleva unos 18 meses preparándose y estima que el registro ante la SEC tomaría de tres a cuatro meses. Los dos detonantes serían la venta del 9,4% de la participación de la Alcaldía de Bogotá, anunciada en enero, y una posible emisión primaria de acciones. La Alcaldía tiene 65,68% de GEB, y solo alrededor de 7% de la empresa se negocia a diario en la BVC; los inversionistas extranjeros tienen menos de 1%. El rango de US$20 a US$25 por ADR es una referencia, no una decisión.",
+      "afectados": [
+        "GEB",
+        "Alcaldía de Bogotá",
+        "Fondos de pensiones"
+      ],
+      "peso_alcista": 60,
+      "alcista": "Un listado en Nueva York ampliaría la base de inversionistas de GEB, hoy con menos de 1% en manos extranjeras. Más acciones en circulación libre y más visibilidad suelen mejorar la liquidez y pueden facilitar la entrada en índices internacionales. La empresa reporta una respuesta positiva de inversionistas internacionales, incluidos fondos cotizados. La preparación avanzada permitiría actuar rápido si el mercado es favorable.",
+      "bajista": "No hay decisión ni calendario, y la operación depende de las condiciones del mercado. Una emisión primaria de acciones podría diluir a los accionistas actuales si no se acompaña de un uso rentable del capital. La venta del 9,4% de la Alcaldía aumentaría la oferta de acciones, lo que puede presionar el precio. Los costos de cumplir con la regulación de la SEC son permanentes.",
+      "impacto": {
+        "conclusion": "Pesa algo más la lectura alcista: la preparación para Nueva York apunta a resolver la baja liquidez de la acción y a atraer inversionistas extranjeros. El efecto se concentra en quienes tienen acciones de GEB y depende de que la empresa tome la decisión y de cómo se haga una eventual emisión.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "positivo",
+            "detalle": "Para quien tiene acciones de GEB: más liquidez y visibilidad pueden favorecer su valoración, con riesgo de dilución si hay emisión."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "Una decisión de la junta de GEB sobre la emisión de acciones o el avance de la venta de la participación de la Alcaldía.",
+      "terminos": [
+        "ADR",
+        "Dilución",
+        "Acciones en circulación libre"
+      ],
+      "fuente": "Valora Analitik",
+      "url": "https://www.valoraanalitik.com/detonantes-geb-camino-wall-street-acciones/"
+    },
+    {
+      "id": "2026-10-16-07",
+      "fecha": "2026-10-16",
+      "categoria": "bvc",
+      "puntaje": {
+        "total": 5,
+        "alcance": 1,
+        "materialidad": 1,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Las dos sociedades de Gilinski en Nutresa firman un acuerdo de voto por el 76,71%",
+      "resumen": "Nugil Overseas y JGDB Holding, ambas con Jaime Gilinski como beneficiario final, firmaron un acuerdo para votar en el mismo sentido en las decisiones clave de Grupo Nutresa, según información relevante reportada por Portafolio.",
+      "contexto": "Nugil tiene 32,10% de las acciones de Nutresa y JGDB 44,61%, para un total de 76,71% del capital. El acuerdo se firmó el 8 de octubre y Nutresa fue notificada el 14 de octubre; cubre la elección de la junta directiva y del revisor fiscal, la aprobación de informes y estados financieros y las reformas de estatutos. Según Nutresa, su propósito es que JGDB controle esas decisiones, incluida la elección de la mayoría de la junta. El acuerdo no cambia la participación de ninguna de las dos sociedades ni incluye compras o ventas de acciones, y no tiene fecha de vencimiento.",
+      "afectados": [
+        "Grupo Nutresa",
+        "Accionistas minoritarios"
+      ],
+      "peso_alcista": 45,
+      "alcista": "El acuerdo formaliza un control que ya existía en la práctica, lo que da claridad sobre quién toma las decisiones estratégicas de Nutresa. Una estructura de mando definida puede facilitar la ejecución de planes de largo plazo. No hay cambios en la propiedad ni nuevas transacciones que alteren la base de accionistas. Su publicación como información relevante da transparencia a los minoritarios.",
+      "bajista": "Con 76,71% de los votos coordinados, los accionistas minoritarios tienen muy poca influencia en las decisiones de la compañía. El acuerdo no tiene fecha de vencimiento y solo termina por mutuo acuerdo. La concentración de la propiedad suele limitar la liquidez de la acción en bolsa. La noticia no trae ningún elemento nuevo sobre los resultados o la estrategia del negocio.",
+      "impacto": {
+        "conclusion": "Pesa ligeramente más la lectura bajista: el acuerdo consolida el control del grupo mayoritario y deja a los minoritarios con poco peso en las decisiones. El efecto es limitado y se concentra en quienes tienen acciones de Nutresa, sin cambios en el negocio.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Para quien tiene acciones de Nutresa: más concentración del control reduce la influencia de los minoritarios."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La próxima asamblea de accionistas de Nutresa y la elección de su junta directiva.",
+      "terminos": [
+        "Acuerdo de accionistas",
+        "Beneficiario final",
+        "Estatutos sociales"
+      ],
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/negocios/empresas/gilinski-consolida-el-control-de-nutresa-con-acuerdo-entre-sociedades-que-reunen-el-76-71-de-las-acciones-504492"
+    },
     {
       "id": "2026-10-15-01",
       "fecha": "2026-10-15",
