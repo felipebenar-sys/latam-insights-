@@ -534,14 +534,22 @@
         const hoy = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Bogota', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
         const leer = f => fetch(f, { cache: 'no-store' }).then(r => r.ok ? r.json() : { notas: [] }).catch(() => ({ notas: [] }));
         Promise.all([leer('data/cobertura.json'), leer('data/biotech.json')]).then(([cob, bio]) => {
-            const nCob = (cob.notas || []).filter(n => n.fecha === hoy);
-            const nBio = (bio.notas || []).filter(n => n.fecha === hoy);
-            if (!nCob.length && !nBio.length) return;
+            // "Lo último" por FECHA DE LA NOTICIA (fecha_noticia), no por la fecha de publicación del bot:
+            // en cada sección, todas las noticias de hoy; si no hay de hoy, la más reciente.
+            const fn = n => n.fecha_noticia || n.fecha || '';
+            const ultimas = notas => {
+                const l = (notas || []).slice().sort((a, b) => fn(b).localeCompare(fn(a)) || String(b.fecha || '').localeCompare(String(a.fecha || '')));
+                const deHoy = l.filter(n => fn(n) === hoy);
+                return deHoy.length ? deHoy : l.slice(0, 1);
+            };
+            const nCob = ultimas(cob.notas), nBio = ultimas(bio.notas);
+            if (!nCob.length && !nBio.length) { cont.innerHTML = vacio('Aún no hay noticias de las compañías cubiertas.'); return; }
             const bioCard = n => `
                 <article class="bg-stone-900 border border-stone-800 rounded-xl p-6 flex flex-col">
                     <div class="flex flex-wrap items-center gap-2 mb-3 text-xs">
                         <span class="bg-sky-400/10 text-sky-300 border border-sky-400/20 px-2 py-0.5 rounded-full font-semibold">${esc(n.empresa)}</span>
                         <span class="bg-stone-800 text-stone-300 px-2 py-0.5 rounded-full">Biotecnología</span>
+                        ${n.fecha_noticia ? `<span class="text-stone-500">Noticia del ${fmtFecha(n.fecha_noticia)}</span>` : ''}
                         <a href="${esc(safeUrl(n.url))}" target="_blank" rel="noopener noreferrer" class="text-stone-400 hover:text-amber-400 underline underline-offset-2">Fuente: ${esc(n.fuente)}</a>
                     </div>
                     <h4 class="serif text-lg font-bold text-white mb-2">${esc(n.titulo)}</h4>
@@ -552,7 +560,6 @@
                     </div>
                 </article>`;
             cont.innerHTML = nCob.map(n => tarjetaCorta(n, 'cobertura.html')).join('') + nBio.map(bioCard).join('');
-            sec.classList.remove('hidden');
         });
     };
 

@@ -155,19 +155,19 @@
         </div>
     </section>
 
-    <!-- NOVEDADES DE COBERTURA (solo aparece si hay notas publicadas hoy) -->
-    <section id="novedades" class="hidden pb-16 px-4 sm:px-6 max-w-6xl mx-auto">
+    <!-- LO ÚLTIMO DE COBERTURA: noticias de hoy (por fecha de la noticia) o, si no hay, la más reciente de cada sección -->
+    <section id="novedades" class="pb-16 px-4 sm:px-6 max-w-6xl mx-auto">
         <div class="flex flex-wrap items-baseline justify-between gap-2 mb-6">
             <div>
                 <p class="text-sky-300 text-xs font-bold uppercase tracking-wider">Research</p>
-                <h2 class="text-white font-semibold text-lg">Nuevo en Cobertura LatAm y Biotecnología</h2>
+                <h2 class="text-white font-semibold text-lg">Último en Cobertura LatAm y Biotecnología</h2>
             </div>
             <div class="flex gap-4 text-sm font-semibold">
                 <a href="cobertura.html" class="text-amber-400 hover:text-amber-300">Cobertura LatAm →</a>
                 <a href="biotecnologia.html" class="text-amber-400 hover:text-amber-300">Biotecnología →</a>
             </div>
         </div>
-        <div id="novedades-notas" class="grid md:grid-cols-3 gap-6"></div>
+        <div id="novedades-notas" class="grid md:grid-cols-3 gap-6" aria-busy="true"><span class="sr-only">Cargando…</span><div class="sk-card min-h-[17rem]"><div class="flex gap-2"><span class="sk sk-chip"></span><span class="sk sk-chip"></span></div><span class="sk sk-titulo"></span><span class="sk sk-linea" style="width:100%"></span><span class="sk sk-linea" style="width:94%"></span><span class="sk sk-linea" style="width:70%"></span><span class="sk sk-linea mt-auto" style="height:.5rem"></span></div><div class="sk-card min-h-[17rem]"><div class="flex gap-2"><span class="sk sk-chip"></span><span class="sk sk-chip"></span></div><span class="sk sk-titulo"></span><span class="sk sk-linea" style="width:100%"></span><span class="sk sk-linea" style="width:94%"></span><span class="sk sk-linea" style="width:70%"></span><span class="sk sk-linea mt-auto" style="height:.5rem"></span></div></div>
     </section>
 
     <!-- EL PROBLEMA -->
@@ -302,7 +302,7 @@
         </div>
     </footer>
 
-    <script src="assets/notas.js?v=20261016c"></script>
+    <script src="assets/notas.js?v=20261016d"></script>
     <script>initMenu();</script>
     <script>renderBarra();</script>
     <script>renderPortada('notas-portada', 3);</script>
