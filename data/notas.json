@@ -1,6 +1,408 @@
 {
-  "actualizado": "16 oct 2026, 7:12 a. m. (hora Bogotá)",
+  "actualizado": "17 oct 2026, 7:20 a. m. (hora Bogotá)",
   "notas": [
+    {
+      "id": "2026-10-17-01",
+      "fecha": "2026-10-17",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 8,
+        "alcance": 4,
+        "materialidad": 2,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "Los analistas esperan que el Banco de la República suba su tasa a 12,5% este mes",
+      "resumen": "La encuesta mensual de expectativas del Banco de la República de octubre muestra que los analistas esperan un alza de 25 puntos básicos en la tasa de política monetaria en la junta de este mes, hasta 12,5%, según La República.",
+      "contexto": "En septiembre la junta ya había subido la tasa 25 puntos básicos. Los analistas ven esta alza como la última de 2026, esperan estabilidad a comienzos de 2027 y recortes desde mediados de ese año, hasta 11% al cierre de 2027. La inflación esperada para fin de 2026 subió a 6,85%, desde 6,81% en la encuesta de septiembre, y la de alimentos a 9,26%, desde 8,58%. La TRM esperada para fin de año pasó de $3.200 a $3.257.",
+      "afectados": [
+        "Tasa de política monetaria",
+        "TES",
+        "CDT",
+        "Bancos",
+        "Peso colombiano"
+      ],
+      "peso_alcista": 35,
+      "alcista": "Si la de octubre es la última alza, el mercado tendría más claridad sobre el techo de las tasas, lo que reduce la incertidumbre para los TES y las acciones. Los analistas ya anticipan recortes desde mediados de 2027, un escenario que favorecería la valorización de la renta fija en el mediano plazo. Para quien ahorra en CDT, tasas más altas por más tiempo mantienen rendimientos atractivos. Un Banco de la República firme frente a la inflación puede reforzar su credibilidad.",
+      "bajista": "Las expectativas de inflación siguen subiendo y quedan lejos de la meta: los analistas no la ven dentro del rango de 2% a 4% sino hasta septiembre de 2031. Una tasa de 12,5% encarece el crédito para hogares y empresas y puede frenar la actividad y las utilidades de las compañías. La subida de la TRM esperada indica que los analistas ven un peso más débil hacia fin de año. Si la inflación de alimentos sigue presionando, el alza de octubre podría no ser la última.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista: los analistas esperan tasas más altas y una inflación que tardaría años en volver a la meta. Para quien invierte, esto favorece al ahorro en CDT y presiona el precio de los TES y de las acciones locales mientras no se confirme el fin de las alzas.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Tasas más altas encarecen el crédito y restan atractivo a las acciones frente a inversiones de renta fija."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "Si las tasas suben, los TES que ya están en el portafolio pierden precio."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "positivo",
+            "detalle": "Los analistas subieron a $3.257 la TRM esperada para fin de año, lo que valorizaría en pesos los ahorros en dólares."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "positivo",
+            "detalle": "Una tasa de política más alta tiende a sostener o subir las tasas que pagan los CDT."
+          }
+        ]
+      },
+      "mirar": "La decisión de la junta directiva del Banco de la República de este mes.",
+      "terminos": [
+        "Tasa de política monetaria",
+        "Puntos básicos",
+        "Expectativas de inflación",
+        "Meta de inflación",
+        "TRM"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/analistas-preven-un-alza-de-25-puntos-basicos-en-la-tasa-de-politica-monetaria-4504617"
+    },
+    {
+      "id": "2026-10-17-02",
+      "fecha": "2026-10-17",
+      "categoria": "commodities",
+      "puntaje": {
+        "total": 8,
+        "alcance": 2,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "El Brent sube 3,9% y toca US$110 por primera vez desde mayo",
+      "resumen": "El petróleo Brent subió 3,9% el viernes y llegó a US$110 por barril, un nivel que no tocaba desde mayo, por el temor a una menor oferta, según La República con información de Reuters.",
+      "contexto": "Legisladores de EE. UU. presentaron un proyecto para bloquear el acuerdo de Trump con Moscú que liberaría varios cientos de millones de barriles de diésel. Si el diésel ruso sigue por fuera del mercado, las refinerías de otros países tendrían que procesar más crudo. A esto se suman los ataques con misiles y drones de los hutíes en Arabia Saudita y los ataques entre Rusia y Ucrania a infraestructura energética. Los operadores aumentaron sus apuestas al alza antes del fin de semana.",
+      "afectados": [
+        "Ecopetrol",
+        "Petroleras",
+        "Finanzas públicas",
+        "Inflación"
+      ],
+      "peso_alcista": 60,
+      "alcista": "Colombia exporta petróleo, así que un Brent más alto aumenta los ingresos de Ecopetrol y de otras productoras listadas en la BVC. También mejora los dividendos y regalías que recibe la Nación, un alivio para unas finanzas públicas presionadas. Más dólares por exportaciones petroleras pueden dar soporte al peso colombiano.",
+      "bajista": "El alza responde a riesgos de guerra y de suministro, que pueden aumentar la aversión al riesgo en los mercados. Un petróleo más caro presiona los precios de los combustibles y del transporte, y con ellos la inflación, lo que puede mantener altas las tasas de interés. Si las tensiones se calman o se libera el diésel ruso, el precio podría devolverse con rapidez.",
+      "impacto": {
+        "conclusion": "Pesa algo más la lectura alcista para el mercado colombiano, por el efecto directo sobre Ecopetrol y los ingresos fiscales. Para quien invierte, el beneficio se concentra en las acciones petroleras, mientras que la presión sobre la inflación es un riesgo para los TES.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "positivo",
+            "detalle": "Un Brent más alto favorece los ingresos de Ecopetrol y de las petroleras listadas en la BVC."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "mixto",
+            "detalle": "Más ingresos petroleros ayudan a las cuentas fiscales, pero un petróleo caro presiona la inflación y las tasas de los TES."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "El trámite en EE. UU. del proyecto que busca bloquear la liberación del diésel ruso y la evolución de los ataques en Medio Oriente.",
+      "terminos": [
+        "Brent",
+        "Inflación",
+        "Regalías"
+      ],
+      "fuente": "La República (Reuters)",
+      "url": "https://www.larepublica.co/globoeconomia/petroleo-supera-los-us-110-por-primera-vez-desde-mayo-por-riesgo-en-suministro-4504186"
+    },
+    {
+      "id": "2026-10-17-03",
+      "fecha": "2026-10-17",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 7,
+        "alcance": 2,
+        "materialidad": 3,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "El FMI dice que el déficit primario de Colombia, de 3,5% del PIB, no es sostenible",
+      "resumen": "Nigel Chalk, director del Departamento del Hemisferio Occidental del FMI, afirmó que el déficit primario de Colombia equivale a 3,5% del PIB, un nivel muy alto, y que la situación fiscal no es sostenible, según La República.",
+      "contexto": "Chalk habló en una rueda de prensa durante las reuniones anuales del FMI en Bangkok y señaló que la deuda pública ya llega a 60% del PIB y sigue subiendo. El déficit fiscal fue de 6,4% del PIB en 2025 y podría llegar a 7,2% al cierre de 2026. Una misión técnica del FMI viajará a Bogotá a comienzos de noviembre; según el Ministerio de Hacienda, la primera etapa se centrará en la consulta del Artículo IV. El ministro Miguel Gómez Martínez dijo que el apoyo del FMI ayuda a fortalecer la confianza en el país.",
+      "afectados": [
+        "TES",
+        "Finanzas públicas",
+        "Prima de riesgo país",
+        "Gobierno"
+      ],
+      "peso_alcista": 35,
+      "alcista": "El diagnóstico llega acompañado de una misión técnica y de conversaciones sobre opciones de apoyo financiero, lo que puede abrir la puerta a un plan de ajuste con respaldo externo. El Gobierno recibió con buenos ojos el acompañamiento del FMI, una señal de disposición a corregir las cuentas. Si el plan resulta creíble, podría bajar la prima de riesgo y aliviar las tasas de los TES.",
+      "bajista": "Que el FMI califique la situación como no sostenible confirma el tamaño del problema fiscal. Con una deuda de 60% del PIB que sigue subiendo y un déficit que podría llegar a 7,2% del PIB, el Gobierno necesitará financiarse más, lo que presiona las tasas de los TES. Un ajuste fuerte del gasto también puede frenar el crecimiento. Las calificadoras de riesgo siguen de cerca este tipo de pronunciamientos.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista: el FMI confirma que el desequilibrio fiscal es grande y que la deuda sigue creciendo. Para quien invierte, esto mantiene la presión sobre los TES y sobre la prima de riesgo del país, aunque la misión de noviembre podría traer un plan que la alivie.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Un mayor riesgo fiscal suele elevar la prima de riesgo y restar atractivo a las acciones colombianas."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "mixto",
+            "detalle": "El riesgo fiscal presiona las tasas de los TES, pero un plan de ajuste respaldado por el FMI podría aliviarlas."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La llegada de la misión técnica del FMI a Bogotá a comienzos de noviembre.",
+      "terminos": [
+        "Déficit primario",
+        "FMI",
+        "Deuda pública",
+        "Consulta del Artículo IV",
+        "Prima de riesgo país"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/fmi-advierte-que-deficit-primario-de-colombia-es-muy-alto-y-no-es-sostenible-4504196"
+    },
+    {
+      "id": "2026-10-17-04",
+      "fecha": "2026-10-17",
+      "categoria": "sectores",
+      "puntaje": {
+        "total": 6,
+        "alcance": 1,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "La producción industrial cae 3,7% en agosto, su peor dato del año",
+      "resumen": "La producción real de la industria manufacturera cayó 3,7% anual en agosto, el peor resultado de 2026 y la segunda caída mensual seguida, según la Encuesta Mensual Manufacturera del DANE reportada por La República.",
+      "contexto": "Las ventas reales bajaron 3,5% y el empleo industrial 1,3%. De 39 actividades, 29 produjeron menos; las mayores caídas fueron confección (-15,4%), sustancias químicas básicas (-16,4%) y papel y cartón (-11,3%), mientras que bebidas creció 9%. Valle del Cauca, con una caída de 13,4%, fue el departamento que más restó; Cali cayó 22,1% y Yumbo 15,9%. En lo corrido del año, la producción crece apenas 0,4%, frente a 1% hasta julio.",
+      "afectados": [
+        "Industria",
+        "Valle del Cauca",
+        "Empleo",
+        "Crecimiento económico"
+      ],
+      "peso_alcista": 30,
+      "alcista": "No todas las ramas retrocedieron: bebidas, productos metálicos y otro equipo de transporte crecieron, y Bogotá, Cundinamarca, Boyacá y Atlántico mostraron alzas. En lo corrido del año la producción todavía es positiva. Una actividad más débil podría, con el tiempo, quitar presión a la inflación y abrir espacio a menores tasas.",
+      "bajista": "Una caída de 3,7%, la peor del año y la segunda seguida, indica que la industria pierde ritmo. La contracción es amplia, con 29 de 39 actividades a la baja, y se concentra en el Valle del Cauca, una de las zonas industriales más importantes del país. La reducción del empleo industrial puede afectar el consumo. Para las empresas manufactureras listadas, menos ventas pueden traducirse en menores utilidades.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista: la caída es amplia y la industria encadena dos meses en rojo. Para quien invierte, el efecto se concentra en las acciones de empresas industriales y en una señal de menor crecimiento económico.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Menos producción y ventas industriales pueden reducir las utilidades de las empresas manufactureras listadas."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "El próximo dato de la Encuesta Mensual Manufacturera del DANE, correspondiente a septiembre.",
+      "terminos": [
+        "Producción industrial",
+        "PIB"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/resultados-de-la-encuesta-mensual-manufacturera-de-agosto-del-dane-4504422"
+    },
+    {
+      "id": "2026-10-17-05",
+      "fecha": "2026-10-17",
+      "categoria": "sectores",
+      "puntaje": {
+        "total": 6,
+        "alcance": 1,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Las ventas del comercio minorista crecen 7,3% en agosto, jalonadas por los carros",
+      "resumen": "Las ventas reales del comercio minorista crecieron 7,3% anual en agosto, impulsadas sobre todo por vehículos, motocicletas y electrodomésticos, según la Encuesta Mensual de Comercio del DANE reportada por La República.",
+      "contexto": "Las ventas de vehículos y motos de uso de los hogares subieron 35,8% y aportaron 3,6 puntos porcentuales al crecimiento; las de otros vehículos y motos, 26,2%. Electrodomésticos y muebles crecieron 11,3% y bebidas no alcohólicas 18,1%. Entre enero y agosto las ventas suben 10,9%, y 6,1% sin vehículos; los combustibles son la única línea en negativo (-0,7%). El personal ocupado en el comercio aumentó 1,4% anual.",
+      "afectados": [
+        "Comercio",
+        "Consumo de los hogares",
+        "Sector automotor",
+        "Bancos"
+      ],
+      "peso_alcista": 65,
+      "alcista": "El consumo de los hogares sigue firme, en especial en bienes durables como carros y electrodomésticos, que suelen comprarse con crédito. Eso favorece a los comerciantes y a los bancos que financian esas compras. El crecimiento acumulado de 10,9% en el año muestra que el comercio va en sentido contrario a la caída de la industria. El empleo en el sector también sigue creciendo.",
+      "bajista": "Buena parte del crecimiento depende de vehículos y motos; sin ellos el avance es bastante menor. Un consumo fuerte puede mantener presionada la inflación y darle argumentos al Banco de la República para subir tasas. Con tasas más altas, las compras a crédito de bienes durables podrían frenarse en los próximos meses. Algunas categorías, como combustibles, siguen a la baja.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura alcista: el consumo de los hogares sigue creciendo con fuerza, apoyado en bienes durables. Para quien invierte, es una señal favorable para las empresas de comercio y de consumo, aunque un consumo firme también puede mantener altas las tasas de interés.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "positivo",
+            "detalle": "Un consumo firme favorece las ventas de las empresas de comercio y la demanda de crédito de los bancos."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La decisión de tasas del Banco de la República de este mes y el dato de comercio de septiembre.",
+      "terminos": [
+        "Ventas minoristas",
+        "Bienes durables"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/comportamiento-del-comercio-en-agosto-de-2026-4504399"
+    },
+    {
+      "id": "2026-10-17-06",
+      "fecha": "2026-10-17",
+      "categoria": "politica",
+      "puntaje": {
+        "total": 6,
+        "alcance": 1,
+        "materialidad": 3,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "MinHacienda reporta nuevos faltantes en salud de maestros, Colombia Mayor y energía",
+      "resumen": "El ministro de Hacienda, Miguel Gómez, dijo en la plenaria del Senado que el Gobierno sigue encontrando faltantes en el presupuesto, entre ellos $2,7 billones para la salud de los maestros (Fomag), según Portafolio.",
+      "contexto": "Gómez señaló un faltante de $600.000 millones en Colombia Mayor que, según él, el gobierno anterior no pagó, y un desfinanciamiento de cerca de $2 billones en el presupuesto para adultos mayores. En el sector eléctrico, el Gobierno consiguió $600.000 millones para cubrir deudas y tramita con mensaje de urgencia un proyecto para financiar otros $1,7 billones este año. El ministro afirmó que el servicio de la deuda aumentaría 55% en el presupuesto presentado y mencionó $17 billones en sentencias judiciales contra la Nación. También dijo que las mesadas pensionales de noviembre y diciembre de 2026 no quedaron presupuestadas.",
+      "afectados": [
+        "Finanzas públicas",
+        "TES",
+        "Sector eléctrico",
+        "Presupuesto 2027"
+      ],
+      "peso_alcista": 30,
+      "alcista": "Que el Gobierno identifique y haga públicos los faltantes da más transparencia sobre el tamaño real del problema fiscal. Conseguir recursos para pagar deudas del sector eléctrico reduce el riesgo para las empresas de energía. Un diagnóstico claro puede facilitar un ajuste creíble en el Presupuesto 2027.",
+      "bajista": "Cada nuevo faltante aumenta lo que el Gobierno necesita financiar, y eso suele significar más emisión de TES y más presión sobre sus tasas. La lista de obligaciones sin presupuestar, incluidas pensiones y sentencias judiciales, muestra un hueco mayor al que se conocía. Si el Congreso no acompaña los ajustes, el riesgo fiscal del país podría aumentar.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista: los nuevos faltantes agrandan las necesidades de financiamiento del Gobierno. Para quien invierte, el principal efecto está en la renta fija, por la posibilidad de más emisión de TES y mayores tasas.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "Más necesidades de financiamiento pueden traducirse en más emisión de TES y en tasas más altas, lo que baja su precio."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La votación del Presupuesto 2027 en el Congreso y el trámite del proyecto para financiar las deudas del sector eléctrico.",
+      "terminos": [
+        "Necesidades de financiamiento",
+        "Servicio de la deuda",
+        "Presupuesto General de la Nación",
+        "TES"
+      ],
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/crecimiento/gobierno-reporta-nuevos-huecos-fiscales-por-mas-de-2-7-billones-y-advierte-presiones-adicionales-sobre-presupuesto-504571"
+    },
+    {
+      "id": "2026-10-17-07",
+      "fecha": "2026-10-17",
+      "categoria": "bvc",
+      "puntaje": {
+        "total": 6,
+        "alcance": 1,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Banco de Bogotá vuelve al grupo de los tres bancos que más ganan en el país",
+      "resumen": "Con datos de la Superintendencia Financiera a agosto, Banco de Bogotá volvió al tercer lugar entre los bancos con mayores utilidades, con $820.452 millones, detrás de Bancolombia y Davivienda, según La República.",
+      "contexto": "Bancolombia lidera con $5,33 billones y Davivienda sigue con $1,62 billones. Banco GNB Sudameris, con $791.096 millones, bajó al cuarto lugar tras dos meses en el top tres, seguido por BBVA Colombia ($663.277 millones) y Citibank ($655.217 millones). Cuatro bancos acumularon pérdidas por segundo mes: Itaú (-$449.440 millones), Pichincha (-$91.759 millones), Bancoomeva (-$23.473 millones) y Lulo Bank (-$17.689 millones).",
+      "afectados": [
+        "Banco de Bogotá",
+        "Grupo Aval",
+        "Bancos",
+        "Itaú"
+      ],
+      "peso_alcista": 60,
+      "alcista": "Las utilidades del sector muestran que los bancos más grandes siguen generando ganancias en un entorno de tasas altas. Para Banco de Bogotá, recuperar el tercer lugar refleja una mejora frente a sus competidores. Bancos con buenas utilidades tienen más capacidad para pagar dividendos y prestar.",
+      "bajista": "Las ganancias están muy concentradas: Bancolombia gana más del triple que Davivienda, el segundo de la lista. Varias entidades siguen en pérdidas, entre ellas Itaú, lo que muestra que no todo el sector va bien. Tasas altas por más tiempo pueden frenar la demanda de crédito y aumentar la morosidad en los próximos meses.",
+      "impacto": {
+        "conclusion": "Pesa algo más la lectura alcista: los grandes bancos mantienen utilidades sólidas y Banco de Bogotá mejora su posición. Para quien invierte, el efecto se concentra en las acciones del sector bancario.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "positivo",
+            "detalle": "Utilidades sólidas en los grandes bancos favorecen a las acciones del sector financiero listadas en la BVC."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "Los resultados del sistema financiero con corte a septiembre de la Superintendencia Financiera.",
+      "terminos": [
+        "Superintendencia Financiera",
+        "Conglomerado financiero"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/banco-de-bogota-regreso-al-top-tres-de-los-bancos-que-mas-ganan-con-corte-a-agosto-4504649"
+    },
     {
       "id": "2026-10-16-01",
       "fecha": "2026-10-16",

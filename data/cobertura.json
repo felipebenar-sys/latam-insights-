@@ -1,5 +1,5 @@
 {
-  "actualizado": "16 oct 2026, 7:12 a. m. (hora Bogotá)",
+  "actualizado": "17 oct 2026, 7:20 a. m. (hora Bogotá)",
   "companias": [
     {
       "ticker": "MELI",
@@ -24,7 +24,7 @@
       "nombre": "Petrobras",
       "bolsa": "NYSE: PBR (ADR)",
       "que_hace": "Petrolera estatal de Brasil, una de las mayores productoras de petróleo de América Latina, con operación concentrada en aguas profundas.",
-      "estado": "Ganó 21 bloques exploratorios en las subastas de la ANP de octubre de 2026.",
+      "estado": "Produjo un récord de 2,96 millones de barriles diarios de petróleo en septiembre, según datos preliminares de la ANP.",
       "hitos": [
         {
           "texto": "Informe de producción y ventas del 3T26",
@@ -39,7 +39,7 @@
           "fecha": "30 dic 2026"
         }
       ],
-      "fuente_url": "https://stocktitan.net/sec-filings/PBR/6-k-petrobras-petroleo-brasileiro-sa-current-report-foreign-issuer-3637d76b6fce.html"
+      "fuente_url": "https://bpmoney.com.br/?p=426783"
     },
     {
       "ticker": "CIBEST",
@@ -80,6 +80,63 @@
     }
   ],
   "notas": [
+    {
+      "id": "2026-10-17-c01",
+      "fecha": "2026-10-17",
+      "empresa": "PBR",
+      "fecha_noticia": "2026-10-14",
+      "categoria": "latam",
+      "puntaje": {
+        "total": 6,
+        "alcance": 1,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Petrobras produce un récord de 2,96 millones de barriles diarios en septiembre",
+      "resumen": "Petrobras produjo 2,96 millones de barriles de petróleo por día en septiembre, 1% más que en agosto, según datos preliminares de la agencia petrolera de Brasil (ANP) citados por BPMoney.",
+      "contexto": "El campo Búzios creció 2% y superó por segundo mes seguido el millón de barriles diarios, y Tupi subió 8%, a cerca de 550.000 barriles diarios. En el tercer trimestre la producción promedió 2,89 millones de barriles diarios, 6% más que en el trimestre anterior y por encima de los 2,77 millones que esperaba el mercado. Además, el 13 de octubre la compañía firmó acuerdos de equalización en los yacimientos Berbigão y Sururu, por los que XP Investimentos estima un ingreso neto de cerca de US$859 millones, a liquidarse hacia noviembre.",
+      "afectados": [
+        "Petrobras",
+        "Producción de petróleo de Brasil"
+      ],
+      "peso_alcista": 65,
+      "alcista": "Producir más petróleo con el Brent en niveles altos aumenta los ingresos y la caja de la compañía. Bradesco BBI considera que los datos pueden llevar a revisar al alza las estimaciones de EBITDA, utilidad y generación de caja. Los acuerdos de Berbigão y Sururu sumarían un ingreso adicional de cerca de US$859 millones.",
+      "bajista": "Son datos preliminares de un solo mes, y el mismo Bradesco BBI advierte que no conviene proyectarlos hacia adelante. Parte del aumento depende de la puesta en marcha de nuevas plataformas, que puede tener altibajos. Un mejor desempeño operativo no elimina riesgos como la intervención del Gobierno, accionista mayoritario, o una caída del precio del petróleo.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura alcista: la producción marca récord y supera lo que esperaba el mercado para el trimestre. Para el portafolio, el efecto se limita a quienes tienen acciones de Petrobras en Nueva York.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "positivo",
+            "detalle": "Para quien tiene acciones de Petrobras, más producción y un ingreso extra por los acuerdos de equalización apoyan sus resultados en dólares."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "El informe de producción y ventas del tercer trimestre, el 28 de octubre.",
+      "terminos": [
+        "Presal",
+        "Acuerdo de equalización",
+        "EBITDA"
+      ],
+      "fuente": "BPMoney",
+      "url": "https://bpmoney.com.br/?p=426783"
+    },
     {
       "id": "2026-10-16-c01",
       "fecha": "2026-10-16",

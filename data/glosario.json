@@ -359,6 +359,34 @@
     {
       "termino": "Superintendencia de Industria y Comercio",
       "definicion": "Entidad del Estado colombiano que vigila la libre competencia y protege al consumidor. Debe autorizar las fusiones y compras entre empresas que superen ciertos tamaños, y puede negarlas o imponer condiciones si afectan la competencia."
+    },
+    {
+      "termino": "Puntos básicos",
+      "definicion": "Unidad que se usa para hablar de cambios en tasas de interés: un punto básico es una centésima de punto porcentual, así que 25 puntos básicos equivalen a 0,25 puntos. Si una tasa pasa de 12,25% a 12,5%, subió 25 puntos básicos."
+    },
+    {
+      "termino": "Expectativas de inflación",
+      "definicion": "Lo que los analistas, empresas y hogares creen que será la inflación en el futuro. Importan porque influyen en cómo se fijan precios y salarios, y el Banco de la República las vigila para decidir si sube o baja su tasa de interés."
+    },
+    {
+      "termino": "Deuda pública",
+      "definicion": "Todo lo que debe el Gobierno a sus acreedores, dentro y fuera del país, por ejemplo a quienes compraron TES o bonos en el exterior. Se suele medir como porcentaje del PIB; cuando crece mucho, el país paga más intereses y los inversionistas exigen mayores tasas para prestarle."
+    },
+    {
+      "termino": "Producción industrial",
+      "definicion": "Medida de cuánto fabrican las fábricas del país en un periodo, comparada con el mismo periodo del año anterior. En Colombia la publica el DANE cada mes y es una señal temprana de cómo va la economía y las ventas de las empresas manufactureras."
+    },
+    {
+      "termino": "Superintendencia Financiera",
+      "definicion": "Entidad del Estado colombiano que vigila a los bancos, aseguradoras, fondos de pensiones, comisionistas de bolsa y demás entidades financieras. Publica cada mes sus resultados y busca proteger a los ahorradores e inversionistas y la estabilidad del sistema."
+    },
+    {
+      "termino": "Presal",
+      "definicion": "Capa de rocas ubicada en el fondo del mar frente a Brasil, debajo de una gruesa capa de sal, donde están algunos de los mayores yacimientos de petróleo del mundo. Allí se concentra buena parte de la producción de Petrobras."
+    },
+    {
+      "termino": "Acuerdo de equalización",
+      "definicion": "Acuerdo entre las empresas que comparten un yacimiento de petróleo para ajustar cuánto le corresponde a cada una según su participación definitiva. Quien recibió menos de lo que le tocaba es compensada por las demás, con dinero o con producción."
     }
   ]
 }
