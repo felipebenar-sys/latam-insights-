@@ -1,5 +1,5 @@
 {
-  "actualizado": "17 oct 2026, 7:20 a. m. (hora Bogotá)",
+  "actualizado": "18 oct 2026, 7:29 a. m. (hora Bogotá)",
   "companias": [
     {
       "ticker": "MELI",
@@ -60,14 +60,22 @@
       "nombre": "Grupo Argos",
       "bolsa": "BVC: GRUPOARGOS",
       "que_hace": "Holding de inversiones en infraestructura: cemento, energía, concesiones de vías y aeropuertos, y negocio inmobiliario.",
-      "estado": "Ejecuta el programa ACE 1.0, que incluye recompra de acciones por hasta $500.000 millones en 6 a 12 meses desde agosto de 2026.",
+      "estado": "Ejecuta el programa ACE 1.0, que incluye recompra de acciones por hasta $500.000 millones en 6 a 12 meses desde agosto de 2026. Su filial Celsia firmó con Emcali un memorando para canjear el 18,06% de Celsia Colombia que tiene Emcali por la hidroeléctrica Salvajina.",
       "hitos": [
         {
           "texto": "Ejecución de la recompra de acciones de ACE 1.0",
           "fecha": "hasta mediados de 2027"
+        },
+        {
+          "texto": "Firma de contratos vinculantes Celsia–Emcali por Salvajina",
+          "fecha": "próximas semanas"
+        },
+        {
+          "texto": "Cierre previsto del canje de Salvajina",
+          "fecha": "primer semestre de 2027"
         }
       ],
-      "fuente_url": "https://es-us.noticias.yahoo.com/relevante-grupo-argos-lanza-programa-205400392.html"
+      "fuente_url": "https://www.portafolio.co/negocios/empresas/celsia-y-emcali-acuerdan-intercambio-de-acciones-del-18-06-por-la-hidroelectrica-salvajina-504579"
     },
     {
       "ticker": "PEI",
@@ -80,6 +88,64 @@
     }
   ],
   "notas": [
+    {
+      "id": "2026-10-18-c01",
+      "fecha": "2026-10-18",
+      "empresa": "GRUPOARGOS",
+      "fecha_noticia": "2026-10-16",
+      "categoria": "bvc",
+      "puntaje": {
+        "total": 5,
+        "alcance": 1,
+        "materialidad": 2,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "Celsia y Emcali firman un memorando para cambiar 18,06% de acciones por la hidroeléctrica Salvajina",
+      "resumen": "Celsia Colombia, la empresa de energía del Grupo Argos, y Emcali firmaron un memorando de entendimiento para evaluar que Emcali entregue su 18,06% de las acciones de Celsia Colombia a cambio de la hidroeléctrica Salvajina, según Portafolio.",
+      "contexto": "Salvajina, en Suárez (Cauca), opera desde 1985, tiene 315 MW de capacidad y genera en promedio unos 1.110 GWh al año. El acuerdo contempla contratos de operación y mantenimiento y de venta de energía por hasta cinco años. Celsia lo enmarca en el programa ACE 1.0 del Grupo Argos y en su estrategia de rotación de activos, y dice que le permitiría reducir deuda. El cierre se espera en el primer semestre de 2027 y requiere la aprobación del Concejo de Cali, avalúos independientes, autorizaciones regulatorias y, por ser una entidad pública, ofrecer primero la participación a trabajadores, pensionados y al sector solidario (Ley 226 de 1995).",
+      "afectados": [
+        "Grupo Argos",
+        "Celsia",
+        "Emcali"
+      ],
+      "peso_alcista": 60,
+      "alcista": "Celsia pagaría la planta con sus propias acciones y no con caja, y dice que la operación le permitiría reducir su deuda. Al salir Emcali, los demás accionistas de Celsia Colombia, entre ellos el grupo, aumentarían su participación en los flujos, resultados y dividendos de la compañía. La operación avanza en el programa ACE 1.0 con el que el Grupo Argos busca reducir el descuento de su acción. Celsia conservaría ingresos de la planta durante hasta cinco años mediante los contratos de operación y de venta de energía.",
+      "bajista": "Es un memorando, no un contrato vinculante, y depende de varios pasos: el Concejo de Cali, avalúos independientes y autorizaciones regulatorias. La venta de una participación pública obliga a ofrecerla primero a otros grupos, lo que puede alargar los plazos. Celsia dejaría de ser dueña de una planta de 315 MW, una capacidad hidroeléctrica que pesa en un momento de embalses bajos. Los términos de valoración todavía no se conocen.",
+      "impacto": {
+        "conclusion": "Pesa algo más la lectura alcista: el canje permitiría a Celsia reducir deuda sin usar caja y elevaría la participación de sus accionistas privados, en línea con el plan del Grupo Argos. Para el portafolio, el efecto se limita a quienes tienen acciones del Grupo Argos o de Celsia y depende de que el acuerdo se concrete.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "positivo",
+            "detalle": "Para quien tiene acciones del Grupo Argos, el canje avanza en su plan ACE 1.0 y reduciría la deuda de Celsia."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La firma de los contratos vinculantes, prevista para las próximas semanas, y la decisión del Concejo de Cali.",
+      "terminos": [
+        "Memorando de entendimiento",
+        "Rotación de activos",
+        "Descuento de holding"
+      ],
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/negocios/empresas/celsia-y-emcali-acuerdan-intercambio-de-acciones-del-18-06-por-la-hidroelectrica-salvajina-504579"
+    },
     {
       "id": "2026-10-17-c01",
       "fecha": "2026-10-17",

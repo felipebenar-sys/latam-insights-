@@ -3,13 +3,13 @@
     "valor": 3174.67,
     "vigente_desde": "2026-10-17",
     "anterior": 3170.46,
-    "fuente": "TRM certificada vía Colombia.com"
+    "fuente": "TRM certificada vía Portafolio"
   },
   "brent": {
     "valor": 109.86,
     "cambio_pct": 3.72,
     "fecha": "2026-10-16",
-    "fuente": "EFE vía Infobae"
+    "fuente": "Investing.com"
   },
   "colcap": {
     "valor": 2566.28,
@@ -26,5 +26,5 @@
     "periodo": "sep 2026",
     "fuente": "DANE"
   },
-  "actualizado": "2026-10-17"
+  "actualizado": "2026-10-18"
 }

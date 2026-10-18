@@ -1,6 +1,237 @@
 {
-  "actualizado": "17 oct 2026, 7:20 a. m. (hora Bogotá)",
+  "actualizado": "18 oct 2026, 7:29 a. m. (hora Bogotá)",
   "notas": [
+    {
+      "id": "2026-10-18-01",
+      "fecha": "2026-10-18",
+      "categoria": "sectores",
+      "puntaje": {
+        "total": 7,
+        "alcance": 2,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Los embalses cierran la primera quincena de octubre en 75,89%, por debajo de la meta de XM",
+      "resumen": "Pese a las lluvias recientes, el nivel de los embalses del país quedó en 75,89% a mitad de octubre, 4,1 puntos porcentuales por debajo de la meta que XM fijó para la temporada crítica de El Niño, según La República.",
+      "contexto": "El nivel también quedó 35 puntos básicos por debajo del de septiembre; en agosto el sistema había llegado a 79,36%. XM prevé que al menos tres embalses estén por debajo de sus mínimos de los últimos 20 años en marzo de 2027 y que el nivel total baje de 20% en la fase más dura de El Niño. Las plantas térmicas fueron llamadas a generar 100 GWh diarios durante los próximos 10 meses, y el gas importado ya cubre un tercio de la demanda nacional. A comienzos de octubre, generar con ACPM costaba $1.480 por kilovatio hora y con gas $837, frente a un precio promedio en bolsa de $990.",
+      "afectados": [
+        "Generadoras de energía",
+        "Térmicas",
+        "Precio de la energía",
+        "Inflación"
+      ],
+      "peso_alcista": 30,
+      "alcista": "El llamado a las térmicas para generar 100 GWh diarios busca guardar agua en los embalses antes de la temporada seca, lo que reduce el riesgo de un racionamiento. Las empresas con plantas térmicas y contratos de largo plazo podrían vender más energía en un periodo de demanda alta. Las lluvias de octubre dieron algo de alivio a las hidroeléctricas, aunque no alcanzaron para recuperar la tendencia de llenado. Una respuesta anticipada le da margen al sistema para ajustarse antes del pico de El Niño.",
+      "bajista": "El nivel sigue por debajo de la meta y bajó frente a septiembre, pese a las lluvias. Generar con ACPM o gas importado cuesta más que el precio promedio de bolsa, lo que puede presionar al alza las tarifas de energía y, con ellas, la inflación. Una inflación más alta haría más difícil que el Banco de la República baje su tasa. Las generadoras que dependen del agua tendrían menos energía propia para vender y podrían verse obligadas a comprarla más cara.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista: los embalses siguen por debajo de la meta y el sistema depende de combustibles más caros que el precio actual de la energía. Para quien invierte, esto suma un riesgo de mayores costos de energía e inflación, que golpea a las empresas que dependen del agua y a los títulos de renta fija.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "mixto",
+            "detalle": "Las térmicas podrían vender más energía, mientras las generadoras que dependen del agua enfrentan menos producción propia y compras más caras."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "Si la energía más cara presiona la inflación, las tasas se mantendrían altas por más tiempo y los TES que ya tienes perderían precio."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "El próximo reporte de XM sobre el nivel de los embalses al cierre de octubre.",
+      "terminos": [
+        "Fenómeno de El Niño",
+        "Generación térmica",
+        "Precio de bolsa de energía",
+        "Puntos básicos",
+        "Inflación"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/aun-con-los-aguaceros-de-octubre-los-embalses-no-superan-75-de-llenado-4504902"
+    },
+    {
+      "id": "2026-10-18-02",
+      "fecha": "2026-10-18",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 6,
+        "alcance": 2,
+        "materialidad": 2,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "Banco de Bogotá estima que el PIB crecería menos de 2% en el tercer trimestre",
+      "resumen": "El equipo de investigaciones económicas del Banco de Bogotá calcula que la economía colombiana habría crecido menos de 2% en el tercer trimestre, su menor ritmo en al menos dos años, tras el 3,5% del segundo trimestre, según Valora Analitik.",
+      "contexto": "El indicador de actividad del banco (IAECO) creció 0,9% anual en agosto, frente a 1,5% en julio y 2% en agosto de 2025. El banco atribuye el frenazo a la revaluación del peso, que afecta a exportadores y turismo; a un menor gasto de los hogares, porque las remesas valen menos en pesos; a la menor ejecución del gasto público durante el cambio de gobierno; a las tasas de interés altas, que frenan la construcción; y a los efectos del clima y del terremoto del 10 de agosto. Proyecta un crecimiento de 2,5% para 2026 y de 2,1% para 2027.",
+      "afectados": [
+        "PIB",
+        "Consumo de los hogares",
+        "Construcción",
+        "Turismo",
+        "Exportadores"
+      ],
+      "peso_alcista": 35,
+      "alcista": "Una economía más lenta le quita presión a la inflación por el lado de la demanda, lo que con el tiempo podría abrir espacio para que el Banco de la República deje de subir su tasa. Si el mercado empieza a anticipar ese escenario, los TES podrían valorizarse. El banco señala que el menor gasto público ayuda al balance fiscal, un punto que vigilan los inversionistas en deuda. Además, las remesas siguen creciendo en dólares: subieron 4,5% anual en agosto.",
+      "bajista": "Un crecimiento por debajo de 2% significa menos ventas y utilidades para las empresas, sobre todo en comercio, turismo y construcción. Las tasas altas siguen frenando la inversión, y el gasto público se está moderando justo cuando la economía pierde impulso. Las remesas cayeron 19% medidas en pesos, lo que resta capacidad de gasto a muchas familias. Si la economía se enfría mientras la inflación sigue alta, el escenario se complica tanto para las empresas como para el Banco de la República.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista: los datos apuntan a un enfriamiento amplio de la economía, con varios motores débiles al tiempo. Para quien invierte, esto es una presión para las acciones locales, mientras el efecto sobre la renta fija depende de si la desaceleración termina por moderar la inflación y las tasas.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Un menor crecimiento reduce las ventas y utilidades esperadas de las empresas que cotizan en la bolsa colombiana."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "mixto",
+            "detalle": "Una economía más lenta podría anticipar el fin de las alzas de tasas y favorecer a los TES, pero la inflación alta todavía limita ese efecto."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "El dato oficial del PIB del tercer trimestre que publicará el DANE.",
+      "terminos": [
+        "PIB",
+        "Desaceleración económica",
+        "Revaluación del peso",
+        "Remesas",
+        "Tasa de política monetaria"
+      ],
+      "fuente": "Valora Analitik",
+      "url": "https://www.valoraanalitik.com/economia-colombiana-se-adentra-en-una-fase-de-desaceleracion-pib-caeria-por-debajo-del-2-en-el-tercer-trimestre/"
+    },
+    {
+      "id": "2026-10-18-03",
+      "fecha": "2026-10-18",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 6,
+        "alcance": 1,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "La inversión extranjera directa sube 44% en septiembre, a US$885 millones",
+      "resumen": "La inversión extranjera directa en Colombia sumó US$885 millones en septiembre, 44% más que un año antes, según cifras del Banco de la República citadas por Valora Analitik.",
+      "contexto": "En septiembre de 2025 había llegado a US$611 millones. Aun así, completa 17 meses seguidos sin superar los US$1.000 millones mensuales. El petróleo y la minería recibieron US$675 millones, el 76% del total del mes. Entre enero y septiembre la inversión extranjera directa acumula US$6.673 millones, mientras las remesas sumaron US$8.897 millones entre enero y agosto; las remesas la superan desde hace 28 meses.",
+      "afectados": [
+        "Inversión extranjera",
+        "Petróleo y minería",
+        "Peso colombiano"
+      ],
+      "peso_alcista": 60,
+      "alcista": "Un aumento de 44% anual muestra un mayor interés de inversionistas del exterior en el país. Estos recursos traen dólares de largo plazo, que ayudan a financiar las cuentas externas y dan soporte al peso. La llegada de capital al petróleo y la minería puede traducirse en más producción y exportaciones en el futuro. Es una señal favorable en un momento en que el país necesita atraer financiación externa.",
+      "bajista": "La inversión sigue lejos de los US$1.000 millones mensuales, un nivel que no supera desde hace casi año y medio. Tres de cada cuatro dólares llegaron a petróleo y minería, lo que muestra poca diversificación hacia otros sectores. Las remesas siguen superando a la inversión extranjera, lo que refleja la dificultad del país para atraer capital productivo. Un solo mes de crecimiento no basta para hablar de una tendencia.",
+      "impacto": {
+        "conclusion": "Pesa algo más la lectura alcista: la inversión crece con fuerza frente a 2025, aunque sigue en niveles modestos y concentrada en un sector. Para quien invierte, el efecto principal está en la tasa de cambio, porque más dólares de inversión tienden a sostener al peso.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "negativo",
+            "detalle": "Más dólares por inversión extranjera tienden a sostener el peso, lo que reduce el valor en pesos de tus ahorros en dólares."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "El dato de inversión extranjera directa de octubre en la balanza cambiaria del Banco de la República.",
+      "terminos": [
+        "Inversión extranjera directa",
+        "Remesas",
+        "Déficit de cuenta corriente"
+      ],
+      "fuente": "Valora Analitik",
+      "url": "https://www.valoraanalitik.com/inversion-extranjera-directa-en-colombia-crecio-44-en-septiembre-pero-remesas-la-sigue-superando/"
+    },
+    {
+      "id": "2026-10-18-04",
+      "fecha": "2026-10-18",
+      "categoria": "commodities",
+      "puntaje": {
+        "total": 5,
+        "alcance": 1,
+        "materialidad": 1,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Ecuador vuelve a transportar crudo de Ecopetrol por sus oleoductos tras nueve meses",
+      "resumen": "Petroecuador informó que desde octubre transporta en promedio 11.900 barriles diarios de crudo de Ecopetrol y Amerisur por sus oleoductos hacia el puerto de Esmeraldas, según Portafolio con información de EFE.",
+      "contexto": "El crudo pasa por los oleoductos OSLA y SOTE, en una ruta de unos 500 kilómetros desde Lago Agrio, en la frontera con Colombia. El transporte se suspendió el 23 de enero, cuando Ecuador subió la tarifa del SOTE para usuarios extranjeros de US$3 a US$30 por barril, en medio de una disputa que incluyó aranceles de 30% y luego de 100% a productos colombianos. La disputa terminó a comienzos de junio con la intervención de la Comunidad Andina. Petroecuador estima ingresos de US$1,4 millones mensuales por este servicio.",
+      "afectados": [
+        "Ecopetrol",
+        "Amerisur",
+        "Comercio con Ecuador"
+      ],
+      "peso_alcista": 65,
+      "alcista": "Reabrir la ruta por Ecuador le da a Ecopetrol y Amerisur una salida para el crudo que producen cerca de la frontera, que estuvo cerrada nueve meses. Retomar contratos vigentes desde 2024 reduce la incertidumbre sobre cómo sacar esa producción. La normalización se suma a otras señales de mejora en la relación con Ecuador. Con el petróleo en precios altos, cada barril que se puede exportar tiene más valor.",
+      "bajista": "Los volúmenes son pequeños frente a la producción total de Ecopetrol, así que el efecto en sus cifras sería limitado. El episodio mostró que la ruta depende de decisiones políticas del país vecino, que pueden cambiar las tarifas de un momento a otro. La nota no informa con qué tarifa se reanuda el transporte. Una nueva tensión diplomática podría volver a cerrar el paso.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura alcista: se normaliza una ruta de exportación que llevaba meses cerrada, aunque con volúmenes modestos. Para el portafolio, el efecto se concentra en las acciones de Ecopetrol y es pequeño.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "positivo",
+            "detalle": "Ecopetrol recupera una salida para parte de su crudo, aunque con un volumen pequeño frente a su producción total."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "Cualquier anuncio de Ecopetrol o de Ecuador sobre la tarifa y los volúmenes de transporte por el SOTE.",
+      "terminos": [
+        "Oleoducto",
+        "Arancel",
+        "Comunidad Andina"
+      ],
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/energia/ecuador-reanuda-transporte-de-petroleo-colombiano-tras-nueve-meses-de-suspension-por-guerra-arancelaria-504648"
+    },
     {
       "id": "2026-10-17-01",
       "fecha": "2026-10-17",

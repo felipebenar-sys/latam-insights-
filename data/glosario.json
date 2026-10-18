@@ -387,6 +387,34 @@
     {
       "termino": "Acuerdo de equalización",
       "definicion": "Acuerdo entre las empresas que comparten un yacimiento de petróleo para ajustar cuánto le corresponde a cada una según su participación definitiva. Quien recibió menos de lo que le tocaba es compensada por las demás, con dinero o con producción."
+    },
+    {
+      "termino": "Precio de bolsa de energía",
+      "definicion": "Precio al que se compra y vende la electricidad en el mercado mayorista, día a día y hora a hora. Sube cuando hay poca agua en los embalses o cuando se necesita generar con combustibles caros, y con el tiempo puede trasladarse a las tarifas que pagan hogares y empresas."
+    },
+    {
+      "termino": "Desaceleración económica",
+      "definicion": "Periodo en el que la economía sigue creciendo, pero a un ritmo menor que antes. Suele traer menos ventas y utilidades para las empresas y menos empleo, y puede llevar al banco central a moderar sus tasas de interés si también baja la inflación."
+    },
+    {
+      "termino": "Inversión extranjera directa",
+      "definicion": "Dinero que empresas o inversionistas del exterior ponen en un país para crear, comprar o ampliar negocios con una visión de largo plazo, como fábricas, minas o empresas. Trae dólares estables al país y ayuda a financiar sus cuentas externas, a diferencia de los capitales que entran y salen rápido de bonos o acciones."
+    },
+    {
+      "termino": "Oleoducto",
+      "definicion": "Tubería de gran tamaño que transporta petróleo crudo a largas distancias, por ejemplo desde los campos de producción hasta un puerto o una refinería. Si un oleoducto se cierra o sube su tarifa, las petroleras deben buscar rutas más caras para sacar su producción."
+    },
+    {
+      "termino": "Comunidad Andina",
+      "definicion": "Organización de integración económica formada por Bolivia, Colombia, Ecuador y Perú. Facilita el comercio entre sus miembros y tiene instancias para resolver disputas comerciales entre ellos, como aranceles o barreras al comercio."
+    },
+    {
+      "termino": "Memorando de entendimiento",
+      "definicion": "Documento en el que dos o más partes dejan por escrito su intención de hacer un negocio y las condiciones generales para estudiarlo. No obliga a cerrar la operación: es un paso previo a los contratos definitivos, que pueden cambiar o no firmarse."
+    },
+    {
+      "termino": "Rotación de activos",
+      "definicion": "Estrategia en la que una empresa vende o intercambia activos que ya maduraron, como una planta o una participación, para liberar recursos y usarlos en nuevos proyectos, pagar deuda o retribuir a sus accionistas."
     }
   ]
 }
