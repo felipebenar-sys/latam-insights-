@@ -5,6 +5,11 @@
       "ticker": "CELC",
       "nombre": "Celcuity",
       "bolsa": "Nasdaq",
+      "medicamento_principal": {
+        "nombre": "Gedatolisib",
+        "fase": "Aprobado (FDA)",
+        "enfermedad": "Cáncer de mama"
+      },
       "que_hace": "Desarrolla gedatolisib (marca REVTORPYK), un medicamento contra el cáncer de mama que bloquea varias piezas de la vía PI3K/AKT/mTOR, un circuito que las células tumorales usan para crecer.",
       "estado": "Aprobado por la FDA en EE. UU. para un grupo de pacientes con cáncer de mama HR+/HER2- avanzado sin mutación PIK3CA, y comercialmente disponible en EE. UU.",
       "hitos": [
@@ -23,6 +28,11 @@
       "ticker": "FTH",
       "nombre": "Faeth Therapeutics",
       "bolsa": "Nasdaq",
+      "medicamento_principal": {
+        "nombre": "PIKTOR",
+        "fase": "Fase 2",
+        "enfermedad": "Cáncer de endometrio"
+      },
       "que_hace": "Desarrolla PIKTOR, una combinación de dos pastillas (serabelisib y sapanisertib) que bloquea en dos puntos distintos la vía PI3K/AKT/mTOR, para cáncer de endometrio y de mama. Antes se llamaba Sensei Biotherapeutics.",
       "estado": "En estudios clínicos (aún no aprobado). La FDA le otorgó la designación Fast Track en cáncer de endometrio avanzado en agosto de 2026.",
       "hitos": [
@@ -45,6 +55,11 @@
       "ticker": "RLAY",
       "nombre": "Relay Therapeutics",
       "bolsa": "Nasdaq",
+      "medicamento_principal": {
+        "nombre": "Zovegalisib",
+        "fase": "Fase 3",
+        "enfermedad": "Cáncer de mama"
+      },
       "que_hace": "Desarrolla zovegalisib (RLY-2608), una pastilla diseñada para bloquear solo la versión mutada de la proteína PI3Kα, presente en muchos cánceres de mama; también la estudia en malformaciones vasculares.",
       "estado": "En estudios clínicos (aún no aprobado). Tiene designación de terapia innovadora de la FDA y un estudio de fase 3 (ReDiscover-2) en curso en cáncer de mama.",
       "hitos": [

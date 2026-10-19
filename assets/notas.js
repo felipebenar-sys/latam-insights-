@@ -432,6 +432,19 @@
             <div class="mt-5 pt-4 border-t border-stone-800 flex justify-end">${compartir(n, 'biotecnologia.html')}</div>
         </article>`;
     }
+    function medicamentoPrincipal(m) {
+        if (!m || !m.nombre) return '';
+        const chip = (t, cls) => t ? `<span class="${cls} text-xs font-semibold px-2.5 py-1 rounded-md border">${esc(t)}</span>` : '';
+        return `
+            <div class="mb-3">
+                <p class="text-stone-500 text-xs font-bold uppercase tracking-wider mb-1.5">Medicamento principal</p>
+                <div class="flex flex-wrap gap-1.5">
+                    ${chip(m.nombre, 'bg-amber-400/10 text-amber-300 border-amber-400/30')}
+                    ${chip(m.fase, 'bg-sky-400/10 text-sky-300 border-sky-400/30')}
+                    ${chip(m.enfermedad, 'bg-stone-800 text-stone-200 border-stone-700')}
+                </div>
+            </div>`;
+    }
     function fichaEmpresa(c) {
         return `
         <div class="bg-stone-900 border border-stone-800 rounded-xl p-5 flex flex-col">
@@ -439,6 +452,7 @@
                 <p class="text-white font-bold text-lg">${esc(c.nombre)}</p>
                 <span class="text-sky-300 text-xs font-semibold">${String(c.bolsa || '').includes(':') ? esc(c.bolsa) : `${esc(c.bolsa)}: ${esc(c.ticker)}`}</span>
             </div>
+            ${medicamentoPrincipal(c.medicamento_principal)}
             <p class="text-stone-300 text-sm leading-relaxed mb-3">${esc(c.que_hace)}</p>
             <p class="text-stone-400 text-sm leading-relaxed mb-3"><span class="text-stone-500 text-xs font-bold uppercase tracking-wider block mb-1">Estado</span>${esc(c.estado)}</p>
             <div class="mt-auto">
