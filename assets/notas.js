@@ -582,7 +582,38 @@
             btn.setAttribute('aria-expanded', !abierto); panel.classList.toggle('hidden', abierto);
         });
         panel.addEventListener('click', e => { if (e.target.closest('a')) { btn.setAttribute('aria-expanded', 'false'); panel.classList.add('hidden'); } });
+        marcarNuevos();
     };
+
+    // Etiqueta "Nuevo" en el menú: Cobertura LatAm y Biotecnología con noticias de las últimas 48 horas
+    // (según la fecha de la noticia, fecha_noticia, en hora Bogotá: hoy o ayer)
+    function marcarNuevos() {
+        const header = document.querySelector('header');
+        if (!header) return;
+        const hoy = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Bogota', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
+        const dia = iso => { const [y, m, d] = String(iso).split('-').map(Number); return Date.UTC(y, m - 1, d) / 864e5; };
+        const reciente = notas => (notas || []).some(n => { const f = n.fecha_noticia || n.fecha; if (!f) return false; const dif = dia(hoy) - dia(f); return dif >= 0 && dif <= 1; });
+        const leer = f => fetch(f, { cache: 'no-store' }).then(r => r.ok ? r.json() : {}).catch(() => ({}));
+        const etiqueta = '<span data-nuevo class="ml-2 inline-flex items-center rounded-full bg-amber-400 text-stone-950 text-[10px] font-bold uppercase tracking-wide px-1.5 py-0.5 align-middle">Nuevo</span>';
+        const punto = (clase) => `<span data-nuevo class="${clase} w-2 h-2 rounded-full bg-amber-400" aria-hidden="true"></span>`;
+        Promise.all([leer('data/cobertura.json'), leer('data/biotech.json')]).then(([cob, bio]) => {
+            const paginas = [['cobertura.html', reciente(cob.notas)], ['biotecnologia.html', reciente(bio.notas)]].filter(x => x[1]).map(x => x[0]);
+            if (!paginas.length) return;
+            paginas.forEach(p => header.querySelectorAll(`a[href="${p}"]`).forEach(a => { if (!a.querySelector('[data-nuevo]')) a.insertAdjacentHTML('beforeend', etiqueta); }));
+            // Punto en "Empresas" (computador) y en el botón del menú (celular), para verlo sin abrir el menú
+            header.querySelectorAll('[data-dropdown]').forEach(dd => {
+                if (![...dd.querySelectorAll('a')].some(a => paginas.includes(a.getAttribute('href')))) return;
+                const b = dd.querySelector('button');
+                if (b && !b.querySelector('[data-nuevo]')) { b.insertAdjacentHTML('beforeend', punto('inline-block')); b.setAttribute('aria-label', b.textContent.trim() + ' (hay noticias nuevas)'); }
+            });
+            const mb = document.getElementById('menu-btn');
+            if (mb && !mb.querySelector('[data-nuevo]')) {
+                mb.classList.add('relative');
+                mb.insertAdjacentHTML('beforeend', punto('absolute -top-1 -right-1 ring-2 ring-stone-900'));
+                mb.setAttribute('aria-label', 'Abrir menú (hay noticias nuevas)');
+            }
+        });
+    }
 
     // Barra superior: dólar (TRM oficial, datos.gov.co) y última actualización
     window.renderBarra = function () {
