@@ -440,7 +440,7 @@
                 <p class="text-stone-500 text-xs font-bold uppercase tracking-wider mb-1.5">Medicamento principal</p>
                 <div class="flex flex-wrap gap-1.5">
                     ${chip(m.nombre, 'bg-amber-400/10 text-amber-300 border-amber-400/30')}
-                    ${chip(m.fase, 'bg-sky-400/10 text-sky-300 border-sky-400/30')}
+                    ${m.fase ? `<button type="button" data-termino="${esc(m.fase)}" title="¿Qué significa esta etapa?" class="bg-sky-400/10 text-sky-300 border-sky-400/30 hover:border-sky-300 text-xs font-semibold px-2.5 py-1 rounded-md border cursor-help inline-flex items-center gap-1">${esc(m.fase)}<span aria-hidden="true" class="text-sky-300/70 text-[10px] leading-none border border-sky-300/50 rounded-full w-3.5 h-3.5 inline-flex items-center justify-center">?</span></button>` : ''}
                     ${chip(m.enfermedad, 'bg-stone-800 text-stone-200 border-stone-700')}
                 </div>
             </div>`;
@@ -484,16 +484,30 @@
             box.addEventListener('click', e => {
                 const b = e.target.closest('[data-v]'); if (!b) return;
                 box.querySelectorAll('[data-v]').forEach(x => x.setAttribute('aria-pressed', x === b));
+                const v = b.dataset.v, pasa = a => !v || a.dataset.empresa === v;
                 let vis = 0;
-                hoy.querySelectorAll('[data-nota]').forEach(a => { const ok = !b.dataset.v || a.dataset.empresa === b.dataset.v; a.classList.toggle('hidden', !ok); if (ok) vis++; });
+                hoy.querySelectorAll('[data-nota]').forEach(a => { const ok = pasa(a); a.classList.toggle('hidden', !ok); if (ok) vis++; });
                 document.getElementById('bio-vacio').classList.toggle('hidden', vis > 0);
+                // Ediciones anteriores: mismo filtro; se ocultan las ediciones sin noticias de esa compañía
+                const arch = document.getElementById('bio-archivo');
+                let edVis = 0;
+                arch.querySelectorAll('details[data-ed]').forEach(dd => {
+                    let n = 0;
+                    dd.querySelectorAll('[data-nota]').forEach(a => { const ok = pasa(a); a.classList.toggle('hidden', !ok); if (ok) n++; });
+                    dd.classList.toggle('hidden', n === 0);
+                    dd.querySelector('[data-cuenta]').textContent = `${n} ${n === 1 ? 'noticia' : 'noticias'}`;
+                    if (n) edVis++;
+                });
+                const av = document.getElementById('bio-archivo-vacio');
+                if (av) av.classList.toggle('hidden', edVis > 0);
             });
             const resto = fechas.slice(1);
             if (resto.length) {
                 document.getElementById('bio-archivo-wrap').classList.remove('hidden');
                 document.getElementById('bio-archivo').innerHTML = resto.map(f => `
-                    <details><summary class="cursor-pointer text-stone-300 font-semibold hover:text-amber-400">${fmtFecha(f)} · ${porFecha[f].length} noticias</summary>
-                    <div class="space-y-6 mt-4">${porFecha[f].map(n => notaBiotech(n, empresas)).join('')}</div></details>`).join('');
+                    <details data-ed="${f}"><summary class="cursor-pointer text-stone-300 font-semibold hover:text-amber-400">${fmtFecha(f)} · <span data-cuenta>${porFecha[f].length} ${porFecha[f].length === 1 ? 'noticia' : 'noticias'}</span></summary>
+                    <div class="space-y-6 mt-4">${porFecha[f].map(n => notaBiotech(n, empresas)).join('')}</div></details>`).join('')
+                    + `<div id="bio-archivo-vacio" class="hidden">${vacio('No hay noticias de esa compañía en ediciones anteriores.')}</div>`;
                 resto.forEach(f => porFecha[f].forEach(n => marcarTerminos(document.getElementById(n.id), n)));
             }
             if (location.hash) setTimeout(() => { const el = document.getElementById(decodeURIComponent(location.hash.slice(1))); if (el) { const dd = el.closest('details'); if (dd) dd.open = true; el.scrollIntoView({ behavior: 'smooth' }); } }, 50);

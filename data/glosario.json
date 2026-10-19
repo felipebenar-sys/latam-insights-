@@ -443,6 +443,30 @@
     {
       "termino": "Estudio preclínico",
       "definicion": "Es la etapa de pruebas de un medicamento que se hace en células de laboratorio y en animales, antes o al mismo tiempo que se prueba en personas. Sirve para ver cómo actúa y si parece seguro. Sus resultados no garantizan que el medicamento funcione igual en pacientes."
+    },
+    {
+      "termino": "Fase 1",
+      "definicion": "Primera prueba de un medicamento en personas, normalmente en un grupo pequeño. La pregunta que busca responder es: ¿es seguro y qué dosis se puede dar sin causar daños graves? Todavía no busca demostrar que el medicamento funcione."
+    },
+    {
+      "termino": "Fase 1/2",
+      "definicion": "Un estudio que junta dos etapas en una sola. Primero responde la pregunta de la fase 1 (¿es seguro y qué dosis usar?) y luego, con la dosis elegida, empieza a responder la de la fase 2 (¿hay señales de que funciona?)."
+    },
+    {
+      "termino": "Fase 2",
+      "definicion": "Segunda etapa de pruebas en personas, con un grupo más grande que en la fase 1. La pregunta que busca responder es: ¿el medicamento funciona en la enfermedad para la que se diseñó, y con qué dosis? También sigue revisando su seguridad. Si los resultados son buenos, el siguiente paso suele ser la fase 3."
+    },
+    {
+      "termino": "Fase 3",
+      "definicion": "La etapa más grande y costosa de pruebas en personas, a menudo con cientos o miles de pacientes. La pregunta que busca responder es: ¿el medicamento funciona mejor que el tratamiento que ya existe (o que no recibir tratamiento), y sus beneficios superan sus riesgos? Sus resultados suelen ser la base para pedir la aprobación."
+    },
+    {
+      "termino": "En revisión FDA",
+      "definicion": "La compañía ya terminó sus estudios y le pidió a la FDA que apruebe el medicamento. La pregunta que la FDA busca responder es: ¿las pruebas muestran que el medicamento es seguro y funciona lo suficiente como para venderse en EE. UU.?"
+    },
+    {
+      "termino": "Aprobado (FDA)",
+      "definicion": "La FDA ya autorizó vender el medicamento en EE. UU. para un grupo específico de pacientes. Las preguntas ya no son si funciona en un estudio, sino cuántos médicos lo usan, si se puede aprobar para más pacientes o enfermedades y cómo funciona en la vida real. La compañía muchas veces sigue haciendo estudios para ampliar su uso."
     }
   ]
 }
