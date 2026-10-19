@@ -475,14 +475,14 @@
     function fichaBiotech(c) {
         const prox = (c.hitos || [])[0];
         return `
-        <div data-ficha="${esc(c.ticker)}" class="bg-stone-900 border border-stone-800 rounded-xl p-5 flex flex-col">
+        <div data-ficha="${esc(c.ticker)}" class="group/ficha bg-stone-900 border border-stone-800 rounded-xl p-5 flex flex-col">
             <div class="flex items-baseline justify-between gap-2 mb-2">
                 <p class="text-white font-bold text-lg">${esc(c.nombre)}</p>
                 <span class="text-sky-300 text-xs font-semibold">${String(c.bolsa || '').includes(':') ? esc(c.bolsa) : `${esc(c.bolsa)}: ${esc(c.ticker)}`}</span>
             </div>
             ${medicamentoPrincipal(c.medicamento_principal)}
-            ${prox ? `<p class="text-sm text-stone-300 mb-3"><span class="text-stone-500 text-xs font-bold uppercase tracking-wider block mb-1">Próximo hito</span><span class="text-amber-400 text-xs">${esc(prox.fecha)}</span> · ${esc(prox.texto)}</p>` : ''}
-            <details class="group">
+            ${prox ? `<p class="text-sm text-stone-300 mb-3 group-has-[details[open]]/ficha:hidden"><span class="text-stone-500 text-xs font-bold uppercase tracking-wider block mb-1">Próximo hito</span><span class="text-amber-400 text-xs">${esc(prox.fecha)}</span> · ${esc(prox.texto)}</p>` : ''}
+            <details class="group" open>
                 <summary class="tap-amplio cursor-pointer text-stone-400 hover:text-amber-400 text-xs font-semibold list-none [&::-webkit-details-marker]:hidden inline-flex items-center gap-1"><span class="group-open:hidden">Ver más de la compañía</span><span class="hidden group-open:inline">Ver menos</span><span aria-hidden="true" class="transition group-open:rotate-180">▾</span></summary>
                 <div class="mt-3 space-y-3">
                     <p class="text-stone-300 text-sm leading-relaxed"><span class="text-stone-500 text-xs font-bold uppercase tracking-wider block mb-1">Qué hace</span>${esc(c.que_hace)}</p>
