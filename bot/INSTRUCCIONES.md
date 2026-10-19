@@ -129,7 +129,7 @@ Sección aparte, con reglas propias. Se actualiza en la misma corrida diaria.
 **Reglas especiales (obligatorias):**
 1. **Sin opinión:** prohibido incluir lecturas alcista o bajista, ponderaciones, puntajes, efectos en el portafolio, calificativos como "positivo", "negativo", "bueno", "malo", "prometedor" o "decepcionante", y cualquier recomendación. Solo hechos y su explicación.
 2. **Lenguaje para un joven de 15 años:** frases cortas, sin jerga; si un término técnico es inevitable, va en `terminos` y en el glosario.
-3. Valen las reglas generales de derechos de autor, hechos solo de la fuente, firma Stag Research y sin menciones al proceso.
+3. Valen las reglas generales de derechos de autor, hechos solo de la fuente (en el contexto, también de la ficha y las notas ya publicadas, como se explica abajo), firma Stag Research y sin menciones al proceso.
 
 **Formato de cada nota** (se agregan al inicio de `notas` en `data/biotech.json`):
 
@@ -142,14 +142,23 @@ Sección aparte, con reglas propias. Se actualiza en la misma corrida diaria.
   "tipo": "Ensayo clínico | Resultados financieros | Regulatorio (FDA) | Congreso médico | Financiamiento | Alianza | Competidores y sector | Gobierno corporativo",
   "titulo": "",
   "resumen": "Qué pasó, 1 a 2 frases.",
-  "contexto": "Antecedentes, 2 a 4 frases, solo hechos de la fuente.",
-  "que_significa": "Explicación sencilla de qué significa la noticia y por qué importa, 3 a 5 frases, sin opinión.",
+  "contexto": "Antecedentes, 5 a 7 frases (ver 'Cómo escribir el contexto' abajo).",
+  "que_significa": "Explicación sencilla de qué significa la noticia y por qué importa, 4 a 6 frases, sin opinión.",
   "mirar": "El próximo dato o fecha relacionado (1 frase).",
   "terminos": ["FDA", "Fases de un ensayo clínico"],
   "fuente": "",
   "url": "https://..."
 }
 ```
+
+**Cómo escribir el contexto (obligatorio):** el lector no sigue la compañía a diario, así que cada nota debe entenderse sola, sin haber leído las anteriores. Mantén frases cortas y sencillas, pero da el panorama completo. El `contexto` responde, en este orden y solo con lo que aplique:
+1. **Quién es la compañía y cuál es su producto:** qué medicamento es, para qué enfermedad y para qué pacientes (por ejemplo, "mujeres con cáncer de mama avanzado que ya recibieron otro tratamiento").
+2. **Cómo funciona, en una imagen simple:** qué bloquea o qué hace en el cuerpo, sin jerga.
+3. **En qué etapa está:** aprobado o en estudios; en qué fase; qué estudios tiene en curso y cuándo espera resultados.
+4. **Qué pasó antes que explique esta noticia:** resultados, anuncios o decisiones previas que la conecten.
+5. **Con quién se relaciona:** competidores o medicamentos parecidos, si la fuente los menciona o si son otra compañía cubierta (CELC, FTH y RLAY trabajan sobre la misma vía PI3K/AKT/mTOR).
+
+Los antecedentes pueden venir de la fuente de la noticia, de la ficha de la compañía en `companias` y de notas ya publicadas en `data/biotech.json` (búscalas con grep por ticker; no leas el archivo completo). No uses cifras ni hechos que no estén en esas fuentes; si un dato no aparece, no lo pongas. El `que_significa` explica la noticia en sí (qué es ese tipo de evento, por qué una compañía lo hace o lo anuncia, qué podría venir después), no repite el contexto.
 
 Actualiza también `actualizado` de `data/biotech.json` (hora real, como en la sección Hoy) y, si una noticia cambia el estado o los próximos hitos de una compañía, actualiza su ficha en `companias` (campos `estado` y `hitos`), con `fuente_url` apuntando a la fuente de ese cambio. Los términos nuevos van al mismo `data/glosario.json`, con definiciones para un joven de 15 años.
 
