@@ -1,5 +1,5 @@
 {
-  "actualizado": "14 oct 2026, 4:57 p. m. (hora Bogotá)",
+  "actualizado": "19 oct 2026, 7:27 a. m. (hora Bogotá)",
   "companias": [
     {
       "ticker": "CELC",
@@ -27,6 +27,10 @@
       "estado": "En estudios clínicos (aún no aprobado). La FDA le otorgó la designación Fast Track en cáncer de endometrio avanzado en agosto de 2026.",
       "hitos": [
         {
+          "texto": "Póster con datos preclínicos de PIKTOR en cáncer de mama en ESMO 2026 (Madrid)",
+          "fecha": "23 oct 2026"
+        },
+        {
           "texto": "Primeros resultados (topline) del estudio de fase 2 en cáncer de endometrio",
           "fecha": "antes de fin de 2026"
         },
@@ -35,7 +39,7 @@
           "fecha": "2027"
         }
       ],
-      "fuente_url": "https://www.nasdaq.com/press-release/faeth-therapeutics-host-virtual-kol-event-multi-nodal-inhibition-treatment"
+      "fuente_url": "https://www.financialcontent.com/article/bizwire-2026-10-19-faeth-to-present-preclinical-data-on-piktor-in-hrher2-breast-cancer-models-at-esmo-2026"
     },
     {
       "ticker": "RLAY",
@@ -61,6 +65,26 @@
     }
   ],
   "notas": [
+    {
+      "id": "2026-10-19-b01",
+      "fecha": "2026-10-19",
+      "fecha_noticia": "2026-10-19",
+      "empresa": "FTH",
+      "tipo": "Congreso médico",
+      "titulo": "Faeth mostrará en ESMO pruebas de laboratorio de PIKTOR en cáncer de mama",
+      "resumen": "Faeth Therapeutics presentará el 23 de octubre en el congreso ESMO 2026, en Madrid, un póster con resultados de laboratorio y en ratones de PIKTOR en modelos de cáncer de mama HR+/HER2-. El póster incluye comparaciones directas con gedatolisib, el medicamento de Celcuity.",
+      "contexto": "PIKTOR es una combinación de dos pastillas: serabelisib, que bloquea la proteína PI3K-alfa, y sapanisertib, que bloquea mTORC1 y mTORC2. En estas pruebas se usó solo y junto con otros medicamentos contra el cáncer de mama, como fulvestrant, SERD orales e inhibidores de CDK. Según la compañía, PIKTOR frenó puntos clave de la vía PI3K/AKT/mTOR, entre ellos AKT, igual o más que los medicamentos que bloquean un solo punto. La comparación con gedatolisib se hizo en dos modelos de tumor en ratones.",
+      "que_significa": "Un estudio preclínico se hace en células y animales, antes o en paralelo a las pruebas en personas. Sirve para entender cómo actúa un medicamento y para diseñar mejor los estudios con pacientes; Faeth dice que estos datos alimentan su estudio FTH-PIK-101 en cáncer de mama. La propia compañía advierte que estos resultados pueden no repetirse en pacientes. Gedatolisib, el medicamento con el que se compara, también actúa sobre esta misma vía.",
+      "mirar": "La sesión de pósters del 23 de octubre en ESMO y los primeros resultados del estudio en cáncer de endometrio, esperados antes de fin de 2026.",
+      "terminos": [
+        "Estudio preclínico",
+        "Congreso ESMO",
+        "Vía PI3K/AKT/mTOR",
+        "Cáncer de mama HR+/HER2-"
+      ],
+      "fuente": "Business Wire vía FinancialContent (comunicado de Faeth Therapeutics)",
+      "url": "https://www.financialcontent.com/article/bizwire-2026-10-19-faeth-to-present-preclinical-data-on-piktor-in-hrher2-breast-cancer-models-at-esmo-2026"
+    },
     {
       "id": "2026-10-14-b01",
       "fecha": "2026-10-14",

@@ -1,6 +1,301 @@
 {
-  "actualizado": "18 oct 2026, 7:29 a. m. (hora Bogotá)",
+  "actualizado": "19 oct 2026, 7:27 a. m. (hora Bogotá)",
   "notas": [
+    {
+      "id": "2026-10-19-01",
+      "fecha": "2026-10-19",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 8,
+        "alcance": 4,
+        "materialidad": 2,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "Aval Casa de Bolsa ve la inflación en 6,90% al cierre de 2026 y la tasa quieta en 12,25%",
+      "resumen": "Aval Casa de Bolsa actualizó su escenario: espera que la inflación anual suba a 6,90% al terminar 2026 y que el Banco de la República mantenga su tasa en 12,25% el resto del año, sin recortes antes de agosto de 2027.",
+      "contexto": "Para octubre, la firma estima una variación mensual del IPC de 0,42%, con lo que la inflación anual pasaría de 6,29% en septiembre a 6,54%. Atribuye la presión a los alimentos, a las alzas esperadas en las tarifas de gas y energía y al riesgo de El Niño entre diciembre de 2026 y comienzos de 2027; además, en octubre de 2025 los alimentos habían caído 0,35%, lo que juega en contra en la comparación anual. Proyecta una TRM cercana a $3.279 al cierre de 2026, apoyada en un dólar más débil frente a las monedas de la región, el amplio diferencial de tasas y una menor prima de riesgo si la ley de rescate fiscal es bien recibida.",
+      "afectados": [
+        "Banco de la República",
+        "TES",
+        "Peso colombiano",
+        "CDT",
+        "Bancos"
+      ],
+      "peso_alcista": 35,
+      "alcista": "Si la tasa se queda en 12,25% y no sube más, el mercado gana claridad sobre el costo del dinero en los próximos meses. El amplio diferencial de tasas atrae flujos de inversión extranjera hacia activos en pesos, lo que según la firma ayudaría a mantener un peso fuerte. Una ley de rescate fiscal bien recibida reduciría la prima de riesgo del país y daría alivio a los TES y a las acciones. Los ahorradores en pesos seguirían recibiendo tasas altas por más tiempo.",
+      "bajista": "La inflación subiría en lugar de bajar y se alejaría aún más de la meta, por alimentos, energía y El Niño. Eso aplaza los recortes de tasa hasta al menos agosto de 2027, lo que mantiene caro el crédito para empresas y hogares y frena la economía. La firma advierte riesgos de alzas de tasa no contempladas si El Niño es más fuerte o si la Reserva Federal endurece su política. Un ajuste fiscal menor al anunciado podría debilitar el peso y presionar las tasas de los TES.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista: el escenario es de inflación más alta y tasas altas por más tiempo, con riesgos que apuntan a empeorar. Para quien invierte, eso favorece al ahorro en pesos y castiga a los activos que necesitan tasas más bajas, como los TES y las acciones; el dólar depende sobre todo de cómo se reciba el ajuste fiscal.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Tasas altas hasta al menos agosto de 2027 encarecen el crédito y frenan las utilidades de las empresas."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "Si la inflación sube y no hay recortes de tasa, los TES que ya tienes tienden a perder precio."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "La firma ve factores que favorecen al peso, como el diferencial de tasas, pero un ajuste fiscal débil podría subir el dólar."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "positivo",
+            "detalle": "Una tasa de 12,25% sostenida mantiene altos los rendimientos de los CDT y del ahorro en pesos."
+          }
+        ]
+      },
+      "mirar": "El dato de inflación de octubre del DANE, que la firma estima en 6,54% anual.",
+      "terminos": [
+        "Inflación",
+        "Tasa de política monetaria",
+        "Meta de inflación",
+        "Carry trade",
+        "Prima de riesgo país"
+      ],
+      "fuente": "Valora Analitik",
+      "url": "https://www.valoraanalitik.com/aval-casa-de-bolsa-proyecta-inflacion-del-690-y-tasas-de-interes-congeladas-en-1225-para-el-cierre-de-2026/"
+    },
+    {
+      "id": "2026-10-19-02",
+      "fecha": "2026-10-19",
+      "categoria": "politica",
+      "puntaje": {
+        "total": 7,
+        "alcance": 2,
+        "materialidad": 3,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "El Congreso vota hoy el Presupuesto 2027 de $634,9 billones; el plazo vence el martes",
+      "resumen": "Las plenarias de Senado y Cámara tienen prevista para este lunes 19 de octubre la votación final del Presupuesto General de la Nación 2027, que se mantiene en $634,9 billones. El plazo legal para aprobarlo vence el martes 20 de octubre.",
+      "contexto": "La ponencia para segundo debate no cambia el monto total, pero mueve recursos entre partidas: el servicio de la deuda baja $8,4 billones y la compra de bienes y servicios sube de $17,85 billones a $18,72 billones. Garantiza $3 billones para subsidios de energía y gas y crea una bolsa de $3,9 billones en el Ministerio de Hacienda para el terremoto y otros desastres. También incluye un programa de austeridad con recortes en contratistas, viáticos y tiquetes. Un senador anunció una proposición para destinar $10 billones a estabilizar el sistema de salud, que aún no está aprobada.",
+      "afectados": [
+        "Finanzas públicas",
+        "TES",
+        "Ministerio de Hacienda",
+        "Sector energía"
+      ],
+      "peso_alcista": 45,
+      "alcista": "Aprobar el presupuesto a tiempo y sin subir el monto total da certeza sobre el gasto del Estado en 2027. El programa de austeridad recorta gastos no esenciales, una señal que el mercado suele valorar cuando preocupa el déficit. Los $3 billones para subsidios de energía y gas y la bolsa para desastres reducen la incertidumbre en sectores golpeados por El Niño y el terremoto. Si el proceso termina sin cambios grandes, la prima de riesgo del país no tendría un nuevo factor de presión.",
+      "bajista": "La votación llega al límite del plazo y con nuevas proposiciones de cambio, lo que deja espacio para modificaciones de última hora. La propuesta de $10 billones adicionales para salud, si prospera, presionaría unas cuentas fiscales que ya preocupan al mercado. Que el servicio de la deuda baje $8,4 billones dentro del presupuesto no significa que la deuda se reduzca, y los inversionistas mirarán con lupa cómo se financiará el gasto. Una aprobación con más gasto que el esperado podría subir las tasas de los TES y debilitar el peso.",
+      "impacto": {
+        "conclusion": "Pesa ligeramente más la lectura bajista: el monto se mantiene, pero la votación llega al límite y con propuestas que podrían sumar gasto. Para quien invierte, lo clave es si el presupuesto aprobado conserva el monto sin nuevas cargas, porque eso define la presión sobre los TES y el dólar.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "mixto",
+            "detalle": "Un presupuesto sin cambios da certeza a los TES, pero más gasto aprobado a última hora subiría sus tasas y bajaría su precio."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "Una aprobación ordenada no añade presión sobre el peso; más gasto podría elevar la prima de riesgo y subir el dólar."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "El resultado de la votación en plenarias y si el presupuesto queda aprobado antes de la medianoche del 20 de octubre.",
+      "terminos": [
+        "Presupuesto General de la Nación",
+        "Servicio de la deuda",
+        "Ponencia",
+        "TES",
+        "Prima de riesgo país"
+      ],
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/crecimiento/presupuesto-2027-congresistas-alistan-nuevas-proposiciones-antes-de-la-votacion-definitiva-de-este-19-de-octubre-504666"
+    },
+    {
+      "id": "2026-10-19-03",
+      "fecha": "2026-10-19",
+      "categoria": "sectores",
+      "puntaje": {
+        "total": 7,
+        "alcance": 3,
+        "materialidad": 2,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "El kilovatio podría superar los $800 en Navidad por El Niño y la mayor demanda",
+      "resumen": "Las tarifas de energía podrían pasar de $800 por kilovatio hora en la temporada navideña de 2026, por la mayor dependencia de las plantas térmicas y el encarecimiento de sus combustibles, según La República.",
+      "contexto": "En diciembre de 2024, durante el anterior fenómeno de El Niño, el kilovatio hora promedió $749,8. El 13 de octubre de 2026 el precio promedio en bolsa fue de $533 por kilovatio hora, y las térmicas deben cubrir al menos 27 GWh diarios durante El Niño. La demanda de energía suele subir entre 4% y 7% en esta época: en noviembre de 2025 creció 7,53% y en diciembre de 2025, 4,03%. La CREG amplió las condiciones de contratación de las térmicas para reducir la volatilidad del precio en bolsa.",
+      "afectados": [
+        "Tarifas de energía",
+        "Térmicas",
+        "Generadoras de energía",
+        "Inflación"
+      ],
+      "peso_alcista": 30,
+      "alcista": "La CREG amplió las condiciones de contratación de las térmicas, una medida que busca suavizar los saltos del precio en bolsa. Las generadoras con plantas térmicas y contratos de venta podrían colocar más energía en una temporada de demanda alta. El programa temporal de ahorro del Gobierno premia con descuentos a quienes reduzcan su consumo, lo que puede moderar la demanda. El precio de bolsa de mediados de octubre ($533) aún está lejos del nivel proyectado para fin de año.",
+      "bajista": "Un kilovatio por encima de $800 golpearía el bolsillo de los hogares y los costos de comercios e industria en plena temporada de ventas. Las tarifas de energía pesan en la inflación, y una inflación más alta hace más difícil que el Banco de la República baje su tasa. Los combustibles de las térmicas, como el gas y el diésel, están más caros por las tensiones en Medio Oriente. Las generadoras que dependen del agua tendrían menos energía propia y podrían tener que comprarla más cara.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista: la energía más cara llega en el pico de demanda y suma presión a una inflación que ya va en aumento. Para quien invierte, esto refuerza el escenario de tasas altas por más tiempo, que castiga a los TES y favorece al ahorro en pesos.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "mixto",
+            "detalle": "Las térmicas con contratos podrían vender más, mientras comercios, industria y generadoras que dependen del agua enfrentan costos mayores."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "Si la energía presiona la inflación, las tasas seguirían altas y los TES que ya tienes perderían precio."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "positivo",
+            "detalle": "Tasas altas por más tiempo mantienen buenos rendimientos en CDT y ahorro en pesos."
+          }
+        ]
+      },
+      "mirar": "Las próximas tarifas que publiquen las comercializadoras de energía y el dato de inflación de octubre del DANE.",
+      "terminos": [
+        "Kilovatio hora",
+        "Fenómeno de El Niño",
+        "Generación térmica",
+        "Precio de bolsa de energía",
+        "Inflación"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/la-navidad-y-el-fenomeno-de-el-nino-llevarian-el-kilovatio-a-mas-de-800-4505372"
+    },
+    {
+      "id": "2026-10-19-04",
+      "fecha": "2026-10-19",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 6,
+        "alcance": 1,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "La cartera de crédito llega a $803,4 billones, pero crece más lento en agosto",
+      "resumen": "Los préstamos del sistema financiero sumaron $803,4 billones en agosto, con un crecimiento real anual de 2,7% y 16 meses seguidos de alzas reales, aunque a un ritmo menor que en los meses anteriores, según datos de la Superintendencia Financiera.",
+      "contexto": "La desaceleración vino de los créditos comerciales y de consumo: los comerciales crecieron 0,7% real y los de consumo 4,1% real, con las tarjetas de crédito en 10,1%. La cartera de vivienda creció 4,5% real; dentro de ella, la de vivienda de interés social subió 12,8%, mientras la que no es VIS cayó 0,7%, su primera variación real negativa en 14 meses. En agosto se castigaron $1,5 billones de cartera, 75,8% de ellos en consumo. La morosidad sigue en niveles bajos, aunque se vigila su tendencia creciente en todas las modalidades.",
+      "afectados": [
+        "Bancos",
+        "Grupo Cibest",
+        "Crédito de consumo",
+        "Vivienda"
+      ],
+      "peso_alcista": 50,
+      "alcista": "El crédito suma 16 meses de crecimiento real, lo que indica que la economía sigue demandando financiación. Las tarjetas de crédito y la vivienda de interés social crecen a dos dígitos, dos segmentos que generan ingresos a los bancos. La morosidad se mantiene en niveles bajos, lo que limita el riesgo de pérdidas. Un crédito que crece apoya las utilidades de los bancos que cotizan en bolsa.",
+      "bajista": "El ritmo se frenó por los créditos comerciales y de consumo, una señal de menor actividad económica. La cartera de vivienda que no es VIS cayó en términos reales por primera vez en 14 meses. Los castigos de $1,5 billones en un solo mes, concentrados en consumo, y la tendencia creciente de la cartera vencida que vigila el Comité de Coordinación son alertas para la calidad de los préstamos. Con tasas altas, la demanda de crédito podría seguir perdiendo fuerza.",
+      "impacto": {
+        "conclusion": "Las dos lecturas tienen un peso parejo: el crédito sigue creciendo y la morosidad está baja, pero el ritmo se frena y aparecen alertas en vivienda no VIS y en la cartera vencida. Para quien invierte, el efecto se concentra en las acciones de los bancos, que dependen de que el crédito crezca sin que suba el impago.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "mixto",
+            "detalle": "Los bancos se benefician de un crédito que crece y con morosidad baja, pero el menor ritmo y los castigos limitan esa ventaja."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "El próximo informe de la Superintendencia Financiera con los datos de cartera de septiembre.",
+      "terminos": [
+        "Cartera de crédito",
+        "Cartera de consumo",
+        "Vivienda de interés social (VIS)",
+        "Castigo de cartera",
+        "Superintendencia Financiera"
+      ],
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/mis-finanzas/creditos/la-cartera-de-credito-en-colombia-siguio-creciendo-pero-a-un-ritmo-mas-lento-en-agosto-504683"
+    },
+    {
+      "id": "2026-10-19-05",
+      "fecha": "2026-10-19",
+      "categoria": "politica",
+      "puntaje": {
+        "total": 6,
+        "alcance": 3,
+        "materialidad": 2,
+        "novedad": 1,
+        "fuente": 0
+      },
+      "titulo": "Salario mínimo 2027: la discusión partiría de un alza de al menos 8%",
+      "resumen": "En las próximas semanas se instalará la mesa que definirá el salario mínimo de 2027. La base de la discusión sería la inflación de 2026, prevista en 7%, más la productividad, lo que daría un aumento de al menos 8%, según Valora Analitik.",
+      "contexto": "El Gobierno De la Espriella mantiene el mandato constitucional de que los trabajadores conserven su poder adquisitivo frente a la inflación. Algunos sectores hablan de un ajuste de 10%, pero equipos de investigación económica advierten que alzas tan altas podrían presionar la inflación de 2027. El Banco de la República ha señalado que una postura conservadora en la negociación será clave para controlar la inflación, que se espera empiece a bajar desde la segunda mitad de 2027. Trabajadores y empresarios llevarían propuestas puntuales a mediados de diciembre.",
+      "afectados": [
+        "Salario mínimo",
+        "Inflación",
+        "Consumo de los hogares",
+        "Empresas intensivas en mano de obra"
+      ],
+      "peso_alcista": 40,
+      "alcista": "Un aumento cercano a la inflación más la productividad protege el poder de compra de los trabajadores. Más ingreso disponible puede sostener el consumo, que apoya a comercio, bancos y empresas de consumo masivo. Si el alza termina cerca del 8%, en línea con la postura conservadora que pide el Banco de la República, el riesgo de una nueva presión inflacionaria sería menor. Una negociación ordenada reduce la incertidumbre para las empresas al planear sus costos de 2027.",
+      "bajista": "Varias voces ya hablan de un 10%, y un alza alta encarecería la nómina de las empresas que dependen de mucha mano de obra. El salario mínimo sirve de referencia para muchos precios y contratos, por lo que un aumento grande presionaría la inflación de 2027. Según la fuente, un mínimo muy alto haría que 2028 no fuera el año en que la inflación se acerque a la meta de 3%. Eso mantendría las tasas de interés altas por más tiempo.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista: el punto de partida ya supera la inflación prevista y hay presión por un ajuste mayor, con riesgo para la inflación de 2027. Para quien invierte, un mínimo alto sostendría las tasas altas por más tiempo, lo que favorece al ahorro en pesos y perjudica a los TES.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Un alza alta del mínimo eleva los costos de las empresas con mucha mano de obra y presiona sus márgenes."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "Si el mínimo empuja la inflación de 2027, las tasas seguirían altas y los TES que ya tienes perderían precio."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "positivo",
+            "detalle": "Tasas altas por más tiempo mantienen atractivos los rendimientos de los CDT y del ahorro en pesos."
+          }
+        ]
+      },
+      "mirar": "La instalación de la mesa de concertación en las próximas semanas y las propuestas de trabajadores y empresarios a mediados de diciembre.",
+      "terminos": [
+        "Salario mínimo",
+        "Inflación",
+        "Meta de inflación",
+        "Tasa de política monetaria"
+      ],
+      "fuente": "Valora Analitik",
+      "url": "https://www.valoraanalitik.com/por-que-el-salario-minimo-de-colombia-no-subira-tanto-para-el-ano-entrante/"
+    },
     {
       "id": "2026-10-18-01",
       "fecha": "2026-10-18",

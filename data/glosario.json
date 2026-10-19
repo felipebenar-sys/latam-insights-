@@ -415,6 +415,34 @@
     {
       "termino": "Rotación de activos",
       "definicion": "Estrategia en la que una empresa vende o intercambia activos que ya maduraron, como una planta o una participación, para liberar recursos y usarlos en nuevos proyectos, pagar deuda o retribuir a sus accionistas."
+    },
+    {
+      "termino": "Ponencia",
+      "definicion": "Es el documento que preparan uno o varios congresistas (los ponentes) para explicar un proyecto de ley y proponer cambios antes de cada debate. Las plenarias votan sobre ese texto. Para quien invierte, los cambios que entran en la ponencia pueden alterar impuestos, gasto o deuda, y por eso se siguen de cerca."
+    },
+    {
+      "termino": "Kilovatio hora",
+      "definicion": "Es la unidad con la que se mide y se cobra la energía eléctrica: equivale a usar un aparato de 1.000 vatios durante una hora. Las tarifas de energía se expresan en pesos por kilovatio hora. Cuando sube su precio, sube la factura de hogares y empresas y puede aumentar la inflación."
+    },
+    {
+      "termino": "Cartera de crédito",
+      "definicion": "Es el total de dinero que los bancos y demás entidades financieras han prestado y que aún no les han devuelto. Se divide en modalidades como consumo, comercial, vivienda y microcrédito. Su crecimiento muestra cuánto se está financiando la economía y es la principal fuente de ingresos de los bancos."
+    },
+    {
+      "termino": "Vivienda de interés social (VIS)",
+      "definicion": "Es la vivienda cuyo precio no supera un tope fijado por ley en salarios mínimos y que suele recibir apoyos del Estado, como subsidios o tasas especiales. El crédito para VIS es un segmento importante para los bancos y las constructoras. Su comportamiento muestra cómo va la demanda de vivienda de los hogares de ingresos medios y bajos."
+    },
+    {
+      "termino": "Castigo de cartera",
+      "definicion": "Es cuando un banco saca de sus cuentas un préstamo que considera muy difícil de recuperar y reconoce esa pérdida. No significa que deje de cobrarlo, pero ya no lo cuenta como un activo. Un aumento de los castigos indica que más personas o empresas no están pagando sus deudas."
+    },
+    {
+      "termino": "Salario mínimo",
+      "definicion": "Es el pago más bajo que la ley permite por una jornada de trabajo completa. En Colombia se fija cada año, en una mesa entre Gobierno, empresarios y trabajadores o, si no hay acuerdo, por decreto. Su aumento afecta los costos de las empresas, el consumo de los hogares y muchos precios que se ajustan con él, por lo que influye en la inflación."
+    },
+    {
+      "termino": "Estudio preclínico",
+      "definicion": "Es la etapa de pruebas de un medicamento que se hace en células de laboratorio y en animales, antes o al mismo tiempo que se prueba en personas. Sirve para ver cómo actúa y si parece seguro. Sus resultados no garantizan que el medicamento funcione igual en pacientes."
     }
   ]
 }
