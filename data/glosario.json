@@ -467,6 +467,18 @@
     {
       "termino": "Aprobado (FDA)",
       "definicion": "La FDA ya autorizó vender el medicamento en EE. UU. para un grupo específico de pacientes. Las preguntas ya no son si funciona en un estudio, sino cuántos médicos lo usan, si se puede aprobar para más pacientes o enfermedades y cómo funciona en la vida real. La compañía muchas veces sigue haciendo estudios para ampliar su uso."
+    },
+    {
+      "termino": "Fase 2/3",
+      "definicion": "Un estudio que junta la fase 2 y la fase 3 en uno solo. Primero responde si el medicamento funciona y con qué dosis, y luego confirma en muchos más pacientes si funciona mejor que el tratamiento que ya existe. Si sale bien, sus resultados pueden servir para pedir la aprobación."
+    },
+    {
+      "termino": "Fase 2b/3",
+      "definicion": "Un estudio que junta dos etapas. La parte 2b mide con más precisión si el medicamento funciona y cuál es la mejor dosis; la parte 3 confirma en muchos más pacientes si funciona y si sus beneficios superan sus riesgos. Si sale bien, puede servir para pedir la aprobación."
+    },
+    {
+      "termino": "Aprobado (China)",
+      "definicion": "El regulador de medicamentos de China ya autorizó venderlo allí, pero todavía no está aprobado en EE. UU. La pregunta que queda es si podrá aprobarse en otros países, y para eso la compañía sigue haciendo estudios, normalmente de fase 3."
     }
   ]
 }

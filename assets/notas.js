@@ -493,12 +493,48 @@
             </details>
         </div>`;
     }
+    function panoramaBiotech(pan) {
+        const fase = f => `<button type="button" data-termino="${esc(f)}" class="bg-sky-400/10 text-sky-300 border border-sky-400/30 hover:border-sky-300 text-xs font-semibold px-2 py-0.5 rounded-md cursor-help whitespace-nowrap">${esc(f)}</button>`;
+        const fuente = c => c.fuente_url ? `<a href="${esc(safeUrl(c.fuente_url))}" target="_blank" rel="noopener noreferrer" class="tap-amplio text-stone-500 hover:text-amber-400 underline underline-offset-2 text-xs">Fuente</a>` : '';
+        const filas = pan.companias || [];
+        const tabla = `
+        <div class="hidden md:block overflow-hidden rounded-xl border border-stone-800">
+            <table class="w-full text-sm text-left">
+                <thead class="bg-stone-900 text-stone-500 text-xs uppercase tracking-wider">
+                    <tr><th class="px-4 py-3 font-bold">Compañía</th><th class="px-4 py-3 font-bold">Medicamento</th><th class="px-4 py-3 font-bold">Fase</th><th class="px-4 py-3 font-bold">Enfermedad</th><th class="px-4 py-3 font-bold">Próximo hito</th></tr>
+                </thead>
+                <tbody class="divide-y divide-stone-800">${filas.map(c => `
+                    <tr class="hover:bg-stone-900/60 align-top">
+                        <td class="px-4 py-3"><span class="text-white font-semibold">${esc(c.nombre)}</span> <span class="text-sky-300 text-xs">${esc(c.ticker)}</span></td>
+                        <td class="px-4 py-3 text-amber-300">${esc(c.medicamento)}</td>
+                        <td class="px-4 py-3">${fase(c.fase)}</td>
+                        <td class="px-4 py-3 text-stone-300">${esc(c.enfermedad)}</td>
+                        <td class="px-4 py-3 text-stone-300"><span class="text-amber-400 text-xs block">${esc(c.hito_fecha)}</span>${esc(c.hito)} ${fuente(c)}</td>
+                    </tr>`).join('')}
+                </tbody>
+            </table>
+        </div>`;
+        const lista = `
+        <ul class="md:hidden divide-y divide-stone-800 border-y border-stone-800">${filas.map(c => `
+            <li class="py-3">
+                <div class="flex items-baseline justify-between gap-2"><span class="text-white font-semibold">${esc(c.nombre)}</span><span class="text-sky-300 text-xs">${esc(c.ticker)}</span></div>
+                <div class="flex flex-wrap items-center gap-x-2 gap-y-1 mt-1 text-sm"><span class="text-amber-300">${esc(c.medicamento)}</span>${fase(c.fase)}<span class="text-stone-400">${esc(c.enfermedad)}</span></div>
+                <p class="text-sm text-stone-300 mt-1"><span class="text-amber-400 text-xs">${esc(c.hito_fecha)}</span> · ${esc(c.hito)} ${fuente(c)}</p>
+            </li>`).join('')}
+        </ul>`;
+        return tabla + lista;
+    }
     window.renderBiotech = function () {
         const hoy = document.getElementById('bio-notas');
         initPopover();
         fetch('data/biotech.json', { cache: 'no-store' }).then(r => r.json()).then(d => {
             const cias = d.companias || [];
             const empresas = Object.fromEntries(cias.map(c => [c.ticker, c]));
+            if (d.panorama && (d.panorama.companias || []).length) {
+                document.getElementById('bio-panorama').innerHTML = panoramaBiotech(d.panorama);
+                if (d.panorama.actualizado) document.getElementById('bio-panorama-fecha').textContent = 'Datos al ' + d.panorama.actualizado;
+                document.getElementById('bio-panorama-wrap').classList.remove('hidden');
+            }
             document.getElementById('bio-empresas').innerHTML = cias.map(fichaBiotech).join('');
             if (d.actualizado) document.getElementById('bio-actualizado').innerHTML = sello(d.actualizado);
             const notas = Array.isArray(d.notas) ? d.notas : [];

@@ -118,6 +118,8 @@ Sección aparte, con reglas propias. Se actualiza en la misma corrida diaria.
 
 **Compañías cubiertas (solo estas):** Celcuity (CELC), Faeth Therapeutics (FTH, antes Sensei Biotherapeutics) y Relay Therapeutics (RLAY).
 
+**Tabla "Panorama de biotecnológicas"** (`panorama` en `data/biotech.json`): es solo de referencia y la mantiene el dueño. No publiques noticias de esas compañías (salvo CELC, FTH y RLAY, que siguen su regla normal), no crees fichas para ellas y no modifiques `panorama`.
+
 **Fuentes:**
 - Comunicados por compañía: `https://www.financialcontent.com/quote/NQ:CELC/pressReleases`, `.../NQ:FTH/pressReleases`, `.../NQ:RLAY/pressReleases`. Para Celcuity esa página casi solo trae avisos de bufetes de abogados; complementa con WebSearch (por ejemplo "Celcuity press release" y "gedatolisib") y usa los comunicados de GlobeNewswire o la página de inversionistas.
 - Prensa especializada: Fierce Biotech (`https://www.fiercebiotech.com/rss/xml`) y Endpoints News (`https://endpoints.news/feed/`).

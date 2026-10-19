@@ -160,5 +160,140 @@
       "fuente": "FinancialContent (comunicado de Relay Therapeutics)",
       "url": "https://www.financialcontent.com/article/gnwcq-2026-8-6-relay-therapeutics-reports-second-quarter-2026-financial-results-and-corporate-updates"
     }
-  ]
+  ],
+  "panorama": {
+    "actualizado": "19 oct 2026",
+    "companias": [
+      {
+        "nombre": "Ascentage Pharma",
+        "ticker": "AAPG",
+        "medicamento": "Olverembatinib",
+        "fase": "Aprobado (China)",
+        "enfermedad": "Leucemia mieloide crónica",
+        "hito": "Sigue reclutando pacientes en tres estudios de fase 3",
+        "hito_fecha": "Sin fecha confirmada",
+        "fuente_url": "https://ascentage.com/?p=9665"
+      },
+      {
+        "nombre": "Cytokinetics",
+        "ticker": "CYTK",
+        "medicamento": "Aficamten (MYQORZO)",
+        "fase": "Aprobado (FDA)",
+        "enfermedad": "Miocardiopatía hipertrófica obstructiva",
+        "hito": "Solicitud a la FDA para la forma no obstructiva de la enfermedad",
+        "hito_fecha": "Último trimestre de 2026",
+        "fuente_url": "https://briefglance.com/companies/cytokinetics-incorporated/pulses/84268"
+      },
+      {
+        "nombre": "Edgewise Therapeutics",
+        "ticker": "EWTX",
+        "medicamento": "EDG-7500",
+        "fase": "Fase 2",
+        "enfermedad": "Miocardiopatía hipertrófica",
+        "hito": "Inicio del estudio de fase 3",
+        "hito_fecha": "Último trimestre de 2026",
+        "fuente_url": "https://www.biopharmawatch.com/news/EWTX/edgewise-therapeutics-announces-sale-of-sevasemten-for-up-to-2-65-billion-strengthening-ba-ewtx-20260601"
+      },
+      {
+        "nombre": "Faeth Therapeutics",
+        "ticker": "FTH",
+        "medicamento": "PIKTOR",
+        "fase": "Fase 2",
+        "enfermedad": "Cáncer de endometrio",
+        "hito": "Póster con datos de laboratorio en cáncer de mama en ESMO",
+        "hito_fecha": "23 oct 2026",
+        "fuente_url": "https://www.financialcontent.com/article/bizwire-2026-10-19-faeth-to-present-preclinical-data-on-piktor-in-hrher2-breast-cancer-models-at-esmo-2026"
+      },
+      {
+        "nombre": "IDEAYA Biosciences",
+        "ticker": "IDYA",
+        "medicamento": "Darovasertib",
+        "fase": "Fase 2/3",
+        "enfermedad": "Melanoma uveal metastásico",
+        "hito": "Tres pósteres con datos de estudios en ESMO",
+        "hito_fecha": "24 oct 2026",
+        "fuente_url": "https://www.stocktitan.net/news/IDYA/ideaya-biosciences-and-servier-announce-data-from-three-clinical-njac7n805z9y.html"
+      },
+      {
+        "nombre": "Immunome",
+        "ticker": "IMNM",
+        "medicamento": "Varegacestat",
+        "fase": "En revisión FDA",
+        "enfermedad": "Tumores desmoides",
+        "hito": "Solicitud de aprobación en Europa (EMA)",
+        "hito_fecha": "Antes de fin de 2026",
+        "fuente_url": "https://www.sec.gov/Archives/edgar/data/0001472012/000119312526344577/imnm-ex99_1.htm"
+      },
+      {
+        "nombre": "Kardigan",
+        "ticker": "KARD",
+        "medicamento": "Danicamtiv",
+        "fase": "Fase 2b/3",
+        "enfermedad": "Miocardiopatía dilatada genética",
+        "hito": "Primeros resultados (topline) de la fase 2b",
+        "hito_fecha": "Primer semestre de 2027",
+        "fuente_url": "https://www.nasdaq.com/press-release/kardigan-reports-second-quarter-2026-financial-results-and-recent-business-updates"
+      },
+      {
+        "nombre": "Palvella Therapeutics",
+        "ticker": "PVLA",
+        "medicamento": "QTORIN rapamicina",
+        "fase": "En revisión FDA",
+        "enfermedad": "Malformaciones linfáticas microquísticas",
+        "hito": "La FDA decide si acepta la solicitud y si le da revisión prioritaria",
+        "hito_fecha": "Hacia fin de oct 2026 (estimado)",
+        "fuente_url": "https://ir.palvellatx.com/news-releases/news-release-details/palvella-therapeutics-completes-rolling-submission-new-drug"
+      },
+      {
+        "nombre": "Arcus Biosciences",
+        "ticker": "RCUS",
+        "medicamento": "Casdatifan",
+        "fase": "Fase 3",
+        "enfermedad": "Cáncer de riñón de células claras",
+        "hito": "Nuevos datos del estudio ARC-20",
+        "hito_fecha": "Segundo semestre de 2026",
+        "fuente_url": "https://www.sec.gov/Archives/edgar/data/0001724521/000172452126000042/a2026q28kexhibit991.htm"
+      },
+      {
+        "nombre": "Revolution Medicines",
+        "ticker": "RVMD",
+        "medicamento": "Daraxonrasib (RASONQUE)",
+        "fase": "Aprobado (FDA)",
+        "enfermedad": "Cáncer de páncreas metastásico",
+        "hito": "Fin del reclutamiento del estudio de fase 3 en cáncer de pulmón (RASolve 301)",
+        "hito_fecha": "2026",
+        "fuente_url": "https://ir.revmed.com/news-releases/news-release-details/us-fda-approves-revolution-medicines-rasonquetm-daraxonrasib"
+      },
+      {
+        "nombre": "Rhythm Pharmaceuticals",
+        "ticker": "RYTM",
+        "medicamento": "Setmelanotide (IMCIVREE)",
+        "fase": "Aprobado (FDA)",
+        "enfermedad": "Obesidad hipotalámica adquirida",
+        "hito": "Decisión del regulador de Japón para esta enfermedad",
+        "hito_fecha": "Antes de fin de 2026",
+        "fuente_url": "https://ir.rhythmtx.com/news-releases/news-release-details/rhythm-pharmaceuticals-reports-second-quarter-2026-financial"
+      },
+      {
+        "nombre": "Tango Therapeutics",
+        "ticker": "TNGX",
+        "medicamento": "Vopimetostat",
+        "fase": "Fase 1/2",
+        "enfermedad": "Cáncer de páncreas",
+        "hito": "Datos del estudio combinado en ESMO",
+        "hito_fecha": "23–27 oct 2026",
+        "fuente_url": "https://www.sec.gov/Archives/edgar/data/0001819133/000119312526343434/tngx-ex99_1.htm"
+      },
+      {
+        "nombre": "Wave Life Sciences",
+        "ticker": "WVE",
+        "medicamento": "WVE-007",
+        "fase": "Fase 1/2",
+        "enfermedad": "Obesidad",
+        "hito": "Más datos del estudio INLIGHT",
+        "hito_fecha": "Segundo semestre de 2026",
+        "fuente_url": "https://www.sec.gov/Archives/edgar/data/0001631574/000119312526324917/d177737dex991.htm"
+      }
+    ]
+  }
 }
