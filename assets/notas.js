@@ -7,6 +7,11 @@
         obs.observe(el, { childList: true });
     });
 
+    if (!document.getElementById('estilo-tap')) {
+        const st = document.createElement('style'); st.id = 'estilo-tap';
+        st.textContent = '@media (pointer:coarse){[data-termino],.tap-amplio{position:relative}[data-termino]::after,.tap-amplio::after{content:"";position:absolute;left:-6px;right:-6px;top:-12px;bottom:-12px}}';
+        document.head.appendChild(st);
+    }
     const CAT = { bvc: 'BVC', macro: 'Macro Colombia', commodities: 'Commodities', latam: 'LatAm', internacional: 'Mercados internacionales', politica: 'Política económica', sectores: 'Sectores' };
     const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
     const slug = t => String(t).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
@@ -415,7 +420,7 @@
                 <span class="bg-sky-400/10 text-sky-300 border border-sky-400/20 px-2 py-0.5 rounded-full font-semibold">${esc(n.empresa)} · ${esc(emp.nombre)}</span>
                 <span class="bg-stone-800 text-stone-300 px-2 py-0.5 rounded-full">${esc(n.tipo || '')}</span>
                 ${fn ? `<span class="text-stone-500">Noticia del ${fn}</span>` : ''}
-                <a href="${esc(safeUrl(n.url))}" target="_blank" rel="noopener noreferrer" class="text-stone-400 hover:text-amber-400 underline underline-offset-2">Fuente: ${esc(n.fuente)}</a>
+                <a href="${esc(safeUrl(n.url))}" target="_blank" rel="noopener noreferrer" class="tap-amplio text-stone-400 hover:text-amber-400 underline underline-offset-2">Fuente: ${esc(n.fuente)}</a>
             </div>
             <h3 class="serif text-xl sm:text-2xl font-bold text-white mb-3">${esc(n.titulo)}</h3>
             <p class="text-stone-200 mb-5" data-glosable>${esc(n.resumen)}</p>
@@ -462,13 +467,41 @@
             </div>
         </div>`;
     }
+    function hitosLista(hitos) {
+        return (hitos || []).length
+            ? `<ul class="space-y-2">${hitos.map(h => `<li class="text-sm text-stone-300 flex flex-col sm:flex-row sm:gap-3"><span class="text-amber-400 text-xs sm:w-28 sm:shrink-0 sm:pt-0.5">${esc(h.fecha)}</span><span>${esc(h.texto)}</span></li>`).join('')}</ul>`
+            : '<p class="text-stone-500 text-sm">Sin fechas confirmadas.</p>';
+    }
+    function fichaBiotech(c, nNotas) {
+        const prox = (c.hitos || [])[0];
+        return `
+        <div data-ficha="${esc(c.ticker)}" class="bg-stone-900 border border-stone-800 rounded-xl p-5 flex flex-col transition aria-[current=true]:border-amber-400/70">
+            <div class="flex items-baseline justify-between gap-2 mb-2">
+                <p class="text-white font-bold text-lg">${esc(c.nombre)}</p>
+                <span class="text-sky-300 text-xs font-semibold">${String(c.bolsa || '').includes(':') ? esc(c.bolsa) : `${esc(c.bolsa)}: ${esc(c.ticker)}`}</span>
+            </div>
+            ${medicamentoPrincipal(c.medicamento_principal)}
+            ${prox ? `<p class="text-sm text-stone-300 mb-3"><span class="text-stone-500 text-xs font-bold uppercase tracking-wider block mb-1">Próximo hito</span><span class="text-amber-400 text-xs">${esc(prox.fecha)}</span> · ${esc(prox.texto)}</p>` : ''}
+            <details class="group mb-4">
+                <summary class="tap-amplio cursor-pointer text-stone-400 hover:text-amber-400 text-xs font-semibold list-none [&::-webkit-details-marker]:hidden inline-flex items-center gap-1"><span class="group-open:hidden">Ver más de la compañía</span><span class="hidden group-open:inline">Ver menos</span><span aria-hidden="true" class="transition group-open:rotate-180">▾</span></summary>
+                <div class="mt-3 space-y-3">
+                    <p class="text-stone-300 text-sm leading-relaxed"><span class="text-stone-500 text-xs font-bold uppercase tracking-wider block mb-1">Qué hace</span>${esc(c.que_hace)}</p>
+                    ${c.estado ? `<p class="text-stone-400 text-sm leading-relaxed"><span class="text-stone-500 text-xs font-bold uppercase tracking-wider block mb-1">Estado</span>${esc(c.estado)}</p>` : ''}
+                    <div><p class="text-stone-500 text-xs font-bold uppercase tracking-wider mb-1">Próximos hitos</p>${hitosLista(c.hitos)}</div>
+                    ${c.fuente_url ? `<a href="${esc(safeUrl(c.fuente_url))}" target="_blank" rel="noopener noreferrer" class="tap-amplio text-stone-500 hover:text-amber-400 text-xs underline underline-offset-2 inline-block">Fuente</a>` : ''}
+                </div>
+            </details>
+            <button type="button" data-ver-noticias="${esc(c.ticker)}" class="mt-auto w-full min-h-11 rounded-lg border border-stone-700 hover:border-amber-400 text-stone-200 text-sm font-semibold">Ver sus noticias${nNotas ? ` (${nNotas})` : ''} ↓</button>
+        </div>`;
+    }
     window.renderBiotech = function () {
         const hoy = document.getElementById('bio-notas');
         initPopover();
         fetch('data/biotech.json', { cache: 'no-store' }).then(r => r.json()).then(d => {
             const cias = d.companias || [];
             const empresas = Object.fromEntries(cias.map(c => [c.ticker, c]));
-            document.getElementById('bio-empresas').innerHTML = cias.map(fichaEmpresa).join('');
+            const cuenta = {}; (d.notas || []).forEach(n => { cuenta[n.empresa] = (cuenta[n.empresa] || 0) + 1; });
+            document.getElementById('bio-empresas').innerHTML = cias.map(c => fichaBiotech(c, cuenta[c.ticker] || 0)).join('');
             if (d.actualizado) document.getElementById('bio-actualizado').innerHTML = sello(d.actualizado);
             const notas = Array.isArray(d.notas) ? d.notas : [];
             if (!notas.length) { hoy.innerHTML = vacio('Aún no hay noticias de las compañías cubiertas.'); return; }
@@ -481,9 +514,9 @@
             const box = document.getElementById('bio-filtro');
             const chip = (v, txt, on) => `<button type="button" data-v="${v}" aria-pressed="${on}" class="px-3 py-1.5 rounded-full text-xs font-semibold border transition aria-pressed:bg-amber-400 aria-pressed:text-stone-950 aria-pressed:border-amber-400 border-stone-700 text-stone-300 hover:border-amber-400">${txt}</button>`;
             box.innerHTML = chip('', 'Todas', true) + cias.map(c => chip(c.ticker, c.ticker, false)).join('');
-            box.addEventListener('click', e => {
-                const b = e.target.closest('[data-v]'); if (!b) return;
+            const filtrar = b => {
                 box.querySelectorAll('[data-v]').forEach(x => x.setAttribute('aria-pressed', x === b));
+                document.querySelectorAll('#bio-empresas [data-ficha]').forEach(f => f.setAttribute('aria-current', f.dataset.ficha === b.dataset.v));
                 const v = b.dataset.v, pasa = a => !v || a.dataset.empresa === v;
                 let vis = 0;
                 hoy.querySelectorAll('[data-nota]').forEach(a => { const ok = pasa(a); a.classList.toggle('hidden', !ok); if (ok) vis++; });
@@ -500,6 +533,12 @@
                 });
                 const av = document.getElementById('bio-archivo-vacio');
                 if (av) av.classList.toggle('hidden', edVis > 0);
+            };
+            box.addEventListener('click', e => { const b = e.target.closest('[data-v]'); if (b) filtrar(b); });
+            document.getElementById('bio-empresas').addEventListener('click', e => {
+                const b = e.target.closest('[data-ver-noticias]'); if (!b) return;
+                filtrar(box.querySelector(`[data-v="${CSS.escape(b.dataset.verNoticias)}"]`));
+                document.getElementById('bio-titulo').scrollIntoView({ behavior: 'smooth', block: 'start' });
             });
             const resto = fechas.slice(1);
             if (resto.length) {
