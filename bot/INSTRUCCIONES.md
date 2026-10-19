@@ -5,7 +5,14 @@ La sección de noticias diarias se llama **Hoy** (página `yentonces.html`, dato
 Este archivo es la fuente única de reglas editoriales. Lo usa hoy la tarea programada de Claude y, más adelante, el script con la API de Anthropic. Si cambias una regla, cámbiala aquí.
 
 ## Cuándo corre
-Una vez al día, publicado a las 7:00 a. m. hora Bogotá.
+Una vez al día, publicado a las 7:00 a. m. hora Bogotá. La corrida empieza a las 6:45 a. m.: la sección Hoy debe quedar publicada en unos 20 minutos.
+
+## Tiempo y eficiencia (obligatorio)
+1. **No leas los archivos de `data/` completos** (notas.json pesa cientos de KB y crece cada día) ni los reescribas a mano. Usa `python3 bot/publicar.py estado` para saber la fecha, si ya hay notas de hoy, los siguientes id, los indicadores actuales, los términos del glosario y la lista de URL ya publicadas (`/tmp/stag_urls.txt`). Para publicar, escribe las notas nuevas en un archivo temporal y agrégalas con `python3 bot/publicar.py agregar hoy|latam|biotech ARCHIVO.json`; los términos nuevos con `glosario ARCHIVO.json` (antes de agregar las notas) y los indicadores con `mercado ARCHIVO.json`. El script valida campos, términos, puntajes y URL repetidas y pone la hora real en `actualizado`; si rechaza algo, corrige el archivo temporal y vuelve a correrlo. Termina con `python3 bot/publicar.py validar`.
+2. **Una sola vez por fuente:** cada URL se intenta una vez. Si una página no responde, falla o pide permiso, sigue con la siguiente fuente de la lista; no busques sitios alternos fuera de los indicados aquí.
+3. **Lee primero los titulares:** revisa los RSS, preselecciona por título y descripción, y abre el artículo completo solo de las ~10 mejores candidatas de Hoy y de las candidatas de cobertura.
+4. **Publica por partes:** primero la sección Hoy y los indicadores (commit "Edición AAAA-MM-DD" y push). Después Cobertura LatAm y Biotecnología en un segundo commit ("Edición AAAA-MM-DD, cobertura") y push. Así la edición principal no espera a la cobertura.
+5. **Límite de tiempo:** si a las 7:30 a. m. (hora Bogotá) la cobertura no está lista, publica lo que tengas validado y termina.
 
 ## Fuentes (RSS)
 - La República: https://www.larepublica.co/rss
@@ -32,7 +39,7 @@ Solo noticias publicadas en las últimas ~24 horas sobre:
 Excluidas de la sección Hoy: biotecnología (tiene su propia sección, ver "Cobertura de biotecnología" abajo), opinión, entretenimiento, deportes, política sin impacto de mercado, contenido promocional.
 
 ## Cómo se eligen las noticias (puntaje de relevancia)
-1. Revisa **todas** las fuentes y arma la lista de candidatas que cumplan los temas de arriba. Si una noticia aparece en varios medios, es una sola candidata (usa la fuente más completa). Descarta las URL ya publicadas en `data/notas.json`.
+1. Revisa **todas** las fuentes y arma la lista de candidatas que cumplan los temas de arriba. Si una noticia aparece en varios medios, es una sola candidata (usa la fuente más completa). Descarta las URL ya publicadas (lista en `/tmp/stag_urls.txt`, que crea `python3 bot/publicar.py estado`).
 2. Califica cada candidata de 0 a 10 con estos criterios:
    - **Alcance (0–4):** cuántos de los cuatro tipos de activo (acciones colombianas, renta fija, dólar/exterior, CDT y ahorro) tendrían un efecto distinto de "neutral". En la nota publicada debe coincidir con el número de activos no neutrales del bloque `impacto`.
    - **Materialidad (0–3):** 3 = mueve directamente tasas de interés, dólar, finanzas públicas o resultados de emisores grandes de la BVC; 2 = efecto indirecto o concentrado en un sector; 1 = efecto marginal; 0 = sin efecto económico.
@@ -76,10 +83,10 @@ La página `glosario.html` muestra los "Términos del día" (los de la edición 
 La definición va en 2 a 4 frases, en lenguaje sencillo para un inversionista no profesional: qué es y por qué le importa a quien invierte. Aquí sí puedes usar conocimiento general (no viene de la noticia), pero solo conceptos establecidos y sin cifras que cambien con el tiempo. No modifiques las definiciones existentes salvo para corregir un error.
 
 ## Indicadores (`data/mercado.json`)
-En cada edición actualiza los indicadores de la barra superior. Usa WebFetch:
-- **Dólar (TRM):** `https://www.datos.gov.co/resource/32sa-8pi3.json?$order=vigenciadesde%20DESC&$limit=2`. `valor` y `vigente_desde` del primer registro; `anterior` es el valor del segundo.
-- **Brent:** `https://mx.investing.com/commodities/brent-oil-historical-data`. Toma la fila más reciente de la tabla histórica (cierre, % de variación y fecha), no el precio del encabezado. Si esa página no responde o pide permiso, usa la nota diaria de La República sobre precios del dólar y del petróleo (búscala en su RSS, categoría Finanzas, con un título como "Precios del dólar y del petróleo hoy") y toma el cierre más reciente del Brent que reporte, con su fecha. Si ninguna fuente da un cierre con fecha explícita, deja el valor anterior.
-- **MSCI COLCAP:** `https://www.larepublica.co/indicadores-economicos/movimiento-accionario/msci-colcap` (dato de la BVC): último valor, variación porcentual y fecha.
+En cada edición actualiza los indicadores de la barra superior. Primero mira con `python3 bot/publicar.py estado` qué fechas tienen ya: si un indicador ya tiene el dato del último día hábil (por ejemplo, un sábado, domingo o festivo), no lo busques. Para cada indicador, intenta las fuentes en este orden, una vez cada una, y si ninguna da un dato con fecha explícita, conserva el valor anterior (no busques en otros sitios):
+- **Dólar (TRM):** (1) `https://www.datos.gov.co/resource/32sa-8pi3.json?$order=vigenciadesde%20DESC&$limit=2` (`valor` y `vigente_desde` del primer registro; `anterior` es el valor del segundo); (2) la nota diaria de La República sobre precios del dólar y del petróleo (búscala en su RSS, con un título como "Precios del dólar y del petróleo hoy"), que trae la TRM vigente.
+- **Brent:** (1) esa misma nota diaria de La República: el cierre más reciente del Brent, con su fecha; (2) `https://mx.investing.com/commodities/brent-oil-historical-data`, fila más reciente de la tabla histórica (no el precio del encabezado).
+- **MSCI COLCAP:** (1) `https://www.larepublica.co/indicadores-economicos/movimiento-accionario/msci-colcap` (dato de la BVC): último valor, variación porcentual y fecha; (2) la nota de cierre de la BVC de La República o Valora Analitik del último día hábil, si la trae en los RSS.
 - **Tasa del Banco de la República** e **inflación anual:** actualízalas solo cuando una noticia o fuente oficial informe un cambio (decisión de la junta del Banco de la República; dato mensual del IPC del DANE). Si no hay cambio, deja el valor anterior.
 
 Si una fuente no responde, conserva el valor anterior de ese indicador. La TRM y el MSCI COLCAP se actualizan todos los días hábiles: revisa que sus fechas correspondan al último día hábil antes de publicar. Formato:
@@ -147,7 +154,7 @@ Sección aparte, con reglas propias. Se actualiza en la misma corrida diaria.
 Actualiza también `actualizado` de `data/biotech.json` (hora real, como en la sección Hoy) y, si una noticia cambia el estado o los próximos hitos de una compañía, actualiza su ficha en `companias` (campos `estado` y `hitos`), con `fuente_url` apuntando a la fuente de ese cambio. Los términos nuevos van al mismo `data/glosario.json`, con definiciones para un joven de 15 años.
 
 ## Dónde se publica
-Se agrega al inicio del arreglo `notas` de `data/notas.json` y se actualiza `actualizado`. La hora de `actualizado` debe ser la hora real de publicación: obtenla justo antes del commit con `TZ=America/Bogota date` y nunca la escribas de memoria ni la estimes. Formato: "12 oct 2026, 9:15 a. m. (hora Bogotá)". Esquema de cada nota:
+Se agrega al inicio del arreglo `notas` de `data/notas.json` y se actualiza `actualizado`, siempre con `python3 bot/publicar.py agregar hoy ARCHIVO.json` (el archivo lleva `{"notas": [...]}`). La hora de `actualizado` debe ser la hora real de publicación; el script la toma del reloj, así que nunca la escribas de memoria ni la estimes. Formato: "12 oct 2026, 9:15 a. m. (hora Bogotá)". Esquema de cada nota:
 
 ```json
 {
