@@ -1,6 +1,296 @@
 {
-  "actualizado": "19 oct 2026, 7:27 a. m. (hora Bogotá)",
+  "actualizado": "20 oct 2026, 6:56 a. m. (hora Bogotá)",
   "notas": [
+    {
+      "id": "2026-10-20-01",
+      "fecha": "2026-10-20",
+      "categoria": "politica",
+      "puntaje": {
+        "total": 9,
+        "alcance": 3,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Congreso aprueba el Presupuesto 2027 por $634,95 billones con más gasto en salud",
+      "resumen": "Senado y Cámara aprobaron el Presupuesto General de la Nación de 2027 por $634,95 billones, con más recursos para salud, defensa y subsidios de energía. El Gobierno anunció que presentará una ley de ajuste fiscal en un plazo de 90 días.",
+      "contexto": "En el Senado la votación fue de 57 votos a favor y 1 en contra, y en la Cámara de 112 a favor. Según el presidente del Senado, la salud recibió $5 billones más que en la propuesta inicial, y se aprobaron partidas para defensa y subsidios de energía en el Caribe. Uno de los artículos obliga al Ejecutivo a radicar en 90 días un proyecto de ajuste fiscal, la llamada ley de rescate, y otros exigen informes trimestrales de recursos y gasto y seguimiento a los títulos de tesorería de corto plazo.",
+      "afectados": [
+        "TES",
+        "Finanzas públicas",
+        "Peso colombiano",
+        "Sector salud",
+        "Constructoras"
+      ],
+      "peso_alcista": 55,
+      "alcista": "La aprobación con mayorías amplias en ambas cámaras reduce la incertidumbre política sobre el gasto de 2027. El compromiso de presentar una ley de ajuste fiscal en 90 días es una señal de que el Gobierno busca corregir las cuentas públicas. Los nuevos requisitos de informes trimestrales y el seguimiento a la deuda de corto plazo mejoran la transparencia, algo que suelen valorar los inversionistas en TES. Las partidas para inversión e infraestructura pueden apoyar a sectores como construcción.",
+      "bajista": "El Congreso agregó gasto en salud, defensa y subsidios de energía, lo que presiona unas finanzas públicas ya estrechas. La propia necesidad de una ley de rescate fiscal confirma que el faltante es importante y que las soluciones aún no están definidas. Si el mercado duda de la financiación, podría exigir tasas más altas a los TES y debilitar el peso. Además, el ajuste fiscal anunciado podría traer nuevos impuestos o recortes que afecten a empresas y consumidores.",
+      "impacto": {
+        "conclusion": "Pesa un poco más la lectura alcista: tener el presupuesto aprobado y anunciar un plan de ajuste reduce la incertidumbre de corto plazo. Sin embargo, el mayor gasto aprobado deja la sostenibilidad fiscal en manos de una ley que aún no existe. Para tu portafolio, el efecto depende de qué tan creíble resulte ese ajuste en los próximos tres meses.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "mixto",
+            "detalle": "Menos incertidumbre política y más inversión pública ayudan, pero un ajuste fiscal futuro puede traer cargas para las empresas."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "mixto",
+            "detalle": "La aprobación reduce riesgo, pero el gasto adicional puede presionar al alza las tasas de los TES y bajar su precio."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "Un plan fiscal creíble apoyaría al peso; dudas sobre la financiación lo debilitarían y subirían el valor en pesos de tus dólares."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La radicación del proyecto de ajuste fiscal (ley de rescate) dentro del plazo de 90 días y la reacción de las tasas de los TES.",
+      "terminos": [
+        "Presupuesto General de la Nación",
+        "TES",
+        "Deuda pública",
+        "Inversión pública"
+      ],
+      "fuente": "Vanguardia",
+      "url": "https://www.vanguardia.com/economia/nacional/2026/10/20/congreso-aprobo-el-presupuesto-de-2027-por-63495-billones-y-definio-nuevas-partidas/"
+    },
+    {
+      "id": "2026-10-20-02",
+      "fecha": "2026-10-20",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 8,
+        "alcance": 3,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "La actividad económica se contrajo 0,04% anual en agosto, según el DANE",
+      "resumen": "El Indicador de Seguimiento a la Economía (ISE) de agosto cayó 0,04% frente al mismo mes de 2025 en la serie original y 0,11% en la serie ajustada por estacionalidad. Industria, construcción, agro y minería retrocedieron más de 3%.",
+      "contexto": "Las cifras son preliminares. Las actividades primarias (agro, minería y pesca) bajaron 3,19% anual y las secundarias (industria y construcción) 3,03%, mientras que comercio y servicios crecieron 1,10%. Frente a julio, los tres grupos cayeron: las secundarias 4,17%, las primarias 2,06% y las terciarias 1,39%.",
+      "afectados": [
+        "Crecimiento económico",
+        "Industria",
+        "Construcción",
+        "Banco de la República",
+        "Comercio"
+      ],
+      "peso_alcista": 30,
+      "alcista": "Un frenazo de la actividad reduce las presiones de demanda sobre los precios y podría hacer que el Banco de la República sea más cauteloso con nuevas alzas de tasas. Eso favorecería a los TES que ya tienes, cuyos precios suben cuando las tasas esperadas bajan. Comercio y servicios siguen creciendo, lo que sostiene a empresas ligadas al consumo.",
+      "bajista": "Una contracción anual de la economía golpea las ventas y las utilidades de las empresas, sobre todo en industria, construcción y minería. Una economía más débil también reduce el recaudo de impuestos, en un momento de finanzas públicas estrechas. La caída mensual en los tres grandes grupos sugiere que el deterioro es amplio y no de un solo sector. Para los bancos, menor actividad suele traducirse en menos crédito y más riesgo de impago.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista, porque la caída es amplia y afecta a los sectores productivos más grandes. El alivio posible en tasas depende de la inflación, que sigue alta. Para tu portafolio, lo más sensible son las acciones de empresas industriales, constructoras y bancos.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Menor actividad presiona las ventas y utilidades de industria, construcción, minería y bancos."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "mixto",
+            "detalle": "Una economía débil puede bajar las tasas esperadas, pero el menor recaudo agrava el riesgo fiscal."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "mixto",
+            "detalle": "Si el Banco de la República frena las alzas, las tasas de los CDT nuevos dejarían de subir."
+          }
+        ]
+      },
+      "mirar": "La próxima decisión de tasas del Banco de la República y el dato del PIB del tercer trimestre.",
+      "terminos": [
+        "Indicador de Seguimiento a la Economía (ISE)",
+        "Serie desestacionalizada",
+        "Desaceleración económica",
+        "PIB"
+      ],
+      "fuente": "El Universal (con datos del DANE)",
+      "url": "https://www.eluniversal.com.co/colombia/2026/10/19/colombia-registro-una-caida-de-su-actividad-economica-en-agosto-de-2026/"
+    },
+    {
+      "id": "2026-10-20-03",
+      "fecha": "2026-10-20",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 7,
+        "alcance": 2,
+        "materialidad": 3,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "El dólar cierra en $3.157,91 y toca $3.148; suben las tasas de los TES",
+      "resumen": "El dólar cayó $15,09 el lunes y cerró en $3.157,91, tras tocar un mínimo de $3.148 en la jornada. Al mismo tiempo, las tasas de los TES subieron levemente en toda la curva.",
+      "contexto": "La divisa abrió en $3.178,90, su máximo del día, frente a un cierre previo de $3.173. Analistas citados atribuyeron la fortaleza global del dólar a la debilidad de monedas europeas por la situación política en Francia, y señalaron que el peso se sostuvo con el Brent por encima de US$100. El índice DXY subió 0,11% a 101,95 puntos. Los TES 2028 pasaron de 12,551% a 12,559%, los 2033 de 12,946% a 12,957% y los 2050 de 13,000% a 13,021%.",
+      "afectados": [
+        "Peso colombiano",
+        "TES",
+        "Importadores",
+        "Exportadores"
+      ],
+      "peso_alcista": 55,
+      "alcista": "Un peso más fuerte abarata las importaciones y ayuda a contener la inflación, lo que con el tiempo podría aliviar las tasas de interés. Las empresas con deuda en dólares ven reducido su costo en pesos. El sostén del petróleo por encima de US$100 sigue trayendo divisas al país, lo que respalda la moneda.",
+      "bajista": "Las tasas de los TES subieron, lo que reduce el precio de los bonos que ya están en los portafolios. Para quien tiene ahorros o inversiones en dólares, la caída de la divisa reduce su valor medido en pesos. Exportadores y empresas con ingresos en dólares reciben menos pesos por sus ventas. Además, la fortaleza del peso depende en buena parte del petróleo, que puede cambiar de rumbo con rapidez.",
+      "impacto": {
+        "conclusion": "Pesa ligeramente más la lectura alcista: un peso firme ayuda a la inflación y a las empresas endeudadas en dólares. Pero el leve aumento de las tasas de los TES muestra que el mercado de deuda sigue cauteloso. Para tu portafolio, el efecto se concentra en los bonos y en lo que tengas en dólares.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "Las tasas de los TES subieron en toda la curva, lo que baja su precio."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "negativo",
+            "detalle": "Un dólar más barato reduce en pesos el valor de tus ahorros e inversiones en el exterior."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "Si el dólar rompe el nivel de $3.148 y cómo reaccionan los TES a la aprobación del Presupuesto 2027.",
+      "terminos": [
+        "TES",
+        "Revaluación del peso",
+        "Índice DXY",
+        "Brent"
+      ],
+      "fuente": "Valora Analitik",
+      "url": "https://www.valoraanalitik.com/dolar-en-colombia-sigue-perdiendo-fuerza-bajo-de-los-3-150-en-la-jornada/"
+    },
+    {
+      "id": "2026-10-20-04",
+      "fecha": "2026-10-20",
+      "categoria": "bvc",
+      "puntaje": {
+        "total": 6,
+        "alcance": 1,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Ecopetrol declara desiertos los procesos para importar gas licuado y acelera Sirius",
+      "resumen": "Ecopetrol no adjudicó las ofertas de gas natural licuado importado que evaluaba, con compromisos de suministro a cinco años, porque no cumplían condiciones comerciales mínimas. La empresa apostará por aumentar la producción local y acelerar el proyecto Sirius.",
+      "contexto": "La compañía explicó que los precios internacionales no tenían suficiente respaldo en compromisos de compra de clientes locales y que asumir obligaciones en el exterior sin ventas aseguradas podía trasladar sobrecostos a los usuarios. Citó datos de la ANH según los cuales las reservas probadas de gas cayeron cerca de 39% entre finales de 2022 y finales de 2025, y la producción comercializada cerca de 26%. El IDEAM declaró el fenómeno de El Niño el 8 de octubre, lo que podría aumentar la demanda de gas de las plantas térmicas.",
+      "afectados": [
+        "Ecopetrol",
+        "Generadoras térmicas",
+        "Usuarios de gas",
+        "Sector energético"
+      ],
+      "peso_alcista": 45,
+      "alcista": "Evitar contratos de importación a cinco años sin clientes asegurados protege a Ecopetrol de pérdidas si no logra revender el gas a precios que cubran su costo. La decisión muestra disciplina comercial, algo que valoran los accionistas. Acelerar Sirius apunta a reemplazar importaciones costosas por producción propia en el mediano plazo.",
+      "bajista": "El país sigue con menos reservas y producción de gas, y sin un contrato de importación nuevo el riesgo de escasez persiste, más aún con El Niño. Sirius aún requiere desarrollar los descubrimientos, obtener permisos e infraestructura, por lo que su aporte no es inmediato. Un déficit de gas podría encarecer la energía para empresas y hogares y presionar la inflación.",
+      "impacto": {
+        "conclusion": "Pesa un poco más la lectura bajista: la decisión protege la rentabilidad de Ecopetrol, pero deja abierto el problema de abastecimiento en plena temporada de El Niño. Para tu portafolio, el efecto directo está en las acciones de Ecopetrol y de las empresas de energía.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "mixto",
+            "detalle": "Ecopetrol evita un compromiso riesgoso, pero el déficit de gas puede afectar a energéticas e industria."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "Nuevos anuncios de Ecopetrol sobre importación de gas y el cronograma de desarrollo de Sirius.",
+      "terminos": [
+        "Gas natural licuado (GNL)",
+        "Fenómeno de El Niño",
+        "Generación térmica"
+      ],
+      "fuente": "El Tiempo",
+      "url": "https://eltiempo.com/economia/sectores/ecopetrol-declara-desiertas-ofertas-de-gas-importado-y-apuesta-por-acelerar-el-desarrollo-de-sirius-3594579"
+    },
+    {
+      "id": "2026-10-20-05",
+      "fecha": "2026-10-20",
+      "categoria": "bvc",
+      "puntaje": {
+        "total": 6,
+        "alcance": 2,
+        "materialidad": 2,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "Bogotá subasta hoy bonos hasta por $1,5 billones para financiar inversión",
+      "resumen": "El Distrito de Bogotá coloca este 20 de octubre bonos de deuda pública interna, verdes, sociales y sostenibles por $1 billón, ampliable a $1,5 billones si hay demanda suficiente. Será su segunda emisión dentro de su programa de bonos.",
+      "contexto": "La colocación se hará por subasta holandesa en tres series. Todos los recursos financiarán proyectos de inversión de los planes de desarrollo de la ciudad, y hasta 10% podrá destinarse a pagar pasivos con empresas vinculadas. El programa tiene un cupo total de $5,3 billones; en la primera emisión, del 27 de noviembre de 2025, se adjudicaron $510.360 millones, por lo que quedan disponibles hasta $4,81 billones.",
+      "afectados": [
+        "Bogotá",
+        "Mercado de deuda",
+        "Fondos de pensiones",
+        "Inversionistas en renta fija"
+      ],
+      "peso_alcista": 55,
+      "alcista": "Una emisión grande con buena demanda mostraría apetito por deuda local en pesos, una señal favorable para el mercado de renta fija. Para quien invierte, amplía la oferta de bonos de un emisor público distinto de la Nación. Los recursos irán a inversión en la ciudad, lo que puede apoyar a sectores como construcción.",
+      "bajista": "Una oferta grande de deuda compite por el ahorro con los TES y los CDT, y puede presionar al alza las tasas exigidas. Si la demanda es débil, la ciudad tendría que pagar tasas más altas, lo que encarece su deuda. Además, la emisión ocurre en un momento de tasas elevadas en Colombia.",
+      "impacto": {
+        "conclusion": "Pesa un poco más la lectura alcista, porque la emisión amplía las opciones de renta fija en pesos y dará una lectura del apetito de los inversionistas. El resultado de la subasta mostrará a qué tasas está dispuesto a prestar el mercado. Para tu portafolio, el efecto está en la renta fija y en las alternativas de ahorro en pesos.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "mixto",
+            "detalle": "Más oferta de bonos amplía opciones, pero puede presionar al alza las tasas del mercado."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "mixto",
+            "detalle": "Los bonos compiten con los CDT por el ahorro en pesos y sus tasas sirven de referencia."
+          }
+        ]
+      },
+      "mirar": "El monto demandado y las tasas de corte de las tres series en la subasta de este 20 de octubre.",
+      "terminos": [
+        "Subasta holandesa",
+        "Bonos sostenibles",
+        "Deuda pública"
+      ],
+      "fuente": "Valora Analitik",
+      "url": "https://www.valoraanalitik.com/bogota-vuelve-al-mercado-de-capitales/"
+    },
     {
       "id": "2026-10-19-01",
       "fecha": "2026-10-19",

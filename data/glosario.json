@@ -479,6 +479,30 @@
     {
       "termino": "Aprobado (China)",
       "definicion": "El regulador de medicamentos de China ya autorizó venderlo allí, pero todavía no está aprobado en EE. UU. La pregunta que queda es si podrá aprobarse en otros países, y para eso la compañía sigue haciendo estudios, normalmente de fase 3."
+    },
+    {
+      "termino": "Indicador de Seguimiento a la Economía (ISE)",
+      "definicion": "Es un indicador mensual del DANE que mide cómo va la actividad económica del país antes de que se publique el PIB trimestral. Agrupa la producción en actividades primarias (agro y minería), secundarias (industria y construcción) y terciarias (comercio y servicios). A quien invierte le sirve como alerta temprana de aceleración o frenazo de la economía."
+    },
+    {
+      "termino": "Serie desestacionalizada",
+      "definicion": "Es una versión de un dato económico a la que se le quitan los efectos del calendario y de las temporadas, como festivos, días hábiles o épocas de más ventas. Permite comparar un mes con otro de forma más justa. Por eso a veces difiere de la cifra original."
+    },
+    {
+      "termino": "Gas natural licuado (GNL)",
+      "definicion": "Es gas natural enfriado hasta volverse líquido para poder transportarlo en barcos. Al llegar a su destino se convierte de nuevo en gas en una planta de regasificación. Importarlo suele ser más costoso que producir gas local, lo que puede encarecer la energía y afectar a las empresas del sector."
+    },
+    {
+      "termino": "Subasta holandesa",
+      "definicion": "Es un mecanismo de colocación de bonos o acciones en el que los inversionistas indican cuánto quieren comprar y a qué tasa o precio. El emisor fija una tasa o precio de corte y todos los que quedan adjudicados reciben esas mismas condiciones. Es común en las emisiones de deuda en la Bolsa de Valores de Colombia."
+    },
+    {
+      "termino": "Bonos sostenibles",
+      "definicion": "Son bonos cuyo dinero se destina a proyectos con beneficios ambientales (bonos verdes), sociales (bonos sociales) o ambos (bonos sostenibles). Funcionan como cualquier bono: el emisor paga intereses y devuelve el capital al vencimiento. Atraen a inversionistas que buscan, además de rentabilidad, un impacto medible."
+    },
+    {
+      "termino": "Índice DXY",
+      "definicion": "Es un índice que mide el valor del dólar estadounidense frente a una canasta de seis monedas de países desarrollados, como el euro, el yen y la libra. Si sube, el dólar se está fortaleciendo en el mundo. Suele influir en el precio del dólar en Colombia."
     }
   ]
 }
