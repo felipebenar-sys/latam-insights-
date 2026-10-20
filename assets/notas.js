@@ -663,10 +663,17 @@
         document.querySelectorAll('[data-dropdown]').forEach(dd => {
             const b = dd.querySelector('button'), m = dd.querySelector('[data-menu]');
             const set = abierto => { m.classList.toggle('hidden', !abierto); b.setAttribute('aria-expanded', abierto); };
-            let hoverAt = 0;
-            b.addEventListener('click', e => { e.stopPropagation(); if (Date.now() - hoverAt < 600) set(true); else set(m.classList.contains('hidden')); });
-            dd.addEventListener('pointerenter', e => { if (e.pointerType === 'mouse') { hoverAt = Date.now(); set(true); } });
-            dd.addEventListener('pointerleave', e => { if (e.pointerType === 'mouse') set(false); });
+            let hoverAt = 0, cierre = null;
+            // Puente invisible sobre el hueco entre el botón y el menú (mt-3), para que el mouse no "salga" al bajar
+            const puente = document.createElement('span');
+            puente.setAttribute('aria-hidden', 'true');
+            puente.style.cssText = 'position:absolute;left:-1rem;right:-1rem;top:100%;height:0.875rem;';
+            dd.appendChild(puente);
+            const cancelarCierre = () => { if (cierre) { clearTimeout(cierre); cierre = null; } };
+            b.addEventListener('click', e => { e.stopPropagation(); cancelarCierre(); if (Date.now() - hoverAt < 600) set(true); else set(m.classList.contains('hidden')); });
+            dd.addEventListener('pointerenter', e => { if (e.pointerType === 'mouse') { cancelarCierre(); hoverAt = Date.now(); set(true); } });
+            // Pequeña espera antes de cerrar: si el mouse vuelve al menú en ese tiempo, sigue abierto
+            dd.addEventListener('pointerleave', e => { if (e.pointerType === 'mouse') { cancelarCierre(); cierre = setTimeout(() => set(false), 250); } });
             document.addEventListener('click', e => { if (!dd.contains(e.target)) set(false); });
             document.addEventListener('keydown', e => { if (e.key === 'Escape') set(false); });
         });
