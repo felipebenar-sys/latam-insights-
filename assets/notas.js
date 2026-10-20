@@ -170,10 +170,10 @@
                  class="bg-stone-900 border border-stone-800 rounded-xl p-5 sm:p-6 scroll-mt-32">
             ${cabecera(n)}
             <h3 class="serif text-xl sm:text-2xl font-bold text-white mb-3">${esc(n.titulo)}</h3>
-            <p class="text-stone-200 mb-5" data-glosable>${esc(n.resumen)}</p>
+            <p class="text-stone-200 mb-5 max-w-4xl" data-glosable>${esc(n.resumen)}</p>
             ${n.contexto ? `<div class="mb-5" data-glosable>
                 <p class="text-stone-500 text-xs font-bold uppercase tracking-wider mb-1">Contexto</p>
-                <p class="text-stone-300 text-sm leading-relaxed">${esc(n.contexto)}</p>
+                <p class="text-stone-300 text-sm leading-relaxed max-w-4xl">${esc(n.contexto)}</p>
             </div>` : ''}
             ${ponderacion(n, false)}
             <div data-glosable>${impacto(n)}</div>
@@ -423,14 +423,14 @@
                 <a href="${esc(safeUrl(n.url))}" target="_blank" rel="noopener noreferrer" class="tap-amplio text-stone-400 hover:text-amber-400 underline underline-offset-2">Fuente: ${esc(n.fuente)}</a>
             </div>
             <h3 class="serif text-xl sm:text-2xl font-bold text-white mb-3">${esc(n.titulo)}</h3>
-            <p class="text-stone-200 mb-5" data-glosable>${esc(n.resumen)}</p>
+            <p class="text-stone-200 mb-5 max-w-4xl" data-glosable>${esc(n.resumen)}</p>
             ${n.contexto ? `<div class="mb-5" data-glosable>
                 <p class="text-stone-500 text-xs font-bold uppercase tracking-wider mb-1">Contexto</p>
-                <p class="text-stone-300 text-sm leading-relaxed">${esc(n.contexto)}</p>
+                <p class="text-stone-300 text-sm leading-relaxed max-w-4xl">${esc(n.contexto)}</p>
             </div>` : ''}
             ${n.que_significa ? `<div class="bg-sky-400/5 border border-sky-400/25 rounded-lg p-5 mb-5" data-glosable>
                 <p class="text-sky-300 text-xs font-bold uppercase tracking-wider mb-2">Qué significa, en palabras simples</p>
-                <p class="text-stone-200 text-sm leading-relaxed">${esc(n.que_significa)}</p>
+                <p class="text-stone-200 text-sm leading-relaxed max-w-4xl">${esc(n.que_significa)}</p>
             </div>` : ''}
             ${n.mirar ? `<p class="text-sm text-stone-300 border-t border-stone-800 pt-4"><span class="text-amber-400 font-semibold">Qué mirar después:</span> ${esc(n.mirar)}</p>` : ''}
             ${Array.isArray(n.terminos) && n.terminos.length ? `<p class="text-xs text-stone-500 mt-4">Términos en esta nota: ${n.terminos.map(t => `<button type="button" data-termino="${esc(t)}" class="text-stone-300 underline decoration-dotted underline-offset-2 hover:text-amber-400">${esc(t)}</button>`).join(' · ')}</p>` : ''}
