@@ -167,7 +167,7 @@
             ? `<p class="text-xs text-stone-500 mt-4">Términos en esta nota: ${n.terminos.map(t => `<button type="button" data-termino="${esc(t)}" class="text-stone-300 underline decoration-dotted underline-offset-2 hover:text-amber-400">${esc(t)}</button>`).join(' · ')}</p>` : '';
         return `
         <article id="${esc(n.id)}" data-nota data-categoria="${esc(n.categoria)}" data-afecta="${esc((n.impacto && n.impacto.activos || []).filter(x => x.efecto !== 'neutral').map(x => x.activo).join(' '))}"
-                 class="bg-stone-900 border border-stone-800 rounded-xl p-5 sm:p-8 scroll-mt-32">
+                 class="bg-stone-900 border border-stone-800 rounded-xl p-5 sm:p-6 scroll-mt-32">
             ${cabecera(n)}
             <h3 class="serif text-xl sm:text-2xl font-bold text-white mb-3">${esc(n.titulo)}</h3>
             <p class="text-stone-200 mb-5" data-glosable>${esc(n.resumen)}</p>
@@ -415,7 +415,7 @@
         const emp = empresas[n.empresa] || { nombre: n.empresa };
         const fn = n.fecha_noticia ? fmtFecha(n.fecha_noticia) : '';
         return `
-        <article id="${esc(n.id)}" data-nota data-empresa="${esc(n.empresa)}" class="bg-stone-900 border border-stone-800 rounded-xl p-5 sm:p-8 scroll-mt-32">
+        <article id="${esc(n.id)}" data-nota data-empresa="${esc(n.empresa)}" class="bg-stone-900 border border-stone-800 rounded-xl p-5 sm:p-6 scroll-mt-32">
             <div class="flex flex-wrap items-center gap-2 mb-3 text-xs">
                 <span class="bg-sky-400/10 text-sky-300 border border-sky-400/20 px-2 py-0.5 rounded-full font-semibold">${esc(n.empresa)} · ${esc(emp.nombre)}</span>
                 <span class="bg-stone-800 text-stone-300 px-2 py-0.5 rounded-full">${esc(n.tipo || '')}</span>
