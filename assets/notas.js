@@ -467,6 +467,67 @@
             </details>
         </div>`;
     }
+    // ===== PDF del panorama: versión en fondo blanco para imprimir o guardar como PDF (carta horizontal) =====
+    const CSS_PDF = `
+        #pdf-panorama { display: none; }
+        @media print {
+            @page { size: letter landscape; margin: 0.4in 0.45in; }
+            body.imprimir-panorama { background: #fff !important; }
+            body.imprimir-panorama > *:not(#pdf-panorama) { display: none !important; }
+            body.imprimir-panorama #pdf-panorama { display: block; }
+        }
+        #pdf-panorama { font-family: 'Inter', system-ui, sans-serif; color: #111; background: #fff; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+        #pdf-panorama .pp-cab { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; }
+        #pdf-panorama h1 { font-size: 17pt; font-weight: 700; margin: 0; color: #111; }
+        #pdf-panorama .pp-fecha { font-size: 8.5pt; color: #555; white-space: nowrap; }
+        #pdf-panorama .pp-sub { font-size: 8.5pt; color: #444; margin: 2pt 0 9pt; }
+        #pdf-panorama table { width: 100%; border-collapse: collapse; font-size: 8pt; line-height: 1.3; }
+        #pdf-panorama thead th { text-align: left; font-size: 6.8pt; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: #333; padding: 0 5pt 4pt; border-bottom: 1.2pt solid #111; }
+        #pdf-panorama tbody td { padding: 4pt 5pt; border-bottom: 0.6pt solid #c8c8c8; vertical-align: top; }
+        #pdf-panorama tr { break-inside: avoid; page-break-inside: avoid; }
+        #pdf-panorama .pp-nom { font-weight: 700; }
+        #pdf-panorama .pp-tk { display: block; font-size: 6.8pt; color: #666; margin-top: 1pt; }
+        #pdf-panorama .pp-med { font-weight: 700; }
+        #pdf-panorama .pp-fase { display: inline-block; border: 0.7pt solid #333; border-radius: 3pt; padding: 0 3.5pt; font-size: 7pt; white-space: nowrap; }
+        #pdf-panorama .pp-hf { display: block; font-weight: 700; }
+        #pdf-panorama col.c1 { width: 17%; } #pdf-panorama col.c2 { width: 14%; } #pdf-panorama col.c3 { width: 12%; } #pdf-panorama col.c4 { width: 20%; } #pdf-panorama col.c5 { width: 37%; }
+    `;
+    function pdfPanorama(pan) {
+        const filas = (pan.companias || []).map(c => `
+            <tr>
+                <td><span class="pp-nom">${esc(c.nombre)}</span><span class="pp-tk">${esc(c.ticker)}</span></td>
+                <td class="pp-med">${esc(c.medicamento)}</td>
+                <td><span class="pp-fase">${esc(c.fase)}</span></td>
+                <td>${esc(c.enfermedad)}</td>
+                <td><span class="pp-hf">${esc(c.hito_fecha)}</span>${esc(c.hito)}</td>
+            </tr>`).join('');
+        return `
+            <div class="pp-cab"><h1>Panorama de biotecnológicas</h1>${pan.actualizado ? `<span class="pp-fecha">Datos al ${esc(pan.actualizado)}</span>` : ''}</div>
+            <p class="pp-sub">El medicamento más avanzado de cada compañía y su próximo paso.</p>
+            <table>
+                <colgroup><col class="c1"><col class="c2"><col class="c3"><col class="c4"><col class="c5"></colgroup>
+                <thead><tr><th>Compañía</th><th>Medicamento</th><th>Fase</th><th>Enfermedad</th><th>Próximo hito</th></tr></thead>
+                <tbody>${filas}</tbody>
+            </table>`;
+    }
+    function prepararPdfPanorama(pan) {
+        if (!document.getElementById('pdf-panorama-css')) {
+            const st = document.createElement('style'); st.id = 'pdf-panorama-css'; st.textContent = CSS_PDF; document.head.appendChild(st);
+        }
+        let box = document.getElementById('pdf-panorama');
+        if (!box) { box = document.createElement('div'); box.id = 'pdf-panorama'; document.body.appendChild(box); }
+        box.innerHTML = pdfPanorama(pan);
+        const btn = document.getElementById('bio-pdf-btn');
+        if (!btn) return;
+        btn.addEventListener('click', () => {
+            const titulo = document.title;
+            const fin = () => { document.body.classList.remove('imprimir-panorama'); document.title = titulo; window.removeEventListener('afterprint', fin); };
+            document.body.classList.add('imprimir-panorama');
+            document.title = 'Panorama de biotecnologicas';   // nombre sugerido del archivo al guardar como PDF
+            window.addEventListener('afterprint', fin);
+            window.print();
+        });
+    }
     function panoramaBiotech(pan) {
         const fase = f => `<button type="button" data-termino="${esc(f)}" class="bg-sky-400/10 text-sky-300 border border-sky-400/30 hover:border-sky-300 text-xs font-semibold px-2 py-0.5 rounded-md cursor-help whitespace-nowrap">${esc(f)}</button>`;
         const fuente = c => c.fuente_url ? `<a href="${esc(safeUrl(c.fuente_url))}" target="_blank" rel="noopener noreferrer" class="tap-amplio text-stone-500 hover:text-amber-400 underline underline-offset-2 text-xs">Fuente</a>` : '';
@@ -506,6 +567,7 @@
                 document.getElementById('bio-panorama').innerHTML = panoramaBiotech(d.panorama);
                 if (d.panorama.actualizado) document.getElementById('bio-panorama-fecha').textContent = 'Datos al ' + d.panorama.actualizado;
                 document.getElementById('bio-panorama-wrap').classList.remove('hidden');
+                prepararPdfPanorama(d.panorama);
             }
             const cias = d.companias || [];
             cont.innerHTML = cias.length ? cias.map(fichaBiotech).join('') : vacio('Aún no hay fichas de compañías.');

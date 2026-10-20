@@ -130,7 +130,13 @@
     <section id="bio-panorama-wrap" class="pb-8 px-4 sm:px-6 max-w-6xl mx-auto hidden">
         <div class="flex flex-wrap items-baseline justify-between gap-2 mb-1">
             <h2 class="text-white font-semibold text-lg">Panorama de biotecnológicas</h2>
-            <span class="text-stone-500 text-xs" id="bio-panorama-fecha"></span>
+            <div class="flex items-center gap-3">
+                <span class="text-stone-500 text-xs" id="bio-panorama-fecha"></span>
+                <button type="button" id="bio-pdf-btn" class="inline-flex items-center gap-1.5 border border-stone-700 hover:border-amber-400 hover:text-amber-400 text-stone-200 text-xs font-semibold px-3 py-1.5 rounded-lg transition">
+                    <svg viewBox="0 0 20 20" class="w-4 h-4 fill-current" aria-hidden="true"><path d="M10 2a1 1 0 0 1 1 1v7.6l2.3-2.3a1 1 0 1 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 1 1 1.4-1.4L9 10.6V3a1 1 0 0 1 1-1zM4 15a1 1 0 0 1 1 1v1h10v-1a1 1 0 1 1 2 0v2a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1z"/></svg>
+                    Descargar PDF
+                </button>
+            </div>
         </div>
         <p class="text-stone-500 text-sm mb-4">El medicamento más avanzado de cada compañía y su próximo paso. Toca la fase para ver qué significa.</p>
         <div id="bio-panorama"></div>
@@ -164,7 +170,7 @@
         </div>
     </footer>
 
-    <script src="assets/notas.js?v=20261020e"></script>
+    <script src="assets/notas.js?v=20261020f"></script>
     <script>initMenu();</script>
     <script>renderBarra();</script>
     <script>renderBiotech();</script>
