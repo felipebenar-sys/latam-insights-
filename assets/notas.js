@@ -687,14 +687,14 @@
         marcarNuevos();
     };
 
-    // Etiqueta "Nuevo" en el menú: Cobertura LatAm y Biotecnología con noticias de las últimas 48 horas
-    // (según la fecha de la noticia, fecha_noticia, en hora Bogotá: hoy o ayer)
+    // Etiqueta "Nuevo" en el menú: Cobertura LatAm y Biotecnología con noticias de hoy
+    // (según la fecha de la noticia, fecha_noticia, en hora Bogotá)
     function marcarNuevos() {
         const header = document.querySelector('header');
         if (!header) return;
         const hoy = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Bogota', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
         const dia = iso => { const [y, m, d] = String(iso).split('-').map(Number); return Date.UTC(y, m - 1, d) / 864e5; };
-        const reciente = notas => (notas || []).some(n => { const f = n.fecha_noticia || n.fecha; if (!f) return false; const dif = dia(hoy) - dia(f); return dif >= 0 && dif <= 1; });
+        const reciente = notas => (notas || []).some(n => { const f = n.fecha_noticia || n.fecha; if (!f) return false; const dif = dia(hoy) - dia(f); return dif === 0; });
         const leer = f => fetch(f, { cache: 'no-store' }).then(r => r.ok ? r.json() : {}).catch(() => ({}));
         const etiqueta = '<span data-nuevo class="ml-2 inline-flex items-center rounded-full bg-amber-400 text-stone-950 text-[10px] font-bold uppercase tracking-wide px-1.5 py-0.5 align-middle">Nuevo</span>';
         const punto = (clase) => `<span data-nuevo class="${clase} w-2 h-2 rounded-full bg-amber-400" aria-hidden="true"></span>`;
