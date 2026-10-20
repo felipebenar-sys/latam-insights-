@@ -410,33 +410,7 @@
     };
 
 
-    // ===== Biotecnología (data/biotech.json): solo noticias explicadas, sin opinión =====
-    function notaBiotech(n, empresas) {
-        const emp = empresas[n.empresa] || { nombre: n.empresa };
-        const fn = n.fecha_noticia ? fmtFecha(n.fecha_noticia) : '';
-        return `
-        <article id="${esc(n.id)}" data-nota data-empresa="${esc(n.empresa)}" class="bg-stone-900 border border-stone-800 rounded-xl p-5 sm:p-6 scroll-mt-32">
-            <div class="flex flex-wrap items-center gap-2 mb-3 text-xs">
-                <span class="bg-sky-400/10 text-sky-300 border border-sky-400/20 px-2 py-0.5 rounded-full font-semibold">${esc(n.empresa)} · ${esc(emp.nombre)}</span>
-                <span class="bg-stone-800 text-stone-300 px-2 py-0.5 rounded-full">${esc(n.tipo || '')}</span>
-                ${fn ? `<span class="text-stone-500">Noticia del ${fn}</span>` : ''}
-                <a href="${esc(safeUrl(n.url))}" target="_blank" rel="noopener noreferrer" class="tap-amplio text-stone-400 hover:text-amber-400 underline underline-offset-2">Fuente: ${esc(n.fuente)}</a>
-            </div>
-            <h3 class="serif text-xl sm:text-2xl font-bold text-white mb-3">${esc(n.titulo)}</h3>
-            <p class="text-stone-200 mb-5 max-w-4xl" data-glosable>${esc(n.resumen)}</p>
-            ${n.contexto ? `<div class="mb-5" data-glosable>
-                <p class="text-stone-500 text-xs font-bold uppercase tracking-wider mb-1">Contexto</p>
-                <p class="text-stone-300 text-sm leading-relaxed max-w-4xl">${esc(n.contexto)}</p>
-            </div>` : ''}
-            ${n.que_significa ? `<div class="bg-sky-400/5 border border-sky-400/25 rounded-lg p-5 mb-5" data-glosable>
-                <p class="text-sky-300 text-xs font-bold uppercase tracking-wider mb-2">Qué significa, en palabras simples</p>
-                <p class="text-stone-200 text-sm leading-relaxed max-w-4xl">${esc(n.que_significa)}</p>
-            </div>` : ''}
-            ${n.mirar ? `<p class="text-sm text-stone-300 border-t border-stone-800 pt-4"><span class="text-amber-400 font-semibold">Qué mirar después:</span> ${esc(n.mirar)}</p>` : ''}
-            ${Array.isArray(n.terminos) && n.terminos.length ? `<p class="text-xs text-stone-500 mt-4">Términos en esta nota: ${n.terminos.map(t => `<button type="button" data-termino="${esc(t)}" class="text-stone-300 underline decoration-dotted underline-offset-2 hover:text-amber-400">${esc(t)}</button>`).join(' · ')}</p>` : ''}
-            <div class="mt-5 pt-4 border-t border-stone-800 flex justify-end">${compartir(n, 'biotecnologia.html')}</div>
-        </article>`;
-    }
+    // ===== Biotecnología (data/biotech.json): panorama y fichas, sin noticias; se actualiza el 1 de cada mes =====
     function medicamentoPrincipal(m) {
         if (!m || !m.nombre) return '';
         const chip = (t, cls) => t ? `<span class="${cls} text-xs font-semibold px-2.5 py-1 rounded-md border">${esc(t)}</span>` : '';
@@ -525,60 +499,20 @@
         return tabla + lista;
     }
     window.renderBiotech = function () {
-        const hoy = document.getElementById('bio-notas');
+        const cont = document.getElementById('bio-empresas');
         initPopover();
         fetch('data/biotech.json', { cache: 'no-store' }).then(r => r.json()).then(d => {
-            const cias = d.companias || [];
-            const empresas = Object.fromEntries(cias.map(c => [c.ticker, c]));
             if (d.panorama && (d.panorama.companias || []).length) {
                 document.getElementById('bio-panorama').innerHTML = panoramaBiotech(d.panorama);
                 if (d.panorama.actualizado) document.getElementById('bio-panorama-fecha').textContent = 'Datos al ' + d.panorama.actualizado;
                 document.getElementById('bio-panorama-wrap').classList.remove('hidden');
             }
-            document.getElementById('bio-empresas').innerHTML = cias.map(fichaBiotech).join('');
-            if (d.actualizado) document.getElementById('bio-actualizado').innerHTML = sello(d.actualizado);
-            const notas = Array.isArray(d.notas) ? d.notas : [];
-            if (!notas.length) { hoy.innerHTML = vacio('Aún no hay noticias de las compañías cubiertas.'); return; }
-            const porFecha = {}; notas.forEach(n => (porFecha[n.fecha] ||= []).push(n));
-            const fechas = Object.keys(porFecha).sort().reverse();
-            document.getElementById('bio-titulo').textContent = 'Edición del ' + fmtFecha(fechas[0]);
-            hoy.innerHTML = porFecha[fechas[0]].map(n => notaBiotech(n, empresas)).join('') + `<div id="bio-vacio" class="hidden">${vacio('No hay noticias de esa compañía en esta edición.')}</div>`;
-            porFecha[fechas[0]].forEach(n => marcarTerminos(document.getElementById(n.id), n));
-            // Filtro por compañía
-            const box = document.getElementById('bio-filtro');
-            const chip = (v, txt, on) => `<button type="button" data-v="${v}" aria-pressed="${on}" class="px-3 py-1.5 rounded-full text-xs font-semibold border transition aria-pressed:bg-amber-400 aria-pressed:text-stone-950 aria-pressed:border-amber-400 border-stone-700 text-stone-300 hover:border-amber-400">${txt}</button>`;
-            box.innerHTML = chip('', 'Todas', true) + cias.map(c => chip(c.ticker, c.ticker, false)).join('');
-            const filtrar = b => {
-                box.querySelectorAll('[data-v]').forEach(x => x.setAttribute('aria-pressed', x === b));
-                const v = b.dataset.v, pasa = a => !v || a.dataset.empresa === v;
-                let vis = 0;
-                hoy.querySelectorAll('[data-nota]').forEach(a => { const ok = pasa(a); a.classList.toggle('hidden', !ok); if (ok) vis++; });
-                document.getElementById('bio-vacio').classList.toggle('hidden', vis > 0);
-                // Ediciones anteriores: mismo filtro; se ocultan las ediciones sin noticias de esa compañía
-                const arch = document.getElementById('bio-archivo');
-                let edVis = 0;
-                arch.querySelectorAll('details[data-ed]').forEach(dd => {
-                    let n = 0;
-                    dd.querySelectorAll('[data-nota]').forEach(a => { const ok = pasa(a); a.classList.toggle('hidden', !ok); if (ok) n++; });
-                    dd.classList.toggle('hidden', n === 0);
-                    dd.querySelector('[data-cuenta]').textContent = `${n} ${n === 1 ? 'noticia' : 'noticias'}`;
-                    if (n) edVis++;
-                });
-                const av = document.getElementById('bio-archivo-vacio');
-                if (av) av.classList.toggle('hidden', edVis > 0);
-            };
-            box.addEventListener('click', e => { const b = e.target.closest('[data-v]'); if (b) filtrar(b); });
-            const resto = fechas.slice(1);
-            if (resto.length) {
-                document.getElementById('bio-archivo-wrap').classList.remove('hidden');
-                document.getElementById('bio-archivo').innerHTML = resto.map(f => `
-                    <details data-ed="${f}"><summary class="cursor-pointer text-stone-300 font-semibold hover:text-amber-400">${fmtFecha(f)} · <span data-cuenta>${porFecha[f].length} ${porFecha[f].length === 1 ? 'noticia' : 'noticias'}</span></summary>
-                    <div class="space-y-6 mt-4">${porFecha[f].map(n => notaBiotech(n, empresas)).join('')}</div></details>`).join('')
-                    + `<div id="bio-archivo-vacio" class="hidden">${vacio('No hay noticias de esa compañía en ediciones anteriores.')}</div>`;
-                resto.forEach(f => porFecha[f].forEach(n => marcarTerminos(document.getElementById(n.id), n)));
-            }
-            if (location.hash) setTimeout(() => { const el = document.getElementById(decodeURIComponent(location.hash.slice(1))); if (el) { const dd = el.closest('details'); if (dd) dd.open = true; el.scrollIntoView({ behavior: 'smooth' }); } }, 50);
-        }).catch(() => { hoy.innerHTML = vacio('No pudimos cargar la cobertura en este momento.'); });
+            const cias = d.companias || [];
+            cont.innerHTML = cias.length ? cias.map(fichaBiotech).join('') : vacio('Aún no hay fichas de compañías.');
+            cont.removeAttribute('aria-busy');
+            const f = document.getElementById('bio-empresas-fecha');
+            if (f && d.actualizado) f.textContent = 'Datos al ' + d.actualizado;
+        }).catch(() => { cont.innerHTML = vacio('No pudimos cargar esta sección en este momento.'); });
     };
 
 
@@ -622,39 +556,19 @@
     };
 
 
-    // Portada: novedades de Cobertura LatAm y Biotecnología, solo si hay notas publicadas hoy (hora Bogotá)
+    // Portada: lo último de Cobertura LatAm (noticias de hoy por fecha de la noticia; si no hay, la más reciente)
     window.renderNovedades = function () {
         const sec = document.getElementById('novedades'), cont = document.getElementById('novedades-notas');
         if (!sec || !cont) return;
         const hoy = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Bogota', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
-        const leer = f => fetch(f, { cache: 'no-store' }).then(r => r.ok ? r.json() : { notas: [] }).catch(() => ({ notas: [] }));
-        Promise.all([leer('data/cobertura.json'), leer('data/biotech.json')]).then(([cob, bio]) => {
-            // "Lo último" por FECHA DE LA NOTICIA (fecha_noticia), no por la fecha de publicación del bot:
-            // en cada sección, todas las noticias de hoy; si no hay de hoy, la más reciente.
+        fetch('data/cobertura.json', { cache: 'no-store' }).then(r => r.ok ? r.json() : { notas: [] }).catch(() => ({ notas: [] })).then(cob => {
             const fn = n => n.fecha_noticia || n.fecha || '';
-            const ultimas = notas => {
-                const l = (notas || []).slice().sort((a, b) => fn(b).localeCompare(fn(a)) || String(b.fecha || '').localeCompare(String(a.fecha || '')));
-                const deHoy = l.filter(n => fn(n) === hoy);
-                return deHoy.length ? deHoy : l.slice(0, 1);
-            };
-            const nCob = ultimas(cob.notas), nBio = ultimas(bio.notas);
-            if (!nCob.length && !nBio.length) { cont.innerHTML = vacio('Aún no hay noticias de las compañías cubiertas.'); return; }
-            const bioCard = n => `
-                <article class="bg-stone-900 border border-stone-800 rounded-xl p-6 flex flex-col">
-                    <div class="flex flex-wrap items-center gap-2 mb-3 text-xs">
-                        <span class="bg-sky-400/10 text-sky-300 border border-sky-400/20 px-2 py-0.5 rounded-full font-semibold">${esc(n.empresa)}</span>
-                        <span class="bg-stone-800 text-stone-300 px-2 py-0.5 rounded-full">Biotecnología</span>
-                        ${n.fecha_noticia ? `<span class="text-stone-500">Noticia del ${fmtFecha(n.fecha_noticia)}</span>` : ''}
-                        <a href="${esc(safeUrl(n.url))}" target="_blank" rel="noopener noreferrer" class="text-stone-400 hover:text-amber-400 underline underline-offset-2">Fuente: ${esc(n.fuente)}</a>
-                    </div>
-                    <h4 class="serif text-lg font-bold text-white mb-2">${esc(n.titulo)}</h4>
-                    <p class="text-stone-400 text-sm mb-4 flex-1">${esc(n.resumen)}</p>
-                    <div class="flex items-center justify-between gap-3">
-                        <a href="biotecnologia.html#${esc(n.id)}" class="text-amber-400 text-sm font-semibold hover:text-amber-300">Leer la noticia →</a>
-                        ${compartir(n, 'biotecnologia.html')}
-                    </div>
-                </article>`;
-            cont.innerHTML = nCob.map(n => tarjetaCorta(n, 'cobertura.html')).join('') + nBio.map(bioCard).join('');
+            const l = (cob.notas || []).slice().sort((a, b) => fn(b).localeCompare(fn(a)) || String(b.fecha || '').localeCompare(String(a.fecha || '')));
+            const deHoy = l.filter(n => fn(n) === hoy);
+            const nCob = deHoy.length ? deHoy : l.slice(0, 1);
+            cont.removeAttribute('aria-busy');
+            if (!nCob.length) { cont.innerHTML = vacio('Aún no hay noticias de las compañías cubiertas.'); return; }
+            cont.innerHTML = nCob.map(n => tarjetaCorta(n, 'cobertura.html')).join('');
         });
     };
 
@@ -687,7 +601,7 @@
         marcarNuevos();
     };
 
-    // Etiqueta "Nuevo" en el menú: Cobertura LatAm y Biotecnología con noticias de hoy
+    // Etiqueta "Nuevo" en el menú: Cobertura LatAm con noticias de hoy (Biotecnología ya no publica noticias)
     // (según la fecha de la noticia, fecha_noticia, en hora Bogotá)
     function marcarNuevos() {
         const header = document.querySelector('header');
@@ -698,8 +612,8 @@
         const leer = f => fetch(f, { cache: 'no-store' }).then(r => r.ok ? r.json() : {}).catch(() => ({}));
         const etiqueta = '<span data-nuevo class="ml-2 inline-flex items-center rounded-full bg-amber-400 text-stone-950 text-[10px] font-bold uppercase tracking-wide px-1.5 py-0.5 align-middle">Nuevo</span>';
         const punto = (clase) => `<span data-nuevo class="${clase} w-2 h-2 rounded-full bg-amber-400" aria-hidden="true"></span>`;
-        Promise.all([leer('data/cobertura.json'), leer('data/biotech.json')]).then(([cob, bio]) => {
-            const paginas = [['cobertura.html', reciente(cob.notas)], ['biotecnologia.html', reciente(bio.notas)]].filter(x => x[1]).map(x => x[0]);
+        leer('data/cobertura.json').then(cob => {
+            const paginas = reciente(cob.notas) ? ['cobertura.html'] : [];
             if (!paginas.length) return;
             paginas.forEach(p => header.querySelectorAll(`a[href="${p}"]`).forEach(a => { if (!a.querySelector('[data-nuevo]')) a.insertAdjacentHTML('beforeend', etiqueta); }));
             // Punto en "Empresas" (computador) y en el botón del menú (celular), para verlo sin abrir el menú

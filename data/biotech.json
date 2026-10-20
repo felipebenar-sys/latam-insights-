@@ -1,168 +1,7 @@
 {
-  "actualizado": "19 oct 2026, 7:27 a. m. (hora Bogotá)",
-  "companias": [
-    {
-      "ticker": "CELC",
-      "nombre": "Celcuity",
-      "bolsa": "Nasdaq",
-      "medicamento_principal": {
-        "nombre": "Gedatolisib",
-        "fase": "Aprobado (FDA)",
-        "enfermedad": "Cáncer de mama"
-      },
-      "que_hace": "Desarrolla gedatolisib (marca REVTORPYK), un medicamento contra el cáncer de mama que bloquea varias piezas de la vía PI3K/AKT/mTOR, un circuito que las células tumorales usan para crecer.",
-      "estado": "Se vende en EE. UU. para un grupo de pacientes con cáncer de mama HR+/HER2- avanzado sin mutación PIK3CA.",
-      "hitos": [
-        {
-          "texto": "Resúmenes de ESMO 2026 publicados en línea",
-          "fecha": "19 oct 2026"
-        },
-        {
-          "texto": "Datos actualizados del estudio de fase 3 VIKTORIA-1 en ESMO (Madrid)",
-          "fecha": "24 oct 2026"
-        }
-      ],
-      "fuente_url": "https://www.globenewswire.com/news-release/2026/10/05/3374475/0/en/celcuity-announces-multiple-presentations-at-the-european-society-for-medical-oncology-esmo-congress-2026.html"
-    },
-    {
-      "ticker": "FTH",
-      "nombre": "Faeth Therapeutics",
-      "bolsa": "Nasdaq",
-      "medicamento_principal": {
-        "nombre": "PIKTOR",
-        "fase": "Fase 2",
-        "enfermedad": "Cáncer de endometrio"
-      },
-      "que_hace": "Desarrolla PIKTOR, una combinación de dos pastillas (serabelisib y sapanisertib) que bloquea en dos puntos distintos la vía PI3K/AKT/mTOR, para cáncer de endometrio y de mama. Antes se llamaba Sensei Biotherapeutics.",
-      "estado": "Aún no está aprobado. En agosto de 2026 la FDA le otorgó la designación Fast Track en cáncer de endometrio avanzado.",
-      "hitos": [
-        {
-          "texto": "Póster con datos preclínicos de PIKTOR en cáncer de mama en ESMO 2026 (Madrid)",
-          "fecha": "23 oct 2026"
-        },
-        {
-          "texto": "Primeros resultados (topline) del estudio de fase 2 en cáncer de endometrio",
-          "fecha": "antes de fin de 2026"
-        },
-        {
-          "texto": "Datos intermedios del estudio en cáncer de mama",
-          "fecha": "2027"
-        }
-      ],
-      "fuente_url": "https://www.financialcontent.com/article/bizwire-2026-10-19-faeth-to-present-preclinical-data-on-piktor-in-hrher2-breast-cancer-models-at-esmo-2026"
-    },
-    {
-      "ticker": "RLAY",
-      "nombre": "Relay Therapeutics",
-      "bolsa": "Nasdaq",
-      "medicamento_principal": {
-        "nombre": "Zovegalisib",
-        "fase": "Fase 3",
-        "enfermedad": "Cáncer de mama"
-      },
-      "que_hace": "Desarrolla zovegalisib (RLY-2608), una pastilla diseñada para bloquear solo la versión mutada de la proteína PI3Kα, presente en muchos cánceres de mama; también la estudia en malformaciones vasculares.",
-      "estado": "Aún no está aprobado. Tiene designación de terapia innovadora de la FDA; su estudio de fase 3 en curso se llama ReDiscover-2.",
-      "hitos": [
-        {
-          "texto": "Actualización del reclutamiento del estudio de fase 3 ReDiscover-2",
-          "fecha": "antes de fin de 2026"
-        },
-        {
-          "texto": "Datos y actualización regulatoria en malformaciones vasculares",
-          "fecha": "antes de fin de 2026"
-        },
-        {
-          "texto": "Inicio previsto de un nuevo estudio de fase 3 en primera línea",
-          "fecha": "inicios de 2027"
-        }
-      ],
-      "fuente_url": "https://www.financialcontent.com/article/gnwcq-2026-8-6-relay-therapeutics-reports-second-quarter-2026-financial-results-and-corporate-updates"
-    }
-  ],
-  "notas": [
-    {
-      "id": "2026-10-19-b01",
-      "fecha": "2026-10-19",
-      "fecha_noticia": "2026-10-19",
-      "empresa": "FTH",
-      "tipo": "Congreso médico",
-      "titulo": "Faeth mostrará en ESMO pruebas de laboratorio de PIKTOR en cáncer de mama",
-      "resumen": "Faeth Therapeutics presentará el 23 de octubre en el congreso ESMO 2026, en Madrid, un póster con resultados de laboratorio y en ratones de PIKTOR en modelos de cáncer de mama HR+/HER2-. El póster incluye comparaciones directas con gedatolisib, el medicamento de Celcuity.",
-      "contexto": "PIKTOR es una combinación de dos pastillas: serabelisib, que bloquea la proteína PI3K-alfa, y sapanisertib, que bloquea mTORC1 y mTORC2. En estas pruebas se usó solo y junto con otros medicamentos contra el cáncer de mama, como fulvestrant, SERD orales e inhibidores de CDK. Según la compañía, PIKTOR frenó puntos clave de la vía PI3K/AKT/mTOR, entre ellos AKT, igual o más que los medicamentos que bloquean un solo punto. La comparación con gedatolisib se hizo en dos modelos de tumor en ratones.",
-      "que_significa": "Un estudio preclínico se hace en células y animales, antes o en paralelo a las pruebas en personas. Sirve para entender cómo actúa un medicamento y para diseñar mejor los estudios con pacientes; Faeth dice que estos datos alimentan su estudio FTH-PIK-101 en cáncer de mama. La propia compañía advierte que estos resultados pueden no repetirse en pacientes. Gedatolisib, el medicamento con el que se compara, también actúa sobre esta misma vía.",
-      "mirar": "La sesión de pósters del 23 de octubre en ESMO y los primeros resultados del estudio en cáncer de endometrio, esperados antes de fin de 2026.",
-      "terminos": [
-        "Estudio preclínico",
-        "Congreso ESMO",
-        "Vía PI3K/AKT/mTOR",
-        "Cáncer de mama HR+/HER2-"
-      ],
-      "fuente": "Business Wire vía FinancialContent (comunicado de Faeth Therapeutics)",
-      "url": "https://www.financialcontent.com/article/bizwire-2026-10-19-faeth-to-present-preclinical-data-on-piktor-in-hrher2-breast-cancer-models-at-esmo-2026"
-    },
-    {
-      "id": "2026-10-14-b01",
-      "fecha": "2026-10-14",
-      "fecha_noticia": "2026-10-05",
-      "empresa": "CELC",
-      "tipo": "Congreso médico",
-      "titulo": "Celcuity presentará nuevos datos de gedatolisib en el congreso ESMO 2026",
-      "resumen": "Celcuity anunció que mostrará cuatro trabajos sobre gedatolisib en el congreso europeo de oncología ESMO, en Madrid, entre el 23 y el 27 de octubre. El principal es una presentación oral con resultados actualizados de su estudio de fase 3 VIKTORIA-1 en cáncer de mama.",
-      "contexto": "La presentación de VIKTORIA-1 está programada para el 24 de octubre y los resúmenes se publicarán en línea el 19 de octubre. Los otros tres trabajos son pósteres: un estudio en cáncer de próstata, una comparación de gedatolisib con otros tratamientos y el diseño de un nuevo estudio de fase 3 (VIKTORIA-2). El comunicado no incluye cifras de eficacia ni de seguridad. Gedatolisib ya está aprobado por la FDA y se vende en EE. UU. para un grupo de pacientes con cáncer de mama.",
-      "que_significa": "Los congresos médicos son el lugar donde las farmacéuticas muestran a médicos e inversionistas cómo les fue a sus medicamentos en los estudios. Una presentación oral de última hora (late-breaking) es un espacio que el congreso reserva para resultados nuevos. Por eso, el 24 de octubre se conocerán más detalles de cómo funciona gedatolisib en los pacientes del estudio. Como el medicamento ya se vende, esos datos ayudan a médicos y pacientes a decidir si lo usan.",
-      "mirar": "La publicación de los resúmenes el 19 de octubre y la presentación de VIKTORIA-1 el 24 de octubre.",
-      "terminos": [
-        "FDA",
-        "Fases de un ensayo clínico",
-        "Congreso ESMO",
-        "Cáncer de mama HR+/HER2-"
-      ],
-      "fuente": "GlobeNewswire (comunicado de Celcuity)",
-      "url": "https://www.globenewswire.com/news-release/2026/10/05/3374475/0/en/celcuity-announces-multiple-presentations-at-the-european-society-for-medical-oncology-esmo-congress-2026.html"
-    },
-    {
-      "id": "2026-10-14-b02",
-      "fecha": "2026-10-14",
-      "fecha_noticia": "2026-09-08",
-      "empresa": "FTH",
-      "tipo": "Ensayo clínico",
-      "titulo": "Faeth espera los primeros resultados de su estudio en cáncer de endometrio antes de fin de año",
-      "resumen": "Faeth Therapeutics realizó el 6 de octubre un evento virtual con expertos sobre PIKTOR, su combinación de dos pastillas para el cáncer de endometrio. La compañía espera publicar los primeros resultados de su estudio de fase 2 en esta enfermedad antes de que termine 2026.",
-      "contexto": "PIKTOR combina serabelisib, que bloquea la proteína PI3K-alfa, y sapanisertib, que bloquea mTORC1 y mTORC2: dos puntos distintos de la misma vía PI3K/AKT/mTOR. El estudio de fase 2 (FTH-PIK-201) es en pacientes con cáncer de endometrio avanzado que ya recibieron un primer tratamiento. La compañía también tiene un estudio en cáncer de mama que inició en abril, con datos intermedios esperados en 2027.",
-      "que_significa": "PIKTOR todavía no es un medicamento aprobado: está en pruebas con pacientes. Los resultados \"topline\" son el primer resumen de si el tratamiento funcionó en el estudio. Para una compañía pequeña que depende de un solo producto, ese dato suele ser el evento más importante del año, porque de él depende si el medicamento sigue avanzando hacia la aprobación.",
-      "mirar": "El anuncio de los resultados topline del estudio FTH-PIK-201, esperado antes de fin de 2026.",
-      "terminos": [
-        "Vía PI3K/AKT/mTOR",
-        "Fases de un ensayo clínico",
-        "Datos topline",
-        "Designación Fast Track"
-      ],
-      "fuente": "Nasdaq (comunicado de Faeth Therapeutics)",
-      "url": "https://www.nasdaq.com/press-release/faeth-therapeutics-host-virtual-kol-event-multi-nodal-inhibition-treatment"
-    },
-    {
-      "id": "2026-10-14-b03",
-      "fecha": "2026-10-14",
-      "fecha_noticia": "2026-08-06",
-      "empresa": "RLAY",
-      "tipo": "Resultados financieros",
-      "titulo": "Relay cerró junio con US$910,9 millones en caja y dice tener recursos hasta 2029",
-      "resumen": "Relay Therapeutics reportó que al 30 de junio tenía US$910,9 millones en caja e inversiones, frente a US$642,1 millones en marzo, gracias a una venta de acciones en mayo. La compañía dice que ese dinero le alcanza para operar hasta 2029.",
-      "contexto": "En el segundo trimestre perdió US$83,7 millones, más que los US$70,4 millones de un año antes, porque gastó más en los estudios de zovegalisib. Su estudio de fase 3 ReDiscover-2 en cáncer de mama sigue en curso. En malformaciones vasculares, 60% de los pacientes de la primera parte del estudio tuvo una reducción medible de la lesión a las 12 semanas. Antes de fin de año espera dar actualizaciones de ambos estudios.",
-      "que_significa": "Las biotecnológicas que aún no venden medicamentos gastan más de lo que ganan, así que viven del dinero que tienen guardado. La \"pista de caja\" dice cuánto tiempo pueden seguir operando sin conseguir más. Que Relay diga que tiene hasta 2029 significa que no necesitaría vender más acciones pronto; cuando una empresa vende acciones nuevas, la participación de los accionistas actuales se reduce.",
-      "mirar": "La actualización del reclutamiento de ReDiscover-2 y los datos en malformaciones vasculares, ambos esperados antes de fin de 2026.",
-      "terminos": [
-        "Pista de caja",
-        "Oferta pública de acciones",
-        "Fases de un ensayo clínico",
-        "Mutación PIK3CA"
-      ],
-      "fuente": "FinancialContent (comunicado de Relay Therapeutics)",
-      "url": "https://www.financialcontent.com/article/gnwcq-2026-8-6-relay-therapeutics-reports-second-quarter-2026-financial-results-and-corporate-updates"
-    }
-  ],
+  "actualizado": "20 oct 2026",
   "panorama": {
-    "actualizado": "19 oct 2026",
+    "actualizado": "20 oct 2026",
     "companias": [
       {
         "nombre": "Ascentage Pharma",
@@ -173,6 +12,16 @@
         "hito": "Sigue reclutando pacientes en tres estudios de fase 3",
         "hito_fecha": "Sin fecha confirmada",
         "fuente_url": "https://ascentage.com/?p=9665"
+      },
+      {
+        "nombre": "Celcuity",
+        "ticker": "CELC",
+        "medicamento": "Gedatolisib (REVTORPYK)",
+        "fase": "Aprobado (FDA)",
+        "enfermedad": "Cáncer de mama HR+/HER2- avanzado",
+        "hito": "Datos actualizados del estudio de fase 3 VIKTORIA-1 en ESMO",
+        "hito_fecha": "24 oct 2026",
+        "fuente_url": "https://www.globenewswire.com/news-release/2026/10/05/3374475/0/en/celcuity-announces-multiple-presentations-at-the-european-society-for-medical-oncology-esmo-congress-2026.html"
       },
       {
         "nombre": "Cytokinetics",
@@ -255,6 +104,16 @@
         "fuente_url": "https://www.sec.gov/Archives/edgar/data/0001724521/000172452126000042/a2026q28kexhibit991.htm"
       },
       {
+        "nombre": "Relay Therapeutics",
+        "ticker": "RLAY",
+        "medicamento": "Zovegalisib",
+        "fase": "Fase 3",
+        "enfermedad": "Cáncer de mama",
+        "hito": "Actualización del reclutamiento del estudio de fase 3 ReDiscover-2",
+        "hito_fecha": "Antes de fin de 2026",
+        "fuente_url": "https://www.financialcontent.com/article/gnwcq-2026-8-6-relay-therapeutics-reports-second-quarter-2026-financial-results-and-corporate-updates"
+      },
+      {
         "nombre": "Revolution Medicines",
         "ticker": "RVMD",
         "medicamento": "Daraxonrasib (RASONQUE)",
@@ -295,5 +154,368 @@
         "fuente_url": "https://www.sec.gov/Archives/edgar/data/0001631574/000119312526324917/d177737dex991.htm"
       }
     ]
-  }
+  },
+  "companias": [
+    {
+      "ticker": "AAPG",
+      "nombre": "Ascentage Pharma",
+      "bolsa": "Nasdaq",
+      "medicamento_principal": {
+        "nombre": "Olverembatinib",
+        "fase": "Aprobado (China)",
+        "enfermedad": "Leucemia mieloide crónica"
+      },
+      "que_hace": "Desarrolla y vende medicamentos contra el cáncer, sobre todo de la sangre. Olverembatinib bloquea la proteína BCR-ABL1, que es la que hace crecer las células de la leucemia mieloide crónica, incluso cuando el tumor ya no responde a otros tratamientos.",
+      "estado": "Se vende en China para pacientes con la mutación T315I o que no respondieron a tratamientos anteriores. En China también tiene aprobado lisaftoclax, para otro tipo de leucemia.",
+      "hitos": [
+        {
+          "texto": "Inclusión de lisaftoclax en la lista de medicamentos que cubre el sistema de salud de China",
+          "fecha": "antes de fin de 2026"
+        },
+        {
+          "texto": "Sigue reclutando pacientes en tres estudios de fase 3 de olverembatinib (POLARIS-1, 2 y 3)",
+          "fecha": "sin fecha confirmada"
+        }
+      ],
+      "fuente_url": "https://ascentage.com/?p=9665"
+    },
+    {
+      "ticker": "CELC",
+      "nombre": "Celcuity",
+      "bolsa": "Nasdaq",
+      "medicamento_principal": {
+        "nombre": "Gedatolisib",
+        "fase": "Aprobado (FDA)",
+        "enfermedad": "Cáncer de mama"
+      },
+      "que_hace": "Desarrolla gedatolisib (marca REVTORPYK), un medicamento contra el cáncer de mama que bloquea varias piezas de la vía PI3K/AKT/mTOR, un circuito que las células tumorales usan para crecer.",
+      "estado": "Se vende en EE. UU. para un grupo de pacientes con cáncer de mama HR+/HER2- avanzado sin mutación PIK3CA.",
+      "hitos": [
+        {
+          "texto": "Datos actualizados del estudio de fase 3 VIKTORIA-1 en ESMO (Madrid)",
+          "fecha": "24 oct 2026"
+        }
+      ],
+      "fuente_url": "https://www.globenewswire.com/news-release/2026/10/05/3374475/0/en/celcuity-announces-multiple-presentations-at-the-european-society-for-medical-oncology-esmo-congress-2026.html"
+    },
+    {
+      "ticker": "CYTK",
+      "nombre": "Cytokinetics",
+      "bolsa": "Nasdaq",
+      "medicamento_principal": {
+        "nombre": "Aficamten (MYQORZO)",
+        "fase": "Aprobado (FDA)",
+        "enfermedad": "Miocardiopatía hipertrófica obstructiva"
+      },
+      "que_hace": "Desarrolla medicamentos que ajustan la fuerza con la que se contrae el músculo. Aficamten (marca MYQORZO) frena un músculo del corazón que se contrae de más y se engrosa, lo que dificulta que la sangre salga hacia el cuerpo.",
+      "estado": "Se vende en EE. UU. desde diciembre de 2025 para adultos con síntomas. En la forma no obstructiva de la enfermedad, su estudio ACACIA-HCM dio resultados positivos.",
+      "hitos": [
+        {
+          "texto": "Solicitud a la FDA para la forma no obstructiva de la enfermedad",
+          "fecha": "último trimestre de 2026"
+        }
+      ],
+      "fuente_url": "https://briefglance.com/companies/cytokinetics-incorporated/pulses/84268"
+    },
+    {
+      "ticker": "EWTX",
+      "nombre": "Edgewise Therapeutics",
+      "bolsa": "Nasdaq",
+      "medicamento_principal": {
+        "nombre": "EDG-7500",
+        "fase": "Fase 2",
+        "enfermedad": "Miocardiopatía hipertrófica"
+      },
+      "que_hace": "Desarrolla medicamentos para enfermedades del corazón. EDG-7500 actúa sobre la maquinaria que hace contraer el músculo cardíaco, para tratar la miocardiopatía hipertrófica, en la que las paredes del corazón se vuelven demasiado gruesas.",
+      "estado": "Su estudio de fase 2 CIRRUS-HCM dio resultados positivos en junio de 2026. En julio de 2026 vendió su negocio de distrofias musculares a Servier y recibió US$1.550 millones en efectivo.",
+      "hitos": [
+        {
+          "texto": "Inicio del estudio de fase 3 de EDG-7500",
+          "fecha": "último trimestre de 2026"
+        },
+        {
+          "texto": "Inicio de un estudio de fase 2 de EDG-15400 en insuficiencia cardíaca",
+          "fecha": "antes de fin de 2026"
+        }
+      ],
+      "fuente_url": "https://www.biospace.com/press-releases/edgewise-therapeutics-reports-second-quarter-2026-financial-results"
+    },
+    {
+      "ticker": "FTH",
+      "nombre": "Faeth Therapeutics",
+      "bolsa": "Nasdaq",
+      "medicamento_principal": {
+        "nombre": "PIKTOR",
+        "fase": "Fase 2",
+        "enfermedad": "Cáncer de endometrio"
+      },
+      "que_hace": "Desarrolla PIKTOR, una combinación de dos pastillas (serabelisib y sapanisertib) que bloquea en dos puntos distintos la vía PI3K/AKT/mTOR, para cáncer de endometrio y de mama. Antes se llamaba Sensei Biotherapeutics.",
+      "estado": "Aún no está aprobado. En agosto de 2026 la FDA le otorgó la designación Fast Track en cáncer de endometrio avanzado.",
+      "hitos": [
+        {
+          "texto": "Póster con datos preclínicos de PIKTOR en cáncer de mama en ESMO 2026 (Madrid)",
+          "fecha": "23 oct 2026"
+        },
+        {
+          "texto": "Primeros resultados (topline) del estudio de fase 2 en cáncer de endometrio",
+          "fecha": "antes de fin de 2026"
+        },
+        {
+          "texto": "Datos intermedios del estudio en cáncer de mama",
+          "fecha": "2027"
+        }
+      ],
+      "fuente_url": "https://www.financialcontent.com/article/bizwire-2026-10-19-faeth-to-present-preclinical-data-on-piktor-in-hrher2-breast-cancer-models-at-esmo-2026"
+    },
+    {
+      "ticker": "IDYA",
+      "nombre": "IDEAYA Biosciences",
+      "bolsa": "Nasdaq",
+      "medicamento_principal": {
+        "nombre": "Darovasertib",
+        "fase": "Fase 2/3",
+        "enfermedad": "Melanoma uveal metastásico"
+      },
+      "que_hace": "Desarrolla medicamentos de precisión contra el cáncer. Darovasertib es una pastilla que bloquea la proteína PKC, que se activa por las mutaciones presentes en casi todos los melanomas del ojo (melanoma uveal).",
+      "estado": "Tiene designación Fast Track de la FDA en la enfermedad metastásica y de terapia innovadora como tratamiento antes de la cirugía. Servier tiene los derechos fuera de EE. UU.",
+      "hitos": [
+        {
+          "texto": "Tres pósteres con datos de estudios en ESMO (Madrid)",
+          "fecha": "24 oct 2026"
+        },
+        {
+          "texto": "Termina de enviar a la FDA la solicitud de aprobación junto con crizotinib, como primer tratamiento",
+          "fecha": "antes de fin de 2026"
+        }
+      ],
+      "fuente_url": "https://www.stocktitan.net/news/IDYA/ideaya-biosciences-and-servier-announce-data-from-three-clinical-njac7n805z9y.html"
+    },
+    {
+      "ticker": "IMNM",
+      "nombre": "Immunome",
+      "bolsa": "Nasdaq",
+      "medicamento_principal": {
+        "nombre": "Varegacestat",
+        "fase": "En revisión FDA",
+        "enfermedad": "Tumores desmoides"
+      },
+      "que_hace": "Desarrolla tratamientos contra el cáncer. Varegacestat es una pastilla para los tumores desmoides, que no se extienden a otros órganos pero crecen e invaden los tejidos cercanos.",
+      "estado": "La FDA aceptó revisar la solicitud en julio de 2026. En el estudio de fase 3 RINGSIDE redujo 84% el riesgo de que la enfermedad avanzara, frente a placebo.",
+      "hitos": [
+        {
+          "texto": "Solicitud de aprobación en Europa (EMA)",
+          "fecha": "antes de fin de 2026"
+        },
+        {
+          "texto": "Primeros datos de IM-1021 en linfoma",
+          "fecha": "antes de fin de 2026"
+        },
+        {
+          "texto": "Fecha límite de la FDA para decidir sobre varegacestat",
+          "fecha": "28 abr 2027"
+        }
+      ],
+      "fuente_url": "https://www.sec.gov/Archives/edgar/data/0001472012/000119312526344577/imnm-ex99_1.htm"
+    },
+    {
+      "ticker": "KARD",
+      "nombre": "Kardigan",
+      "bolsa": "Nasdaq",
+      "medicamento_principal": {
+        "nombre": "Danicamtiv",
+        "fase": "Fase 2b/3",
+        "enfermedad": "Miocardiopatía dilatada genética"
+      },
+      "que_hace": "Desarrolla medicamentos para enfermedades del corazón que no tienen tratamiento aprobado. Danicamtiv busca que el músculo de un corazón agrandado y débil por causas genéticas vuelva a contraerse con más fuerza.",
+      "estado": "En julio de 2026 terminó de reclutar el primer grupo de pacientes de su estudio KINSHIP-DCM y ya recluta para la parte de fase 3. Salió a bolsa en junio de 2026.",
+      "hitos": [
+        {
+          "texto": "Primeros resultados (topline) de la fase 2b de KINSHIP-DCM",
+          "fecha": "primer semestre de 2027"
+        },
+        {
+          "texto": "Resultados de ataciguat en estenosis de la válvula aórtica",
+          "fecha": "primer semestre de 2027"
+        }
+      ],
+      "fuente_url": "https://www.nasdaq.com/press-release/kardigan-reports-second-quarter-2026-financial-results-and-recent-business-updates"
+    },
+    {
+      "ticker": "PVLA",
+      "nombre": "Palvella Therapeutics",
+      "bolsa": "Nasdaq",
+      "medicamento_principal": {
+        "nombre": "QTORIN rapamicina",
+        "fase": "En revisión FDA",
+        "enfermedad": "Malformaciones linfáticas microquísticas"
+      },
+      "que_hace": "Desarrolla geles para enfermedades raras de la piel y de los vasos. QTORIN rapamicina se aplica sobre la piel en las malformaciones linfáticas microquísticas, lesiones de nacimiento que hoy no tienen ningún tratamiento aprobado por la FDA.",
+      "estado": "Terminó de enviar la solicitud a la FDA el 31 de agosto de 2026. Tiene designación de terapia innovadora y Fast Track; en su estudio de fase 3 SELVA cumplió el objetivo principal.",
+      "hitos": [
+        {
+          "texto": "La FDA decide si acepta la solicitud y si le da revisión prioritaria",
+          "fecha": "hacia fin de oct 2026 (estimado)"
+        },
+        {
+          "texto": "Posible lanzamiento en EE. UU., si es aprobado",
+          "fecha": "primer semestre de 2027"
+        }
+      ],
+      "fuente_url": "https://ir.palvellatx.com/news-releases/news-release-details/palvella-therapeutics-completes-rolling-submission-new-drug"
+    },
+    {
+      "ticker": "RCUS",
+      "nombre": "Arcus Biosciences",
+      "bolsa": "NYSE",
+      "medicamento_principal": {
+        "nombre": "Casdatifan",
+        "fase": "Fase 3",
+        "enfermedad": "Cáncer de riñón de células claras"
+      },
+      "que_hace": "Desarrolla medicamentos contra el cáncer y enfermedades inflamatorias. Casdatifan es una pastilla que bloquea HIF-2α, una proteína que impulsa el crecimiento del tipo de cáncer de riñón más común.",
+      "estado": "Su estudio de fase 3 PEAK-1 compara casdatifan más cabozantinib contra cabozantinib solo, en pacientes que ya recibieron inmunoterapia.",
+      "hitos": [
+        {
+          "texto": "Nuevos datos del estudio ARC-20",
+          "fecha": "segundo semestre de 2026"
+        },
+        {
+          "texto": "Termina de reclutar PEAK-1 e inicia PEAK-20, como primer tratamiento",
+          "fecha": "antes de fin de 2026"
+        },
+        {
+          "texto": "Resultados de quemliclustat en cáncer de páncreas (PRISM-1)",
+          "fecha": "primer semestre de 2027"
+        }
+      ],
+      "fuente_url": "https://www.sec.gov/Archives/edgar/data/0001724521/000172452126000042/a2026q28kexhibit991.htm"
+    },
+    {
+      "ticker": "RLAY",
+      "nombre": "Relay Therapeutics",
+      "bolsa": "Nasdaq",
+      "medicamento_principal": {
+        "nombre": "Zovegalisib",
+        "fase": "Fase 3",
+        "enfermedad": "Cáncer de mama"
+      },
+      "que_hace": "Desarrolla zovegalisib (RLY-2608), una pastilla diseñada para bloquear solo la versión mutada de la proteína PI3Kα, presente en muchos cánceres de mama; también la estudia en malformaciones vasculares.",
+      "estado": "Aún no está aprobado. Tiene designación de terapia innovadora de la FDA; su estudio de fase 3 en curso se llama ReDiscover-2.",
+      "hitos": [
+        {
+          "texto": "Actualización del reclutamiento del estudio de fase 3 ReDiscover-2",
+          "fecha": "antes de fin de 2026"
+        },
+        {
+          "texto": "Datos y actualización regulatoria en malformaciones vasculares",
+          "fecha": "antes de fin de 2026"
+        },
+        {
+          "texto": "Inicio previsto de un nuevo estudio de fase 3 en primera línea",
+          "fecha": "inicios de 2027"
+        }
+      ],
+      "fuente_url": "https://www.financialcontent.com/article/gnwcq-2026-8-6-relay-therapeutics-reports-second-quarter-2026-financial-results-and-corporate-updates"
+    },
+    {
+      "ticker": "RVMD",
+      "nombre": "Revolution Medicines",
+      "bolsa": "Nasdaq",
+      "medicamento_principal": {
+        "nombre": "Daraxonrasib (RASONQUE)",
+        "fase": "Aprobado (FDA)",
+        "enfermedad": "Cáncer de páncreas metastásico"
+      },
+      "que_hace": "Desarrolla pastillas contra cánceres que dependen de la proteína RAS, una especie de interruptor de crecimiento que queda encendido en muchos tumores, como los de páncreas y pulmón.",
+      "estado": "Aprobado en agosto de 2026 para adultos ya tratados o que no pueden recibir quimioterapia combinada, tengan o no mutación de RAS. La agencia europea (EMA) empezó a revisarlo.",
+      "hitos": [
+        {
+          "texto": "Fin del reclutamiento del estudio de fase 3 en cáncer de pulmón (RASolve 301)",
+          "fecha": "2026"
+        },
+        {
+          "texto": "Decisión de la agencia europea (EMA)",
+          "fecha": "sin fecha confirmada"
+        }
+      ],
+      "fuente_url": "https://ir.revmed.com/news-releases/news-release-details/us-fda-approves-revolution-medicines-rasonquetm-daraxonrasib"
+    },
+    {
+      "ticker": "RYTM",
+      "nombre": "Rhythm Pharmaceuticals",
+      "bolsa": "Nasdaq",
+      "medicamento_principal": {
+        "nombre": "Setmelanotide (IMCIVREE)",
+        "fase": "Aprobado (FDA)",
+        "enfermedad": "Obesidad hipotalámica adquirida"
+      },
+      "que_hace": "Desarrolla medicamentos para enfermedades raras que causan hambre extrema y obesidad por fallas en la vía MC4R, el circuito del cerebro que regula el apetito. Setmelanotide (marca IMCIVREE) es una inyección que activa esa vía.",
+      "estado": "En EE. UU. está aprobado para esta enfermedad desde marzo de 2026, y antes para varias obesidades de origen genético. En Europa también está autorizado.",
+      "hitos": [
+        {
+          "texto": "Decisión del regulador de Japón para esta enfermedad",
+          "fecha": "antes de fin de 2026"
+        },
+        {
+          "texto": "Inicio del estudio de fase 3 de bivamelagon, otro medicamento de la misma vía",
+          "fecha": "antes de fin de 2026"
+        },
+        {
+          "texto": "Lanzamiento en países de Europa",
+          "fecha": "inicios de 2027"
+        }
+      ],
+      "fuente_url": "https://ir.rhythmtx.com/news-releases/news-release-details/rhythm-pharmaceuticals-reports-second-quarter-2026-financial"
+    },
+    {
+      "ticker": "TNGX",
+      "nombre": "Tango Therapeutics",
+      "bolsa": "Nasdaq",
+      "medicamento_principal": {
+        "nombre": "Vopimetostat",
+        "fase": "Fase 1/2",
+        "enfermedad": "Cáncer de páncreas"
+      },
+      "que_hace": "Desarrolla medicamentos de precisión contra el cáncer. Vopimetostat bloquea la proteína PRMT5 en las células tumorales que perdieron el gen MTAP, y busca dañar el tumor sin afectar las células sanas.",
+      "estado": "En un estudio temprano, combinado con daraxonrasib (de Revolution Medicines), el 92% de los pacientes con cáncer de páncreas respondió al tratamiento.",
+      "hitos": [
+        {
+          "texto": "Datos del estudio combinado en ESMO (Madrid)",
+          "fecha": "23–27 oct 2026"
+        },
+        {
+          "texto": "Diseño final del estudio de fase 3 en cáncer de páncreas",
+          "fecha": "segundo semestre de 2026"
+        },
+        {
+          "texto": "Datos de vopimetostat solo en cáncer de pulmón",
+          "fecha": "segundo semestre de 2026"
+        }
+      ],
+      "fuente_url": "https://www.sec.gov/Archives/edgar/data/0001819133/000119312526343434/tngx-ex99_1.htm"
+    },
+    {
+      "ticker": "WVE",
+      "nombre": "Wave Life Sciences",
+      "bolsa": "Nasdaq",
+      "medicamento_principal": {
+        "nombre": "WVE-007",
+        "fase": "Fase 1/2",
+        "enfermedad": "Obesidad"
+      },
+      "que_hace": "Desarrolla medicamentos de ARN, que apagan o corrigen genes específicos. WVE-007 apaga el gen INHBE con el objetivo de hacer perder grasa sin perder músculo.",
+      "estado": "En la primera parte del estudio INLIGHT, una sola dosis redujo la grasa total y la del abdomen, conservando el músculo. Ahora prueba dosis repetidas.",
+      "hitos": [
+        {
+          "texto": "Más datos del estudio INLIGHT, incluida la dosis de 600 mg",
+          "fecha": "segundo semestre de 2026"
+        },
+        {
+          "texto": "Inicio de estudios de fase 2 combinado con medicamentos como Ozempic (incretinas)",
+          "fecha": "segundo semestre de 2026"
+        }
+      ],
+      "fuente_url": "https://www.sec.gov/Archives/edgar/data/0001631574/000119312526324917/d177737dex991.htm"
+    }
+  ]
 }

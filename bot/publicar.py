@@ -10,8 +10,8 @@ Uso:
       id libre, indicadores actuales y nombres del glosario. Guarda las URL ya
       publicadas en /tmp/stag_urls.txt (una por línea) para descartar repetidas.
 
-  python3 bot/publicar.py agregar hoy|latam|biotech ARCHIVO.json
-      ARCHIVO contiene {"notas": [...]} y, para latam/biotech, opcionalmente
+  python3 bot/publicar.py agregar hoy|latam ARCHIVO.json
+      ARCHIVO contiene {"notas": [...]} y, para latam, opcionalmente
       {"companias": [{"ticker": "...", "estado": "...", "hitos": [...], "fuente_url": "..."}]}.
       Valida campos, términos y URL repetidas, agrega las notas al inicio y pone
       la hora real en "actualizado".
@@ -35,22 +35,21 @@ import unicodedata
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(RAIZ, "data")
-ARCHIVOS = {"hoy": "notas.json", "latam": "cobertura.json", "biotech": "biotech.json"}
-SUFIJO = {"hoy": "", "latam": "c", "biotech": "b"}
+ARCHIVOS = {"hoy": "notas.json", "latam": "cobertura.json"}
+# Biotecnología ya no publica noticias: data/biotech.json se actualiza a mano una vez al mes
+# (ver "Biotecnología" en bot/INSTRUCCIONES.md); aquí solo se valida que sea un JSON correcto.
+SUFIJO = {"hoy": "", "latam": "c"}
 MESES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"]
 
 CAMPOS = {
     "hoy": ["id", "fecha", "categoria", "puntaje", "titulo", "resumen", "contexto", "afectados",
             "peso_alcista", "alcista", "bajista", "impacto", "mirar", "terminos", "fuente", "url"],
-    "biotech": ["id", "fecha", "fecha_noticia", "empresa", "tipo", "titulo", "resumen", "contexto",
-                "que_significa", "mirar", "terminos", "fuente", "url"],
 }
 CAMPOS["latam"] = CAMPOS["hoy"] + ["empresa", "fecha_noticia"]
 CATEGORIAS = {"bvc", "macro", "commodities", "latam", "internacional", "politica", "sectores"}
 ACTIVOS = ["acciones", "renta_fija", "dolar", "cdt"]
 EFECTOS = {"positivo", "negativo", "neutral", "mixto"}
-TICKERS = {"latam": {"MELI", "NU", "PBR", "CIBEST", "GRUPOARGOS", "PEI"},
-           "biotech": {"CELC", "FTH", "RLAY"}}
+TICKERS = {"latam": {"MELI", "NU", "PBR", "CIBEST", "GRUPOARGOS", "PEI"}}
 
 
 def cargar(nombre):
@@ -142,16 +141,12 @@ def revisar_nota(seccion, n, glosario, hoy):
             suma = sum(p.get(k, 0) for k in ("alcance", "materialidad", "novedad", "fuente"))
             if p.get("total") != suma:
                 errores.append(f"puntaje.total ({p.get('total')}) debe ser la suma {suma}")
-    if seccion == "biotech":
-        prohibidas = ["alcista", "bajista", "peso_alcista", "impacto", "puntaje"]
-        if any(c in n for c in prohibidas):
-            errores.append("biotecnología no lleva lecturas, ponderación, impacto ni puntaje")
     return errores
 
 
 def agregar(seccion, ruta):
     if seccion not in ARCHIVOS:
-        sys.exit(f"Sección no válida: {seccion}. Usa hoy, latam o biotech.")
+        sys.exit(f"Sección no válida: {seccion}. Usa hoy o latam (biotecnología ya no publica noticias).")
     hoy, texto = ahora()
     with open(ruta, encoding="utf-8") as f:
         nuevo = json.load(f)
@@ -221,7 +216,7 @@ def mercado(ruta):
 def validar():
     glos = terminos_glosario()
     faltan = set()
-    for nombre in list(ARCHIVOS.values()) + ["glosario.json", "mercado.json"]:
+    for nombre in list(ARCHIVOS.values()) + ["biotech.json", "glosario.json", "mercado.json"]:
         d = cargar(nombre)
         for n in d.get("notas", []):
             faltan |= {t for t in n.get("terminos", []) if t not in glos}

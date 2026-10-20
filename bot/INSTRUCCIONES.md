@@ -8,10 +8,10 @@ Este archivo es la fuente única de reglas editoriales. Lo usa hoy la tarea prog
 Una vez al día, publicado a las 7:00 a. m. hora Bogotá. La corrida empieza a las 6:45 a. m.: la sección Hoy debe quedar publicada en unos 20 minutos.
 
 ## Tiempo y eficiencia (obligatorio)
-1. **No leas los archivos de `data/` completos** (notas.json pesa cientos de KB y crece cada día) ni los reescribas a mano. Usa `python3 bot/publicar.py estado` para saber la fecha, si ya hay notas de hoy, los siguientes id, los indicadores actuales, los términos del glosario y la lista de URL ya publicadas (`/tmp/stag_urls.txt`). Para publicar, escribe las notas nuevas en un archivo temporal y agrégalas con `python3 bot/publicar.py agregar hoy|latam|biotech ARCHIVO.json`; los términos nuevos con `glosario ARCHIVO.json` (antes de agregar las notas) y los indicadores con `mercado ARCHIVO.json`. El script valida campos, términos, puntajes y URL repetidas y pone la hora real en `actualizado`; si rechaza algo, corrige el archivo temporal y vuelve a correrlo. Termina con `python3 bot/publicar.py validar`.
+1. **No leas los archivos de `data/` completos** (notas.json pesa cientos de KB y crece cada día) ni los reescribas a mano. Usa `python3 bot/publicar.py estado` para saber la fecha, si ya hay notas de hoy, los siguientes id, los indicadores actuales, los términos del glosario y la lista de URL ya publicadas (`/tmp/stag_urls.txt`). Para publicar, escribe las notas nuevas en un archivo temporal y agrégalas con `python3 bot/publicar.py agregar hoy|latam ARCHIVO.json`; los términos nuevos con `glosario ARCHIVO.json` (antes de agregar las notas) y los indicadores con `mercado ARCHIVO.json`. El script valida campos, términos, puntajes y URL repetidas y pone la hora real en `actualizado`; si rechaza algo, corrige el archivo temporal y vuelve a correrlo. Termina con `python3 bot/publicar.py validar`.
 2. **Una sola vez por fuente:** cada URL se intenta una vez. Si una página no responde, falla o pide permiso, sigue con la siguiente fuente de la lista; no busques sitios alternos fuera de los indicados aquí.
 3. **Lee primero los titulares:** revisa los RSS, preselecciona por título y descripción, y abre el artículo completo solo de las ~10 mejores candidatas de Hoy y de las candidatas de cobertura.
-4. **Publica por partes:** primero la sección Hoy y los indicadores (commit "Edición AAAA-MM-DD" y push). Después Cobertura LatAm y Biotecnología en un segundo commit ("Edición AAAA-MM-DD, cobertura") y push. Así la edición principal no espera a la cobertura.
+4. **Publica por partes:** primero la sección Hoy y los indicadores (commit "Edición AAAA-MM-DD" y push). Después Cobertura LatAm en un segundo commit ("Edición AAAA-MM-DD, cobertura") y push. Así la edición principal no espera a la cobertura.
 5. **Límite de tiempo:** si a las 7:30 a. m. (hora Bogotá) la cobertura no está lista, publica lo que tengas validado y termina.
 
 ## Fuentes (RSS)
@@ -36,7 +36,7 @@ Solo noticias publicadas en las últimas ~24 horas sobre:
 - `politica`: política económica y regulación (reformas, presupuesto, impuestos, pensiones, comercio exterior).
 - `sectores`: sectores reales (energía, construcción, vivienda, comercio, transporte, industria).
 
-Excluidas de la sección Hoy: biotecnología (tiene su propia sección, ver "Cobertura de biotecnología" abajo), opinión, entretenimiento, deportes, política sin impacto de mercado, contenido promocional.
+Excluidas de la sección Hoy: biotecnología (tiene su propia página, que no publica noticias; ver "Biotecnología" abajo), opinión, entretenimiento, deportes, política sin impacto de mercado, contenido promocional.
 
 ## Cómo se eligen las noticias (puntaje de relevancia)
 1. Revisa **todas** las fuentes y arma la lista de candidatas que cumplan los temas de arriba. Si una noticia aparece en varios medios, es una sola candidata (usa la fuente más completa). Descarta las URL ya publicadas (lista en `/tmp/stag_urls.txt`, que crea `python3 bot/publicar.py estado`).
@@ -113,56 +113,27 @@ Sección aparte para seis compañías. Usa **el mismo formato completo de la sec
 
 **Formato:** igual que una nota de la sección Hoy, más dos campos: `empresa` (el ticker de la lista) y `fecha_noticia` (fecha original de la noticia). El `id` lleva el sufijo `c`: `AAAA-MM-DD-c01`. Para el activo `dolar`, explica el efecto para quien tiene acciones de las compañías que cotizan en Nueva York. Actualiza `actualizado` (hora real) y, si cambia el estado o los próximos hitos de una compañía, su ficha en `companias` (`estado`, `hitos`, `fuente_url`).
 
-## Cobertura de biotecnología (`data/biotech.json`, página `biotecnologia.html`)
-Sección aparte, con reglas propias. Se actualiza en la misma corrida diaria.
+## Biotecnología (`data/biotech.json`, página `biotecnologia.html`)
+**La corrida diaria no toca esta sección.** No busca ni publica noticias de biotecnología y no modifica `data/biotech.json`. La página ya no tiene noticias: solo la tabla "Panorama de biotecnológicas" y las fichas de las compañías.
 
-**Compañías cubiertas (solo estas):** Celcuity (CELC), Faeth Therapeutics (FTH, antes Sensei Biotherapeutics) y Relay Therapeutics (RLAY).
+**Actualización mensual:** el día 1 de cada mes (o cuando el dueño lo pida) se revisa cada compañía y se actualizan, solo con hechos confirmados por una fuente:
+- `panorama.companias`: una fila por compañía con `nombre`, `ticker`, `medicamento`, `fase`, `enfermedad`, `hito` (el próximo paso), `hito_fecha` y `fuente_url`. Ordenadas por ticker.
+- `companias`: una ficha por compañía, en el mismo orden y con las mismas compañías que el panorama, con `ticker`, `nombre`, `bolsa`, `medicamento_principal` (`nombre`, `fase`, `enfermedad`), `que_hace`, `estado`, `hitos` (`texto`, `fecha`) y `fuente_url`.
+- `panorama.actualizado` y `actualizado`: la fecha de la revisión, en formato "1 nov 2026".
 
-**Tabla "Panorama de biotecnológicas"** (`panorama` en `data/biotech.json`): es solo de referencia y la mantiene el dueño. No publiques noticias de esas compañías (salvo CELC, FTH y RLAY, que siguen su regla normal), no crees fichas para ellas y no modifiques `panorama`.
+**Compañías (15):** Ascentage Pharma (AAPG), Celcuity (CELC), Cytokinetics (CYTK), Edgewise Therapeutics (EWTX), Faeth Therapeutics (FTH), IDEAYA Biosciences (IDYA), Immunome (IMNM), Kardigan (KARD), Palvella Therapeutics (PVLA), Arcus Biosciences (RCUS), Relay Therapeutics (RLAY), Revolution Medicines (RVMD), Rhythm Pharmaceuticals (RYTM), Tango Therapeutics (TNGX) y Wave Life Sciences (WVE). Solo el dueño agrega o quita compañías.
 
-**Fuentes:**
-- Comunicados por compañía: `https://www.financialcontent.com/quote/NQ:CELC/pressReleases`, `.../NQ:FTH/pressReleases`, `.../NQ:RLAY/pressReleases`. Para Celcuity esa página casi solo trae avisos de bufetes de abogados; complementa con WebSearch (por ejemplo "Celcuity press release" y "gedatolisib") y usa los comunicados de GlobeNewswire o la página de inversionistas.
-- Prensa especializada: Fierce Biotech (`https://www.fiercebiotech.com/rss/xml`) y Endpoints News (`https://endpoints.news/feed/`).
-- Regulatorio: decisiones, designaciones o comunicaciones de la FDA sobre estas compañías, tomadas de comunicados o de prensa especializada.
-- Competidores y sector: noticias de otras compañías o de la FDA que afecten directamente a estas tres (por ejemplo, resultados de un competidor en la misma vía PI3K/AKT/mTOR o en el mismo tipo de cáncer). La nota debe explicar la relación con la compañía cubierta.
+**Fuentes:** comunicados de prensa y resultados trimestrales de cada compañía (página de inversionistas, GlobeNewswire, Business Wire, formularios 8-K de la SEC), y comunicados de la FDA o de otros reguladores. Usa la fuente más reciente; no uses sitios de alertas automáticas de acciones, avisos de bufetes de abogados ni análisis del precio de la acción.
 
-**Qué entra:** noticias publicadas en las últimas ~48 horas (72 en fines de semana o festivos): resultados de ensayos, resultados financieros, financiamiento, decisiones o designaciones regulatorias, presentaciones en congresos, alianzas, cambios relevantes de la administración y noticias de competidores con relación directa. **No entran** los avisos de bufetes de abogados que buscan demandantes, las notas promocionales ni los análisis de precio de la acción. Si no hay noticias nuevas, no publiques nada en esta sección ese día (nunca rellenes). No repitas URL ya publicadas.
+**Qué revisar en cada compañía:** si el medicamento principal cambió de fase, fue aprobado o cambió; si un hito ya ocurrió (quítalo y, si hay resultado, cuéntalo en `estado`); y cuáles son los próximos hitos con fecha. Los hitos van del más cercano al más lejano, sin hitos ya pasados; el primero de la ficha debe coincidir con el `hito` del panorama.
 
-**Reglas especiales (obligatorias):**
-1. **Sin opinión:** prohibido incluir lecturas alcista o bajista, ponderaciones, puntajes, efectos en el portafolio, calificativos como "positivo", "negativo", "bueno", "malo", "prometedor" o "decepcionante", y cualquier recomendación. Solo hechos y su explicación.
-2. **Lenguaje para un joven de 15 años:** frases cortas, sin jerga; si un término técnico es inevitable, va en `terminos` y en el glosario.
-3. Valen las reglas generales de derechos de autor, hechos solo de la fuente (en el contexto, también de la ficha y las notas ya publicadas, como se explica abajo), firma Stag Research y sin menciones al proceso.
+**Reglas (obligatorias):**
+1. **Sin opinión:** nada de lecturas alcistas o bajistas, ponderaciones, puntajes, recomendaciones ni calificativos como "positivo", "bueno", "prometedor" o "decepcionante". Solo hechos. Se puede decir que un estudio "cumplió su objetivo principal" o "dio resultados positivos" cuando la compañía lo reporta así.
+2. **Lenguaje para un joven de 15 años:** frases cortas y sin jerga. `que_hace` explica en 1 o 2 frases qué hace la compañía y cómo funciona su medicamento principal, en una imagen simple. `estado` no repite lo que ya muestran los recuadros (nombre, fase, enfermedad ni la palabra "aprobado"): cuenta solo lo adicional (para qué pacientes está aprobado, designaciones de la FDA, resultado del último estudio), en 1 o 2 frases.
+3. **Fases válidas:** "Fase 1", "Fase 1/2", "Fase 2", "Fase 2/3", "Fase 2b/3", "Fase 3", "En revisión FDA", "Aprobado (FDA)" o "Aprobado (China)" (u otro país entre paréntesis). Cada fase usada debe existir en `data/glosario.json`, porque la página la explica al tocarla.
+4. **Hechos solo de la fuente:** no uses cifras ni fechas que no estén en una fuente; si un dato no aparece, no lo pongas. Firma Stag Research y sin menciones al proceso.
 
-**Formato de cada nota** (se agregan al inicio de `notas` en `data/biotech.json`):
-
-```json
-{
-  "id": "AAAA-MM-DD-b01",
-  "fecha": "AAAA-MM-DD",
-  "fecha_noticia": "AAAA-MM-DD",
-  "empresa": "CELC | FTH | RLAY",
-  "tipo": "Ensayo clínico | Resultados financieros | Regulatorio (FDA) | Congreso médico | Financiamiento | Alianza | Competidores y sector | Gobierno corporativo",
-  "titulo": "",
-  "resumen": "Qué pasó, 1 a 2 frases.",
-  "contexto": "Antecedentes, 5 a 7 frases (ver 'Cómo escribir el contexto' abajo).",
-  "que_significa": "Explicación sencilla de qué significa la noticia y por qué importa, 4 a 6 frases, sin opinión.",
-  "mirar": "El próximo dato o fecha relacionado (1 frase).",
-  "terminos": ["FDA", "Fases de un ensayo clínico"],
-  "fuente": "",
-  "url": "https://..."
-}
-```
-
-**Cómo escribir el contexto (obligatorio):** el lector no sigue la compañía a diario, así que cada nota debe entenderse sola, sin haber leído las anteriores. Mantén frases cortas y sencillas, pero da el panorama completo. El `contexto` responde, en este orden y solo con lo que aplique:
-1. **Quién es la compañía y cuál es su producto:** qué medicamento es, para qué enfermedad y para qué pacientes (por ejemplo, "mujeres con cáncer de mama avanzado que ya recibieron otro tratamiento").
-2. **Cómo funciona, en una imagen simple:** qué bloquea o qué hace en el cuerpo, sin jerga.
-3. **En qué etapa está:** aprobado o en estudios; en qué fase; qué estudios tiene en curso y cuándo espera resultados.
-4. **Qué pasó antes que explique esta noticia:** resultados, anuncios o decisiones previas que la conecten.
-5. **Con quién se relaciona:** competidores o medicamentos parecidos, si la fuente los menciona o si son otra compañía cubierta (CELC, FTH y RLAY trabajan sobre la misma vía PI3K/AKT/mTOR).
-
-Los antecedentes pueden venir de la fuente de la noticia, de la ficha de la compañía en `companias` y de notas ya publicadas en `data/biotech.json` (búscalas con grep por ticker; no leas el archivo completo). No uses cifras ni hechos que no estén en esas fuentes; si un dato no aparece, no lo pongas. El `que_significa` explica la noticia en sí (qué es ese tipo de evento, por qué una compañía lo hace o lo anuncia, qué podría venir después), no repite el contexto.
-
-Actualiza también `actualizado` de `data/biotech.json` (hora real, como en la sección Hoy) y, si una noticia cambia el estado o los próximos hitos de una compañía, actualiza su ficha en `companias` (campos `estado` y `hitos`), con `fuente_url` apuntando a la fuente de ese cambio. En la ficha, `estado` no repite lo que ya muestran los recuadros del medicamento principal (nombre, fase, enfermedad ni la palabra "aprobado"): cuenta solo lo adicional, como para qué pacientes está aprobado o designaciones de la FDA (Fast Track, terapia innovadora), en 1 o 2 frases cortas. Los `hitos` van ordenados del más cercano al más lejano, porque la página muestra el primero como "Próximo hito". Cada ficha tiene además `medicamento_principal` (el producto más avanzado de la compañía), con tres campos cortos que la página muestra como recuadros: `nombre` (por ejemplo "PIKTOR"), `fase` ("Fase 1", "Fase 1/2", "Fase 2", "Fase 3", "En revisión FDA" o "Aprobado (FDA)") y `enfermedad` (la indicación más avanzada, por ejemplo "Cáncer de endometrio"). Actualízalo solo cuando una fuente confirme un cambio: paso a otra fase, aprobación, o que el medicamento principal sea otro; se envía igual que los demás campos de la ficha (`{"companias": [{"ticker": "FTH", "medicamento_principal": {"nombre": "", "fase": "", "enfermedad": ""}}]}`), siempre con los tres campos completos. Los términos nuevos van al mismo `data/glosario.json`, con definiciones para un joven de 15 años.
+Valida el archivo con `python3 -m json.tool data/biotech.json` y `python3 bot/publicar.py validar` antes del commit ("Biotecnología: actualización mensual AAAA-MM").
 
 ## Dónde se publica
 Se agrega al inicio del arreglo `notas` de `data/notas.json` y se actualiza `actualizado`, siempre con `python3 bot/publicar.py agregar hoy ARCHIVO.json` (el archivo lleva `{"notas": [...]}`). La hora de `actualizado` debe ser la hora real de publicación; el script la toma del reloj, así que nunca la escribas de memoria ni la estimes. Formato: "12 oct 2026, 9:15 a. m. (hora Bogotá)". Esquema de cada nota:
