@@ -503,6 +503,22 @@
     {
       "termino": "Índice DXY",
       "definicion": "Es un índice que mide el valor del dólar estadounidense frente a una canasta de seis monedas de países desarrollados, como el euro, el yen y la libra. Si sube, el dólar se está fortaleciendo en el mundo. Suele influir en el precio del dólar en Colombia."
+    },
+    {
+      "termino": "Fondo de Estabilización de Precios de los Combustibles (FEPC)",
+      "definicion": "Mecanismo del Gobierno que amortigua las subidas y bajadas de los precios internacionales de la gasolina y el diésel en Colombia. Cuando el precio local queda por debajo del internacional, el fondo cubre la diferencia y eso genera un costo para las finanzas públicas. Le importa a quien invierte porque ese costo puede aumentar el déficit fiscal y las necesidades de deuda del Gobierno."
+    },
+    {
+      "termino": "Estrategia de gestión de deuda de mediano plazo",
+      "definicion": "Plan del Ministerio de Hacienda que define, para varios años, cómo se va a financiar el Gobierno: en qué moneda, a qué plazos, con qué tipo de tasa y con qué mezcla de deuda local y externa. Busca equilibrar el costo de la deuda con sus riesgos. Para quien invierte en TES, da pistas sobre cuánta deuda se emitirá y en qué plazos."
+    },
+    {
+      "termino": "Activo refugio",
+      "definicion": "Inversión a la que acuden los inversionistas cuando aumenta la incertidumbre, porque se considera más segura o estable, como los bonos del Tesoro de EE. UU. o el oro. Cuando hay temor en los mercados, su demanda sube y suele salir dinero de activos más riesgosos, como las acciones de mercados emergentes."
+    },
+    {
+      "termino": "WTI",
+      "definicion": "West Texas Intermediate, petróleo de referencia que se produce en Estados Unidos y se negocia principalmente en Nueva York. Junto con el Brent es uno de los dos precios de referencia del crudo en el mundo. Sus movimientos influyen en los ingresos de las petroleras y en el precio de los combustibles."
     }
   ]
 }

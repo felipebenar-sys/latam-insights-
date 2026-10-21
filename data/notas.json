@@ -1,6 +1,298 @@
 {
-  "actualizado": "20 oct 2026, 6:56 a. m. (hora Bogotá)",
+  "actualizado": "21 oct 2026, 7:05 a. m. (hora Bogotá)",
   "notas": [
+    {
+      "id": "2026-10-21-01",
+      "fecha": "2026-10-21",
+      "categoria": "commodities",
+      "puntaje": {
+        "total": 9,
+        "alcance": 3,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "El Brent supera US$111 y toca su nivel más alto desde mayo por ataques en Medio Oriente",
+      "resumen": "El petróleo Brent subió 1,62% hasta US$111,33 por barril en la mañana del 20 de octubre, su nivel más alto desde mayo, mientras el WTI ganó 4,33% hasta US$108,15.",
+      "contexto": "El alza responde a una prima de riesgo geopolítico tras los ataques que los hutíes de Yemen dicen haber lanzado contra infraestructura de Arabia Saudita, entre ella una planta de Aramco en Yanbu y el campo de Shaybah; las autoridades saudíes no los confirmaron y Reuters no pudo verificarlos. Según Kpler, al menos 18 barcos fueron atacados en dos semanas. ING considera que el mercado incorpora una prima de riesgo importante que solo se reduciría de forma lenta si los flujos de crudo siguen sin interrupciones. Ambas referencias se mantienen por encima de US$100.",
+      "afectados": [
+        "Ecopetrol",
+        "Peso colombiano",
+        "Finanzas públicas",
+        "Inflación"
+      ],
+      "peso_alcista": 60,
+      "alcista": "Un Brent por encima de US$110 eleva los ingresos por exportaciones de crudo de Colombia y los resultados de Ecopetrol, el mayor emisor de la BVC. También mejora los ingresos fiscales vía dividendos y regalías, lo que ayuda a una Nación con presiones de financiamiento. La mayor entrada de dólares por petróleo tiende a apoyar al peso colombiano.",
+      "bajista": "El alza viene de un riesgo geopolítico y no de mayor demanda, por lo que puede revertirse rápido si la tensión baja. Un petróleo más caro presiona los combustibles y la inflación, lo que dificulta que el Banco de la República reduzca su tasa. Además, el costo del Fondo de Estabilización de Precios de los Combustibles aumenta cuando el crudo sube, lo que pesa sobre el gasto público.",
+      "impacto": {
+        "conclusion": "Pesa un poco más la lectura alcista, porque Colombia es exportador de crudo y Ecopetrol y las cuentas fiscales se benefician directamente del precio. Para tu portafolio, el efecto más claro está en las acciones petroleras; el riesgo es que la prima geopolítica desaparezca tan rápido como llegó y que el alza alimente la inflación.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "positivo",
+            "detalle": "Ecopetrol y las empresas ligadas al petróleo tienden a beneficiarse de un Brent más alto."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "mixto",
+            "detalle": "Más ingresos petroleros ayudan a las finanzas públicas, pero la presión sobre la inflación puede mantener altas las tasas de los TES."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "negativo",
+            "detalle": "Más dólares por exportaciones de crudo tienden a fortalecer el peso, lo que reduce en pesos el valor de los ahorros en dólares."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La confirmación o desmentido de los ataques por parte de Arabia Saudita y el reporte de inventarios de crudo de Estados Unidos de esta semana.",
+      "terminos": [
+        "Brent",
+        "WTI",
+        "Regalías",
+        "Fondo de Estabilización de Precios de los Combustibles (FEPC)"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/brent-toca-maximos-de-cinco-meses-con-us-111-el-barril-tras-ataques-en-medio-oriente-4506709"
+    },
+    {
+      "id": "2026-10-21-02",
+      "fecha": "2026-10-21",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 8,
+        "alcance": 3,
+        "materialidad": 3,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "Analistas prevén que el tercer trimestre sea el de menor crecimiento económico del año",
+      "resumen": "Banco de Bogotá estima que el PIB de Colombia habría crecido cerca de 1,0% anual en el tercer trimestre, frente al 3,5% del segundo, tras la caída del ISE en agosto.",
+      "contexto": "Según el DANE, el ISE de agosto cayó 0,04% anual, su primera caída en año y medio, y en cifras desestacionalizadas se contrajo 3,1% frente a julio, la mayor caída mensual desde la pandemia. Banco de Bogotá atribuye parte del retroceso al terremoto del 10 de agosto, pero ve una debilidad más amplia por la revaluación del peso, las altas tasas de interés y un menor gasto público. El Banco de la República había proyectado 2,2% para el trimestre y Grupo Cibest bajó su estimación a 2,1% antes de conocer el ISE. El FMI espera 2,2% para todo 2026.",
+      "afectados": [
+        "Bancos",
+        "Comercio",
+        "Industria",
+        "TES",
+        "Banco de la República"
+      ],
+      "peso_alcista": 35,
+      "alcista": "Una economía más débil reduce la presión para que el Banco de la República siga subiendo su tasa; Banco de Bogotá considera que la Junta podría no subirla más este año. Eso favorecería a los TES, cuyo precio sube cuando se espera que las tasas bajen. A mediano plazo, un fin del ciclo de alzas aliviaría el costo del crédito para empresas y hogares.",
+      "bajista": "Un crecimiento cercano a 1% golpea las ventas y utilidades de bancos, comercio e industria, que pesan mucho en la BVC. La caída es generalizada: en agosto bajaron tanto las actividades primarias como las secundarias. Además, menor crecimiento significa menos recaudo tributario, lo que complica unas finanzas públicas ya presionadas.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista, porque la desaceleración afecta directamente las utilidades de las empresas y el recaudo fiscal, mientras que el alivio en tasas es todavía una expectativa. Para tu portafolio, la señal es negativa para las acciones locales y algo más favorable para los TES si el mercado empieza a descontar el fin de las alzas de tasa.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Menor actividad presiona las ventas y utilidades de bancos, comercio e industria."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "positivo",
+            "detalle": "Si se reduce la probabilidad de nuevas alzas de tasa, los precios de los TES podrían mejorar."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "mixto",
+            "detalle": "Las tasas siguen altas por ahora, pero un fin del ciclo de alzas limitaría nuevos aumentos en lo que pagan los CDT."
+          }
+        ]
+      },
+      "mirar": "El dato del PIB del tercer trimestre que publicará el DANE y la próxima decisión de tasa del Banco de la República.",
+      "terminos": [
+        "PIB",
+        "Indicador de Seguimiento a la Economía (ISE)",
+        "Serie desestacionalizada",
+        "Revaluación del peso",
+        "Tasa de política monetaria"
+      ],
+      "fuente": "Bloomberg Línea",
+      "url": "https://www.bloomberglinea.com/latinoamerica/colombia/economia-colombiana-tendria-su-peor-crecimiento-de-2026-en-el-tercer-trimestre/"
+    },
+    {
+      "id": "2026-10-21-03",
+      "fecha": "2026-10-21",
+      "categoria": "politica",
+      "puntaje": {
+        "total": 7,
+        "alcance": 1,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "El Congreso aprueba el Presupuesto 2027 por $634,9 billones con más recursos para salud",
+      "resumen": "La Cámara acogió en la madrugada del 20 de octubre el texto del Senado y quedó aprobado el Presupuesto General de la Nación 2027 por $634,9 billones, sin necesidad de conciliación.",
+      "contexto": "Las plenarias no podían cambiar el monto total fijado en las comisiones económicas, solo mover recursos entre sectores. La inversión pasó de $86,9 billones en el proyecto original a $94,8 billones; salud recibió $3 billones adicionales, trabajo $6,5 billones más para obligaciones pensionales y se incluyó una partida explícita de $9,6 billones para el Fondo de Estabilización de Precios de los Combustibles. Minas y Energía sumó $3 billones para subsidios de energía y gas. Con la aprobación se evitó, en principio, que el Gobierno lo expidiera por decreto.",
+      "afectados": [
+        "Finanzas públicas",
+        "TES",
+        "Sector salud",
+        "Pensiones"
+      ],
+      "peso_alcista": 45,
+      "alcista": "Contar con un presupuesto aprobado por el Congreso da certidumbre sobre el gasto de 2027 y reduce el riesgo institucional de un presupuesto por decreto. La partida explícita para el fondo de combustibles hace más transparente un costo que antes no tenía asignación. Las normas de austeridad incluidas buscan contener el gasto no esencial.",
+      "bajista": "El monto total se mantuvo en $634,9 billones, por lo que las adiciones a salud, pensiones, combustibles y subsidios se financian dentro de un presupuesto ya grande. Para quien tiene TES, un gasto alto con un recaudo presionado implica más necesidades de financiamiento y mayor oferta de deuda. Los cambios se concentraron en gasto y no en ajustes que reduzcan el déficit.",
+      "impacto": {
+        "conclusion": "Pesa algo más la lectura bajista: la aprobación despeja la incertidumbre del trámite, pero no cambia el tamaño del gasto ni las presiones de financiamiento de la Nación. Para tu portafolio, el efecto se concentra en la renta fija, donde lo relevante será cuánta deuda deberá emitir el Gobierno para cubrir este presupuesto.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "mixto",
+            "detalle": "Hay más certidumbre institucional, pero un gasto alto mantiene la presión sobre la emisión de TES."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La sanción de la ley de presupuesto y el Plan Financiero 2027 con el monto de emisión de TES.",
+      "terminos": [
+        "Presupuesto General de la Nación",
+        "Inversión pública",
+        "Fondo de Estabilización de Precios de los Combustibles (FEPC)",
+        "Necesidades de financiamiento",
+        "TES"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/congreso-de-la-republica-dio-luz-verde-al-presupuesto-de-2027-por-634-9-billones-4506678"
+    },
+    {
+      "id": "2026-10-21-04",
+      "fecha": "2026-10-21",
+      "categoria": "internacional",
+      "puntaje": {
+        "total": 7,
+        "alcance": 3,
+        "materialidad": 2,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "Dudas sobre el gasto en inteligencia artificial pesan en las bolsas globales",
+      "resumen": "Las acciones globales cayeron el 20 de octubre por temor sobre la financiación de la inteligencia artificial, mientras el bono del Tesoro de EE. UU. a 10 años se mantuvo cerca de 5,12%.",
+      "contexto": "Antes de la apertura, los futuros del Nasdaq 100 bajaban 0,6% y los del S&P 500 0,2%; el Stoxx 600 europeo cedía 0,6% y el Kospi de Corea del Sur cayó 3,7%, con el índice MSCI de Asia en su nivel más bajo desde julio. La surcoreana Elice, proveedora de infraestructura para centros de datos, cayó 32% en su debut en bolsa. El rendimiento del Tesoro a 10 años bajó cerca de un punto básico por compras como refugio. Los inversionistas esperan los resultados de SpaceX y Meta Platforms en busca de señales sobre el gasto en inteligencia artificial.",
+      "afectados": [
+        "Wall Street",
+        "Mercados emergentes",
+        "Bonos del Tesoro",
+        "Acciones tecnológicas"
+      ],
+      "peso_alcista": 35,
+      "alcista": "Las compras de bonos del Tesoro como refugio frenaron la subida de sus rendimientos, lo que da algo de alivio a la deuda de mercados emergentes. El índice del dólar de Bloomberg cayó 0,1%, una señal de que no hubo una huida fuerte hacia la divisa estadounidense. Si los resultados de Meta y SpaceX calman las dudas, la corrección podría ser pasajera.",
+      "bajista": "Un ambiente de aversión al riesgo suele reducir los flujos hacia mercados emergentes como Colombia y presionar sus acciones. Con el Tesoro a 10 años por encima de 5%, la deuda estadounidense compite con los TES por el capital extranjero. Para quien tiene inversiones en acciones tecnológicas en el exterior, las caídas afectan directamente su valor.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista, porque la aversión al riesgo global y unos rendimientos del Tesoro por encima de 5% tienden a restar atractivo a los activos de mercados emergentes. Para tu portafolio, el efecto principal es sobre las inversiones en acciones del exterior y, de forma indirecta, sobre la bolsa local.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "La aversión al riesgo global suele restar flujos a la bolsa colombiana."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "mixto",
+            "detalle": "El Tesoro alto compite con los TES, aunque las compras de refugio frenaron su subida."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "negativo",
+            "detalle": "Las inversiones en acciones tecnológicas del exterior pierden valor con la corrección."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "Los resultados trimestrales de Meta Platforms y SpaceX y su lectura sobre el gasto en inteligencia artificial.",
+      "terminos": [
+        "Bonos del Tesoro de EE. UU.",
+        "Activo refugio",
+        "Puntos básicos"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/temor-por-gasto-en-inteligencia-artificial-golpea-acciones-y-el-petroleo-se-dispara-4506882"
+    },
+    {
+      "id": "2026-10-21-05",
+      "fecha": "2026-10-21",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 5,
+        "alcance": 1,
+        "materialidad": 2,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "FMI y Banco Mundial asesoran a Hacienda en su estrategia de deuda 2027-2030",
+      "resumen": "Una misión técnica del FMI y el Banco Mundial trabaja en Colombia hasta el 29 de octubre para apoyar la actualización de la estrategia de deuda pública 2027-2030 y del plan de financiamiento de 2027.",
+      "contexto": "La misión fue solicitada por la Dirección General de Crédito Público y Tesoro Nacional del Ministerio de Hacienda. Incluye sesiones con el Banco de la República, reguladores, creadores de mercado y otros participantes del sistema financiero, y participan expertos de México, China, Brasil y Hungría. Según Hacienda, el objetivo es que la gestión de la deuda sea más predecible y mejore las condiciones de financiamiento en plazos, montos y costos.",
+      "afectados": [
+        "TES",
+        "Ministerio de Hacienda",
+        "Creadores de mercado"
+      ],
+      "peso_alcista": 60,
+      "alcista": "Una estrategia de deuda revisada con apoyo técnico internacional puede dar más previsibilidad sobre cuánto y en qué plazos emitirá la Nación. Esa claridad suele ser valorada por los inversionistas de TES y puede ayudar a reducir el costo de financiamiento. También refuerza la transparencia en el manejo de las finanzas públicas.",
+      "bajista": "Una asesoría técnica no cambia por sí sola el tamaño del déficit ni las necesidades de financiamiento, que son el principal factor de presión sobre los TES. Sus efectos dependerán de lo que finalmente adopte el Gobierno en el plan de 2027. Mientras tanto, el mercado seguirá atento a las cifras fiscales.",
+      "impacto": {
+        "conclusion": "Pesa algo más la lectura alcista, porque una gestión de deuda más predecible tiende a favorecer a los tenedores de TES, aunque el efecto es gradual y no resuelve el déficit. Para tu portafolio, el impacto se limita a la renta fija y dependerá del plan de financiamiento que se publique.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "positivo",
+            "detalle": "Más previsibilidad en la emisión de deuda puede favorecer los precios de los TES."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "El cierre de la misión el 29 de octubre y la publicación del plan de financiamiento de 2027.",
+      "terminos": [
+        "Estrategia de gestión de deuda de mediano plazo",
+        "FMI",
+        "Deuda pública",
+        "TES",
+        "Formador de liquidez"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/fmi-y-banco-mundial-revisaran-estrategia-de-deuda-publica-de-colombia-para-2027-2030-4507257"
+    },
     {
       "id": "2026-10-20-01",
       "fecha": "2026-10-20",
