@@ -10,7 +10,7 @@ Una vez al día, publicado a las 7:00 a. m. hora Bogotá. La corrida empieza a l
 ## Tiempo y eficiencia (obligatorio)
 1. **No leas los archivos de `data/` completos** (notas.json pesa cientos de KB y crece cada día) ni los reescribas a mano. Usa `python3 bot/publicar.py estado` para saber la fecha, si ya hay notas de hoy, los siguientes id, los indicadores actuales, los términos del glosario y la lista de URL ya publicadas (`/tmp/stag_urls.txt`). Para publicar, escribe las notas nuevas en un archivo temporal y agrégalas con `python3 bot/publicar.py agregar hoy|latam ARCHIVO.json`; los términos nuevos con `glosario ARCHIVO.json` (antes de agregar las notas) y los indicadores con `mercado ARCHIVO.json`. El script valida campos, términos, puntajes y URL repetidas y pone la hora real en `actualizado`; si rechaza algo, corrige el archivo temporal y vuelve a correrlo. Termina con `python3 bot/publicar.py validar`.
 2. **Una sola vez por fuente:** cada URL se intenta una vez. Si una página no responde, falla o pide permiso, sigue con la siguiente fuente de la lista; no busques sitios alternos fuera de los indicados aquí.
-3. **Lee primero los titulares:** revisa los RSS, preselecciona por título y descripción, y abre el artículo completo solo de las ~10 mejores candidatas de Hoy y de las candidatas de cobertura.
+3. **Lee primero los titulares:** revisa los RSS, preselecciona por título y descripción, y abre el artículo completo solo de las ~10 mejores candidatas de Hoy, de las ~4 mejores de La región y de las candidatas de cobertura.
 4. **Publica por partes:** primero la sección Hoy y los indicadores (commit "Edición AAAA-MM-DD" y push). Después Cobertura LatAm en un segundo commit ("Edición AAAA-MM-DD, cobertura") y push. Así la edición principal no espera a la cobertura.
 5. **Límite de tiempo:** si a las 7:30 a. m. (hora Bogotá) la cobertura no está lista, publica lo que tengas validado y termina.
 
@@ -24,6 +24,16 @@ Una vez al día, publicado a las 7:00 a. m. hora Bogotá. La corrida empieza a l
 - Semana, economía: https://www.semana.com/arc/outboundfeeds/rss/category/economia/?outputType=xml
 - Bloomberg Línea: https://www.bloomberglinea.com/arc/outboundfeeds/rss/?outputType=xml
 
+Fuentes de **La región** (ver la sección "La región" abajo):
+- Brasil, InfoMoney (en portugués): https://www.infomoney.com.br/feed/
+- México, El Financiero, economía: https://www.elfinanciero.com.mx/arc/outboundfeeds/rss/category/economia/?outputType=xml
+- México, El Financiero, mercados: https://www.elfinanciero.com.mx/arc/outboundfeeds/rss/category/mercados/?outputType=xml
+- Argentina, Ámbito, economía: https://www.ambito.com/rss/pages/economia.xml
+- Argentina, Infobae, economía: https://www.infobae.com/arc/outboundfeeds/rss/category/economia/
+- Chile, Diario Financiero: https://www.df.cl/noticias/site/list/port/rss.xml
+- Perú, Gestión, economía: https://gestion.pe/arc/outboundfeeds/rss/category/economia/?outputType=xml
+- Bloomberg Línea (el RSS general de arriba) también sirve para la región.
+
 X (Twitter) queda por fuera hasta que haya presupuesto para su API.
 
 ## Qué noticias entran
@@ -35,6 +45,7 @@ Solo noticias publicadas en las últimas ~24 horas sobre:
 - `internacional`: mercados internacionales (Reserva Federal, Wall Street, bonos de EE. UU., dólar global) cuando tengan efecto sobre Colombia.
 - `politica`: política económica y regulación (reformas, presupuesto, impuestos, pensiones, comercio exterior).
 - `sectores`: sectores reales (energía, construcción, vivienda, comercio, transporte, industria).
+- `region`: **La región**, noticias de Brasil, México y Argentina (y de Chile o Perú cuando sean de alto impacto). Tiene reglas propias: ver la sección "La región" abajo.
 
 Excluidas de la sección Hoy: biotecnología (tiene su propia página, que no publica noticias; ver "Biotecnología" abajo), opinión, entretenimiento, deportes, política sin impacto de mercado, contenido promocional.
 
@@ -46,8 +57,28 @@ Excluidas de la sección Hoy: biotecnología (tiene su propia página, que no pu
    - **Novedad (0–2):** 2 = dato, decisión o hecho nuevo (cifra oficial, decisión de política, resultado, evento); 1 = anuncio, propuesta, proyección o negociación en curso; 0 = análisis, recopilación o seguimiento de algo ya conocido.
    - **Fuente (0–1):** 1 si el artículo trae cifras verificables y cita fuentes primarias; 0 si no.
 3. **Prioridad automática:** entran siempre, aunque su puntaje sea menor, las decisiones de tasa del Banco de la República, los datos del DANE (inflación, PIB, desempleo), las medidas del Ministerio de Hacienda con efecto fiscal y la información relevante de emisores de la BVC publicada en las últimas 24 horas.
-4. Publica las de mayor puntaje hasta completar **6 a 8 notas**, con **máximo 3 por categoría**. No publiques candidatas con puntaje menor a 5 (salvo prioridad automática). Si un día (por ejemplo, un festivo) no hay suficientes candidatas con 5 o más, publica menos; nunca rellenes.
+4. Publica las de mayor puntaje hasta completar **6 a 8 notas de Colombia y mercados** (todas las categorías menos `region`), con **máximo 3 por categoría**. Las de `region` se eligen aparte y se suman a esas (ver "La región"). No publiques candidatas con puntaje menor a 5 (salvo prioridad automática). Si un día (por ejemplo, un festivo) no hay suficientes candidatas con 5 o más, publica menos; nunca rellenes.
 5. Ordena las notas de la edición de mayor a menor puntaje y guarda el puntaje en cada nota (campo `puntaje`).
+
+## La región (categoría `region`)
+La página Hoy muestra, debajo de las notas de Colombia, un bloque fijo llamado **La región** con lo más importante de las economías grandes de América Latina. Se publica en la misma corrida y en el mismo archivo (`data/notas.json`), con `python3 bot/publicar.py agregar hoy`, en la misma edición y con la numeración normal de id.
+
+**Países:** Brasil, México y Argentina tienen prioridad. Chile y Perú entran solo con noticias de alto impacto (decisión de tasa del banco central, elecciones, crisis, cambio de calificación soberana). Cada nota lleva el campo `pais`: `"Brasil"`, `"México"`, `"Argentina"`, `"Chile"` o `"Perú"`.
+
+**Qué entra:** decisiones de tasa y comunicados de los bancos centrales (Banco Central do Brasil, Banxico, BCRA, Banco Central de Chile, BCRP); inflación, PIB, empleo y cifras fiscales oficiales; movimientos fuertes de la moneda, la bolsa o el riesgo país; elecciones, reformas y medidas económicas de gobierno; calificaciones soberanas; y hechos de grandes empresas de esos países que muevan su mercado. Mismas reglas de vigencia (~24 horas). Si la noticia es de una compañía de Cobertura LatAm (MercadoLibre, Nu, Petrobras), va en Cobertura LatAm y no aquí.
+
+**Cuántas:** de 0 a 3 notas por día, con máximo 2 por país. Mínimo 5 puntos para entrar. Si un día no hay noticias regionales con 5 puntos o más, no publiques ninguna (nunca rellenes).
+
+**Puntaje para La región:** los mismos cuatro criterios, con esta materialidad:
+- **Materialidad (0–3):** 3 = mueve las tasas, la moneda, la bolsa o las finanzas públicas de Brasil, México o Argentina, o afecta directamente a emisores de la BVC con negocios en ese país; 2 = efecto sectorial o indirecto, o un hecho macro mayor de Chile o Perú; 1 = efecto marginal; 0 = sin efecto económico.
+- **Alcance (0–4)**, **Novedad (0–2)** y **Fuente (0–1)**: igual que en las demás notas.
+
+**Formato:** igual que cualquier nota de Hoy, más `pais`. Las lecturas alcista y bajista, `peso_alcista` y el bloque `impacto` se escriben desde la perspectiva de quien invierte desde Colombia:
+- `dolar` (ahorros e inversiones en dólares o en el exterior) es el activo que más se mueve: incluye acciones, ETF o fondos de ese país o de la región, medidos en pesos.
+- `acciones` se marca distinto de "neutral" solo si la noticia afecta a emisores de la BVC con negocios en ese país (por ejemplo, ISA o Grupo Energía Bogotá en Brasil, Perú o Chile) o al mercado colombiano por contagio regional, y el `detalle` explica cómo.
+- `renta_fija` y `cdt`: "neutral" salvo que haya un canal claro hacia las tasas en Colombia.
+- El `contexto` explica en una frase por qué esa economía le importa a quien invierte desde Colombia.
+- Las fuentes en portugués se cuentan en español, con tus palabras (nunca traduzcas frases textuales).
 
 ## Formato de cada nota
 - `titulo`: titular propio, claro, máximo ~90 caracteres. No copies el titular del medio.
@@ -142,7 +173,8 @@ Se agrega al inicio del arreglo `notas` de `data/notas.json` y se actualiza `act
 {
   "id": "2026-10-12-01",
   "fecha": "2026-10-12",
-  "categoria": "bvc | macro | commodities | latam | internacional | politica | sectores",
+  "categoria": "bvc | macro | commodities | latam | internacional | politica | sectores | region",
+  "pais": "solo en categoría region: Brasil | México | Argentina | Chile | Perú",
   "puntaje": { "total": 8, "alcance": 3, "materialidad": 3, "novedad": 1, "fuente": 1 },
   "titulo": "",
   "resumen": "",

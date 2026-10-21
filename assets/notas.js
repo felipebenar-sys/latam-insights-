@@ -12,7 +12,7 @@
         st.textContent = '@media (pointer:coarse){[data-termino],.tap-amplio{position:relative}[data-termino]::after,.tap-amplio::after{content:"";position:absolute;left:-6px;right:-6px;top:-12px;bottom:-12px}}';
         document.head.appendChild(st);
     }
-    const CAT = { bvc: 'BVC', macro: 'Macro Colombia', commodities: 'Commodities', latam: 'LatAm', internacional: 'Mercados internacionales', politica: 'Política económica', sectores: 'Sectores' };
+    const CAT = { bvc: 'BVC', macro: 'Macro Colombia', commodities: 'Commodities', latam: 'LatAm', internacional: 'Mercados internacionales', politica: 'Política económica', sectores: 'Sectores', region: 'La región' };
     const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
     const slug = t => String(t).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
     const safeUrl = u => /^https?:\/\//i.test(u || '') ? u : '#';
@@ -122,6 +122,7 @@
         return `
             <div class="flex flex-wrap items-center gap-2 mb-3 text-xs">
                 ${n.empresa ? `<span class="bg-sky-400/10 text-sky-300 border border-sky-400/20 px-2 py-0.5 rounded-full font-semibold">${esc(n.empresa)}</span>` : ''}
+                ${n.pais ? `<span class="bg-sky-400/10 text-sky-300 border border-sky-400/20 px-2 py-0.5 rounded-full font-semibold">${esc(n.pais)}</span>` : ''}
                 <span class="bg-amber-400/10 text-amber-400 border border-amber-400/20 px-2 py-0.5 rounded-full font-semibold">${esc(CAT[n.categoria] || n.categoria)}</span>
                 ${n.fecha_noticia ? `<span class="text-stone-500">Noticia del ${fmtFecha(n.fecha_noticia)}</span>` : ''}
                 <a href="${esc(safeUrl(n.url))}" target="_blank" rel="noopener noreferrer" class="text-stone-400 hover:text-amber-400 underline underline-offset-2">Fuente: ${esc(n.fuente)}</a>
@@ -383,14 +384,22 @@
         cargar().then(data => {
             const notas = Array.isArray(data.notas) ? data.notas : [];
             if (data.actualizado) document.getElementById('notas-actualizado').innerHTML = sello(data.actualizado);
-            if (!notas.length) { hoy.innerHTML = vacio('Las primeras notas se publicarán muy pronto.'); return; }
+            const rcVacio = m => { const rc = document.getElementById('notas-region'); if (rc) { rc.removeAttribute('aria-busy'); rc.innerHTML = vacio(m); } };
+            if (!notas.length) { hoy.innerHTML = vacio('Las primeras notas se publicarán muy pronto.'); rcVacio('Las primeras notas se publicarán muy pronto.'); return; }
             const { porFecha, fechas } = agrupar(notas);
             const ed = porFecha[fechas[0]];
             document.getElementById('notas-hoy-titulo').textContent = 'Edición del ' + fmtFecha(fechas[0]);
             const r = document.getElementById('resumen-dia'); if (r) r.innerHTML = resumenDia(ed, '');
-            hoy.innerHTML = ed.map(notaCompleta).join('') + `<div id="filtros-vacio" class="hidden">${vacio('Ninguna nota de hoy coincide con ese filtro.')}</div>`;
+            // Colombia y mercados arriba; La región (categoría region) en su propio bloque debajo
+            const col = ed.filter(n => n.categoria !== 'region'), reg = ed.filter(n => n.categoria === 'region');
+            hoy.innerHTML = (col.length ? col.map(notaCompleta).join('') : vacio('Hoy no hay notas de Colombia.')) + `<div id="filtros-vacio" class="hidden">${vacio('Ninguna nota de hoy coincide con ese filtro.')}</div>`;
+            const rc = document.getElementById('notas-region');
+            if (rc) {
+                rc.removeAttribute('aria-busy');
+                rc.innerHTML = reg.length ? reg.map(notaCompleta).join('') : vacio('Hoy no hubo noticias de la región con impacto suficiente para tu portafolio.');
+            }
             ed.forEach(n => marcarTerminos(document.getElementById(n.id), n));
-            initFiltros(hoy, ed);
+            initFiltros(hoy, col);
             const resto = fechas.slice(1);
             if (resto.length) {
                 document.getElementById('archivo-wrap').classList.remove('hidden');

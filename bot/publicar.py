@@ -46,7 +46,8 @@ CAMPOS = {
             "peso_alcista", "alcista", "bajista", "impacto", "mirar", "terminos", "fuente", "url"],
 }
 CAMPOS["latam"] = CAMPOS["hoy"] + ["empresa", "fecha_noticia"]
-CATEGORIAS = {"bvc", "macro", "commodities", "latam", "internacional", "politica", "sectores"}
+CATEGORIAS = {"bvc", "macro", "commodities", "latam", "internacional", "politica", "sectores", "region"}
+PAISES = {"Brasil", "México", "Argentina", "Chile", "Perú"}
 ACTIVOS = ["acciones", "renta_fija", "dolar", "cdt"]
 EFECTOS = {"positivo", "negativo", "neutral", "mixto"}
 TICKERS = {"latam": {"MELI", "NU", "PBR", "CIBEST", "GRUPOARGOS", "PEI"}}
@@ -125,6 +126,10 @@ def revisar_nota(seccion, n, glosario, hoy):
     if seccion in ("hoy", "latam"):
         if seccion == "hoy" and n.get("categoria") not in CATEGORIAS:
             errores.append(f"categoría {n.get('categoria')} no válida")
+        if seccion == "hoy" and n.get("categoria") == "region" and n.get("pais") not in PAISES:
+            errores.append(f"las notas de La región llevan 'pais' con uno de {sorted(PAISES)}")
+        if seccion == "hoy" and n.get("categoria") != "region" and "pais" in n:
+            errores.append("el campo 'pais' solo va en notas de categoría 'region'")
         pa = n.get("peso_alcista")
         if not isinstance(pa, int) or not 20 <= pa <= 80 or pa % 5:
             errores.append("peso_alcista debe ser entero entre 20 y 80, múltiplo de 5")
