@@ -1,20 +1,20 @@
 {
   "trm": {
-    "valor": 3163.76,
-    "vigente_desde": "2026-10-21",
-    "anterior": 3156.32,
-    "fuente": "TRM certificada vía Colombia.com"
+    "valor": 3191.47,
+    "vigente_desde": "2026-10-22",
+    "anterior": 3163.76,
+    "fuente": "TRM vía La República"
   },
   "brent": {
-    "valor": 109.86,
-    "cambio_pct": 3.72,
-    "fecha": "2026-10-16",
-    "fuente": "Investing.com"
+    "valor": 109.78,
+    "cambio_pct": 0.78,
+    "fecha": "2026-10-21",
+    "fuente": "La República"
   },
   "colcap": {
-    "valor": 2518.91,
-    "cambio_pct": -0.11,
-    "fecha": "2026-10-20",
+    "valor": 2560.52,
+    "cambio_pct": 1.06,
+    "fecha": "2026-10-21",
     "fuente": "BVC vía La República"
   },
   "tasa_banrep": {
@@ -26,5 +26,5 @@
     "periodo": "sep 2026",
     "fuente": "DANE"
   },
-  "actualizado": "2026-10-21"
+  "actualizado": "2026-10-22"
 }

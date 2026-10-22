@@ -519,6 +519,26 @@
     {
       "termino": "WTI",
       "definicion": "West Texas Intermediate, petróleo de referencia que se produce en Estados Unidos y se negocia principalmente en Nueva York. Junto con el Brent es uno de los dos precios de referencia del crudo en el mundo. Sus movimientos influyen en los ingresos de las petroleras y en el precio de los combustibles."
+    },
+    {
+      "termino": "Vicio de trámite",
+      "definicion": "Error en el procedimiento que debe seguir una ley o un proyecto en el Congreso, por ejemplo cuando la Cámara y el Senado aprueban textos distintos y no los concilian. Puede hacer que la norma no quede aprobada o que sea demandada. Para quien invierte importa porque genera incertidumbre sobre reglas fiscales y de gasto."
+    },
+    {
+      "termino": "Adición presupuestal",
+      "definicion": "Aumento del presupuesto de un año que ya está en ejecución, aprobado por el Congreso para cubrir gastos que no estaban previstos. Si no viene con nuevos ingresos, puede aumentar el déficit y la necesidad de endeudamiento del Gobierno, algo que siguen de cerca los inversionistas en TES."
+    },
+    {
+      "termino": "Bovespa",
+      "definicion": "Principal índice de la bolsa de Brasil (B3), que agrupa las acciones más negociadas del país. Es el termómetro del mercado accionario brasileño, el más grande de América Latina, y lo siguen los fondos y ETF que invierten en la región."
+    },
+    {
+      "termino": "Dólar mayorista",
+      "definicion": "En Argentina, el precio del dólar en el mercado oficial entre bancos y grandes operadores, donde interviene el banco central. Es la referencia para el comercio exterior y difiere de las cotizaciones minoristas y de los dólares financieros, que pueden negociarse más caros."
+    },
+    {
+      "termino": "Segunda vuelta electoral",
+      "definicion": "Votación final entre los dos candidatos más votados cuando ninguno logra la mayoría exigida en la primera ronda. En economías grandes suele mover la moneda, la bolsa y los bonos, porque define el rumbo de la política económica de los años siguientes."
     }
   ]
 }

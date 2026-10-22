@@ -1,6 +1,346 @@
 {
-  "actualizado": "21 oct 2026, 7:05 a. m. (hora Bogotá)",
+  "actualizado": "22 oct 2026, 7:06 a. m. (hora Bogotá)",
   "notas": [
+    {
+      "id": "2026-10-22-01",
+      "fecha": "2026-10-22",
+      "categoria": "politica",
+      "puntaje": {
+        "total": 8,
+        "alcance": 2,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "El Presupuesto de 2027 saldrá por decreto por $634,9 billones tras un error en el Congreso",
+      "resumen": "El Gobierno confirmó que expedirá por decreto el Presupuesto General de la Nación de 2027, por $634,9 billones, después de detectar un vicio de trámite en su aprobación. Quedan por fuera los cambios aprobados en segundo debate.",
+      "contexto": "Según el vicepresidente José Manuel Restrepo, la Cámara y el Senado aprobaron textos distintos en un artículo y no los conciliaron, por lo que rige el proyecto con las modificaciones de primer debate, como dispone el artículo 59 del Estatuto Orgánico del Presupuesto. El monto total no cambia, pero se caen, entre otros, $3 billones adicionales para salud y una reducción de casi $11 billones en el servicio de la deuda que se compensaba con más inversión. El servicio de la deuda queda en $155 billones, el funcionamiento en $392,6 billones y la inversión en $86 billones. Es la tercera vez desde 1991 que el presupuesto se expide por decreto; la oposición evalúa pedir su nulidad ante el Consejo de Estado.",
+      "afectados": [
+        "Finanzas públicas",
+        "TES",
+        "Sector salud",
+        "Congreso"
+      ],
+      "peso_alcista": 40,
+      "alcista": "El monto total del gasto queda igual al aprobado en primer debate, de modo que el decreto no aumenta el tamaño del presupuesto. Se conserva la asignación completa para el pago de la deuda, lo que reduce dudas sobre el cumplimiento de las obligaciones del Gobierno con quienes tienen TES. Además, se despeja la incertidumbre inmediata: el país tendrá presupuesto vigente para 2027.",
+      "bajista": "Que el presupuesto salga por decreto por segunda vez en tres años refleja dificultades del Gobierno para tramitar sus cuentas en el Congreso, algo que los inversionistas leen como un riesgo de gobernabilidad fiscal. Los sectores excluidos, como salud, buscarán recuperar recursos con adiciones y traslados, lo que puede presionar el gasto. Además, la posible demanda ante el Consejo de Estado mantiene abierta la incertidumbre jurídica.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista, porque el episodio suma ruido a unas finanzas públicas que ya preocupan al mercado, aunque el monto total no cambie. Para tu portafolio, el canal principal es la percepción de riesgo fiscal, que se refleja en las tasas de los TES y en el peso.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "La incertidumbre fiscal tiende a exigir tasas más altas a los TES, lo que baja el precio de los que ya están en el portafolio."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "Si el ruido fiscal debilita al peso, tus inversiones en dólares valen más en pesos; si el mercado se calma, el efecto se diluye."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "Si la oposición presenta la demanda ante el Consejo de Estado y si el Gobierno tramita adiciones para recuperar los recursos excluidos.",
+      "terminos": [
+        "Presupuesto General de la Nación",
+        "Vicio de trámite",
+        "Servicio de la deuda",
+        "TES"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/por-tercera-vez-desde-1991-se-expedira-el-presupuesto-general-de-la-nacion-via-decreto-4508176"
+    },
+    {
+      "id": "2026-10-22-02",
+      "fecha": "2026-10-22",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 8,
+        "alcance": 2,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "El dólar sube a $3.189,50 en Colombia por la cautela fiscal tras el Presupuesto",
+      "resumen": "El dólar cerró el miércoles en $3.189,50, $15,50 más que el martes, después de tocar un máximo de $3.202 en la jornada. Los analistas atribuyen el límite a las ganancias del peso a la percepción fiscal tras la aprobación del Presupuesto de 2027.",
+      "contexto": "Acciones & Valores señaló que el repunte del petróleo y el diferencial de tasas favorecen al peso, pero que la sensibilidad fiscal limita su avance. El Brent cerró con una leve baja de 0,08% en US$108,70, tras tocar cerca de US$111, y el índice DXY se mantuvo en 101,68. En los TES, el de 2028 bajó a 12,479%, mientras que los de 2033 y 2050 subieron a 12,955% y 13,028%. En la región, el peso mexicano se debilitó y el real brasileño se mantuvo estable.",
+      "afectados": [
+        "Peso colombiano",
+        "TES",
+        "Importadores",
+        "Exportadores"
+      ],
+      "peso_alcista": 45,
+      "alcista": "El petróleo sigue por encima de US$100 y el diferencial de tasas con Estados Unidos sigue siendo amplio, dos factores que atraen dólares al país y sostienen al peso. El movimiento del día fue contenido y sin una dirección clara, por lo que no muestra una salida de capitales. La baja en la tasa del TES de 2028 indica que el tramo corto de la deuda pública no se vio presionado.",
+      "bajista": "La subida de las tasas de los TES de 2033 y 2050 indica que el mercado exige más por prestarle al Gobierno a largo plazo, en línea con la cautela fiscal. Si la preocupación por las cuentas públicas aumenta, el peso puede perder parte de lo ganado en el año. Un dólar más caro encarece las importaciones y puede presionar la inflación.",
+      "impacto": {
+        "conclusion": "Pesa un poco más la lectura bajista, porque la preocupación fiscal ya se ve en las tasas de largo plazo de los TES y frena al peso pese al buen precio del petróleo. Para tu portafolio, el efecto se concentra en los TES largos y en el valor en pesos de tus inversiones en dólares.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "mixto",
+            "detalle": "El TES de 2028 se valorizó, pero los de 2033 y 2050 perdieron precio al subir sus tasas."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "positivo",
+            "detalle": "Con un dólar más alto, tus ahorros e inversiones en dólares valen más en pesos."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La reacción del dólar y de los TES a la expedición del Presupuesto de 2027 por decreto.",
+      "terminos": [
+        "TES",
+        "Índice DXY",
+        "Brent"
+      ],
+      "fuente": "Valora Analitik",
+      "url": "https://www.valoraanalitik.com/dolar-en-colombia-volvio-a-subir-y-supero-los-3-200-cerro-al-alza-en-medio-de-cautela-fiscal/"
+    },
+    {
+      "id": "2026-10-22-03",
+      "fecha": "2026-10-22",
+      "categoria": "politica",
+      "puntaje": {
+        "total": 5,
+        "alcance": 2,
+        "materialidad": 2,
+        "novedad": 1,
+        "fuente": 0
+      },
+      "titulo": "Hacienda pide al Congreso $1,2 billones más en 2026 para subsidios de energía",
+      "resumen": "El Ministerio de Hacienda pidió al Congreso aprobar una adición de $1,2 billones al Presupuesto de 2026 para pagar subsidios eléctricos. El objetivo declarado es evitar un apagón.",
+      "contexto": "La solicitud ya fue presentada y depende de la aprobación del Congreso; la fuente no detalla de dónde saldrían los recursos. El ministro Miguel Gómez dijo que el sector energético necesita grandes inversiones, estabilidad regulatoria y continuidad en las políticas, y que debe incentivarse la exploración de petróleo y gas para recuperar la capacidad de producir gas y reducir las importaciones.",
+      "afectados": [
+        "Empresas de energía",
+        "Finanzas públicas",
+        "TES"
+      ],
+      "peso_alcista": 55,
+      "alcista": "Los recursos permitirían pagar subsidios que las empresas de energía tienen pendientes, lo que alivia su caja y reduce el riesgo de interrupciones en el servicio. Para las empresas del sector listadas en bolsa, una menor cartera por cobrar al Estado mejora su liquidez. El mensaje del ministro a favor de la exploración de gas y de la estabilidad regulatoria es positivo para el sector.",
+      "bajista": "Una adición sin una fuente de financiación explícita puede aumentar el gasto en un año en el que las cuentas públicas ya están presionadas. Eso tiende a elevar las necesidades de endeudamiento y las tasas que pide el mercado a los TES. Además, la solicitud muestra que el riesgo de abastecimiento eléctrico sigue presente.",
+      "impacto": {
+        "conclusion": "Pesa ligeramente la lectura alcista, porque el pago de subsidios reduce un riesgo concreto para el sector eléctrico, aunque el costo fiscal sea un punto en contra. Para tu portafolio, el efecto es moderado y depende de que el Congreso apruebe la adición y de cómo se financie.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "positivo",
+            "detalle": "Las empresas de energía listadas se benefician si reciben a tiempo los recursos de los subsidios."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "Más gasto sin financiación explícita puede presionar al alza las tasas de los TES."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "Si el Congreso aprueba la adición y con qué recursos se financia.",
+      "terminos": [
+        "Adición presupuestal",
+        "Presupuesto General de la Nación"
+      ],
+      "fuente": "Valora Analitik",
+      "url": "https://www.valoraanalitik.com/ministerio-de-hacienda-pide-adicionar-12-billones-al-presupuesto-para-subsidios-de-energia/"
+    },
+    {
+      "id": "2026-10-22-04",
+      "fecha": "2026-10-22",
+      "categoria": "region",
+      "pais": "México",
+      "puntaje": {
+        "total": 7,
+        "alcance": 1,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "El peso mexicano cae 1,32% y es la moneda más depreciada del mundo en la jornada",
+      "resumen": "El peso mexicano cerró el 21 de octubre en 18,67 por dólar, con una caída de 1,32% según datos de Banxico, la mayor entre todas las monedas del mundo en la sesión.",
+      "contexto": "Los analistas lo atribuyen al nerviosismo por la guerra en Irán, a la expectativa de un alza de 25 puntos básicos de la Reserva Federal en diciembre y al desmonte de operaciones de carry trade, porque el diferencial de tasas entre México y EE. UU. se ha reducido. Detrás quedaron el peso chileno (0,55%) y el colombiano (0,51%). México es la segunda economía de América Latina y uno de los mercados con más peso en los fondos regionales que se compran desde Colombia.",
+      "afectados": [
+        "Peso mexicano",
+        "Fondos de América Latina",
+        "Bonos de México"
+      ],
+      "peso_alcista": 35,
+      "alcista": "Según la encuesta Citi citada por la fuente, los analistas esperan que Banxico mantenga su tasa estable en 2026 y 2027, lo que conserva un rendimiento alto para los bonos mexicanos. Un peso más barato también mejora la competitividad de los exportadores mexicanos.",
+      "bajista": "La salida de operaciones de carry trade puede continuar si la Reserva Federal sube su tasa en diciembre y el diferencial se sigue estrechando. Las monedas de la región, incluido el peso colombiano, también se debilitaron, lo que muestra un contagio regional. Para quien tiene inversiones en México medidas en pesos colombianos, la caída de la moneda reduce su valor.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista, porque la caída responde a un factor que puede persistir: el estrechamiento del diferencial de tasas con EE. UU. Para tu portafolio, el efecto principal está en las inversiones en México o en fondos regionales, que pierden valor cuando el peso mexicano se debilita.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "negativo",
+            "detalle": "Las inversiones en activos mexicanos o fondos regionales pierden valor si el peso mexicano sigue cayendo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La reunión de diciembre de la Reserva Federal y su efecto sobre el diferencial de tasas con México.",
+      "terminos": [
+        "Carry trade",
+        "Reserva Federal",
+        "Puntos básicos"
+      ],
+      "fuente": "El Financiero",
+      "url": "https://www.elfinanciero.com.mx/mercados/2026/10/21/peso-dolar-tipo-de-cambio-precio-hoy-21-de-octubre-de-2026/"
+    },
+    {
+      "id": "2026-10-22-05",
+      "fecha": "2026-10-22",
+      "categoria": "region",
+      "pais": "Argentina",
+      "puntaje": {
+        "total": 7,
+        "alcance": 1,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Argentina suma 17 jornadas de compras de dólares y sus reservas superan US$50.000 millones",
+      "resumen": "El Banco Central de Argentina compró US$46 millones el 21 de octubre, su jornada compradora número 17 seguida, y acumula US$1.149 millones en octubre. Las reservas brutas llegaron a US$50.225 millones.",
+      "contexto": "El dólar mayorista cerró en $1.526, un nuevo máximo nominal, con un alza de 4,9% en lo que va del año. El superávit comercial de septiembre fue de US$2.976 millones, el mayor para ese mes, y en nueve meses suma US$21.198 millones, frente a US$6.046 millones en el mismo periodo de 2025. El Tesoro también hizo un canje que aplazó vencimientos de deuda de fines de octubre. Argentina es una de las tres economías grandes de la región y sus activos están en varios fondos regionales.",
+      "afectados": [
+        "Peso argentino",
+        "Reservas del BCRA",
+        "Bonos argentinos"
+      ],
+      "peso_alcista": 60,
+      "alcista": "La racha de compras y unas reservas por encima de US$50.000 millones fortalecen la capacidad del banco central para pagar deuda y enfrentar choques. El superávit comercial récord muestra una entrada de dólares que respalda esa acumulación. El canje de deuda también alivia los vencimientos de corto plazo del Tesoro.",
+      "bajista": "El dólar mayorista sigue marcando máximos nominales, lo que significa que el peso argentino continúa perdiendo valor. La brecha de más de 7% con el contado con liquidación indica que persisten tensiones cambiarias. Para quien invierte desde Colombia, la depreciación del peso argentino resta rentabilidad a los activos en esa moneda.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura alcista, porque la acumulación de reservas y el superávit comercial reducen el riesgo de una crisis de pagos. Para tu portafolio, el efecto se limita a quienes tienen activos argentinos, en los que la mejora de reservas compite con la depreciación gradual del peso.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "Más reservas apoyan a los activos argentinos, pero la depreciación del peso reduce su rendimiento medido en pesos colombianos."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "Si el banco central mantiene la racha de compras y si las reservas se sostienen por encima de US$50.000 millones.",
+      "terminos": [
+        "Dólar mayorista",
+        "Reservas internacionales",
+        "Balanza comercial"
+      ],
+      "fuente": "Ámbito",
+      "url": "https://www.ambito.com/finanzas/el-dolar-oficial-alcanzo-un-nuevo-record-nominal-pero-el-mercado-pone-la-lupa-las-reservas-del-bcra-n6336622"
+    },
+    {
+      "id": "2026-10-22-06",
+      "fecha": "2026-10-22",
+      "categoria": "region",
+      "pais": "Brasil",
+      "puntaje": {
+        "total": 6,
+        "alcance": 1,
+        "materialidad": 3,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "Brasil llega a la segunda vuelta del domingo con Bolsonaro y Lula casi empatados",
+      "resumen": "Una encuesta de Quaest dio 45% a Flávio Bolsonaro y 44% a Luiz Inácio Lula da Silva para la segunda vuelta presidencial del 25 de octubre. Tras el sondeo, el Bovespa perdió impulso y cerró con una baja de 0,32%.",
+      "contexto": "La ventaja de Bolsonaro se redujo frente al 46% contra 44% de la semana anterior; Bolsonaro ganó la primera vuelta pese a que la mayoría de las encuestas favorecían a Lula. El Bovespa llegó a superar los 209.000 puntos en la apertura y terminó en 207.623, después de subir más de 1% el día anterior con entradas de inversionistas extranjeros. El real se mantuvo estable en 5,026 por dólar. Brasil es la mayor economía de la región y tiene el mayor peso en los fondos de América Latina.",
+      "afectados": [
+        "Real brasileño",
+        "Bovespa",
+        "Fondos de América Latina"
+      ],
+      "peso_alcista": 45,
+      "alcista": "El real se mantuvo estable y el día anterior hubo entradas de inversionistas extranjeros, lo que indica que el mercado no anticipa un choque fuerte. Despejar la incertidumbre electoral el domingo, con cualquier resultado, suele reducir la volatilidad de los activos brasileños. La bolsa venía de subir con fuerza antes de la encuesta.",
+      "bajista": "Una contienda muy cerrada mantiene alta la incertidumbre sobre la política económica de los próximos años, y la bolsa ya reaccionó a la baja tras el sondeo. Si el resultado sorprende al mercado, el real y las acciones brasileñas pueden moverse con fuerza. Para quien invierte desde Colombia en fondos regionales, Brasil es el componente de mayor peso.",
+      "impacto": {
+        "conclusion": "Pesa un poco más la lectura bajista, porque el empate técnico deja abierta una fuente de volatilidad hasta el domingo. Para tu portafolio, el efecto está en los fondos y ETF de Brasil o de América Latina, que pueden moverse con fuerza según el resultado.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "Los fondos con acciones brasileñas pueden subir o bajar con fuerza según el resultado de la elección."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "El resultado de la segunda vuelta del domingo 25 de octubre y la reacción del real y el Bovespa el lunes.",
+      "terminos": [
+        "Segunda vuelta electoral",
+        "Bovespa"
+      ],
+      "fuente": "Reuters vía MarketScreener",
+      "url": "https://es.marketscreener.com/noticias/activos-en-brasil-atentos-a-balotaje-peso-mexicano-cae-con-fuerza-ce785cd9da88ff26"
+    },
     {
       "id": "2026-10-21-01",
       "fecha": "2026-10-21",
