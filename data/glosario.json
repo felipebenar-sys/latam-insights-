@@ -539,6 +539,30 @@
     {
       "termino": "Segunda vuelta electoral",
       "definicion": "Votación final entre los dos candidatos más votados cuando ninguno logra la mayoría exigida en la primera ronda. En economías grandes suele mover la moneda, la bolsa y los bonos, porque define el rumbo de la política económica de los años siguientes."
+    },
+    {
+      "termino": "Regla fiscal",
+      "definicion": "Norma que fija límites al déficit y a la deuda del Gobierno para que las finanzas públicas sean sostenibles. Cuando el Gobierno se aleja de esos límites, los inversionistas suelen exigir tasas más altas para prestarle, lo que afecta el precio de los TES y el costo del crédito."
+    },
+    {
+      "termino": "Comité Autónomo de la Regla Fiscal (CARF)",
+      "definicion": "Organismo técnico e independiente que vigila el cumplimiento de la regla fiscal en Colombia y publica informes sobre el déficit, la deuda y el recaudo. Sus alertas son una referencia para los inversionistas que evalúan el riesgo de la deuda pública."
+    },
+    {
+      "termino": "Diferencial de tasas",
+      "definicion": "Diferencia entre las tasas de interés de dos países o de dos instrumentos. Un diferencial amplio atrae capitales que buscan mayor rendimiento y puede fortalecer la moneda local; si se reduce, esos capitales pueden salir y la moneda tiende a debilitarse."
+    },
+    {
+      "termino": "Escisión",
+      "definicion": "Operación por la que una empresa separa una parte de sus activos, pasivos o negocios y los traslada a otra sociedad, nueva o existente. Se usa para reorganizar grupos empresariales o aislar negocios con problemas, y puede cambiar el riesgo que asumen sus accionistas y acreedores."
+    },
+    {
+      "termino": "Empate técnico",
+      "definicion": "Situación de una encuesta electoral en la que la diferencia entre dos candidatos es menor que el margen de error, por lo que no se puede afirmar quién va adelante. En los mercados suele aumentar la incertidumbre y la volatilidad de la moneda y de la bolsa."
+    },
+    {
+      "termino": "Comercializadora de energía",
+      "definicion": "Empresa que compra energía a los generadores, en contratos o en la bolsa, y la vende a los usuarios finales. Si compra caro en la bolsa y no puede trasladar ese costo, su caja se deteriora y puede necesitar apoyo de sus dueños."
     }
   ]
 }

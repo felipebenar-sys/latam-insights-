@@ -1,6 +1,410 @@
 {
-  "actualizado": "22 oct 2026, 7:06 a. m. (hora Bogotá)",
+  "actualizado": "23 oct 2026, 7:11 a. m. (hora Bogotá)",
   "notas": [
+    {
+      "id": "2026-10-23-01",
+      "fecha": "2026-10-23",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 9,
+        "alcance": 3,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "El déficit del Gobierno llega a 4,7% del PIB a agosto y los intereses pesan más",
+      "resumen": "Según el informe de seguimiento del CARF, el déficit del Gobierno Nacional Central sumó 4,7% del PIB entre enero y agosto, 0,7 puntos más que a julio, y el pago de intereses equivale ya a 27,8% del recaudo tributario.",
+      "contexto": "Ese peso de los intereses supera el promedio histórico de 24,4%. Sin contar los recursos extraordinarios de la emergencia, el recaudo creció 3,9% nominal pero cayó 2,2% en términos reales; el impuesto al patrimonio aportó $5,3 billones frente a $7 billones presupuestados. Las tasas de los TES en pesos subieron en promedio 26 puntos básicos en septiembre frente al cierre de agosto, y la caja del Tesoro cerró septiembre en $22,9 billones, por debajo del promedio de $26,6 billones desde 2014.",
+      "afectados": [
+        "TES",
+        "Finanzas públicas",
+        "Peso colombiano",
+        "Tasas de interés"
+      ],
+      "peso_alcista": 30,
+      "alcista": "El recaudo neto total, incluidos los recursos de la emergencia, creció 9,2% frente a 2025 y el 4x1000 subió 13% real, lo que muestra que algunas fuentes de ingreso responden. La ejecución del presupuesto a septiembre fue mayor que la de 2025, lo que puede sostener la actividad económica. Para quien ahorra en pesos, unas tasas más altas en los TES se traducen en mejores rendimientos para el dinero nuevo.",
+      "bajista": "El déficit se amplía y los intereses absorben una parte creciente del recaudo, lo que reduce el margen del Gobierno para invertir. El recaudo real sin recursos extraordinarios cae, de modo que la mejora depende de ingresos que no se repiten. La subida de 26 puntos básicos en las tasas de los TES en septiembre indica que el mercado ya exige más por financiar al Gobierno, lo que baja el precio de los bonos que ya están en los portafolios.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista, porque el informe muestra un deterioro en el déficit, en el costo de la deuda y en el recaudo real al mismo tiempo. Para tu portafolio, la presión se concentra en la deuda pública: mientras el mercado exija tasas más altas, los TES ya comprados pierden precio y los CDT nuevos ofrecen mejores rendimientos.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "Un déficit mayor eleva las tasas que exige el mercado y baja el precio de los TES en el portafolio."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "El mayor riesgo fiscal puede debilitar el peso, pero la compra de TES por extranjeros lo ha sostenido."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "positivo",
+            "detalle": "Tasas más altas en la deuda pública se reflejan en mejores rendimientos para CDT nuevos."
+          }
+        ]
+      },
+      "mirar": "El cierre fiscal de septiembre y si el Gobierno presenta la ley de ajuste anunciada para corregir el déficit.",
+      "terminos": [
+        "Comité Autónomo de la Regla Fiscal (CARF)",
+        "Déficit primario",
+        "TES",
+        "Puntos básicos",
+        "4x1000"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/deficit-fiscal-llego-a-4-7-del-pib-a-agosto-y-los-intereses-consumen-28-del-recaudo-tributario-4508903"
+    },
+    {
+      "id": "2026-10-23-02",
+      "fecha": "2026-10-23",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 8,
+        "alcance": 3,
+        "materialidad": 3,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "Villar advierte que el déficit dificulta bajar las tasas y fortalece al peso",
+      "resumen": "El gerente del Banco de la República, Leonardo Villar, dijo en el congreso de Camacol que el alto déficit fiscal genera presiones inflacionarias que hacen más difícil reducir las tasas de interés y que los flujos ligados a la financiación del Gobierno han apreciado el peso.",
+      "contexto": "Villar señaló que el déficit primario pasó de casi cero en 2023 a cerca de 3,5% del PIB en 2025 y 2026, y que las importaciones en dólares crecieron alrededor de 31% anual en agosto. La inflación, que había bajado a 4,8% a mediados de 2025, volvió a 6,3%, y la tasa del Emisor subió 255 puntos básicos en el primer semestre de 2026 y otros 25 después, hasta 12,25%. Estimó que el déficit podría llegar a 9,4% del PIB este año antes de los ajustes anunciados y a 7,1%–7,2% el próximo.",
+      "afectados": [
+        "Tasa de interés",
+        "Peso colombiano",
+        "TES",
+        "Crédito hipotecario"
+      ],
+      "peso_alcista": 35,
+      "alcista": "La apreciación del peso abarata las importaciones y ayuda a contener la inflación por esa vía. La compra de TES por parte de inversionistas extranjeros muestra que todavía hay apetito por la deuda colombiana. Para quien ahorra en pesos, unas tasas que se mantienen altas por más tiempo sostienen los rendimientos de CDT y cuentas de ahorro.",
+      "bajista": "Si el déficit sigue alto, las tasas del Emisor tardarían más en bajar, lo que encarece el crédito de hogares y empresas, incluido el hipotecario. Las tasas de los TES de largo plazo se mantienen presionadas, lo que afecta el precio de esos bonos. Un peso apreciado reduce los ingresos en pesos de los exportadores y le resta competitividad a la producción nacional frente a las importaciones.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista: el mensaje del Emisor es que la política fiscal limita el espacio para bajar tasas. Para tu portafolio, eso significa tasas altas por más tiempo, que favorecen al ahorro en pesos y presionan a los bonos de largo plazo y a las inversiones en dólares medidas en pesos.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "Tasas altas por más tiempo mantienen presionado el precio de los TES de largo plazo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "negativo",
+            "detalle": "La apreciación del peso reduce el valor en pesos de las inversiones en dólares."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "positivo",
+            "detalle": "Tasas altas por más tiempo sostienen los rendimientos de CDT y ahorro en pesos."
+          }
+        ]
+      },
+      "mirar": "La próxima reunión de la junta del Banco de la República y el dato de inflación de octubre del DANE.",
+      "terminos": [
+        "Déficit primario",
+        "Tasa de política monetaria",
+        "Revaluación del peso",
+        "Expectativas de inflación",
+        "Diferencial de tasas"
+      ],
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/colombia/2026/10/23/banco-de-la-republica-mostro-precupacion-por-creditos-dolar-y-tasas-de-interes-ante-el-deficit-fiscal-del-gobierno-nacional/"
+    },
+    {
+      "id": "2026-10-23-03",
+      "fecha": "2026-10-23",
+      "categoria": "commodities",
+      "puntaje": {
+        "total": 8,
+        "alcance": 2,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "El Brent sube a su nivel más alto en cinco meses por ataques en Arabia Saudí",
+      "resumen": "El petróleo Brent subió el 22 de octubre por encima de US$111 por barril, su máximo en cinco meses, tras ataques con drones contra instalaciones en el este de Arabia Saudí.",
+      "contexto": "Un ataque contra el yacimiento Shaybah de Saudi Aramco dejó dos muertos sin afectar la operación, y otro alcanzó el aeropuerto de Dammam; Estados Unidos ordenó la salida de parte del personal de sus embajadas en el reino. El WTI se acercó a US$99. El Brent acumula un alza de más de 80% en 2026, en medio de la guerra entre Estados Unidos e Irán, que se acerca a su noveno mes, y de los ataques a buques en el estrecho de Ormuz.",
+      "afectados": [
+        "Ecopetrol",
+        "Petroleras",
+        "Peso colombiano",
+        "Combustibles"
+      ],
+      "peso_alcista": 60,
+      "alcista": "Un Brent alto aumenta los ingresos de Ecopetrol y de las petroleras que operan en Colombia, y con ellos los dividendos y las regalías que recibe el Estado. Más dólares por exportaciones de crudo tienden a sostener al peso. Para un Gobierno con déficit alto, los mayores ingresos petroleros son un alivio parcial.",
+      "bajista": "El alza responde a un riesgo de guerra que también genera aversión al riesgo en los mercados emergentes. El encarecimiento de los derivados, en especial el diésel, presiona los costos de transporte y la inflación, lo que puede mantener altas las tasas de interés. Si el conflicto se modera, la prima de riesgo en el precio podría desaparecer con rapidez.",
+      "impacto": {
+        "conclusion": "Pesa un poco más la lectura alcista para el mercado colombiano, por el efecto directo en los ingresos de Ecopetrol y en la entrada de dólares. Para tu portafolio, favorece a las acciones petroleras y tiende a apoyar al peso, aunque el origen bélico del alza hace que el movimiento sea volátil.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "positivo",
+            "detalle": "Mejora las perspectivas de ingresos de Ecopetrol y otras petroleras listadas."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "negativo",
+            "detalle": "Más ingresos por exportaciones de crudo tienden a fortalecer el peso y restar valor en pesos a las inversiones en dólares."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La evolución de los ataques en el Golfo Pérsico y los planes de Estados Unidos e Israel frente a Irán tras las elecciones de mitad de mandato.",
+      "terminos": [
+        "Brent",
+        "WTI",
+        "Estrecho de Ormuz",
+        "Regalías"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/barril-brent-sigue-arriba-de-us-111-por-ataques-a-arabia-y-presiones-de-oferta-4508427"
+    },
+    {
+      "id": "2026-10-23-04",
+      "fecha": "2026-10-23",
+      "categoria": "sectores",
+      "puntaje": {
+        "total": 5,
+        "alcance": 1,
+        "materialidad": 2,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "EPM dice que Afinia necesita unos $800.000 millones antes de terminar 2026",
+      "resumen": "El gerente de EPM, John Maya Salazar, calificó a Afinia como el peor negocio de la historia de la empresa y dijo que la comercializadora requiere cerca de $800.000 millones antes de fin de año para cumplir sus pagos a los generadores.",
+      "contexto": "Según el gerente, EPM ha transferido unos $1,5 billones a Afinia en el último año y la filial tendría un déficit de caja cercano a $1 billón anual, agravado por las compras de energía cara en bolsa durante El Niño. Afinia, comprada en 2020, atiende 35 municipios de Cesar, Magdalena y el sur de Bolívar; en agosto EPM completó una escisión que creó Energía Atenea. EPM, la Alcaldía de Medellín y el Gobierno evalúan vender o ceder la participación, que otro actor asuma el control o una capitalización conjunta.",
+      "afectados": [
+        "EPM",
+        "Bonos de EPM",
+        "Sector eléctrico",
+        "Usuarios del Caribe"
+      ],
+      "peso_alcista": 35,
+      "alcista": "Que EPM, Medellín y el Gobierno discutan una salida, incluida una capitalización conjunta, abre la posibilidad de que EPM deje de cargar sola con las pérdidas. La escisión de agosto ya separó parte de la operación. Una solución definitiva reduciría la incertidumbre sobre la caja del grupo.",
+      "bajista": "Las transferencias a Afinia ya suman alrededor de $1,5 billones y la necesidad de otros $800.000 millones en pocas semanas presiona la liquidez de EPM, uno de los mayores emisores de bonos del país. El Niño mantiene altos los precios de la energía en bolsa, lo que puede ampliar el déficit. Sin acuerdo pronto, existe el riesgo de impagos a generadores en la región.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista, porque las cifras muestran una necesidad de caja inmediata y todavía no hay una solución definida. Para tu portafolio, el efecto se concentra en los bonos de EPM, cuyo riesgo percibido aumenta mientras no se resuelva el futuro de Afinia.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "La presión sobre la caja de EPM puede elevar el riesgo percibido de sus bonos."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La decisión de EPM, la Alcaldía de Medellín y el Gobierno sobre el futuro accionario de Afinia antes de fin de año.",
+      "terminos": [
+        "Comercializadora de energía",
+        "Escisión",
+        "Precio de bolsa de energía",
+        "Fenómeno de El Niño"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/afinia-ha-sido-el-peor-negocio-en-la-historia-de-epm-john-maya-salazar-gerente-de-epm-4508838"
+    },
+    {
+      "id": "2026-10-23-05",
+      "fecha": "2026-10-23",
+      "categoria": "region",
+      "pais": "México",
+      "puntaje": {
+        "total": 7,
+        "alcance": 1,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Inflación en México sube más de lo esperado y el peso toca su peor nivel desde 2025",
+      "resumen": "El Inegi publicó la inflación de la primera quincena de octubre, con un alza general algo mayor a la prevista y un repunte inesperado de la inflación subyacente; antes del dato, el peso mexicano llegó a 18,855 por dólar, su nivel más débil desde septiembre de 2025.",
+      "contexto": "En la mañana del 22 de octubre el peso cotizaba cerca de 18,72 por dólar, con una baja de 0,27%. La fuente atribuye la presión a la fortaleza global del dólar, a la expectativa de otra subida de tasas en EE. UU. y al temor de que se reduzca el diferencial de tasas entre México y EE. UU. México es la segunda economía de América Latina y uno de los mercados con más peso en los fondos regionales que se compran desde Colombia.",
+      "afectados": [
+        "Peso mexicano",
+        "Banxico",
+        "Fondos de América Latina"
+      ],
+      "peso_alcista": 35,
+      "alcista": "Una inflación más alta de lo esperado reduce el espacio para que Banxico recorte tasas, lo que puede mantener atractivo el rendimiento de los bonos mexicanos y frenar la salida de capitales. Un peso más barato mejora la competitividad de los exportadores mexicanos. Para quien entra ahora, los activos mexicanos cuestan menos en dólares.",
+      "bajista": "El repunte de la inflación subyacente indica presiones de precios más persistentes. Si la Reserva Federal vuelve a subir su tasa, el diferencial con México se estrecha y la moneda puede seguir debilitándose. Para quien tiene inversiones en México medidas en pesos colombianos, la caída del peso mexicano reduce su valor.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista, porque la debilidad del peso mexicano responde a factores que pueden continuar: inflación más alta y un diferencial de tasas que se reduce. Para tu portafolio, el efecto principal está en las inversiones en México o en fondos regionales.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "negativo",
+            "detalle": "Las inversiones en activos mexicanos o fondos regionales pierden valor si el peso mexicano sigue débil."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La próxima decisión de tasa de Banxico y la inflación de la segunda quincena de octubre.",
+      "terminos": [
+        "Inflación básica",
+        "Diferencial de tasas",
+        "Reserva Federal"
+      ],
+      "fuente": "Excélsior",
+      "url": "https://www.excelsior.com.mx/finanzas/precio-dolar-hoy-tipo-cambio-bancos-mexico-22-octubre-2026"
+    },
+    {
+      "id": "2026-10-23-06",
+      "fecha": "2026-10-23",
+      "categoria": "region",
+      "pais": "Brasil",
+      "puntaje": {
+        "total": 6,
+        "alcance": 1,
+        "materialidad": 3,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "El real se debilita levemente con encuestas que muestran empate en la segunda vuelta",
+      "resumen": "El dólar cerró el 22 de octubre en R$5,0394 en Brasil, con un alza de 0,23%, en una jornada de aversión global al riesgo y con encuestas que muestran un empate técnico entre Flávio Bolsonaro y Lula para la segunda vuelta.",
+      "contexto": "La encuesta Indexa/Broadcast dio 45,2% a Flávio Bolsonaro y 44,1% a Lula, y la de PoderData 49% frente a 48%. Pese al alza del día, el dólar acumula una caída de 2,62% frente al real en octubre. Un economista citado por la fuente estima que una victoria de Flávio podría llevar el dólar hacia R$4,90–4,95 y una reelección de Lula hacia R$5,30 por temores fiscales. Brasil es la mayor economía de la región y el principal componente de los fondos latinoamericanos.",
+      "afectados": [
+        "Real brasileño",
+        "Bolsa de Brasil",
+        "Fondos de América Latina"
+      ],
+      "peso_alcista": 45,
+      "alcista": "El real todavía acumula una ganancia frente al dólar en octubre, lo que muestra que el mercado no ha reaccionado con pánico a la incertidumbre electoral. Si el resultado reduce los temores fiscales, la moneda podría fortalecerse según los escenarios citados. Para quien tiene inversiones en Brasil, un real más fuerte aumenta su valor medido en pesos.",
+      "bajista": "Con un empate técnico, la volatilidad del real puede aumentar en los días previos a la votación. Los escenarios citados por la fuente asocian uno de los resultados con un dólar más caro por temores fiscales. La aversión global al riesgo por el petróleo y por dudas sobre el crédito al sector de inteligencia artificial también pesa sobre las monedas emergentes.",
+      "impacto": {
+        "conclusion": "Las dos lecturas están cerca, con una ligera ventaja de la bajista por la incertidumbre de una elección muy reñida. Para tu portafolio, el efecto se concentra en las inversiones en Brasil o en fondos regionales, que pueden moverse con fuerza según el resultado electoral.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "Las inversiones en Brasil pueden ganar o perder valor en pesos según cómo reaccione el real a la elección."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "El resultado de la segunda vuelta presidencial en Brasil y la reacción del real.",
+      "terminos": [
+        "Segunda vuelta electoral",
+        "Empate técnico",
+        "Índice DXY"
+      ],
+      "fuente": "Diário do Grande ABC",
+      "url": "https://www.dgabc.com.br/Noticia/4354287/fechamento-cambio-dolar-tem-leve-alta-com-aversao-global-a-risco-e-tensao-eleitoral"
+    },
+    {
+      "id": "2026-10-23-07",
+      "fecha": "2026-10-23",
+      "categoria": "region",
+      "pais": "Argentina",
+      "puntaje": {
+        "total": 6,
+        "alcance": 1,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "El BCRA suma 18 jornadas de compras de dólares, pero sus reservas bajan",
+      "resumen": "El Banco Central de Argentina compró US$61 millones el 22 de octubre y acumuló 18 sesiones seguidas de compras, aunque sus reservas brutas cayeron US$59 millones, a US$50.166 millones.",
+      "contexto": "En octubre las compras suman US$1.210 millones, con un promedio diario de US$81 millones, unas cuatro veces el de septiembre; en lo que va de 2026 acumulan US$15.778 millones. El BCRA absorbió 11% del volumen negociado en el mercado de contado. La fuente no explica la causa de la baja en las reservas. Argentina es la tercera economía grande de la región y su riesgo país incide en el apetito por activos latinoamericanos.",
+      "afectados": [
+        "BCRA",
+        "Peso argentino",
+        "Bonos de Argentina"
+      ],
+      "peso_alcista": 60,
+      "alcista": "El ritmo de compras se aceleró con fuerza en octubre, lo que muestra que el banco central puede acumular dólares en el mercado. Unas compras sostenidas fortalecen la capacidad de Argentina para pagar su deuda en moneda extranjera, un factor que vigilan los inversionistas en bonos argentinos. Esa mejora puede apoyar la percepción de riesgo de la región.",
+      "bajista": "Pese a las compras, las reservas brutas bajaron en la jornada, lo que indica salidas que la fuente no detalla. La demanda privada de dólares como cobertura sigue activa, señal de que la confianza en el peso argentino no es plena. Si las reservas no crecen al ritmo de las compras, el beneficio para la solvencia externa será menor.",
+      "impacto": {
+        "conclusion": "Pesa algo más la lectura alcista, porque el volumen de compras de octubre es alto y sostenido, aunque la caída de las reservas limita la lectura. Para tu portafolio, el efecto se concentra en quien tiene bonos o fondos con exposición a Argentina.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "positivo",
+            "detalle": "Una mayor acumulación de dólares puede apoyar a los bonos y fondos con exposición a Argentina."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La evolución de las reservas brutas del BCRA en las próximas semanas.",
+      "terminos": [
+        "Reservas internacionales",
+        "Prima de riesgo país"
+      ],
+      "fuente": "Ámbito",
+      "url": "https://www.ambito.com/finanzas/el-bcra-acelero-las-compras-y-acumulo-mas-us200-millones-la-semana-pero-bajaron-las-reservas-n6336918"
+    },
     {
       "id": "2026-10-22-01",
       "fecha": "2026-10-22",
