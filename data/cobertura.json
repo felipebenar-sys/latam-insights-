@@ -1,5 +1,5 @@
 {
-  "actualizado": "18 oct 2026, 7:29 a. m. (hora Bogotá)",
+  "actualizado": "24 oct 2026, 6:56 a. m. (hora Bogotá)",
   "companias": [
     {
       "ticker": "MELI",
@@ -88,6 +88,63 @@
     }
   ],
   "notas": [
+    {
+      "id": "2026-10-24-c01",
+      "fecha": "2026-10-24",
+      "categoria": "latam",
+      "empresa": "NU",
+      "fecha_noticia": "2026-10-23",
+      "puntaje": {
+        "total": 5,
+        "alcance": 1,
+        "materialidad": 1,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Nu Holdings anuncia la salida de su director de tecnología, Eric Young",
+      "resumen": "Nu Holdings informó que su director de tecnología, Eric Young, renunciará para asumir una nueva oportunidad profesional y permanecerá en el cargo hasta el 12 de noviembre de 2026 para facilitar la transición.",
+      "contexto": "Mientras se busca un reemplazo permanente, el fundador, presidente y CEO David Vélez supervisará directamente el área de plataformas globales, con John Walton, director de seguridad de la información, como codirector interino. La compañía destacó los avances de Young en la integración de la inteligencia artificial en sus operaciones. Nu afirmó que el cambio no modifica sus prioridades estratégicas y que la tecnología y la inteligencia artificial siguen en el centro de su negocio. El aviso no incluye cifras financieras.",
+      "afectados": [
+        "Nu Holdings",
+        "Nubank",
+        "Banca digital"
+      ],
+      "peso_alcista": 45,
+      "alcista": "La compañía anunció una transición ordenada, con varias semanas de empalme y un responsable interino de alto nivel. Que el propio CEO asuma la supervisión de las plataformas indica que el área seguirá siendo prioritaria. Nu reiteró que su estrategia no cambia, lo que reduce la incertidumbre sobre sus planes de expansión.",
+      "bajista": "En un banco digital, la tecnología es el núcleo del negocio, y la salida de quien la lideraba introduce riesgo de ejecución. El reemplazo permanente aún no está definido, de modo que la transición puede prolongarse. Sumar responsabilidades al CEO puede restarle tiempo para otras prioridades, como la expansión internacional.",
+      "impacto": {
+        "conclusion": "Pesa algo más la lectura bajista, porque la salida del líder tecnológico de un banco digital abre un periodo de incertidumbre mientras se nombra un reemplazo, aunque la transición se anunció de forma ordenada. Para quien tiene la acción de Nu en Nueva York, el efecto esperado es acotado mientras no haya cambios en la estrategia.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "Para quien tiene acciones de Nu en NYSE, la salida suma incertidumbre, aunque la transición es ordenada y la estrategia se mantiene."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "El nombramiento del director de tecnología permanente y los resultados del tercer trimestre de Nu.",
+      "terminos": [
+        "Director de tecnología (CTO)",
+        "Gobierno corporativo"
+      ],
+      "fuente": "Business Wire (Nu Holdings)",
+      "url": "https://www.financialcontent.com/article/bizwire-2026-10-23-notice-to-market-nu-holdings-ltd"
+    },
     {
       "id": "2026-10-18-c01",
       "fecha": "2026-10-18",
