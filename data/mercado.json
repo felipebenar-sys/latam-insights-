@@ -1,8 +1,8 @@
 {
   "trm": {
-    "valor": 3185.01,
-    "vigente_desde": "2026-10-23",
-    "anterior": 3191.47,
+    "valor": 3158.43,
+    "vigente_desde": "2026-10-24",
+    "anterior": 3185.01,
     "fuente": "TRM vía La República"
   },
   "brent": {
@@ -12,9 +12,9 @@
     "fuente": "La República"
   },
   "colcap": {
-    "valor": 2560.52,
-    "cambio_pct": 1.06,
-    "fecha": "2026-10-21",
+    "valor": 2539.59,
+    "cambio_pct": 0.44,
+    "fecha": "2026-10-23",
     "fuente": "BVC vía La República"
   },
   "tasa_banrep": {
@@ -26,5 +26,5 @@
     "periodo": "sep 2026",
     "fuente": "DANE"
   },
-  "actualizado": "2026-10-23"
+  "actualizado": "2026-10-24"
 }

@@ -563,6 +563,22 @@
     {
       "termino": "Comercializadora de energía",
       "definicion": "Empresa que compra energía a los generadores, en contratos o en la bolsa, y la vende a los usuarios finales. Si compra caro en la bolsa y no puede trasladar ese costo, su caja se deteriora y puede necesitar apoyo de sus dueños."
+    },
+    {
+      "termino": "Ingreso anual permitido (RAP)",
+      "definicion": "Es el ingreso que el regulador de Brasil le reconoce cada año a una empresa de transmisión de energía por construir y operar sus líneas. Funciona como una renta regulada y predecible, por lo que da estabilidad a los flujos de caja de la empresa. No equivale a la utilidad, porque de ese ingreso salen los costos, los intereses y los impuestos."
+    },
+    {
+      "termino": "Banda cambiaria",
+      "definicion": "Es un rango con un piso y un techo dentro del cual un banco central deja que se mueva el precio del dólar. Si la cotización se acerca a uno de los límites, la autoridad puede intervenir comprando o vendiendo divisas. Para quien invierte, indica hasta dónde podría devaluarse o revaluarse la moneda sin que cambie la política oficial."
+    },
+    {
+      "termino": "IPCA",
+      "definicion": "Es el índice oficial de precios al consumidor de Brasil, que calcula el instituto de estadística IBGE y que usa el Banco Central do Brasil para su meta de inflación. El IPCA-15 es una versión preliminar que mide los precios durante un periodo de unos 30 días que termina a mediados del mes. Sus resultados influyen en las decisiones de tasa de interés y en el valor del real."
+    },
+    {
+      "termino": "Decreto de recorte presupuestal",
+      "definicion": "Es la norma con la que el Gobierno reduce o aplaza partidas del presupuesto ya aprobado, cuando los ingresos no alcanzan o necesita cumplir metas fiscales. Recorta lo que pueden gastar los ministerios y entidades durante el año. Para quien invierte, es una señal de disciplina fiscal que puede aliviar la deuda pública, aunque también puede frenar la inversión y la contratación del Estado."
     }
   ]
 }

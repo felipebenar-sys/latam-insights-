@@ -1,6 +1,409 @@
 {
-  "actualizado": "23 oct 2026, 7:11 a. m. (hora Bogotá)",
+  "actualizado": "24 oct 2026, 6:55 a. m. (hora Bogotá)",
   "notas": [
+    {
+      "id": "2026-10-24-01",
+      "fecha": "2026-10-24",
+      "categoria": "politica",
+      "puntaje": {
+        "total": 8,
+        "alcance": 2,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "El Gobierno recorta $13,8 billones del Presupuesto de 2026, $4 billones en deuda",
+      "resumen": "Hacienda expidió el Decreto 1585 de 2026, que reduce en más de $13,8 billones el presupuesto de este año: unos $4 billones salen del servicio de la deuda, cerca de $6,8 billones de contratación y unos $3 billones de funcionamiento.",
+      "contexto": "El ministro Miguel Gómez dijo que el recorte busca bajar el déficit fiscal de 8,2% a la meta de 7,2% del PIB y el déficit primario de 4,4% a 3,3%. Invías es la entidad con el mayor recorte, más de $1,44 billones, seguida por Aerocivil, la Registraduría y la Rama Judicial. El Consejo de Ministros había autorizado reducciones de hasta $21,9 billones, de modo que quedan unos $8,1 billones de margen para recortes adicionales. Según el CARF, el déficit ya llegaba a 4,6% del PIB a agosto y la deuda bruta a 60,6% del PIB.",
+      "afectados": [
+        "TES",
+        "Finanzas públicas",
+        "Infraestructura",
+        "Contratistas del Estado"
+      ],
+      "peso_alcista": 60,
+      "alcista": "El decreto es la primera medida concreta de ajuste del año y apunta a cerrar la brecha entre el déficit observado y la meta de 7,2% del PIB. Un menor gasto reduce las necesidades de financiamiento del Gobierno y, con ello, la presión para emitir más TES. Eso puede ayudar a contener las tasas de la deuda pública y la prima de riesgo país. Además, el Gobierno conserva margen para recortar unos $8,1 billones más si los ingresos no alcanzan.",
+      "bajista": "Cerca de la mitad del recorte recae en contratación, con Invías, Aerocivil y la ANI entre las entidades más afectadas, lo que puede frenar obras y pedidos a constructoras y proveedores del Estado. La reducción de $4 billones en el servicio de la deuda se explica por el tipo de cambio, no por un menor endeudamiento, así que no corrige el problema de fondo. Con intereses que absorben cerca de 28% del recaudo tributario, el ajuste puede resultar insuficiente para la meta de fin de año.",
+      "impacto": {
+        "conclusion": "Pesa algo más la lectura alcista, porque es una señal concreta de control del gasto en medio de un déficit que se ampliaba rápido. Para quien tiene renta fija, un Gobierno que gasta menos puede presionar menos las tasas de los TES. El costo recae sobre todo en la inversión pública y en las empresas que dependen de contratos del Estado.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "mixto",
+            "detalle": "Mejora la percepción fiscal, pero el menor gasto en infraestructura puede afectar a constructoras y proveedores del Estado."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "positivo",
+            "detalle": "Menos gasto reduce la necesidad de emitir deuda, lo que puede aliviar las tasas de los TES y sostener su precio."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "El cierre fiscal de septiembre y si el Gobierno usa el margen de unos $8,1 billones para nuevos recortes antes de fin de año.",
+      "terminos": [
+        "Decreto de recorte presupuestal",
+        "Presupuesto General de la Nación",
+        "Servicio de la deuda",
+        "Déficit primario",
+        "TES"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/gobierno-recorto-13-8-billones-al-presupuesto-general-de-la-nacion-de-2026-4509412"
+    },
+    {
+      "id": "2026-10-24-02",
+      "fecha": "2026-10-24",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 8,
+        "alcance": 2,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "El dólar cae $29 y cierra en $3.145; las tasas de los TES bajan en toda la curva",
+      "resumen": "El dólar cerró el viernes en $3.145 en Colombia, $29 menos que el jueves, y perforó el nivel de $3.150. Al mismo tiempo bajaron las tasas de los TES, con la referencia de 2036 en 12,922%.",
+      "contexto": "La divisa abrió en $3.172 y se movió entre $3.136 y $3.189, en una jornada marcada por una oferta constante de dólares. En el exterior, el índice DXY subió 0,21% y el Brent avanzó 3,04%, a US$116,61 por barril, por las tensiones en Medio Oriente. Los TES de 2033 pasaron de 13,033% a 12,920% y los de 2050 de 13,121% a 13,020%. La jornada coincidió con el anuncio del recorte de $13,8 billones al presupuesto.",
+      "afectados": [
+        "Peso colombiano",
+        "TES",
+        "Importadores",
+        "Exportadores"
+      ],
+      "peso_alcista": 60,
+      "alcista": "Un peso más fuerte abarata las importaciones y ayuda a moderar la inflación, que sigue lejos de la meta. La caída de las tasas de los TES en toda la curva valoriza los bonos que ya están en los portafolios. Si el ajuste fiscal gana credibilidad, el apetito por activos colombianos podría sostenerse. Un Brent alto también aporta más divisas por exportaciones petroleras.",
+      "bajista": "Para quien tiene ahorros o inversiones en dólares, la revaluación reduce su valor medido en pesos. Los exportadores no petroleros reciben menos pesos por cada dólar vendido. El movimiento depende en buena parte del petróleo y de la oferta de divisas, factores que pueden revertirse rápido. Además, las tasas de los TES siguen por encima de 12%, lo que refleja una prima de riesgo todavía alta.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura alcista para los activos en pesos: los TES se valorizaron y un dólar más bajo alivia la inflación importada. El efecto negativo se concentra en quien tiene ahorros o inversiones en dólares, que pierden valor en pesos.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "positivo",
+            "detalle": "Las tasas de los TES bajaron en toda la curva, lo que sube el precio de los bonos en el portafolio."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "negativo",
+            "detalle": "Con el dólar en $3.145, las inversiones en dólares o en el exterior valen menos en pesos."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La decisión de tasas del Banco de la República del 30 de octubre y la evolución del Brent.",
+      "terminos": [
+        "Revaluación del peso",
+        "TES",
+        "Índice DXY",
+        "Brent",
+        "Prima de riesgo país"
+      ],
+      "fuente": "Valora Analitik",
+      "url": "https://www.valoraanalitik.com/dolar-en-colombia-se-desploma-cierra-en-3-145-impulsado-por-el-repunte-del-brent/"
+    },
+    {
+      "id": "2026-10-24-03",
+      "fecha": "2026-10-24",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 7,
+        "alcance": 3,
+        "materialidad": 2,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "13 de 19 analistas esperan que el Banco de la República suba su tasa a 12,50%",
+      "resumen": "Una encuesta de ANIF a 19 entidades muestra que 13 esperan un alza de 25 puntos básicos, de 12,25% a 12,50%, en la junta del Banco de la República del 30 de octubre; las otras seis prevén que la tasa se mantenga.",
+      "contexto": "La encuesta mensual del Banco de la República también ubica la mediana en 12,50%. La inflación anual de septiembre fue 6,29%, 229 puntos básicos por encima del techo del rango meta de 2% a 4%, y los analistas esperan 6,38% en octubre y 6,8% al cierre de 2026. El escenario más probable para la votación es 5 a 2. ANIF señala como riesgos al alza de la inflación el fenómeno de El Niño, el salario mínimo de 2027 y las medidas de ajuste fiscal.",
+      "afectados": [
+        "Tasa de interés",
+        "CDT",
+        "TES",
+        "Bancos"
+      ],
+      "peso_alcista": 40,
+      "alcista": "Un alza de la tasa reforzaría el compromiso del Banco de la República con bajar la inflación y podría anclar las expectativas. Con inflación esperada de 5,2% al cierre de 2027, una política firme acelera la convergencia hacia la meta. Para el ahorrador en pesos, tasas más altas se traducen en mejores rendimientos en CDT y cuentas de ahorro. Además, el diferencial de tasas sostiene el atractivo del peso.",
+      "bajista": "Tasas más altas encarecen el crédito en una economía que ya se contrajo 0,04% anual en agosto, según el ISE. Eso pesa sobre el consumo, la inversión y las utilidades de las empresas listadas. Un alza también presiona las tasas de los TES y reduce el precio de los bonos en el portafolio. Seis de las 19 entidades esperan que la tasa se mantenga, así que la decisión no está asegurada.",
+      "impacto": {
+        "conclusion": "Pesa algo más la lectura bajista para acciones y bonos, porque un alza de tasas en plena desaceleración encarece el financiamiento y presiona los TES. El lado favorable lo concentran los CDT y el ahorro en pesos, que se benefician de tasas más altas.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Tasas más altas encarecen el crédito y pueden frenar el consumo y las utilidades empresariales."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "Si la tasa sube, las tasas de los TES tienden a subir y el precio de los bonos en el portafolio baja."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "positivo",
+            "detalle": "Una tasa de política más alta suele trasladarse a mejores rendimientos en CDT y ahorro."
+          }
+        ]
+      },
+      "mirar": "La decisión de la junta del Banco de la República del viernes 30 de octubre.",
+      "terminos": [
+        "Tasa de política monetaria",
+        "Puntos básicos",
+        "Meta de inflación",
+        "Expectativas de inflación",
+        "Indicador de Seguimiento a la Economía (ISE)"
+      ],
+      "fuente": "Valora Analitik",
+      "url": "https://www.valoraanalitik.com/mercado-da-por-hecho-una-tasa-del-1250-en-banrep-para-octubre/"
+    },
+    {
+      "id": "2026-10-24-04",
+      "fecha": "2026-10-24",
+      "categoria": "politica",
+      "puntaje": {
+        "total": 6,
+        "alcance": 2,
+        "materialidad": 2,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "El vicepresidente Restrepo plantea un ajuste fiscal de unos $70 billones para 2027",
+      "resumen": "El vicepresidente José Manuel Restrepo dijo que Colombia necesita en 2027 un ajuste fiscal de cerca de $70 billones, sin precisar qué partidas cubriría.",
+      "contexto": "El planteamiento llegó un día después del recorte de unos $14 billones al presupuesto de este año. Restrepo señaló que la deuda pública pasó de $800 billones a más de $1.200 billones en cuatro años, un aumento de 50%, y que el gasto mensual llegó a $40 billones frente a ingresos de entre $19 y $25 billones. Según él, el costo de financiamiento del Estado se duplicó y el déficit primario se cuadruplicó entre 2022 y 2025. El ajuste acompañaría una meta de crecimiento de 6%.",
+      "afectados": [
+        "Finanzas públicas",
+        "TES",
+        "Presupuesto 2027"
+      ],
+      "peso_alcista": 55,
+      "alcista": "Que el Gobierno dimensione un ajuste de esa magnitud indica que reconoce la gravedad del desbalance fiscal. Si se concreta, reduciría las necesidades de financiamiento y la presión sobre las tasas de los TES. Un compromiso creíble de corrección podría mejorar la percepción de riesgo del país. Eso favorecería a los activos colombianos en general.",
+      "bajista": "Es un planteamiento sin detalle de partidas, de modo que todavía no hay medidas concretas. Un ajuste de $70 billones puede requerir recortes profundos de gasto o más impuestos, lo que afectaría el consumo, la inversión y las utilidades de las empresas. Si el ajuste no se materializa, el mercado podría castigar la brecha entre el anuncio y los hechos. La meta de crecer 6% contrasta con una economía que hoy se desacelera.",
+      "impacto": {
+        "conclusion": "Pesa ligeramente la lectura alcista, porque el tamaño del ajuste planteado apunta a corregir las cuentas públicas, aunque falta conocer cómo se haría. Para tu portafolio, el efecto dependerá de si el ajuste llega por menos gasto, que favorece a los TES, o por más impuestos, que pesaría sobre las empresas.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "mixto",
+            "detalle": "Mejor percepción fiscal, pero un ajuste vía impuestos o menor gasto público puede afectar utilidades."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "mixto",
+            "detalle": "Un ajuste creíble aliviaría las tasas de los TES, pero sin medidas concretas el efecto es incierto."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "Las medidas concretas que presente el Gobierno para 2027 y la actualización del Marco Fiscal.",
+      "terminos": [
+        "Deuda pública",
+        "Déficit primario",
+        "TES"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/jose-manuel-restrepo-plantea-ajuste-fiscal-de-70-billones-para-el-proximo-ano-4510040"
+    },
+    {
+      "id": "2026-10-24-05",
+      "fecha": "2026-10-24",
+      "categoria": "bvc",
+      "puntaje": {
+        "total": 6,
+        "alcance": 1,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "GEB y La Caisse cierran la creación de Verene, gran transmisora eléctrica en Brasil",
+      "resumen": "Grupo Energía Bogotá y el fondo canadiense La Caisse cerraron la operación anunciada en mayo y formalizaron Verene Energia, una plataforma de transmisión eléctrica en Brasil bajo control compartido.",
+      "contexto": "Verene reúne 26 concesiones en 17 estados brasileños, más de 9.000 km de líneas y unos 400 trabajadores, con un ingreso anual permitido proporcional estimado de R$2.840 millones, cerca de 7% del total del sistema de transmisión de Brasil. GEB aporta sus participaciones en Argo y Gebbras, y La Caisse aporta activos de transmisión y una inversión de capital. La operación requirió la aprobación de ANEEL, CADE y los acreedores. GEB opera en Colombia, Perú, Brasil y Guatemala.",
+      "afectados": [
+        "Grupo Energía Bogotá",
+        "Transmisión eléctrica",
+        "Brasil"
+      ],
+      "peso_alcista": 65,
+      "alcista": "El cierre despeja las aprobaciones pendientes y da a GEB presencia en una de las cinco mayores transmisoras de Brasil. Los ingresos de transmisión son regulados, lo que aporta flujos estables y predecibles. Sumar escala con un socio como La Caisse fortalece la expansión internacional del grupo. Para el accionista, mayor diversificación geográfica reduce la dependencia del mercado colombiano.",
+      "bajista": "El ingreso regulado no equivale a utilidades, y la fuente no informa el efecto de la operación en las ganancias de GEB. El control compartido limita la capacidad de GEB para decidir sola sobre la estrategia de Verene. Además, la exposición a Brasil suma riesgo cambiario por el real y riesgo político, en vísperas de la segunda vuelta presidencial.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura alcista: la operación consolida activos regulados de gran escala en Brasil y diversifica los ingresos de GEB. Para quien tiene la acción, el efecto concreto en utilidades aún no está cuantificado.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "positivo",
+            "detalle": "Fortalece la posición de GEB, emisor de la BVC, con ingresos regulados en Brasil."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "Los resultados del tercer trimestre de GEB, donde podría verse el efecto contable de Verene.",
+      "terminos": [
+        "Ingreso anual permitido (RAP)",
+        "Rotación de activos"
+      ],
+      "fuente": "Valora Analitik",
+      "url": "https://www.valoraanalitik.com/grupo-energia-bogota-y-la-caisse-cierran-operacion-para-crear-una-de-las-mayores-transmisoras-electricas-de-brasil/"
+    },
+    {
+      "id": "2026-10-24-06",
+      "fecha": "2026-10-24",
+      "categoria": "region",
+      "pais": "Brasil",
+      "puntaje": {
+        "total": 7,
+        "alcance": 1,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "El real se fortalece y el dólar baja de R$5 en la víspera de la segunda vuelta",
+      "resumen": "En la última sesión antes de la segunda vuelta del domingo 25 de octubre, el dólar cayó 0,90% en Brasil, a R$4,993, y el Ibovespa subió 0,47%, hasta 205.082 puntos.",
+      "contexto": "La segunda vuelta enfrenta a Lula y Flávio Bolsonaro, con encuestas que muestran una carrera muy cerrada. Las tasas de los contratos DI bajaron en toda la curva, y el IPCA-15 de octubre subió 0,32%, menos de lo esperado, aunque su variación en 12 meses, de 4,62%, sigue por encima del techo de la meta de 4,50%. El Ibovespa acumula 10,06% en octubre y 27,28% en 2026. Brasil es la mayor economía de la región y su mercado pesa en los fondos latinoamericanos que tienen inversionistas colombianos.",
+      "afectados": [
+        "Real brasileño",
+        "Ibovespa",
+        "Fondos latinoamericanos"
+      ],
+      "peso_alcista": 50,
+      "alcista": "La inflación de mediados de mes por debajo de lo esperado y la caída de las tasas DI apuntan a un entorno menos presionado para el Banco Central do Brasil. El real más fuerte y el Ibovespa en alza valorizan en pesos los fondos y ETF con exposición a Brasil. Si el resultado electoral coincide con lo que el mercado descontó, el movimiento podría extenderse.",
+      "bajista": "Las encuestas muestran prácticamente un empate, y el mercado se posicionó para un resultado que no está asegurado. Los inversionistas extranjeros aumentaron sus coberturas contra caídas de la bolsa, una señal de cautela. Un resultado contrario a lo descontado podría revertir con rapidez las ganancias del real y del Ibovespa.",
+      "impacto": {
+        "conclusion": "Las dos lecturas pesan parecido: los precios reflejan expectativas favorables, pero el resultado del domingo es incierto y puede mover con fuerza el real y la bolsa. Para quien tiene fondos o ETF de Brasil, el riesgo de volatilidad en los próximos días es alto en ambos sentidos.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "Los fondos con exposición a Brasil ganaron valor, pero el resultado electoral puede revertir el movimiento."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "El resultado de la segunda vuelta del domingo 25 de octubre y la reacción del real el lunes.",
+      "terminos": [
+        "Bovespa",
+        "IPCA",
+        "Segunda vuelta electoral"
+      ],
+      "fuente": "InfoMoney",
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-23102026/"
+    },
+    {
+      "id": "2026-10-24-07",
+      "fecha": "2026-10-24",
+      "categoria": "region",
+      "pais": "Argentina",
+      "puntaje": {
+        "total": 6,
+        "alcance": 1,
+        "materialidad": 3,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "El riesgo país de Argentina supera 700 puntos, su nivel más alto en un año",
+      "resumen": "El riesgo país de Argentina cerró la semana en 707 puntos básicos, unas 60 unidades más que la semana anterior, y los bonos en dólares cayeron 2,2% en promedio.",
+      "contexto": "Es el nivel más alto desde octubre de 2025. El dólar mayorista marcó un máximo nominal de $1.529,50, aunque sigue lejos del techo de la banda cambiaria. El BCRA compró US$270 millones en la semana, pero las reservas brutas bajaron US$33 millones, a US$50.203 millones, por el cambio de precio de activos como el oro. La fuente atribuye el deterioro a la volatilidad global, a datos de actividad flojos y a una prima electoral; Argentina es una referencia para los fondos de deuda emergente y latinoamericana.",
+      "afectados": [
+        "Bonos argentinos",
+        "Peso argentino",
+        "Deuda emergente"
+      ],
+      "peso_alcista": 35,
+      "alcista": "El BCRA sigue comprando dólares y las reservas se mantienen por encima de US$50.000 millones, lo que da respaldo a la política cambiaria. El tipo de cambio sigue dentro de la banda, con margen amplio frente al techo. La bolsa rebotó más de 4% el viernes desde los mínimos del jueves, lo que muestra demanda en los precios bajos.",
+      "bajista": "El riesgo país en su nivel más alto en un año encarece el financiamiento de Argentina y refleja más desconfianza de los inversionistas. La caída de los bonos en dólares golpea a los fondos de deuda emergente con exposición al país. Una actividad más débil y la incertidumbre política pueden prolongar la presión sobre los activos argentinos.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista: el riesgo país rompió los 700 puntos y los bonos en dólares retrocedieron, aunque el BCRA sigue acumulando reservas. Para quien invierte desde Colombia en fondos de deuda latinoamericana o emergente, la exposición a Argentina restó valor en la semana.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "negativo",
+            "detalle": "Los fondos en el exterior con bonos argentinos perdieron valor por la caída de esos títulos."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La evolución del riesgo país y de las compras de dólares del BCRA en la próxima semana.",
+      "terminos": [
+        "Prima de riesgo país",
+        "Banda cambiaria",
+        "Reservas internacionales",
+        "Dólar mayorista"
+      ],
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/economia/2026/10/24/el-riesgo-pais-volvio-a-superar-los-700-puntos-y-la-volatilidad-internacional-golpeo-a-los-bonos-argentinos/"
+    },
     {
       "id": "2026-10-23-01",
       "fecha": "2026-10-23",
