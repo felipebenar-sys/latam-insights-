@@ -1,6 +1,235 @@
 {
-  "actualizado": "24 oct 2026, 6:55 a. m. (hora Bogotá)",
+  "actualizado": "25 oct 2026, 7:00 a. m. (hora Bogotá)",
   "notas": [
+    {
+      "id": "2026-10-25-01",
+      "fecha": "2026-10-25",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 7,
+        "alcance": 1,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Hacienda aplaza $10,3 billones de vencimientos de TES con un segundo canje",
+      "resumen": "El Ministerio de Hacienda completó un segundo canje de TES por $10,3 billones, que reduce en $1,5 billones los vencimientos de 2026 y en $8,8 billones los de 2027. Con la operación de inicios de octubre, el canje acumulado llega a $30,1 billones.",
+      "contexto": "La operación tuvo una subasta competitiva, en la que se adjudicaron $6,2 billones de $7,5 billones ofrecidos, y un segundo tramo de $4,1 billones. Su costo fue de $467.000 millones, equivalente a 4,5% del monto canjeado, y la vida media de la deuda interna en TES pasó de 10,14 a 10,21 años. Según Hacienda, las dos operaciones reducen 50% los vencimientos de 2026 y 19% los de 2027, sin aumentar el endeudamiento neto. El Banco de la República advirtió que, sin medidas correctivas, el déficit podría llegar a 7,4% del PIB en 2026.",
+      "afectados": [
+        "TES",
+        "Ministerio de Hacienda",
+        "Bancos",
+        "Fondos de pensiones"
+      ],
+      "peso_alcista": 60,
+      "alcista": "Al mover pagos de 2026 y 2027 hacia años más lejanos, el Gobierno reduce la cantidad de deuda que debe pagar o refinanciar en el corto plazo, un alivio relevante en un momento de déficit alto. La buena demanda en la subasta, con 83% de aceptación, muestra que bancos e inversionistas siguen dispuestos a recibir TES de largo plazo. Menos presión de caja inmediata puede moderar la necesidad de emisiones nuevas de corto plazo y aportar estabilidad a la curva de TES.",
+      "bajista": "El canje no reduce la deuda: solo la aplaza, y tiene un costo de $467.000 millones, 4,5% del monto, mayor que el 2,7% de la primera operación. Aplazar vencimientos puede concentrar pagos en años posteriores y no resuelve el problema de fondo, que es el déficit fiscal. Si el mercado lee la operación como señal de estrechez de caja, la prima que exige por los TES de largo plazo podría mantenerse alta.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura alcista, porque la operación reduce de forma concreta los vencimientos de los próximos dos años sin aumentar la deuda neta, aunque a un costo mayor que el del primer canje. Para quien tiene TES, baja el riesgo de refinanciación de corto plazo, pero la trayectoria del déficit sigue siendo lo que define las tasas. El efecto sobre los demás activos es indirecto.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "positivo",
+            "detalle": "Menos vencimientos en 2026 y 2027 reducen el riesgo de refinanciación y pueden dar estabilidad a los precios de los TES."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "El tercer y último canje del año, programado por Hacienda para el 19 de noviembre de 2026.",
+      "terminos": [
+        "TES",
+        "Reperfilamiento de deuda",
+        "Vida media de la deuda",
+        "Formador de liquidez"
+      ],
+      "fuente": "Valora Analitik",
+      "url": "https://www.valoraanalitik.com/minhacienda-completo-segunda-operacion-de-reperfilamiento-de-deuda-intercambio-tes-por-103-billones/"
+    },
+    {
+      "id": "2026-10-25-02",
+      "fecha": "2026-10-25",
+      "categoria": "sectores",
+      "puntaje": {
+        "total": 6,
+        "alcance": 1,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Las ventas de vivienda caen 11,9% hasta septiembre; la no VIS baja 18,2%",
+      "resumen": "Entre enero y septiembre de 2026 se vendieron 118.844 viviendas nuevas, 11,89% menos que en el mismo periodo de 2025, según Camacol. La caída más fuerte está en la vivienda no VIS, con un retroceso de 18,2%.",
+      "contexto": "Las ventas de vivienda de interés social sumaron 82.715 unidades, con una caída de 8,82%, y las no VIS bajaron a 36.129 desde 44.167. Las iniciaciones de VIS bajaron 16,1%, mientras que las no VIS se mantuvieron casi estables (-0,2%). El sector señala como obstáculos las tasas hipotecarias altas, los subsidios limitados y los costos de operación, además del terremoto del 10 de agosto; en el Eje Cafetero y el Valle se venden unas 40 viviendas por cada 100 vendidas en 2019.",
+      "afectados": [
+        "Constructoras",
+        "Cemento y materiales",
+        "Bancos",
+        "Crédito hipotecario"
+      ],
+      "peso_alcista": 30,
+      "alcista": "Las iniciaciones de vivienda no VIS casi no cayeron, lo que sugiere que parte de los proyectos de mayor valor sigue avanzando. La caída de la VIS es menor que la del total, y el Presupuesto de 2027 asigna recursos a programas de acceso a vivienda. Si las tasas de interés empiezan a bajar más adelante, la demanda reprimida podría reactivar las ventas.",
+      "bajista": "Una caída cercana a 12% en las ventas anticipa menos proyectos y menor actividad para constructoras, cementeras y proveedores de materiales en los próximos trimestres. La baja de 16,1% en las iniciaciones de VIS indica menos obras nuevas en el segmento más grande del mercado. Con tasas hipotecarias altas y subsidios escasos, la cartera de vivienda de los bancos tendría menor crecimiento.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista, porque la caída es generalizada y se refleja ya en menos obras nuevas de VIS, sin una fuente clara de recuperación en el corto plazo. Para quien tiene acciones colombianas, es una señal débil para los emisores ligados a construcción, cemento y crédito hipotecario. No cambia por sí sola las tasas ni el dólar.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Menos ventas e iniciaciones afectan las perspectivas de constructoras, cementeras y bancos con cartera hipotecaria."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La decisión de tasas del Banco de la República de octubre, clave para el costo del crédito hipotecario.",
+      "terminos": [
+        "Vivienda de interés social (VIS)",
+        "Iniciaciones de vivienda",
+        "Presupuesto General de la Nación"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/en-septiembre-ventas-de-vivienda-cayeron-12-frente-a-2025-totalizando-118-844-4509987"
+    },
+    {
+      "id": "2026-10-25-03",
+      "fecha": "2026-10-25",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 6,
+        "alcance": 1,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Las remesas suman US$1.077 millones en septiembre y cumplen 28 meses sobre US$1.000",
+      "resumen": "Colombia recibió US$1.077,12 millones en remesas en septiembre, según cifras preliminares del Banco de la República. Es el mes 28 consecutivo por encima de US$1.000 millones, aunque el monto bajó frente a agosto.",
+      "contexto": "En agosto las remesas habían sumado US$1.144,94 millones, por lo que septiembre muestra una baja de US$67,82 millones, cerca de 5,9% mensual. En 2026 el máximo mensual fue marzo, con US$1.225,69 millones, y el mínimo enero, con US$1.020,11 millones. Las remesas son una de las principales fuentes de dólares de la economía.",
+      "afectados": [
+        "Peso colombiano",
+        "Consumo de los hogares",
+        "Balanza de pagos"
+      ],
+      "peso_alcista": 55,
+      "alcista": "Un flujo que se mantiene por encima de US$1.000 millones durante más de dos años da una entrada estable de dólares, que ayuda a financiar el déficit externo y sostiene el consumo de muchos hogares. Esa oferta constante de divisas es uno de los factores que han apoyado al peso. Para la economía, es un ingreso que no depende del precio del petróleo.",
+      "bajista": "La baja de casi 6% frente a agosto muestra que el flujo puede moderarse, y una menor entrada de dólares le quitaría parte de ese soporte al peso. Si la tendencia se mantiene, el consumo de los hogares que dependen de estos giros perdería impulso. Además, con un peso revaluado, cada dólar enviado rinde menos en pesos para quien lo recibe.",
+      "impacto": {
+        "conclusion": "Las dos lecturas están casi parejas, con ligera ventaja de la alcista porque el flujo sigue alto y estable, aunque se moderó en el mes. Para quien tiene ahorros en dólares, la entrada sostenida de remesas es uno de los factores que sostienen al peso, pero la baja mensual reduce algo ese efecto. No toca directamente las tasas ni las acciones.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "La oferta estable de dólares sostiene al peso, pero la baja frente a agosto modera ese soporte."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "El dato de remesas de octubre que publique el Banco de la República, para ver si la baja de septiembre continúa.",
+      "terminos": [
+        "Remesas",
+        "Revaluación del peso",
+        "Déficit de cuenta corriente"
+      ],
+      "fuente": "Valora Analitik",
+      "url": "https://www.valoraanalitik.com/informe-remesas-en-colombia-septiembre-2026-se-completan-28-meses-por-encima-de-us1-000-millones/"
+    },
+    {
+      "id": "2026-10-25-04",
+      "fecha": "2026-10-25",
+      "categoria": "region",
+      "pais": "Brasil",
+      "puntaje": {
+        "total": 7,
+        "alcance": 1,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "La inflación de Brasil sube 0,32% a mitad de octubre, menos de lo esperado",
+      "resumen": "El índice IPCA-15 de Brasil subió 0,32% en octubre, por debajo del 0,43% que esperaba el mercado, según el IBGE. En 12 meses la inflación pasó a 4,62%, desde 4,47%.",
+      "contexto": "El alivio del mes vino sobre todo de la energía eléctrica residencial, que bajó 0,89% por el cambio de bandera tarifaria, y llevó al grupo vivienda a -0,10%. En cambio, alimentos y bebidas subió 0,88% y los combustibles pasaron de 0,22% a 1,20%. En lo corrido del año el índice acumula 4,15%. Brasil es la mayor economía de la región, y su inflación y sus tasas mueven el real y el valor en pesos de los activos brasileños que se tienen a través de fondos y ETF.",
+      "afectados": [
+        "Real brasileño",
+        "Bolsa de Brasil",
+        "Banco Central do Brasil",
+        "Fondos y ETF de la región"
+      ],
+      "peso_alcista": 55,
+      "alcista": "Un dato mensual menor al esperado reduce la presión para que el Banco Central do Brasil endurezca su política, lo que suele favorecer a la bolsa y a los bonos brasileños. Para quien tiene fondos o ETF de Brasil, una inflación más contenida en el mes es un apoyo para esos activos. La baja de la energía muestra que parte de los precios regulados está dando alivio.",
+      "bajista": "La inflación anual subió a 4,62% y el alivio del mes vino de un rubro volátil como la energía, mientras alimentos y combustibles se aceleraron. Eso puede mantener la cautela del banco central y limitar una baja de tasas. Para quien invierte desde Colombia, los movimientos del real alrededor de la segunda vuelta electoral pueden pesar más que este dato.",
+      "impacto": {
+        "conclusion": "Pesa ligeramente más la lectura alcista, porque el dato mensual quedó por debajo de lo esperado, aunque la inflación anual subió y el alivio se concentró en la energía. Para quien tiene inversiones en Brasil, es un dato de apoyo moderado, que queda en segundo plano frente al resultado electoral. No tiene un canal directo hacia las tasas en Colombia.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "Un dato mensual menor al esperado apoya a los activos brasileños, pero la inflación anual al alza y la elección mantienen la volatilidad del real."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "El resultado de la segunda vuelta presidencial de Brasil del domingo 25 de octubre y la reacción del real el lunes.",
+      "terminos": [
+        "IPCA",
+        "Tasa de política monetaria",
+        "Inflación"
+      ],
+      "fuente": "InfoMoney",
+      "url": "https://www.infomoney.com.br/economia/ipca-15-previa-inflacao-ibge-outubro-2026/"
+    },
     {
       "id": "2026-10-24-01",
       "fecha": "2026-10-24",

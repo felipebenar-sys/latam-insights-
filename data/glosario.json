@@ -587,6 +587,14 @@
     {
       "termino": "Director de tecnología (CTO)",
       "definicion": "Es el ejecutivo responsable de la estrategia y el desarrollo tecnológico de una empresa, como sus plataformas, sistemas y uso de inteligencia artificial. En compañías digitales, como bancos en línea o comercio electrónico, es uno de los cargos más importantes. Su salida o llegada puede ser relevante para los inversionistas porque afecta la ejecución de los proyectos tecnológicos."
+    },
+    {
+      "termino": "Reperfilamiento de deuda",
+      "definicion": "Operación en la que un emisor, como el Gobierno, cambia voluntariamente con sus acreedores bonos que vencen pronto por otros que vencen más adelante. No reduce la deuda, pero aplaza los pagos y alivia la presión de caja en los años cercanos. Para quien invierte, suele bajar el riesgo de refinanciación de corto plazo, aunque puede tener un costo adicional para el emisor."
+    },
+    {
+      "termino": "Vida media de la deuda",
+      "definicion": "Plazo promedio, en años, que falta para que venzan los bonos y préstamos de un emisor. Una vida media más larga indica que los pagos están más repartidos en el tiempo y que el emisor depende menos de conseguir financiación nueva en el corto plazo."
     }
   ]
 }

@@ -6,9 +6,9 @@
     "fuente": "TRM vía La República"
   },
   "brent": {
-    "valor": 112.98,
-    "cambio_pct": 2.91,
-    "fecha": "2026-10-22",
+    "valor": 116.76,
+    "cambio_pct": 3.35,
+    "fecha": "2026-10-23",
     "fuente": "La República"
   },
   "colcap": {
@@ -26,5 +26,5 @@
     "periodo": "sep 2026",
     "fuente": "DANE"
   },
-  "actualizado": "2026-10-24"
+  "actualizado": "2026-10-25"
 }
