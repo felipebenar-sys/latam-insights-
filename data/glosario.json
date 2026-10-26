@@ -595,6 +595,30 @@
     {
       "termino": "Vida media de la deuda",
       "definicion": "Plazo promedio, en años, que falta para que venzan los bonos y préstamos de un emisor. Una vida media más larga indica que los pagos están más repartidos en el tiempo y que el emisor depende menos de conseguir financiación nueva en el corto plazo."
+    },
+    {
+      "termino": "Cargo por confiabilidad",
+      "definicion": "Es un pago que reciben las plantas de generación eléctrica a cambio de comprometerse a entregar una cantidad de energía, llamada energía firme, cuando el sistema la necesite, por ejemplo en una sequía. Busca evitar apagones. Si las plantas no cumplen esos compromisos, aumenta el riesgo de que la energía se encarezca o falte, lo que afecta a las empresas del sector y a la inflación."
+    },
+    {
+      "termino": "ETF",
+      "definicion": "Un ETF es un fondo que cotiza en bolsa como si fuera una acción y que replica un índice, un sector o un país. Permite invertir en muchas empresas con una sola compra. Su valor sube o baja con los activos que sigue, así que un ETF de un país refleja tanto su bolsa como el valor de su moneda."
+    },
+    {
+      "termino": "Circuit breaker",
+      "definicion": "Es una pausa automática de las negociaciones en una bolsa cuando el índice principal cae más de cierto porcentaje en una jornada. Sirve para frenar el pánico y dar tiempo a que los inversionistas procesen la información. Que se active indica una caída muy fuerte y una alta volatilidad."
+    },
+    {
+      "termino": "Preapertura",
+      "definicion": "Es el periodo de negociación que ocurre antes de la apertura oficial de la bolsa, en el que se pueden comprar y vender acciones con menos volumen. Los precios de preapertura anticipan cómo podría abrir el mercado, pero pueden cambiar mucho cuando empieza la sesión normal."
+    },
+    {
+      "termino": "Contrato de futuros",
+      "definicion": "Es un acuerdo para comprar o vender un activo, como una moneda o el petróleo, a un precio fijado hoy para una fecha futura. Como se negocian incluso cuando el mercado local está cerrado, sus precios sirven para anticipar cómo podría moverse ese activo en la siguiente apertura."
+    },
+    {
+      "termino": "Desinversión",
+      "definicion": "Es la venta total o parcial de la participación que una empresa o un fondo tiene en otra compañía. Se hace para obtener liquidez, cambiar de estrategia o salir de un negocio. Para quien invierte, importa porque el precio de venta y quién compra pueden cambiar el valor de las empresas involucradas."
     }
   ]
 }

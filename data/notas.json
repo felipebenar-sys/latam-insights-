@@ -1,6 +1,238 @@
 {
-  "actualizado": "25 oct 2026, 7:00 a. m. (hora Bogotá)",
+  "actualizado": "26 oct 2026, 7:02 a. m. (hora Bogotá)",
   "notas": [
+    {
+      "id": "2026-10-26-01",
+      "fecha": "2026-10-26",
+      "categoria": "politica",
+      "puntaje": {
+        "total": 8,
+        "alcance": 3,
+        "materialidad": 3,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "El Gobierno radicará esta semana la Ley de Rescate, que busca recortar 2,2% del PIB en 2027",
+      "resumen": "Según la información más reciente del Gobierno, el proyecto de Ley de Rescate Fiscal se presentaría esta semana. Su meta es reducir el gasto de 2027 en 2,2% del PIB, algo más de $40 billones.",
+      "contexto": "El Ministro de Hacienda, Miguel Gómez, planteó un ajuste en tres pasos: el Presupuesto de 2027, expedido por decreto por $634,9 billones; la Ley de Rescate, y el Plan Nacional de Desarrollo. Aparte, un proyecto con mensaje de urgencia trasladaría $1,2 billones al sector energético y sumaría $2,7 billones al presupuesto de 2026 para atender la emergencia del terremoto del 10 de agosto. Exministros y economistas consultados difieren sobre si el ajuste puede lograrse solo con recortes o si requiere también una reforma tributaria, por ejemplo con menos exenciones de IVA.",
+      "afectados": [
+        "TES",
+        "Peso colombiano",
+        "Presupuesto General de la Nación",
+        "Prima de riesgo país"
+      ],
+      "peso_alcista": 55,
+      "alcista": "Un recorte de gasto de esa magnitud, si se aprueba y se ejecuta, reduciría las necesidades de financiamiento del Gobierno y la presión sobre la deuda pública. Eso podría bajar la prima de riesgo país y las tasas de los TES, lo que valoriza los bonos que ya están en los portafolios. Un frente fiscal más ordenado también suele dar estabilidad al peso y abrir espacio para que el Banco de la República baje tasas más adelante.",
+      "bajista": "El proyecto todavía no tiene medidas detalladas y los analistas consultados dudan de que el ajuste pueda hacerse solo con recortes. Si el Congreso lo modifica o lo frena, o si termina dependiendo de nuevos impuestos, la incertidumbre fiscal seguiría pesando sobre los TES y el peso. Además, menos gasto público puede frenar una economía que ya muestra señales de desaceleración, lo que afectaría las ventas y utilidades de algunas empresas listadas.",
+      "impacto": {
+        "conclusion": "Pesa ligeramente más la lectura alcista, porque un compromiso explícito de recortar 2,2% del PIB va en la dirección que piden los mercados para reducir el riesgo fiscal. Sin embargo, es solo un anuncio: el efecto real dependerá de las medidas concretas y de su paso por el Congreso. Para quien tiene TES, es una señal de apoyo; para las acciones, el balance es mixto.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "mixto",
+            "detalle": "Menos riesgo fiscal favorece a la bolsa, pero un menor gasto público puede frenar la demanda y afectar a sectores que dependen del Estado."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "positivo",
+            "detalle": "Un ajuste creíble reduciría la emisión de deuda y podría bajar las tasas de los TES, lo que sube su precio."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "Menor riesgo fiscal tiende a fortalecer el peso y restar valor en pesos a los ahorros en dólares, pero la incertidumbre del trámite puede mantener la volatilidad."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La radicación del proyecto de Ley de Rescate en el Congreso esta semana y el detalle de sus medidas.",
+      "terminos": [
+        "Presupuesto General de la Nación",
+        "Prima de riesgo país",
+        "TES",
+        "Necesidades de financiamiento"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/comienza-la-carrera-por-la-ley-de-rescate-y-las-nuevas-adiciones-presupuestales-del-pgn-4510052"
+    },
+    {
+      "id": "2026-10-26-02",
+      "fecha": "2026-10-26",
+      "categoria": "sectores",
+      "puntaje": {
+        "total": 8,
+        "alcance": 3,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Por El Niño, embalses al 75,7% y generadoras entregan menos energía firme de la pactada",
+      "resumen": "El Gobierno informó que los embalses están en 75,7%-75,8%, que en octubre recibieron cerca de 40% menos agua de lo normal y que la meta es superar 80% al 30 de noviembre. Anunció medidas para asegurar la energía y pidió a la Superservicios investigar incumplimientos.",
+      "contexto": "Según el Presidente, las lluvias llevan seis meses por debajo de lo normal. En el cargo por confiabilidad, las obligaciones suman 118 GWh diarios, lo solicitado 95 GWh y lo reportado como generado 83 GWh por día; la meta solo se cumplió en uno de 42 días evaluados, y algunas empresas entregaron menos de 30% de lo comprometido. Entre las medidas están aplazar mantenimientos en Chivor y Guavio, flexibilizar la operación de Hidroituango, asegurar más gas para las térmicas y sumar nueva capacidad.",
+      "afectados": [
+        "Generadoras de energía",
+        "Distribuidoras de energía",
+        "Inflación",
+        "Gas natural"
+      ],
+      "peso_alcista": 35,
+      "alcista": "Las medidas buscan llegar con embalses por encima de 80% al inicio de la temporada seca, lo que reduciría el riesgo de racionamiento. Las generadoras con agua almacenada o con plantas térmicas que tengan gas pueden beneficiarse si el precio de la energía en bolsa sube. Una acción temprana del Gobierno también puede evitar decisiones más costosas más adelante.",
+      "bajista": "Los embalses recibieron mucha menos agua de lo normal y la energía firme entregada está por debajo de lo comprometido, lo que muestra un sistema más frágil frente a la sequía. Si el precio de la energía sube, los hogares y las empresas pagarían tarifas más altas, lo que presiona la inflación. Eso podría retrasar las bajas de tasas del Banco de la República y afectar a las distribuidoras que compran energía cara y a las empresas que incumplieron, que enfrentan investigaciones.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista, porque los datos del propio Gobierno muestran poca agua y un incumplimiento amplio de la energía firme, con riesgo de precios más altos. Para el portafolio, el efecto más claro es una posible presión adicional sobre la inflación, que mantendría las tasas altas por más tiempo. En acciones, el efecto depende de si la empresa genera o compra la energía.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "mixto",
+            "detalle": "Generadoras con agua o gas pueden ganar con precios altos, mientras distribuidoras y empresas que incumplieron enfrentan costos e investigaciones."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "Si la energía más cara empuja la inflación, las tasas de los TES podrían subir y su precio bajar."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "positivo",
+            "detalle": "Tasas altas por más tiempo mantendrían rendimientos atractivos para los CDT nuevos."
+          }
+        ]
+      },
+      "mirar": "El nivel de los embalses al 30 de noviembre frente a la meta de 80% y el resultado de las investigaciones de la Superservicios.",
+      "terminos": [
+        "Fenómeno de El Niño",
+        "Cargo por confiabilidad",
+        "Generación térmica",
+        "Precio de bolsa de energía"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/gobierno-de-la-espriella-presentara-la-ley-de-rescate-para-ajustar-las-finanzas-esta-semana-4510802"
+    },
+    {
+      "id": "2026-10-26-03",
+      "fecha": "2026-10-26",
+      "categoria": "commodities",
+      "puntaje": {
+        "total": 7,
+        "alcance": 2,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 0
+      },
+      "titulo": "El Brent cae 2% a US$109,45 tras cerrar el viernes en su nivel más alto desde abril",
+      "resumen": "El Brent bajaba 2,02% a US$109,45 por barril en la sesión asiática del lunes 26 de octubre, después de cerrar el viernes en US$116,72, su mayor cierre desde el 29 de abril. El WTI caía 2,32% a US$101,05.",
+      "contexto": "La semana pasada el Brent subió cerca de 6% y el WTI 2,3%. La baja de este lunes se atribuye a toma de utilidades de fondos y a dudas sobre si el conflicto afectará de forma sostenida la oferta física, algo que no ha ocurrido. Siguen presentes los ataques hutíes a instalaciones energéticas de Arabia Saudí, la tensión entre EE. UU. e Irán y el cierre de válvulas de oleoductos en Libia.",
+      "afectados": [
+        "Ecopetrol",
+        "Peso colombiano",
+        "Finanzas públicas",
+        "Brent"
+      ],
+      "peso_alcista": 45,
+      "alcista": "Aun con la caída, el Brent se mantiene por encima de US$100, un nivel que favorece los ingresos de Ecopetrol, las regalías y los ingresos del Gobierno. Si la baja es solo una pausa dentro de una tendencia alcista, como describe la fuente, los precios altos seguirían apoyando las exportaciones y al peso. Para quien tiene ahorros en dólares, un petróleo más bajo suele debilitar al peso y subir el valor en pesos de esos ahorros.",
+      "bajista": "Una corrección del petróleo reduce parte del impulso que el crudo le venía dando a Ecopetrol y a las finanzas públicas en un momento de ajuste fiscal. Si la toma de utilidades continúa, las acciones petroleras podrían ceder parte de lo ganado en la semana. La alta volatilidad, ligada a hechos geopolíticos, hace difícil anticipar el siguiente movimiento.",
+      "impacto": {
+        "conclusion": "Pesa ligeramente más la lectura bajista para el mercado colombiano, porque la caída resta apoyo a Ecopetrol y a los ingresos fiscales, aunque el precio sigue en niveles altos. Para quien tiene acciones petroleras es un día de corrección; para quien ahorra en dólares, un crudo más bajo tiende a favorecer al dólar frente al peso.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Un Brent más bajo presiona a Ecopetrol y a otras empresas ligadas al petróleo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "positivo",
+            "detalle": "Menores precios del crudo suelen debilitar al peso, lo que sube el valor en pesos de los ahorros en dólares."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "El cierre del Brent del lunes y las noticias sobre Irán y los ataques a instalaciones de Arabia Saudí.",
+      "terminos": [
+        "Brent",
+        "WTI",
+        "Toma de utilidades"
+      ],
+      "fuente": "El blog del Euríbor",
+      "url": "https://www.euribor.com.es/2026/10/26/precio-petroleo-hoy-26-octubre-2026/"
+    },
+    {
+      "id": "2026-10-26-04",
+      "fecha": "2026-10-26",
+      "categoria": "region",
+      "pais": "Brasil",
+      "puntaje": {
+        "total": 8,
+        "alcance": 2,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Lula gana la segunda vuelta en Brasil y los activos brasileños se preparan para fuertes caídas",
+      "resumen": "Lula da Silva obtuvo 51,8% frente a 48,2% de Flávio Bolsonaro, con casi todos los votos contados, y logró un cuarto mandato. Antes de la apertura, un ETF de acciones brasileñas en EE. UU. caía 27% y los futuros del real implicaban una depreciación de más de 10%.",
+      "contexto": "Un contrato de futuros del real en el CME lo ubicaba en 5,55 por dólar, y un ETF de Brasil en Japón cayó 15%, su peor día desde 2008. Los inversionistas dudan de que el nuevo gobierno reduzca el déficit, con una deuda pública por encima de 80% del PIB; en una encuesta de Citigroup a 73 inversionistas, la mayoría esperaba una caída del real de al menos 5%. La bolsa de Brasil detiene sus operaciones 30 minutos si el Ibovespa cae 10%. Brasil es la mayor economía de la región y allí tienen negocios emisores colombianos como Grupo Energía Bogotá.",
+      "afectados": [
+        "Real brasileño",
+        "Bolsa de Brasil",
+        "Fondos y ETF de la región",
+        "Grupo Energía Bogotá"
+      ],
+      "peso_alcista": 30,
+      "alcista": "Parte de la caída anticipada podría moderarse si el nuevo gobierno presenta pronto un plan fiscal creíble y un equipo económico que dé confianza. Un real más débil puede ayudar a los exportadores brasileños. Para quien tiene ahorros en dólares y quiere entrar a la región, los precios más bajos pueden abrir escenarios de valorización si la incertidumbre se disipa.",
+      "bajista": "Los indicadores previos a la apertura apuntan a una de las peores jornadas en años para la bolsa y la moneda de Brasil, con posibilidad de que se active el circuit breaker. Las dudas sobre el déficit y la deuda pueden mantener altas las tasas de interés y presionar los activos brasileños por más tiempo. Para quien invierte desde Colombia, los fondos y ETF de Brasil o de la región perderían valor en pesos, y el contagio puede alcanzar a emisores de la BVC con negocios en Brasil.",
+      "impacto": {
+        "conclusion": "Pesa claramente la lectura bajista, porque los futuros y los ETF que ya negociaban anticipan fuertes caídas del real y de la bolsa brasileña por las dudas fiscales. Para quien tiene fondos o ETF de Brasil o de la región, el golpe en pesos sería inmediato. En Colombia, el efecto llegaría sobre todo por contagio regional y por los emisores con negocios en Brasil.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "El contagio regional y la exposición a Brasil de emisores como Grupo Energía Bogotá pueden presionar a la bolsa colombiana."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "negativo",
+            "detalle": "Los fondos y ETF de Brasil y de la región perderían valor en pesos por la caída de las acciones y del real."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La apertura del Ibovespa y del real este lunes, si se activa el circuit breaker, y los anuncios sobre el equipo económico de Lula.",
+      "terminos": [
+        "ETF",
+        "Contrato de futuros",
+        "Circuit breaker",
+        "Deuda pública"
+      ],
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/america/america-latina/2026/10/26/los-mercados-brasilenos-se-preparan-para-fuertes-perdidas-tras-la-victoria-de-lula-va-a-ser-un-dia-dificil/"
+    },
     {
       "id": "2026-10-25-01",
       "fecha": "2026-10-25",
