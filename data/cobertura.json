@@ -1,5 +1,5 @@
 {
-  "actualizado": "24 oct 2026, 6:56 a. m. (hora Bogotá)",
+  "actualizado": "26 oct 2026, 7:03 a. m. (hora Bogotá)",
   "companias": [
     {
       "ticker": "MELI",
@@ -88,6 +88,122 @@
     }
   ],
   "notas": [
+    {
+      "id": "2026-10-26-c01",
+      "fecha": "2026-10-26",
+      "categoria": "latam",
+      "empresa": "PBR",
+      "fecha_noticia": "2026-10-26",
+      "puntaje": {
+        "total": 7,
+        "alcance": 1,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "El ADR de Petrobras cae cerca de 22% en la preapertura tras la reelección de Lula",
+      "resumen": "Tras la victoria de Lula da Silva en la segunda vuelta, el ADR de Petrobras bajaba cerca de 22% en la preapertura de Nueva York el lunes 26 de octubre. Son indicaciones previas a la sesión, no precios de cierre.",
+      "contexto": "La caída se dio junto con la de otras compañías brasileñas: Itaú Unibanco, Bradesco y Nu retrocedían entre 23% y 29%, y Ambev cerca de 18%, también antes de la apertura. El ETF iShares MSCI Brazil (EWZ) perdía cerca de 20% en negociación nocturna y los futuros del real implicaban una depreciación de más de 10%. El viernes, la bolsa brasileña había cerrado casi 7% por encima de su nivel previo a la primera vuelta y el real había ganado cerca de 5%.",
+      "afectados": [
+        "Petrobras",
+        "Real brasileño",
+        "Bolsa de Brasil"
+      ],
+      "peso_alcista": 25,
+      "alcista": "Las caídas de preapertura pueden moderarse durante la sesión si los inversionistas reciben señales de política fiscal y de manejo de la compañía que reduzcan la incertidumbre. Parte del retroceso corrige el alza que las acciones brasileñas habían acumulado antes de la elección. Un real más débil también puede favorecer los ingresos en reales de una exportadora de crudo.",
+      "bajista": "Una baja de esa magnitud refleja una revisión fuerte del riesgo de invertir en Brasil y en una compañía controlada por el Estado tras la elección. Si la caída se confirma en la sesión regular, el valor de las acciones de Petrobras quedaría muy por debajo del cierre del viernes. La depreciación del real se suma al golpe para quien mide su inversión en otra moneda.",
+      "impacto": {
+        "conclusion": "Pesa claramente la lectura bajista, porque las indicaciones previas a la apertura anticipan una caída cercana a 22% del ADR, en línea con un ajuste general de los activos brasileños. Para quien tiene acciones de Petrobras, el efecto inmediato sería una pérdida importante de valor, aunque la cifra definitiva dependerá de la sesión regular.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "negativo",
+            "detalle": "Quien tiene el ADR de Petrobras en Nueva York vería una fuerte baja de su inversión en dólares y en pesos."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "El cierre del ADR de Petrobras este lunes y los anuncios del nuevo gobierno sobre la compañía y la política fiscal.",
+      "terminos": [
+        "ADR",
+        "Preapertura",
+        "ETF"
+      ],
+      "fuente": "Emol",
+      "url": "https://www.emol.com/noticias/Economia/2026/10/26/1215162/acciones-empresas-brasil-lula.html"
+    },
+    {
+      "id": "2026-10-26-c02",
+      "fecha": "2026-10-26",
+      "categoria": "latam",
+      "empresa": "GRUPOARGOS",
+      "fecha_noticia": "2026-10-26",
+      "puntaje": {
+        "total": 5,
+        "alcance": 1,
+        "materialidad": 2,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "Grupo Argos figura entre los interesados en el 74,95% de Vanti que Brookfield quiere vender",
+      "resumen": "Brookfield evalúa vender su participación de 74,95% en Vanti, y Grupo Argos, posiblemente a través de una filial como Odinsa, aparece entre los tres interesados. Grupo Argos valora la compañía entre US$700 y US$900 millones.",
+      "contexto": "Los otros interesados son los fondos estadounidenses Grupo Attia e I Squared, que estiman el valor de Vanti en cerca de US$1.000 millones. Según la publicación, la operación no ha avanzado porque las partes no coinciden en la valoración. Grupo Energía Bogotá tiene el 25% de Vanti y otros accionistas el 0,05%.",
+      "afectados": [
+        "Grupo Argos",
+        "Odinsa",
+        "Vanti",
+        "Grupo Energía Bogotá"
+      ],
+      "peso_alcista": 50,
+      "alcista": "Una compra de Vanti le daría a Grupo Argos un negocio de distribución de gas con ingresos estables, en un momento en que el gas gana importancia en Colombia. Si la operación se hace a una valoración menor que la de los fondos competidores, podría crear valor para sus accionistas. También ampliaría el portafolio de infraestructura del grupo.",
+      "bajista": "Es una operación en evaluación, sin acuerdo y con diferencias de precio entre las partes, así que podría no concretarse. Si Grupo Argos termina pagando más para ganar frente a los fondos, la rentabilidad de la inversión sería menor. Una compra de este tamaño también podría requerir deuda o recursos que hoy se destinan a otros usos, como el programa de recompra de acciones.",
+      "impacto": {
+        "conclusion": "El balance es parejo: la posible compra tiene sentido estratégico, pero es una negociación temprana, sin acuerdo y con diferencias de valoración. Para quien tiene acciones de Grupo Argos, el efecto dependerá del precio y de cómo se financie si la operación avanza.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "mixto",
+            "detalle": "La compra podría sumar un negocio estable a Grupo Argos, pero el precio y la financiación aún son inciertos."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "Un anuncio de Grupo Argos o de Brookfield sobre el avance de la negociación por Vanti.",
+      "terminos": [
+        "Desinversión",
+        "Rotación de activos"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/brookfield-busca-salir-de-la-participacion-accionaria-que-hoy-posee-en-vanti-4509198"
+    },
     {
       "id": "2026-10-24-c01",
       "fecha": "2026-10-24",
