@@ -619,6 +619,26 @@
     {
       "termino": "Desinversión",
       "definicion": "Es la venta total o parcial de la participación que una empresa o un fondo tiene en otra compañía. Se hace para obtener liquidez, cambiar de estrategia o salir de un negocio. Para quien invierte, importa porque el precio de venta y quién compra pueden cambiar el valor de las empresas involucradas."
+    },
+    {
+      "termino": "Bono global",
+      "definicion": "Es un bono que un país emite en los mercados internacionales, normalmente en dólares, para que lo compren inversionistas de todo el mundo. Le permite al Gobierno conseguir financiación en moneda extranjera. La tasa que paga refleja cuánto confían los inversionistas en la capacidad del país para pagar."
+    },
+    {
+      "termino": "CDS (credit default swap)",
+      "definicion": "Es un contrato que funciona como un seguro contra el impago de una deuda, por ejemplo la de un país. Su precio se mide en puntos básicos: cuanto más alto, más riesgo perciben los inversionistas. Por eso se usa como termómetro rápido del riesgo de un país o una empresa."
+    },
+    {
+      "termino": "Acuerdo de enjuiciamiento diferido (DPA)",
+      "definicion": "Es un acuerdo con la fiscalía de Estados Unidos en el que una empresa acepta responsabilidad, paga sanciones y se compromete a cooperar y mejorar sus controles. A cambio, el proceso penal se suspende y, si la empresa cumple durante el plazo pactado, los cargos se retiran. Para el inversionista, cerrar un DPA reduce la incertidumbre legal de la compañía."
+    },
+    {
+      "termino": "Gas natural vehicular (GNV)",
+      "definicion": "Es gas natural comprimido que se usa como combustible para carros, taxis y buses adaptados. Suele ser más barato que la gasolina, pero en Colombia su precio no está controlado por el fondo de estabilización de combustibles, así que sigue más de cerca los precios internacionales del gas y la tasa de cambio."
+    },
+    {
+      "termino": "Riesgo país",
+      "definicion": "Es un indicador que mide cuánto más rendimiento exigen los inversionistas por prestarle a un país frente a los bonos del Tesoro de Estados Unidos. Se expresa en puntos básicos: 100 puntos equivalen a 1 punto porcentual adicional. Si sube, al país le cuesta más endeudarse y sus bonos pierden valor."
     }
   ]
 }

@@ -1,6 +1,352 @@
 {
-  "actualizado": "26 oct 2026, 7:02 a. m. (hora Bogotá)",
+  "actualizado": "27 oct 2026, 7:03 a. m. (hora Bogotá)",
   "notas": [
+    {
+      "id": "2026-10-27-01",
+      "fecha": "2026-10-27",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 9,
+        "alcance": 3,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Colombia coloca US$5.200 millones en bonos externos con demanda de 3,1 veces lo ofrecido",
+      "resumen": "El Gobierno colocó US$5.200 millones en tres bonos globales en dólares con vencimientos en 2032, 2037 y 2056. Los inversionistas pidieron cerca de US$16.000 millones y las tasas finales quedaron entre 25 y 30 puntos básicos por debajo de las indicaciones iniciales.",
+      "contexto": "Es la primera emisión de deuda externa del Gobierno de Abelardo de la Espriella. El tramo a 2032 fue el más grande, con US$2.200 millones a un rendimiento de 7,05%; el de 2037 sumó US$2.000 millones a 7,65% y el de 2056, US$1.000 millones a 8,15%. La operación llega mientras el Gobierno prepara la Ley de Rescate para ajustar las finanzas públicas.",
+      "afectados": [
+        "Deuda pública",
+        "TES",
+        "Peso colombiano",
+        "Ministerio de Hacienda"
+      ],
+      "peso_alcista": 65,
+      "alcista": "Una demanda de más de tres veces el monto colocado muestra que los inversionistas internacionales siguen dispuestos a financiar a Colombia pese a las dudas fiscales. Que las tasas cerraran por debajo de las indicaciones iniciales reduce el costo de la deuda frente a lo que esperaba el mercado al abrir el libro. Con recursos en dólares asegurados, el Gobierno tiene menos presión para emitir TES en el mercado local, lo que puede aliviar sus tasas. La llegada de dólares también puede dar soporte al peso.",
+      "bajista": "Los rendimientos de 7% a 8,15% en dólares siguen siendo altos y reflejan una prima de riesgo país elevada. Más deuda externa aumenta el servicio de la deuda en los próximos años y la exposición de las finanzas públicas a la tasa de cambio. Si la Ley de Rescate no avanza en el Congreso, la buena acogida de esta emisión podría no repetirse. La colocación financia el déficit, pero no lo corrige.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura alcista, porque la alta demanda y la compresión de tasas frente a las indicaciones iniciales son señales concretas de acceso al financiamiento. Para quien invierte, reduce un foco de presión sobre los TES y el peso en el corto plazo. El riesgo de fondo sigue siendo fiscal y depende de lo que pase con el ajuste del gasto.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "positivo",
+            "detalle": "Un mejor acceso del país al financiamiento externo suele reducir la percepción de riesgo, lo que favorece a las acciones locales."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "positivo",
+            "detalle": "Si el Gobierno necesita emitir menos TES en el mercado local, sus tasas pueden bajar y su precio subir."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "negativo",
+            "detalle": "La monetización de los dólares recaudados puede fortalecer el peso y restar valor en pesos a los ahorros en dólares."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La radicación de la Ley de Rescate en el Congreso, que el Gobierno anunció para esta semana.",
+      "terminos": [
+        "Bono global",
+        "Puntos básicos",
+        "Prima de riesgo país",
+        "Servicio de la deuda",
+        "TES"
+      ],
+      "fuente": "Valora Analitik",
+      "url": "https://www.valoraanalitik.com/gobierno-de-la-espriella-coloco-us5-200-millones-en-sus-primeros-bonos-internacionales-con-alta-demanda/"
+    },
+    {
+      "id": "2026-10-27-02",
+      "fecha": "2026-10-27",
+      "categoria": "region",
+      "pais": "Brasil",
+      "puntaje": {
+        "total": 8,
+        "alcance": 2,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "La bolsa de Brasil cierra con caída de 13,88% y el real pierde 8,36% tras la victoria de Lula",
+      "resumen": "El Ibovespa cerró el lunes en 176.608 puntos, con su mayor caída diaria porcentual desde marzo de 2020, y el real terminó en 5,4066 por dólar. El Tesoro brasileño canceló las subastas de bonos previstas para el 27 y el 29 de octubre.",
+      "contexto": "Brasil es la mayor economía de la región y un mercado donde operan emisores colombianos como ISA y el Grupo Energía Bogotá, por lo que su riesgo se contagia a la región. El índice llegó a caer más de 16% durante la jornada y la negociación se suspendió media hora. El CDS a cinco años de Brasil subió a 151,67 puntos básicos desde 120,21 el viernes. Los analistas citados ponen el foco en la deuda pública, que supera 82% del PIB, y en la elección del nuevo ministro de Hacienda.",
+      "afectados": [
+        "Bovespa",
+        "Real brasileño",
+        "ISA",
+        "Grupo Energía Bogotá",
+        "Activos regionales"
+      ],
+      "peso_alcista": 30,
+      "alcista": "La caída fue menor al cierre que en los peores momentos del día, cuando el índice perdía más de 16% y el dólar superaba 5,60 reales. Parte del desplome borra el alza que siguió a la primera vuelta, por lo que los precios regresan a niveles previos a esa euforia. Si Lula da señales claras de disciplina fiscal, como la designación de un ministro de Hacienda creíble, los activos podrían recuperar parte de lo perdido. Precios más bajos también abren una base de comparación más baja para quien mire la región a mediano plazo.",
+      "bajista": "El salto del CDS y la cancelación de subastas del Tesoro muestran que el mercado exige más por financiar a Brasil y que el Gobierno evita emitir en medio de la volatilidad. Los analistas dudan de que la consolidación fiscal prometida baste para estabilizar una deuda que supera 82% del PIB. Flávio Bolsonaro no reconoció la derrota y anunció que impugnará el resultado, lo que agrega incertidumbre. Un real más débil reduce en pesos el valor de los ingresos que las empresas colombianas obtienen en Brasil.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista, porque el castigo al real, a la bolsa y al riesgo soberano fue amplio y las causas fiscales siguen abiertas. Para quien invierte desde Colombia, afecta sobre todo a los fondos y ETF con exposición a Brasil y a los emisores locales con negocios allí. La señal clave será la definición del equipo económico de Lula.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "ISA y el Grupo Energía Bogotá tienen negocios en Brasil, y un real más débil reduce en pesos el valor de esos ingresos."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "negativo",
+            "detalle": "Las inversiones en acciones, ETF o fondos brasileños perdieron valor por la caída de la bolsa y del real."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "El nombramiento del nuevo ministro de Hacienda de Brasil, que los analistas esperan en las próximas semanas.",
+      "terminos": [
+        "Bovespa",
+        "CDS (credit default swap)",
+        "Puntos básicos",
+        "Circuit breaker",
+        "Deuda pública"
+      ],
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/america/america-latina/2026/10/26/las-acciones-brasilenas-y-el-real-se-hundieron-tras-la-inesperada-reeleccion-de-lula-da-silva/"
+    },
+    {
+      "id": "2026-10-27-03",
+      "fecha": "2026-10-27",
+      "categoria": "region",
+      "pais": "Argentina",
+      "puntaje": {
+        "total": 7,
+        "alcance": 1,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "El riesgo país de Argentina sube casi 7% hasta 765 puntos por el efecto Brasil",
+      "resumen": "El riesgo país argentino llegó a 765 puntos básicos el lunes, su nivel más alto desde octubre de 2025. Los bonos en dólares cayeron hasta 2,3% y algunas acciones argentinas en Wall Street perdieron más de 8%.",
+      "contexto": "Argentina es una de las tres economías grandes de la región y su riesgo sirve de referencia para el apetito de los inversionistas por América Latina. Entre los bonos, el Bonar 2038 bajó 2,3% y el Bonar 2041, 2,2%; entre las acciones, Grupo Supervielle cayó 8,3% y Telecom, 8,2%. Brasil es el principal destino de las exportaciones industriales argentinas, por lo que la caída del real golpea sectores como el automotor.",
+      "afectados": [
+        "Bonos argentinos",
+        "ADR argentinos",
+        "Bancos argentinos",
+        "Exportadores industriales"
+      ],
+      "peso_alcista": 30,
+      "alcista": "Un economista citado atribuye cerca de dos tercios del alza del riesgo país en los últimos dos meses al entorno internacional, no solo a factores locales. Si la volatilidad en Brasil se calma, parte de ese castigo podría revertirse. Las compañías que más cayeron fueron las que más habían subido el viernes, lo que sugiere un movimiento amplificado por posiciones de corto plazo.",
+      "bajista": "El riesgo país marcó su nivel más alto en un año y encarece cualquier financiamiento del Gobierno argentino en los mercados. Persisten dudas sobre la actividad económica y el programa financiero de 2027, en un año electoral. La debilidad del real afecta las exportaciones industriales argentinas a su principal socio. La prima de riesgo regional que se había reducido tras la primera vuelta en Brasil se está deshaciendo.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista, porque al contagio de Brasil se suman dudas propias sobre el financiamiento de Argentina. Para quien invierte desde Colombia, el efecto se concentra en fondos, ETF o bonos con exposición a Argentina, que pierden valor cuando sube el riesgo país.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "negativo",
+            "detalle": "Los bonos y acciones argentinas en dólares cayeron, lo que resta valor a las inversiones con exposición a ese país."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "Si el riesgo país argentino se mantiene por encima de 700 puntos a medida que se asienta la reacción a la elección en Brasil.",
+      "terminos": [
+        "Riesgo país",
+        "Puntos básicos",
+        "ADR"
+      ],
+      "fuente": "Ámbito",
+      "url": "https://www.ambito.com/finanzas/los-adrs-y-acciones-argentina-caen-8-wall-street-la-victoria-lula-da-silva-brasil-n6337806"
+    },
+    {
+      "id": "2026-10-27-04",
+      "fecha": "2026-10-27",
+      "categoria": "sectores",
+      "puntaje": {
+        "total": 6,
+        "alcance": 1,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "El gas natural vehicular sube casi 20% en algunas estaciones por precios internacionales",
+      "resumen": "El metro cúbico de gas natural vehicular pasó de $4.200 a $5.000 en algunas estaciones del país, su nivel más alto desde al menos 2022. El alza llega con la renovación de contratos de suministro que ya reflejan los precios internacionales del gas.",
+      "contexto": "Colombia compró en el exterior cerca de 40% del gas que demanda hasta septiembre, y los precios de importación han subido con la guerra en Medio Oriente y el cierre del estrecho de Ormuz. A diferencia de la gasolina y el diésel, este combustible no está cubierto por el FEPC. Un consultor citado advierte que la producción nacional de gas cayó cerca de 30% y que podría haber un faltante en marzo de 2027 si se demoran nuevas terminales de importación.",
+      "afectados": [
+        "Transporte",
+        "Taxistas",
+        "Inflación",
+        "Generación térmica"
+      ],
+      "peso_alcista": 30,
+      "alcista": "El traslado de los precios internacionales a los contratos puede mejorar los ingresos de los comercializadores de gas. Precios más altos también hacen más atractivas las inversiones en nuevas terminales de importación y en producción local. El impacto no es uniforme: depende de los contratos de cada distribuidor.",
+      "bajista": "El alza encarece el transporte de taxistas y operadores que usaban el gas como alternativa barata. Un combustible más caro se suma a las presiones sobre la inflación, que sigue alta. Los expertos citados esperan que los precios sigan subiendo mientras dure el conflicto. La dependencia de las importaciones expone al país a los precios externos y a la tasa de cambio, sobre todo con El Niño elevando la demanda de las térmicas.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista, porque el alza se explica por factores externos que siguen activos y por una oferta local en descenso. Para quien invierte, el canal principal es la inflación: un gas más caro dificulta que bajen las tasas de interés.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "Más presión sobre la inflación puede mantener altas las tasas, lo que resta precio a los TES ya en el portafolio."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "El dato de inflación de octubre del DANE, que mostrará si los combustibles siguen presionando los precios.",
+      "terminos": [
+        "Gas natural vehicular (GNV)",
+        "Fondo de Estabilización de Precios de los Combustibles (FEPC)",
+        "Estrecho de Ormuz",
+        "Inflación"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/gas-natural-vehicular-se-disparo-casi-20-por-aumento-de-la-referencia-internacional-4511543"
+    },
+    {
+      "id": "2026-10-27-05",
+      "fecha": "2026-10-27",
+      "categoria": "region",
+      "pais": "México",
+      "puntaje": {
+        "total": 6,
+        "alcance": 1,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "El peso mexicano gana 0,54% mientras los inversionistas salen del real brasileño",
+      "resumen": "El peso mexicano se apreció 0,54% el lunes y cerró en 17,55 por dólar, según el Banco de México. Una analista citada explicó que los inversionistas reducen su exposición al real y prefieren otras monedas de la región.",
+      "contexto": "México es la segunda economía de la región y su peso es una de las monedas más negociadas de América Latina, por lo que marca el tono para otras como el peso colombiano. Ese mismo día también ganaron frente al dólar el peso chileno (0,53%), el peso colombiano (0,49%) y el sol peruano (0,14%). El bono mexicano a 10 años rendía 9,30% y el mercado espera la decisión de la Reserva Federal de esta semana.",
+      "afectados": [
+        "Peso mexicano",
+        "Peso colombiano",
+        "Monedas de la región"
+      ],
+      "peso_alcista": 60,
+      "alcista": "La reacción del mercado trató la elección en Brasil como un riesgo propio de ese país y no de toda la región. Eso favoreció a monedas como el peso mexicano y el colombiano, que se apreciaron. Para quien tiene inversiones en México medidas en pesos colombianos, la apreciación del peso mexicano compensa en parte la del peso colombiano.",
+      "bajista": "La apreciación de las monedas de la región resta valor en pesos colombianos a los ahorros en dólares. La decisión de la Reserva Federal sigue en el aire y su presidente no ha descartado subir la tasa esta semana, lo que podría revertir el movimiento. El rendimiento de 9,30% del bono mexicano a 10 años muestra que el país sigue pagando tasas altas.",
+      "impacto": {
+        "conclusion": "Pesa algo más la lectura alcista, porque el mercado separó a México y a otras monedas de la región del choque de Brasil. Para quien invierte desde Colombia, el efecto es mixto: las inversiones en México ganan por su moneda, pero los dólares valen menos en pesos colombianos.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "Las inversiones en México ganan por la apreciación del peso mexicano, pero los dólares pierden valor frente a un peso colombiano más fuerte."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La decisión de tasas de la Reserva Federal de esta semana.",
+      "terminos": [
+        "Reserva Federal",
+        "Revaluación del peso"
+      ],
+      "fuente": "El Financiero",
+      "url": "https://www.elfinanciero.com.mx/mercados/2026/10/26/peso-dolar-tipo-de-cambio-precio-hoy-26-de-octubre-de-2026/"
+    },
+    {
+      "id": "2026-10-27-06",
+      "fecha": "2026-10-27",
+      "categoria": "bvc",
+      "puntaje": {
+        "total": 5,
+        "alcance": 1,
+        "materialidad": 1,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Una corte de EE. UU. archiva el caso Odebrecht contra Corficolombiana",
+      "resumen": "Una corte de Estados Unidos ordenó el archivo definitivo del caso penal contra Corficolombiana, filial de Grupo Aval, por el caso Odebrecht. Según la compañía, la decisión llegó después de que el Departamento de Justicia dio por terminado el acuerdo firmado en 2023 y pidió retirar los cargos.",
+      "contexto": "En agosto de 2023 Corficolombiana firmó un acuerdo de enjuiciamiento diferido con el Departamento de Justicia, en el que aceptó responsabilidad por un esquema de sobornos entre 2012 y 2015 ligado a la Ruta del Sol II. La sanción penal fue de US$40,6 millones e incluyó compromisos de cooperación y de fortalecer sus controles internos. También se pactaron pagos con la SEC y con la Superintendencia de Industria y Comercio.",
+      "afectados": [
+        "Corficolombiana",
+        "Grupo Aval"
+      ],
+      "peso_alcista": 70,
+      "alcista": "El archivo cierra el proceso judicial en Estados Unidos por los hechos cubiertos en el acuerdo, lo que elimina una fuente de incertidumbre legal para la compañía. Haber cumplido las obligaciones del acuerdo es una señal sobre sus controles internos. Para Grupo Aval, su matriz, también reduce un riesgo reputacional que venía de años atrás.",
+      "bajista": "La sanción y los pagos ya se habían hecho, así que el cierre no libera recursos nuevos. La noticia confirma algo que el mercado podía anticipar al cumplirse el plazo del acuerdo. El caso Ruta del Sol II sigue siendo un antecedente reputacional para el grupo.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura alcista, porque el archivo elimina un riesgo legal sin costos adicionales para la compañía. El efecto es acotado: se concentra en Corficolombiana y Grupo Aval y no cambia sus resultados.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "positivo",
+            "detalle": "Menos incertidumbre legal favorece la percepción de riesgo de Corficolombiana y de Grupo Aval."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "Los resultados del tercer trimestre de Corficolombiana y Grupo Aval.",
+      "terminos": [
+        "Acuerdo de enjuiciamiento diferido (DPA)",
+        "Superintendencia de Industria y Comercio"
+      ],
+      "fuente": "Valora Analitik",
+      "url": "https://www.valoraanalitik.com/corficolombiana-logra-el-archivo-definitivo-del-caso-odebrecht-en-estados-unidos/"
+    },
     {
       "id": "2026-10-26-01",
       "fecha": "2026-10-26",

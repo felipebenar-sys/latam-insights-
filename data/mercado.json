@@ -1,14 +1,14 @@
 {
   "trm": {
-    "valor": 3158.43,
-    "vigente_desde": "2026-10-24",
-    "anterior": 3185.01,
-    "fuente": "TRM vía La República"
+    "valor": 3157.94,
+    "vigente_desde": "2026-10-27",
+    "anterior": 3158.43,
+    "fuente": "Superintendencia Financiera vía La República"
   },
   "brent": {
-    "valor": 116.76,
-    "cambio_pct": 3.35,
-    "fecha": "2026-10-23",
+    "valor": 115.33,
+    "cambio_pct": -1.22,
+    "fecha": "2026-10-26",
     "fuente": "La República"
   },
   "colcap": {
@@ -26,5 +26,5 @@
     "periodo": "sep 2026",
     "fuente": "DANE"
   },
-  "actualizado": "2026-10-26"
+  "actualizado": "2026-10-27"
 }
