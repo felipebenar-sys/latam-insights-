@@ -651,6 +651,10 @@
     {
       "termino": "Terminal de regasificación",
       "definicion": "Es una instalación que recibe gas natural licuado (GNL) traído en barcos y lo devuelve a su estado gaseoso para inyectarlo a los gasoductos. En Colombia permite importar gas cuando la producción local no alcanza, sobre todo para las plantas térmicas. Si su capacidad se reduce, hay menos gas disponible y puede subir su precio o el de la energía."
+    },
+    {
+      "termino": "Paridad de importación",
+      "definicion": "Es el precio al que costaría traer un combustible desde el exterior, sumando su cotización internacional, el transporte y otros costos. Sirve de referencia para saber si una petrolera vende en el mercado local por encima o por debajo del precio internacional. Vender por debajo de la paridad durante mucho tiempo reduce los ingresos de la empresa."
     }
   ]
 }

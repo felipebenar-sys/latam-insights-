@@ -1,5 +1,5 @@
 {
-  "actualizado": "26 oct 2026, 7:03 a. m. (hora Bogotá)",
+  "actualizado": "28 oct 2026, 7:08 a. m. (hora Bogotá)",
   "companias": [
     {
       "ticker": "MELI",
@@ -88,6 +88,64 @@
     }
   ],
   "notas": [
+    {
+      "id": "2026-10-28-c01",
+      "fecha": "2026-10-28",
+      "categoria": "latam",
+      "empresa": "PBR",
+      "fecha_noticia": "2026-10-27",
+      "puntaje": {
+        "total": 6,
+        "alcance": 1,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Brasil prorroga 30 días el subsidio al diésel y reduce la presión sobre los precios de Petrobras",
+      "resumen": "El gobierno de Brasil renovó por 30 días el subsidio de R$ 2,12 por litro para productores e importadores de diésel; las importaciones conservan un apoyo adicional de R$ 1,40 por litro hasta el 6 de noviembre.",
+      "contexto": "Analistas estiman que Petrobras vende el diésel a unos R$ 5,43 por litro, cerca de 25% por debajo de la paridad de importación, calculada en unos R$ 7,30. Con el subsidio y el incentivo a las importaciones, las distribuidoras pueden comprar diésel en el exterior a precios cercanos a los de Petrobras, y Goldman Sachs prevé que la compañía mantenga sin cambios sus precios del diésel hasta fin de año. La noticia llega un día después de la fuerte caída de las acciones de Petrobras tras la reelección de Lula.",
+      "afectados": [
+        "Petrobras",
+        "Diésel",
+        "Gobierno de Brasil",
+        "Distribuidoras de combustibles"
+      ],
+      "peso_alcista": 45,
+      "alcista": "El subsidio a productores compensa en parte la diferencia entre el precio de venta de Petrobras y el internacional, lo que alivia la presión sobre sus márgenes sin que tenga que subir precios. La prórroga reduce el riesgo de un choque de precios en Brasil que derive en más intervención política sobre la compañía. Mantener precios estables también da previsibilidad a sus ventas internas.",
+      "bajista": "Petrobras sigue vendiendo diésel muy por debajo de la paridad de importación, lo que deja ingresos por fuera mientras el crudo está alto. El incentivo a las importaciones permite que las distribuidoras compitan con precios similares a los de la compañía, lo que limita aún más su margen para subir precios. Para el mercado, la decisión refuerza la percepción de un control de precios prolongado tras la reelección de Lula.",
+      "impacto": {
+        "conclusion": "Pesa algo más la lectura bajista: el subsidio amortigua el problema, pero confirma que Petrobras seguirá vendiendo por debajo del precio internacional por un tiempo. Para quien tiene acciones de Petrobras en Nueva York, el efecto se suma a la incertidumbre política que siguió a las elecciones.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "negativo",
+            "detalle": "Precios internos contenidos por más tiempo limitan los ingresos de Petrobras y pesan sobre su ADR en Nueva York, medido en pesos."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La decisión de Brasil sobre el subsidio adicional a las importaciones, que vence el 6 de noviembre.",
+      "terminos": [
+        "Paridad de importación",
+        "ADR"
+      ],
+      "fuente": "InfoMoney",
+      "url": "https://www.infomoney.com.br/mercados/petrobras-goldman-ve-manutencao-de-precos-do-diesel-apos-governo-manter-subsidios/"
+    },
     {
       "id": "2026-10-26-c01",
       "fecha": "2026-10-26",
