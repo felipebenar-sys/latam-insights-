@@ -639,6 +639,18 @@
     {
       "termino": "Riesgo país",
       "definicion": "Es un indicador que mide cuánto más rendimiento exigen los inversionistas por prestarle a un país frente a los bonos del Tesoro de Estados Unidos. Se expresa en puntos básicos: 100 puntos equivalen a 1 punto porcentual adicional. Si sube, al país le cuesta más endeudarse y sus bonos pierden valor."
+    },
+    {
+      "termino": "T-MEC",
+      "definicion": "Es el tratado de libre comercio entre México, Estados Unidos y Canadá, que reemplazó al antiguo TLCAN. Fija aranceles, reglas de origen y condiciones para el comercio entre los tres países. Sus revisiones periódicas pueden cambiar las condiciones de exportación de México, por eso mueven las expectativas sobre su economía y su moneda."
+    },
+    {
+      "termino": "Dólar contado con liquidación (CCL)",
+      "definicion": "En Argentina, es el tipo de cambio que resulta de comprar un activo (por ejemplo, una acción o un bono) en pesos en el mercado local y venderlo en dólares en el exterior. Suele cotizar por encima del dólar oficial, y la diferencia entre ambos (la brecha) se usa como termómetro de la presión sobre la moneda."
+    },
+    {
+      "termino": "Terminal de regasificación",
+      "definicion": "Es una instalación que recibe gas natural licuado (GNL) traído en barcos y lo devuelve a su estado gaseoso para inyectarlo a los gasoductos. En Colombia permite importar gas cuando la producción local no alcanza, sobre todo para las plantas térmicas. Si su capacidad se reduce, hay menos gas disponible y puede subir su precio o el de la energía."
     }
   ]
 }

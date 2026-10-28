@@ -1,6 +1,361 @@
 {
-  "actualizado": "27 oct 2026, 7:03 a. m. (hora Bogotá)",
+  "actualizado": "28 oct 2026, 7:07 a. m. (hora Bogotá)",
   "notas": [
+    {
+      "id": "2026-10-28-01",
+      "fecha": "2026-10-28",
+      "categoria": "politica",
+      "puntaje": {
+        "total": 7,
+        "alcance": 2,
+        "materialidad": 3,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "Gobierno pide al Congreso mover $3,9 billones del Presupuesto 2026 para energía y sismo",
+      "resumen": "El Ministerio de Hacienda pidió al Congreso aprobar con urgencia movimientos por $3,9 billones en el Presupuesto de 2026: $1,2 billones para dar liquidez a las térmicas por la crisis de Air-e y $2,7 billones para el Fondo Milagro de reconstrucción tras el terremoto.",
+      "contexto": "Air-e, intervenida por el Estado, debe $6,3 billones, de los cuales $1,7 billones son con generadores térmicos que hoy no tienen caja para comprar combustible ante la llegada de El Niño. Los $1,2 billones salen de reprogramar $750.000 millones de obras de Bogotá (Calle 13 y primera línea del metro) y $450.000 millones del presupuesto de subsidios de energía de MinMinas. La adición al Fondo Milagro se financiaría con lo recaudado por las medidas tributarias decretadas tras el sismo, que la DIAN certificó en $1,1 billones al 24 de octubre. El ministro de Hacienda también reconoció un faltante de $3,2 billones para subsidios de adultos mayores al cierre del año.",
+      "afectados": [
+        "Generadoras térmicas",
+        "Air-e",
+        "Finanzas públicas",
+        "TES",
+        "Metro de Bogotá"
+      ],
+      "peso_alcista": 55,
+      "alcista": "Si el Congreso aprueba el traslado, las térmicas recibirían recursos para cubrir cerca de cinco meses de facturas y comprar combustible, lo que reduce el riesgo de racionamiento en el Caribe durante El Niño. Según MinMinas, un ajuste regulatorio para que las térmicas generen antes podría bajar el precio de bolsa de cerca de $1.040 a unos $600 por kilovatio hora. El Gobierno insiste en que la parte energética es una reasignación y no un aumento del gasto, y que la adición al Fondo Milagro se financia con recaudo ya obtenido. Menos riesgo de apagón también protege la actividad económica de la región.",
+      "bajista": "La deuda de Air-e sigue creciendo y los $1,2 billones son una medida temporal que no resuelve los problemas de fondo del servicio en el Caribe (redes obsoletas, pérdidas y tarifas). El faltante de $3,2 billones para subsidios de adultos mayores y la caída de 16% en los ingresos de regalías muestran la presión sobre las cuentas públicas, un factor que pesa sobre los TES. Además, sacar recursos del metro y la Calle 13 generó críticas en el Congreso, lo que podría demorar la aprobación; Hacienda advirtió que si no se aprueba en 2026 los recursos se pierden.",
+      "impacto": {
+        "conclusion": "Pesa algo más la lectura alcista: el traslado reduce un riesgo inmediato de suministro eléctrico sin aumentar el gasto total, aunque las cuentas públicas siguen bajo presión. Para quien invierte, el efecto depende de que el Congreso apruebe a tiempo y de que los nuevos faltantes fiscales no se traduzcan en más deuda.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "positivo",
+            "detalle": "Menos riesgo de racionamiento favorece a generadoras y a empresas con operaciones en el Caribe."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "mixto",
+            "detalle": "El traslado no suma gasto, pero el faltante de $3,2 billones en subsidios y la caída de regalías mantienen la presión fiscal sobre los TES."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "El trámite en las comisiones económicas del Congreso del proyecto de adición presupuestal, que va con mensaje de urgencia.",
+      "terminos": [
+        "Adición presupuestal",
+        "Presupuesto General de la Nación",
+        "Generación térmica",
+        "Fenómeno de El Niño",
+        "Precio de bolsa de energía"
+      ],
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/economia/sectores/crisis-energetica-y-terremoto-ponen-al-gobierno-a-buscar-3-9-billones-pide-al-congreso-permiso-para-hacer-traslados-3596712"
+    },
+    {
+      "id": "2026-10-28-02",
+      "fecha": "2026-10-28",
+      "categoria": "commodities",
+      "puntaje": {
+        "total": 7,
+        "alcance": 2,
+        "materialidad": 3,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "Brent baja a US$109 por gestiones diplomáticas en Medio Oriente",
+      "resumen": "El Brent para enero cotizaba el martes en US$109,32 por barril, con una caída de 1,28%, y el WTI de diciembre bajaba 1,63% a US$100,10, ante señales de diálogo entre Irán y países de la región.",
+      "contexto": "Funcionarios de Irán, Arabia Saudita, Turquía y Pakistán se reunieron en Teherán, y Catar mantuvo contactos con Irán, lo que moderó el temor sobre el suministro. La semana anterior el Brent había tocado máximos de seis meses por ataques a instalaciones y buques en el estrecho de Ormuz. La referencia de Investing pasó al contrato de enero el 25 de octubre, así que su precio no es comparable directamente con el del contrato de diciembre. La Agencia Internacional de Energía proyecta una caída de la demanda mundial de petróleo de 2,6 millones de barriles diarios en 2026.",
+      "afectados": [
+        "Ecopetrol",
+        "Peso colombiano",
+        "Finanzas públicas",
+        "Petroleras"
+      ],
+      "peso_alcista": 40,
+      "alcista": "Aun con la caída, el Brent se mantiene por encima de US$100, un nivel alto que sigue sosteniendo los ingresos de Ecopetrol y de la Nación. La reducción de tensiones puede bajar los costos de transporte y de combustibles importados, un alivio para la inflación. Si las conversaciones no prosperan, el precio podría recuperarse rápido, porque los flujos por Ormuz siguen afectados.",
+      "bajista": "Un Brent más bajo reduce los ingresos por exportaciones y la renta petrolera del Gobierno en un momento de presión fiscal. Para Ecopetrol y otras petroleras significa menores márgenes si la tendencia se mantiene. La menor entrada de dólares por petróleo puede limitar la fortaleza del peso colombiano, como señalaron analistas al cierre del martes. La proyección de la AIE de menor demanda apunta en la misma dirección.",
+      "impacto": {
+        "conclusion": "Pesa algo más la lectura bajista, porque la caída del crudo recorta ingresos de la Nación y de las petroleras colombianas, aunque los precios siguen altos. Para quien invierte, el principal efecto está en las acciones del sector petrolero y en el comportamiento del peso.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Un crudo más barato presiona los resultados esperados de Ecopetrol y otras petroleras."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "positivo",
+            "detalle": "Menos dólares por exportaciones de crudo tiende a debilitar el peso, lo que valoriza en pesos los ahorros en dólares."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La evolución de las conversaciones con Irán y del tránsito de buques por el estrecho de Ormuz en los próximos días.",
+      "terminos": [
+        "Brent",
+        "WTI",
+        "Estrecho de Ormuz",
+        "Agencia Internacional de Energía",
+        "Contrato de futuros"
+      ],
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/internacional/petroleo-cae-este-27-de-octubre-brent-de-enero-cotiza-en-us-109-32-y-wti-de-diciembre-ronda-los-us-505208"
+    },
+    {
+      "id": "2026-10-28-03",
+      "fecha": "2026-10-28",
+      "categoria": "sectores",
+      "puntaje": {
+        "total": 6,
+        "alcance": 1,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Terminal de regasificación de Cartagena operará con capacidad reducida por una semana",
+      "resumen": "Spec LNG hará trabajos correctivos en uno de los cuatro trenes de regasificación de su terminal en Cartagena, por siete a ocho días, y en ese lapso operará con un máximo de 400 millones de pies cúbicos diarios.",
+      "contexto": "La compañía identificó una condición operativa que requiere intervención técnica y dijo que coordina con los usuarios, las autoridades y el mercado para atender la demanda de energía. Según el Ministerio de Hacienda, Colombia importa cerca de 32% del gas que consume y la falla ya redujo el volumen de gas que entra al país. La situación coincide con la crisis de liquidez de las térmicas por las deudas de Air-e y con la llegada de El Niño.",
+      "afectados": [
+        "Generadoras térmicas",
+        "Gas natural",
+        "Región Caribe",
+        "Distribuidoras de gas"
+      ],
+      "peso_alcista": 35,
+      "alcista": "La interrupción es parcial y de corta duración: la terminal sigue operando y la empresa estima de siete a ocho días de trabajo. Hacer la reparación antes del pico de El Niño reduce el riesgo de una falla mayor cuando la demanda de gas para generación sea más alta. La coordinación con las autoridades busca evitar cortes de suministro.",
+      "bajista": "Con menos capacidad de regasificación entra menos gas importado justo cuando las térmicas necesitan más combustible para compensar la menor generación hidráulica. Esto puede encarecer el gas y la energía en bolsa, y aumentar el riesgo de suministro en el Caribe. La reducción se suma a las dificultades de caja de las térmicas por las deudas de Air-e.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista, porque la reducción llega en un momento de oferta de gas ajustada y de alta demanda prevista por El Niño, aunque se trata de un problema temporal. Para quien invierte, el efecto se concentra en empresas de generación y gas.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Un gas más escaso y caro presiona los costos de generadoras y distribuidoras de gas."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "El reporte de Spec LNG sobre la terminación de los trabajos y el nivel de los embalses en las próximas semanas.",
+      "terminos": [
+        "Terminal de regasificación",
+        "Gas natural licuado (GNL)",
+        "Generación térmica",
+        "Fenómeno de El Niño"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/spec-lng-realizara-trabajos-correctivos-en-uno-se-sus-trenes-de-regasificacion-4511860"
+    },
+    {
+      "id": "2026-10-28-04",
+      "fecha": "2026-10-28",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 5,
+        "alcance": 1,
+        "materialidad": 2,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "Dólar rebota a $3.147 mientras el mercado espera la decisión de la Fed",
+      "resumen": "El dólar cerró el martes en $3.147,40 en el mercado spot de Colombia, $17,40 por encima del cierre del lunes, en una jornada volátil previa a la decisión de la Reserva Federal. La TRM para este miércoles quedó en $3.148,02.",
+      "contexto": "Durante la sesión la divisa se movió entre $3.117 y $3.172. El consenso espera que la Reserva Federal mantenga su tasa este miércoles, después del aumento de 25 puntos básicos de septiembre, y el mercado seguirá la rueda de prensa de su presidente, Kevin Warsh. La caída del petróleo (WTI a US$100 y Brent a US$109,70) limitó el avance de las monedas de países exportadores de crudo. Un analista citado señaló que el precio respetó la zona de soporte entre $3.120 y $3.140.",
+      "afectados": [
+        "Peso colombiano",
+        "Importadores",
+        "Exportadores",
+        "Reserva Federal"
+      ],
+      "peso_alcista": 50,
+      "alcista": "El rebote se dio desde una zona de soporte técnico y el dólar sigue cerca de sus niveles más bajos en más de un mes, lo que mantiene bajo control el costo de las importaciones. Si la Fed mantiene la tasa sin señales más duras, el apetito por monedas emergentes podría sostener al peso. Un peso estable también ayuda a contener la inflación.",
+      "bajista": "Si la Fed muestra un tono más duro frente a la inflación persistente, el dólar global podría fortalecerse y presionar al alza la tasa de cambio en Colombia. La caída del crudo reduce el ingreso de divisas por exportaciones. La alta volatilidad de la jornada refleja cautela de los inversionistas antes de las decisiones de política monetaria.",
+      "impacto": {
+        "conclusion": "Las dos lecturas están equilibradas: el peso conserva su fortaleza reciente, pero la decisión de la Fed y el petróleo pueden moverlo en cualquier dirección. Para quien tiene ahorros en dólares, su valor en pesos dependerá en buena parte del mensaje de la Fed de este miércoles.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "Un dólar más alto valoriza en pesos los ahorros en dólares; un tono suave de la Fed podría revertir el movimiento."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La decisión de tasas de la Reserva Federal y la rueda de prensa de Kevin Warsh este miércoles 28 de octubre.",
+      "terminos": [
+        "TRM",
+        "Reserva Federal",
+        "Puntos básicos",
+        "Brent",
+        "WTI"
+      ],
+      "fuente": "Valora Analitik",
+      "url": "https://www.valoraanalitik.com/dolar-colombia-reboto-este-martes-27/"
+    },
+    {
+      "id": "2026-10-28-05",
+      "fecha": "2026-10-28",
+      "categoria": "region",
+      "pais": "Argentina",
+      "puntaje": {
+        "total": 7,
+        "alcance": 1,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Argentina: el Banco Central suspende compras de dólares por dos jornadas seguidas",
+      "resumen": "El BCRA no compró divisas el lunes ni el martes, la primera vez en 2026 que pasa dos ruedas consecutivas sin comprar, en medio de la tensión cambiaria regional que dejaron las elecciones en Brasil.",
+      "contexto": "Hasta el 23 de octubre el BCRA había comprado US$15.821 millones en el año, más de 50% por encima de la meta de US$10.000 millones pactada con el FMI. Las reservas brutas cerraron el martes en US$50.580 millones, US$99 millones más que el lunes, aunque no por compras. El dólar mayorista bajó $2 a $1.538 y cortó siete alzas seguidas, tras tocar $1.540 el lunes por la caída del real; el martes coincidió además con la fijación de precio de una letra atada al dólar. Para quien invierte desde Colombia, Argentina pesa en los fondos y ETF regionales y es un termómetro del contagio desde Brasil.",
+      "afectados": [
+        "Peso argentino",
+        "Reservas del BCRA",
+        "Bonos argentinos",
+        "Real brasileño"
+      ],
+      "peso_alcista": 45,
+      "alcista": "La pausa parece táctica: el BCRA ya superó con amplitud la meta de compras acordada con el FMI y las reservas incluso subieron el martes. El dólar mayorista bajó cuando el real recuperó parte de lo perdido, lo que muestra que la presión vino de afuera y no de un problema local. El tipo de cambio sigue 26,6% por debajo del techo de la banda, con margen amplio.",
+      "bajista": "Cortar la racha de compras justo cuando el dólar oficial estaba en máximos nominales sugiere que el BCRA evita presionar más al peso, lo que deja menos espacio para acumular reservas. La brecha con el dólar financiero se amplió y el contado con liquidación se acercó a $1.700. Si el real vuelve a caer, Argentina sería de las economías más expuestas por ser Brasil su principal socio comercial.",
+      "impacto": {
+        "conclusion": "Pesa algo más la lectura bajista, porque la pausa muestra que el contagio desde Brasil limita la estrategia de acumulación de reservas, aunque la meta con el FMI ya está cumplida. Para quien invierte desde Colombia, el efecto se concentra en activos argentinos y fondos regionales.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "negativo",
+            "detalle": "Mayor presión cambiaria en Argentina pesa sobre acciones, bonos y fondos de ese país medidos en pesos colombianos."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "Si el BCRA retoma las compras en las próximas ruedas y cómo evoluciona el real brasileño.",
+      "terminos": [
+        "Reservas internacionales",
+        "Dólar mayorista",
+        "Banda cambiaria",
+        "Dólar contado con liquidación (CCL)",
+        "FMI"
+      ],
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/economia/2026/10/27/por-primera-vez-en-el-ano-el-bcra-no-compro-divisas-por-dos-ruedas-consecutivas/"
+    },
+    {
+      "id": "2026-10-28-06",
+      "fecha": "2026-10-28",
+      "categoria": "region",
+      "pais": "México",
+      "puntaje": {
+        "total": 6,
+        "alcance": 1,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "México: exportaciones crecen 37,8% en septiembre impulsadas por manufactura",
+      "resumen": "Las exportaciones de México sumaron US$77.797 millones en septiembre, 37,8% más que un año atrás, y el déficit comercial se redujo 75,6% a US$606,1 millones, según el INEGI.",
+      "contexto": "Las manufacturas no automotrices crecieron 53% anual y ya son 74,1% de la producción manufacturera exportada, mientras las automotrices subieron 5,7%. Las ventas no petroleras a Estados Unidos aumentaron 43,5%. Entre enero y septiembre las exportaciones crecen 30,3%, el ritmo más rápido desde 2010. México es la segunda economía de la región y su peso y su bolsa influyen en los fondos latinoamericanos que tienen los inversionistas colombianos.",
+      "afectados": [
+        "Peso mexicano",
+        "Exportadores mexicanos",
+        "Fondos latinoamericanos",
+        "Comercio con EE. UU."
+      ],
+      "peso_alcista": 65,
+      "alcista": "El auge exportador, ligado a equipos electrónicos y de cómputo para la inversión en inteligencia artificial en EE. UU., sostiene la entrada de dólares a México. El déficit comercial casi desapareció y las importaciones de bienes de capital crecieron al mayor ritmo desde mayo de 2024, una señal de inversión. Esto apoya la economía mexicana y a los activos del país.",
+      "bajista": "Analistas advierten que buena parte del crecimiento es ensamble con mucho insumo importado y poco valor agregado. Las negociaciones con EE. UU. sobre aranceles al acero y aluminio están estancadas, y la revisión del T-MEC puede cambiar las reglas de origen, en especial para el sector automotor. Una mayor dependencia de las ventas a EE. UU. aumenta la exposición a decisiones de política comercial.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura alcista: las cifras oficiales muestran un comercio exterior muy dinámico que respalda la economía mexicana, aunque el riesgo arancelario sigue abierto. Para quien invierte desde Colombia, el efecto se ve sobre todo en fondos y ETF con exposición a México.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "positivo",
+            "detalle": "Un sector externo fuerte favorece a los activos mexicanos y a los fondos regionales medidos en pesos colombianos."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La fecha de la cuarta ronda de negociación con EE. UU. sobre aranceles y el avance de la revisión del T-MEC.",
+      "terminos": [
+        "Balanza comercial",
+        "Arancel",
+        "T-MEC",
+        "ETF"
+      ],
+      "fuente": "El Financiero",
+      "url": "https://www.elfinanciero.com.mx/economia/2026/10/28/exportaciones-mexicanas-crecen-38-por-ciento-en-septiembre-sumaron-77-mil-797-millones-de-dolares/"
+    },
     {
       "id": "2026-10-27-01",
       "fecha": "2026-10-27",
