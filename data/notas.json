@@ -1,6 +1,292 @@
 {
-  "actualizado": "28 oct 2026, 7:07 a. m. (hora Bogotá)",
+  "actualizado": "29 oct 2026, 7:07 a. m. (hora Bogotá)",
   "notas": [
+    {
+      "id": "2026-10-29-01",
+      "fecha": "2026-10-29",
+      "categoria": "internacional",
+      "puntaje": {
+        "total": 9,
+        "alcance": 3,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "La Fed deja su tasa entre 3,75% y 4%, con dos votos a favor de subirla",
+      "resumen": "La Reserva Federal mantuvo su tasa de referencia en el rango de 3,75% a 4%, como esperaba el mercado. La decisión fue 10 a 2: dos miembros pedían una subida inmediata de 0,25 puntos.",
+      "contexto": "En septiembre la Fed había subido su tasa por primera vez en tres años. Los votos disidentes fueron de la gobernadora Lisa Cook y de Beth Hammack, presidenta de la Fed de Cleveland, que querían un alza de 0,25 puntos porcentuales. El comité dijo que necesita más datos para seguir enfrentando el aumento de precios. La decisión llega pocos días antes de las elecciones de mitad de mandato en Estados Unidos, en las que la inflación es un tema central.",
+      "afectados": [
+        "Peso colombiano",
+        "TES",
+        "Bonos del Tesoro de EE. UU.",
+        "Banco de la República"
+      ],
+      "peso_alcista": 40,
+      "alcista": "Mantener la tasa evita, por ahora, un nuevo apretón del costo del dinero en Estados Unidos, lo que da algo de alivio a los mercados emergentes. Si la Fed no sube, la presión sobre las monedas de la región, incluido el peso colombiano, podría moderarse. Para la deuda colombiana, una pausa reduce el riesgo de que los inversionistas internacionales salgan en busca de mejores rendimientos en Estados Unidos. El dólar perdió algo de fuerza en el exterior después del anuncio.",
+      "bajista": "Dos de los doce votantes querían subir la tasa de inmediato, una señal de que la puerta a nuevas alzas sigue abierta. Con la inflación aún por encima de lo esperado en Estados Unidos, el escenario de tasas altas por más tiempo encarece el financiamiento de países como Colombia. Eso tiende a presionar al alza los rendimientos de los TES y a sostener un dólar caro frente al peso. Además, coincide con un Banco de la República que también se inclina por subir su tasa.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista: la pausa era la esperada, pero la división del comité deja abierta una nueva alza y mantiene caro el costo del dinero en el mundo. Para quien invierte desde Colombia, el entorno sigue siendo de tasas altas, con presión sobre la renta fija y soporte para el dólar.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "La posibilidad de nuevas alzas de la Fed presiona al alza los rendimientos de los TES, lo que baja su precio."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "positivo",
+            "detalle": "Tasas altas en Estados Unidos por más tiempo tienden a sostener el dólar frente al peso."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "positivo",
+            "detalle": "Un entorno global de tasas altas ayuda a mantener elevadas las tasas de los CDT en Colombia."
+          }
+        ]
+      },
+      "mirar": "La próxima reunión de la Fed en diciembre y los datos de inflación de Estados Unidos antes de esa fecha.",
+      "terminos": [
+        "Reserva Federal",
+        "Bonos del Tesoro de EE. UU.",
+        "TES"
+      ],
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/estados-unidos/2026/10/28/la-reserva-federal-de-estados-unidos-mantuvo-sin-cambios-la-tasa-de-interes-de-referencia/"
+    },
+    {
+      "id": "2026-10-29-02",
+      "fecha": "2026-10-29",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 8,
+        "alcance": 4,
+        "materialidad": 2,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "Analistas esperan que el Banco de la República suba su tasa a 12,50% con votación 5 a 2",
+      "resumen": "La junta del Banco de la República decide este viernes 30 de octubre y la mayoría de analistas espera un alza de 0,25 puntos, de 12,25% a 12,50%. La encuesta de ANIF apunta a una votación dividida.",
+      "contexto": "En la encuesta de ANIF, 12 de 19 analistas esperan la subida, y el resultado más probable sería una votación 5 a 2. César Giraldo y Laura Moisá son los codirectores más mencionados como posibles disidentes si la tasa sube. Algunas proyecciones no descartan una tasa de 13% al cierre del año, con recortes desde el segundo semestre del próximo año. El gerente Leonardo Villar ha dicho que los recortes dependen de una baja real y sostenida de la inflación hacia la meta de 3%.",
+      "afectados": [
+        "Banco de la República",
+        "TES",
+        "Bancos",
+        "Peso colombiano"
+      ],
+      "peso_alcista": 35,
+      "alcista": "Un alza ya anticipada por el mercado no debería causar sorpresas grandes, y reforzaría la credibilidad del banco frente a la inflación. Si la inflación cede, eso abriría la puerta a los recortes que algunas proyecciones ubican desde el segundo semestre del próximo año. Para el ahorrador en pesos, tasas más altas mejoran el rendimiento de los CDT. Un banco central firme también puede ayudar a contener la presión sobre el peso.",
+      "bajista": "Una tasa más alta encarece el crédito para hogares y empresas y frena la actividad, en una economía que ya crece poco. Para las acciones colombianas, el costo del dinero más alto reduce el atractivo frente a la renta fija. Los TES que ya están en portafolio pierden precio si el mercado empieza a descontar una tasa de 13% al cierre del año. Una votación dividida también puede generar dudas sobre el rumbo de la política monetaria.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista para los activos de riesgo: el mercado se prepara para tasas más altas por más tiempo. Para quien invierte, el escenario favorece el ahorro en pesos y presiona las acciones y los TES que ya están en portafolio.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Tasas más altas encarecen el crédito y restan atractivo a las acciones frente a la renta fija."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "Si el mercado descuenta una tasa cercana a 13%, el precio de los TES en portafolio tiende a bajar."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "Tasas más altas pueden atraer capitales y apoyar al peso, pero el frente fiscal y externo sigue presionando."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "positivo",
+            "detalle": "Un alza de la tasa de referencia suele trasladarse a mejores tasas para los CDT."
+          }
+        ]
+      },
+      "mirar": "La decisión de la junta del Banco de la República del viernes 30 de octubre y el detalle de la votación.",
+      "terminos": [
+        "Tasa de política monetaria",
+        "Puntos básicos",
+        "Meta de inflación",
+        "TES"
+      ],
+      "fuente": "Valora Analitik",
+      "url": "https://www.valoraanalitik.com/anticipan-votacion-dividida-de-la-junta-del-banco-de-la-republica-por-las-tasas-de-interes-en-octubre-quienes-estaran-en-desacuerdo/"
+    },
+    {
+      "id": "2026-10-29-03",
+      "fecha": "2026-10-29",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 7,
+        "alcance": 2,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "El dólar cierra en $3.162 en Colombia, $14 por encima de la TRM, tras la Fed",
+      "resumen": "El dólar terminó el miércoles en $3.162, unos $14 más que la TRM del día ($3.148), en una jornada marcada por la decisión de la Fed y el alza del petróleo.",
+      "contexto": "La divisa abrió en $3.145, tocó un máximo de $3.172 y promedió $3.151, con negocios por unos US$1.051 millones. El Brent subió 1,26% hasta US$115,32 en medio de tensiones internacionales. El mercado también sigue las elecciones de mitad de mandato en Estados Unidos del 3 de noviembre y la reunión de la junta del Banco de la República de esta semana.",
+      "afectados": [
+        "Peso colombiano",
+        "TRM",
+        "Importadores",
+        "Exportadores"
+      ],
+      "peso_alcista": 45,
+      "alcista": "Un dólar más alto mejora los ingresos en pesos de exportadores y de empresas con ventas en dólares. El alza del Brent también favorece los ingresos petroleros del país, lo que puede dar algo de soporte al peso más adelante. La subida fue moderada y el promedio de la jornada quedó cerca de la TRM. Para quien ahorra en dólares, el movimiento valoriza esas posiciones medidas en pesos.",
+      "bajista": "Un dólar más caro encarece las importaciones y puede añadir presión a la inflación, justo cuando el Banco de la República evalúa subir su tasa. La incertidumbre por las elecciones en Estados Unidos y las tensiones internacionales pueden mantener la volatilidad. Para empresas endeudadas en dólares, la subida eleva el costo de su deuda en pesos.",
+      "impacto": {
+        "conclusion": "Pesa ligeramente más la lectura bajista, porque un dólar al alza suma presión a la inflación en un momento de tasas altas. Para quien invierte, el movimiento valoriza lo que tenga en dólares, pero aumenta la incertidumbre local.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "positivo",
+            "detalle": "El alza del dólar valoriza en pesos los ahorros e inversiones en dólares."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "positivo",
+            "detalle": "Más presión inflacionaria refuerza el escenario de tasas altas que favorece a los CDT."
+          }
+        ]
+      },
+      "mirar": "La TRM de los próximos días y la decisión del Banco de la República del 30 de octubre.",
+      "terminos": [
+        "TRM",
+        "Brent",
+        "Reserva Federal"
+      ],
+      "fuente": "Semana",
+      "url": "https://www.semana.com/economia/inversionistas/articulo/dolar-cierra-al-alza-la-jornada-del-miercoles-28-de-octubre-este-es-el-precio-de-la-divisa/202601/"
+    },
+    {
+      "id": "2026-10-29-04",
+      "fecha": "2026-10-29",
+      "categoria": "bvc",
+      "puntaje": {
+        "total": 6,
+        "alcance": 1,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "ISA renueva su junta: entra el presidente de Ecopetrol y cambian las reglas para elegir CEO",
+      "resumen": "La asamblea extraordinaria de accionistas de ISA eligió una nueva junta de nueve miembros para 2026-2028, con el presidente de Ecopetrol entre ellos, y reformó los estatutos sobre la elección de su presidente.",
+      "contexto": "Ecopetrol, accionista mayoritario, propuso cinco miembros no independientes y uno independiente; los fondos de pensiones tienen tres puestos y EPM uno. ISA afirma que la junta queda con mayoría independiente. La reforma del artículo 37 da a la junta la conducción del proceso para elegir al presidente de ISA, con apoyo opcional de una firma de búsqueda de ejecutivos y con una evaluación documentada de los candidatos. Otra reforma busca conservar al menos tres miembros de la junta saliente al armar nuevas planchas, sin que sea obligatorio.",
+      "afectados": [
+        "ISA",
+        "Ecopetrol",
+        "Fondos de pensiones",
+        "EPM"
+      ],
+      "peso_alcista": 50,
+      "alcista": "Una junta con mayoría independiente y reglas formales para elegir al presidente puede reducir la incertidumbre sobre el gobierno corporativo de ISA. Exigir evaluación documentada de candidatos y la opción de usar una firma especializada da más transparencia al relevo. La regla de conservar parte de la junta anterior favorece la continuidad en la estrategia de la compañía.",
+      "bajista": "La llegada del presidente de Ecopetrol y la mayoría de puestos propuestos por Ecopetrol refuerzan la influencia del accionista controlador, que a su vez depende del Gobierno. Para los accionistas minoritarios, eso puede elevar la percepción de riesgo de decisiones con criterio político. La elección del próximo presidente de ISA queda pendiente, lo que mantiene la incertidumbre en el corto plazo.",
+      "impacto": {
+        "conclusion": "Las dos lecturas están parejas: hay reglas más claras, pero también más peso del controlador. Para quien tiene acciones de ISA, lo relevante será quién resulte elegido como presidente y cómo se aplican las nuevas reglas.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "mixto",
+            "detalle": "Más gobierno corporativo formal, pero mayor influencia de Ecopetrol en la junta de ISA."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "El proceso que abra la nueva junta para designar al presidente de ISA.",
+      "terminos": [
+        "Asamblea extraordinaria de accionistas",
+        "Gobierno corporativo",
+        "Miembro independiente de junta",
+        "Estatutos sociales"
+      ],
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/colombia/2026/10/28/isa-mueve-su-junta-directiva-presidente-de-ecopetrol-y-representante-de-epm-entran-al-organo-de-direccion/"
+    },
+    {
+      "id": "2026-10-29-05",
+      "fecha": "2026-10-29",
+      "categoria": "region",
+      "pais": "Brasil",
+      "puntaje": {
+        "total": 7,
+        "alcance": 1,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Brasil: la bolsa cae 2,68% y acumula 16,6% de pérdida en la semana por dudas fiscales",
+      "resumen": "El Ibovespa cerró en 171.006 puntos, su menor nivel desde el 20 de agosto, y sumó tres sesiones seguidas en rojo. El real se movió poco y el dólar terminó en R$5,34.",
+      "contexto": "La incertidumbre sobre la política fiscal del gobierno reelegido de Lula sigue siendo la principal preocupación del mercado brasileño. Los inversionistas extranjeros retiraron R$2.846 millones de la bolsa el 26 de octubre, primer día hábil tras la segunda vuelta. Las caídas fueron mayores en el sector inmobiliario y en empresas pequeñas. Brasil es la mayor economía de la región, y su mercado pesa en los fondos y ETF latinoamericanos que tienen muchos inversionistas colombianos.",
+      "afectados": [
+        "Bovespa",
+        "Real brasileño",
+        "Fondos de América Latina"
+      ],
+      "peso_alcista": 30,
+      "alcista": "El real se estabilizó y el dólar cerró con una leve baja, lo que sugiere que la presión cambiaria cedió frente a los primeros días tras la elección. Tras una caída de 16,6% en la semana, parte del ajuste por el resultado electoral podría estar ya en los precios. Si el gobierno presenta señales concretas de control del gasto, el mercado podría recuperar terreno.",
+      "bajista": "La bolsa siguió cayendo aun con el real estable, señal de que la desconfianza fiscal persiste. La salida de capital extranjero puede continuar mientras no haya un plan fiscal claro. Para quien tiene fondos o ETF con exposición a Brasil, las pérdidas de la semana se reflejan directamente en el valor en pesos de esas inversiones.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista: la caída continúa por la falta de claridad fiscal en Brasil. Para quien invierte desde Colombia, el efecto se concentra en los fondos y ETF con exposición a Brasil y a la región.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "negativo",
+            "detalle": "Los fondos y ETF con acciones brasileñas pierden valor mientras siga la caída del Ibovespa."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "Las señales del gobierno brasileño sobre su plan fiscal y el flujo de capital extranjero en la bolsa.",
+      "terminos": [
+        "Bovespa",
+        "ETF"
+      ],
+      "fuente": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/ibovespa-cai-268-e-dolar-fecha-em-leve-baixa-r-534"
+    },
     {
       "id": "2026-10-28-01",
       "fecha": "2026-10-28",
