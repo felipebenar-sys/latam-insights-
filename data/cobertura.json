@@ -1,5 +1,5 @@
 {
-  "actualizado": "28 oct 2026, 7:08 a. m. (hora Bogotá)",
+  "actualizado": "29 oct 2026, 7:08 a. m. (hora Bogotá)",
   "companias": [
     {
       "ticker": "MELI",
@@ -88,6 +88,120 @@
     }
   ],
   "notas": [
+    {
+      "id": "2026-10-29-c01",
+      "fecha": "2026-10-29",
+      "fecha_noticia": "2026-10-28",
+      "empresa": "PBR",
+      "categoria": "latam",
+      "puntaje": {
+        "total": 7,
+        "alcance": 1,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Petrobras produce un récord de 3,5 millones de barriles equivalentes diarios en el tercer trimestre",
+      "resumen": "Petrobras informó que su producción de petróleo, gas y líquidos llegó a 3,5 millones de barriles de petróleo equivalente por día entre julio y septiembre, un récord y 11,7% más que un año antes.",
+      "contexto": "La producción de petróleo en Brasil fue de 2,83 millones de barriles diarios, 12,4% más que en el tercer trimestre de 2025. Las exportaciones de crudo subieron 21,3% interanual, a 987.000 barriles diarios, aunque bajaron frente al segundo trimestre. China pasó de 35% a 40% de los destinos de exportación y Estados Unidos subió a 12%, mientras India bajó de 22% a 8%. El reporte llega en una semana de fuerte volatilidad para las acciones brasileñas tras la reelección de Lula.",
+      "afectados": [
+        "Petrobras",
+        "ADR",
+        "Brent"
+      ],
+      "peso_alcista": 70,
+      "alcista": "Más producción con el Brent por encima de US$100 apunta a mayores ingresos en el trimestre. El crecimiento de las exportaciones amplía las ventas en dólares de la compañía. Un volumen récord también refuerza la capacidad de generar caja para inversiones y dividendos. Es un dato operativo concreto en medio de la incertidumbre política que pesa sobre la acción.",
+      "bajista": "Las exportaciones cayeron frente al segundo trimestre y las importaciones subieron con fuerza, lo que puede presionar los márgenes. El dato de producción no despeja el riesgo de intervención del gobierno en precios de combustibles o en la política de dividendos tras la reelección de Lula. La mayor dependencia de China como destino concentra el riesgo comercial.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura alcista: la producción récord es un hecho operativo positivo para los ingresos. Para quien tiene el ADR de Petrobras, el factor político en Brasil sigue siendo el principal riesgo frente a este buen dato.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "positivo",
+            "detalle": "Para quien tiene el ADR en Nueva York, más producción con crudo caro respalda los ingresos esperados del trimestre."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "Los resultados financieros del tercer trimestre de Petrobras y su anuncio de dividendos.",
+      "terminos": [
+        "ADR",
+        "Presal",
+        "Brent"
+      ],
+      "fuente": "InfoMoney",
+      "url": "https://www.infomoney.com.br/mercados/producao-de-petroleo-da-petrobras-petr4-bate-recorde-novamente-no-3o-tri/"
+    },
+    {
+      "id": "2026-10-29-c02",
+      "fecha": "2026-10-29",
+      "fecha_noticia": "2026-10-28",
+      "empresa": "GRUPOARGOS",
+      "categoria": "latam",
+      "puntaje": {
+        "total": 6,
+        "alcance": 1,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Odinsa aprueba dividendo extraordinario de $183.107 millones que irá casi todo a Grupo Argos",
+      "resumen": "La asamblea de Odinsa aprobó repartir unos $183.107 millones en dividendos extraordinarios, $934 por acción, que se pagarán en efectivo y en una sola cuota durante 2026. Grupo Argos tiene 99,9% de las acciones de Odinsa.",
+      "contexto": "El reparto hace parte de la estrategia de Grupo Argos para optimizar su estructura financiera y fortalecer su generación de caja. Se habilitó tras operaciones financieras de Odinsa en Opain y Pacífico 2. Junto con la desinversión en los centros comerciales de Pactia, Grupo Argos recibiría flujos por unos $440.000 millones en 2026. Odinsa conservará cerca de $1,3 billones en reservas para futuras distribuciones.",
+      "afectados": [
+        "Grupo Argos",
+        "Odinsa"
+      ],
+      "peso_alcista": 70,
+      "alcista": "Grupo Argos recibe caja de sus filiales, lo que le da más capacidad para reducir deuda, invertir o repartir a sus propios accionistas. Las reservas que Odinsa conserva dejan espacio para nuevas distribuciones. El dividendo muestra avances concretos en la estrategia de convertir activos en flujo de caja.",
+      "bajista": "Es un pago extraordinario, no recurrente, y su monto es pequeño frente al tamaño del grupo. Sacar caja de Odinsa reduce los recursos disponibles para nuevas inversiones en concesiones. Los flujos anunciados dependen también de que se complete la desinversión de Pactia.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura alcista: el grupo convierte activos en caja de forma concreta. Para quien tiene acciones de Grupo Argos, lo clave es en qué se usarán estos recursos.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "positivo",
+            "detalle": "Más caja para Grupo Argos puede apoyar su balance y la percepción del mercado sobre la acción."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La fecha de pago del dividendo y el cierre de la desinversión en Pactia.",
+      "terminos": [
+        "Desinversión",
+        "Rotación de activos"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/grupo-argos-recibira-mas-de-183-000-millones-en-dividendos-extraordinarios-de-odinsa-4513652"
+    },
     {
       "id": "2026-10-28-c01",
       "fecha": "2026-10-28",
