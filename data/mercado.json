@@ -1,9 +1,9 @@
 {
   "trm": {
-    "valor": 3148.02,
-    "vigente_desde": "2026-10-28",
-    "anterior": 3157.94,
-    "fuente": "Superintendencia Financiera vía Portafolio"
+    "valor": 3166.91,
+    "vigente_desde": "2026-10-30",
+    "anterior": 3162.35,
+    "fuente": "Superintendencia Financiera vía La República"
   },
   "brent": {
     "valor": 115.33,
@@ -12,10 +12,10 @@
     "fuente": "La República"
   },
   "colcap": {
-    "valor": 2505.05,
-    "cambio_pct": -1.36,
-    "fecha": "2026-10-26",
-    "fuente": "BVC vía La República"
+    "valor": 2505.79,
+    "cambio_pct": -0.03,
+    "fecha": "2026-10-28",
+    "fuente": "BVC vía Valora Analitik"
   },
   "tasa_banrep": {
     "valor": 12.25,
@@ -26,5 +26,5 @@
     "periodo": "sep 2026",
     "fuente": "DANE"
   },
-  "actualizado": "2026-10-28"
+  "actualizado": "2026-10-30"
 }

@@ -655,6 +655,18 @@
     {
       "termino": "Paridad de importación",
       "definicion": "Es el precio al que costaría traer un combustible desde el exterior, sumando su cotización internacional, el transporte y otros costos. Sirve de referencia para saber si una petrolera vende en el mercado local por encima o por debajo del precio internacional. Vender por debajo de la paridad durante mucho tiempo reduce los ingresos de la empresa."
+    },
+    {
+      "termino": "Balance primario estructural",
+      "definicion": "Es la diferencia entre lo que el Gobierno recibe y lo que gasta, sin contar los intereses de la deuda y descontando efectos temporales como un auge petrolero o una recesión. Muestra si las cuentas públicas son sanas de manera permanente. Para quien invierte importa porque un balance débil suele llevar a más deuda y a tasas más altas en los TES."
+    },
+    {
+      "termino": "Cláusula de escape",
+      "definicion": "Es una regla que permite a un gobierno apartarse temporalmente de sus metas fiscales cuando ocurre un choque grave e imprevisto, como una crisis o un desastre natural. Da flexibilidad, pero si se usa con frecuencia le resta credibilidad a la regla fiscal y puede elevar la prima de riesgo del país."
+    },
+    {
+      "termino": "Índice PCE",
+      "definicion": "Es el índice de precios del gasto en consumo personal de Estados Unidos y es la medida de inflación que más sigue la Reserva Federal. Su versión núcleo excluye alimentos y energía. Si sube más de lo esperado, aumenta la probabilidad de tasas altas en EE. UU., lo que suele fortalecer el dólar frente a monedas como el peso colombiano."
     }
   ]
 }

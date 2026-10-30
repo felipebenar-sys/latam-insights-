@@ -1,6 +1,293 @@
 {
-  "actualizado": "29 oct 2026, 7:07 a. m. (hora Bogotá)",
+  "actualizado": "30 oct 2026, 7:03 a. m. (hora Bogotá)",
   "notas": [
+    {
+      "id": "2026-10-30-01",
+      "fecha": "2026-10-30",
+      "categoria": "internacional",
+      "puntaje": {
+        "total": 9,
+        "alcance": 4,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "La inflación PCE de EE. UU. sube 0,5% en septiembre y crecen las apuestas de alza de la Fed",
+      "resumen": "El índice de precios PCE de Estados Unidos subió 0,5% en septiembre y 3,6% en doce meses, y la herramienta FedWatch mostraba cerca de 85% de probabilidad de que la Reserva Federal suba su tasa en diciembre.",
+      "contexto": "El dato llegó un día después de que la Reserva Federal mantuviera su tasa entre 3,75% y 4% anual, con dos votos a favor de subirla. El bono del Tesoro de EE. UU. a 10 años rondaba el 5%. La presión de las tasas estadounidenses llevó los rendimientos de los bonos de Brasil a sus niveles más altos desde el lunes 26 de octubre.",
+      "afectados": [
+        "Reserva Federal",
+        "Bonos del Tesoro de EE. UU.",
+        "Peso colombiano",
+        "TES"
+      ],
+      "peso_alcista": 35,
+      "alcista": "Una economía estadounidense con precios firmes también refleja demanda fuerte, que puede sostener las exportaciones de la región. Para quien tiene ahorros en dólares, tasas altas en EE. UU. suelen fortalecer esa moneda frente al peso. Los CDT en pesos podrían ofrecer tasas más altas si el Banco de la República se ve obligado a mantener una política restrictiva. Si la Fed sube en diciembre y la inflación cede, el ciclo podría cerrarse antes.",
+      "bajista": "Una inflación de 3,6% en EE. UU. aleja cualquier recorte de la Fed y acerca una subida. Bonos del Tesoro cerca de 5% compiten con los bonos de países emergentes y presionan al alza las tasas de los TES, lo que baja su precio. El capital tiende a salir de mercados como Colombia, lo que debilita al peso y a las acciones locales. Además, limita el margen del Banco de la República para bajar tasas.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista: inflación alta en EE. UU. y la probabilidad de una nueva alza de la Fed endurecen las condiciones financieras para Colombia. Para quien invierte, esto suele traducirse en TES más baratos y un dólar más fuerte frente al peso. Los CDT y el ahorro en pesos salen favorecidos por un entorno de tasas altas por más tiempo.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Tasas altas en EE. UU. suelen provocar salida de capital de las bolsas emergentes."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "El Tesoro cerca de 5% presiona al alza las tasas de los TES y baja su precio."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "positivo",
+            "detalle": "Un dólar más fuerte frente al peso sube el valor en pesos de lo invertido en dólares."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "positivo",
+            "detalle": "Un entorno de tasas altas por más tiempo sostiene los rendimientos de los CDT."
+          }
+        ]
+      },
+      "mirar": "La reunión de la Reserva Federal de diciembre y el próximo dato de inflación de EE. UU.",
+      "terminos": [
+        "Índice PCE",
+        "Reserva Federal",
+        "Bonos del Tesoro de EE. UU.",
+        "TES"
+      ],
+      "fuente": "InfoMoney",
+      "url": "https://infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-29102026"
+    },
+    {
+      "id": "2026-10-30-02",
+      "fecha": "2026-10-30",
+      "categoria": "politica",
+      "puntaje": {
+        "total": 8,
+        "alcance": 3,
+        "materialidad": 3,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "Ley de Rescate: metas fiscales fijas por cuatro años y topes al gasto si la deuda se desborda",
+      "resumen": "El proyecto de Ley de Rescate Económico, radicado por el Gobierno, reforma la regla fiscal: cada gobierno deberá fijar al inicio de su mandato metas mínimas de balance primario estructural para sus cuatro años, que no podrá cambiar después, y se activarán topes al gasto si la deuda supera los límites.",
+      "contexto": "La regla fiscal rige desde 2012 y solo se modificó en 2021, cuando adoptó un ancla de deuda de 55% del PIB y un límite de 71%; el proyecto mantiene ambos. Si la deuda neta pasa el límite, el gasto de personal solo podría crecer la inflación más 0,5 puntos y el Gobierno tendría que presentar medidas para corregirla antes de terminar el año siguiente; según Anif, las compras públicas solo crecerían con la inflación y habría recortes automáticos si la deuda neta supera 63% del PIB. El Comité Autónomo de la Regla Fiscal pasaría a siete miembros, cinco de ellos expertos independientes, y habría una cláusula de escape para choques imprevistos. Según datos de Corficolombiana citados en el artículo, el ajuste que busca el proyecto equivale a cerca del doble del promedio de las reformas tributarias desde 1990 (1,2% del PIB).",
+      "afectados": [
+        "TES",
+        "Finanzas públicas",
+        "Peso colombiano",
+        "Prima de riesgo país"
+      ],
+      "peso_alcista": 60,
+      "alcista": "Metas de cuatro años que no se pueden cambiar y topes automáticos al gasto le dan más credibilidad a la política fiscal. Si el mercado percibe que la deuda dejará de crecer, la prima de riesgo país podría bajar y las tasas de los TES ceder, lo que sube el precio de los bonos que ya están en los portafolios. Un comité fiscal con mayoría de expertos independientes refuerza la vigilancia sobre el cumplimiento. Menor riesgo país también suele atraer capital extranjero y apoyar al peso.",
+      "bajista": "Es un proyecto y aún debe pasar por el Congreso, donde puede cambiar o hundirse. Un ajuste del doble del tamaño de las reformas habituales implica más impuestos o menos gasto, lo que podría frenar el consumo y las utilidades de las empresas. La cláusula de escape abre la puerta a desvíos temporales que reducirían la disciplina prometida. Si el trámite se enreda, la incertidumbre podría mantener altas las tasas de los TES.",
+      "impacto": {
+        "conclusion": "Pesa algo más la lectura alcista: las nuevas reglas apuntan a frenar el crecimiento de la deuda, que es una de las principales fuentes de presión sobre las tasas en Colombia. Para quien invierte, el efecto más directo estaría en los TES, cuyas tasas podrían bajar si el proyecto avanza sin grandes cambios. El efecto depende del trámite en el Congreso, por lo que por ahora es una expectativa y no un hecho.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "mixto",
+            "detalle": "Menor riesgo país favorece a las acciones, pero un ajuste fiscal grande podría frenar el consumo y las utilidades."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "positivo",
+            "detalle": "Una regla fiscal más creíble podría bajar las tasas de los TES y subir su precio."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "negativo",
+            "detalle": "Si baja el riesgo país, el peso podría fortalecerse y restar valor en pesos a lo invertido en dólares."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "El inicio del trámite del proyecto en las comisiones económicas del Congreso y la reacción de las tasas de los TES.",
+      "terminos": [
+        "Regla fiscal",
+        "Balance primario estructural",
+        "Comité Autónomo de la Regla Fiscal (CARF)",
+        "Cláusula de escape",
+        "TES"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/ley-de-rescate-modificaria-regla-fiscal-y-pondria-techo-al-gasto-si-la-deuda-supera-63-del-pib-4514413"
+    },
+    {
+      "id": "2026-10-30-03",
+      "fecha": "2026-10-30",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 7,
+        "alcance": 2,
+        "materialidad": 3,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "El dólar sube a $3.169 en Colombia antes de la decisión de tasas del Banco de la República",
+      "resumen": "El dólar cerró el jueves 29 de octubre en $3.169, $6 más que en la sesión anterior, con un promedio de $3.167, mientras el mercado esperaba la decisión de tasas del Banco de la República de este viernes.",
+      "contexto": "En la jornada el dólar se movió entre $3.157 y $3.183. Las encuestas daban por descontada una subida de alrededor de 25 puntos básicos en la tasa del Banco de la República, que anunciará su decisión después de la 1:00 p. m. del viernes. Los inversionistas también seguían el trámite de la Ley de Rescate y sus cambios en impuestos.",
+      "afectados": [
+        "Peso colombiano",
+        "Banco de la República",
+        "TES",
+        "Importadores"
+      ],
+      "peso_alcista": 45,
+      "alcista": "Una subida de tasas del Banco de la República haría más atractivos los activos en pesos y podría frenar el alza del dólar. Para quien ahorra en CDT, tasas más altas mejoran la rentabilidad de los nuevos depósitos. Si la Ley de Rescate gana apoyo, el menor riesgo fiscal también podría favorecer al peso. El movimiento del día fue moderado y el dólar se mantiene lejos de sus máximos del mes.",
+      "bajista": "El dólar sube mientras la inflación en Colombia habría seguido al alza en octubre, lo que encarece los productos importados. Una nueva subida de tasas presionaría a las empresas endeudadas y al consumo. Si la decisión del Banco de la República sorprende o la votación sale dividida, la volatilidad del peso podría aumentar. La incertidumbre sobre los cambios tributarios añade cautela entre los inversionistas.",
+      "impacto": {
+        "conclusion": "Pesa algo más la lectura bajista: el dólar volvió a subir y el mercado anticipa tasas más altas por la inflación. Para quien invierte, la decisión de este viernes define el rumbo de los TES y de los CDT en las próximas semanas. Quien tiene ahorros en dólares vio una leve valorización en pesos.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "La expectativa de una subida de tasas presiona a la baja el precio de los TES."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "positivo",
+            "detalle": "El alza del dólar sube el valor en pesos de lo invertido en dólares."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo hasta conocer la decisión del Banco de la República."
+          }
+        ]
+      },
+      "mirar": "La decisión de tasas del Banco de la República, que se conocerá después de la 1:00 p. m. de este viernes 30 de octubre.",
+      "terminos": [
+        "TRM",
+        "Tasa de política monetaria",
+        "Puntos básicos"
+      ],
+      "fuente": "Valora Analitik",
+      "url": "https://www.valoraanalitik.com/dolar-en-colombia-termina-jornada-al-alza-a-la-espera-de-decision-de-tasas-del-banrep/"
+    },
+    {
+      "id": "2026-10-30-04",
+      "fecha": "2026-10-30",
+      "categoria": "region",
+      "pais": "Brasil",
+      "puntaje": {
+        "total": 7,
+        "alcance": 1,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Brasil: el dólar sube 0,76% a R$5,39 por dudas fiscales sobre el nuevo mandato de Lula",
+      "resumen": "El dólar subió 0,76% en Brasil el jueves 29 de octubre y cerró en R$5,3875, tras llegar a R$5,43 durante la jornada, presionado por el exterior y por las dudas sobre el manejo fiscal del próximo gobierno de Lula.",
+      "contexto": "En EE. UU. el PIB creció 3,4% en el tercer trimestre, por encima del 3,2% esperado, y el dólar ganó frente a las monedas emergentes. En Brasil, el control de las cuentas públicas es la principal preocupación de los inversionistas y el Gobierno aún no define quién ocupará el Ministerio de Hacienda en 2027. Brasil es la mayor economía de la región, y su volatilidad suele contagiar a otros mercados emergentes, incluido el colombiano.",
+      "afectados": [
+        "Real brasileño",
+        "Activos brasileños",
+        "Monedas emergentes"
+      ],
+      "peso_alcista": 35,
+      "alcista": "Pese al alza del día, el dólar todavía acumula una caída de 1,85% frente al real en 2026. Si el Gobierno anuncia un equipo económico y medidas fiscales creíbles, el real podría recuperar terreno. Los precios más bajos de los activos brasileños tras las caídas recientes pueden atraer compradores de largo plazo. Para quien tiene inversiones en dólares, la fortaleza de esa moneda frente a los emergentes las valoriza.",
+      "bajista": "El real sigue débil tras la reelección de Lula, y la falta de definiciones sobre el equipo económico prolonga la incertidumbre. Un dólar fuerte por datos sólidos en EE. UU. presiona a todas las monedas de la región. Quien tiene fondos o ETF de Brasil ve caer su valor medido en pesos. Si el deterioro se profundiza, puede contagiar al peso colombiano y a otros activos de la región.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista: la debilidad del real se suma a un dólar global fuerte y a la incertidumbre fiscal en Brasil. Para quien invierte desde Colombia, el efecto principal está en los fondos y ETF expuestos a Brasil, que pierden valor medido en pesos. El anuncio del equipo económico será clave para cambiar la lectura.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "negativo",
+            "detalle": "Los fondos y ETF de Brasil pierden valor en pesos con la caída del real."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "El anuncio del próximo ministro de Hacienda de Brasil y de las primeras medidas fiscales del nuevo mandato.",
+      "terminos": [
+        "PIB",
+        "Índice DXY"
+      ],
+      "fuente": "InfoMoney",
+      "url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-29102026/"
+    },
+    {
+      "id": "2026-10-30-05",
+      "fecha": "2026-10-30",
+      "categoria": "region",
+      "pais": "Argentina",
+      "puntaje": {
+        "total": 6,
+        "alcance": 1,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Argentina: el riesgo país baja a 741 puntos, pero las reservas caen US$447 millones",
+      "resumen": "El riesgo país de Argentina bajó 19 puntos, hasta 741 puntos básicos, el jueves 29 de octubre por la recuperación de los bonos, mientras las reservas brutas del Banco Central cayeron US$447 millones, a US$50.154 millones.",
+      "contexto": "Los bonos Globales subieron 0,7% y los Bonares 0,4%, pero el índice Merval cayó 1% y sumó cuatro jornadas de pérdidas. El Banco Central absorbió US$47 millones tras tres sesiones sin intervenir, y el dólar mayorista bajó a $1.538. La reelección de Lula en Brasil, principal socio comercial de Argentina, ha elevado las dudas sobre el rumbo político argentino, lo que importa a quien tiene fondos o bonos de la región.",
+      "afectados": [
+        "Bonos argentinos",
+        "Peso argentino",
+        "Merval"
+      ],
+      "peso_alcista": 50,
+      "alcista": "La baja del riesgo país muestra que los bonos argentinos encontraron compradores tras varios días de caídas por el efecto Brasil. El Banco Central volvió a sumar dólares en el mercado, lo que ayuda a sostener la moneda. El dólar mayorista bajó levemente, lo que reduce la presión cambiaria. Quien tiene bonos argentinos en dólares recuperó parte de lo perdido.",
+      "bajista": "Las reservas brutas cayeron casi US$450 millones en un día, lo que limita el margen del Banco Central para enfrentar presiones. Las acciones siguieron cayendo por cuarta jornada, señal de que la desconfianza persiste. El riesgo país sigue por encima de 700 puntos, un nivel que encarece el financiamiento del país. El contagio desde Brasil puede volver en cualquier momento.",
+      "impacto": {
+        "conclusion": "Las dos lecturas pesan igual: los bonos se recuperaron, pero la caída de reservas y de las acciones muestra que la tensión no se ha disipado. Para quien invierte desde Colombia, el efecto se concentra en los bonos, fondos o ETF con exposición a Argentina, medidos en pesos. No hay canal directo hacia los activos colombianos.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "Los bonos argentinos en dólares subieron, pero las acciones del país siguieron cayendo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La evolución de las reservas y de las compras de dólares del Banco Central de Argentina en las próximas jornadas.",
+      "terminos": [
+        "Riesgo país",
+        "Reservas internacionales",
+        "Dólar mayorista"
+      ],
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/economia/2026/10/29/jornada-financiera-subieron-los-bonos-argentinos-y-cayo-el-riesgo-pais-pero-las-acciones-cedieron-por-cuarto-dia-seguido/"
+    },
     {
       "id": "2026-10-29-01",
       "fecha": "2026-10-29",
