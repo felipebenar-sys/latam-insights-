@@ -200,3 +200,39 @@ Se agrega al inicio del arreglo `notas` de `data/notas.json` y se actualiza `act
 ```
 
 La portada (`index.html`) muestra las 3 notas más recientes en versión corta (título y resumen) y la página `yentonces.html` muestra la edición completa y el archivo histórico. Ambas leen ese archivo mediante `assets/notas.js`. El aviso legal ya está fijo al final de cada página.
+
+## Informe mensual de la deuda pública (dentro de Hoy)
+Se publica el día 15 de cada mes, en una tarea programada aparte. Es una nota de **solo hechos** dentro de la sección Hoy: sin lecturas alcista o bajista, sin ponderación, sin puntaje y sin impacto por activo.
+
+**Fuente:** https://deudacolombiana.com (reloj de la deuda pública bruta del Gobierno Nacional Central, con datos del Ministerio de Hacienda e Investor Relations Colombia). Léela con WebFetch una sola vez. Usa solo las cifras oficiales con su fecha de corte; el contador "en tiempo real" del sitio es una estimación y, si lo mencionas, dilo así. Si la página no carga o no trae un corte con fecha, no publiques nada y termina con "NO PUBLICADO:" y la razón.
+
+**Qué entra:** la deuda bruta total del último corte, la deuda como porcentaje del PIB, la deuda por colombiano, los intereses que informe el sitio y cómo cambió frente al corte anterior que muestre el propio sitio. Si el corte no cambió desde el informe del mes pasado (revisa con `python3 bot/publicar.py estado` y las notas con categoría `deuda`), dilo en el resumen en lugar de repetir las cifras como si fueran nuevas.
+
+**Reglas:** las mismas reglas obligatorias de Hoy (derechos de autor, solo hechos de la fuente, sin recomendaciones, tuteo, firma Stag Research, sin menciones al proceso), más: prohibidos los calificativos como "preocupante", "alarmante", "positivo" o "negativo". Solo cifras y su explicación en lenguaje sencillo.
+
+**Formato** (se agrega con `python3 bot/publicar.py agregar hoy ARCHIVO.json`, que valida el formato `informe`):
+
+```json
+{
+  "id": "AAAA-MM-DD-01",
+  "fecha": "AAAA-MM-DD",
+  "categoria": "deuda",
+  "formato": "informe",
+  "fecha_noticia": "AAAA-MM-DD (fecha de corte de los datos)",
+  "titulo": "",
+  "resumen": "Qué muestra el último corte, 1 a 2 frases.",
+  "datos": [
+    { "etiqueta": "Deuda bruta", "valor": "" },
+    { "etiqueta": "Deuda / PIB", "valor": "" },
+    { "etiqueta": "Por colombiano", "valor": "" }
+  ],
+  "contexto": "Comparación con cortes anteriores y hechos relacionados que traiga la fuente, 2 a 4 frases.",
+  "que_significa": "Explicación sencilla de las cifras, 2 a 4 frases, sin opinión.",
+  "mirar": "El próximo dato o fecha relevante (1 frase).",
+  "terminos": ["Deuda pública", "PIB"],
+  "fuente": "Deuda Colombiana (datos del Ministerio de Hacienda)",
+  "url": "https://deudacolombiana.com"
+}
+```
+
+`datos` lleva de 3 a 8 cifras cortas. Como la URL siempre es la misma, el script permite repetirla en notas de categoría `deuda`. Commit "Informe deuda pública AAAA-MM" y push a main.

@@ -46,6 +46,11 @@ CAMPOS = {
             "peso_alcista", "alcista", "bajista", "impacto", "mirar", "terminos", "fuente", "url"],
 }
 CAMPOS["latam"] = CAMPOS["hoy"] + ["empresa", "fecha_noticia"]
+# Informes de solo hechos dentro de Hoy (por ahora, el informe mensual de la deuda pública)
+CAMPOS_INFORME = ["id", "fecha", "categoria", "formato", "titulo", "resumen", "datos", "contexto",
+                  "que_significa", "mirar", "terminos", "fuente", "url", "fecha_noticia"]
+CATEGORIAS_INFORME = {"deuda"}
+PROHIBIDOS_INFORME = ["alcista", "bajista", "peso_alcista", "impacto", "puntaje", "afectados"]
 CATEGORIAS = {"bvc", "macro", "commodities", "latam", "internacional", "politica", "sectores", "region"}
 PAISES = {"Brasil", "México", "Argentina", "Chile", "Perú"}
 ACTIVOS = ["acciones", "renta_fija", "dolar", "cdt"]
@@ -109,7 +114,32 @@ def estado():
     print(" | ".join(sorted(terminos_glosario(), key=clave)))
 
 
+def revisar_informe(n, glosario, hoy):
+    errores = []
+    faltan = [c for c in CAMPOS_INFORME if c not in n]
+    if faltan:
+        errores.append(f"faltan campos {faltan}")
+    if n.get("fecha") != hoy:
+        errores.append(f"fecha {n.get('fecha')} distinta de hoy {hoy}")
+    if not str(n.get("id", "")).startswith(f"{hoy}-"):
+        errores.append(f"id {n.get('id')} no sigue el formato {hoy}-NN")
+    if n.get("categoria") not in CATEGORIAS_INFORME:
+        errores.append(f"categoría de informe no válida: {n.get('categoria')} (usa {sorted(CATEGORIAS_INFORME)})")
+    datos = n.get("datos")
+    if not isinstance(datos, list) or not 3 <= len(datos) <= 8 or any(
+            not isinstance(d, dict) or not d.get("etiqueta") or not d.get("valor") for d in datos):
+        errores.append("datos debe ser una lista de 3 a 8 elementos con 'etiqueta' y 'valor'")
+    if any(c in n for c in PROHIBIDOS_INFORME):
+        errores.append(f"un informe es solo hechos: no lleva {PROHIBIDOS_INFORME}")
+    for t in n.get("terminos", []):
+        if t not in glosario:
+            errores.append(f"el término '{t}' no está en el glosario (agrégalo antes con el comando glosario)")
+    return errores
+
+
 def revisar_nota(seccion, n, glosario, hoy):
+    if seccion == "hoy" and n.get("formato") == "informe":
+        return revisar_informe(n, glosario, hoy)
     errores = []
     faltan = [c for c in CAMPOS[seccion] if c not in n]
     if faltan:
@@ -164,7 +194,7 @@ def agregar(seccion, ruta):
     for n in nuevas:
         for e in revisar_nota(seccion, n, glosario, hoy):
             errores.append(f"{n.get('id')}: {e}")
-        if n.get("url") in urls:
+        if n.get("url") in urls and n.get("categoria") != "deuda":
             errores.append(f"{n.get('id')}: la URL ya fue publicada ({n.get('url')})")
         if n.get("id") in ids:
             errores.append(f"{n.get('id')}: el id ya existe")

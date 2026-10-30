@@ -12,7 +12,7 @@
         st.textContent = '@media (pointer:coarse){[data-termino],.tap-amplio{position:relative}[data-termino]::after,.tap-amplio::after{content:"";position:absolute;left:-6px;right:-6px;top:-12px;bottom:-12px}}';
         document.head.appendChild(st);
     }
-    const CAT = { bvc: 'BVC', macro: 'Macro Colombia', commodities: 'Commodities', latam: 'LatAm', internacional: 'Mercados internacionales', politica: 'Política económica', sectores: 'Sectores', region: 'La región' };
+    const CAT = { bvc: 'BVC', macro: 'Macro Colombia', commodities: 'Commodities', latam: 'LatAm', internacional: 'Mercados internacionales', politica: 'Política económica', sectores: 'Sectores', region: 'La región', deuda: 'Deuda pública' };
     const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
     const slug = t => String(t).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
     const safeUrl = u => /^https?:\/\//i.test(u || '') ? u : '#';
@@ -124,7 +124,7 @@
                 ${n.empresa ? `<span class="bg-sky-400/10 text-sky-300 border border-sky-400/20 px-2 py-0.5 rounded-full font-semibold">${esc(n.empresa)}</span>` : ''}
                 ${n.pais ? `<span class="bg-sky-400/10 text-sky-300 border border-sky-400/20 px-2 py-0.5 rounded-full font-semibold">${esc(n.pais)}</span>` : ''}
                 <span class="bg-amber-400/10 text-amber-400 border border-amber-400/20 px-2 py-0.5 rounded-full font-semibold">${esc(CAT[n.categoria] || n.categoria)}</span>
-                ${n.fecha_noticia ? `<span class="text-stone-500">Noticia del ${fmtFecha(n.fecha_noticia)}</span>` : ''}
+                ${n.fecha_noticia ? `<span class="text-stone-500">${n.formato === 'informe' ? 'Datos con corte al' : 'Noticia del'} ${fmtFecha(n.fecha_noticia)}</span>` : ''}
                 <a href="${esc(safeUrl(n.url))}" target="_blank" rel="noopener noreferrer" class="text-stone-400 hover:text-amber-400 underline underline-offset-2">Fuente: ${esc(n.fuente)}</a>
                 ${relevancia(n)}
             </div>`;
@@ -140,7 +140,7 @@
             ${ponderacion(n, true)}
             ${neto(n) ? `<p class="text-xs mb-4"><span class="text-stone-500">Impacto en el portafolio:</span> <span class="${neto(n)[1]} font-semibold">${neto(n)[0]}</span></p>` : ''}
             <div class="flex items-center justify-between gap-3">
-                <a href="${pagina}#${esc(n.id)}" class="text-amber-400 text-sm font-semibold hover:text-amber-300">Ver análisis →</a>
+                <a href="${pagina}#${esc(n.id)}" class="text-amber-400 text-sm font-semibold hover:text-amber-300">${esInforme(n) ? 'Ver informe' : 'Ver análisis'} →</a>
                 ${compartir(n, pagina)}
             </div>
         </article>`;
@@ -157,8 +157,42 @@
                    WhatsApp</a>`;
     }
 
+    // Informe de solo hechos (formato "informe"): cifras clave, contexto y qué significa, sin lecturas ni ponderación
+    const esInforme = n => n && n.formato === 'informe';
+    function notaInforme(n, pagina = 'yentonces.html') {
+        const datos = Array.isArray(n.datos) && n.datos.length
+            ? `<dl class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-5">${n.datos.map(d => `
+                <div class="bg-stone-950 border border-stone-800 rounded-lg px-4 py-3">
+                    <dt class="text-stone-500 text-[11px] uppercase tracking-wider">${esc(d.etiqueta)}</dt>
+                    <dd class="text-white text-lg font-semibold mt-0.5">${esc(d.valor)}</dd>
+                </div>`).join('')}</dl>` : '';
+        const terminos = Array.isArray(n.terminos) && n.terminos.length
+            ? `<p class="text-xs text-stone-500 mt-4">Términos en esta nota: ${n.terminos.map(t => `<button type="button" data-termino="${esc(t)}" class="text-stone-300 underline decoration-dotted underline-offset-2 hover:text-amber-400">${esc(t)}</button>`).join(' · ')}</p>` : '';
+        return `
+        <article id="${esc(n.id)}" data-nota data-categoria="${esc(n.categoria)}" data-afecta=""
+                 class="bg-stone-900 border border-stone-800 rounded-xl p-5 sm:p-6 scroll-mt-32">
+            ${cabecera(n)}
+            <p class="text-stone-500 text-xs font-bold uppercase tracking-wider mb-2">Informe mensual · Solo hechos</p>
+            <h3 class="serif text-xl sm:text-2xl font-bold text-white mb-3">${esc(n.titulo)}</h3>
+            <p class="text-stone-200 mb-5 max-w-4xl" data-glosable>${esc(n.resumen)}</p>
+            ${datos}
+            ${n.contexto ? `<div class="mb-5" data-glosable>
+                <p class="text-stone-500 text-xs font-bold uppercase tracking-wider mb-1">Contexto</p>
+                <p class="text-stone-300 text-sm leading-relaxed max-w-4xl">${esc(n.contexto)}</p>
+            </div>` : ''}
+            ${n.que_significa ? `<div class="mb-5" data-glosable>
+                <p class="text-stone-500 text-xs font-bold uppercase tracking-wider mb-1">Qué significa</p>
+                <p class="text-stone-300 text-sm leading-relaxed max-w-4xl">${esc(n.que_significa)}</p>
+            </div>` : ''}
+            ${n.mirar ? `<p class="text-sm text-stone-300 border-t border-stone-800 pt-4" data-glosable><span class="text-amber-400 font-semibold">Qué mirar después:</span> ${esc(n.mirar)}</p>` : ''}
+            ${terminos}
+            <div class="mt-5 pt-4 border-t border-stone-800 flex justify-end">${compartir(n, pagina)}</div>
+        </article>`;
+    }
+
     // Nota completa (página Hoy): lo esencial visible, el análisis completo plegable
     function notaCompleta(n, pagina = 'yentonces.html') {
+        if (esInforme(n)) return notaInforme(n, pagina);
         const afectados = Array.isArray(n.afectados) && n.afectados.length
             ? `<div class="mb-5">
                    <p class="text-stone-500 text-xs font-bold uppercase tracking-wider mb-2">A quién afecta</p>
@@ -207,6 +241,8 @@
     const SIM = { positivo: ['▲', 'text-emerald-400', 'Positivo'], negativo: ['▼', 'text-rose-400', 'Negativo'], neutral: ['■', 'text-stone-600', 'Neutral'], mixto: ['◆', 'text-amber-400', 'Mixto'] };
     const ACT_CORTO = { acciones: 'Acciones', renta_fija: 'Renta fija', dolar: 'Dólar', cdt: 'CDT' };
     function resumenDia(notas, enlaceBase) {
+        notas = notas.filter(n => !esInforme(n));
+        if (!notas.length) return `<p class="text-stone-400 text-sm">Esta edición trae solo informes de datos, sin efectos por tipo de activo.</p>`;
         const claves = ['acciones', 'renta_fija', 'dolar', 'cdt'];
         const efecto = (n, k) => ((n.impacto && n.impacto.activos) || []).find(x => x.activo === k);
         const balance = claves.map(k => {
