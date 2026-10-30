@@ -5,14 +5,14 @@ La sección de noticias diarias se llama **Hoy** (página `yentonces.html`, dato
 Este archivo es la fuente única de reglas editoriales. Lo usa hoy la tarea programada de Claude y, más adelante, el script con la API de Anthropic. Si cambias una regla, cámbiala aquí.
 
 ## Cuándo corre
-Una vez al día, publicado a las 7:00 a. m. hora Bogotá. La corrida empieza a las 6:45 a. m.: la sección Hoy debe quedar publicada en unos 20 minutos.
+Una vez al día. La corrida empieza a las 5:40 a. m. hora Bogotá para que la edición quede publicada hacia las 6:00 a. m.: la sección Hoy debe quedar publicada en unos 20 minutos.
 
 ## Tiempo y eficiencia (obligatorio)
 1. **No leas los archivos de `data/` completos** (notas.json pesa cientos de KB y crece cada día) ni los reescribas a mano. Usa `python3 bot/publicar.py estado` para saber la fecha, si ya hay notas de hoy, los siguientes id, los indicadores actuales, los términos del glosario y la lista de URL ya publicadas (`/tmp/stag_urls.txt`). Para publicar, escribe las notas nuevas en un archivo temporal y agrégalas con `python3 bot/publicar.py agregar hoy|latam ARCHIVO.json`; los términos nuevos con `glosario ARCHIVO.json` (antes de agregar las notas) y los indicadores con `mercado ARCHIVO.json`. El script valida campos, términos, puntajes y URL repetidas y pone la hora real en `actualizado`; si rechaza algo, corrige el archivo temporal y vuelve a correrlo. Termina con `python3 bot/publicar.py validar`.
 2. **Una sola vez por fuente:** cada URL se intenta una vez. Si una página no responde, falla o pide permiso, sigue con la siguiente fuente de la lista; no busques sitios alternos fuera de los indicados aquí.
 3. **Lee primero los titulares:** revisa los RSS, preselecciona por título y descripción, y abre el artículo completo solo de las ~10 mejores candidatas de Hoy, de las ~4 mejores de La región y de las candidatas de cobertura.
-4. **Publica por partes:** primero la sección Hoy y los indicadores (commit "Edición AAAA-MM-DD" y push). Después Cobertura LatAm en un segundo commit ("Edición AAAA-MM-DD, cobertura") y push. Así la edición principal no espera a la cobertura.
-5. **Límite de tiempo:** si a las 7:30 a. m. (hora Bogotá) la cobertura no está lista, publica lo que tengas validado y termina.
+4. **Publica por partes:** primero la sección Hoy (Colombia, mercados y La región) y los indicadores (commit "Edición AAAA-MM-DD" y push). Después las notas de Mi portafolio y de biotecnología, que también van en Hoy, y Cobertura LatAm, en un segundo commit ("Edición AAAA-MM-DD, empresas") y push. Así la edición principal no espera a las empresas.
+5. **Límite de tiempo:** si a las 6:40 a. m. (hora Bogotá) la segunda parte no está lista, publica lo que tengas validado y termina.
 
 ## Fuentes (RSS)
 - La República: https://www.larepublica.co/rss
@@ -140,12 +140,12 @@ Sección aparte para seis compañías. Usa **el mismo formato completo de la sec
 
 **Fuentes:** los RSS de la sección Hoy (sobre todo La República, Valora Analitik, Portafolio y Bloomberg Línea), los reportes de información relevante de los emisores colombianos, los formularios de la SEC (6-K, 8-K) y comunicados de las compañías, y WebSearch por nombre de compañía para las de Nueva York. **No uses** como fuente sitios de alertas automáticas de acciones ni notas sobre movimientos de fondos o cambios de calificación de analistas sin otra información.
 
-**Qué entra:** noticias de las últimas ~48 horas (72 en fines de semana o festivos) sobre resultados, dividendos, recompras, emisiones de deuda o acciones, adquisiciones, cambios regulatorios o de gobierno corporativo, y hechos del sector que afecten directamente a la compañía. Si una noticia de estas compañías entra también en la sección Hoy, publícala solo en Cobertura LatAm. Si no hay noticias nuevas, no publiques nada en esta sección ese día (nunca rellenes).
+**Qué entra:** noticias de las últimas ~48 horas (72 en fines de semana o festivos) sobre resultados, dividendos, recompras, emisiones de deuda o acciones, adquisiciones, cambios regulatorios o de gobierno corporativo, y hechos del sector que afecten directamente a la compañía. Si una noticia de estas compañías entra también en la sección Hoy, publícala solo en Cobertura LatAm. **Excepción:** las noticias de las compañías que están en Mi portafolio (hoy MELI, NU y Grupo Argos) se publican en Hoy con categoría `portafolio` (ver "Mi portafolio") y no en Cobertura LatAm. Si no hay noticias nuevas, no publiques nada en esta sección ese día (nunca rellenes).
 
 **Formato:** igual que una nota de la sección Hoy, más dos campos: `empresa` (el ticker de la lista) y `fecha_noticia` (fecha original de la noticia). El `id` lleva el sufijo `c`: `AAAA-MM-DD-c01`. Para el activo `dolar`, explica el efecto para quien tiene acciones de las compañías que cotizan en Nueva York. Actualiza `actualizado` (hora real) y, si cambia el estado o los próximos hitos de una compañía, su ficha en `companias` (`estado`, `hitos`, `fuente_url`).
 
 ## Biotecnología (`data/biotech.json`, página `biotecnologia.html`)
-**La corrida diaria no toca esta sección.** No busca ni publica noticias de biotecnología y no modifica `data/biotech.json`. La página ya no tiene noticias: solo la tabla "Panorama de biotecnológicas" y las fichas de las compañías.
+**La corrida diaria no modifica `data/biotech.json`** ni esta página, que no tiene noticias: solo la tabla "Panorama de biotecnológicas" y las fichas de las compañías. Las noticias de estas 15 compañías se publican en Hoy, con formato de solo hechos (ver "Biotecnología en Hoy" abajo).
 
 **Actualización mensual:** el día 1 de cada mes (o cuando el dueño lo pida) se revisa cada compañía y se actualizan, solo con hechos confirmados por una fuente:
 - `panorama.companias`: una fila por compañía con `nombre`, `ticker`, `medicamento`, `fase`, `enfermedad`, `hito` (el próximo paso), `hito_fecha` y `fuente_url`. Ordenadas por ticker.
@@ -236,3 +236,45 @@ Se publica el día 15 de cada mes, en una tarea programada aparte. Es una nota d
 ```
 
 `datos` lleva de 3 a 8 cifras cortas. Como la URL siempre es la misma, el script permite repetirla en notas de categoría `deuda`. Commit "Informe deuda pública AAAA-MM" y push a main.
+
+
+## Mi portafolio (dentro de Hoy, categoría `portafolio`)
+Noticias de los activos que Stag Research tiene en Mi portafolio. Van **mezcladas con las demás notas de Hoy**, ordenadas por puntaje, con el **formato completo** de Hoy (contexto, afectados, lecturas alcista y bajista, `peso_alcista`, `impacto` con los cuatro activos, `puntaje`, `mirar`, `terminos`) y todas sus reglas obligatorias. La página les pone el sello "En Mi portafolio" para que el lector sepa que hay una posición.
+
+**Activos (solo estos):** Nu Holdings (`NU`), JPMorgan Chase (`JPM`), MercadoLibre (`MELI`), Hermès (`RMS`, Euronext París), Brookfield Corporation (`BN`), Grupo Argos preferencial (`PFGRUPOARG`, BVC; las noticias de Grupo Argos sirven para esta acción), Bolsa de Valores de Colombia (`BVC`), ProShares UltraPro QQQ (`TQQQ`) y Global X Copper Miners ETF (`COPX`).
+
+**Fuentes:** comunicados y resultados de cada compañía (página de inversionistas, formularios de la SEC 8-K, 6-K, 10-Q y 20-F), información relevante de la Superfinanciera para PFGRUPOARG y BVC, los RSS de Hoy y WebSearch por nombre de compañía (una búsqueda por activo). Para TQQQ y COPX solo entran hechos del propio fondo (cambios en el fondo, en su índice o en su emisor) o del activo que siguen cuando sea un dato importante (por ejemplo, un movimiento fuerte del Nasdaq-100 o del precio del cobre). **No uses** sitios de alertas automáticas de acciones, cambios de calificación de analistas sin otra información ni notas de "acciones para comprar".
+
+**Qué entra:** noticias de las últimas ~48 horas (72 en fines de semana o festivos): resultados, dividendos, recompras, emisiones, adquisiciones, cambios de gobierno corporativo o regulatorios y hechos del sector que afecten directamente al activo. Máximo **3 notas de portafolio** por edición, que se suman a las 6 a 8 de Colombia y mercados; aplican el umbral de puntaje 5 y la regla de nunca rellenar.
+
+**Formato:** el de una nota de Hoy con `"categoria": "portafolio"` y `"empresa"` (el ticker de la lista). En `impacto`, el activo `dolar` explica el efecto para quien tiene ese activo en el exterior; las lecturas siguen siendo escenarios, nunca una recomendación de comprar, vender o mantener.
+
+## Biotecnología en Hoy (categoría `biotecnologia`, formato `hechos`)
+Noticias de las 15 compañías de la sección Biotecnología (ver la lista arriba). Van **mezcladas con las demás notas de Hoy**, en formato de **solo hechos**.
+
+**Reglas especiales (obligatorias):** sin opinión (sin lecturas alcista o bajista, ponderación, puntaje, impacto, afectados ni calificativos como "positivo", "negativo", "prometedor" o "decepcionante"; se puede decir que un estudio "cumplió su objetivo principal" cuando la compañía lo reporta así) y en lenguaje para un joven de 15 años. Valen las demás reglas obligatorias de Hoy.
+
+**Fuentes:** comunicados de cada compañía (página de inversionistas, GlobeNewswire, Business Wire, 8-K de la SEC), comunicados de la FDA, Fierce Biotech (`https://www.fiercebiotech.com/rss/xml`), Endpoints News (`https://endpoints.news/feed/`) y WebSearch. Para ahorrar tiempo, busca primero en los dos RSS y haz búsquedas agrupadas (varias compañías por búsqueda). **No entran** los avisos de bufetes de abogados que buscan demandantes, las notas promocionales ni los análisis del precio de la acción.
+
+**Qué entra:** noticias de las últimas ~48 horas (72 en fines de semana o festivos): resultados de ensayos, resultados financieros, financiamiento, decisiones o designaciones regulatorias, presentaciones en congresos, alianzas y cambios relevantes de la administración. Máximo **3 notas de biotecnología** por edición, que se suman a las demás. Si no hay noticias, no publiques ninguna (nunca rellenes).
+
+**Formato** (se agrega con `python3 bot/publicar.py agregar hoy ARCHIVO.json`, que valida el formato `hechos`):
+
+```json
+{
+  "id": "AAAA-MM-DD-NN",
+  "fecha": "AAAA-MM-DD",
+  "categoria": "biotecnologia",
+  "formato": "hechos",
+  "empresa": "Ticker de una de las 15 compañías",
+  "fecha_noticia": "AAAA-MM-DD",
+  "titulo": "",
+  "resumen": "Qué pasó, 1 a 2 frases.",
+  "contexto": "Antecedentes, 2 a 4 frases, solo hechos de la fuente.",
+  "que_significa": "Explicación sencilla de qué significa y por qué importa, 3 a 5 frases, sin opinión.",
+  "mirar": "El próximo dato o fecha relacionado (1 frase).",
+  "terminos": ["FDA", "Fases de un ensayo clínico"],
+  "fuente": "",
+  "url": "https://..."
+}
+```

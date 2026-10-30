@@ -51,7 +51,12 @@ CAMPOS_INFORME = ["id", "fecha", "categoria", "formato", "titulo", "resumen", "d
                   "que_significa", "mirar", "terminos", "fuente", "url", "fecha_noticia"]
 CATEGORIAS_INFORME = {"deuda"}
 PROHIBIDOS_INFORME = ["alcista", "bajista", "peso_alcista", "impacto", "puntaje", "afectados"]
-CATEGORIAS = {"bvc", "macro", "commodities", "latam", "internacional", "politica", "sectores", "region"}
+CATEGORIAS = {"bvc", "macro", "commodities", "latam", "internacional", "politica", "sectores", "region", "portafolio"}
+# Activos de Mi portafolio (notas de categoría "portafolio" en Hoy, formato completo)
+PORTAFOLIO = {"NU", "JPM", "MELI", "RMS", "BN", "PFGRUPOARG", "BVC", "TQQQ", "COPX"}
+# Notas de biotecnología en Hoy: formato "hechos" (sin opinión); empresas = fichas de data/biotech.json
+CAMPOS_HECHOS = ["id", "fecha", "categoria", "formato", "empresa", "fecha_noticia", "titulo", "resumen",
+                 "contexto", "que_significa", "mirar", "terminos", "fuente", "url"]
 PAISES = {"Brasil", "México", "Argentina", "Chile", "Perú"}
 ACTIVOS = ["acciones", "renta_fija", "dolar", "cdt"]
 EFECTOS = {"positivo", "negativo", "neutral", "mixto"}
@@ -137,9 +142,35 @@ def revisar_informe(n, glosario, hoy):
     return errores
 
 
+def revisar_hechos(n, glosario, hoy):
+    errores = []
+    faltan = [c for c in CAMPOS_HECHOS if c not in n]
+    if faltan:
+        errores.append(f"faltan campos {faltan}")
+    if n.get("fecha") != hoy:
+        errores.append(f"fecha {n.get('fecha')} distinta de hoy {hoy}")
+    if not str(n.get("id", "")).startswith(f"{hoy}-"):
+        errores.append(f"id {n.get('id')} no sigue el formato {hoy}-NN")
+    if n.get("categoria") != "biotecnologia":
+        errores.append("el formato 'hechos' es solo para la categoría 'biotecnologia'")
+    biotech = {c.get("ticker") for c in cargar("biotech.json").get("companias", [])}
+    if n.get("empresa") not in biotech:
+        errores.append(f"empresa {n.get('empresa')} no está en las compañías de data/biotech.json: {sorted(biotech)}")
+    if any(c in n for c in PROHIBIDOS_INFORME):
+        errores.append(f"una nota de solo hechos no lleva {PROHIBIDOS_INFORME}")
+    for t in n.get("terminos", []):
+        if t not in glosario:
+            errores.append(f"el término '{t}' no está en el glosario (agrégalo antes con el comando glosario)")
+    return errores
+
+
 def revisar_nota(seccion, n, glosario, hoy):
     if seccion == "hoy" and n.get("formato") == "informe":
         return revisar_informe(n, glosario, hoy)
+    if seccion == "hoy" and n.get("formato") == "hechos":
+        return revisar_hechos(n, glosario, hoy)
+    if seccion == "hoy" and n.get("categoria") == "biotecnologia":
+        return ["las notas de biotecnología van con \"formato\": \"hechos\" (sin opinión)"]
     errores = []
     faltan = [c for c in CAMPOS[seccion] if c not in n]
     if faltan:
@@ -158,6 +189,8 @@ def revisar_nota(seccion, n, glosario, hoy):
             errores.append(f"categoría {n.get('categoria')} no válida")
         if seccion == "hoy" and n.get("categoria") == "region" and n.get("pais") not in PAISES:
             errores.append(f"las notas de La región llevan 'pais' con uno de {sorted(PAISES)}")
+        if seccion == "hoy" and n.get("categoria") == "portafolio" and n.get("empresa") not in PORTAFOLIO:
+            errores.append(f"las notas de Mi portafolio llevan 'empresa' con uno de {sorted(PORTAFOLIO)}")
         if seccion == "hoy" and n.get("categoria") != "region" and "pais" in n:
             errores.append("el campo 'pais' solo va en notas de categoría 'region'")
         pa = n.get("peso_alcista")
