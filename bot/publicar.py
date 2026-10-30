@@ -10,9 +10,8 @@ Uso:
       id libre, indicadores actuales y nombres del glosario. Guarda las URL ya
       publicadas en /tmp/stag_urls.txt (una por línea) para descartar repetidas.
 
-  python3 bot/publicar.py agregar hoy|latam ARCHIVO.json
-      ARCHIVO contiene {"notas": [...]} y, para latam, opcionalmente
-      {"companias": [{"ticker": "...", "estado": "...", "hitos": [...], "fuente_url": "..."}]}.
+  python3 bot/publicar.py agregar hoy ARCHIVO.json
+      ARCHIVO contiene {"notas": [...]}.
       Valida campos, términos y URL repetidas, agrega las notas al inicio y pone
       la hora real en "actualizado".
 
@@ -25,7 +24,7 @@ Uso:
       tasa_banrep, inflacion). Reemplaza esos bloques y pone la fecha de hoy.
 
   python3 bot/publicar.py validar
-      Revisa los cinco JSON y que todos los términos usados estén en el glosario.
+      Revisa los JSON de data/ y que todos los términos usados estén en el glosario.
 """
 import json
 import os
@@ -35,17 +34,16 @@ import unicodedata
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(RAIZ, "data")
-ARCHIVOS = {"hoy": "notas.json", "latam": "cobertura.json"}
+ARCHIVOS = {"hoy": "notas.json"}
 # Biotecnología ya no publica noticias: data/biotech.json se actualiza a mano una vez al mes
 # (ver "Biotecnología" en bot/INSTRUCCIONES.md); aquí solo se valida que sea un JSON correcto.
-SUFIJO = {"hoy": "", "latam": "c"}
+SUFIJO = {"hoy": ""}
 MESES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"]
 
 CAMPOS = {
     "hoy": ["id", "fecha", "categoria", "puntaje", "titulo", "resumen", "contexto", "afectados",
             "peso_alcista", "alcista", "bajista", "impacto", "mirar", "terminos", "fuente", "url"],
 }
-CAMPOS["latam"] = CAMPOS["hoy"] + ["empresa", "fecha_noticia"]
 # Informes de solo hechos dentro de Hoy (por ahora, el informe mensual de la deuda pública)
 CAMPOS_INFORME = ["id", "fecha", "categoria", "formato", "titulo", "resumen", "datos", "contexto",
                   "que_significa", "mirar", "terminos", "fuente", "url", "fecha_noticia"]
@@ -60,7 +58,7 @@ CAMPOS_HECHOS = ["id", "fecha", "categoria", "formato", "empresa", "fecha_notici
 PAISES = {"Brasil", "México", "Argentina", "Chile", "Perú"}
 ACTIVOS = ["acciones", "renta_fija", "dolar", "cdt"]
 EFECTOS = {"positivo", "negativo", "neutral", "mixto"}
-TICKERS = {"latam": {"MELI", "NU", "PBR", "CIBEST", "GRUPOARGOS", "PEI"}}
+TICKERS = {}
 
 
 def cargar(nombre):
@@ -214,7 +212,7 @@ def revisar_nota(seccion, n, glosario, hoy):
 
 def agregar(seccion, ruta):
     if seccion not in ARCHIVOS:
-        sys.exit(f"Sección no válida: {seccion}. Usa hoy o latam (biotecnología ya no publica noticias).")
+        sys.exit(f"Sección no válida: {seccion}. Usa hoy (Cobertura LatAm ya no existe; las notas de empresas van en Hoy).")
     hoy, texto = ahora()
     with open(ruta, encoding="utf-8") as f:
         nuevo = json.load(f)
@@ -291,7 +289,7 @@ def validar():
     if faltan:
         print("Términos usados que no están en el glosario:", sorted(faltan))
         sys.exit(1)
-    print("OK: los cinco JSON son válidos y todos los términos están en el glosario.")
+    print("OK: los JSON de data/ son válidos y todos los términos están en el glosario.")
 
 
 if __name__ == "__main__":

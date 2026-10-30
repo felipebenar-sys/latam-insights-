@@ -10,8 +10,8 @@ Una vez al día. La corrida empieza a las 5:40 a. m. hora Bogotá para que la ed
 ## Tiempo y eficiencia (obligatorio)
 1. **No leas los archivos de `data/` completos** (notas.json pesa cientos de KB y crece cada día) ni los reescribas a mano. Usa `python3 bot/publicar.py estado` para saber la fecha, si ya hay notas de hoy, los siguientes id, los indicadores actuales, los términos del glosario y la lista de URL ya publicadas (`/tmp/stag_urls.txt`). Para publicar, escribe las notas nuevas en un archivo temporal y agrégalas con `python3 bot/publicar.py agregar hoy|latam ARCHIVO.json`; los términos nuevos con `glosario ARCHIVO.json` (antes de agregar las notas) y los indicadores con `mercado ARCHIVO.json`. El script valida campos, términos, puntajes y URL repetidas y pone la hora real en `actualizado`; si rechaza algo, corrige el archivo temporal y vuelve a correrlo. Termina con `python3 bot/publicar.py validar`.
 2. **Una sola vez por fuente:** cada URL se intenta una vez. Si una página no responde, falla o pide permiso, sigue con la siguiente fuente de la lista; no busques sitios alternos fuera de los indicados aquí.
-3. **Lee primero los titulares:** revisa los RSS, preselecciona por título y descripción, y abre el artículo completo solo de las ~10 mejores candidatas de Hoy, de las ~4 mejores de La región y de las candidatas de cobertura.
-4. **Una sola publicación:** cuando tengas todas las notas del día (Colombia y mercados, La región, Mi portafolio, biotecnología y Cobertura LatAm) y los indicadores, valida y publica todo en un solo commit ("Edición AAAA-MM-DD") y un push.
+3. **Lee primero los titulares:** revisa los RSS, preselecciona por título y descripción, y abre el artículo completo solo de las ~10 mejores candidatas de Hoy, de las ~4 mejores de La región y de las candidatas de Mi portafolio y biotecnología.
+4. **Una sola publicación:** cuando tengas todas las notas del día (Colombia y mercados, La región, Mi portafolio y biotecnología) y los indicadores, valida y publica todo en un solo commit ("Edición AAAA-MM-DD") y un push.
 5. **Límite de tiempo:** si a las 6:05 a. m. (hora Bogotá) todavía estás buscando, deja de buscar y publica lo que tengas validado.
 
 ## Fuentes (RSS)
@@ -61,11 +61,11 @@ Excluidas de la sección Hoy: biotecnología (tiene su propia página, que no pu
 5. Ordena las notas de la edición de mayor a menor puntaje y guarda el puntaje en cada nota (campo `puntaje`).
 
 ## La región (categoría `region`)
-La página Hoy muestra, debajo de las notas de Colombia, un bloque fijo llamado **La región** con lo más importante de las economías grandes de América Latina. Se publica en la misma corrida y en el mismo archivo (`data/notas.json`), con `python3 bot/publicar.py agregar hoy`, en la misma edición y con la numeración normal de id.
+La página Hoy incluye **La región**: lo más importante de las economías grandes de América Latina. Sus notas van mezcladas con las demás de la edición, ordenadas por puntaje, con una etiqueta del país. Se publica en la misma corrida y en el mismo archivo (`data/notas.json`), con `python3 bot/publicar.py agregar hoy`, en la misma edición y con la numeración normal de id.
 
 **Países:** Brasil, México y Argentina tienen prioridad. Chile y Perú entran solo con noticias de alto impacto (decisión de tasa del banco central, elecciones, crisis, cambio de calificación soberana). Cada nota lleva el campo `pais`: `"Brasil"`, `"México"`, `"Argentina"`, `"Chile"` o `"Perú"`.
 
-**Qué entra:** decisiones de tasa y comunicados de los bancos centrales (Banco Central do Brasil, Banxico, BCRA, Banco Central de Chile, BCRP); inflación, PIB, empleo y cifras fiscales oficiales; movimientos fuertes de la moneda, la bolsa o el riesgo país; elecciones, reformas y medidas económicas de gobierno; calificaciones soberanas; y hechos de grandes empresas de esos países que muevan su mercado. Mismas reglas de vigencia (~24 horas). Si la noticia es de una compañía de Cobertura LatAm (MercadoLibre, Nu, Petrobras), va en Cobertura LatAm y no aquí.
+**Qué entra:** decisiones de tasa y comunicados de los bancos centrales (Banco Central do Brasil, Banxico, BCRA, Banco Central de Chile, BCRP); inflación, PIB, empleo y cifras fiscales oficiales; movimientos fuertes de la moneda, la bolsa o el riesgo país; elecciones, reformas y medidas económicas de gobierno; calificaciones soberanas; y hechos de grandes empresas de esos países que muevan su mercado. Mismas reglas de vigencia (~24 horas). Si la noticia es de un activo de Mi portafolio (por ejemplo MercadoLibre o Nu), va con categoría `portafolio` y no aquí.
 
 **Cuántas:** de 0 a 3 notas por día, con máximo 2 por país. Mínimo 5 puntos para entrar. Si un día no hay noticias regionales con 5 puntos o más, no publiques ninguna (nunca rellenes).
 
@@ -133,16 +133,6 @@ Si una fuente no responde, conserva el valor anterior de ese indicador. La TRM y
 }
 ```
 
-## Cobertura LatAm (`data/cobertura.json`, página `cobertura.html`)
-Sección aparte para seis compañías. Usa **el mismo formato completo de la sección Hoy** (contexto, afectados, lecturas alcista y bajista, `peso_alcista`, `impacto` con los cuatro activos, `puntaje`, `mirar`, `terminos`) y las mismas reglas obligatorias. Se actualiza en la misma corrida diaria.
-
-**Compañías cubiertas (solo estas):** MercadoLibre (`MELI`, Nasdaq), Nu Holdings (`NU`, NYSE), Petrobras (`PBR`, NYSE), Grupo Cibest (`CIBEST`, BVC y NYSE: CIB), Grupo Argos (`GRUPOARGOS`, BVC) y PEI (`PEI`, BVC).
-
-**Fuentes:** los RSS de la sección Hoy (sobre todo La República, Valora Analitik, Portafolio y Bloomberg Línea), los reportes de información relevante de los emisores colombianos, los formularios de la SEC (6-K, 8-K) y comunicados de las compañías, y WebSearch por nombre de compañía para las de Nueva York. **No uses** como fuente sitios de alertas automáticas de acciones ni notas sobre movimientos de fondos o cambios de calificación de analistas sin otra información.
-
-**Qué entra:** noticias de las últimas ~48 horas (72 en fines de semana o festivos) sobre resultados, dividendos, recompras, emisiones de deuda o acciones, adquisiciones, cambios regulatorios o de gobierno corporativo, y hechos del sector que afecten directamente a la compañía. Si una noticia de estas compañías entra también en la sección Hoy, publícala solo en Cobertura LatAm. **Excepción:** las noticias de las compañías que están en Mi portafolio (hoy MELI, NU y Grupo Argos) se publican en Hoy con categoría `portafolio` (ver "Mi portafolio") y no en Cobertura LatAm. Si no hay noticias nuevas, no publiques nada en esta sección ese día (nunca rellenes).
-
-**Formato:** igual que una nota de la sección Hoy, más dos campos: `empresa` (el ticker de la lista) y `fecha_noticia` (fecha original de la noticia). El `id` lleva el sufijo `c`: `AAAA-MM-DD-c01`. Para el activo `dolar`, explica el efecto para quien tiene acciones de las compañías que cotizan en Nueva York. Actualiza `actualizado` (hora real) y, si cambia el estado o los próximos hitos de una compañía, su ficha en `companias` (`estado`, `hitos`, `fuente_url`).
 
 ## Biotecnología (`data/biotech.json`, página `biotecnologia.html`)
 **La corrida diaria no modifica `data/biotech.json`** ni esta página, que no tiene noticias: solo la tabla "Panorama de biotecnológicas" y las fichas de las compañías. Las noticias de estas 15 compañías se publican en Hoy, con formato de solo hechos (ver "Biotecnología en Hoy" abajo).

@@ -421,22 +421,15 @@
         cargar().then(data => {
             const notas = Array.isArray(data.notas) ? data.notas : [];
             if (data.actualizado) document.getElementById('notas-actualizado').innerHTML = sello(data.actualizado);
-            const rcVacio = m => { const rc = document.getElementById('notas-region'); if (rc) { rc.removeAttribute('aria-busy'); rc.innerHTML = vacio(m); } };
-            if (!notas.length) { hoy.innerHTML = vacio('Las primeras notas se publicarán muy pronto.'); rcVacio('Las primeras notas se publicarán muy pronto.'); return; }
+            if (!notas.length) { hoy.innerHTML = vacio('Las primeras notas se publicarán muy pronto.'); return; }
             const { porFecha, fechas } = agrupar(notas);
             const ed = porFecha[fechas[0]];
             document.getElementById('notas-hoy-titulo').textContent = 'Edición del ' + fmtFecha(fechas[0]);
             const r = document.getElementById('resumen-dia'); if (r) r.innerHTML = resumenDia(ed, '');
-            // Colombia y mercados arriba; La región (categoría region) en su propio bloque debajo
-            const col = ed.filter(n => n.categoria !== 'region'), reg = ed.filter(n => n.categoria === 'region');
-            hoy.innerHTML = (col.length ? col.map(notaCompleta).join('') : vacio('Hoy no hay notas de Colombia.')) + `<div id="filtros-vacio" class="hidden">${vacio('Ninguna nota de hoy coincide con ese filtro.')}</div>`;
-            const rc = document.getElementById('notas-region');
-            if (rc) {
-                rc.removeAttribute('aria-busy');
-                rc.innerHTML = reg.length ? reg.map(notaCompleta).join('') : vacio('Hoy no hubo noticias de la región con impacto suficiente para tu portafolio.');
-            }
+            // Todas las notas de la edición juntas, ordenadas por relevancia (La región, portafolio y biotecnología incluidas)
+            hoy.innerHTML = ed.map(notaCompleta).join('') + `<div id="filtros-vacio" class="hidden">${vacio('Ninguna nota de hoy coincide con ese filtro.')}</div>`;
             ed.forEach(n => marcarTerminos(document.getElementById(n.id), n));
-            initFiltros(hoy, col);
+            initFiltros(hoy, ed);
             const resto = fechas.slice(1);
             if (resto.length) {
                 document.getElementById('archivo-wrap').classList.remove('hidden');
@@ -469,23 +462,6 @@
                     ${chip(m.enfermedad, 'bg-stone-800 text-stone-200 border-stone-700')}
                 </div>
             </div>`;
-    }
-    function fichaEmpresa(c) {
-        return `
-        <div class="bg-stone-900 border border-stone-800 rounded-xl p-5 flex flex-col">
-            <div class="flex items-baseline justify-between gap-2 mb-2">
-                <p class="text-white font-bold text-lg">${esc(c.nombre)}</p>
-                <span class="text-sky-300 text-xs font-semibold">${String(c.bolsa || '').includes(':') ? esc(c.bolsa) : `${esc(c.bolsa)}: ${esc(c.ticker)}`}</span>
-            </div>
-            ${medicamentoPrincipal(c.medicamento_principal)}
-            <p class="text-stone-300 text-sm leading-relaxed mb-3">${esc(c.que_hace)}</p>
-            <p class="text-stone-400 text-sm leading-relaxed mb-3"><span class="text-stone-500 text-xs font-bold uppercase tracking-wider block mb-1">Estado</span>${esc(c.estado)}</p>
-            <div class="mt-auto">
-                <p class="text-stone-500 text-xs font-bold uppercase tracking-wider mb-1">Próximos hitos</p>
-                ${(c.hitos || []).length ? '' : '<p class="text-stone-500 text-sm">Sin fechas confirmadas.</p>'}<ul class="space-y-1">${(c.hitos || []).map(h => `<li class="text-sm text-stone-300 flex gap-2"><span class="text-amber-400 whitespace-nowrap text-xs pt-0.5">${esc(h.fecha)}</span><span>${esc(h.texto)}</span></li>`).join('')}</ul>
-                ${c.fuente_url ? `<a href="${esc(safeUrl(c.fuente_url))}" target="_blank" rel="noopener noreferrer" class="text-stone-500 hover:text-amber-400 text-xs underline underline-offset-2 mt-3 inline-block">Fuente</a>` : ''}
-            </div>
-        </div>`;
     }
     function hitosLista(hitos) {
         return (hitos || []).length
@@ -624,61 +600,6 @@
     };
 
 
-    // ===== Cobertura LatAm (data/cobertura.json): formato completo de Hoy por compañía =====
-    window.renderCobertura = function () {
-        const hoy = document.getElementById('cob-notas');
-        initPopover();
-        fetch('data/cobertura.json', { cache: 'no-store' }).then(r => r.json()).then(d => {
-            const cias = d.companias || [];
-            document.getElementById('cob-empresas').innerHTML = cias.map(fichaEmpresa).join('');
-            if (d.actualizado) document.getElementById('cob-actualizado').innerHTML = sello(d.actualizado);
-            const notas = Array.isArray(d.notas) ? d.notas : [];
-            if (!notas.length) { hoy.innerHTML = vacio('Aún no hay noticias de las compañías cubiertas.'); return; }
-            const { porFecha, fechas } = agrupar(notas);
-            const ed = porFecha[fechas[0]];
-            document.getElementById('cob-titulo').textContent = 'Edición del ' + fmtFecha(fechas[0]);
-            const r = document.getElementById('cob-resumen'); if (r) r.innerHTML = resumenDia(ed, '');
-            hoy.innerHTML = ed.map(n => notaCompleta(n, 'cobertura.html')).join('') + `<div id="cob-vacio" class="hidden">${vacio('No hay noticias de esa compañía en esta edición.')}</div>`;
-            ed.forEach(n => marcarTerminos(document.getElementById(n.id), n));
-            const box = document.getElementById('cob-filtro');
-            const chip = (v, txt, on) => `<button type="button" data-v="${v}" aria-pressed="${on}" class="px-3 py-1.5 rounded-full text-xs font-semibold border transition aria-pressed:bg-amber-400 aria-pressed:text-stone-950 aria-pressed:border-amber-400 border-stone-700 text-stone-300 hover:border-amber-400">${txt}</button>`;
-            box.innerHTML = chip('', 'Todas', true) + cias.map(c => chip(c.ticker, c.ticker, false)).join('');
-            box.addEventListener('click', e => {
-                const b = e.target.closest('[data-v]'); if (!b) return;
-                box.querySelectorAll('[data-v]').forEach(x => x.setAttribute('aria-pressed', x === b));
-                let vis = 0;
-                hoy.querySelectorAll('[data-nota]').forEach(a => { const n = ed.find(x => x.id === a.id); const ok = !b.dataset.v || (n && n.empresa === b.dataset.v); a.classList.toggle('hidden', !ok); if (ok) vis++; });
-                document.getElementById('cob-vacio').classList.toggle('hidden', vis > 0);
-            });
-            const resto = fechas.slice(1);
-            if (resto.length) {
-                document.getElementById('cob-archivo-wrap').classList.remove('hidden');
-                document.getElementById('cob-archivo').innerHTML = resto.map(f => `
-                    <details class="group/ed"><summary class="cursor-pointer text-stone-300 font-semibold hover:text-amber-400">${fmtFecha(f)} · ${porFecha[f].length} notas</summary>
-                    <div class="space-y-6 mt-4">${porFecha[f].map(n => notaCompleta(n, 'cobertura.html')).join('')}</div></details>`).join('');
-                resto.forEach(f => porFecha[f].forEach(n => marcarTerminos(document.getElementById(n.id), n)));
-            }
-            document.addEventListener('click', e => { const a = e.target.closest('[data-ir]'); if (!a) return; e.preventDefault(); history.replaceState(null, '', '#' + a.dataset.ir); irANota(a.dataset.ir); });
-            if (location.hash) setTimeout(() => irANota(decodeURIComponent(location.hash.slice(1))), 50);
-        }).catch(() => { hoy.innerHTML = vacio('No pudimos cargar la cobertura en este momento.'); });
-    };
-
-
-    // Portada: lo último de Cobertura LatAm (noticias de hoy por fecha de la noticia; si no hay, la más reciente)
-    window.renderNovedades = function () {
-        const sec = document.getElementById('novedades'), cont = document.getElementById('novedades-notas');
-        if (!sec || !cont) return;
-        const hoy = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Bogota', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
-        fetch('data/cobertura.json', { cache: 'no-store' }).then(r => r.ok ? r.json() : { notas: [] }).catch(() => ({ notas: [] })).then(cob => {
-            const fn = n => n.fecha_noticia || n.fecha || '';
-            const l = (cob.notas || []).slice().sort((a, b) => fn(b).localeCompare(fn(a)) || String(b.fecha || '').localeCompare(String(a.fecha || '')));
-            const deHoy = l.filter(n => fn(n) === hoy);
-            const nCob = deHoy.length ? deHoy : l.slice(0, 1);
-            cont.removeAttribute('aria-busy');
-            if (!nCob.length) { cont.innerHTML = vacio('Aún no hay noticias de las compañías cubiertas.'); return; }
-            cont.innerHTML = nCob.map(n => tarjetaCorta(n, 'cobertura.html')).join('');
-        });
-    };
 
     // Menú móvil
     window.initMenu = function () {
@@ -706,38 +627,8 @@
             btn.setAttribute('aria-expanded', !abierto); panel.classList.toggle('hidden', abierto);
         });
         panel.addEventListener('click', e => { if (e.target.closest('a')) { btn.setAttribute('aria-expanded', 'false'); panel.classList.add('hidden'); } });
-        marcarNuevos();
     };
 
-    // Etiqueta "Nuevo" en el menú: Cobertura LatAm con noticias de hoy (Biotecnología ya no publica noticias)
-    // (según la fecha de la noticia, fecha_noticia, en hora Bogotá)
-    function marcarNuevos() {
-        const header = document.querySelector('header');
-        if (!header) return;
-        const hoy = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Bogota', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
-        const dia = iso => { const [y, m, d] = String(iso).split('-').map(Number); return Date.UTC(y, m - 1, d) / 864e5; };
-        const reciente = notas => (notas || []).some(n => { const f = n.fecha_noticia || n.fecha; if (!f) return false; const dif = dia(hoy) - dia(f); return dif === 0; });
-        const leer = f => fetch(f, { cache: 'no-store' }).then(r => r.ok ? r.json() : {}).catch(() => ({}));
-        const etiqueta = '<span data-nuevo class="ml-2 inline-flex items-center rounded-full bg-amber-400 text-stone-950 text-[10px] font-bold uppercase tracking-wide px-1.5 py-0.5 align-middle">Nuevo</span>';
-        const punto = (clase) => `<span data-nuevo class="${clase} w-2 h-2 rounded-full bg-amber-400" aria-hidden="true"></span>`;
-        leer('data/cobertura.json').then(cob => {
-            const paginas = reciente(cob.notas) ? ['cobertura.html'] : [];
-            if (!paginas.length) return;
-            paginas.forEach(p => header.querySelectorAll(`a[href="${p}"]`).forEach(a => { if (!a.querySelector('[data-nuevo]')) a.insertAdjacentHTML('beforeend', etiqueta); }));
-            // Punto en "Empresas" (computador) y en el botón del menú (celular), para verlo sin abrir el menú
-            header.querySelectorAll('[data-dropdown]').forEach(dd => {
-                if (![...dd.querySelectorAll('a')].some(a => paginas.includes(a.getAttribute('href')))) return;
-                const b = dd.querySelector('button');
-                if (b && !b.querySelector('[data-nuevo]')) { b.insertAdjacentHTML('beforeend', punto('inline-block')); b.setAttribute('aria-label', b.textContent.trim() + ' (hay noticias nuevas)'); }
-            });
-            const mb = document.getElementById('menu-btn');
-            if (mb && !mb.querySelector('[data-nuevo]')) {
-                mb.classList.add('relative');
-                mb.insertAdjacentHTML('beforeend', punto('absolute -top-1 -right-1 ring-2 ring-stone-900'));
-                mb.setAttribute('aria-label', 'Abrir menú (hay noticias nuevas)');
-            }
-        });
-    }
 
     // Barra superior: dólar (TRM oficial, datos.gov.co) y última actualización
     window.renderBarra = function () {
