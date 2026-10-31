@@ -1,6 +1,237 @@
 {
-  "actualizado": "30 oct 2026, 7:03 a. m. (hora Bogotá)",
+  "actualizado": "31 oct 2026, 5:49 a. m. (hora Bogotá)",
   "notas": [
+    {
+      "id": "2026-10-31-04",
+      "fecha": "2026-10-31",
+      "categoria": "commodities",
+      "puntaje": {
+        "total": 8,
+        "alcance": 2,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "El Brent cierra en US$117,64, su nivel más alto desde mayo, por ataques en Ormuz",
+      "resumen": "El petróleo Brent subió 2,4 % el 30 de octubre y cerró en US$117,64 por barril, su mayor cierre desde comienzos de mayo. El WTI subió 2,08 %, a US$104,12.",
+      "contexto": "Ambas referencias ganaron más de 13 % en octubre y suman cuatro meses seguidos de alzas. El viernes un buque petrolero fue atacado con explosivos en el estrecho de Ormuz, según la agencia marítima británica UKMTO, y la marina de Irán reportó incidentes con otros cinco tanqueros. También pesaron la reanudación de los ataques de Ucrania con drones contra refinerías rusas y el temor a una escalada entre EE. UU. e Irán.",
+      "afectados": [
+        "Ecopetrol",
+        "Petróleo",
+        "Peso colombiano",
+        "Finanzas públicas"
+      ],
+      "peso_alcista": 60,
+      "alcista": "Colombia exporta petróleo, así que un Brent más alto aumenta los ingresos por exportaciones y las utilidades de las petroleras listadas, como Ecopetrol. Más dólares entrando al país pueden apoyar al peso colombiano. Para el Gobierno, precios altos del crudo suelen traducirse en más dividendos de Ecopetrol y más regalías, un alivio para las finanzas públicas.",
+      "bajista": "El alza se explica por ataques y riesgo de guerra, lo que eleva la aversión al riesgo global y suele perjudicar a los mercados emergentes. Un petróleo caro encarece el transporte y los combustibles, lo que puede presionar la inflación en un momento en que el Banco de la República acaba de pausar sus alzas. Si la tensión se disipa, el precio podría devolver parte de la subida con rapidez.",
+      "impacto": {
+        "conclusion": "Pesa un poco más la lectura alcista para el mercado colombiano, porque el país y su mayor emisor se benefician directamente de un crudo más caro. Pero el origen del alza es un conflicto, con riesgo de volatilidad y de presión sobre la inflación, así que el efecto es moderado. Las acciones petroleras y el peso son los activos más expuestos.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "positivo",
+            "detalle": "Un Brent más alto mejora las perspectivas de ingresos de Ecopetrol y otras empresas del sector."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "Más exportaciones petroleras pueden apoyar al peso, pero la aversión al riesgo por el conflicto puede jugar en contra."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La evolución de los ataques en el estrecho de Ormuz y si el Brent sostiene niveles por encima de US$115 la próxima semana.",
+      "terminos": [
+        "Brent",
+        "WTI",
+        "Estrecho de Ormuz"
+      ],
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/america/mundo/2026/10/30/el-petroleo-suma-cuatro-meses-de-alzas-y-alcanzo-su-mayor-cierre-desde-mayo/"
+    },
+    {
+      "id": "2026-10-31-01",
+      "fecha": "2026-10-31",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 10,
+        "alcance": 4,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Banco de la República deja la tasa en 12,25 % tras una votación de 4 contra 3",
+      "resumen": "La junta del Banco de la República mantuvo su tasa de interés en 12,25 % el 30 de octubre. Cuatro miembros votaron por dejarla igual y tres por subirla 25 puntos básicos.",
+      "contexto": "La tasa empezó 2026 en 9,25 % y en la reunión anterior había subido 25 puntos básicos. La mayoría de analistas consultados por Citi (13 de 21) esperaba un nuevo aumento a 12,50 %. La inflación anual de septiembre quedó en 6,3 %, algo por debajo de lo esperado, y la inflación básica bajó de 6,1 % a 6,0 %; la junta citó el fenómeno de El Niño como riesgo al alza para los alimentos y los precios regulados, y señales de desaceleración de la economía. Según La República, la junta también autorizó comprarle al Gobierno US$2.000 millones como complemento de su programa de acumulación de reservas.",
+      "afectados": [
+        "TES",
+        "CDT",
+        "Bancos",
+        "Peso colombiano",
+        "Acciones colombianas"
+      ],
+      "peso_alcista": 60,
+      "alcista": "La pausa sorprende a la mayoría del mercado, que esperaba otra subida, y alivia la presión sobre el costo del crédito. Para las empresas listadas y los bancos, tasas estables reducen el riesgo de un mayor deterioro de la cartera y del consumo. Para los TES, una tasa que deja de subir suele favorecer sus precios, sobre todo si la inflación básica sigue bajando como en septiembre. La compra de dólares al Gobierno fortalece las reservas internacionales sin presionar el mercado cambiario.",
+      "bajista": "La votación dividida muestra que tres miembros veían necesaria otra subida, así que el ciclo podría no haber terminado. Las expectativas de inflación para el cierre de 2026 subieron y El Niño puede encarecer alimentos en los próximos meses, lo que podría obligar a nuevas alzas. Una tasa más baja que la esperada reduce el atractivo de los activos en pesos frente al dólar, lo que puede presionar la tasa de cambio. Además, la junta pidió estudiar con rigor el proyecto fiscal del Gobierno, un recordatorio de que las finanzas públicas siguen siendo un riesgo.",
+      "impacto": {
+        "conclusion": "Pesa un poco más la lectura alcista: la pausa fue una sorpresa para la mayoría de analistas y la inflación básica viene bajando, lo que alivia a la renta fija y a las acciones. Pero el margen de 4 contra 3 y el riesgo de El Niño dejan abierta la puerta a nuevas subidas, así que el alivio es moderado. Para quien ahorra en CDT, las tasas altas se mantienen, aunque se aleja la posibilidad de rendimientos aún mayores.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "positivo",
+            "detalle": "Una tasa estable reduce la presión sobre el crédito, el consumo y la cartera de los bancos."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "positivo",
+            "detalle": "Si las tasas dejan de subir, los precios de los TES ya en el portafolio tienden a sostenerse o mejorar."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "Una tasa menor a la esperada puede restar atractivo al peso, aunque la compra de dólares al Gobierno no pasa por el mercado."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "mixto",
+            "detalle": "Las tasas de los CDT siguen altas, pero se aleja una nueva subida que las habría impulsado más."
+          }
+        ]
+      },
+      "mirar": "El dato de inflación de octubre del DANE y la próxima reunión de la junta, que dirán si la pausa se sostiene.",
+      "terminos": [
+        "Tasa de política monetaria",
+        "Puntos básicos",
+        "Inflación básica",
+        "Expectativas de inflación",
+        "Fenómeno de El Niño"
+      ],
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/colombia/2026/10/30/banco-de-la-republica-mantuvo-la-tasa-de-interes-en-1225-por-decision-mayoritaria/"
+    },
+    {
+      "id": "2026-10-31-02",
+      "fecha": "2026-10-31",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 7,
+        "alcance": 2,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Desempleo nacional baja a 8,0 % en septiembre, pero sube en las 13 ciudades",
+      "resumen": "La tasa de desempleo de Colombia fue 8,0 % en septiembre, frente a 8,2 % un año antes, según el DANE. En las 13 ciudades principales subió de 8,1 % a 8,3 %.",
+      "contexto": "La tasa de ocupación nacional se mantuvo en 58,7 % y la participación bajó de 63,9 % a 63,8 %, es decir, parte de la baja del desempleo se explica por menos personas buscando trabajo. En las 13 ciudades, la tasa de ocupación cayó de 61,0 % a 60,6 %. Quibdó (23,4 %), Cartagena (13,7 %) y Tunja (13,2 %) tuvieron el mayor desempleo; Bogotá (7,6 %), Villavicencio (7,7 %) y Medellín (7,8 %), el menor. El dato salió el mismo día en que el Banco de la República decidió su tasa.",
+      "afectados": [
+        "Consumo de los hogares",
+        "Bancos",
+        "Comercio",
+        "Tasa de desempleo"
+      ],
+      "peso_alcista": 45,
+      "alcista": "Una tasa de desempleo nacional menor que hace un año sostiene el ingreso de los hogares y el consumo. Eso favorece a bancos y comercio, porque reduce el riesgo de que los deudores dejen de pagar. Un mercado laboral estable también da margen al Banco de la República para no subir más las tasas, lo que ayuda a la renta fija.",
+      "bajista": "La mejora es débil: la ocupación no creció y la baja del desempleo coincide con menos personas participando en el mercado laboral. En las ciudades principales, donde se concentra el consumo formal, el desempleo subió y la ocupación cayó. Eso es coherente con las señales de desaceleración que citó el Banco de la República y podría pesar sobre el consumo y la cartera de los bancos.",
+      "impacto": {
+        "conclusion": "Pesa un poco más la lectura bajista: el titular nacional mejora, pero los detalles muestran una ocupación estancada y un deterioro en las 13 ciudades. Para el portafolio, el dato refuerza la idea de una economía que se enfría, lo que pesa algo sobre las acciones ligadas al consumo y favorece a la renta fija si se traduce en tasas estables.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "mixto",
+            "detalle": "El desempleo nacional baja, pero el urbano sube, una señal ambigua para bancos y comercio."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "positivo",
+            "detalle": "Una economía que se enfría reduce la presión para subir tasas, lo que favorece el precio de los TES."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "El PIB del tercer trimestre, que confirmará o no la desaceleración que sugieren las cifras de empleo urbano.",
+      "terminos": [
+        "Tasa de desempleo",
+        "Desaceleración económica",
+        "Consumo"
+      ],
+      "fuente": "El Universal",
+      "url": "https://www.eluniversal.com.co/colombia/2026/10/30/como-le-fue-al-desempleo-en-colombia-dane-revelo-la-cifra-de-septiembre/"
+    },
+    {
+      "id": "2026-10-31-03",
+      "fecha": "2026-10-31",
+      "categoria": "region",
+      "pais": "México",
+      "puntaje": {
+        "total": 7,
+        "alcance": 1,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "La economía de México crece 3,2 % anual en el tercer trimestre, su mejor ritmo en 3 años",
+      "resumen": "El PIB de México creció 0,9 % frente al trimestre anterior y 3,2 % anual entre julio y septiembre, según la estimación preliminar del INEGI. Es su tercer trimestre seguido al alza.",
+      "contexto": "El crecimiento anual había sido de 0,2 % en el primer trimestre y 2,1 % en el segundo. Frente al trimestre anterior, los servicios crecieron 1,1 % y la industria 0,8 %, mientras el agro cayó 0,4 %. El FMI proyectó a comienzos de octubre un crecimiento de 1,5 % para México en 2026, y la economía de EE. UU., destino de 84,8 % de sus exportaciones no petroleras, creció 3,4 % anualizado en el mismo trimestre. México es la segunda economía de la región y un referente para los fondos que invierten en América Latina.",
+      "afectados": [
+        "México",
+        "Fondos de América Latina",
+        "Inversiones en el exterior"
+      ],
+      "peso_alcista": 65,
+      "alcista": "Un crecimiento por encima de lo esperado mejora las perspectivas de utilidades de las empresas mexicanas. Para quien tiene fondos o ETF de América Latina, México pesa mucho, así que un mejor ritmo económico puede apoyar esas inversiones medidas en pesos colombianos. El impulso viene de servicios e industria, lo que sugiere una mejora más amplia que la de un solo sector.",
+      "bajista": "Es una estimación preliminar y puede revisarse. La economía mexicana depende mucho de EE. UU., y el propio informe menciona la incertidumbre por la política comercial estadounidense. Si esa relación se complica, el crecimiento podría frenarse de nuevo, como ocurrió en 2025, cuando el PIB llegó a caer en términos anuales.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura alcista: el dato supera las proyecciones y muestra una mejora en servicios e industria. Para quien invierte desde Colombia, el efecto se concentra en las inversiones en el exterior con exposición a México; no hay un canal directo hacia las acciones, los TES ni los CDT en Colombia.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "positivo",
+            "detalle": "Un mayor crecimiento en México puede apoyar los fondos y ETF de la región con alta exposición a ese país."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La cifra definitiva del PIB del tercer trimestre que publicará el INEGI.",
+      "terminos": [
+        "PIB",
+        "Serie desestacionalizada",
+        "FMI"
+      ],
+      "fuente": "El Financiero",
+      "url": "https://www.elfinanciero.com.mx/economia/2026/10/30/economia-de-mexico-supera-expectativas-crece-32-anual-en-tercer-trimestre-el-mas-alto-en-3-anos/"
+    },
     {
       "id": "2026-10-30-01",
       "fecha": "2026-10-30",

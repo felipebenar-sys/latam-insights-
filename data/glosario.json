@@ -667,6 +667,10 @@
     {
       "termino": "Índice PCE",
       "definicion": "Es el índice de precios del gasto en consumo personal de Estados Unidos y es la medida de inflación que más sigue la Reserva Federal. Su versión núcleo excluye alimentos y energía. Si sube más de lo esperado, aumenta la probabilidad de tasas altas en EE. UU., lo que suele fortalecer el dólar frente a monedas como el peso colombiano."
+    },
+    {
+      "termino": "Consumo",
+      "definicion": "Es el gasto de los hogares en bienes y servicios, como comida, ropa, transporte o entretenimiento. Es uno de los motores más grandes de la economía. Cuando el consumo se frena, suelen bajar las ventas del comercio y aumenta el riesgo de que los hogares tengan problemas para pagar sus créditos."
     }
   ]
 }
