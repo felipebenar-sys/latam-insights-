@@ -1,7 +1,7 @@
 {
-  "actualizado": "20 oct 2026",
+  "actualizado": "1 nov 2026",
   "panorama": {
-    "actualizado": "20 oct 2026",
+    "actualizado": "1 nov 2026",
     "companias": [
       {
         "nombre": "Ascentage Pharma",
@@ -9,9 +9,9 @@
         "medicamento": "Olverembatinib",
         "fase": "Aprobado (China)",
         "enfermedad": "Leucemia mieloide crónica",
-        "hito": "Sigue reclutando pacientes en tres estudios de fase 3",
-        "hito_fecha": "Sin fecha confirmada",
-        "fuente_url": "https://ascentage.com/?p=9665"
+        "hito": "Inclusión de lisaftoclax en la lista de medicamentos que cubre el sistema de salud de China",
+        "hito_fecha": "Antes de fin de 2026",
+        "fuente_url": "https://www.globenewswire.com/news-release/2026/10/20/3385051/0/en/ascentage-pharma-s-lisaftoclax-granted-breakthrough-therapy-designation-in-china-for-treatment-na%C3%AFve-cll-sll.html"
       },
       {
         "nombre": "Celcuity",
@@ -19,9 +19,9 @@
         "medicamento": "Gedatolisib (REVTORPYK)",
         "fase": "Aprobado (FDA)",
         "enfermedad": "Cáncer de mama HR+/HER2- avanzado",
-        "hito": "Datos actualizados del estudio de fase 3 VIKTORIA-1 en ESMO",
-        "hito_fecha": "24 oct 2026",
-        "fuente_url": "https://www.globenewswire.com/news-release/2026/10/05/3374475/0/en/celcuity-announces-multiple-presentations-at-the-european-society-for-medical-oncology-esmo-congress-2026.html"
+        "hito": "Sigue en curso el estudio de fase 3 VIKTORIA-2, como primer tratamiento",
+        "hito_fecha": "Sin fecha confirmada",
+        "fuente_url": "https://www.manilatimes.net/2026/10/24/tmt-newswire/globenewswire/celcuity-presents-updated-results-from-the-pik3ca-mt-cohort-of-the-phase-3-viktoria-1-study-in-patients-with-hrher2-advanced-breast-cancer-at-the-esmo-congress-2026/2453187"
       },
       {
         "nombre": "Cytokinetics",
@@ -31,7 +31,7 @@
         "enfermedad": "Miocardiopatía hipertrófica obstructiva",
         "hito": "Solicitud a la FDA para la forma no obstructiva de la enfermedad",
         "hito_fecha": "Último trimestre de 2026",
-        "fuente_url": "https://briefglance.com/companies/cytokinetics-incorporated/pulses/84268"
+        "fuente_url": "https://www.manilatimes.net/2026/10/13/tmt-newswire/globenewswire/cytokinetics-announces-additional-data-from-acacia-hcm-presented-at-the-hfsa-annual-scientific-meeting-2026/2444088"
       },
       {
         "nombre": "Edgewise Therapeutics",
@@ -39,7 +39,7 @@
         "medicamento": "EDG-7500",
         "fase": "Fase 2",
         "enfermedad": "Miocardiopatía hipertrófica",
-        "hito": "Inicio del estudio de fase 3",
+        "hito": "Inicio del estudio de fase 3 de EDG-7500",
         "hito_fecha": "Último trimestre de 2026",
         "fuente_url": "https://www.biopharmawatch.com/news/EWTX/edgewise-therapeutics-announces-sale-of-sevasemten-for-up-to-2-65-billion-strengthening-ba-ewtx-20260601"
       },
@@ -49,9 +49,9 @@
         "medicamento": "PIKTOR",
         "fase": "Fase 2",
         "enfermedad": "Cáncer de endometrio",
-        "hito": "Póster con datos de laboratorio en cáncer de mama en ESMO",
-        "hito_fecha": "23 oct 2026",
-        "fuente_url": "https://www.financialcontent.com/article/bizwire-2026-10-19-faeth-to-present-preclinical-data-on-piktor-in-hrher2-breast-cancer-models-at-esmo-2026"
+        "hito": "Primeros resultados (topline) del estudio de fase 2 en cáncer de endometrio",
+        "hito_fecha": "Antes de fin de 2026",
+        "fuente_url": "https://investors.faeththerapeutics.com/news-releases"
       },
       {
         "nombre": "IDEAYA Biosciences",
@@ -59,9 +59,9 @@
         "medicamento": "Darovasertib",
         "fase": "Fase 2/3",
         "enfermedad": "Melanoma uveal metastásico",
-        "hito": "Tres pósteres con datos de estudios en ESMO",
-        "hito_fecha": "24 oct 2026",
-        "fuente_url": "https://www.stocktitan.net/news/IDYA/ideaya-biosciences-and-servier-announce-data-from-three-clinical-njac7n805z9y.html"
+        "hito": "Termina de enviar a la FDA la solicitud de aprobación junto con crizotinib, como primer tratamiento",
+        "hito_fecha": "Antes de fin de 2026",
+        "fuente_url": "https://media.ideayabio.com/2026-10-19-IDEAYA-Biosciences-and-Servier-Announce-Data-From-Three-Clinical-Trials-at-ESMO-2026-Supporting-the-Potential-of-Darovasertib-to-Become-a-Foundational-New-Therapy-for-Patients-Across-the-Treatment-Journey-of-Uveal-Melanoma"
       },
       {
         "nombre": "Immunome",
@@ -69,9 +69,9 @@
         "medicamento": "Varegacestat",
         "fase": "En revisión FDA",
         "enfermedad": "Tumores desmoides",
-        "hito": "Solicitud de aprobación en Europa (EMA)",
+        "hito": "Primeros datos de IM-1021, otro de sus medicamentos, en linfoma",
         "hito_fecha": "Antes de fin de 2026",
-        "fuente_url": "https://www.sec.gov/Archives/edgar/data/0001472012/000119312526344577/imnm-ex99_1.htm"
+        "fuente_url": "https://www.biospace.com/press-releases/immunome-announces-ema-validation-of-marketing-authorization-application-for-varegacestat-for-the-treatment-of-adults-with-desmoid-tumors"
       },
       {
         "nombre": "Kardigan",
@@ -79,7 +79,7 @@
         "medicamento": "Danicamtiv",
         "fase": "Fase 2b/3",
         "enfermedad": "Miocardiopatía dilatada genética",
-        "hito": "Primeros resultados (topline) de la fase 2b",
+        "hito": "Primeros resultados (topline) de la fase 2b de KINSHIP-DCM",
         "hito_fecha": "Primer semestre de 2027",
         "fuente_url": "https://www.nasdaq.com/press-release/kardigan-reports-second-quarter-2026-financial-results-and-recent-business-updates"
       },
@@ -89,9 +89,9 @@
         "medicamento": "QTORIN rapamicina",
         "fase": "En revisión FDA",
         "enfermedad": "Malformaciones linfáticas microquísticas",
-        "hito": "La FDA decide si acepta la solicitud y si le da revisión prioritaria",
-        "hito_fecha": "Hacia fin de oct 2026 (estimado)",
-        "fuente_url": "https://ir.palvellatx.com/news-releases/news-release-details/palvella-therapeutics-completes-rolling-submission-new-drug"
+        "hito": "Fecha límite de la FDA para decidir sobre QTORIN rapamicina",
+        "hito_fecha": "28 feb 2027",
+        "fuente_url": "https://www.globenewswire.com/news-release/2026/10/28/3390054/0/en/palvella-announces-fda-acceptance-and-priority-review-of-qtorin-rapamycin-nda-february-28-2027-pdufa-target-action-date-set.html"
       },
       {
         "nombre": "Arcus Biosciences",
@@ -99,9 +99,9 @@
         "medicamento": "Casdatifan",
         "fase": "Fase 3",
         "enfermedad": "Cáncer de riñón de células claras",
-        "hito": "Nuevos datos del estudio ARC-20",
-        "hito_fecha": "Segundo semestre de 2026",
-        "fuente_url": "https://www.sec.gov/Archives/edgar/data/0001724521/000172452126000042/a2026q28kexhibit991.htm"
+        "hito": "Inicio del estudio de fase 3 PEAK-20, como primer tratamiento",
+        "hito_fecha": "Antes de fin de 2026",
+        "fuente_url": "https://s202.q4cdn.com/599190870/files/doc_news/Arcus-Presents-New-Data-from-ARC-20-that-Demonstrate-the-Opportunity-for-Casdatifan-to-Become-a-Foundational-Treatment-Across-All-Lin-N7V7C.pdf"
       },
       {
         "nombre": "Relay Therapeutics",
@@ -129,9 +129,9 @@
         "medicamento": "Setmelanotide (IMCIVREE)",
         "fase": "Aprobado (FDA)",
         "enfermedad": "Obesidad hipotalámica adquirida",
-        "hito": "Decisión del regulador de Japón para esta enfermedad",
+        "hito": "Inicio del estudio de fase 3 de bivamelagon, otro medicamento de la misma vía",
         "hito_fecha": "Antes de fin de 2026",
-        "fuente_url": "https://ir.rhythmtx.com/news-releases/news-release-details/rhythm-pharmaceuticals-reports-second-quarter-2026-financial"
+        "fuente_url": "https://www.globenewswire.com/news-release/2026/10/13/3380291/0/en/rhythm-pharmaceuticals-announces-commercial-launch-of-imcivree-setmelanotide-in-japan-for-patients-with-acquired-hypothalamic-obesity.html"
       },
       {
         "nombre": "Tango Therapeutics",
@@ -139,9 +139,9 @@
         "medicamento": "Vopimetostat",
         "fase": "Fase 1/2",
         "enfermedad": "Cáncer de páncreas",
-        "hito": "Datos del estudio combinado en ESMO",
-        "hito_fecha": "23–27 oct 2026",
-        "fuente_url": "https://www.sec.gov/Archives/edgar/data/0001819133/000119312526343434/tngx-ex99_1.htm"
+        "hito": "Datos de vopimetostat solo en cáncer de pulmón",
+        "hito_fecha": "Segundo semestre de 2026",
+        "fuente_url": "https://finviz.com/news/407142/tango-presents-promising-results-from-phase-12-study-of-vopimetostat-and-daraxonrasib-in-pancreatic-cancer-and-provides-updates-to-development-strategy"
       },
       {
         "nombre": "Wave Life Sciences",
@@ -149,9 +149,9 @@
         "medicamento": "WVE-007",
         "fase": "Fase 1/2",
         "enfermedad": "Obesidad",
-        "hito": "Más datos del estudio INLIGHT",
-        "hito_fecha": "Segundo semestre de 2026",
-        "fuente_url": "https://www.sec.gov/Archives/edgar/data/0001631574/000119312526324917/d177737dex991.htm"
+        "hito": "Datos de la dosis única de 600 mg del estudio INLIGHT",
+        "hito_fecha": "Último trimestre de 2026",
+        "fuente_url": "https://www.sec.gov/Archives/edgar/data/0001631574/000119312526432690/d120442dex991.htm"
       }
     ]
   },
@@ -166,7 +166,7 @@
         "enfermedad": "Leucemia mieloide crónica"
       },
       "que_hace": "Desarrolla y vende medicamentos contra el cáncer, sobre todo de la sangre. Olverembatinib bloquea la proteína BCR-ABL1, que es la que hace crecer las células de la leucemia mieloide crónica, incluso cuando el tumor ya no responde a otros tratamientos.",
-      "estado": "Se vende en China para pacientes con la mutación T315I o que no respondieron a tratamientos anteriores. En China también tiene aprobado lisaftoclax, para otro tipo de leucemia.",
+      "estado": "Se vende en China para pacientes con la mutación T315I o que no respondieron a tratamientos anteriores. En China también tiene aprobado lisaftoclax, para otra leucemia, que en octubre de 2026 recibió la designación de terapia innovadora como primer tratamiento.",
       "hitos": [
         {
           "texto": "Inclusión de lisaftoclax en la lista de medicamentos que cubre el sistema de salud de China",
@@ -177,7 +177,7 @@
           "fecha": "sin fecha confirmada"
         }
       ],
-      "fuente_url": "https://ascentage.com/?p=9665"
+      "fuente_url": "https://www.globenewswire.com/news-release/2026/10/20/3385051/0/en/ascentage-pharma-s-lisaftoclax-granted-breakthrough-therapy-designation-in-china-for-treatment-na%C3%AFve-cll-sll.html"
     },
     {
       "ticker": "CELC",
@@ -189,14 +189,14 @@
         "enfermedad": "Cáncer de mama"
       },
       "que_hace": "Desarrolla gedatolisib (marca REVTORPYK), un medicamento contra el cáncer de mama que bloquea varias piezas de la vía PI3K/AKT/mTOR, un circuito que las células tumorales usan para crecer.",
-      "estado": "Se vende en EE. UU. para un grupo de pacientes con cáncer de mama HR+/HER2- avanzado sin mutación PIK3CA.",
+      "estado": "Se vende en EE. UU. para pacientes con cáncer de mama HR+/HER2- avanzado sin mutación PIK3CA. En octubre de 2026 presentó datos del grupo con esa mutación: con la combinación de tres medicamentos que incluye gedatolisib respondió el 59% de los pacientes, frente a 33% con alpelisib y fulvestrant.",
       "hitos": [
         {
-          "texto": "Datos actualizados del estudio de fase 3 VIKTORIA-1 en ESMO (Madrid)",
-          "fecha": "24 oct 2026"
+          "texto": "Sigue en curso el estudio de fase 3 VIKTORIA-2, como primer tratamiento",
+          "fecha": "sin fecha confirmada"
         }
       ],
-      "fuente_url": "https://www.globenewswire.com/news-release/2026/10/05/3374475/0/en/celcuity-announces-multiple-presentations-at-the-european-society-for-medical-oncology-esmo-congress-2026.html"
+      "fuente_url": "https://www.manilatimes.net/2026/10/24/tmt-newswire/globenewswire/celcuity-presents-updated-results-from-the-pik3ca-mt-cohort-of-the-phase-3-viktoria-1-study-in-patients-with-hrher2-advanced-breast-cancer-at-the-esmo-congress-2026/2453187"
     },
     {
       "ticker": "CYTK",
@@ -208,14 +208,14 @@
         "enfermedad": "Miocardiopatía hipertrófica obstructiva"
       },
       "que_hace": "Desarrolla medicamentos que ajustan la fuerza con la que se contrae el músculo. Aficamten (marca MYQORZO) frena un músculo del corazón que se contrae de más y se engrosa, lo que dificulta que la sangre salga hacia el cuerpo.",
-      "estado": "Se vende en EE. UU. desde diciembre de 2025 para adultos con síntomas. En la forma no obstructiva de la enfermedad, su estudio ACACIA-HCM dio resultados positivos.",
+      "estado": "Se vende en EE. UU. desde diciembre de 2025 para adultos con síntomas, y también está aprobado en China, la Unión Europea y Reino Unido. En la forma no obstructiva de la enfermedad, su estudio ACACIA-HCM dio resultados positivos.",
       "hitos": [
         {
           "texto": "Solicitud a la FDA para la forma no obstructiva de la enfermedad",
           "fecha": "último trimestre de 2026"
         }
       ],
-      "fuente_url": "https://briefglance.com/companies/cytokinetics-incorporated/pulses/84268"
+      "fuente_url": "https://www.manilatimes.net/2026/10/13/tmt-newswire/globenewswire/cytokinetics-announces-additional-data-from-acacia-hcm-presented-at-the-hfsa-annual-scientific-meeting-2026/2444088"
     },
     {
       "ticker": "EWTX",
@@ -250,12 +250,8 @@
         "enfermedad": "Cáncer de endometrio"
       },
       "que_hace": "Desarrolla PIKTOR, una combinación de dos pastillas (serabelisib y sapanisertib) que bloquea en dos puntos distintos la vía PI3K/AKT/mTOR, para cáncer de endometrio y de mama. Antes se llamaba Sensei Biotherapeutics.",
-      "estado": "Aún no está aprobado. En agosto de 2026 la FDA le otorgó la designación Fast Track en cáncer de endometrio avanzado.",
+      "estado": "Aún no está aprobado. Tiene la designación Fast Track de la FDA en cáncer de endometrio avanzado; en octubre de 2026 mostró datos en ratones con cáncer de mama, donde frenó el tumor igual o más que gedatolisib.",
       "hitos": [
-        {
-          "texto": "Póster con datos preclínicos de PIKTOR en cáncer de mama en ESMO 2026 (Madrid)",
-          "fecha": "23 oct 2026"
-        },
         {
           "texto": "Primeros resultados (topline) del estudio de fase 2 en cáncer de endometrio",
           "fecha": "antes de fin de 2026"
@@ -265,7 +261,7 @@
           "fecha": "2027"
         }
       ],
-      "fuente_url": "https://www.financialcontent.com/article/bizwire-2026-10-19-faeth-to-present-preclinical-data-on-piktor-in-hrher2-breast-cancer-models-at-esmo-2026"
+      "fuente_url": "https://investors.faeththerapeutics.com/news-releases"
     },
     {
       "ticker": "IDYA",
@@ -277,18 +273,14 @@
         "enfermedad": "Melanoma uveal metastásico"
       },
       "que_hace": "Desarrolla medicamentos de precisión contra el cáncer. Darovasertib es una pastilla que bloquea la proteína PKC, que se activa por las mutaciones presentes en casi todos los melanomas del ojo (melanoma uveal).",
-      "estado": "Tiene designación Fast Track de la FDA en la enfermedad metastásica y de terapia innovadora como tratamiento antes de la cirugía. Servier tiene los derechos fuera de EE. UU.",
+      "estado": "Tiene designación Fast Track de la FDA en la enfermedad metastásica y de terapia innovadora como tratamiento antes de la cirugía. En el estudio OptimUM-02, junto con crizotinib, los pacientes pasaron una mediana de 6,9 meses sin que el cáncer avanzara, frente a 3,1 meses con otros tratamientos.",
       "hitos": [
-        {
-          "texto": "Tres pósteres con datos de estudios en ESMO (Madrid)",
-          "fecha": "24 oct 2026"
-        },
         {
           "texto": "Termina de enviar a la FDA la solicitud de aprobación junto con crizotinib, como primer tratamiento",
           "fecha": "antes de fin de 2026"
         }
       ],
-      "fuente_url": "https://www.stocktitan.net/news/IDYA/ideaya-biosciences-and-servier-announce-data-from-three-clinical-njac7n805z9y.html"
+      "fuente_url": "https://media.ideayabio.com/2026-10-19-IDEAYA-Biosciences-and-Servier-Announce-Data-From-Three-Clinical-Trials-at-ESMO-2026-Supporting-the-Potential-of-Darovasertib-to-Become-a-Foundational-New-Therapy-for-Patients-Across-the-Treatment-Journey-of-Uveal-Melanoma"
     },
     {
       "ticker": "IMNM",
@@ -300,14 +292,10 @@
         "enfermedad": "Tumores desmoides"
       },
       "que_hace": "Desarrolla tratamientos contra el cáncer. Varegacestat es una pastilla para los tumores desmoides, que no se extienden a otros órganos pero crecen e invaden los tejidos cercanos.",
-      "estado": "La FDA aceptó revisar la solicitud en julio de 2026. En el estudio de fase 3 RINGSIDE redujo 84% el riesgo de que la enfermedad avanzara, frente a placebo.",
+      "estado": "La FDA aceptó revisar la solicitud en julio de 2026, y en octubre la agencia europea (EMA) validó la solicitud para Europa. En el estudio de fase 3 RINGSIDE redujo 84% el riesgo de que la enfermedad avanzara, frente a placebo.",
       "hitos": [
         {
-          "texto": "Solicitud de aprobación en Europa (EMA)",
-          "fecha": "antes de fin de 2026"
-        },
-        {
-          "texto": "Primeros datos de IM-1021 en linfoma",
+          "texto": "Primeros datos de IM-1021, otro de sus medicamentos, en linfoma",
           "fecha": "antes de fin de 2026"
         },
         {
@@ -315,7 +303,7 @@
           "fecha": "28 abr 2027"
         }
       ],
-      "fuente_url": "https://www.sec.gov/Archives/edgar/data/0001472012/000119312526344577/imnm-ex99_1.htm"
+      "fuente_url": "https://www.biospace.com/press-releases/immunome-announces-ema-validation-of-marketing-authorization-application-for-varegacestat-for-the-treatment-of-adults-with-desmoid-tumors"
     },
     {
       "ticker": "KARD",
@@ -350,18 +338,18 @@
         "enfermedad": "Malformaciones linfáticas microquísticas"
       },
       "que_hace": "Desarrolla geles para enfermedades raras de la piel y de los vasos. QTORIN rapamicina se aplica sobre la piel en las malformaciones linfáticas microquísticas, lesiones de nacimiento que hoy no tienen ningún tratamiento aprobado por la FDA.",
-      "estado": "Terminó de enviar la solicitud a la FDA el 31 de agosto de 2026. Tiene designación de terapia innovadora y Fast Track; en su estudio de fase 3 SELVA cumplió el objetivo principal.",
+      "estado": "En octubre de 2026 la FDA aceptó la solicitud y le dio revisión prioritaria. Tiene designaciones de terapia innovadora, Fast Track y medicamento huérfano; en su estudio de fase 3 SELVA cumplió sus seis objetivos de eficacia.",
       "hitos": [
         {
-          "texto": "La FDA decide si acepta la solicitud y si le da revisión prioritaria",
-          "fecha": "hacia fin de oct 2026 (estimado)"
+          "texto": "Fecha límite de la FDA para decidir sobre QTORIN rapamicina",
+          "fecha": "28 feb 2027"
         },
         {
           "texto": "Posible lanzamiento en EE. UU., si es aprobado",
           "fecha": "primer semestre de 2027"
         }
       ],
-      "fuente_url": "https://ir.palvellatx.com/news-releases/news-release-details/palvella-therapeutics-completes-rolling-submission-new-drug"
+      "fuente_url": "https://www.globenewswire.com/news-release/2026/10/28/3390054/0/en/palvella-announces-fda-acceptance-and-priority-review-of-qtorin-rapamycin-nda-february-28-2027-pdufa-target-action-date-set.html"
     },
     {
       "ticker": "RCUS",
@@ -373,14 +361,14 @@
         "enfermedad": "Cáncer de riñón de células claras"
       },
       "que_hace": "Desarrolla medicamentos contra el cáncer y enfermedades inflamatorias. Casdatifan es una pastilla que bloquea HIF-2α, una proteína que impulsa el crecimiento del tipo de cáncer de riñón más común.",
-      "estado": "Su estudio de fase 3 PEAK-1 compara casdatifan más cabozantinib contra cabozantinib solo, en pacientes que ya recibieron inmunoterapia.",
+      "estado": "Su estudio de fase 3 PEAK-1 compara casdatifan más cabozantinib contra cabozantinib solo. En datos del estudio ARC-20 presentados en octubre de 2026, con esa combinación como segundo tratamiento los pacientes pasaron una mediana de 14,5 meses sin que el cáncer avanzara.",
       "hitos": [
         {
-          "texto": "Nuevos datos del estudio ARC-20",
-          "fecha": "segundo semestre de 2026"
+          "texto": "Inicio del estudio de fase 3 PEAK-20, como primer tratamiento",
+          "fecha": "antes de fin de 2026"
         },
         {
-          "texto": "Termina de reclutar PEAK-1 e inicia PEAK-20, como primer tratamiento",
+          "texto": "Termina de reclutar pacientes para PEAK-1",
           "fecha": "antes de fin de 2026"
         },
         {
@@ -388,7 +376,7 @@
           "fecha": "primer semestre de 2027"
         }
       ],
-      "fuente_url": "https://www.sec.gov/Archives/edgar/data/0001724521/000172452126000042/a2026q28kexhibit991.htm"
+      "fuente_url": "https://s202.q4cdn.com/599190870/files/doc_news/Arcus-Presents-New-Data-from-ARC-20-that-Demonstrate-the-Opportunity-for-Casdatifan-to-Become-a-Foundational-Treatment-Across-All-Lin-N7V7C.pdf"
     },
     {
       "ticker": "RLAY",
@@ -450,12 +438,8 @@
         "enfermedad": "Obesidad hipotalámica adquirida"
       },
       "que_hace": "Desarrolla medicamentos para enfermedades raras que causan hambre extrema y obesidad por fallas en la vía MC4R, el circuito del cerebro que regula el apetito. Setmelanotide (marca IMCIVREE) es una inyección que activa esa vía.",
-      "estado": "En EE. UU. está aprobado para esta enfermedad desde marzo de 2026, y antes para varias obesidades de origen genético. En Europa también está autorizado.",
+      "estado": "En EE. UU. está aprobado para esta enfermedad desde marzo de 2026, y antes para varias obesidades de origen genético. También está autorizado en Europa y Reino Unido, y en Japón empezó a venderse en octubre de 2026.",
       "hitos": [
-        {
-          "texto": "Decisión del regulador de Japón para esta enfermedad",
-          "fecha": "antes de fin de 2026"
-        },
         {
           "texto": "Inicio del estudio de fase 3 de bivamelagon, otro medicamento de la misma vía",
           "fecha": "antes de fin de 2026"
@@ -465,7 +449,7 @@
           "fecha": "inicios de 2027"
         }
       ],
-      "fuente_url": "https://ir.rhythmtx.com/news-releases/news-release-details/rhythm-pharmaceuticals-reports-second-quarter-2026-financial"
+      "fuente_url": "https://www.globenewswire.com/news-release/2026/10/13/3380291/0/en/rhythm-pharmaceuticals-announces-commercial-launch-of-imcivree-setmelanotide-in-japan-for-patients-with-acquired-hypothalamic-obesity.html"
     },
     {
       "ticker": "TNGX",
@@ -477,22 +461,18 @@
         "enfermedad": "Cáncer de páncreas"
       },
       "que_hace": "Desarrolla medicamentos de precisión contra el cáncer. Vopimetostat bloquea la proteína PRMT5 en las células tumorales que perdieron el gen MTAP, y busca dañar el tumor sin afectar las células sanas.",
-      "estado": "En un estudio temprano, combinado con daraxonrasib (de Revolution Medicines), el 92% de los pacientes con cáncer de páncreas respondió al tratamiento.",
+      "estado": "En octubre de 2026, combinado con daraxonrasib (de Revolution Medicines), respondió al tratamiento el 82% de 22 pacientes con cáncer de páncreas ya tratados antes. Tras hablar con la FDA, planea un estudio de fase 3 como primer tratamiento, frente a quimioterapia.",
       "hitos": [
-        {
-          "texto": "Datos del estudio combinado en ESMO (Madrid)",
-          "fecha": "23–27 oct 2026"
-        },
-        {
-          "texto": "Diseño final del estudio de fase 3 en cáncer de páncreas",
-          "fecha": "segundo semestre de 2026"
-        },
         {
           "texto": "Datos de vopimetostat solo en cáncer de pulmón",
           "fecha": "segundo semestre de 2026"
+        },
+        {
+          "texto": "Inicio del estudio de fase 3 en cáncer de páncreas, como primer tratamiento",
+          "fecha": "primer semestre de 2027"
         }
       ],
-      "fuente_url": "https://www.sec.gov/Archives/edgar/data/0001819133/000119312526343434/tngx-ex99_1.htm"
+      "fuente_url": "https://finviz.com/news/407142/tango-presents-promising-results-from-phase-12-study-of-vopimetostat-and-daraxonrasib-in-pancreatic-cancer-and-provides-updates-to-development-strategy"
     },
     {
       "ticker": "WVE",
@@ -504,18 +484,18 @@
         "enfermedad": "Obesidad"
       },
       "que_hace": "Desarrolla medicamentos de ARN, que apagan o corrigen genes específicos. WVE-007 apaga el gen INHBE con el objetivo de hacer perder grasa sin perder músculo.",
-      "estado": "En la primera parte del estudio INLIGHT, una sola dosis redujo la grasa total y la del abdomen, conservando el músculo. Ahora prueba dosis repetidas.",
+      "estado": "En la primera parte del estudio INLIGHT, una sola dosis redujo la grasa total y la del abdomen, conservando el músculo. Ya lo prueba en estudios de fase 2a, solo y combinado con tirzepatida, un medicamento de la familia de Ozempic (incretinas).",
       "hitos": [
         {
-          "texto": "Más datos del estudio INLIGHT, incluida la dosis de 600 mg",
-          "fecha": "segundo semestre de 2026"
+          "texto": "Datos de la dosis única de 600 mg del estudio INLIGHT",
+          "fecha": "último trimestre de 2026"
         },
         {
-          "texto": "Inicio de estudios de fase 2 combinado con medicamentos como Ozempic (incretinas)",
-          "fecha": "segundo semestre de 2026"
+          "texto": "Inicio de un estudio para mantener el peso perdido después de dejar las incretinas",
+          "fecha": "último trimestre de 2026"
         }
       ],
-      "fuente_url": "https://www.sec.gov/Archives/edgar/data/0001631574/000119312526324917/d177737dex991.htm"
+      "fuente_url": "https://www.sec.gov/Archives/edgar/data/0001631574/000119312526432690/d120442dex991.htm"
     }
   ]
 }
