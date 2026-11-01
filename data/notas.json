@@ -1,6 +1,62 @@
 {
-  "actualizado": "31 oct 2026, 5:49 a. m. (hora Bogotá)",
+  "actualizado": "1 nov 2026, 5:52 a. m. (hora Bogotá)",
   "notas": [
+    {
+      "id": "2026-11-01-01",
+      "fecha": "2026-11-01",
+      "categoria": "bvc",
+      "puntaje": {
+        "total": 6,
+        "alcance": 1,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Banco de Bogotá cambia de presidente: sale Echeverry y llega María Fernanda Suárez",
+      "resumen": "La junta directiva de Banco de Bogotá aceptó la renuncia de Juan Carlos Echeverry, efectiva desde el 30 de octubre, tras algo más de cinco meses en el cargo. Lo reemplazará María Fernanda Suárez, hasta ahora presidenta de Banco Popular.",
+      "contexto": "Echeverry había asumido el 6 de mayo; la fuente no detalla las razones de su salida. Suárez dirigió Banco Popular durante tres años y antes fue ministra de Minas y Energía y vicepresidenta de Estrategia y Finanzas de Ecopetrol. El banco ganó $312.600 millones en el primer trimestre, 17 % más que un año antes, y el impuesto al patrimonio le restó $89.200 millones de forma directa. Hasta agosto era el tercer banco del país por utilidades, con $820.452 millones.",
+      "afectados": [
+        "Banco de Bogotá",
+        "Grupo Aval",
+        "Banco Popular",
+        "Bancos"
+      ],
+      "peso_alcista": 50,
+      "alcista": "El banco dijo que la nueva presidenta mantendrá las prioridades estratégicas ya definidas, lo que reduce la incertidumbre sobre el rumbo del negocio. Suárez viene de dirigir otro banco del mismo grupo y conoce la operación. Su experiencia en el sector público y en finanzas de grandes empresas puede servir en un año marcado por el impuesto al patrimonio y la discusión fiscal. Un relevo rápido, sin vacío en el cargo, ayuda a la estabilidad del gobierno corporativo.",
+      "bajista": "Es el segundo cambio de presidente del banco en menos de seis meses y no se explicaron las razones, lo que puede generar dudas sobre la gestión. La rentabilidad del primer trimestre fue baja (ROAE de 7,4 %) y el impuesto al patrimonio pesó sobre las utilidades. Los cambios frecuentes en la cúpula pueden retrasar decisiones estratégicas. Banco Popular también deberá buscar un nuevo líder.",
+      "impacto": {
+        "conclusion": "Las dos lecturas están equilibradas: el relevo es rápido y con una persona del mismo grupo, pero la salida sin explicación tras cinco meses abre preguntas sobre la estabilidad de la dirección. Para quien tiene acciones del grupo, el efecto es acotado a la percepción de gobierno corporativo mientras no haya cambios en la estrategia o en los resultados.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "mixto",
+            "detalle": "Toca a Banco de Bogotá y Grupo Aval: estabilidad estratégica de un lado, dudas por la rotación en la presidencia del otro."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "Los próximos resultados trimestrales del banco y cualquier anuncio sobre la nueva presidencia de Banco Popular.",
+      "terminos": [
+        "Gobierno corporativo",
+        "Conglomerado financiero"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/juan-carlos-echeverry-dejo-la-presidencia-de-banco-de-bogota-tras-cinco-meses-en-el-cargo-4515339"
+    },
     {
       "id": "2026-10-31-04",
       "fecha": "2026-10-31",

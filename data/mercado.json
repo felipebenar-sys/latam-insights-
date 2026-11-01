@@ -1,14 +1,14 @@
 {
   "trm": {
-    "valor": 3166.91,
-    "vigente_desde": "2026-10-30",
-    "anterior": 3162.35,
+    "valor": 3182.99,
+    "vigente_desde": "2026-10-31",
+    "anterior": 3166.91,
     "fuente": "Superintendencia Financiera vía La República"
   },
   "brent": {
-    "valor": 115.33,
-    "cambio_pct": -1.22,
-    "fecha": "2026-10-26",
+    "valor": 117.64,
+    "cambio_pct": 1.4,
+    "fecha": "2026-10-30",
     "fuente": "La República"
   },
   "colcap": {
@@ -26,5 +26,5 @@
     "periodo": "sep 2026",
     "fuente": "DANE"
   },
-  "actualizado": "2026-10-30"
+  "actualizado": "2026-11-01"
 }
