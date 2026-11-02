@@ -1,6 +1,125 @@
 {
-  "actualizado": "1 nov 2026, 5:52 a. m. (hora Bogotá)",
+  "actualizado": "2 nov 2026, 5:47 a. m. (hora Bogotá)",
   "notas": [
+    {
+      "id": "2026-11-02-01",
+      "fecha": "2026-11-02",
+      "categoria": "politica",
+      "puntaje": {
+        "total": 9,
+        "alcance": 4,
+        "materialidad": 3,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "Gobierno advierte riesgo de impago en 2027 si no se aprueba la Ley de Rescate",
+      "resumen": "El vicepresidente José Manuel Restrepo y el ministro de Hacienda, Miguel Gómez, dijeron en una entrevista con Semana que Colombia podría caer en default en 2027 si el Congreso no aprueba la Ley de Rescate Económico antes de que termine 2026.",
+      "contexto": "Según el ministro, el Gobierno debe financiar un déficit de entre 80 y 90 billones de pesos y, sin el ajuste, el Presupuesto General de la Nación de 2027 tendría vacíos que impedirían pagar nóminas estatales. El 70 % del ajuste vendría de recortes internos, como reducir a la mitad los contratos de prestación de servicios y vender activos improductivos, y el 30 % de cambios tributarios. Entre estos figuran revisar el IVA de productos con tarifas menores al 19 %, ampliar la base de declarantes de renta desde ingresos de 5 millones de pesos al mes y bajar la tarifa de renta del 35 % al 31 % para el 90 % de las empresas.",
+      "afectados": [
+        "TES",
+        "Peso colombiano",
+        "Finanzas públicas",
+        "Consumo",
+        "Empresas"
+      ],
+      "peso_alcista": 35,
+      "alcista": "La advertencia puede presionar al Congreso para aprobar un ajuste fiscal que, según el Gobierno, se apoya sobre todo en recortes de gasto y no solo en impuestos. Si el proyecto avanza, bajaría la necesidad de endeudamiento y eso podría aliviar las tasas de los TES. La baja de la tarifa de renta del 35 % al 31 % para la mayoría de las empresas mejoraría sus utilidades. Un plan creíble también reduciría la prima de riesgo país que pagan los activos colombianos.",
+      "bajista": "Que el propio Gobierno hable de un posible default muestra lo estrecha que está la caja del Estado y puede aumentar la desconfianza de los inversionistas en la deuda colombiana. Si el Congreso no aprueba el ajuste a tiempo, el mercado podría exigir tasas más altas a los TES y presionar al alza al dólar. Los cambios en el IVA y la ampliación de declarantes de renta pueden frenar el consumo. Además, el trámite ya enfrenta reparos y el plazo es corto.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista: la advertencia de impago es una señal de estrés fiscal explícita y la aprobación del ajuste todavía es incierta. Para tu portafolio, el principal canal es la deuda pública: mientras no haya claridad, las tasas de los TES y el dólar tienden a reflejar más riesgo. Si el proyecto avanza en el Congreso, buena parte de esa presión podría ceder.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "mixto",
+            "detalle": "La menor tarifa de renta ayudaría a las empresas, pero el mayor riesgo fiscal y el posible golpe al consumo pesan sobre la bolsa."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "La advertencia de default puede llevar a exigir tasas más altas a los TES, lo que baja el precio de los que ya están en el portafolio."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "positivo",
+            "detalle": "Más riesgo fiscal suele presionar al alza el dólar, lo que valoriza en pesos los ahorros e inversiones en el exterior."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "mixto",
+            "detalle": "Tasas de mercado más altas favorecen los CDT nuevos, pero un deterioro fiscal también eleva la incertidumbre para el ahorro en pesos."
+          }
+        ]
+      },
+      "mirar": "El avance del proyecto en las comisiones del Congreso antes del cierre de la legislatura del 16 de diciembre.",
+      "terminos": [
+        "Default",
+        "Presupuesto General de la Nación",
+        "IVA",
+        "TES",
+        "Prima de riesgo país"
+      ],
+      "fuente": "IFM Noticias (entrevista en Semana)",
+      "url": "https://ifmnoticias.com/economicas/gobierno-advierte-riesgo-de-default-en-2027-si-el-congreso-no-aprueba-la-ley-de-rescate-economico/"
+    },
+    {
+      "id": "2026-11-02-02",
+      "fecha": "2026-11-02",
+      "categoria": "region",
+      "pais": "Argentina",
+      "puntaje": {
+        "total": 7,
+        "alcance": 1,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Riesgo país de Argentina cierra octubre en 787 puntos, máximo desde 2025",
+      "resumen": "El riesgo país de Argentina terminó el viernes en 787 puntos básicos, su nivel más alto desde las elecciones legislativas de 2025, tras subir en octubre mucho más que el promedio de América Latina.",
+      "contexto": "Según estimaciones de Comafi, en octubre el indicador argentino subió unos 140 puntos básicos, frente a unos 23 del promedio latinoamericano. El salto coincidió con la reacción de los mercados al triunfo de Lula en Brasil, que llevó al real a depreciarse 8,3 % en la semana. El Gobierno argentino contuvo el dólar oficial con intervenciones y el Tesoro suspendió desde agosto la oferta de bonos en dólares. A quien invierte desde Colombia le importa porque Argentina y Brasil pesan en los fondos y ETF de la región y porque el contagio regional puede tocar los activos colombianos.",
+      "afectados": [
+        "Bonos argentinos",
+        "Acciones argentinas",
+        "ETF de América Latina",
+        "Mercados emergentes"
+      ],
+      "peso_alcista": 35,
+      "alcista": "Parte de la subida se explica por el contagio de Brasil y no por un hecho nuevo dentro de Argentina, por lo que podría revertirse si se calma ese mercado. El dólar oficial argentino se mantuvo contenido y el Banco Central siguió comprando divisas en el mes. El Gobierno busca financiamiento con garantías de organismos multilaterales, lo que podría aliviar la presión. Para quien invierte en la región, precios más bajos también reflejan un riesgo ya descontado en parte.",
+      "bajista": "El riesgo país argentino subió varias veces más que el de países con calificaciones similares, lo que indica dudas propias sobre el financiamiento y el rumbo económico. Con reservas que, según la fuente, son menos de la mitad de lo que necesitaría para igualar la proporción de Brasil, el margen para resistir choques es limitado. Si la presión sigue, los bonos y acciones argentinas podrían caer más. Un deterioro regional prolongado también puede reducir el apetito por activos latinoamericanos, incluidos los colombianos.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista, porque el salto del riesgo país supera con amplitud al de la región y refleja dudas propias además del contagio de Brasil. Para quien invierte desde Colombia, el efecto principal está en los fondos, ETF o acciones con exposición a Argentina y a la región. En los activos locales, por ahora el canal es indirecto.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "negativo",
+            "detalle": "Bonos, acciones y fondos con exposición a Argentina pierden valor cuando sube su riesgo país."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "Las compras de divisas del Banco Central argentino y los anuncios de nuevo financiamiento externo en las próximas semanas.",
+      "terminos": [
+        "Riesgo país",
+        "Puntos básicos",
+        "Reservas internacionales",
+        "Dólar contado con liquidación (CCL)"
+      ],
+      "fuente": "La Nación (Argentina)",
+      "url": "https://www.lanacion.com.ar/economia/el-riesgo-pais-argentino-subio-en-octubre-hasta-seis-veces-lo-que-aumento-en-la-region-y-el-gobierno-nid01112026/"
+    },
     {
       "id": "2026-11-01-01",
       "fecha": "2026-11-01",

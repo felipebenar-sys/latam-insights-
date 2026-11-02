@@ -671,6 +671,14 @@
     {
       "termino": "Consumo",
       "definicion": "Es el gasto de los hogares en bienes y servicios, como comida, ropa, transporte o entretenimiento. Es uno de los motores más grandes de la economía. Cuando el consumo se frena, suelen bajar las ventas del comercio y aumenta el riesgo de que los hogares tengan problemas para pagar sus créditos."
+    },
+    {
+      "termino": "Default",
+      "definicion": "Es cuando un gobierno o una empresa no paga a tiempo los intereses o el capital de su deuda. También se le llama cesación de pagos o impago. A quien invierte le importa porque los bonos de ese emisor pierden valor, sube el costo de financiarse para todo el país y suele debilitarse la moneda."
+    },
+    {
+      "termino": "IVA",
+      "definicion": "El impuesto al valor agregado es un impuesto que se cobra sobre el precio de la mayoría de bienes y servicios que se compran. En Colombia la tarifa general es del 19 %, pero algunos productos están excluidos, exentos o tienen tarifas menores. Los cambios en el IVA afectan el consumo, las ventas de las empresas y los ingresos del Gobierno."
     }
   ]
 }
