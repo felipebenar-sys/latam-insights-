@@ -155,6 +155,110 @@
       }
     ]
   },
+  "calendario": {
+    "mes": "2026-11",
+    "mes_texto": "noviembre 2026",
+    "actualizado": "3 nov 2026",
+    "eventos": [
+      {
+        "fecha": "2026-11-03",
+        "ticker": "FTH",
+        "tipo": "Resultados",
+        "evento": "Presentó sus resultados del tercer trimestre.",
+        "confirmada": true,
+        "fuente_url": "https://www.biospace.com/press-releases/faeth-therapeutics-reports-third-quarter-2026-financial-results-and-operational-updates"
+      },
+      {
+        "fecha": "2026-11-03",
+        "ticker": "IDYA",
+        "tipo": "Resultados",
+        "evento": "Presentó sus resultados del tercer trimestre.",
+        "confirmada": true,
+        "fuente_url": "https://media.ideayabio.com/2026-11-03-IDEAYA-Biosciences-Reports-Financial-Results-for-the-Third-Quarter-2026-and-Provides-a-Business-Update"
+      },
+      {
+        "fecha": "2026-11-03",
+        "ticker": "RYTM",
+        "tipo": "Resultados",
+        "evento": "Presentó sus resultados del tercer trimestre.",
+        "confirmada": true,
+        "fuente_url": "https://www.globenewswire.com/news-release/2026/11/03/3394041/0/en/rhythm-pharmaceuticals-reports-third-quarter-2026-financial-results-and-business-update.html"
+      },
+      {
+        "fecha": "2026-11-04",
+        "ticker": "CYTK",
+        "tipo": "Resultados",
+        "evento": "Presenta sus resultados del tercer trimestre.",
+        "confirmada": true,
+        "fuente_url": "https://finviz.com/news/405790/cytokinetics-to-announce-third-quarter-results-on-november-4-2026"
+      },
+      {
+        "fecha": "2026-11-04",
+        "ticker": "RLAY",
+        "tipo": "Resultados",
+        "evento": "Presenta sus resultados del tercer trimestre.",
+        "confirmada": true,
+        "fuente_url": "https://www.globenewswire.com/news-release/2026/10/28/3390754/0/en/relay-therapeutics-to-announce-third-quarter-2026-financial-results-and-corporate-highlights-on-november-4-2026.html"
+      },
+      {
+        "fecha": "2026-11-04",
+        "ticker": "RVMD",
+        "tipo": "Resultados",
+        "evento": "Presenta sus resultados del tercer trimestre.",
+        "confirmada": true,
+        "fuente_url": "https://www.globenewswire.com/news-release/2026/10/21/3385895/0/en/revolution-medicines-to-report-financial-results-for-third-quarter-2026-after-market-close-on-november-4-2026.html"
+      },
+      {
+        "fecha": "2026-11-04",
+        "ticker": "WVE",
+        "tipo": "Otro",
+        "evento": "Día de investigación virtual para inversionistas.",
+        "confirmada": true,
+        "fuente_url": "https://www.globenewswire.com/news-release/2026/10/19/3383431/0/en/index.html"
+      },
+      {
+        "fecha": "2026-11-05",
+        "ticker": "CELC",
+        "tipo": "Resultados",
+        "evento": "Presenta sus resultados del tercer trimestre.",
+        "confirmada": true,
+        "fuente_url": "https://www.globenewswire.com/news-release/2026/10/29/3391271/0/en/celcuity-schedules-release-of-third-quarter-2026-financial-results-and-webcast-conference-call.html"
+      },
+      {
+        "fecha": "2026-11-05",
+        "ticker": "PVLA",
+        "tipo": "Resultados",
+        "evento": "Presenta sus resultados del tercer trimestre.",
+        "confirmada": true,
+        "fuente_url": "https://www.biopharmawatch.com/news/PVLA/palvella-therapeutics-q3-2026-results-update"
+      },
+      {
+        "fecha": "2026-11-06",
+        "ticker": "CYTK",
+        "tipo": "Congreso",
+        "evento": "Tres presentaciones sobre aficamten en las sesiones científicas de HCMS, junto al congreso de la Asociación Americana del Corazón (AHA).",
+        "confirmada": true,
+        "fuente_url": "https://www.biospace.com/press-releases/cytokinetics-announces-three-upcoming-presentations-at-the-hypertrophic-cardiomyopathy-medical-society-hcms-scientific-sessions-held-in-collaboration-with-the-american-heart-association-scientific-sessions-2026"
+      },
+      {
+        "fecha": "2026-11-16",
+        "ticker": "IDYA",
+        "tipo": "Otro",
+        "evento": "Día de investigación y desarrollo en Londres.",
+        "confirmada": true,
+        "fuente_url": "https://media.ideayabio.com/2026-11-03-IDEAYA-Biosciences-Reports-Financial-Results-for-the-Third-Quarter-2026-and-Provides-a-Business-Update"
+      },
+      {
+        "fecha": null,
+        "cuando": "del 14 al 17 de noviembre",
+        "ticker": "RYTM",
+        "tipo": "Congreso",
+        "evento": "Cinco presentaciones en ObesityWeek 2026, entre ellas los resultados finales y a dos años de la fase 3 de setmelanotide en obesidad hipotalámica adquirida.",
+        "confirmada": true,
+        "fuente_url": "https://www.globenewswire.com/news-release/2026/11/03/3394041/0/en/rhythm-pharmaceuticals-reports-third-quarter-2026-financial-results-and-business-update.html"
+      }
+    ]
+  },
   "companias": [
     {
       "ticker": "AAPG",
