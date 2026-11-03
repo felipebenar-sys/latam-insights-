@@ -679,6 +679,10 @@
     {
       "termino": "IVA",
       "definicion": "El impuesto al valor agregado es un impuesto que se cobra sobre el precio de la mayoría de bienes y servicios que se compran. En Colombia la tarifa general es del 19 %, pero algunos productos están excluidos, exentos o tienen tarifas menores. Los cambios en el IVA afectan el consumo, las ventas de las empresas y los ingresos del Gobierno."
+    },
+    {
+      "termino": "Factura electrónica",
+      "definicion": "Es el comprobante de una venta que el comercio genera en formato digital y reporta a la DIAN. Le permite a la autoridad tributaria saber qué se vendió, a quién y cuánto impuesto se cobró. Para quien invierte importa porque mejora el control de la evasión y puede cambiar la forma en que el Estado recauda o devuelve impuestos como el IVA."
     }
   ]
 }

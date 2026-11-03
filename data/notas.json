@@ -1,6 +1,292 @@
 {
-  "actualizado": "2 nov 2026, 5:47 a. m. (hora Bogotá)",
+  "actualizado": "3 nov 2026, 5:49 a. m. (hora Bogotá)",
   "notas": [
+    {
+      "id": "2026-11-03-01",
+      "fecha": "2026-11-03",
+      "categoria": "politica",
+      "puntaje": {
+        "total": 7,
+        "alcance": 2,
+        "materialidad": 3,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "Ley de Rescate: el IVA del café pasaría del 5 % al 19 %, con devolución desde 2028",
+      "resumen": "El ministro de Hacienda, Miguel Gómez, y el vicepresidente José Manuel Restrepo confirmaron que la Ley de Rescate subiría o crearía el IVA para el café, verduras, pastas y algunas frutas, y que una parte de la población recibiría devoluciones de ese impuesto.",
+      "contexto": "Según los funcionarios, en el café la tarifa pasaría del 5 % al 19 %. La devolución se haría al comprar en comercios con factura electrónica y presentar la cédula: el sistema definiría si la persona tiene derecho y pagaría en un plazo de 15 días, a partir del 1 de enero de 2028. El Gobierno calcula que 19 millones de personas recibirían el 100 % del IVA pagado y 16,5 millones hasta el 50 %, mientras que uno de cada diez colombianos, sobre todo de ingresos altos, pagaría más.",
+      "afectados": [
+        "Consumo",
+        "Comercio",
+        "Finanzas públicas",
+        "TES"
+      ],
+      "peso_alcista": 45,
+      "alcista": "Ampliar el IVA a más productos aumenta el recaudo y ayuda a cerrar el hueco fiscal que el Gobierno quiere cubrir con la Ley de Rescate. Un recaudo mayor reduciría la necesidad de emitir deuda, lo que puede aliviar las tasas de los TES. Además, la devolución focalizada busca que el golpe recaiga sobre todo en los hogares de mayores ingresos, lo que limitaría el efecto sobre el consumo masivo. El uso de la factura electrónica también ayudaría a reducir la evasión.",
+      "bajista": "Un IVA más alto en alimentos de consumo diario encarece la canasta y puede frenar el gasto de los hogares, en especial mientras las devoluciones arrancan solo en 2028. Ese rezago de más de un año significa que, en la práctica, los hogares pagarían el impuesto completo antes de recibir cualquier reembolso. Las empresas de alimentos y comercio podrían ver menores volúmenes de venta o márgenes más estrechos. Además, el mecanismo depende de que funcione un sistema tecnológico que aún no está en operación y el proyecto todavía debe pasar por el Congreso.",
+      "impacto": {
+        "conclusion": "Pesa algo más la lectura bajista: el alza del IVA llegaría antes que las devoluciones y el proyecto aún no tiene asegurada su aprobación. Para tu portafolio, el efecto se reparte entre un posible alivio fiscal, que favorece a la deuda pública, y una presión sobre el consumo, que golpea a las empresas de alimentos y comercio.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "mixto",
+            "detalle": "Las empresas de alimentos y comercio podrían vender menos, aunque un mejor panorama fiscal ayuda al mercado en general."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "positivo",
+            "detalle": "Más recaudo reduciría la necesidad de deuda y podría aliviar las tasas de los TES si la ley se aprueba."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "El avance del proyecto de Ley de Rescate en el Congreso antes de que termine 2026.",
+      "terminos": [
+        "IVA",
+        "Factura electrónica",
+        "Consumo"
+      ],
+      "fuente": "Valora Analitik",
+      "url": "https://www.valoraanalitik.com/gobierno-de-la-espriella-confirma-que-subira-iva-al-cafe-y-otros-alimentos-pero-explica-como-devolvera-ese-pago-a-millones-de-colombianos/"
+    },
+    {
+      "id": "2026-11-03-02",
+      "fecha": "2026-11-03",
+      "categoria": "region",
+      "pais": "Argentina",
+      "puntaje": {
+        "total": 7,
+        "alcance": 1,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Argentina: el riesgo país supera los 800 puntos y las acciones caen por sexta jornada",
+      "resumen": "El lunes 2 de noviembre el riesgo país de Argentina subió 20 puntos hasta 808, su nivel más alto desde octubre de 2025, mientras el índice Merval cayó 3,2 % y el dólar mayorista marcó un récord nominal de 1.545,50 pesos.",
+      "contexto": "Los bonos soberanos en dólares bajaron en promedio 1,2 % y entre los ADR se destacaron las caídas de YPF (6,7 %) y Vista Energy (5,3 %); Mercado Libre, en cambio, subió 3,2 %. El Banco Central no compró reservas en el día. Entre las causas, el informe cita las tasas altas en EE. UU., la caída de las tecnológicas, el triunfo de Lula en Brasil, las dudas sobre la capacidad de pagar los vencimientos de deuda de 2027 y la incertidumbre por las elecciones presidenciales de ese año. Argentina es la tercera economía de la región y un termómetro del apetito de los inversionistas por la deuda latinoamericana.",
+      "afectados": [
+        "Bonos argentinos",
+        "Acciones argentinas",
+        "Peso argentino",
+        "Riesgo país"
+      ],
+      "peso_alcista": 30,
+      "alcista": "Las reservas brutas del Banco Central subieron 1.879 millones de dólares, hasta 50.441 millones, por ingresos técnicos de comienzo de mes, y las exportaciones del agro liquidaron un récord de 2.880 millones de dólares en octubre. Ese flujo de divisas da cierto respaldo al peso. El dólar oficial sigue lejos del techo de la banda cambiaria, lo que deja margen antes de una presión mayor. Si el contexto externo se calma, los activos argentinos podrían recuperar parte de lo perdido.",
+      "bajista": "La combinación de riesgo país al alza, seis jornadas seguidas de caídas en la bolsa y un Banco Central que no logra comprar reservas refleja dudas sobre la capacidad de pago de los grandes vencimientos de 2027. Los activos argentinos ya borraron las ganancias acumuladas desde las elecciones legislativas de octubre de 2025. Una escalada del riesgo país podría contagiar a otros bonos de la región. Además, la cercanía de las elecciones presidenciales de 2027 suma incertidumbre.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista: las caídas son generalizadas y las causas, tanto externas como internas, siguen vigentes. Si tienes bonos, acciones o fondos con exposición a Argentina, el deterioro se refleja directamente en su valor en pesos; para el mercado colombiano el efecto es indirecto.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "negativo",
+            "detalle": "Los bonos, acciones y fondos con exposición a Argentina pierden valor con el alza del riesgo país y la caída del Merval."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "Si el Banco Central de Argentina vuelve a comprar reservas y si el riesgo país se mantiene por encima de 800 puntos esta semana.",
+      "terminos": [
+        "Riesgo país",
+        "Reservas internacionales",
+        "Dólar mayorista",
+        "ADR"
+      ],
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/economia/2026/11/02/las-acciones-argentinas-cayeron-por-sexta-rueda-seguida-el-riesgo-pais-supero-los-800-puntos-y-el-bcra-no-compro-reservas/"
+    },
+    {
+      "id": "2026-11-03-03",
+      "fecha": "2026-11-03",
+      "categoria": "sectores",
+      "puntaje": {
+        "total": 6,
+        "alcance": 1,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Matrículas de carros nuevos crecen 39,5 % hasta octubre y superan todo 2025",
+      "resumen": "Entre enero y octubre se matricularon 279.387 vehículos nuevos en Colombia, 39,5 % más que un año antes y ya por encima de los 254.205 de todo 2025, según el informe de Fenalco y la Andi.",
+      "contexto": "Solo en octubre se registraron 32.175 unidades, 27,4 % más que en octubre de 2025 y el mejor resultado para ese mes desde 2014. Los eléctricos sumaron 4.603 unidades en el mes (más 120 %) y los híbridos 10.610 (más 53,7 %). En el acumulado lidera Kia con 36.204 unidades, seguida de Renault y Toyota; Tesla ya ocupa el sexto lugar con 17.497.",
+      "afectados": [
+        "Comercio de vehículos",
+        "Cartera de consumo",
+        "Bancos",
+        "Consumo"
+      ],
+      "peso_alcista": 65,
+      "alcista": "Un crecimiento cercano al 40 % en las ventas de vehículos muestra que los hogares siguen gastando en bienes durables, lo que es una señal de demanda interna fuerte. Más carros vendidos suelen implicar más créditos de vehículo, un negocio relevante para los bancos. También beneficia a comercializadores, aseguradoras y talleres. El auge de los eléctricos e híbridos abre negocios nuevos en carga y servicios.",
+      "bajista": "Buena parte del crecimiento se apoya en marcas importadas, como Tesla y las chinas, lo que aumenta las compras en dólares y no necesariamente favorece a la industria local. El informe no detalla cuánto de las compras se financió con crédito, así que no es claro el efecto sobre la banca. Además, el posible aumento de impuestos de la Ley de Rescate podría frenar el consumo en los próximos meses. Un dato mensual fuerte no garantiza que el ritmo se mantenga.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura alcista: las cifras son oficiales del gremio y muestran un consumo de bienes durables muy dinámico. Para tu portafolio, es una señal favorable para las empresas ligadas al consumo y al crédito, aunque el efecto sobre el mercado en conjunto es moderado.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "positivo",
+            "detalle": "Un consumo de durables fuerte favorece a empresas de comercio, seguros y crédito de consumo listadas en la bolsa."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "El informe de matrículas de noviembre, a comienzos de diciembre.",
+      "terminos": [
+        "Bienes durables",
+        "Cartera de consumo",
+        "Consumo"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/se-matricularon-279-387-vehiculos-nuevos-con-corte-a-octubre-un-alza-de-mas-de-39-4515970"
+    },
+    {
+      "id": "2026-11-03-04",
+      "fecha": "2026-11-03",
+      "categoria": "sectores",
+      "puntaje": {
+        "total": 6,
+        "alcance": 1,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "MinEnergía levanta la restricción de gas natural tras reparar la terminal de Cartagena",
+      "resumen": "El Ministerio de Minas y Energía levantó la limitación programada del suministro de gas natural desde las 11:59 p. m. del 31 de octubre, luego de que se superó la falla técnica en la terminal de regasificación de Spec LNG en Cartagena.",
+      "contexto": "La medida quedó en la Resolución 40596 de 2026, que también termina las medidas extraordinarias adoptadas durante la contingencia. Según el ministerio, las obras correctivas terminaron antes de lo previsto y se restablecieron la capacidad de la terminal y las condiciones normales de suministro y comercialización. Durante la restricción se garantizó la demanda esencial: hogares, hospitales, colegios y otros usuarios prioritarios.",
+      "afectados": [
+        "Industria",
+        "Generación térmica",
+        "Gas natural",
+        "Spec LNG"
+      ],
+      "peso_alcista": 70,
+      "alcista": "El regreso a la normalidad en el suministro permite que la industria y otros usuarios no prioritarios vuelvan a operar sin limitaciones de gas. Eso reduce el riesgo de paradas de producción y de pérdidas para empresas que dependen de este combustible. La reparación anticipada también disminuye la presión sobre los precios del gas importado en el corto plazo. Para el sistema eléctrico, contar con la terminal es clave para respaldar la generación térmica.",
+      "bajista": "El episodio mostró lo dependiente que es Colombia de una sola terminal de importación de gas: una falla técnica bastó para restringir el suministro. Mientras no haya más capacidad de regasificación o más producción local, el riesgo de nuevas restricciones sigue presente. La fuente no informa cuánto duró la limitación ni qué volúmenes se dejaron de entregar, así que el costo para las empresas no es claro. Además, el gas importado suele ser más caro que el nacional.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura alcista: se elimina una restricción que afectaba a la industria y se restablece el respaldo de gas para la generación térmica. Para tu portafolio, es un alivio para las empresas industriales y de energía, aunque la vulnerabilidad de fondo no desaparece.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "positivo",
+            "detalle": "Las empresas industriales y de energía que usan gas recuperan el suministro normal."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "Los reportes del ministerio sobre el seguimiento al abastecimiento de gas en las próximas semanas.",
+      "terminos": [
+        "Terminal de regasificación",
+        "Gas natural licuado (GNL)",
+        "Generación térmica"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/el-ministerio-de-minas-y-energia-levanto-la-limitacion-programada-de-gas-natural-4516007"
+    },
+    {
+      "id": "2026-11-03-05",
+      "fecha": "2026-11-03",
+      "categoria": "bvc",
+      "puntaje": {
+        "total": 6,
+        "alcance": 1,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Davivienda completa la integración con Davibank y pasa a ser el segundo banco del país",
+      "resumen": "El 1 de noviembre se perfeccionó la cesión parcial de activos, pasivos y contratos de Davibank a Banco Davivienda, autorizada por la Superintendencia Financiera mediante la Resolución 1505 del 2 de octubre de 2026.",
+      "contexto": "Con cifras a agosto de 2026, el banco integrado tendría activos por más de 194 billones de pesos (alrededor de 21 % más), una participación de mercado proforma cercana al 16 %, una cartera bruta de más de 151 billones (18,7 % del mercado) y un patrimonio de unos 15,7 billones. Con esto, Davivienda pasa a ser el segundo jugador del sistema. Los clientes de ambos bancos conservan sus productos, claves y canales, y pueden usar las oficinas y cajeros de las dos redes.",
+      "afectados": [
+        "Davivienda",
+        "Bancos",
+        "Sistema financiero"
+      ],
+      "peso_alcista": 60,
+      "alcista": "La mayor escala le da a Davivienda más participación en cartera y activos, lo que puede mejorar su poder de negociación y su eficiencia. El banco dice que inicia una fase de integración operativa con captura progresiva de sinergias, es decir, ahorro de costos al unir operaciones. Que los clientes no tengan que hacer trámites reduce el riesgo de perderlos en la transición. Una entidad más grande también puede competir mejor con el líder del mercado.",
+      "bajista": "Las integraciones bancarias suelen tener costos y riesgos operativos en los primeros meses, como fallas tecnológicas o fuga de clientes. La fuente no detalla cuántos activos o clientes aportó Davibank ni cuándo se verían las sinergias, por lo que el beneficio es difícil de medir. Una cartera más grande también aumenta la exposición al riesgo de crédito si la economía se desacelera. La competencia de los demás bancos puede reducir el margen de ganancia.",
+      "impacto": {
+        "conclusion": "Pesa algo más la lectura alcista: la integración ya está cerrada y le da a Davivienda una escala mayor, pero las sinergias todavía deben materializarse. Para tu portafolio, el efecto se concentra en la acción del banco y en el sector bancario colombiano.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "positivo",
+            "detalle": "La mayor escala podría mejorar la eficiencia de Davivienda si captura las sinergias anunciadas."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "Los primeros resultados trimestrales de Davivienda que incluyan la operación integrada.",
+      "terminos": [
+        "Integración bancaria",
+        "Superintendencia Financiera",
+        "Cartera de crédito"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/ya-se-perfecciono-la-cesion-parcial-de-activos-pasivos-y-contratos-de-davibank-a-davivienda-4515969"
+    },
     {
       "id": "2026-11-02-01",
       "fecha": "2026-11-02",
