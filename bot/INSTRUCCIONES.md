@@ -30,9 +30,15 @@ Fuentes de **La región** (ver la sección "La región" abajo):
 - México, El Financiero, mercados: https://www.elfinanciero.com.mx/arc/outboundfeeds/rss/category/mercados/?outputType=xml
 - Argentina, Ámbito, economía: https://www.ambito.com/rss/pages/economia.xml
 - Argentina, Infobae, economía: https://www.infobae.com/arc/outboundfeeds/rss/category/economia/
-- Chile, Diario Financiero: https://www.df.cl/noticias/site/list/port/rss.xml
-- Perú, Gestión, economía: https://gestion.pe/arc/outboundfeeds/rss/category/economia/?outputType=xml
 - Bloomberg Línea (el RSS general de arriba) también sirve para la región.
+
+Páginas de portada (respaldo si un RSS falla; traen los titulares con sus enlaces):
+- La República: https://www.larepublica.co/
+- Valora Analitik: https://www.valoraanalitik.com/
+
+Chile y Perú no tienen RSS propio (los de Diario Financiero y Gestión se quitaron por fallar): sus noticias de alto impacto se buscan con WebSearch o en Bloomberg Línea.
+
+**Si WebFetch rechaza una URL por permiso** (error PROVENANCE_REQUIRED), no la reintentes: busca el medio con WebSearch y abre las URL que devuelva la búsqueda. Cualquier fuente que falle tres veces seguidas se quita de esta lista.
 
 X (Twitter) queda por fuera hasta que haya presupuesto para su API.
 
@@ -115,9 +121,9 @@ La definición va en 2 a 4 frases, en lenguaje sencillo para un inversionista no
 
 ## Indicadores (`data/mercado.json`)
 En cada edición actualiza los indicadores de la barra superior. Primero mira con `python3 bot/publicar.py estado` qué fechas tienen ya: si un indicador ya tiene el dato del último día hábil (por ejemplo, un sábado, domingo o festivo), no lo busques. Para cada indicador, intenta las fuentes en este orden, una vez cada una, y si ninguna da un dato con fecha explícita, conserva el valor anterior (no busques en otros sitios):
-- **Dólar (TRM):** (1) `https://www.datos.gov.co/resource/32sa-8pi3.json?$order=vigenciadesde%20DESC&$limit=2` (`valor` y `vigente_desde` del primer registro; `anterior` es el valor del segundo); (2) la nota diaria de La República sobre precios del dólar y del petróleo (búscala en su RSS, con un título como "Precios del dólar y del petróleo hoy"), que trae la TRM vigente.
-- **Brent:** (1) esa misma nota diaria de La República: el cierre más reciente del Brent, con su fecha; (2) `https://mx.investing.com/commodities/brent-oil-historical-data`, fila más reciente de la tabla histórica (no el precio del encabezado).
-- **MSCI COLCAP:** (1) `https://www.larepublica.co/indicadores-economicos/movimiento-accionario/msci-colcap` (dato de la BVC): último valor, variación porcentual y fecha; (2) la nota de cierre de la BVC de La República o Valora Analitik del último día hábil, si la trae en los RSS.
+- **Dólar (TRM):** (1) `https://www.larepublica.co/indicadores-economicos/mercado-cambiario/dolar` (TRM vigente con su fecha, dato de la Superfinanciera); (2) la nota diaria de La República sobre precios del dólar y del petróleo (búscala en su RSS, con un título como "Precios del dólar y del petróleo hoy"), que trae la TRM vigente.
+- **Brent:** (1) esa misma nota diaria de La República: el cierre más reciente del Brent, con su fecha; (2) `https://www.larepublica.co/indicadores-economicos/commodities/petroleo` (último cierre con su fecha).
+- **MSCI COLCAP:** la nota de cierre de la BVC de Valora Analitik o La República del último día hábil (en los RSS o en sus portadas): último valor, variación porcentual y fecha.
 - **Tasa del Banco de la República** e **inflación anual:** actualízalas solo cuando una noticia o fuente oficial informe un cambio (decisión de la junta del Banco de la República; dato mensual del IPC del DANE). Si no hay cambio, deja el valor anterior.
 
 Si una fuente no responde, conserva el valor anterior de ese indicador. La TRM y el MSCI COLCAP se actualizan todos los días hábiles: revisa que sus fechas correspondan al último día hábil antes de publicar. Formato:
@@ -260,7 +266,7 @@ Noticias de las 15 compañías de la sección Biotecnología (ver la lista arrib
 
 **Reglas especiales (obligatorias):** sin opinión (sin lecturas alcista o bajista, ponderación, puntaje, impacto, afectados ni calificativos como "positivo", "negativo", "prometedor" o "decepcionante"; se puede decir que un estudio "cumplió su objetivo principal" cuando la compañía lo reporta así) y en lenguaje para un joven de 15 años. Valen las demás reglas obligatorias de Hoy.
 
-**Fuentes:** comunicados de cada compañía (página de inversionistas, GlobeNewswire, Business Wire, 8-K de la SEC), comunicados de la FDA, Fierce Biotech (`https://www.fiercebiotech.com/rss/xml`), Endpoints News (`https://endpoints.news/feed/`) y WebSearch. Para ahorrar tiempo, busca primero en los dos RSS y haz búsquedas agrupadas (varias compañías por búsqueda). **No entran** los avisos de bufetes de abogados que buscan demandantes, las notas promocionales ni los análisis del precio de la acción.
+**Fuentes:** comunicados de cada compañía (página de inversionistas, GlobeNewswire, Business Wire, 8-K de la SEC), comunicados de la FDA y WebSearch. Para ahorrar tiempo, haz búsquedas agrupadas (varias compañías por búsqueda). **No entran** los avisos de bufetes de abogados que buscan demandantes, las notas promocionales ni los análisis del precio de la acción.
 
 **Qué entra:** noticias de las últimas ~48 horas (72 en fines de semana o festivos): resultados de ensayos, resultados financieros, financiamiento, decisiones o designaciones regulatorias, presentaciones en congresos, alianzas y cambios relevantes de la administración. Máximo **3 notas de biotecnología** por edición, que se suman a las demás. Si no hay noticias, no publiques ninguna (nunca rellenes).
 
