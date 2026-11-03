@@ -134,6 +134,16 @@
         <div id="bio-panorama"></div>
     </section>
 
+    <!-- CALENDARIO DEL MES: qué pasa este mes con estas compañías (se actualiza el día 1) -->
+    <section id="bio-calendario-wrap" class="pb-8 px-4 sm:px-6 max-w-6xl mx-auto hidden">
+        <div class="flex flex-wrap items-baseline justify-between gap-2 mb-1 border-t border-stone-800 pt-6">
+            <h2 class="text-white font-semibold text-lg">Qué ver este mes <span class="text-stone-400 font-normal" id="bio-calendario-mes"></span></h2>
+            <span class="text-stone-500 text-xs" id="bio-calendario-fecha"></span>
+        </div>
+        <p class="text-stone-500 text-sm mb-4">Resultados trimestrales, datos de estudios, decisiones de la FDA y congresos de las compañías, día por día. "Estimada" indica que la compañía aún no ha confirmado la fecha.</p>
+        <div id="bio-calendario"></div>
+    </section>
+
     <!-- COMPAÑÍAS -->
     <section class="pb-12 px-4 sm:px-6 max-w-6xl mx-auto">
         <div class="flex flex-wrap items-baseline justify-between gap-2 mb-4 border-t border-stone-800 pt-6">
@@ -162,7 +172,7 @@
         </div>
     </footer>
 
-    <script src="assets/notas.js?v=20261030c"></script>
+    <script src="assets/notas.js?v=20261103a"></script>
     <script>initMenu();</script>
     <script>renderBarra();</script>
     <script>renderBiotech();</script>

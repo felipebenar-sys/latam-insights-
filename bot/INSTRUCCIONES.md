@@ -154,6 +154,22 @@ Si una fuente no responde, conserva el valor anterior de ese indicador. La TRM y
 3. **Fases válidas:** "Fase 1", "Fase 1/2", "Fase 2", "Fase 2/3", "Fase 2b/3", "Fase 3", "En revisión FDA", "Aprobado (FDA)" o "Aprobado (China)" (u otro país entre paréntesis). Cada fase usada debe existir en `data/glosario.json`, porque la página la explica al tocarla.
 4. **Hechos solo de la fuente:** no uses cifras ni fechas que no estén en una fuente; si un dato no aparece, no lo pongas. Firma Stag Research y sin menciones al proceso.
 
+**Calendario "Qué ver este mes"** (`calendario` en `data/biotech.json`, se reemplaza completo cada mes): los eventos de las 15 compañías que caen en el mes que empieza, solo hechos de una fuente.
+- Tipos (campo `tipo`, exactamente uno de estos): `Resultados` (presentación de resultados trimestrales o anuales), `Datos clínicos` (resultados topline, datos intermedios o finales de un estudio), `FDA` (fecha límite PDUFA, reunión de comité asesor u otra decisión regulatoria; también EMA u otro regulador, dicho en `evento`), `Congreso` (presentación en un congreso médico, con el nombre del congreso) y `Otro` (día del inversionista, inicio o fin de un estudio con fecha, etc.).
+- Cada evento: `fecha` (AAAA-MM-DD; o `null` si la compañía solo dijo "este mes" o una ventana dentro del mes, y entonces `cuando` dice la ventana, por ejemplo "segunda quincena de noviembre"), `ticker`, `tipo`, `evento` (una frase corta en lenguaje sencillo, sin opinión), `confirmada` (`true` si la compañía o el regulador publicaron la fecha; `false` si es una estimación de un calendario de resultados de terceros, que entonces debe ser una fuente seria y se nombra en `fuente_url`) y `fuente_url`.
+- Solo eventos dentro del mes. Los de "fin de año", "cuarto trimestre" o "segundo semestre" no entran salvo que la compañía precise que caen en el mes. No inventes fechas.
+- Campos del bloque: `mes` (AAAA-MM), `mes_texto` (por ejemplo "noviembre 2026"), `actualizado` (formato "1 nov 2026") y `eventos`.
+
+```json
+"calendario": {
+  "mes": "2026-11", "mes_texto": "noviembre 2026", "actualizado": "1 nov 2026",
+  "eventos": [
+    { "fecha": "2026-11-04", "ticker": "CYTK", "tipo": "Resultados", "evento": "Presenta sus resultados del tercer trimestre.", "confirmada": true, "fuente_url": "https://..." },
+    { "fecha": null, "cuando": "segunda quincena de noviembre", "ticker": "XXXX", "tipo": "Datos clínicos", "evento": "...", "confirmada": true, "fuente_url": "https://..." }
+  ]
+}
+```
+
 Valida el archivo con `python3 -m json.tool data/biotech.json` y `python3 bot/publicar.py validar` antes del commit ("Biotecnología: actualización mensual AAAA-MM").
 
 ## Dónde se publica

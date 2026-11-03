@@ -581,6 +581,49 @@
         </ul>`;
         return tabla + lista;
     }
+    // Calendario del mes (biotecnología): qué pasa este mes con las compañías, solo hechos
+    const TIPO_CAL = {
+        'Resultados': 'bg-stone-800 text-stone-200 border-stone-700',
+        'Datos clínicos': 'bg-sky-400/10 text-sky-300 border-sky-400/30',
+        'FDA': 'bg-violet-400/10 text-violet-300 border-violet-400/30',
+        'Congreso': 'bg-amber-400/10 text-amber-300 border-amber-400/30',
+        'Otro': 'bg-stone-800 text-stone-300 border-stone-700'
+    };
+    function calendarioBiotech(cal) {
+        const hoy = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Bogota', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
+        const evs = cal.eventos || [];
+        const conFecha = evs.filter(e => e.fecha).sort((a, b) => a.fecha.localeCompare(b.fecha));
+        const sinFecha = evs.filter(e => !e.fecha);
+        const chip = t => `<span class="border ${TIPO_CAL[t] || TIPO_CAL.Otro} text-[11px] font-semibold px-2 py-0.5 rounded-md whitespace-nowrap">${esc(t)}</span>`;
+        const fila = e => `
+            <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
+                <span class="text-sky-300 text-xs font-bold">${esc(e.ticker)}</span>${chip(e.tipo)}
+                ${e.confirmada === false ? '<span class="text-stone-500 text-[11px] uppercase tracking-wider">Estimada</span>' : ''}
+            </div>
+            <p class="text-stone-200 text-sm mt-1">${esc(e.evento)}${e.fuente_url ? ` <a href="${esc(safeUrl(e.fuente_url))}" target="_blank" rel="noopener noreferrer" class="tap-amplio text-stone-500 hover:text-amber-400 underline underline-offset-2 text-xs">Fuente</a>` : ''}</p>`;
+        const porDia = {};
+        conFecha.forEach(e => (porDia[e.fecha] ||= []).push(e));
+        const dias = Object.keys(porDia).map(f => {
+            const [y, m, d] = f.split('-').map(Number);
+            const dt = new Date(y, m - 1, d);
+            const pasado = f < hoy;
+            return `<li class="flex gap-4 py-3 ${pasado ? 'opacity-50' : ''}">
+                <div class="w-14 shrink-0 self-start text-center rounded-lg border ${f === hoy ? 'border-amber-400 bg-amber-400/10' : 'border-stone-800 bg-stone-900'} py-1.5">
+                    <p class="text-white text-xl font-bold leading-none">${d}</p>
+                    <p class="text-stone-500 text-[11px] uppercase mt-1">${dt.toLocaleDateString('es-CO', { weekday: 'short' }).replace('.', '')}</p>
+                </div>
+                <div class="flex-1 min-w-0 space-y-3">${porDia[f].map(e => `<div>${fila(e)}</div>`).join('')}</div>
+            </li>`;
+        }).join('');
+        const resto = sinFecha.length ? `
+            <div class="mt-4 border-t border-stone-800 pt-4">
+                <p class="text-stone-500 text-xs font-bold uppercase tracking-wider mb-2">Este mes, sin fecha exacta</p>
+                <ul class="grid sm:grid-cols-2 gap-x-6 gap-y-3">${sinFecha.map(e => `<li>${fila(e)}${e.cuando ? `<p class="text-stone-500 text-xs mt-0.5">${esc(e.cuando)}</p>` : ''}</li>`).join('')}</ul>
+            </div>` : '';
+        if (!dias && !resto) return `<p class="text-stone-400 text-sm">Este mes no hay eventos anunciados con fecha para estas compañías.</p>`;
+        return `<ul class="divide-y divide-stone-800">${dias}</ul>${resto}`;
+    }
+
     window.renderBiotech = function () {
         const cont = document.getElementById('bio-empresas');
         initPopover();
@@ -590,6 +633,13 @@
                 if (d.panorama.actualizado) document.getElementById('bio-panorama-fecha').textContent = 'Datos al ' + d.panorama.actualizado;
                 document.getElementById('bio-panorama-wrap').classList.remove('hidden');
                 prepararPdfPanorama(d.panorama);
+            }
+            const cw = document.getElementById('bio-calendario-wrap');
+            if (cw && d.calendario) {
+                document.getElementById('bio-calendario').innerHTML = calendarioBiotech(d.calendario);
+                const t = document.getElementById('bio-calendario-mes'); if (t && d.calendario.mes_texto) t.textContent = d.calendario.mes_texto;
+                const f = document.getElementById('bio-calendario-fecha'); if (f && d.calendario.actualizado) f.textContent = 'Datos al ' + d.calendario.actualizado;
+                cw.classList.remove('hidden');
             }
             const cias = d.companias || [];
             cont.innerHTML = cias.length ? cias.map(fichaBiotech).join('') : vacio('Aún no hay fichas de compañías.');
