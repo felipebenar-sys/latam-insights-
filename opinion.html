@@ -126,11 +126,17 @@
 
     <!-- ENTRADA 002 -->
     <section class="pb-12 px-4 sm:px-6 max-w-6xl mx-auto">
-        <article id="entrada-002" class="border-t border-stone-800 pt-8 max-w-3xl">
+        <article id="entrada-002" class="border-t border-stone-800 pt-8 max-w-3xl scroll-mt-28">
             <p class="text-amber-400 text-xs font-bold uppercase tracking-wider mb-3">Diario de un no CFA · Entrada 002</p>
             <h2 class="serif text-3xl sm:text-4xl font-bold text-white leading-tight mb-3">¿Cuánto cuesta empezar a preparar el CFA Nivel I desde Colombia?</h2>
             <p class="text-lg text-stone-300 mb-4">Las herramientas que considero necesarias, cuánto cuestan y cómo pienso usarlas, separando lo indispensable de lo que puede esperar.</p>
             <p class="text-stone-500 text-sm mb-8">Por <span class="text-stone-300 font-semibold">@DiarioDeUnNoCFA</span> · 3 nov 2026</p>
+<details class="group" data-entrada>
+                <summary class="list-none cursor-pointer select-none inline-flex items-center gap-2 text-sm font-semibold text-amber-400 hover:text-amber-300 [&::-webkit-details-marker]:hidden">
+                    <span class="group-open:hidden">Leer entrada completa</span><span class="hidden group-open:inline">Contraer entrada</span>
+                    <svg viewBox="0 0 20 20" class="w-4 h-4 fill-current transition group-open:rotate-180" aria-hidden="true"><path d="M5.3 7.3a1 1 0 0 1 1.4 0L10 10.6l3.3-3.3a1 1 0 1 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 0-1.4z"/></svg>
+                </summary>
+                <div class="mt-6">
             <div class="space-y-5 text-stone-300 text-base sm:text-[1.0625rem] leading-relaxed">
                 <p>Cuando empecé a investigar cómo prepararme para el CFA Nivel I, una de las primeras preguntas que me hice fue qué herramientas necesitaba comprar y cuánto dinero debía presupuestar.</p>
                 <p>Es fácil encontrar recomendaciones de libros, cursos, calculadoras y plataformas. Pero, si estás pagando tu preparación con tu propio dinero, creo que tiene sentido distinguir entre lo indispensable y lo que puedes dejar para más adelante.</p>
@@ -233,16 +239,25 @@
                 <p class="text-stone-400 italic mt-1">Todavía no tengo la designación. Estoy comenzando el camino y quiero documentarlo, un concepto a la vez.</p>
             </div>
             <p class="text-stone-500 text-xs mt-8">Esta entrada expresa la opinión de su autor y no es una recomendación de inversión.</p>
+                <button type="button" data-contraer class="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-amber-400 hover:text-amber-300">Contraer entrada <span aria-hidden="true">↑</span></button>
+                </div>
+            </details>
         </article>
     </section>
 
     <!-- ENTRADA 001 -->
     <section class="pb-12 px-4 sm:px-6 max-w-6xl mx-auto">
-        <article id="entrada-001" class="border-t border-stone-800 pt-8 max-w-3xl">
+        <article id="entrada-001" class="border-t border-stone-800 pt-8 max-w-3xl scroll-mt-28">
             <p class="text-amber-400 text-xs font-bold uppercase tracking-wider mb-3">Diario de un no CFA · Entrada 001</p>
             <h2 class="serif text-3xl sm:text-4xl font-bold text-white leading-tight mb-3">¿Por qué decidí estudiar el CFA?</h2>
             <p class="text-lg text-stone-300 mb-4">Mi carrera, mis objetivos y por qué considero que esta es la mejor inversión para mi futuro profesional.</p>
             <p class="text-stone-500 text-sm mb-8">Por <span class="text-stone-300 font-semibold">@DiarioDeUnNoCFA</span> · 21 oct 2026</p>
+<details class="group" data-entrada>
+                <summary class="list-none cursor-pointer select-none inline-flex items-center gap-2 text-sm font-semibold text-amber-400 hover:text-amber-300 [&::-webkit-details-marker]:hidden">
+                    <span class="group-open:hidden">Leer entrada completa</span><span class="hidden group-open:inline">Contraer entrada</span>
+                    <svg viewBox="0 0 20 20" class="w-4 h-4 fill-current transition group-open:rotate-180" aria-hidden="true"><path d="M5.3 7.3a1 1 0 0 1 1.4 0L10 10.6l3.3-3.3a1 1 0 1 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 0-1.4z"/></svg>
+                </summary>
+                <div class="mt-6">
             <div class="space-y-5 text-stone-300 text-base sm:text-[1.0625rem] leading-relaxed">
                 <p>Hace unos días me senté a pensar en mi carrera y en lo que quiero lograr durante los próximos diez años.</p>
                 <p>A mis 27 años, como les sucede a muchas personas en esta etapa de su vida profesional, he empezado a considerar qué decisiones pueden ayudarme a crecer, desarrollar nuevas habilidades y acercarme a mis objetivos.</p>
@@ -312,6 +327,9 @@
                 <p class="text-stone-400 italic mt-1">Todavía no tengo la designación. Estoy comenzando el camino y quiero documentarlo, un concepto a la vez.</p>
             </div>
             <p class="text-stone-500 text-xs mt-8">Esta entrada expresa la opinión de su autor y no es una recomendación de inversión.</p>
+                <button type="button" data-contraer class="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-amber-400 hover:text-amber-300">Contraer entrada <span aria-hidden="true">↑</span></button>
+                </div>
+            </details>
         </article>
     </section>
 
@@ -336,6 +354,18 @@
     <script src="assets/notas.js?v=20261030c"></script>
     <script>initMenu();</script>
     <script>renderBarra();</script>
+    <script>
+        (function () {
+            const abrir = id => { const a = document.getElementById(id); const d = a && a.querySelector('[data-entrada]'); if (d) d.open = true; };
+            if (location.hash) abrir(location.hash.slice(1));
+            addEventListener('hashchange', () => abrir(location.hash.slice(1)));
+            document.addEventListener('click', e => {
+                const b = e.target.closest('[data-contraer]'); if (!b) return;
+                const d = b.closest('[data-entrada]'); d.open = false;
+                d.closest('article').scrollIntoView({ behavior: 'smooth', block: 'start' });
+            });
+        })();
+    </script>
 
 </body>
 </html>
