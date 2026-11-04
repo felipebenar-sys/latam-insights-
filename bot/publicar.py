@@ -23,6 +23,12 @@ Uso:
       ARCHIVO contiene solo los indicadores que cambian (trm, brent, colcap,
       tasa_banrep, inflacion). Reemplaza esos bloques y pone la fecha de hoy.
 
+  python3 bot/publicar.py archivar
+      Pasa al archivo mensual (data/archivo/AAAA-MM.json) las notas de ediciones
+      anteriores a hoy. Solo se guardan las de relevancia 8 o más y las de solo
+      hechos (biotecnología e informe de la deuda); las demás se descartan, pero
+      su URL queda registrada para no repetirlas. "agregar hoy" lo hace solo.
+
   python3 bot/publicar.py validar
       Revisa los JSON de data/ y que todos los términos usados estén en el glosario.
 """
@@ -92,10 +98,76 @@ def terminos_glosario():
     return {t["termino"] for t in cargar("glosario.json")["terminos"]}
 
 
+ARCHIVO_DIR = os.path.join(DATA, "archivo")
+UMBRAL_ARCHIVO = 8
+
+
+def meses_archivo():
+    if not os.path.isdir(ARCHIVO_DIR):
+        return []
+    return sorted((f[:-5] for f in os.listdir(ARCHIVO_DIR) if len(f) == 12 and f.endswith(".json")), reverse=True)
+
+
+def cargar_mes(mes):
+    ruta = os.path.join(ARCHIVO_DIR, mes + ".json")
+    if not os.path.exists(ruta):
+        return {"mes": mes, "notas": [], "urls": []}
+    with open(ruta, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def guardar_mes(d):
+    os.makedirs(ARCHIVO_DIR, exist_ok=True)
+    with open(os.path.join(ARCHIVO_DIR, d["mes"] + ".json"), "w", encoding="utf-8") as f:
+        json.dump(d, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+
+
+def se_archiva(n):
+    if n.get("formato") in ("informe", "hechos"):
+        return True
+    return ((n.get("puntaje") or {}).get("total") or 0) >= UMBRAL_ARCHIVO
+
+
+def archivar(silencioso=False):
+    """Deja en notas.json solo la edición de hoy; lo anterior va al archivo del mes."""
+    hoy = ahora()[0]
+    datos = cargar("notas.json")
+    viejas = [n for n in datos["notas"] if n.get("fecha") != hoy]
+    if not viejas:
+        if not silencioso:
+            print("Nada que archivar: notas.json solo tiene la edición de hoy.")
+        return
+    por_mes = {}
+    for n in viejas:
+        por_mes.setdefault(n["fecha"][:7], []).append(n)
+    resumen = []
+    for mes, notas in sorted(por_mes.items()):
+        d = cargar_mes(mes)
+        ids = {x["id"] for x in d["notas"]}
+        guardadas = [n for n in notas if se_archiva(n) and n["id"] not in ids]
+        d["notas"] = sorted(d["notas"] + guardadas, key=lambda x: (x["fecha"], x["id"]), reverse=True)
+        d["urls"] = sorted(set(d.get("urls", [])) | {n.get("url") for n in notas if n.get("url")})
+        guardar_mes(d)
+        resumen.append(f"{mes}: {len(guardadas)} guardadas, {len(notas) - len(guardadas)} descartadas")
+    datos["notas"] = [n for n in datos["notas"] if n.get("fecha") == hoy]
+    guardar("notas.json", datos)
+    indice = []
+    for mes in meses_archivo():
+        d = cargar_mes(mes)
+        indice.append({"mes": mes, "notas": len(d["notas"]), "ediciones": len({n["fecha"] for n in d["notas"]})})
+    with open(os.path.join(ARCHIVO_DIR, "indice.json"), "w", encoding="utf-8") as f:
+        json.dump({"meses": indice}, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+    print("Archivo mensual actualizado: " + "; ".join(resumen))
+
+
 def todas_las_urls():
     urls = set()
     for nombre in ARCHIVOS.values():
         urls |= {n.get("url") for n in cargar(nombre)["notas"]}
+    for mes in meses_archivo():
+        urls |= set(cargar_mes(mes).get("urls", []))
     return urls
 
 
@@ -111,6 +183,12 @@ def estado():
     with open("/tmp/stag_urls.txt", "w", encoding="utf-8") as f:
         f.write("\n".join(urls) + "\n")
     print(f"URL ya publicadas: {len(urls)} (lista en /tmp/stag_urls.txt)")
+    deuda = [n for n in cargar("notas.json")["notas"] if n.get("categoria") == "deuda"]
+    for mes in meses_archivo():
+        deuda += [n for n in cargar_mes(mes)["notas"] if n.get("categoria") == "deuda"]
+    if deuda:
+        u = max(deuda, key=lambda n: n["fecha"])
+        print(f"Último informe de la deuda: {u['fecha']} (corte {u.get('fecha_noticia')}): " + "; ".join(f"{d['etiqueta']} {d['valor']}" for d in u.get("datos", [])))
     print("Indicadores actuales:")
     print(json.dumps(cargar("mercado.json"), ensure_ascii=False))
     print("Términos del glosario:")
@@ -217,6 +295,7 @@ def agregar(seccion, ruta):
     with open(ruta, encoding="utf-8") as f:
         nuevo = json.load(f)
     nuevas = nuevo.get("notas", [])
+    archivar(silencioso=True)  # la edición de ayer pasa al archivo del mes antes de publicar la de hoy
     datos = cargar(ARCHIVOS[seccion])
     glosario = terminos_glosario()
     urls = todas_las_urls()
@@ -286,6 +365,9 @@ def validar():
         d = cargar(nombre)
         for n in d.get("notas", []):
             faltan |= {t for t in n.get("terminos", []) if t not in glos}
+    for mes in meses_archivo():
+        for n in cargar_mes(mes)["notas"]:
+            faltan |= {t for t in n.get("terminos", []) if t not in glos}
     if faltan:
         print("Términos usados que no están en el glosario:", sorted(faltan))
         sys.exit(1)
@@ -302,6 +384,8 @@ if __name__ == "__main__":
         glosario(a[1])
     elif a[:1] == ["mercado"] and len(a) == 2:
         mercado(a[1])
+    elif a[:1] == ["archivar"]:
+        archivar()
     elif a[:1] == ["validar"]:
         validar()
     else:

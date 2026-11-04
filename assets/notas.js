@@ -1,5 +1,5 @@
 // Renderizado de notas Hoy — compartido por index.html y yentonces.html
-// Datos: data/notas.json (esquema en bot/INSTRUCCIONES.md)
+// Datos: data/notas.json (solo la edición del día) y data/archivo/AAAA-MM.json (ediciones anteriores); esquema en bot/INSTRUCCIONES.md
 (function () {
     // Skeleton loaders: cuando un contenedor recibe su contenido real, deja de estar "ocupado" para lectores de pantalla
     document.querySelectorAll('[aria-busy="true"]').forEach(el => {
@@ -414,6 +414,50 @@
         }).catch(() => { cont.innerHTML = vacio('No pudimos cargar las notas en este momento.'); });
     };
 
+    // Ediciones anteriores: un archivo por mes (data/archivo/AAAA-MM.json) con las notas de relevancia 8 o más
+    // y las de solo hechos. Cada mes se descarga solo cuando el lector lo abre.
+    const MESES_NOM = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
+    const nombreMes = m => { const [y, mm] = m.split('-').map(Number); return `${MESES_NOM[mm - 1]} ${y}`; };
+    function renderArchivo() {
+        const wrap = document.getElementById('archivo-wrap'), cont = document.getElementById('archivo');
+        if (!wrap || !cont) return;
+        fetch('data/archivo/indice.json', { cache: 'no-store' }).then(r => r.ok ? r.json() : { meses: [] }).catch(() => ({ meses: [] })).then(ix => {
+            const meses = (ix.meses || []).filter(m => m.notas > 0);
+            if (!meses.length) return;
+            wrap.classList.remove('hidden');
+            cont.innerHTML = `<p class="text-stone-500 text-sm -mt-3">Se guardan las notas de relevancia 8 o más y las de solo hechos.</p>` + meses.map(m => `
+                <details class="group/mes border border-stone-800 rounded-xl" data-mes="${esc(m.mes)}">
+                    <summary class="list-none cursor-pointer select-none flex items-center justify-between gap-3 px-5 py-4 hover:bg-stone-900/40 rounded-xl [&::-webkit-details-marker]:hidden">
+                        <span class="text-stone-200 font-semibold capitalize">${nombreMes(m.mes)}</span>
+                        <span class="text-stone-500 text-sm">${m.notas} notas · ${m.ediciones} ediciones</span>
+                    </summary>
+                    <div class="px-5 pb-5 space-y-6" data-mes-cont><p class="text-stone-500 text-sm">Cargando…</p></div>
+                </details>`).join('');
+            cont.querySelectorAll('[data-mes]').forEach(d => d.addEventListener('toggle', () => {
+                if (!d.open || d.dataset.cargado) return;
+                d.dataset.cargado = '1';
+                const box = d.querySelector('[data-mes-cont]');
+                fetch(`data/archivo/${d.dataset.mes}.json`, { cache: 'no-store' }).then(r => r.json()).then(dm => {
+                    const { porFecha, fechas } = agrupar(dm.notas || []);
+                    box.innerHTML = fechas.map(f => `
+                        <div>
+                            <p class="text-stone-400 text-sm font-semibold capitalize mb-3 pt-2">${fmtFecha(f)}</p>
+                            <div class="space-y-6">${porFecha[f].map(n => notaCompleta(n)).join('')}</div>
+                        </div>`).join('');
+                    (dm.notas || []).forEach(n => marcarTerminos(document.getElementById(n.id), n));
+                    const h = decodeURIComponent(location.hash.slice(1));
+                    if (h && h.startsWith(d.dataset.mes) && document.getElementById(h)) irANota(h);
+                }).catch(() => { box.innerHTML = vacio('No pudimos cargar este mes.'); });
+            }));
+            // Enlace compartido a una nota de una edición anterior: abre su mes y va a la nota
+            const h = decodeURIComponent(location.hash.slice(1));
+            if (/^\d{4}-\d{2}-\d{2}-/.test(h) && !document.getElementById(h)) {
+                const d = cont.querySelector(`[data-mes="${h.slice(0, 7)}"]`);
+                if (d) d.open = true;
+            }
+        });
+    }
+
     // Página Hoy: resumen del día, filtros, edición más reciente y archivo
     window.renderPagina = function () {
         const hoy = document.getElementById('notas-hoy');
@@ -430,16 +474,7 @@
             hoy.innerHTML = ed.map(notaCompleta).join('') + `<div id="filtros-vacio" class="hidden">${vacio('Ninguna nota de hoy coincide con ese filtro.')}</div>`;
             ed.forEach(n => marcarTerminos(document.getElementById(n.id), n));
             initFiltros(hoy, ed);
-            const resto = fechas.slice(1);
-            if (resto.length) {
-                document.getElementById('archivo-wrap').classList.remove('hidden');
-                document.getElementById('archivo').innerHTML = resto.map(f => `
-                    <details class="group/ed">
-                        <summary class="cursor-pointer text-stone-300 font-semibold capitalize hover:text-amber-400">${fmtFecha(f)} · ${porFecha[f].length} notas</summary>
-                        <div class="space-y-6 mt-4">${porFecha[f].map(notaCompleta).join('')}</div>
-                    </details>`).join('');
-                resto.forEach(f => porFecha[f].forEach(n => marcarTerminos(document.getElementById(n.id), n)));
-            }
+            renderArchivo();
             document.addEventListener('click', e => {
                 const a = e.target.closest('[data-ir]'); if (!a) return;
                 e.preventDefault(); history.replaceState(null, '', '#' + a.dataset.ir); irANota(a.dataset.ir);

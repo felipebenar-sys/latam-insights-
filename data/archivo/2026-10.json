@@ -1,0 +1,2404 @@
+{
+  "mes": "2026-10",
+  "notas": [
+    {
+      "id": "2026-10-31-04",
+      "fecha": "2026-10-31",
+      "categoria": "commodities",
+      "puntaje": {
+        "total": 8,
+        "alcance": 2,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "El Brent cierra en US$117,64, su nivel más alto desde mayo, por ataques en Ormuz",
+      "resumen": "El petróleo Brent subió 2,4 % el 30 de octubre y cerró en US$117,64 por barril, su mayor cierre desde comienzos de mayo. El WTI subió 2,08 %, a US$104,12.",
+      "contexto": "Ambas referencias ganaron más de 13 % en octubre y suman cuatro meses seguidos de alzas. El viernes un buque petrolero fue atacado con explosivos en el estrecho de Ormuz, según la agencia marítima británica UKMTO, y la marina de Irán reportó incidentes con otros cinco tanqueros. También pesaron la reanudación de los ataques de Ucrania con drones contra refinerías rusas y el temor a una escalada entre EE. UU. e Irán.",
+      "afectados": [
+        "Ecopetrol",
+        "Petróleo",
+        "Peso colombiano",
+        "Finanzas públicas"
+      ],
+      "peso_alcista": 60,
+      "alcista": "Colombia exporta petróleo, así que un Brent más alto aumenta los ingresos por exportaciones y las utilidades de las petroleras listadas, como Ecopetrol. Más dólares entrando al país pueden apoyar al peso colombiano. Para el Gobierno, precios altos del crudo suelen traducirse en más dividendos de Ecopetrol y más regalías, un alivio para las finanzas públicas.",
+      "bajista": "El alza se explica por ataques y riesgo de guerra, lo que eleva la aversión al riesgo global y suele perjudicar a los mercados emergentes. Un petróleo caro encarece el transporte y los combustibles, lo que puede presionar la inflación en un momento en que el Banco de la República acaba de pausar sus alzas. Si la tensión se disipa, el precio podría devolver parte de la subida con rapidez.",
+      "impacto": {
+        "conclusion": "Pesa un poco más la lectura alcista para el mercado colombiano, porque el país y su mayor emisor se benefician directamente de un crudo más caro. Pero el origen del alza es un conflicto, con riesgo de volatilidad y de presión sobre la inflación, así que el efecto es moderado. Las acciones petroleras y el peso son los activos más expuestos.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "positivo",
+            "detalle": "Un Brent más alto mejora las perspectivas de ingresos de Ecopetrol y otras empresas del sector."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "Más exportaciones petroleras pueden apoyar al peso, pero la aversión al riesgo por el conflicto puede jugar en contra."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La evolución de los ataques en el estrecho de Ormuz y si el Brent sostiene niveles por encima de US$115 la próxima semana.",
+      "terminos": [
+        "Brent",
+        "WTI",
+        "Estrecho de Ormuz"
+      ],
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/america/mundo/2026/10/30/el-petroleo-suma-cuatro-meses-de-alzas-y-alcanzo-su-mayor-cierre-desde-mayo/"
+    },
+    {
+      "id": "2026-10-31-01",
+      "fecha": "2026-10-31",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 10,
+        "alcance": 4,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Banco de la República deja la tasa en 12,25 % tras una votación de 4 contra 3",
+      "resumen": "La junta del Banco de la República mantuvo su tasa de interés en 12,25 % el 30 de octubre. Cuatro miembros votaron por dejarla igual y tres por subirla 25 puntos básicos.",
+      "contexto": "La tasa empezó 2026 en 9,25 % y en la reunión anterior había subido 25 puntos básicos. La mayoría de analistas consultados por Citi (13 de 21) esperaba un nuevo aumento a 12,50 %. La inflación anual de septiembre quedó en 6,3 %, algo por debajo de lo esperado, y la inflación básica bajó de 6,1 % a 6,0 %; la junta citó el fenómeno de El Niño como riesgo al alza para los alimentos y los precios regulados, y señales de desaceleración de la economía. Según La República, la junta también autorizó comprarle al Gobierno US$2.000 millones como complemento de su programa de acumulación de reservas.",
+      "afectados": [
+        "TES",
+        "CDT",
+        "Bancos",
+        "Peso colombiano",
+        "Acciones colombianas"
+      ],
+      "peso_alcista": 60,
+      "alcista": "La pausa sorprende a la mayoría del mercado, que esperaba otra subida, y alivia la presión sobre el costo del crédito. Para las empresas listadas y los bancos, tasas estables reducen el riesgo de un mayor deterioro de la cartera y del consumo. Para los TES, una tasa que deja de subir suele favorecer sus precios, sobre todo si la inflación básica sigue bajando como en septiembre. La compra de dólares al Gobierno fortalece las reservas internacionales sin presionar el mercado cambiario.",
+      "bajista": "La votación dividida muestra que tres miembros veían necesaria otra subida, así que el ciclo podría no haber terminado. Las expectativas de inflación para el cierre de 2026 subieron y El Niño puede encarecer alimentos en los próximos meses, lo que podría obligar a nuevas alzas. Una tasa más baja que la esperada reduce el atractivo de los activos en pesos frente al dólar, lo que puede presionar la tasa de cambio. Además, la junta pidió estudiar con rigor el proyecto fiscal del Gobierno, un recordatorio de que las finanzas públicas siguen siendo un riesgo.",
+      "impacto": {
+        "conclusion": "Pesa un poco más la lectura alcista: la pausa fue una sorpresa para la mayoría de analistas y la inflación básica viene bajando, lo que alivia a la renta fija y a las acciones. Pero el margen de 4 contra 3 y el riesgo de El Niño dejan abierta la puerta a nuevas subidas, así que el alivio es moderado. Para quien ahorra en CDT, las tasas altas se mantienen, aunque se aleja la posibilidad de rendimientos aún mayores.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "positivo",
+            "detalle": "Una tasa estable reduce la presión sobre el crédito, el consumo y la cartera de los bancos."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "positivo",
+            "detalle": "Si las tasas dejan de subir, los precios de los TES ya en el portafolio tienden a sostenerse o mejorar."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "Una tasa menor a la esperada puede restar atractivo al peso, aunque la compra de dólares al Gobierno no pasa por el mercado."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "mixto",
+            "detalle": "Las tasas de los CDT siguen altas, pero se aleja una nueva subida que las habría impulsado más."
+          }
+        ]
+      },
+      "mirar": "El dato de inflación de octubre del DANE y la próxima reunión de la junta, que dirán si la pausa se sostiene.",
+      "terminos": [
+        "Tasa de política monetaria",
+        "Puntos básicos",
+        "Inflación básica",
+        "Expectativas de inflación",
+        "Fenómeno de El Niño"
+      ],
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/colombia/2026/10/30/banco-de-la-republica-mantuvo-la-tasa-de-interes-en-1225-por-decision-mayoritaria/"
+    },
+    {
+      "id": "2026-10-30-02",
+      "fecha": "2026-10-30",
+      "categoria": "politica",
+      "puntaje": {
+        "total": 8,
+        "alcance": 3,
+        "materialidad": 3,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "Ley de Rescate: metas fiscales fijas por cuatro años y topes al gasto si la deuda se desborda",
+      "resumen": "El proyecto de Ley de Rescate Económico, radicado por el Gobierno, reforma la regla fiscal: cada gobierno deberá fijar al inicio de su mandato metas mínimas de balance primario estructural para sus cuatro años, que no podrá cambiar después, y se activarán topes al gasto si la deuda supera los límites.",
+      "contexto": "La regla fiscal rige desde 2012 y solo se modificó en 2021, cuando adoptó un ancla de deuda de 55% del PIB y un límite de 71%; el proyecto mantiene ambos. Si la deuda neta pasa el límite, el gasto de personal solo podría crecer la inflación más 0,5 puntos y el Gobierno tendría que presentar medidas para corregirla antes de terminar el año siguiente; según Anif, las compras públicas solo crecerían con la inflación y habría recortes automáticos si la deuda neta supera 63% del PIB. El Comité Autónomo de la Regla Fiscal pasaría a siete miembros, cinco de ellos expertos independientes, y habría una cláusula de escape para choques imprevistos. Según datos de Corficolombiana citados en el artículo, el ajuste que busca el proyecto equivale a cerca del doble del promedio de las reformas tributarias desde 1990 (1,2% del PIB).",
+      "afectados": [
+        "TES",
+        "Finanzas públicas",
+        "Peso colombiano",
+        "Prima de riesgo país"
+      ],
+      "peso_alcista": 60,
+      "alcista": "Metas de cuatro años que no se pueden cambiar y topes automáticos al gasto le dan más credibilidad a la política fiscal. Si el mercado percibe que la deuda dejará de crecer, la prima de riesgo país podría bajar y las tasas de los TES ceder, lo que sube el precio de los bonos que ya están en los portafolios. Un comité fiscal con mayoría de expertos independientes refuerza la vigilancia sobre el cumplimiento. Menor riesgo país también suele atraer capital extranjero y apoyar al peso.",
+      "bajista": "Es un proyecto y aún debe pasar por el Congreso, donde puede cambiar o hundirse. Un ajuste del doble del tamaño de las reformas habituales implica más impuestos o menos gasto, lo que podría frenar el consumo y las utilidades de las empresas. La cláusula de escape abre la puerta a desvíos temporales que reducirían la disciplina prometida. Si el trámite se enreda, la incertidumbre podría mantener altas las tasas de los TES.",
+      "impacto": {
+        "conclusion": "Pesa algo más la lectura alcista: las nuevas reglas apuntan a frenar el crecimiento de la deuda, que es una de las principales fuentes de presión sobre las tasas en Colombia. Para quien invierte, el efecto más directo estaría en los TES, cuyas tasas podrían bajar si el proyecto avanza sin grandes cambios. El efecto depende del trámite en el Congreso, por lo que por ahora es una expectativa y no un hecho.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "mixto",
+            "detalle": "Menor riesgo país favorece a las acciones, pero un ajuste fiscal grande podría frenar el consumo y las utilidades."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "positivo",
+            "detalle": "Una regla fiscal más creíble podría bajar las tasas de los TES y subir su precio."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "negativo",
+            "detalle": "Si baja el riesgo país, el peso podría fortalecerse y restar valor en pesos a lo invertido en dólares."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "El inicio del trámite del proyecto en las comisiones económicas del Congreso y la reacción de las tasas de los TES.",
+      "terminos": [
+        "Regla fiscal",
+        "Balance primario estructural",
+        "Comité Autónomo de la Regla Fiscal (CARF)",
+        "Cláusula de escape",
+        "TES"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/ley-de-rescate-modificaria-regla-fiscal-y-pondria-techo-al-gasto-si-la-deuda-supera-63-del-pib-4514413"
+    },
+    {
+      "id": "2026-10-30-01",
+      "fecha": "2026-10-30",
+      "categoria": "internacional",
+      "puntaje": {
+        "total": 9,
+        "alcance": 4,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "La inflación PCE de EE. UU. sube 0,5% en septiembre y crecen las apuestas de alza de la Fed",
+      "resumen": "El índice de precios PCE de Estados Unidos subió 0,5% en septiembre y 3,6% en doce meses, y la herramienta FedWatch mostraba cerca de 85% de probabilidad de que la Reserva Federal suba su tasa en diciembre.",
+      "contexto": "El dato llegó un día después de que la Reserva Federal mantuviera su tasa entre 3,75% y 4% anual, con dos votos a favor de subirla. El bono del Tesoro de EE. UU. a 10 años rondaba el 5%. La presión de las tasas estadounidenses llevó los rendimientos de los bonos de Brasil a sus niveles más altos desde el lunes 26 de octubre.",
+      "afectados": [
+        "Reserva Federal",
+        "Bonos del Tesoro de EE. UU.",
+        "Peso colombiano",
+        "TES"
+      ],
+      "peso_alcista": 35,
+      "alcista": "Una economía estadounidense con precios firmes también refleja demanda fuerte, que puede sostener las exportaciones de la región. Para quien tiene ahorros en dólares, tasas altas en EE. UU. suelen fortalecer esa moneda frente al peso. Los CDT en pesos podrían ofrecer tasas más altas si el Banco de la República se ve obligado a mantener una política restrictiva. Si la Fed sube en diciembre y la inflación cede, el ciclo podría cerrarse antes.",
+      "bajista": "Una inflación de 3,6% en EE. UU. aleja cualquier recorte de la Fed y acerca una subida. Bonos del Tesoro cerca de 5% compiten con los bonos de países emergentes y presionan al alza las tasas de los TES, lo que baja su precio. El capital tiende a salir de mercados como Colombia, lo que debilita al peso y a las acciones locales. Además, limita el margen del Banco de la República para bajar tasas.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista: inflación alta en EE. UU. y la probabilidad de una nueva alza de la Fed endurecen las condiciones financieras para Colombia. Para quien invierte, esto suele traducirse en TES más baratos y un dólar más fuerte frente al peso. Los CDT y el ahorro en pesos salen favorecidos por un entorno de tasas altas por más tiempo.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Tasas altas en EE. UU. suelen provocar salida de capital de las bolsas emergentes."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "El Tesoro cerca de 5% presiona al alza las tasas de los TES y baja su precio."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "positivo",
+            "detalle": "Un dólar más fuerte frente al peso sube el valor en pesos de lo invertido en dólares."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "positivo",
+            "detalle": "Un entorno de tasas altas por más tiempo sostiene los rendimientos de los CDT."
+          }
+        ]
+      },
+      "mirar": "La reunión de la Reserva Federal de diciembre y el próximo dato de inflación de EE. UU.",
+      "terminos": [
+        "Índice PCE",
+        "Reserva Federal",
+        "Bonos del Tesoro de EE. UU.",
+        "TES"
+      ],
+      "fuente": "InfoMoney",
+      "url": "https://infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-29102026"
+    },
+    {
+      "id": "2026-10-29-02",
+      "fecha": "2026-10-29",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 8,
+        "alcance": 4,
+        "materialidad": 2,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "Analistas esperan que el Banco de la República suba su tasa a 12,50% con votación 5 a 2",
+      "resumen": "La junta del Banco de la República decide este viernes 30 de octubre y la mayoría de analistas espera un alza de 0,25 puntos, de 12,25% a 12,50%. La encuesta de ANIF apunta a una votación dividida.",
+      "contexto": "En la encuesta de ANIF, 12 de 19 analistas esperan la subida, y el resultado más probable sería una votación 5 a 2. César Giraldo y Laura Moisá son los codirectores más mencionados como posibles disidentes si la tasa sube. Algunas proyecciones no descartan una tasa de 13% al cierre del año, con recortes desde el segundo semestre del próximo año. El gerente Leonardo Villar ha dicho que los recortes dependen de una baja real y sostenida de la inflación hacia la meta de 3%.",
+      "afectados": [
+        "Banco de la República",
+        "TES",
+        "Bancos",
+        "Peso colombiano"
+      ],
+      "peso_alcista": 35,
+      "alcista": "Un alza ya anticipada por el mercado no debería causar sorpresas grandes, y reforzaría la credibilidad del banco frente a la inflación. Si la inflación cede, eso abriría la puerta a los recortes que algunas proyecciones ubican desde el segundo semestre del próximo año. Para el ahorrador en pesos, tasas más altas mejoran el rendimiento de los CDT. Un banco central firme también puede ayudar a contener la presión sobre el peso.",
+      "bajista": "Una tasa más alta encarece el crédito para hogares y empresas y frena la actividad, en una economía que ya crece poco. Para las acciones colombianas, el costo del dinero más alto reduce el atractivo frente a la renta fija. Los TES que ya están en portafolio pierden precio si el mercado empieza a descontar una tasa de 13% al cierre del año. Una votación dividida también puede generar dudas sobre el rumbo de la política monetaria.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista para los activos de riesgo: el mercado se prepara para tasas más altas por más tiempo. Para quien invierte, el escenario favorece el ahorro en pesos y presiona las acciones y los TES que ya están en portafolio.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Tasas más altas encarecen el crédito y restan atractivo a las acciones frente a la renta fija."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "Si el mercado descuenta una tasa cercana a 13%, el precio de los TES en portafolio tiende a bajar."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "Tasas más altas pueden atraer capitales y apoyar al peso, pero el frente fiscal y externo sigue presionando."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "positivo",
+            "detalle": "Un alza de la tasa de referencia suele trasladarse a mejores tasas para los CDT."
+          }
+        ]
+      },
+      "mirar": "La decisión de la junta del Banco de la República del viernes 30 de octubre y el detalle de la votación.",
+      "terminos": [
+        "Tasa de política monetaria",
+        "Puntos básicos",
+        "Meta de inflación",
+        "TES"
+      ],
+      "fuente": "Valora Analitik",
+      "url": "https://www.valoraanalitik.com/anticipan-votacion-dividida-de-la-junta-del-banco-de-la-republica-por-las-tasas-de-interes-en-octubre-quienes-estaran-en-desacuerdo/"
+    },
+    {
+      "id": "2026-10-29-01",
+      "fecha": "2026-10-29",
+      "categoria": "internacional",
+      "puntaje": {
+        "total": 9,
+        "alcance": 3,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "La Fed deja su tasa entre 3,75% y 4%, con dos votos a favor de subirla",
+      "resumen": "La Reserva Federal mantuvo su tasa de referencia en el rango de 3,75% a 4%, como esperaba el mercado. La decisión fue 10 a 2: dos miembros pedían una subida inmediata de 0,25 puntos.",
+      "contexto": "En septiembre la Fed había subido su tasa por primera vez en tres años. Los votos disidentes fueron de la gobernadora Lisa Cook y de Beth Hammack, presidenta de la Fed de Cleveland, que querían un alza de 0,25 puntos porcentuales. El comité dijo que necesita más datos para seguir enfrentando el aumento de precios. La decisión llega pocos días antes de las elecciones de mitad de mandato en Estados Unidos, en las que la inflación es un tema central.",
+      "afectados": [
+        "Peso colombiano",
+        "TES",
+        "Bonos del Tesoro de EE. UU.",
+        "Banco de la República"
+      ],
+      "peso_alcista": 40,
+      "alcista": "Mantener la tasa evita, por ahora, un nuevo apretón del costo del dinero en Estados Unidos, lo que da algo de alivio a los mercados emergentes. Si la Fed no sube, la presión sobre las monedas de la región, incluido el peso colombiano, podría moderarse. Para la deuda colombiana, una pausa reduce el riesgo de que los inversionistas internacionales salgan en busca de mejores rendimientos en Estados Unidos. El dólar perdió algo de fuerza en el exterior después del anuncio.",
+      "bajista": "Dos de los doce votantes querían subir la tasa de inmediato, una señal de que la puerta a nuevas alzas sigue abierta. Con la inflación aún por encima de lo esperado en Estados Unidos, el escenario de tasas altas por más tiempo encarece el financiamiento de países como Colombia. Eso tiende a presionar al alza los rendimientos de los TES y a sostener un dólar caro frente al peso. Además, coincide con un Banco de la República que también se inclina por subir su tasa.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista: la pausa era la esperada, pero la división del comité deja abierta una nueva alza y mantiene caro el costo del dinero en el mundo. Para quien invierte desde Colombia, el entorno sigue siendo de tasas altas, con presión sobre la renta fija y soporte para el dólar.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "La posibilidad de nuevas alzas de la Fed presiona al alza los rendimientos de los TES, lo que baja su precio."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "positivo",
+            "detalle": "Tasas altas en Estados Unidos por más tiempo tienden a sostener el dólar frente al peso."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "positivo",
+            "detalle": "Un entorno global de tasas altas ayuda a mantener elevadas las tasas de los CDT en Colombia."
+          }
+        ]
+      },
+      "mirar": "La próxima reunión de la Fed en diciembre y los datos de inflación de Estados Unidos antes de esa fecha.",
+      "terminos": [
+        "Reserva Federal",
+        "Bonos del Tesoro de EE. UU.",
+        "TES"
+      ],
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/estados-unidos/2026/10/28/la-reserva-federal-de-estados-unidos-mantuvo-sin-cambios-la-tasa-de-interes-de-referencia/"
+    },
+    {
+      "id": "2026-10-27-02",
+      "fecha": "2026-10-27",
+      "categoria": "region",
+      "pais": "Brasil",
+      "puntaje": {
+        "total": 8,
+        "alcance": 2,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "La bolsa de Brasil cierra con caída de 13,88% y el real pierde 8,36% tras la victoria de Lula",
+      "resumen": "El Ibovespa cerró el lunes en 176.608 puntos, con su mayor caída diaria porcentual desde marzo de 2020, y el real terminó en 5,4066 por dólar. El Tesoro brasileño canceló las subastas de bonos previstas para el 27 y el 29 de octubre.",
+      "contexto": "Brasil es la mayor economía de la región y un mercado donde operan emisores colombianos como ISA y el Grupo Energía Bogotá, por lo que su riesgo se contagia a la región. El índice llegó a caer más de 16% durante la jornada y la negociación se suspendió media hora. El CDS a cinco años de Brasil subió a 151,67 puntos básicos desde 120,21 el viernes. Los analistas citados ponen el foco en la deuda pública, que supera 82% del PIB, y en la elección del nuevo ministro de Hacienda.",
+      "afectados": [
+        "Bovespa",
+        "Real brasileño",
+        "ISA",
+        "Grupo Energía Bogotá",
+        "Activos regionales"
+      ],
+      "peso_alcista": 30,
+      "alcista": "La caída fue menor al cierre que en los peores momentos del día, cuando el índice perdía más de 16% y el dólar superaba 5,60 reales. Parte del desplome borra el alza que siguió a la primera vuelta, por lo que los precios regresan a niveles previos a esa euforia. Si Lula da señales claras de disciplina fiscal, como la designación de un ministro de Hacienda creíble, los activos podrían recuperar parte de lo perdido. Precios más bajos también abren una base de comparación más baja para quien mire la región a mediano plazo.",
+      "bajista": "El salto del CDS y la cancelación de subastas del Tesoro muestran que el mercado exige más por financiar a Brasil y que el Gobierno evita emitir en medio de la volatilidad. Los analistas dudan de que la consolidación fiscal prometida baste para estabilizar una deuda que supera 82% del PIB. Flávio Bolsonaro no reconoció la derrota y anunció que impugnará el resultado, lo que agrega incertidumbre. Un real más débil reduce en pesos el valor de los ingresos que las empresas colombianas obtienen en Brasil.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista, porque el castigo al real, a la bolsa y al riesgo soberano fue amplio y las causas fiscales siguen abiertas. Para quien invierte desde Colombia, afecta sobre todo a los fondos y ETF con exposición a Brasil y a los emisores locales con negocios allí. La señal clave será la definición del equipo económico de Lula.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "ISA y el Grupo Energía Bogotá tienen negocios en Brasil, y un real más débil reduce en pesos el valor de esos ingresos."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "negativo",
+            "detalle": "Las inversiones en acciones, ETF o fondos brasileños perdieron valor por la caída de la bolsa y del real."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "El nombramiento del nuevo ministro de Hacienda de Brasil, que los analistas esperan en las próximas semanas.",
+      "terminos": [
+        "Bovespa",
+        "CDS (credit default swap)",
+        "Puntos básicos",
+        "Circuit breaker",
+        "Deuda pública"
+      ],
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/america/america-latina/2026/10/26/las-acciones-brasilenas-y-el-real-se-hundieron-tras-la-inesperada-reeleccion-de-lula-da-silva/"
+    },
+    {
+      "id": "2026-10-27-01",
+      "fecha": "2026-10-27",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 9,
+        "alcance": 3,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Colombia coloca US$5.200 millones en bonos externos con demanda de 3,1 veces lo ofrecido",
+      "resumen": "El Gobierno colocó US$5.200 millones en tres bonos globales en dólares con vencimientos en 2032, 2037 y 2056. Los inversionistas pidieron cerca de US$16.000 millones y las tasas finales quedaron entre 25 y 30 puntos básicos por debajo de las indicaciones iniciales.",
+      "contexto": "Es la primera emisión de deuda externa del Gobierno de Abelardo de la Espriella. El tramo a 2032 fue el más grande, con US$2.200 millones a un rendimiento de 7,05%; el de 2037 sumó US$2.000 millones a 7,65% y el de 2056, US$1.000 millones a 8,15%. La operación llega mientras el Gobierno prepara la Ley de Rescate para ajustar las finanzas públicas.",
+      "afectados": [
+        "Deuda pública",
+        "TES",
+        "Peso colombiano",
+        "Ministerio de Hacienda"
+      ],
+      "peso_alcista": 65,
+      "alcista": "Una demanda de más de tres veces el monto colocado muestra que los inversionistas internacionales siguen dispuestos a financiar a Colombia pese a las dudas fiscales. Que las tasas cerraran por debajo de las indicaciones iniciales reduce el costo de la deuda frente a lo que esperaba el mercado al abrir el libro. Con recursos en dólares asegurados, el Gobierno tiene menos presión para emitir TES en el mercado local, lo que puede aliviar sus tasas. La llegada de dólares también puede dar soporte al peso.",
+      "bajista": "Los rendimientos de 7% a 8,15% en dólares siguen siendo altos y reflejan una prima de riesgo país elevada. Más deuda externa aumenta el servicio de la deuda en los próximos años y la exposición de las finanzas públicas a la tasa de cambio. Si la Ley de Rescate no avanza en el Congreso, la buena acogida de esta emisión podría no repetirse. La colocación financia el déficit, pero no lo corrige.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura alcista, porque la alta demanda y la compresión de tasas frente a las indicaciones iniciales son señales concretas de acceso al financiamiento. Para quien invierte, reduce un foco de presión sobre los TES y el peso en el corto plazo. El riesgo de fondo sigue siendo fiscal y depende de lo que pase con el ajuste del gasto.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "positivo",
+            "detalle": "Un mejor acceso del país al financiamiento externo suele reducir la percepción de riesgo, lo que favorece a las acciones locales."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "positivo",
+            "detalle": "Si el Gobierno necesita emitir menos TES en el mercado local, sus tasas pueden bajar y su precio subir."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "negativo",
+            "detalle": "La monetización de los dólares recaudados puede fortalecer el peso y restar valor en pesos a los ahorros en dólares."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La radicación de la Ley de Rescate en el Congreso, que el Gobierno anunció para esta semana.",
+      "terminos": [
+        "Bono global",
+        "Puntos básicos",
+        "Prima de riesgo país",
+        "Servicio de la deuda",
+        "TES"
+      ],
+      "fuente": "Valora Analitik",
+      "url": "https://www.valoraanalitik.com/gobierno-de-la-espriella-coloco-us5-200-millones-en-sus-primeros-bonos-internacionales-con-alta-demanda/"
+    },
+    {
+      "id": "2026-10-26-04",
+      "fecha": "2026-10-26",
+      "categoria": "region",
+      "pais": "Brasil",
+      "puntaje": {
+        "total": 8,
+        "alcance": 2,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Lula gana la segunda vuelta en Brasil y los activos brasileños se preparan para fuertes caídas",
+      "resumen": "Lula da Silva obtuvo 51,8% frente a 48,2% de Flávio Bolsonaro, con casi todos los votos contados, y logró un cuarto mandato. Antes de la apertura, un ETF de acciones brasileñas en EE. UU. caía 27% y los futuros del real implicaban una depreciación de más de 10%.",
+      "contexto": "Un contrato de futuros del real en el CME lo ubicaba en 5,55 por dólar, y un ETF de Brasil en Japón cayó 15%, su peor día desde 2008. Los inversionistas dudan de que el nuevo gobierno reduzca el déficit, con una deuda pública por encima de 80% del PIB; en una encuesta de Citigroup a 73 inversionistas, la mayoría esperaba una caída del real de al menos 5%. La bolsa de Brasil detiene sus operaciones 30 minutos si el Ibovespa cae 10%. Brasil es la mayor economía de la región y allí tienen negocios emisores colombianos como Grupo Energía Bogotá.",
+      "afectados": [
+        "Real brasileño",
+        "Bolsa de Brasil",
+        "Fondos y ETF de la región",
+        "Grupo Energía Bogotá"
+      ],
+      "peso_alcista": 30,
+      "alcista": "Parte de la caída anticipada podría moderarse si el nuevo gobierno presenta pronto un plan fiscal creíble y un equipo económico que dé confianza. Un real más débil puede ayudar a los exportadores brasileños. Para quien tiene ahorros en dólares y quiere entrar a la región, los precios más bajos pueden abrir escenarios de valorización si la incertidumbre se disipa.",
+      "bajista": "Los indicadores previos a la apertura apuntan a una de las peores jornadas en años para la bolsa y la moneda de Brasil, con posibilidad de que se active el circuit breaker. Las dudas sobre el déficit y la deuda pueden mantener altas las tasas de interés y presionar los activos brasileños por más tiempo. Para quien invierte desde Colombia, los fondos y ETF de Brasil o de la región perderían valor en pesos, y el contagio puede alcanzar a emisores de la BVC con negocios en Brasil.",
+      "impacto": {
+        "conclusion": "Pesa claramente la lectura bajista, porque los futuros y los ETF que ya negociaban anticipan fuertes caídas del real y de la bolsa brasileña por las dudas fiscales. Para quien tiene fondos o ETF de Brasil o de la región, el golpe en pesos sería inmediato. En Colombia, el efecto llegaría sobre todo por contagio regional y por los emisores con negocios en Brasil.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "El contagio regional y la exposición a Brasil de emisores como Grupo Energía Bogotá pueden presionar a la bolsa colombiana."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "negativo",
+            "detalle": "Los fondos y ETF de Brasil y de la región perderían valor en pesos por la caída de las acciones y del real."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La apertura del Ibovespa y del real este lunes, si se activa el circuit breaker, y los anuncios sobre el equipo económico de Lula.",
+      "terminos": [
+        "ETF",
+        "Contrato de futuros",
+        "Circuit breaker",
+        "Deuda pública"
+      ],
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/america/america-latina/2026/10/26/los-mercados-brasilenos-se-preparan-para-fuertes-perdidas-tras-la-victoria-de-lula-va-a-ser-un-dia-dificil/"
+    },
+    {
+      "id": "2026-10-26-02",
+      "fecha": "2026-10-26",
+      "categoria": "sectores",
+      "puntaje": {
+        "total": 8,
+        "alcance": 3,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Por El Niño, embalses al 75,7% y generadoras entregan menos energía firme de la pactada",
+      "resumen": "El Gobierno informó que los embalses están en 75,7%-75,8%, que en octubre recibieron cerca de 40% menos agua de lo normal y que la meta es superar 80% al 30 de noviembre. Anunció medidas para asegurar la energía y pidió a la Superservicios investigar incumplimientos.",
+      "contexto": "Según el Presidente, las lluvias llevan seis meses por debajo de lo normal. En el cargo por confiabilidad, las obligaciones suman 118 GWh diarios, lo solicitado 95 GWh y lo reportado como generado 83 GWh por día; la meta solo se cumplió en uno de 42 días evaluados, y algunas empresas entregaron menos de 30% de lo comprometido. Entre las medidas están aplazar mantenimientos en Chivor y Guavio, flexibilizar la operación de Hidroituango, asegurar más gas para las térmicas y sumar nueva capacidad.",
+      "afectados": [
+        "Generadoras de energía",
+        "Distribuidoras de energía",
+        "Inflación",
+        "Gas natural"
+      ],
+      "peso_alcista": 35,
+      "alcista": "Las medidas buscan llegar con embalses por encima de 80% al inicio de la temporada seca, lo que reduciría el riesgo de racionamiento. Las generadoras con agua almacenada o con plantas térmicas que tengan gas pueden beneficiarse si el precio de la energía en bolsa sube. Una acción temprana del Gobierno también puede evitar decisiones más costosas más adelante.",
+      "bajista": "Los embalses recibieron mucha menos agua de lo normal y la energía firme entregada está por debajo de lo comprometido, lo que muestra un sistema más frágil frente a la sequía. Si el precio de la energía sube, los hogares y las empresas pagarían tarifas más altas, lo que presiona la inflación. Eso podría retrasar las bajas de tasas del Banco de la República y afectar a las distribuidoras que compran energía cara y a las empresas que incumplieron, que enfrentan investigaciones.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista, porque los datos del propio Gobierno muestran poca agua y un incumplimiento amplio de la energía firme, con riesgo de precios más altos. Para el portafolio, el efecto más claro es una posible presión adicional sobre la inflación, que mantendría las tasas altas por más tiempo. En acciones, el efecto depende de si la empresa genera o compra la energía.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "mixto",
+            "detalle": "Generadoras con agua o gas pueden ganar con precios altos, mientras distribuidoras y empresas que incumplieron enfrentan costos e investigaciones."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "Si la energía más cara empuja la inflación, las tasas de los TES podrían subir y su precio bajar."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "positivo",
+            "detalle": "Tasas altas por más tiempo mantendrían rendimientos atractivos para los CDT nuevos."
+          }
+        ]
+      },
+      "mirar": "El nivel de los embalses al 30 de noviembre frente a la meta de 80% y el resultado de las investigaciones de la Superservicios.",
+      "terminos": [
+        "Fenómeno de El Niño",
+        "Cargo por confiabilidad",
+        "Generación térmica",
+        "Precio de bolsa de energía"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/gobierno-de-la-espriella-presentara-la-ley-de-rescate-para-ajustar-las-finanzas-esta-semana-4510802"
+    },
+    {
+      "id": "2026-10-26-01",
+      "fecha": "2026-10-26",
+      "categoria": "politica",
+      "puntaje": {
+        "total": 8,
+        "alcance": 3,
+        "materialidad": 3,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "El Gobierno radicará esta semana la Ley de Rescate, que busca recortar 2,2% del PIB en 2027",
+      "resumen": "Según la información más reciente del Gobierno, el proyecto de Ley de Rescate Fiscal se presentaría esta semana. Su meta es reducir el gasto de 2027 en 2,2% del PIB, algo más de $40 billones.",
+      "contexto": "El Ministro de Hacienda, Miguel Gómez, planteó un ajuste en tres pasos: el Presupuesto de 2027, expedido por decreto por $634,9 billones; la Ley de Rescate, y el Plan Nacional de Desarrollo. Aparte, un proyecto con mensaje de urgencia trasladaría $1,2 billones al sector energético y sumaría $2,7 billones al presupuesto de 2026 para atender la emergencia del terremoto del 10 de agosto. Exministros y economistas consultados difieren sobre si el ajuste puede lograrse solo con recortes o si requiere también una reforma tributaria, por ejemplo con menos exenciones de IVA.",
+      "afectados": [
+        "TES",
+        "Peso colombiano",
+        "Presupuesto General de la Nación",
+        "Prima de riesgo país"
+      ],
+      "peso_alcista": 55,
+      "alcista": "Un recorte de gasto de esa magnitud, si se aprueba y se ejecuta, reduciría las necesidades de financiamiento del Gobierno y la presión sobre la deuda pública. Eso podría bajar la prima de riesgo país y las tasas de los TES, lo que valoriza los bonos que ya están en los portafolios. Un frente fiscal más ordenado también suele dar estabilidad al peso y abrir espacio para que el Banco de la República baje tasas más adelante.",
+      "bajista": "El proyecto todavía no tiene medidas detalladas y los analistas consultados dudan de que el ajuste pueda hacerse solo con recortes. Si el Congreso lo modifica o lo frena, o si termina dependiendo de nuevos impuestos, la incertidumbre fiscal seguiría pesando sobre los TES y el peso. Además, menos gasto público puede frenar una economía que ya muestra señales de desaceleración, lo que afectaría las ventas y utilidades de algunas empresas listadas.",
+      "impacto": {
+        "conclusion": "Pesa ligeramente más la lectura alcista, porque un compromiso explícito de recortar 2,2% del PIB va en la dirección que piden los mercados para reducir el riesgo fiscal. Sin embargo, es solo un anuncio: el efecto real dependerá de las medidas concretas y de su paso por el Congreso. Para quien tiene TES, es una señal de apoyo; para las acciones, el balance es mixto.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "mixto",
+            "detalle": "Menos riesgo fiscal favorece a la bolsa, pero un menor gasto público puede frenar la demanda y afectar a sectores que dependen del Estado."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "positivo",
+            "detalle": "Un ajuste creíble reduciría la emisión de deuda y podría bajar las tasas de los TES, lo que sube su precio."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "Menor riesgo fiscal tiende a fortalecer el peso y restar valor en pesos a los ahorros en dólares, pero la incertidumbre del trámite puede mantener la volatilidad."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La radicación del proyecto de Ley de Rescate en el Congreso esta semana y el detalle de sus medidas.",
+      "terminos": [
+        "Presupuesto General de la Nación",
+        "Prima de riesgo país",
+        "TES",
+        "Necesidades de financiamiento"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/comienza-la-carrera-por-la-ley-de-rescate-y-las-nuevas-adiciones-presupuestales-del-pgn-4510052"
+    },
+    {
+      "id": "2026-10-24-02",
+      "fecha": "2026-10-24",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 8,
+        "alcance": 2,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "El dólar cae $29 y cierra en $3.145; las tasas de los TES bajan en toda la curva",
+      "resumen": "El dólar cerró el viernes en $3.145 en Colombia, $29 menos que el jueves, y perforó el nivel de $3.150. Al mismo tiempo bajaron las tasas de los TES, con la referencia de 2036 en 12,922%.",
+      "contexto": "La divisa abrió en $3.172 y se movió entre $3.136 y $3.189, en una jornada marcada por una oferta constante de dólares. En el exterior, el índice DXY subió 0,21% y el Brent avanzó 3,04%, a US$116,61 por barril, por las tensiones en Medio Oriente. Los TES de 2033 pasaron de 13,033% a 12,920% y los de 2050 de 13,121% a 13,020%. La jornada coincidió con el anuncio del recorte de $13,8 billones al presupuesto.",
+      "afectados": [
+        "Peso colombiano",
+        "TES",
+        "Importadores",
+        "Exportadores"
+      ],
+      "peso_alcista": 60,
+      "alcista": "Un peso más fuerte abarata las importaciones y ayuda a moderar la inflación, que sigue lejos de la meta. La caída de las tasas de los TES en toda la curva valoriza los bonos que ya están en los portafolios. Si el ajuste fiscal gana credibilidad, el apetito por activos colombianos podría sostenerse. Un Brent alto también aporta más divisas por exportaciones petroleras.",
+      "bajista": "Para quien tiene ahorros o inversiones en dólares, la revaluación reduce su valor medido en pesos. Los exportadores no petroleros reciben menos pesos por cada dólar vendido. El movimiento depende en buena parte del petróleo y de la oferta de divisas, factores que pueden revertirse rápido. Además, las tasas de los TES siguen por encima de 12%, lo que refleja una prima de riesgo todavía alta.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura alcista para los activos en pesos: los TES se valorizaron y un dólar más bajo alivia la inflación importada. El efecto negativo se concentra en quien tiene ahorros o inversiones en dólares, que pierden valor en pesos.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "positivo",
+            "detalle": "Las tasas de los TES bajaron en toda la curva, lo que sube el precio de los bonos en el portafolio."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "negativo",
+            "detalle": "Con el dólar en $3.145, las inversiones en dólares o en el exterior valen menos en pesos."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La decisión de tasas del Banco de la República del 30 de octubre y la evolución del Brent.",
+      "terminos": [
+        "Revaluación del peso",
+        "TES",
+        "Índice DXY",
+        "Brent",
+        "Prima de riesgo país"
+      ],
+      "fuente": "Valora Analitik",
+      "url": "https://www.valoraanalitik.com/dolar-en-colombia-se-desploma-cierra-en-3-145-impulsado-por-el-repunte-del-brent/"
+    },
+    {
+      "id": "2026-10-24-01",
+      "fecha": "2026-10-24",
+      "categoria": "politica",
+      "puntaje": {
+        "total": 8,
+        "alcance": 2,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "El Gobierno recorta $13,8 billones del Presupuesto de 2026, $4 billones en deuda",
+      "resumen": "Hacienda expidió el Decreto 1585 de 2026, que reduce en más de $13,8 billones el presupuesto de este año: unos $4 billones salen del servicio de la deuda, cerca de $6,8 billones de contratación y unos $3 billones de funcionamiento.",
+      "contexto": "El ministro Miguel Gómez dijo que el recorte busca bajar el déficit fiscal de 8,2% a la meta de 7,2% del PIB y el déficit primario de 4,4% a 3,3%. Invías es la entidad con el mayor recorte, más de $1,44 billones, seguida por Aerocivil, la Registraduría y la Rama Judicial. El Consejo de Ministros había autorizado reducciones de hasta $21,9 billones, de modo que quedan unos $8,1 billones de margen para recortes adicionales. Según el CARF, el déficit ya llegaba a 4,6% del PIB a agosto y la deuda bruta a 60,6% del PIB.",
+      "afectados": [
+        "TES",
+        "Finanzas públicas",
+        "Infraestructura",
+        "Contratistas del Estado"
+      ],
+      "peso_alcista": 60,
+      "alcista": "El decreto es la primera medida concreta de ajuste del año y apunta a cerrar la brecha entre el déficit observado y la meta de 7,2% del PIB. Un menor gasto reduce las necesidades de financiamiento del Gobierno y, con ello, la presión para emitir más TES. Eso puede ayudar a contener las tasas de la deuda pública y la prima de riesgo país. Además, el Gobierno conserva margen para recortar unos $8,1 billones más si los ingresos no alcanzan.",
+      "bajista": "Cerca de la mitad del recorte recae en contratación, con Invías, Aerocivil y la ANI entre las entidades más afectadas, lo que puede frenar obras y pedidos a constructoras y proveedores del Estado. La reducción de $4 billones en el servicio de la deuda se explica por el tipo de cambio, no por un menor endeudamiento, así que no corrige el problema de fondo. Con intereses que absorben cerca de 28% del recaudo tributario, el ajuste puede resultar insuficiente para la meta de fin de año.",
+      "impacto": {
+        "conclusion": "Pesa algo más la lectura alcista, porque es una señal concreta de control del gasto en medio de un déficit que se ampliaba rápido. Para quien tiene renta fija, un Gobierno que gasta menos puede presionar menos las tasas de los TES. El costo recae sobre todo en la inversión pública y en las empresas que dependen de contratos del Estado.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "mixto",
+            "detalle": "Mejora la percepción fiscal, pero el menor gasto en infraestructura puede afectar a constructoras y proveedores del Estado."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "positivo",
+            "detalle": "Menos gasto reduce la necesidad de emitir deuda, lo que puede aliviar las tasas de los TES y sostener su precio."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "El cierre fiscal de septiembre y si el Gobierno usa el margen de unos $8,1 billones para nuevos recortes antes de fin de año.",
+      "terminos": [
+        "Decreto de recorte presupuestal",
+        "Presupuesto General de la Nación",
+        "Servicio de la deuda",
+        "Déficit primario",
+        "TES"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/gobierno-recorto-13-8-billones-al-presupuesto-general-de-la-nacion-de-2026-4509412"
+    },
+    {
+      "id": "2026-10-23-03",
+      "fecha": "2026-10-23",
+      "categoria": "commodities",
+      "puntaje": {
+        "total": 8,
+        "alcance": 2,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "El Brent sube a su nivel más alto en cinco meses por ataques en Arabia Saudí",
+      "resumen": "El petróleo Brent subió el 22 de octubre por encima de US$111 por barril, su máximo en cinco meses, tras ataques con drones contra instalaciones en el este de Arabia Saudí.",
+      "contexto": "Un ataque contra el yacimiento Shaybah de Saudi Aramco dejó dos muertos sin afectar la operación, y otro alcanzó el aeropuerto de Dammam; Estados Unidos ordenó la salida de parte del personal de sus embajadas en el reino. El WTI se acercó a US$99. El Brent acumula un alza de más de 80% en 2026, en medio de la guerra entre Estados Unidos e Irán, que se acerca a su noveno mes, y de los ataques a buques en el estrecho de Ormuz.",
+      "afectados": [
+        "Ecopetrol",
+        "Petroleras",
+        "Peso colombiano",
+        "Combustibles"
+      ],
+      "peso_alcista": 60,
+      "alcista": "Un Brent alto aumenta los ingresos de Ecopetrol y de las petroleras que operan en Colombia, y con ellos los dividendos y las regalías que recibe el Estado. Más dólares por exportaciones de crudo tienden a sostener al peso. Para un Gobierno con déficit alto, los mayores ingresos petroleros son un alivio parcial.",
+      "bajista": "El alza responde a un riesgo de guerra que también genera aversión al riesgo en los mercados emergentes. El encarecimiento de los derivados, en especial el diésel, presiona los costos de transporte y la inflación, lo que puede mantener altas las tasas de interés. Si el conflicto se modera, la prima de riesgo en el precio podría desaparecer con rapidez.",
+      "impacto": {
+        "conclusion": "Pesa un poco más la lectura alcista para el mercado colombiano, por el efecto directo en los ingresos de Ecopetrol y en la entrada de dólares. Para tu portafolio, favorece a las acciones petroleras y tiende a apoyar al peso, aunque el origen bélico del alza hace que el movimiento sea volátil.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "positivo",
+            "detalle": "Mejora las perspectivas de ingresos de Ecopetrol y otras petroleras listadas."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "negativo",
+            "detalle": "Más ingresos por exportaciones de crudo tienden a fortalecer el peso y restar valor en pesos a las inversiones en dólares."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La evolución de los ataques en el Golfo Pérsico y los planes de Estados Unidos e Israel frente a Irán tras las elecciones de mitad de mandato.",
+      "terminos": [
+        "Brent",
+        "WTI",
+        "Estrecho de Ormuz",
+        "Regalías"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/barril-brent-sigue-arriba-de-us-111-por-ataques-a-arabia-y-presiones-de-oferta-4508427"
+    },
+    {
+      "id": "2026-10-23-02",
+      "fecha": "2026-10-23",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 8,
+        "alcance": 3,
+        "materialidad": 3,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "Villar advierte que el déficit dificulta bajar las tasas y fortalece al peso",
+      "resumen": "El gerente del Banco de la República, Leonardo Villar, dijo en el congreso de Camacol que el alto déficit fiscal genera presiones inflacionarias que hacen más difícil reducir las tasas de interés y que los flujos ligados a la financiación del Gobierno han apreciado el peso.",
+      "contexto": "Villar señaló que el déficit primario pasó de casi cero en 2023 a cerca de 3,5% del PIB en 2025 y 2026, y que las importaciones en dólares crecieron alrededor de 31% anual en agosto. La inflación, que había bajado a 4,8% a mediados de 2025, volvió a 6,3%, y la tasa del Emisor subió 255 puntos básicos en el primer semestre de 2026 y otros 25 después, hasta 12,25%. Estimó que el déficit podría llegar a 9,4% del PIB este año antes de los ajustes anunciados y a 7,1%–7,2% el próximo.",
+      "afectados": [
+        "Tasa de interés",
+        "Peso colombiano",
+        "TES",
+        "Crédito hipotecario"
+      ],
+      "peso_alcista": 35,
+      "alcista": "La apreciación del peso abarata las importaciones y ayuda a contener la inflación por esa vía. La compra de TES por parte de inversionistas extranjeros muestra que todavía hay apetito por la deuda colombiana. Para quien ahorra en pesos, unas tasas que se mantienen altas por más tiempo sostienen los rendimientos de CDT y cuentas de ahorro.",
+      "bajista": "Si el déficit sigue alto, las tasas del Emisor tardarían más en bajar, lo que encarece el crédito de hogares y empresas, incluido el hipotecario. Las tasas de los TES de largo plazo se mantienen presionadas, lo que afecta el precio de esos bonos. Un peso apreciado reduce los ingresos en pesos de los exportadores y le resta competitividad a la producción nacional frente a las importaciones.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista: el mensaje del Emisor es que la política fiscal limita el espacio para bajar tasas. Para tu portafolio, eso significa tasas altas por más tiempo, que favorecen al ahorro en pesos y presionan a los bonos de largo plazo y a las inversiones en dólares medidas en pesos.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "Tasas altas por más tiempo mantienen presionado el precio de los TES de largo plazo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "negativo",
+            "detalle": "La apreciación del peso reduce el valor en pesos de las inversiones en dólares."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "positivo",
+            "detalle": "Tasas altas por más tiempo sostienen los rendimientos de CDT y ahorro en pesos."
+          }
+        ]
+      },
+      "mirar": "La próxima reunión de la junta del Banco de la República y el dato de inflación de octubre del DANE.",
+      "terminos": [
+        "Déficit primario",
+        "Tasa de política monetaria",
+        "Revaluación del peso",
+        "Expectativas de inflación",
+        "Diferencial de tasas"
+      ],
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/colombia/2026/10/23/banco-de-la-republica-mostro-precupacion-por-creditos-dolar-y-tasas-de-interes-ante-el-deficit-fiscal-del-gobierno-nacional/"
+    },
+    {
+      "id": "2026-10-23-01",
+      "fecha": "2026-10-23",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 9,
+        "alcance": 3,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "El déficit del Gobierno llega a 4,7% del PIB a agosto y los intereses pesan más",
+      "resumen": "Según el informe de seguimiento del CARF, el déficit del Gobierno Nacional Central sumó 4,7% del PIB entre enero y agosto, 0,7 puntos más que a julio, y el pago de intereses equivale ya a 27,8% del recaudo tributario.",
+      "contexto": "Ese peso de los intereses supera el promedio histórico de 24,4%. Sin contar los recursos extraordinarios de la emergencia, el recaudo creció 3,9% nominal pero cayó 2,2% en términos reales; el impuesto al patrimonio aportó $5,3 billones frente a $7 billones presupuestados. Las tasas de los TES en pesos subieron en promedio 26 puntos básicos en septiembre frente al cierre de agosto, y la caja del Tesoro cerró septiembre en $22,9 billones, por debajo del promedio de $26,6 billones desde 2014.",
+      "afectados": [
+        "TES",
+        "Finanzas públicas",
+        "Peso colombiano",
+        "Tasas de interés"
+      ],
+      "peso_alcista": 30,
+      "alcista": "El recaudo neto total, incluidos los recursos de la emergencia, creció 9,2% frente a 2025 y el 4x1000 subió 13% real, lo que muestra que algunas fuentes de ingreso responden. La ejecución del presupuesto a septiembre fue mayor que la de 2025, lo que puede sostener la actividad económica. Para quien ahorra en pesos, unas tasas más altas en los TES se traducen en mejores rendimientos para el dinero nuevo.",
+      "bajista": "El déficit se amplía y los intereses absorben una parte creciente del recaudo, lo que reduce el margen del Gobierno para invertir. El recaudo real sin recursos extraordinarios cae, de modo que la mejora depende de ingresos que no se repiten. La subida de 26 puntos básicos en las tasas de los TES en septiembre indica que el mercado ya exige más por financiar al Gobierno, lo que baja el precio de los bonos que ya están en los portafolios.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista, porque el informe muestra un deterioro en el déficit, en el costo de la deuda y en el recaudo real al mismo tiempo. Para tu portafolio, la presión se concentra en la deuda pública: mientras el mercado exija tasas más altas, los TES ya comprados pierden precio y los CDT nuevos ofrecen mejores rendimientos.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "Un déficit mayor eleva las tasas que exige el mercado y baja el precio de los TES en el portafolio."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "El mayor riesgo fiscal puede debilitar el peso, pero la compra de TES por extranjeros lo ha sostenido."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "positivo",
+            "detalle": "Tasas más altas en la deuda pública se reflejan en mejores rendimientos para CDT nuevos."
+          }
+        ]
+      },
+      "mirar": "El cierre fiscal de septiembre y si el Gobierno presenta la ley de ajuste anunciada para corregir el déficit.",
+      "terminos": [
+        "Comité Autónomo de la Regla Fiscal (CARF)",
+        "Déficit primario",
+        "TES",
+        "Puntos básicos",
+        "4x1000"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/deficit-fiscal-llego-a-4-7-del-pib-a-agosto-y-los-intereses-consumen-28-del-recaudo-tributario-4508903"
+    },
+    {
+      "id": "2026-10-22-02",
+      "fecha": "2026-10-22",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 8,
+        "alcance": 2,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "El dólar sube a $3.189,50 en Colombia por la cautela fiscal tras el Presupuesto",
+      "resumen": "El dólar cerró el miércoles en $3.189,50, $15,50 más que el martes, después de tocar un máximo de $3.202 en la jornada. Los analistas atribuyen el límite a las ganancias del peso a la percepción fiscal tras la aprobación del Presupuesto de 2027.",
+      "contexto": "Acciones & Valores señaló que el repunte del petróleo y el diferencial de tasas favorecen al peso, pero que la sensibilidad fiscal limita su avance. El Brent cerró con una leve baja de 0,08% en US$108,70, tras tocar cerca de US$111, y el índice DXY se mantuvo en 101,68. En los TES, el de 2028 bajó a 12,479%, mientras que los de 2033 y 2050 subieron a 12,955% y 13,028%. En la región, el peso mexicano se debilitó y el real brasileño se mantuvo estable.",
+      "afectados": [
+        "Peso colombiano",
+        "TES",
+        "Importadores",
+        "Exportadores"
+      ],
+      "peso_alcista": 45,
+      "alcista": "El petróleo sigue por encima de US$100 y el diferencial de tasas con Estados Unidos sigue siendo amplio, dos factores que atraen dólares al país y sostienen al peso. El movimiento del día fue contenido y sin una dirección clara, por lo que no muestra una salida de capitales. La baja en la tasa del TES de 2028 indica que el tramo corto de la deuda pública no se vio presionado.",
+      "bajista": "La subida de las tasas de los TES de 2033 y 2050 indica que el mercado exige más por prestarle al Gobierno a largo plazo, en línea con la cautela fiscal. Si la preocupación por las cuentas públicas aumenta, el peso puede perder parte de lo ganado en el año. Un dólar más caro encarece las importaciones y puede presionar la inflación.",
+      "impacto": {
+        "conclusion": "Pesa un poco más la lectura bajista, porque la preocupación fiscal ya se ve en las tasas de largo plazo de los TES y frena al peso pese al buen precio del petróleo. Para tu portafolio, el efecto se concentra en los TES largos y en el valor en pesos de tus inversiones en dólares.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "mixto",
+            "detalle": "El TES de 2028 se valorizó, pero los de 2033 y 2050 perdieron precio al subir sus tasas."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "positivo",
+            "detalle": "Con un dólar más alto, tus ahorros e inversiones en dólares valen más en pesos."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La reacción del dólar y de los TES a la expedición del Presupuesto de 2027 por decreto.",
+      "terminos": [
+        "TES",
+        "Índice DXY",
+        "Brent"
+      ],
+      "fuente": "Valora Analitik",
+      "url": "https://www.valoraanalitik.com/dolar-en-colombia-volvio-a-subir-y-supero-los-3-200-cerro-al-alza-en-medio-de-cautela-fiscal/"
+    },
+    {
+      "id": "2026-10-22-01",
+      "fecha": "2026-10-22",
+      "categoria": "politica",
+      "puntaje": {
+        "total": 8,
+        "alcance": 2,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "El Presupuesto de 2027 saldrá por decreto por $634,9 billones tras un error en el Congreso",
+      "resumen": "El Gobierno confirmó que expedirá por decreto el Presupuesto General de la Nación de 2027, por $634,9 billones, después de detectar un vicio de trámite en su aprobación. Quedan por fuera los cambios aprobados en segundo debate.",
+      "contexto": "Según el vicepresidente José Manuel Restrepo, la Cámara y el Senado aprobaron textos distintos en un artículo y no los conciliaron, por lo que rige el proyecto con las modificaciones de primer debate, como dispone el artículo 59 del Estatuto Orgánico del Presupuesto. El monto total no cambia, pero se caen, entre otros, $3 billones adicionales para salud y una reducción de casi $11 billones en el servicio de la deuda que se compensaba con más inversión. El servicio de la deuda queda en $155 billones, el funcionamiento en $392,6 billones y la inversión en $86 billones. Es la tercera vez desde 1991 que el presupuesto se expide por decreto; la oposición evalúa pedir su nulidad ante el Consejo de Estado.",
+      "afectados": [
+        "Finanzas públicas",
+        "TES",
+        "Sector salud",
+        "Congreso"
+      ],
+      "peso_alcista": 40,
+      "alcista": "El monto total del gasto queda igual al aprobado en primer debate, de modo que el decreto no aumenta el tamaño del presupuesto. Se conserva la asignación completa para el pago de la deuda, lo que reduce dudas sobre el cumplimiento de las obligaciones del Gobierno con quienes tienen TES. Además, se despeja la incertidumbre inmediata: el país tendrá presupuesto vigente para 2027.",
+      "bajista": "Que el presupuesto salga por decreto por segunda vez en tres años refleja dificultades del Gobierno para tramitar sus cuentas en el Congreso, algo que los inversionistas leen como un riesgo de gobernabilidad fiscal. Los sectores excluidos, como salud, buscarán recuperar recursos con adiciones y traslados, lo que puede presionar el gasto. Además, la posible demanda ante el Consejo de Estado mantiene abierta la incertidumbre jurídica.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista, porque el episodio suma ruido a unas finanzas públicas que ya preocupan al mercado, aunque el monto total no cambie. Para tu portafolio, el canal principal es la percepción de riesgo fiscal, que se refleja en las tasas de los TES y en el peso.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "La incertidumbre fiscal tiende a exigir tasas más altas a los TES, lo que baja el precio de los que ya están en el portafolio."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "Si el ruido fiscal debilita al peso, tus inversiones en dólares valen más en pesos; si el mercado se calma, el efecto se diluye."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "Si la oposición presenta la demanda ante el Consejo de Estado y si el Gobierno tramita adiciones para recuperar los recursos excluidos.",
+      "terminos": [
+        "Presupuesto General de la Nación",
+        "Vicio de trámite",
+        "Servicio de la deuda",
+        "TES"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/por-tercera-vez-desde-1991-se-expedira-el-presupuesto-general-de-la-nacion-via-decreto-4508176"
+    },
+    {
+      "id": "2026-10-21-02",
+      "fecha": "2026-10-21",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 8,
+        "alcance": 3,
+        "materialidad": 3,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "Analistas prevén que el tercer trimestre sea el de menor crecimiento económico del año",
+      "resumen": "Banco de Bogotá estima que el PIB de Colombia habría crecido cerca de 1,0% anual en el tercer trimestre, frente al 3,5% del segundo, tras la caída del ISE en agosto.",
+      "contexto": "Según el DANE, el ISE de agosto cayó 0,04% anual, su primera caída en año y medio, y en cifras desestacionalizadas se contrajo 3,1% frente a julio, la mayor caída mensual desde la pandemia. Banco de Bogotá atribuye parte del retroceso al terremoto del 10 de agosto, pero ve una debilidad más amplia por la revaluación del peso, las altas tasas de interés y un menor gasto público. El Banco de la República había proyectado 2,2% para el trimestre y Grupo Cibest bajó su estimación a 2,1% antes de conocer el ISE. El FMI espera 2,2% para todo 2026.",
+      "afectados": [
+        "Bancos",
+        "Comercio",
+        "Industria",
+        "TES",
+        "Banco de la República"
+      ],
+      "peso_alcista": 35,
+      "alcista": "Una economía más débil reduce la presión para que el Banco de la República siga subiendo su tasa; Banco de Bogotá considera que la Junta podría no subirla más este año. Eso favorecería a los TES, cuyo precio sube cuando se espera que las tasas bajen. A mediano plazo, un fin del ciclo de alzas aliviaría el costo del crédito para empresas y hogares.",
+      "bajista": "Un crecimiento cercano a 1% golpea las ventas y utilidades de bancos, comercio e industria, que pesan mucho en la BVC. La caída es generalizada: en agosto bajaron tanto las actividades primarias como las secundarias. Además, menor crecimiento significa menos recaudo tributario, lo que complica unas finanzas públicas ya presionadas.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista, porque la desaceleración afecta directamente las utilidades de las empresas y el recaudo fiscal, mientras que el alivio en tasas es todavía una expectativa. Para tu portafolio, la señal es negativa para las acciones locales y algo más favorable para los TES si el mercado empieza a descontar el fin de las alzas de tasa.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Menor actividad presiona las ventas y utilidades de bancos, comercio e industria."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "positivo",
+            "detalle": "Si se reduce la probabilidad de nuevas alzas de tasa, los precios de los TES podrían mejorar."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "mixto",
+            "detalle": "Las tasas siguen altas por ahora, pero un fin del ciclo de alzas limitaría nuevos aumentos en lo que pagan los CDT."
+          }
+        ]
+      },
+      "mirar": "El dato del PIB del tercer trimestre que publicará el DANE y la próxima decisión de tasa del Banco de la República.",
+      "terminos": [
+        "PIB",
+        "Indicador de Seguimiento a la Economía (ISE)",
+        "Serie desestacionalizada",
+        "Revaluación del peso",
+        "Tasa de política monetaria"
+      ],
+      "fuente": "Bloomberg Línea",
+      "url": "https://www.bloomberglinea.com/latinoamerica/colombia/economia-colombiana-tendria-su-peor-crecimiento-de-2026-en-el-tercer-trimestre/"
+    },
+    {
+      "id": "2026-10-21-01",
+      "fecha": "2026-10-21",
+      "categoria": "commodities",
+      "puntaje": {
+        "total": 9,
+        "alcance": 3,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "El Brent supera US$111 y toca su nivel más alto desde mayo por ataques en Medio Oriente",
+      "resumen": "El petróleo Brent subió 1,62% hasta US$111,33 por barril en la mañana del 20 de octubre, su nivel más alto desde mayo, mientras el WTI ganó 4,33% hasta US$108,15.",
+      "contexto": "El alza responde a una prima de riesgo geopolítico tras los ataques que los hutíes de Yemen dicen haber lanzado contra infraestructura de Arabia Saudita, entre ella una planta de Aramco en Yanbu y el campo de Shaybah; las autoridades saudíes no los confirmaron y Reuters no pudo verificarlos. Según Kpler, al menos 18 barcos fueron atacados en dos semanas. ING considera que el mercado incorpora una prima de riesgo importante que solo se reduciría de forma lenta si los flujos de crudo siguen sin interrupciones. Ambas referencias se mantienen por encima de US$100.",
+      "afectados": [
+        "Ecopetrol",
+        "Peso colombiano",
+        "Finanzas públicas",
+        "Inflación"
+      ],
+      "peso_alcista": 60,
+      "alcista": "Un Brent por encima de US$110 eleva los ingresos por exportaciones de crudo de Colombia y los resultados de Ecopetrol, el mayor emisor de la BVC. También mejora los ingresos fiscales vía dividendos y regalías, lo que ayuda a una Nación con presiones de financiamiento. La mayor entrada de dólares por petróleo tiende a apoyar al peso colombiano.",
+      "bajista": "El alza viene de un riesgo geopolítico y no de mayor demanda, por lo que puede revertirse rápido si la tensión baja. Un petróleo más caro presiona los combustibles y la inflación, lo que dificulta que el Banco de la República reduzca su tasa. Además, el costo del Fondo de Estabilización de Precios de los Combustibles aumenta cuando el crudo sube, lo que pesa sobre el gasto público.",
+      "impacto": {
+        "conclusion": "Pesa un poco más la lectura alcista, porque Colombia es exportador de crudo y Ecopetrol y las cuentas fiscales se benefician directamente del precio. Para tu portafolio, el efecto más claro está en las acciones petroleras; el riesgo es que la prima geopolítica desaparezca tan rápido como llegó y que el alza alimente la inflación.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "positivo",
+            "detalle": "Ecopetrol y las empresas ligadas al petróleo tienden a beneficiarse de un Brent más alto."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "mixto",
+            "detalle": "Más ingresos petroleros ayudan a las finanzas públicas, pero la presión sobre la inflación puede mantener altas las tasas de los TES."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "negativo",
+            "detalle": "Más dólares por exportaciones de crudo tienden a fortalecer el peso, lo que reduce en pesos el valor de los ahorros en dólares."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La confirmación o desmentido de los ataques por parte de Arabia Saudita y el reporte de inventarios de crudo de Estados Unidos de esta semana.",
+      "terminos": [
+        "Brent",
+        "WTI",
+        "Regalías",
+        "Fondo de Estabilización de Precios de los Combustibles (FEPC)"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/brent-toca-maximos-de-cinco-meses-con-us-111-el-barril-tras-ataques-en-medio-oriente-4506709"
+    },
+    {
+      "id": "2026-10-20-02",
+      "fecha": "2026-10-20",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 8,
+        "alcance": 3,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "La actividad económica se contrajo 0,04% anual en agosto, según el DANE",
+      "resumen": "El Indicador de Seguimiento a la Economía (ISE) de agosto cayó 0,04% frente al mismo mes de 2025 en la serie original y 0,11% en la serie ajustada por estacionalidad. Industria, construcción, agro y minería retrocedieron más de 3%.",
+      "contexto": "Las cifras son preliminares. Las actividades primarias (agro, minería y pesca) bajaron 3,19% anual y las secundarias (industria y construcción) 3,03%, mientras que comercio y servicios crecieron 1,10%. Frente a julio, los tres grupos cayeron: las secundarias 4,17%, las primarias 2,06% y las terciarias 1,39%.",
+      "afectados": [
+        "Crecimiento económico",
+        "Industria",
+        "Construcción",
+        "Banco de la República",
+        "Comercio"
+      ],
+      "peso_alcista": 30,
+      "alcista": "Un frenazo de la actividad reduce las presiones de demanda sobre los precios y podría hacer que el Banco de la República sea más cauteloso con nuevas alzas de tasas. Eso favorecería a los TES que ya tienes, cuyos precios suben cuando las tasas esperadas bajan. Comercio y servicios siguen creciendo, lo que sostiene a empresas ligadas al consumo.",
+      "bajista": "Una contracción anual de la economía golpea las ventas y las utilidades de las empresas, sobre todo en industria, construcción y minería. Una economía más débil también reduce el recaudo de impuestos, en un momento de finanzas públicas estrechas. La caída mensual en los tres grandes grupos sugiere que el deterioro es amplio y no de un solo sector. Para los bancos, menor actividad suele traducirse en menos crédito y más riesgo de impago.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista, porque la caída es amplia y afecta a los sectores productivos más grandes. El alivio posible en tasas depende de la inflación, que sigue alta. Para tu portafolio, lo más sensible son las acciones de empresas industriales, constructoras y bancos.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Menor actividad presiona las ventas y utilidades de industria, construcción, minería y bancos."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "mixto",
+            "detalle": "Una economía débil puede bajar las tasas esperadas, pero el menor recaudo agrava el riesgo fiscal."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "mixto",
+            "detalle": "Si el Banco de la República frena las alzas, las tasas de los CDT nuevos dejarían de subir."
+          }
+        ]
+      },
+      "mirar": "La próxima decisión de tasas del Banco de la República y el dato del PIB del tercer trimestre.",
+      "terminos": [
+        "Indicador de Seguimiento a la Economía (ISE)",
+        "Serie desestacionalizada",
+        "Desaceleración económica",
+        "PIB"
+      ],
+      "fuente": "El Universal (con datos del DANE)",
+      "url": "https://www.eluniversal.com.co/colombia/2026/10/19/colombia-registro-una-caida-de-su-actividad-economica-en-agosto-de-2026/"
+    },
+    {
+      "id": "2026-10-20-01",
+      "fecha": "2026-10-20",
+      "categoria": "politica",
+      "puntaje": {
+        "total": 9,
+        "alcance": 3,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Congreso aprueba el Presupuesto 2027 por $634,95 billones con más gasto en salud",
+      "resumen": "Senado y Cámara aprobaron el Presupuesto General de la Nación de 2027 por $634,95 billones, con más recursos para salud, defensa y subsidios de energía. El Gobierno anunció que presentará una ley de ajuste fiscal en un plazo de 90 días.",
+      "contexto": "En el Senado la votación fue de 57 votos a favor y 1 en contra, y en la Cámara de 112 a favor. Según el presidente del Senado, la salud recibió $5 billones más que en la propuesta inicial, y se aprobaron partidas para defensa y subsidios de energía en el Caribe. Uno de los artículos obliga al Ejecutivo a radicar en 90 días un proyecto de ajuste fiscal, la llamada ley de rescate, y otros exigen informes trimestrales de recursos y gasto y seguimiento a los títulos de tesorería de corto plazo.",
+      "afectados": [
+        "TES",
+        "Finanzas públicas",
+        "Peso colombiano",
+        "Sector salud",
+        "Constructoras"
+      ],
+      "peso_alcista": 55,
+      "alcista": "La aprobación con mayorías amplias en ambas cámaras reduce la incertidumbre política sobre el gasto de 2027. El compromiso de presentar una ley de ajuste fiscal en 90 días es una señal de que el Gobierno busca corregir las cuentas públicas. Los nuevos requisitos de informes trimestrales y el seguimiento a la deuda de corto plazo mejoran la transparencia, algo que suelen valorar los inversionistas en TES. Las partidas para inversión e infraestructura pueden apoyar a sectores como construcción.",
+      "bajista": "El Congreso agregó gasto en salud, defensa y subsidios de energía, lo que presiona unas finanzas públicas ya estrechas. La propia necesidad de una ley de rescate fiscal confirma que el faltante es importante y que las soluciones aún no están definidas. Si el mercado duda de la financiación, podría exigir tasas más altas a los TES y debilitar el peso. Además, el ajuste fiscal anunciado podría traer nuevos impuestos o recortes que afecten a empresas y consumidores.",
+      "impacto": {
+        "conclusion": "Pesa un poco más la lectura alcista: tener el presupuesto aprobado y anunciar un plan de ajuste reduce la incertidumbre de corto plazo. Sin embargo, el mayor gasto aprobado deja la sostenibilidad fiscal en manos de una ley que aún no existe. Para tu portafolio, el efecto depende de qué tan creíble resulte ese ajuste en los próximos tres meses.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "mixto",
+            "detalle": "Menos incertidumbre política y más inversión pública ayudan, pero un ajuste fiscal futuro puede traer cargas para las empresas."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "mixto",
+            "detalle": "La aprobación reduce riesgo, pero el gasto adicional puede presionar al alza las tasas de los TES y bajar su precio."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "Un plan fiscal creíble apoyaría al peso; dudas sobre la financiación lo debilitarían y subirían el valor en pesos de tus dólares."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La radicación del proyecto de ajuste fiscal (ley de rescate) dentro del plazo de 90 días y la reacción de las tasas de los TES.",
+      "terminos": [
+        "Presupuesto General de la Nación",
+        "TES",
+        "Deuda pública",
+        "Inversión pública"
+      ],
+      "fuente": "Vanguardia",
+      "url": "https://www.vanguardia.com/economia/nacional/2026/10/20/congreso-aprobo-el-presupuesto-de-2027-por-63495-billones-y-definio-nuevas-partidas/"
+    },
+    {
+      "id": "2026-10-19-01",
+      "fecha": "2026-10-19",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 8,
+        "alcance": 4,
+        "materialidad": 2,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "Aval Casa de Bolsa ve la inflación en 6,90% al cierre de 2026 y la tasa quieta en 12,25%",
+      "resumen": "Aval Casa de Bolsa actualizó su escenario: espera que la inflación anual suba a 6,90% al terminar 2026 y que el Banco de la República mantenga su tasa en 12,25% el resto del año, sin recortes antes de agosto de 2027.",
+      "contexto": "Para octubre, la firma estima una variación mensual del IPC de 0,42%, con lo que la inflación anual pasaría de 6,29% en septiembre a 6,54%. Atribuye la presión a los alimentos, a las alzas esperadas en las tarifas de gas y energía y al riesgo de El Niño entre diciembre de 2026 y comienzos de 2027; además, en octubre de 2025 los alimentos habían caído 0,35%, lo que juega en contra en la comparación anual. Proyecta una TRM cercana a $3.279 al cierre de 2026, apoyada en un dólar más débil frente a las monedas de la región, el amplio diferencial de tasas y una menor prima de riesgo si la ley de rescate fiscal es bien recibida.",
+      "afectados": [
+        "Banco de la República",
+        "TES",
+        "Peso colombiano",
+        "CDT",
+        "Bancos"
+      ],
+      "peso_alcista": 35,
+      "alcista": "Si la tasa se queda en 12,25% y no sube más, el mercado gana claridad sobre el costo del dinero en los próximos meses. El amplio diferencial de tasas atrae flujos de inversión extranjera hacia activos en pesos, lo que según la firma ayudaría a mantener un peso fuerte. Una ley de rescate fiscal bien recibida reduciría la prima de riesgo del país y daría alivio a los TES y a las acciones. Los ahorradores en pesos seguirían recibiendo tasas altas por más tiempo.",
+      "bajista": "La inflación subiría en lugar de bajar y se alejaría aún más de la meta, por alimentos, energía y El Niño. Eso aplaza los recortes de tasa hasta al menos agosto de 2027, lo que mantiene caro el crédito para empresas y hogares y frena la economía. La firma advierte riesgos de alzas de tasa no contempladas si El Niño es más fuerte o si la Reserva Federal endurece su política. Un ajuste fiscal menor al anunciado podría debilitar el peso y presionar las tasas de los TES.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista: el escenario es de inflación más alta y tasas altas por más tiempo, con riesgos que apuntan a empeorar. Para quien invierte, eso favorece al ahorro en pesos y castiga a los activos que necesitan tasas más bajas, como los TES y las acciones; el dólar depende sobre todo de cómo se reciba el ajuste fiscal.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Tasas altas hasta al menos agosto de 2027 encarecen el crédito y frenan las utilidades de las empresas."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "Si la inflación sube y no hay recortes de tasa, los TES que ya tienes tienden a perder precio."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "La firma ve factores que favorecen al peso, como el diferencial de tasas, pero un ajuste fiscal débil podría subir el dólar."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "positivo",
+            "detalle": "Una tasa de 12,25% sostenida mantiene altos los rendimientos de los CDT y del ahorro en pesos."
+          }
+        ]
+      },
+      "mirar": "El dato de inflación de octubre del DANE, que la firma estima en 6,54% anual.",
+      "terminos": [
+        "Inflación",
+        "Tasa de política monetaria",
+        "Meta de inflación",
+        "Carry trade",
+        "Prima de riesgo país"
+      ],
+      "fuente": "Valora Analitik",
+      "url": "https://www.valoraanalitik.com/aval-casa-de-bolsa-proyecta-inflacion-del-690-y-tasas-de-interes-congeladas-en-1225-para-el-cierre-de-2026/"
+    },
+    {
+      "id": "2026-10-17-02",
+      "fecha": "2026-10-17",
+      "categoria": "commodities",
+      "puntaje": {
+        "total": 8,
+        "alcance": 2,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "El Brent sube 3,9% y toca US$110 por primera vez desde mayo",
+      "resumen": "El petróleo Brent subió 3,9% el viernes y llegó a US$110 por barril, un nivel que no tocaba desde mayo, por el temor a una menor oferta, según La República con información de Reuters.",
+      "contexto": "Legisladores de EE. UU. presentaron un proyecto para bloquear el acuerdo de Trump con Moscú que liberaría varios cientos de millones de barriles de diésel. Si el diésel ruso sigue por fuera del mercado, las refinerías de otros países tendrían que procesar más crudo. A esto se suman los ataques con misiles y drones de los hutíes en Arabia Saudita y los ataques entre Rusia y Ucrania a infraestructura energética. Los operadores aumentaron sus apuestas al alza antes del fin de semana.",
+      "afectados": [
+        "Ecopetrol",
+        "Petroleras",
+        "Finanzas públicas",
+        "Inflación"
+      ],
+      "peso_alcista": 60,
+      "alcista": "Colombia exporta petróleo, así que un Brent más alto aumenta los ingresos de Ecopetrol y de otras productoras listadas en la BVC. También mejora los dividendos y regalías que recibe la Nación, un alivio para unas finanzas públicas presionadas. Más dólares por exportaciones petroleras pueden dar soporte al peso colombiano.",
+      "bajista": "El alza responde a riesgos de guerra y de suministro, que pueden aumentar la aversión al riesgo en los mercados. Un petróleo más caro presiona los precios de los combustibles y del transporte, y con ellos la inflación, lo que puede mantener altas las tasas de interés. Si las tensiones se calman o se libera el diésel ruso, el precio podría devolverse con rapidez.",
+      "impacto": {
+        "conclusion": "Pesa algo más la lectura alcista para el mercado colombiano, por el efecto directo sobre Ecopetrol y los ingresos fiscales. Para quien invierte, el beneficio se concentra en las acciones petroleras, mientras que la presión sobre la inflación es un riesgo para los TES.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "positivo",
+            "detalle": "Un Brent más alto favorece los ingresos de Ecopetrol y de las petroleras listadas en la BVC."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "mixto",
+            "detalle": "Más ingresos petroleros ayudan a las cuentas fiscales, pero un petróleo caro presiona la inflación y las tasas de los TES."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "El trámite en EE. UU. del proyecto que busca bloquear la liberación del diésel ruso y la evolución de los ataques en Medio Oriente.",
+      "terminos": [
+        "Brent",
+        "Inflación",
+        "Regalías"
+      ],
+      "fuente": "La República (Reuters)",
+      "url": "https://www.larepublica.co/globoeconomia/petroleo-supera-los-us-110-por-primera-vez-desde-mayo-por-riesgo-en-suministro-4504186"
+    },
+    {
+      "id": "2026-10-17-01",
+      "fecha": "2026-10-17",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 8,
+        "alcance": 4,
+        "materialidad": 2,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "Los analistas esperan que el Banco de la República suba su tasa a 12,5% este mes",
+      "resumen": "La encuesta mensual de expectativas del Banco de la República de octubre muestra que los analistas esperan un alza de 25 puntos básicos en la tasa de política monetaria en la junta de este mes, hasta 12,5%, según La República.",
+      "contexto": "En septiembre la junta ya había subido la tasa 25 puntos básicos. Los analistas ven esta alza como la última de 2026, esperan estabilidad a comienzos de 2027 y recortes desde mediados de ese año, hasta 11% al cierre de 2027. La inflación esperada para fin de 2026 subió a 6,85%, desde 6,81% en la encuesta de septiembre, y la de alimentos a 9,26%, desde 8,58%. La TRM esperada para fin de año pasó de $3.200 a $3.257.",
+      "afectados": [
+        "Tasa de política monetaria",
+        "TES",
+        "CDT",
+        "Bancos",
+        "Peso colombiano"
+      ],
+      "peso_alcista": 35,
+      "alcista": "Si la de octubre es la última alza, el mercado tendría más claridad sobre el techo de las tasas, lo que reduce la incertidumbre para los TES y las acciones. Los analistas ya anticipan recortes desde mediados de 2027, un escenario que favorecería la valorización de la renta fija en el mediano plazo. Para quien ahorra en CDT, tasas más altas por más tiempo mantienen rendimientos atractivos. Un Banco de la República firme frente a la inflación puede reforzar su credibilidad.",
+      "bajista": "Las expectativas de inflación siguen subiendo y quedan lejos de la meta: los analistas no la ven dentro del rango de 2% a 4% sino hasta septiembre de 2031. Una tasa de 12,5% encarece el crédito para hogares y empresas y puede frenar la actividad y las utilidades de las compañías. La subida de la TRM esperada indica que los analistas ven un peso más débil hacia fin de año. Si la inflación de alimentos sigue presionando, el alza de octubre podría no ser la última.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista: los analistas esperan tasas más altas y una inflación que tardaría años en volver a la meta. Para quien invierte, esto favorece al ahorro en CDT y presiona el precio de los TES y de las acciones locales mientras no se confirme el fin de las alzas.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Tasas más altas encarecen el crédito y restan atractivo a las acciones frente a inversiones de renta fija."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "Si las tasas suben, los TES que ya están en el portafolio pierden precio."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "positivo",
+            "detalle": "Los analistas subieron a $3.257 la TRM esperada para fin de año, lo que valorizaría en pesos los ahorros en dólares."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "positivo",
+            "detalle": "Una tasa de política más alta tiende a sostener o subir las tasas que pagan los CDT."
+          }
+        ]
+      },
+      "mirar": "La decisión de la junta directiva del Banco de la República de este mes.",
+      "terminos": [
+        "Tasa de política monetaria",
+        "Puntos básicos",
+        "Expectativas de inflación",
+        "Meta de inflación",
+        "TRM"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/analistas-preven-un-alza-de-25-puntos-basicos-en-la-tasa-de-politica-monetaria-4504617"
+    },
+    {
+      "id": "2026-10-16-01",
+      "fecha": "2026-10-16",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 8,
+        "alcance": 2,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "El dólar baja a $3.170 en Colombia, nivel que no se veía desde septiembre",
+      "resumen": "El dólar cerró el jueves en $3.170,42, $27,23 por debajo de la TRM del día, en medio de una caída fuerte de los rendimientos de los bonos del Tesoro de EE. UU., según La República.",
+      "contexto": "La TRM de la jornada era de $3.197,65 y el dólar se movió entre $3.157,70 y $3.183, con negocios por US$1.544 millones. La inflación de EE. UU. de septiembre fue de 3,7%, por encima del 3,6% esperado, pero luego comentarios cautelosos de la Reserva Federal redujeron las apuestas por un alza de tasas en octubre y bajaron los rendimientos del Tesoro. Un analista de Corficolombiana citado atribuyó el movimiento del peso sobre todo a las tasas de interés locales, que favorecen el carry trade, y al optimismo del mercado con el nuevo gobierno.",
+      "afectados": [
+        "Peso colombiano",
+        "Importadores",
+        "Exportadores",
+        "TES"
+      ],
+      "peso_alcista": 55,
+      "alcista": "Un peso más fuerte abarata las importaciones y los bienes que dependen del dólar, lo que puede ayudar a moderar la inflación. La caída de los rendimientos del Tesoro de EE. UU. reduce la presión sobre las tasas de los TES, lo que favorece el precio de los que ya están en los portafolios. El analista citado considera que la tendencia de fondo del dólar sigue siendo bajista y que los rebotes son pequeños. Las tasas locales altas siguen atrayendo flujos hacia activos en pesos.",
+      "bajista": "Para quien tiene ahorros o inversiones en dólares, la baja del dólar reduce su valor medido en pesos. Los exportadores y las empresas que venden en dólares reciben menos pesos por sus ventas. Parte del atractivo del peso depende del carry trade, una estrategia que puede revertirse rápido si cambian las tasas o el apetito por riesgo. La inflación de EE. UU. por encima de lo esperado mantiene abierta la posibilidad de nuevas alzas de la Reserva Federal.",
+      "impacto": {
+        "conclusion": "Pesa algo más la lectura alcista para el mercado local: un peso más fuerte y menores rendimientos del Tesoro alivian la presión sobre la inflación y sobre los TES. Para quien invierte, el principal efecto negativo está en los ahorros en dólares, que valen menos en pesos.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "positivo",
+            "detalle": "La baja de los rendimientos del Tesoro de EE. UU. reduce la presión sobre las tasas de los TES y favorece su precio."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "negativo",
+            "detalle": "Un dólar más barato reduce en pesos el valor de los ahorros e inversiones en dólares."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La TRM de los próximos días y la decisión de tasas de la Reserva Federal.",
+      "terminos": [
+        "TRM",
+        "Revaluación del peso",
+        "Carry trade",
+        "Bonos del Tesoro de EE. UU.",
+        "Reserva Federal"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/finanzas/precio-del-dolar-y-petroleo-hoy-15-de-octubre-4503301"
+    },
+    {
+      "id": "2026-10-15-02",
+      "fecha": "2026-10-15",
+      "categoria": "commodities",
+      "puntaje": {
+        "total": 8,
+        "alcance": 3,
+        "materialidad": 3,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "El Brent ronda US$106 tras un ataque que dañó la sede de Saudi Aramco",
+      "resumen": "El petróleo Brent se negoció cerca de US$106 por barril luego de ataques de los rebeldes hutíes en Arabia Saudita, uno de los cuales dañó la sede de Saudi Aramco, y de nuevas agresiones contra buques en el estrecho de Ormuz, según Bloomberg citado por La República.",
+      "contexto": "Los futuros del Brent acumulan un alza de más de 70% en el año por la inestabilidad asociada a la guerra entre Estados Unidos e Irán. Los ataques a buques han llevado a más superpetroleros a evitar el golfo Pérsico y han elevado los fletes. El crudo físico de referencia en Europa estuvo cerca de US$130 por barril el martes, y el precio del diésel en Europa, que se ha más que duplicado en el año, retomó su alza. La Agencia Internacional de Energía advirtió que los combustibles seguirán bajo presión el próximo año.",
+      "afectados": [
+        "Ecopetrol",
+        "Petróleo",
+        "Peso colombiano",
+        "Inflación"
+      ],
+      "peso_alcista": 55,
+      "alcista": "Un Brent cerca de US$106 aumenta los ingresos de las petroleras que operan en Colombia, empezando por Ecopetrol, y los recursos que recibe el Estado por impuestos y regalías. Más dólares por exportaciones de crudo pueden darle soporte al peso. La fuente indica que la prima de riesgo en el precio es difícil de eliminar mientras la infraestructura y el transporte sigan expuestos, lo que sugiere precios altos por más tiempo.",
+      "bajista": "El encarecimiento de la energía y de los fletes presiona la inflación, lo que dificulta que el Banco de la República baje las tasas. Un diésel más caro sube los costos de transporte y de producción en sectores que no son petroleros. La volatilidad es alta: el precio osciló entre ganancias y pérdidas en la jornada, y un cambio en el conflicto podría revertir el alza.",
+      "impacto": {
+        "conclusion": "Pesa ligeramente más la lectura alcista para el mercado colombiano, por el peso del petróleo en las exportaciones y en las finanzas públicas. Sin embargo, el mismo choque alimenta la inflación y puede mantener las tasas altas por más tiempo, lo que deja un efecto mixto para la renta fija.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "positivo",
+            "detalle": "Precios altos del crudo favorecen a Ecopetrol y a las demás petroleras listadas."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "mixto",
+            "detalle": "Más ingresos petroleros ayudan a las cuentas fiscales, pero la presión inflacionaria juega en contra de los TES."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "Más dólares por exportaciones sostienen al peso, pero la aversión al riesgo global puede debilitarlo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La evolución de los ataques en el estrecho de Ormuz y el próximo dato de inflación en Colombia.",
+      "terminos": [
+        "Brent",
+        "Estrecho de Ormuz",
+        "Agencia Internacional de Energía"
+      ],
+      "fuente": "La República (Bloomberg)",
+      "url": "https://www.larepublica.co/globoeconomia/el-brent-ronda-us-106-mientras-los-ataques-amenazan-la-oferta-de-petroleo-4502435"
+    },
+    {
+      "id": "2026-10-15-01",
+      "fecha": "2026-10-15",
+      "categoria": "internacional",
+      "puntaje": {
+        "total": 8,
+        "alcance": 3,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "La inflación de EE. UU. sube a 3,7% y dispara los rendimientos de los bonos del Tesoro",
+      "resumen": "Los precios al consumidor en Estados Unidos subieron 0,6% en septiembre, el mayor aumento mensual desde abril, y la inflación anual llegó a 3,7%. El dato llevó a los mercados a aumentar sus apuestas por nuevas alzas de tasas de la Reserva Federal, según Bloomberg citado por La República.",
+      "contexto": "La inflación básica, que excluye alimentos y energía, subió 0,3% en el mes y 2,6% anual. Tras el dato, el rendimiento del bono del Tesoro a 2 años saltó 14 puntos básicos, a 4,92%, y el de 10 años subió 9 puntos, a 5,30%. El índice de dólar de Bloomberg avanzó 0,4% y los futuros del S&P 500 y del Nasdaq 100 cayeron 0,3% y 0,6%. Analistas citados esperan que la Fed haga una pausa en octubre y vuelva a subir tasas en diciembre; Michelle Bowman, vicepresidenta de supervisión de la Fed, dijo que la inflación sigue siendo demasiado alta.",
+      "afectados": [
+        "Bonos del Tesoro",
+        "Dólar",
+        "TES",
+        "Acciones globales"
+      ],
+      "peso_alcista": 30,
+      "alcista": "La inflación básica, de 2,6% anual, es mucho más baja que la general, lo que sugiere que buena parte de la presión viene de la energía y no de toda la economía. Analistas citados en la fuente esperan una pausa de la Fed en octubre, lo que da algo de margen a los mercados en el corto plazo. Para quien tiene ahorros en dólares, un dólar global más fuerte aumenta su valor medido en pesos. Las bolsas europeas subieron 0,4% ese día, lo que muestra que el golpe no fue generalizado.",
+      "bajista": "Rendimientos de 4,92% a 2 años y 5,30% a 10 años en EE. UU. hacen más atractivo invertir allá y pueden sacar capital de mercados emergentes como Colombia. Eso suele presionar al alza las tasas de los TES y a la baja el precio de los que ya están en los portafolios. La expectativa de más alzas de la Fed encarece el financiamiento global y pesa sobre las acciones. Un analista citado advirtió que la inflación de energía podría trasladarse a la inflación básica.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista: una inflación de 3,7% y bonos del Tesoro rindiendo más de 5% a 10 años aprietan las condiciones financieras globales. Para quien invierte en Colombia, esto suele traducirse en presión sobre los TES y las acciones locales, mientras los ahorros en dólares ganan valor en pesos.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Tasas más altas en EE. UU. restan atractivo a la renta variable de mercados emergentes."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "El alza de los rendimientos del Tesoro suele arrastrar al alza las tasas de los TES y bajar su precio."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "positivo",
+            "detalle": "Un dólar global más fuerte aumenta en pesos el valor de los ahorros en dólares."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La decisión de la Reserva Federal y las siguientes cifras de inflación de EE. UU.",
+      "terminos": [
+        "Inflación",
+        "Inflación básica",
+        "Bonos del Tesoro de EE. UU.",
+        "Reserva Federal"
+      ],
+      "fuente": "La República (Bloomberg)",
+      "url": "https://www.larepublica.co/globoeconomia/wall-street-cae-tras-la-inflacion-de-ee-uu-que-refuerza-apuestas-de-mas-alzas-de-la-fed-4502650"
+    },
+    {
+      "id": "2026-10-14-04",
+      "fecha": "2026-10-14",
+      "categoria": "politica",
+      "puntaje": {
+        "total": 8,
+        "alcance": 2,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Presupuesto 2027: pasan $6 billones del pago de deuda a la reconstrucción",
+      "resumen": "Hacienda y el Congreso acordaron reducir en $6,4 billones el rubro de servicio de la deuda del Presupuesto General de la Nación de 2027; $6 billones irán a atender a los afectados por el terremoto y a la gestión del riesgo de desastres, según La República.",
+      "contexto": "El acuerdo lo confirmó el senador Christian Garcés, coordinador ponente del proyecto. Con el cambio, el servicio de la deuda queda en $149 billones, frente a $155,4 billones de la versión de primer debate. El presupuesto de 2027 crece 14,2% frente a la apropiación vigente de 2026 ($555,8 billones), y cerca de 70% de ese aumento va al pago de deuda, que sube 54,7%. La inversión baja de $89,5 billones a $86,9 billones (4,1% del PIB). Se añadió un artículo que obliga al Gobierno a presentar un plan de austeridad, y el Congreso tiene plazo hasta el 20 de octubre para aprobar la ley.",
+      "afectados": [
+        "Finanzas públicas",
+        "TES",
+        "Constructoras",
+        "Presupuesto 2027"
+      ],
+      "peso_alcista": 45,
+      "alcista": "Los $6 billones adicionales para la reconstrucción y la atención de desastres pueden impulsar la demanda de obras y vivienda en las zonas afectadas, lo que favorecería a constructoras y proveedores de materiales. El nuevo artículo que exige un plan de austeridad y de reducción de gastos de funcionamiento es una señal de control del gasto. El acuerdo entre Hacienda y el Congreso también despeja el camino para aprobar el presupuesto antes del 20 de octubre.",
+      "bajista": "Recortar la partida destinada a pagar deuda no elimina esa obligación, por lo que el mercado podría leerlo como una subestimación del servicio de la deuda que luego exigiría más ajustes o más endeudamiento. El pago de deuda ya explica cerca de 70% del aumento del presupuesto, lo que muestra la presión de los intereses. La inversión cae frente a 2026, lo que limita el impulso al crecimiento.",
+      "impacto": {
+        "conclusion": "Pesa ligeramente la lectura bajista: el ajuste redistribuye recursos hacia la reconstrucción, pero reduce la partida para una deuda que igual hay que pagar, en un presupuesto dominado por los intereses. Para el portafolio, el efecto se concentra en los TES, sensibles a cualquier duda sobre las cuentas públicas, y en las empresas ligadas a la construcción, que podrían recibir más demanda.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "positivo",
+            "detalle": "Más recursos para reconstrucción pueden elevar la demanda de constructoras y productores de materiales."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "mixto",
+            "detalle": "El plan de austeridad es una buena señal, pero recortar la partida de deuda puede generar dudas sobre las cuentas fiscales."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La votación del presupuesto antes del 20 de octubre y la posterior radicación de la Ley de Rescate fiscal.",
+      "terminos": [
+        "Presupuesto General de la Nación",
+        "Servicio de la deuda",
+        "TES"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/hacienda-y-congreso-acuerdan-reducir-6-4-billones-para-deuda-de-pgn-2027-4502059"
+    },
+    {
+      "id": "2026-10-14-03",
+      "fecha": "2026-10-14",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 9,
+        "alcance": 3,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Banco de la República recorta a $8,6 billones su proyección de utilidades de 2026",
+      "resumen": "El Banco de la República proyectó ante la Comisión Tercera del Senado utilidades de $8,6 billones para 2026, por debajo del récord de $13,9 billones de 2025 y de lo estimado en agosto, según Portafolio.",
+      "contexto": "El gerente Leonardo Villar atribuyó el recorte a los cambios en las tasas de interés internacionales, que redujeron el valor de los bonos en las reservas, y dijo que la cifra es menor a la incluida en el presupuesto. Las utilidades se giran al Gobierno; las de 2025 se entregaron en marzo de 2026. Las reservas internacionales sumaban US$67.817 millones al 31 de agosto. El viceministro técnico de Hacienda, Juan Sebastián Betancur, dijo que el gasto supera al ingreso en cerca de $11 billones al mes, y Villar afirmó que no ve espacio para bajar tasas en el primer semestre de 2027.",
+      "afectados": [
+        "Finanzas públicas",
+        "TES",
+        "Tasas de interés",
+        "Banco de la República"
+      ],
+      "peso_alcista": 30,
+      "alcista": "Villar indicó que no prevé tener que constituir una reserva para cubrir pérdidas futuras, y que el resultado final dependerá de los mercados globales, por lo que la cifra podría mejorar. Las reservas internacionales crecieron US$2.350 millones en un año y el Emisor las considera adecuadas frente a choques externos. Villar también señaló que un ajuste fiscal significativo podría abrir espacio para bajar tasas en 2027.",
+      "bajista": "Menos utilidades significan un menor giro al Gobierno en un momento en que el gasto supera al ingreso en unos $11 billones al mes, lo que amplía el hueco que debe cubrirse con deuda. Más necesidad de financiamiento presiona la oferta de TES y sus tasas. Además, Villar no ve espacio para recortes de tasa en el primer semestre de 2027, lo que prolonga el costo alto del crédito para empresas y hogares.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista: el Gobierno recibiría menos recursos del Emisor justo cuando su déficit es alto, y el gerente descarta recortes de tasa en la primera mitad de 2027. Para el portafolio, esto presiona a los TES y a las acciones locales y sostiene la rentabilidad del ahorro en pesos.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Sin recortes de tasa a la vista, el financiamiento sigue caro para las empresas listadas."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "Un menor giro al Gobierno amplía sus necesidades de deuda y presiona los precios de los TES."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "positivo",
+            "detalle": "Tasas altas al menos hasta mediados de 2027 sostienen la rentabilidad del ahorro en pesos."
+          }
+        ]
+      },
+      "mirar": "La radicación de la Ley de Rescate fiscal en el Congreso, que el viceministro espera en días o semanas.",
+      "terminos": [
+        "Utilidades del Banco de la República",
+        "Reservas internacionales",
+        "Tasa de política monetaria",
+        "Necesidades de financiamiento"
+      ],
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/del-record-de-13-9-billones-a-8-6-billones-asi-cambia-la-proyeccion-de-utilidades-del-emisor-para-504385"
+    },
+    {
+      "id": "2026-10-14-02",
+      "fecha": "2026-10-14",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 9,
+        "alcance": 4,
+        "materialidad": 3,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "Anif: el endeudamiento neto del Gobierno central llegó a 8,5% del PIB",
+      "resumen": "Un análisis de Anif con datos de cuentas nacionales del DANE calcula que, al segundo trimestre de 2026, el endeudamiento neto del Gobierno central llegó a $163 billones, equivalente a 8,5% del PIB, según Portafolio.",
+      "contexto": "El ahorro público fue negativo en $134 billones (cerca de 7% del PIB): en los últimos cuatro trimestres los ingresos sumaron $419 billones y crecieron 16% frente a 2023, mientras el gasto corriente aumentó 48%, con transferencias por $263 billones, consumo por $175 billones e intereses por $95 billones. El endeudamiento neto supera en más de 50% el de 2021 ($106 billones). Según Anif, cerca de 82% de esa necesidad se explica por ahorro negativo y 18% por inversión, y el ahorro privado financia cerca de 60% de lo que requiere el sector público.",
+      "afectados": [
+        "TES",
+        "Finanzas públicas",
+        "Peso colombiano",
+        "Tasas de interés"
+      ],
+      "peso_alcista": 25,
+      "alcista": "Las empresas no financieras y los hogares registran excedentes financieros ($56 billones y $27 billones), lo que muestra que el sector privado conserva capacidad de ahorro. La necesidad de financiación de toda la economía (3,6% del PIB) es menor que el máximo de 2022. Un diagnóstico tan claro puede reforzar el respaldo político al ajuste del gasto que prepara el Gobierno. Si ese ajuste se concreta, el mercado podría reducir la prima que exige a la deuda colombiana.",
+      "bajista": "El Gobierno gasta mucho más de lo que recauda y la brecha se cubre con deuda, lo que eleva la oferta de TES y presiona sus tasas al alza. Que el gasto corriente haya crecido tres veces más que los ingresos desde 2023 reduce el margen ante una desaceleración o nuevos choques externos. Parte del financiamiento depende de recursos externos, lo que hace al peso más sensible al apetito de los inversionistas extranjeros. Un déficit persistente también dificulta que el Banco de la República baje sus tasas.",
+      "impacto": {
+        "conclusion": "Pesa claramente la lectura bajista: la cifra confirma que el desequilibrio fiscal es grande y que se financia sobre todo con deuda para cubrir gasto corriente. Para el portafolio, esto implica presión sobre los TES y las acciones locales, y un peso más vulnerable; el ahorro en pesos se beneficia de tasas que seguirían altas.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Mayor riesgo fiscal eleva el costo de capital y pesa sobre la valoración de las empresas locales."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "Más emisión de deuda para cubrir el déficit presiona al alza las tasas de los TES y a la baja su precio."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "positivo",
+            "detalle": "La dependencia de financiamiento externo hace al peso más vulnerable, lo que eleva el valor en pesos de lo invertido en dólares."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "positivo",
+            "detalle": "El déficit dificulta la baja de tasas, lo que sostiene la rentabilidad del ahorro en pesos."
+          }
+        ]
+      },
+      "mirar": "La radicación de la Ley de Rescate fiscal y su efecto sobre el gasto corriente del Gobierno.",
+      "terminos": [
+        "Endeudamiento neto",
+        "Ahorro público",
+        "Necesidades de financiamiento",
+        "TES"
+      ],
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/endeudamiento-neto-del-gobierno-central-llego-a-163-billones-en-segundo-trimestre-equivale-al-8-5-del-pib-anif-504376"
+    },
+    {
+      "id": "2026-10-14-01",
+      "fecha": "2026-10-14",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 9,
+        "alcance": 4,
+        "materialidad": 3,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "Codirector del Banco de la República ve tasas altas por más tiempo y no descarta alzas",
+      "resumen": "Mauricio Villamizar, codirector del Banco de la República, afirmó que las tasas de interés seguirán altas durante un periodo prolongado y que se evalúan subidas adicionales si fueran necesarias, según Bloomberg Línea.",
+      "contexto": "Los analistas del Emisor proyectan inflación de 7,2% al cierre de 2026, 4,7% en 2027 y el regreso a la meta de 3% hacia finales de 2028. El banco subió su pronóstico de inflación de alimentos para 2026 de 9% a 10,5%, y un El Niño fuerte podría llevarla a 12%. Villamizar citó como riesgos El Niño, la guerra con Irán y un déficit fiscal que podría superar el 9% del PIB el próximo año. Colombia negocia un nuevo programa con el FMI que podría anunciarse a finales de octubre.",
+      "afectados": [
+        "Tasas de interés",
+        "TES",
+        "Bancos",
+        "Peso colombiano",
+        "CDT"
+      ],
+      "peso_alcista": 30,
+      "alcista": "Una postura firme del Emisor refuerza su credibilidad frente a la inflación, lo que con el tiempo puede reducir las expectativas de precios y la prima que exigen los inversionistas. Villamizar señaló que un acuerdo con el FMI enviaría una señal positiva a los mercados. También indicó que, si el Gobierno y el Congreso concretan recortes fiscales, se adelantaría el momento de bajar las tasas. Para el ahorrador en pesos, tasas altas por más tiempo sostienen la rentabilidad de los CDT.",
+      "bajista": "La posibilidad de nuevas alzas presiona los precios de los TES que ya están en los portafolios y encarece el crédito para empresas y hogares. Un pronóstico de inflación de 7,2% al cierre del año y de alimentos de hasta 12% con El Niño indica que el alivio tardará. Villamizar aclaró que un programa con el FMI no implicaría un recorte inmediato de tasas, y mucho menos en el corto plazo. Con tasas altas, las acciones locales compiten con rendimientos atractivos en renta fija y ahorro.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista: el mensaje es que las tasas no bajarán pronto y que incluso podrían subir, con una inflación que el propio Emisor ve en 7,2% al cierre de 2026. Para quien invierte, esto favorece al ahorro en pesos y presiona a los TES y a las acciones locales; un acuerdo con el FMI y recortes fiscales serían las señales que podrían cambiar el panorama.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Tasas altas por más tiempo encarecen el financiamiento y restan atractivo a la renta variable local."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "La posibilidad de nuevas alzas presiona a la baja el precio de los TES ya en el portafolio."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "Tasas altas atraen capital al peso, pero el riesgo fiscal y la inflación pueden debilitarlo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "positivo",
+            "detalle": "Las tasas de captación seguirían altas mientras el Emisor no recorte."
+          }
+        ]
+      },
+      "mirar": "El posible anuncio de un programa con el FMI a finales de octubre y la próxima reunión de la junta del Banco de la República.",
+      "terminos": [
+        "Tasa de política monetaria",
+        "Meta de inflación",
+        "FMI",
+        "Fenómeno de El Niño",
+        "TES"
+      ],
+      "fuente": "Bloomberg Línea",
+      "url": "https://www.bloomberglinea.com/latinoamerica/colombia/banquero-central-colombiano-ve-tasas-altas-por-un-periodo-largo-y-no-descarta-nuevas-alzas/"
+    },
+    {
+      "id": "2026-10-13-03",
+      "fecha": "2026-10-13",
+      "categoria": "commodities",
+      "puntaje": {
+        "total": 8,
+        "alcance": 3,
+        "materialidad": 3,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "El Brent toma una pausa tras subir más de 6% desde el jueves",
+      "resumen": "El petróleo retrocedió por debajo de US$105 por barril después de tres días de alzas que sumaron más de 6% desde el jueves, según La República. En lo que va del año, el crudo sube más de 70%.",
+      "contexto": "Los ataques a petroleros en el estrecho de Ormuz se intensificaron este mes y los ataques de los hutíes contra Arabia Saudita siguen en el radar. Del lado de la oferta, Arabia Saudita podría agregar 1,2 millones de barriles diarios de capacidad de exportación en siete a ocho semanas. Un analista citado ve el precio estabilizado entre US$103 y US$107.",
+      "afectados": [
+        "Ecopetrol",
+        "Finanzas públicas",
+        "Peso colombiano",
+        "Combustibles"
+      ],
+      "peso_alcista": 55,
+      "alcista": "Un crudo más de 70% por encima de comienzos de año es un alivio para Colombia como exportador: más ingresos para Ecopetrol, más regalías y dividendos para la Nación y más entrada de dólares. Eso ayuda a las cuentas fiscales, que son la principal debilidad del país. Si el precio se estabiliza en el rango de US$103 a US$107, el beneficio se mantiene sin nuevos sobresaltos.",
+      "bajista": "El encarecimiento de los derivados ya elevó con fuerza el precio de la gasolina, lo que presiona la inflación en Colombia y en el mundo. La tensión en Oriente Medio sigue alta y puede provocar episodios de aversión al riesgo que castigan a los mercados emergentes. Si Arabia Saudita aumenta su oferta, el precio podría caer rápidamente.",
+      "impacto": {
+        "conclusion": "Pesa levemente más la lectura alcista para Colombia, por su condición de exportador de petróleo: el crudo caro favorece a Ecopetrol y a las cuentas del país. Pero para un portafolio diversificado el efecto es mixto, porque el mismo petróleo caro mantiene alta la inflación.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "mixto",
+            "detalle": "Ecopetrol y el sector petrolero se benefician; el resto de la bolsa enfrenta la presión de la inflación y de la aversión al riesgo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "Combustibles más caros presionan la inflación y pueden retrasar la baja de tasas."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "El crudo caro trae dólares y tiende a fortalecer el peso, pero la tensión geopolítica puede hacer salir capital de emergentes."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "El dato de inflación de Estados Unidos de esta semana y cualquier anuncio de Arabia Saudita sobre su oferta.",
+      "terminos": [
+        "Brent",
+        "Estrecho de Ormuz",
+        "Inflación"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/brent-modera-su-racha-alcista-de-tres-dias-con-oriente-medio-y-rusia-en-el-punto-de-mira-4501593"
+    },
+    {
+      "id": "2026-10-13-02",
+      "fecha": "2026-10-13",
+      "categoria": "sectores",
+      "puntaje": {
+        "total": 9,
+        "alcance": 3,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "El Gobierno pide $1,2 billones y fija diciembre como plazo para evitar un apagón",
+      "resumen": "El presidente De La Espriella anunció que las medidas de emergencia para reducir el riesgo de racionamiento eléctrico por El Niño deberán estar listas a más tardar el 31 de diciembre, y pidió al Congreso un traslado presupuestal de $1,2 billones, según Portafolio.",
+      "contexto": "El Ideam declaró oficialmente el fenómeno de El Niño el 8 de octubre y advirtió que podría ser fuerte o muy fuerte, con 83% de probabilidad de durar al menos hasta marzo de 2027. Las medidas buscan reforzar la generación térmica, administrar los embalses y proteger el servicio. El Gobierno espera la mayor presión sobre los embalses entre el cuarto trimestre de 2026 y el primero de 2027.",
+      "afectados": [
+        "Generadoras de energía",
+        "Industria",
+        "Inflación",
+        "Finanzas públicas"
+      ],
+      "peso_alcista": 35,
+      "alcista": "Que el Gobierno actúe con plazo y recursos antes del periodo más crítico reduce la probabilidad de un racionamiento, que sería el peor escenario para la economía. Las generadoras con plantas térmicas podrían beneficiarse de una mayor demanda de su energía. El traslado se hace dentro del presupuesto de 2026, sin anunciar deuda nueva.",
+      "bajista": "Un Niño fuerte suele encarecer la energía y los alimentos, lo que presiona la inflación justo cuando ya está en 6,29%. Eso reduce el espacio para que el Banco de la República baje su tasa. Las empresas intensivas en energía enfrentarían costos más altos, y los $1,2 billones salen de otras partidas en un momento de estrechez fiscal.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista: el riesgo principal es que una energía más cara mantenga alta la inflación y las tasas. Las medidas reducen el riesgo de un apagón, pero no evitan el efecto sobre los precios. Para el portafolio, es una presión adicional sobre las acciones y los bonos ya comprados, y un apoyo a los rendimientos del ahorro en pesos.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "mixto",
+            "detalle": "Las generadoras con plantas térmicas podrían beneficiarse; las empresas intensivas en energía enfrentarían costos más altos."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "Energía y alimentos más caros presionan la inflación y alejan la baja de tasas, lo que pesa sobre los bonos ya comprados."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "positivo",
+            "detalle": "Tasas altas por más tiempo sostienen los rendimientos de los CDT."
+          }
+        ]
+      },
+      "mirar": "La aprobación del traslado presupuestal en el Congreso y los reportes del nivel de los embalses.",
+      "terminos": [
+        "Fenómeno de El Niño",
+        "Generación térmica",
+        "Inflación"
+      ],
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/gobierno-pone-fecha-limite-para-evitar-un-apagon-en-colombia-medidas-deberan-estar-listas-en-diciembre-504352"
+    },
+    {
+      "id": "2026-10-13-01",
+      "fecha": "2026-10-13",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 9,
+        "alcance": 4,
+        "materialidad": 3,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "El FMI prevé que Colombia crezca 2,2% en 2026, por debajo de la región",
+      "resumen": "En su informe de Perspectivas de la Economía Mundial de octubre, el FMI proyecta que la economía colombiana crecerá 2,2% en 2026 y 2,3% en 2027, por debajo del promedio de América Latina (2,3% y 2,5%), según Portafolio.",
+      "contexto": "En 2025 el país creció 2,6%, así que la proyección implica una desaceleración. El FMI también espera que la inflación promedio suba de 5,1% en 2025 a 6% en 2026 y baje a 5,7% en 2027; que el desempleo pase de 8% en 2025 a 9% en 2026 y 10% en 2027; y que el déficit de cuenta corriente se amplíe de 2,6% a 3,4% del PIB entre 2026 y 2027.",
+      "afectados": [
+        "Crecimiento económico",
+        "Empresas de consumo",
+        "Peso colombiano",
+        "Tasas de interés"
+      ],
+      "peso_alcista": 30,
+      "alcista": "La proyección para 2027 mejora levemente (2,3%) y la brecha con la región es pequeña, de una décima en 2026. Una economía más lenta también podría ayudar, con el tiempo, a bajar la inflación y abrir espacio para recortes de tasa. Además, si el ajuste fiscal avanza, las cifras podrían revisarse al alza en los próximos informes.",
+      "bajista": "El cuadro combina bajo crecimiento, inflación más alta en 2026 y desempleo en aumento hasta 10% en 2027, lo que golpea el consumo y las utilidades de las empresas. Con inflación de 6% es difícil que el Banco de la República baje su tasa pronto. Un déficit de cuenta corriente que se amplía a 3,4% del PIB hace al peso más vulnerable si se frenan los flujos de dólares.",
+      "impacto": {
+        "conclusion": "Pesa claramente la lectura bajista: el FMI ve a Colombia creciendo poco, con más inflación y más desempleo. Para el portafolio, eso significa presión sobre las utilidades de las empresas y tasas altas por más tiempo, lo que favorece al ahorro en pesos y a las inversiones en dólares frente a las acciones locales.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Menor crecimiento y más desempleo presionan las ventas y utilidades de las empresas listadas."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "mixto",
+            "detalle": "La inflación más alta frena la baja de tasas, pero una economía débil la favorece a mediano plazo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "positivo",
+            "detalle": "Un déficit de cuenta corriente más amplio puede debilitar el peso, lo que aumenta el valor en pesos de las inversiones en dólares."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "positivo",
+            "detalle": "Con inflación de 6%, las tasas altas se mantendrían y sostendrían los rendimientos de los CDT."
+          }
+        ]
+      },
+      "mirar": "El dato de inflación de octubre del DANE y la próxima decisión de tasas del Banco de la República.",
+      "terminos": [
+        "FMI",
+        "PIB",
+        "Inflación",
+        "Déficit de cuenta corriente"
+      ],
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/gobierno/fmi-preve-que-colombia-crezca-solo-2-2-en-2026-y-siga-por-debajo-del-promedio-de-latinoamerica-504349"
+    },
+    {
+      "id": "2026-10-12-04",
+      "fecha": "2026-10-12",
+      "categoria": "politica",
+      "puntaje": {
+        "total": 8,
+        "alcance": 3,
+        "materialidad": 3,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "Ley de Rescate: el Gobierno prepara un ajuste fiscal de 2,2% del PIB",
+      "resumen": "El ministro de Hacienda anunció que el proyecto de Ley de Rescate se radicará en el Congreso en los próximos días. El Gobierno busca corregir el déficit primario en cerca de 2,2% del PIB en 2027, unos $42 billones, según El Tiempo.",
+      "contexto": "El texto aún no se conoce. Gremios y exfuncionarios consultados proponen recortar gasto de forma permanente, revisar subsidios mal focalizados (incluidos los de combustibles y servicios públicos), depurar exenciones de IVA sin subir la tarifa general de 19% y desmontar gradualmente el 4x1000. También se mencionan ventas de activos estatales y el desmonte de sobretasas al petróleo y la minería.",
+      "afectados": [
+        "TES",
+        "Peso colombiano",
+        "Bancos",
+        "Ecopetrol y sector minero-energético"
+      ],
+      "peso_alcista": 60,
+      "alcista": "Un ajuste creíble de más de 2% del PIB atacaría la principal vulnerabilidad del país, que es la fiscal. Si el mercado lo ve como permanente, podría bajar la prima de riesgo y las tasas de los TES, lo que valoriza los portafolios de renta fija y mejora el costo de capital de las empresas. El desmonte del 4x1000 y de sobretasas al sector minero-energético sería positivo para bancos, petroleras y mineras.",
+      "bajista": "El proyecto todavía no tiene texto y tendrá que pasar por el Congreso, donde puede diluirse. Si el ajuste se apoya en recortes de inversión pública o en impuestos nuevos, podría frenar una economía que ya muestra un consumo débil. Además, las propuestas de los gremios son solo eso: el contenido final puede ser distinto.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura alcista: un ajuste fiscal creíble ataca la principal debilidad del país y suele traducirse en tasas más bajas y más confianza. El efecto real depende de que el proyecto se apruebe sin diluirse; hasta que se conozca el texto, es una expectativa y no un hecho.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "positivo",
+            "detalle": "Bancos y empresas minero-energéticas serían los más favorecidos si se desmontan el 4x1000 y las sobretasas."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "positivo",
+            "detalle": "Un menor déficit reduce la prima de riesgo y podría bajar las tasas de los TES, lo que valoriza los bonos ya comprados."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "negativo",
+            "detalle": "Más confianza en el país tiende a fortalecer el peso, lo que reduce el valor en pesos de las inversiones en dólares."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Efecto de mediano plazo: si las tasas bajan, los CDT nuevos rendirían menos."
+          }
+        ]
+      },
+      "mirar": "La radicación del proyecto y la publicación de su articulado.",
+      "terminos": [
+        "Déficit primario",
+        "4x1000",
+        "Prima de riesgo país",
+        "TES"
+      ],
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/economia/sectores/iva-subsidios-4x1000-y-gasto-publico-todo-lo-que-deberia-incluir-la-ley-de-rescate-del-gobierno-de-la-espriella-3592375"
+    },
+    {
+      "id": "2026-10-11-04",
+      "fecha": "2026-10-11",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 9,
+        "alcance": 3,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "JP Morgan: Colombia necesitaría hasta US$72.000 millones en 2027",
+      "resumen": "En un informe del 8 de octubre reseñado por Portafolio, JP Morgan estima que el Gobierno necesitaría entre unos US$50.000 millones (8% del PIB) y US$72.000 millones (11,6% del PIB) de financiamiento en 2027, según qué tan efectivo sea el ajuste fiscal.",
+      "contexto": "Para 2026 la necesidad de financiamiento se estima en cerca de 9,6% del PIB, muy por encima del promedio de 5,3% de 2010-2019. A julio de 2026 el déficit total iba en 3,8% del PIB y JP Morgan proyecta que cierre el año en 7,4%. Los ingresos reales cayeron 11,8% anual en julio, en parte por menores dividendos de Ecopetrol, mientras la inversión pública real cae 11,4% en lo corrido del año.",
+      "afectados": [
+        "TES",
+        "Peso colombiano",
+        "Ecopetrol",
+        "Riesgo país"
+      ],
+      "peso_alcista": 45,
+      "alcista": "La Ley de Ajuste Fiscal busca bajar el déficit primario a cerca de 2,5% del PIB y JP Morgan espera alrededor de 2,6%, es decir, ve el ajuste como bastante creíble. Junto con operaciones para reducir amortizaciones, eso llevaría la necesidad a la parte baja del rango. Un eventual programa con el FMI daría financiamiento a algo más de 3%, frente a cerca de 7% que rinde el bono en dólares de 2031, y el banco ve las metas del Gobierno compatibles con lo que pediría el Fondo.",
+      "bajista": "JP Morgan insiste en que lo fiscal es la principal vulnerabilidad macro de Colombia. Si el ajuste no se aprueba o se diluye, la necesidad subiría hacia 11,6% del PIB y obligaría a emitir más deuda, presionando las tasas de los TES y la prima de riesgo país. Un programa con el FMI vendría con condiciones y desembolsos anuales limitados, de unos US$5.500 millones, y la caída de ingresos ligada a menores dividendos de Ecopetrol muestra lo expuesto que está el fisco al petróleo.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista: la necesidad de deuda es alta y depende de un ajuste fiscal que aún no está aprobado. Mientras eso no se resuelva, el riesgo fiscal seguirá presionando las tasas de los TES y la prima de riesgo del país.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Más riesgo fiscal suele traducirse en una prima de riesgo mayor y menor valoración de las acciones."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "Más emisión de deuda presiona al alza las tasas de los TES, lo que reduce el precio de los bonos ya comprados."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "positivo",
+            "detalle": "Si el riesgo fiscal debilita el peso, las inversiones en dólares ganan valor en pesos."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo de corto plazo."
+          }
+        ]
+      },
+      "mirar": "El avance de la Ley de Ajuste Fiscal y cualquier anuncio sobre un acuerdo con el FMI.",
+      "terminos": [
+        "Necesidades de financiamiento",
+        "Déficit primario",
+        "Amortización",
+        "Prima de riesgo país",
+        "FMI"
+      ],
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/crecimiento/colombia-necesitaria-entre-us-50-000-y-us-72-000-millones-de-financiamiento-en-2027-jp-morgan-504217"
+    },
+    {
+      "id": "2026-10-11-02",
+      "fecha": "2026-10-11",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 9,
+        "alcance": 3,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Los extranjeros vuelven a comprar TES con tasas cerca del 13%",
+      "resumen": "Según un informe del Banco de Bogotá citado por Portafolio, los TES en pesos volvieron en septiembre a tasas cercanas al 13%, el nivel más alto desde mayo. Los extranjeros compraron cerca de $800.000 millones tras dos meses de ventas, los bancos sumaron cerca de $1 billón y los fondos de pensiones fueron los mayores compradores, con unos $6,1 billones.",
+      "contexto": "En septiembre el Ministerio de Hacienda redujo su portafolio de TES en cerca de $1,1 billones y el Banco de la República pausó sus compras. El informe atribuye las ventas de extranjeros de agosto sobre todo a toma de utilidades de fondos puntuales, más que a una pérdida general de confianza en Colombia. Septiembre también trajo una sorpresa a la baja en la inflación.",
+      "afectados": [
+        "TES",
+        "Bancos",
+        "Fondos de pensiones",
+        "Peso colombiano"
+      ],
+      "peso_alcista": 55,
+      "alcista": "El regreso de los extranjeros tras dos meses de ventas sugiere que tasas cerca del 13% ya resultan atractivas. Que los fondos de pensiones prefieran TES en pesos frente a los UVR apunta a menores expectativas de inflación, en línea con la sorpresa a la baja de septiembre. Si esa demanda se sostiene, las tasas podrían ceder y valorizar los portafolios de deuda de bancos y fondos; tasas de largo plazo más bajas también mejoran la valoración de las acciones.",
+      "bajista": "Que los TES rindan cerca del 13% muestra que el mercado sigue exigiendo una prima alta por el riesgo fiscal. El propio informe dice que los extranjeros esperan ver el ajuste fiscal antes de aumentar su exposición, así que su demanda puede revertirse si el ajuste se demora. Con el Banco de la República fuera del mercado en septiembre hay un comprador menos, y tasas altas mantienen caro el costo de capital y compiten con las acciones por el dinero de los inversionistas.",
+      "impacto": {
+        "conclusion": "Pesa levemente más la lectura alcista: el regreso de los extranjeros y la preferencia por TES en pesos apuntan a menores expectativas de inflación. Si la demanda se sostiene, las tasas podrían ceder, lo que valoriza los bonos y mejora las condiciones para las acciones.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "positivo",
+            "detalle": "Tasas de largo plazo más bajas mejoran la valoración de las acciones."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "positivo",
+            "detalle": "Si las tasas ceden, los TES y bonos ya comprados se valorizan."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "negativo",
+            "detalle": "La entrada de capital extranjero tiende a fortalecer el peso."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Si las tasas bajan, los CDT nuevos rendirían algo menos."
+          }
+        ]
+      },
+      "mirar": "Las señales de ajuste fiscal del Gobierno y el próximo dato de inflación.",
+      "terminos": [
+        "TES",
+        "TES UVR",
+        "Fondos de pensiones",
+        "Toma de utilidades",
+        "Costo de capital"
+      ],
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/los-tes-en-pesos-regresaron-a-tasas-cercanas-al-13-y-abrieron-oportunidades-de-compra-para-bancos-y-extranjeros-504170"
+    },
+    {
+      "id": "2026-10-11-01",
+      "fecha": "2026-10-11",
+      "categoria": "commodities",
+      "puntaje": {
+        "total": 9,
+        "alcance": 3,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Tercer ataque a un petrolero en dos días en el estrecho de Ormuz",
+      "resumen": "La Guardia Revolucionaria de Irán reportó el domingo una explosión, que atribuye a una mina, en un superpetrolero cargado de crudo que salía del golfo Pérsico. Irán sostiene que el estrecho está cerrado salvo por rutas que él autoriza; Estados Unidos dice que no hay bloqueo.",
+      "contexto": "Irán declaró cerrado el estrecho en represalia por ataques de Estados Unidos y solo permite el paso por rutas que autorizan sus fuerzas armadas. La Guardia Revolucionaria dice que es el tercer ataque a un petrolero en dos días y advierte que tratará como hostiles a los barcos que apaguen sus sistemas de navegación. Estados Unidos afirma que mantiene el control militar de la zona, aunque su presencia se limita a la parte exterior del paso. Según una nota relacionada del mismo medio, el tránsito por el estrecho cayó a su nivel más bajo en más de dos meses.",
+      "afectados": [
+        "Ecopetrol",
+        "Peso colombiano",
+        "Aerolíneas y transporte",
+        "Inflación"
+      ],
+      "peso_alcista": 55,
+      "alcista": "Si la tensión se prolonga, el riesgo sobre la oferta tiende a sostener o subir el precio del crudo. Para Ecopetrol eso puede significar mejores precios de venta y más flujo de caja. Para Colombia, el petróleo sigue siendo una fuente clave de divisas y de ingresos fiscales, así que un crudo más caro puede darle soporte al peso y aliviar algo las cuentas del Gobierno.",
+      "bajista": "Un crudo más caro encarece combustibles, transporte e importaciones, y puede presionar la inflación cuando el Banco de la República aún mantiene tasas altas; eso podría retrasar los recortes y pesar sobre la valoración de las acciones locales. En episodios de tensión geopolítica los inversionistas también suelen salir de activos emergentes, lo que puede golpear a la bolsa colombiana y al peso aunque el petróleo suba. Para empresas intensivas en combustible, como las aerolíneas, es un aumento directo de costos.",
+      "impacto": {
+        "conclusion": "Pesa levemente más la lectura alcista desde Colombia, por el beneficio del petróleo caro para Ecopetrol y las cuentas del país. Pero para un portafolio diversificado el efecto es mixto, porque la tensión geopolítica también aumenta la aversión al riesgo y presiona la inflación global.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "mixto",
+            "detalle": "Ecopetrol y el sector petrolero se benefician; el resto de la bolsa puede sufrir por la mayor aversión al riesgo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "Un crudo más caro presiona la inflación global y puede alejar los recortes de tasa."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "El petróleo caro trae dólares y fortalece el peso, pero la tensión puede hacer salir capital de emergentes."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "Si el tránsito de petroleros por el estrecho se recupera o sigue cayendo, y cómo abre el Brent esta semana.",
+      "terminos": [
+        "Estrecho de Ormuz",
+        "Brent",
+        "Inflación"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/iran-reporto-nueva-explosion-en-un-superpetrolero-en-el-estrecho-de-ormuz-4501258"
+    }
+  ],
+  "urls": [
+    "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/ibovespa-cai-268-e-dolar-fecha-em-leve-baixa-r-534",
+    "https://eltiempo.com/economia/sectores/ecopetrol-declara-desiertas-ofertas-de-gas-importado-y-apuesta-por-acelerar-el-desarrollo-de-sirius-3594579",
+    "https://es.marketscreener.com/noticias/activos-en-brasil-atentos-a-balotaje-peso-mexicano-cae-con-fuerza-ce785cd9da88ff26",
+    "https://infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-29102026",
+    "https://www.ambito.com/finanzas/el-bcra-acelero-las-compras-y-acumulo-mas-us200-millones-la-semana-pero-bajaron-las-reservas-n6336918",
+    "https://www.ambito.com/finanzas/el-dolar-oficial-alcanzo-un-nuevo-record-nominal-pero-el-mercado-pone-la-lupa-las-reservas-del-bcra-n6336622",
+    "https://www.ambito.com/finanzas/los-adrs-y-acciones-argentina-caen-8-wall-street-la-victoria-lula-da-silva-brasil-n6337806",
+    "https://www.bloomberglinea.com/latinoamerica/colombia/banquero-central-colombiano-ve-tasas-altas-por-un-periodo-largo-y-no-descarta-nuevas-alzas/",
+    "https://www.bloomberglinea.com/latinoamerica/colombia/economia-colombiana-tendria-su-peor-crecimiento-de-2026-en-el-tercer-trimestre/",
+    "https://www.dgabc.com.br/Noticia/4354287/fechamento-cambio-dolar-tem-leve-alta-com-aversao-global-a-risco-e-tensao-eleitoral",
+    "https://www.elfinanciero.com.mx/economia/2026/10/28/exportaciones-mexicanas-crecen-38-por-ciento-en-septiembre-sumaron-77-mil-797-millones-de-dolares/",
+    "https://www.elfinanciero.com.mx/economia/2026/10/30/economia-de-mexico-supera-expectativas-crece-32-anual-en-tercer-trimestre-el-mas-alto-en-3-anos/",
+    "https://www.elfinanciero.com.mx/mercados/2026/10/21/peso-dolar-tipo-de-cambio-precio-hoy-21-de-octubre-de-2026/",
+    "https://www.elfinanciero.com.mx/mercados/2026/10/26/peso-dolar-tipo-de-cambio-precio-hoy-26-de-octubre-de-2026/",
+    "https://www.eltiempo.com/economia/sectores/crisis-energetica-y-terremoto-ponen-al-gobierno-a-buscar-3-9-billones-pide-al-congreso-permiso-para-hacer-traslados-3596712",
+    "https://www.eltiempo.com/economia/sectores/estas-son-las-claves-que-deberia-tener-una-contrarreforma-pensional-antes-de-que-opere-el-nuevo-sistema-3583733",
+    "https://www.eltiempo.com/economia/sectores/iva-subsidios-4x1000-y-gasto-publico-todo-lo-que-deberia-incluir-la-ley-de-rescate-del-gobierno-de-la-espriella-3592375",
+    "https://www.eltiempo.com/economia/sectores/los-cambios-que-trae-la-reforma-a-la-consulta-previa-y-por-que-logro-un-respaldo-generalizado-en-colombia-3592669",
+    "https://www.eluniversal.com.co/colombia/2026/10/19/colombia-registro-una-caida-de-su-actividad-economica-en-agosto-de-2026/",
+    "https://www.eluniversal.com.co/colombia/2026/10/30/como-le-fue-al-desempleo-en-colombia-dane-revelo-la-cifra-de-septiembre/",
+    "https://www.euribor.com.es/2026/10/26/precio-petroleo-hoy-26-octubre-2026/",
+    "https://www.excelsior.com.mx/finanzas/precio-dolar-hoy-tipo-cambio-bancos-mexico-22-octubre-2026",
+    "https://www.infobae.com/america/america-latina/2026/10/26/las-acciones-brasilenas-y-el-real-se-hundieron-tras-la-inesperada-reeleccion-de-lula-da-silva/",
+    "https://www.infobae.com/america/america-latina/2026/10/26/los-mercados-brasilenos-se-preparan-para-fuertes-perdidas-tras-la-victoria-de-lula-va-a-ser-un-dia-dificil/",
+    "https://www.infobae.com/america/mundo/2026/10/30/el-petroleo-suma-cuatro-meses-de-alzas-y-alcanzo-su-mayor-cierre-desde-mayo/",
+    "https://www.infobae.com/colombia/2026/10/23/banco-de-la-republica-mostro-precupacion-por-creditos-dolar-y-tasas-de-interes-ante-el-deficit-fiscal-del-gobierno-nacional/",
+    "https://www.infobae.com/colombia/2026/10/28/isa-mueve-su-junta-directiva-presidente-de-ecopetrol-y-representante-de-epm-entran-al-organo-de-direccion/",
+    "https://www.infobae.com/colombia/2026/10/30/banco-de-la-republica-mantuvo-la-tasa-de-interes-en-1225-por-decision-mayoritaria/",
+    "https://www.infobae.com/economia/2026/10/24/el-riesgo-pais-volvio-a-superar-los-700-puntos-y-la-volatilidad-internacional-golpeo-a-los-bonos-argentinos/",
+    "https://www.infobae.com/economia/2026/10/27/por-primera-vez-en-el-ano-el-bcra-no-compro-divisas-por-dos-ruedas-consecutivas/",
+    "https://www.infobae.com/economia/2026/10/29/jornada-financiera-subieron-los-bonos-argentinos-y-cayo-el-riesgo-pais-pero-las-acciones-cedieron-por-cuarto-dia-seguido/",
+    "https://www.infobae.com/estados-unidos/2026/10/28/la-reserva-federal-de-estados-unidos-mantuvo-sin-cambios-la-tasa-de-interes-de-referencia/",
+    "https://www.infomoney.com.br/economia/ipca-15-previa-inflacao-ibge-outubro-2026/",
+    "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-29102026/",
+    "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-23102026/",
+    "https://www.larepublica.co/economia/analistas-preven-un-alza-de-25-puntos-basicos-en-la-tasa-de-politica-monetaria-4504617",
+    "https://www.larepublica.co/economia/aun-con-los-aguaceros-de-octubre-los-embalses-no-superan-75-de-llenado-4504902",
+    "https://www.larepublica.co/economia/comienza-la-carrera-por-la-ley-de-rescate-y-las-nuevas-adiciones-presupuestales-del-pgn-4510052",
+    "https://www.larepublica.co/economia/comportamiento-del-comercio-en-agosto-de-2026-4504399",
+    "https://www.larepublica.co/economia/congreso-de-la-republica-dio-luz-verde-al-presupuesto-de-2027-por-634-9-billones-4506678",
+    "https://www.larepublica.co/economia/deficit-fiscal-llego-a-4-7-del-pib-a-agosto-y-los-intereses-consumen-28-del-recaudo-tributario-4508903",
+    "https://www.larepublica.co/economia/en-septiembre-ventas-de-vivienda-cayeron-12-frente-a-2025-totalizando-118-844-4509987",
+    "https://www.larepublica.co/economia/fmi-advierte-que-deficit-primario-de-colombia-es-muy-alto-y-no-es-sostenible-4504196",
+    "https://www.larepublica.co/economia/fmi-y-banco-mundial-revisaran-estrategia-de-deuda-publica-de-colombia-para-2027-2030-4507257",
+    "https://www.larepublica.co/economia/gas-natural-vehicular-se-disparo-casi-20-por-aumento-de-la-referencia-internacional-4511543",
+    "https://www.larepublica.co/economia/gobierno-de-la-espriella-presentara-la-ley-de-rescate-para-ajustar-las-finanzas-esta-semana-4510802",
+    "https://www.larepublica.co/economia/gobierno-recorto-13-8-billones-al-presupuesto-general-de-la-nacion-de-2026-4509412",
+    "https://www.larepublica.co/economia/hacienda-y-congreso-acuerdan-reducir-6-4-billones-para-deuda-de-pgn-2027-4502059",
+    "https://www.larepublica.co/economia/indice-de-confianza-al-consumidor-en-septiembre-de-2026-entregado-por-fedesarrollo-4502556",
+    "https://www.larepublica.co/economia/jose-manuel-restrepo-plantea-ajuste-fiscal-de-70-billones-para-el-proximo-ano-4510040",
+    "https://www.larepublica.co/economia/la-navidad-y-el-fenomeno-de-el-nino-llevarian-el-kilovatio-a-mas-de-800-4505372",
+    "https://www.larepublica.co/economia/ley-de-rescate-modificaria-regla-fiscal-y-pondria-techo-al-gasto-si-la-deuda-supera-63-del-pib-4514413",
+    "https://www.larepublica.co/economia/por-tercera-vez-desde-1991-se-expedira-el-presupuesto-general-de-la-nacion-via-decreto-4508176",
+    "https://www.larepublica.co/economia/resultados-de-la-encuesta-mensual-manufacturera-de-agosto-del-dane-4504422",
+    "https://www.larepublica.co/economia/spec-lng-realizara-trabajos-correctivos-en-uno-se-sus-trenes-de-regasificacion-4511860",
+    "https://www.larepublica.co/economia/trump-abrio-la-puerta-a-retirar-aranceles-de-12-5-a-productos-como-flores-y-alimentos-4501545",
+    "https://www.larepublica.co/economia/ventas-de-vivienda-cayeron-25-en-agosto-y-en-lo-corrido-del-ano-ya-bajaron-17-5-4500809",
+    "https://www.larepublica.co/empresas/afinia-ha-sido-el-peor-negocio-en-la-historia-de-epm-john-maya-salazar-gerente-de-epm-4508838",
+    "https://www.larepublica.co/empresas/produccion-de-oro-de-mineros-crecio-11-3-a-septiembre-y-sube-expectativa-para-2026-4501718",
+    "https://www.larepublica.co/finanzas/banco-de-bogota-regreso-al-top-tres-de-los-bancos-que-mas-ganan-con-corte-a-agosto-4504649",
+    "https://www.larepublica.co/finanzas/fasecolda-reporto-6-5-billones-en-perdidas-aseguradas-por-terremoto-del-10-de-agosto-4502510",
+    "https://www.larepublica.co/finanzas/precio-del-dolar-y-petroleo-hoy-15-de-octubre-4503301",
+    "https://www.larepublica.co/globoeconomia/barril-brent-sigue-arriba-de-us-111-por-ataques-a-arabia-y-presiones-de-oferta-4508427",
+    "https://www.larepublica.co/globoeconomia/brent-modera-su-racha-alcista-de-tres-dias-con-oriente-medio-y-rusia-en-el-punto-de-mira-4501593",
+    "https://www.larepublica.co/globoeconomia/brent-toca-maximos-de-cinco-meses-con-us-111-el-barril-tras-ataques-en-medio-oriente-4506709",
+    "https://www.larepublica.co/globoeconomia/el-brent-ronda-us-106-mientras-los-ataques-amenazan-la-oferta-de-petroleo-4502435",
+    "https://www.larepublica.co/globoeconomia/gigantes-tecnologicos-preven-emitir-mas-de-us-1-billon-en-deuda-para-financiar-la-ia-4501294",
+    "https://www.larepublica.co/globoeconomia/iran-reporto-nueva-explosion-en-un-superpetrolero-en-el-estrecho-de-ormuz-4501258",
+    "https://www.larepublica.co/globoeconomia/petroleo-supera-los-us-110-por-primera-vez-desde-mayo-por-riesgo-en-suministro-4504186",
+    "https://www.larepublica.co/globoeconomia/temor-por-gasto-en-inteligencia-artificial-golpea-acciones-y-el-petroleo-se-dispara-4506882",
+    "https://www.larepublica.co/globoeconomia/wall-street-cae-tras-la-inflacion-de-ee-uu-que-refuerza-apuestas-de-mas-alzas-de-la-fed-4502650",
+    "https://www.portafolio.co/economia/crecimiento/colombia-necesitaria-entre-us-50-000-y-us-72-000-millones-de-financiamiento-en-2027-jp-morgan-504217",
+    "https://www.portafolio.co/economia/crecimiento/gobierno-reporta-nuevos-huecos-fiscales-por-mas-de-2-7-billones-y-advierte-presiones-adicionales-sobre-presupuesto-504571",
+    "https://www.portafolio.co/economia/crecimiento/presupuesto-2027-congresistas-alistan-nuevas-proposiciones-antes-de-la-votacion-definitiva-de-este-19-de-octubre-504666",
+    "https://www.portafolio.co/economia/del-record-de-13-9-billones-a-8-6-billones-asi-cambia-la-proyeccion-de-utilidades-del-emisor-para-504385",
+    "https://www.portafolio.co/economia/endeudamiento-neto-del-gobierno-central-llego-a-163-billones-en-segundo-trimestre-equivale-al-8-5-del-pib-anif-504376",
+    "https://www.portafolio.co/economia/finanzas/colombia-cumplio-el-rango-de-inflacion-del-banco-de-la-republica-en-solo-seis-de-los-ultimos-16-anos-504277",
+    "https://www.portafolio.co/economia/gobierno/fmi-preve-que-colombia-crezca-solo-2-2-en-2026-y-siga-por-debajo-del-promedio-de-latinoamerica-504349",
+    "https://www.portafolio.co/economia/gobierno/gobierno-pone-fecha-limite-para-evitar-un-apagon-en-colombia-medidas-deberan-estar-listas-en-diciembre-504352",
+    "https://www.portafolio.co/economia/gobierno/salario-minimo-de-2027-proponen-aumento-de-entre-8-y-10-tras-inflacion-superior-al-6-de-septiembre-504272",
+    "https://www.portafolio.co/economia/gobierno/tras-contraccion-de-mas-de-us-140-millones-el-gobierno-tumba-la-prohibicion-de-exportacion-de-carbon-a-israel-504410",
+    "https://www.portafolio.co/economia/los-tes-en-pesos-regresaron-a-tasas-cercanas-al-13-y-abrieron-oportunidades-de-compra-para-bancos-y-extranjeros-504170",
+    "https://www.portafolio.co/energia/cerro-matoso-dejo-de-producir-2-400-ton-de-niquel-por-falta-de-gas-y-hay-perdidas-para-el-pais-de-90-000-millones-504372",
+    "https://www.portafolio.co/energia/ecuador-reanuda-transporte-de-petroleo-colombiano-tras-nueve-meses-de-suspension-por-guerra-arancelaria-504648",
+    "https://www.portafolio.co/internacional/petroleo-cae-este-27-de-octubre-brent-de-enero-cotiza-en-us-109-32-y-wti-de-diciembre-ronda-los-us-505208",
+    "https://www.portafolio.co/mis-finanzas/creditos/la-cartera-de-credito-en-colombia-siguio-creciendo-pero-a-un-ritmo-mas-lento-en-agosto-504683",
+    "https://www.portafolio.co/negocios/empresas/davivienda-integrara-a-davibank-antes-scotiabank-colpatria-desde-noviembre-activos-superan-38-3-billones-504404",
+    "https://www.portafolio.co/negocios/empresas/gilinski-consolida-el-control-de-nutresa-con-acuerdo-entre-sociedades-que-reunen-el-76-71-de-las-acciones-504492",
+    "https://www.semana.com/economia/inversionistas/articulo/dolar-cierra-al-alza-la-jornada-del-miercoles-28-de-octubre-este-es-el-precio-de-la-divisa/202601/",
+    "https://www.semana.com/economia/macroeconomia/articulo/colombia-negocia-el-fin-de-los-aranceles-las-exigencias-que-podria-imponer-ee-uu/202600/",
+    "https://www.valoraanalitik.com/anticipan-votacion-dividida-de-la-junta-del-banco-de-la-republica-por-las-tasas-de-interes-en-octubre-quienes-estaran-en-desacuerdo/",
+    "https://www.valoraanalitik.com/aval-casa-de-bolsa-proyecta-inflacion-del-690-y-tasas-de-interes-congeladas-en-1225-para-el-cierre-de-2026/",
+    "https://www.valoraanalitik.com/bogota-vuelve-al-mercado-de-capitales/",
+    "https://www.valoraanalitik.com/congreso-votara-presupuesto-2027-en-segundo-debate-con-menos-pagos-de-deuda-y-mayor-inversion/",
+    "https://www.valoraanalitik.com/corficolombiana-logra-el-archivo-definitivo-del-caso-odebrecht-en-estados-unidos/",
+    "https://www.valoraanalitik.com/corte-constitucional-le-da-30-dias-al-gobierno-para-sustentar-el-impacto-fiscal-de-5-billones-en-la-reforma-pensional/",
+    "https://www.valoraanalitik.com/desempleo-en-colombia-podria-volver-al-doble-digito-alerta-importante-informe-del-fmi/",
+    "https://www.valoraanalitik.com/detonantes-geb-camino-wall-street-acciones/",
+    "https://www.valoraanalitik.com/dolar-colombia-reboto-este-martes-27/",
+    "https://www.valoraanalitik.com/dolar-en-colombia-llegaria-a-4-000-a-finales-de-2026-proyecciones-se-mueven-entre-el-alivio-de-la-apreciacion-y-la-sombra-fiscal/",
+    "https://www.valoraanalitik.com/dolar-en-colombia-se-desploma-cierra-en-3-145-impulsado-por-el-repunte-del-brent/",
+    "https://www.valoraanalitik.com/dolar-en-colombia-sigue-perdiendo-fuerza-bajo-de-los-3-150-en-la-jornada/",
+    "https://www.valoraanalitik.com/dolar-en-colombia-termina-jornada-al-alza-a-la-espera-de-decision-de-tasas-del-banrep/",
+    "https://www.valoraanalitik.com/dolar-en-colombia-volvio-a-subir-y-supero-los-3-200-cerro-al-alza-en-medio-de-cautela-fiscal/",
+    "https://www.valoraanalitik.com/economia-colombiana-se-adentra-en-una-fase-de-desaceleracion-pib-caeria-por-debajo-del-2-en-el-tercer-trimestre/",
+    "https://www.valoraanalitik.com/ecopetrol-busca-cambios-en-isa/",
+    "https://www.valoraanalitik.com/fmi-tendra-nueva-mision-a-colombia-avanzar-plan-de-rescate-fiscal/",
+    "https://www.valoraanalitik.com/geb-emitira-titulos-400-000-millones/",
+    "https://www.valoraanalitik.com/gobierno-de-la-espriella-coloco-us5-200-millones-en-sus-primeros-bonos-internacionales-con-alta-demanda/",
+    "https://www.valoraanalitik.com/grupo-energia-bogota-y-la-caisse-cierran-operacion-para-crear-una-de-las-mayores-transmisoras-electricas-de-brasil/",
+    "https://www.valoraanalitik.com/informe-remesas-en-colombia-septiembre-2026-se-completan-28-meses-por-encima-de-us1-000-millones/",
+    "https://www.valoraanalitik.com/inversion-extranjera-directa-en-colombia-crecio-44-en-septiembre-pero-remesas-la-sigue-superando/",
+    "https://www.valoraanalitik.com/mercado-da-por-hecho-una-tasa-del-1250-en-banrep-para-octubre/",
+    "https://www.valoraanalitik.com/minhacienda-completo-segunda-operacion-de-reperfilamiento-de-deuda-intercambio-tes-por-103-billones/",
+    "https://www.valoraanalitik.com/minhacienda-pide-archivar-cuatro-polemicos-articulos-del-presupuesto-de-2027-que-se-aprobaron-sin-aval-del-gobierno/",
+    "https://www.valoraanalitik.com/ministerio-de-hacienda-pide-adicionar-12-billones-al-presupuesto-para-subsidios-de-energia/",
+    "https://www.valoraanalitik.com/por-que-el-salario-minimo-de-colombia-no-subira-tanto-para-el-ano-entrante/",
+    "https://www.valoraanalitik.com/por-que-se-freno-el-comercio-en-colombia-en-julio-estos-factores-llevaron-las-ventas-a-su-nivel-mas-bajo-en-dos-anos/",
+    "https://www.vanguardia.com/economia/nacional/2026/10/20/congreso-aprobo-el-presupuesto-de-2027-por-63495-billones-y-definio-nuevas-partidas/"
+  ]
+}

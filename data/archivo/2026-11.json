@@ -1,0 +1,75 @@
+{
+  "mes": "2026-11",
+  "notas": [
+    {
+      "id": "2026-11-02-01",
+      "fecha": "2026-11-02",
+      "categoria": "politica",
+      "puntaje": {
+        "total": 9,
+        "alcance": 4,
+        "materialidad": 3,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "Gobierno advierte riesgo de impago en 2027 si no se aprueba la Ley de Rescate",
+      "resumen": "El vicepresidente José Manuel Restrepo y el ministro de Hacienda, Miguel Gómez, dijeron en una entrevista con Semana que Colombia podría caer en default en 2027 si el Congreso no aprueba la Ley de Rescate Económico antes de que termine 2026.",
+      "contexto": "Según el ministro, el Gobierno debe financiar un déficit de entre 80 y 90 billones de pesos y, sin el ajuste, el Presupuesto General de la Nación de 2027 tendría vacíos que impedirían pagar nóminas estatales. El 70 % del ajuste vendría de recortes internos, como reducir a la mitad los contratos de prestación de servicios y vender activos improductivos, y el 30 % de cambios tributarios. Entre estos figuran revisar el IVA de productos con tarifas menores al 19 %, ampliar la base de declarantes de renta desde ingresos de 5 millones de pesos al mes y bajar la tarifa de renta del 35 % al 31 % para el 90 % de las empresas.",
+      "afectados": [
+        "TES",
+        "Peso colombiano",
+        "Finanzas públicas",
+        "Consumo",
+        "Empresas"
+      ],
+      "peso_alcista": 35,
+      "alcista": "La advertencia puede presionar al Congreso para aprobar un ajuste fiscal que, según el Gobierno, se apoya sobre todo en recortes de gasto y no solo en impuestos. Si el proyecto avanza, bajaría la necesidad de endeudamiento y eso podría aliviar las tasas de los TES. La baja de la tarifa de renta del 35 % al 31 % para la mayoría de las empresas mejoraría sus utilidades. Un plan creíble también reduciría la prima de riesgo país que pagan los activos colombianos.",
+      "bajista": "Que el propio Gobierno hable de un posible default muestra lo estrecha que está la caja del Estado y puede aumentar la desconfianza de los inversionistas en la deuda colombiana. Si el Congreso no aprueba el ajuste a tiempo, el mercado podría exigir tasas más altas a los TES y presionar al alza al dólar. Los cambios en el IVA y la ampliación de declarantes de renta pueden frenar el consumo. Además, el trámite ya enfrenta reparos y el plazo es corto.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista: la advertencia de impago es una señal de estrés fiscal explícita y la aprobación del ajuste todavía es incierta. Para tu portafolio, el principal canal es la deuda pública: mientras no haya claridad, las tasas de los TES y el dólar tienden a reflejar más riesgo. Si el proyecto avanza en el Congreso, buena parte de esa presión podría ceder.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "mixto",
+            "detalle": "La menor tarifa de renta ayudaría a las empresas, pero el mayor riesgo fiscal y el posible golpe al consumo pesan sobre la bolsa."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "La advertencia de default puede llevar a exigir tasas más altas a los TES, lo que baja el precio de los que ya están en el portafolio."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "positivo",
+            "detalle": "Más riesgo fiscal suele presionar al alza el dólar, lo que valoriza en pesos los ahorros e inversiones en el exterior."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "mixto",
+            "detalle": "Tasas de mercado más altas favorecen los CDT nuevos, pero un deterioro fiscal también eleva la incertidumbre para el ahorro en pesos."
+          }
+        ]
+      },
+      "mirar": "El avance del proyecto en las comisiones del Congreso antes del cierre de la legislatura del 16 de diciembre.",
+      "terminos": [
+        "Default",
+        "Presupuesto General de la Nación",
+        "IVA",
+        "TES",
+        "Prima de riesgo país"
+      ],
+      "fuente": "IFM Noticias (entrevista en Semana)",
+      "url": "https://ifmnoticias.com/economicas/gobierno-advierte-riesgo-de-default-en-2027-si-el-congreso-no-aprueba-la-ley-de-rescate-economico/"
+    }
+  ],
+  "urls": [
+    "https://ifmnoticias.com/economicas/gobierno-advierte-riesgo-de-default-en-2027-si-el-congreso-no-aprueba-la-ley-de-rescate-economico/",
+    "https://www.infobae.com/economia/2026/11/02/las-acciones-argentinas-cayeron-por-sexta-rueda-seguida-el-riesgo-pais-supero-los-800-puntos-y-el-bcra-no-compro-reservas/",
+    "https://www.lanacion.com.ar/economia/el-riesgo-pais-argentino-subio-en-octubre-hasta-seis-veces-lo-que-aumento-en-la-region-y-el-gobierno-nid01112026/",
+    "https://www.larepublica.co/economia/el-ministerio-de-minas-y-energia-levanto-la-limitacion-programada-de-gas-natural-4516007",
+    "https://www.larepublica.co/empresas/se-matricularon-279-387-vehiculos-nuevos-con-corte-a-octubre-un-alza-de-mas-de-39-4515970",
+    "https://www.larepublica.co/finanzas/juan-carlos-echeverry-dejo-la-presidencia-de-banco-de-bogota-tras-cinco-meses-en-el-cargo-4515339",
+    "https://www.larepublica.co/finanzas/ya-se-perfecciono-la-cesion-parcial-de-activos-pasivos-y-contratos-de-davibank-a-davivienda-4515969",
+    "https://www.valoraanalitik.com/gobierno-de-la-espriella-confirma-que-subira-iva-al-cafe-y-otros-alimentos-pero-explica-como-devolvera-ese-pago-a-millones-de-colombianos/"
+  ]
+}
