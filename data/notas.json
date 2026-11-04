@@ -1,6 +1,255 @@
 {
-  "actualizado": "3 nov 2026, 5:49 a. m. (hora Bogotá)",
+  "actualizado": "4 nov 2026, 5:48 a. m. (hora Bogotá)",
   "notas": [
+    {
+      "id": "2026-11-04-01",
+      "fecha": "2026-11-04",
+      "categoria": "politica",
+      "puntaje": {
+        "total": 9,
+        "alcance": 4,
+        "materialidad": 3,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "Gobierno pide trámite de urgencia para la Ley de Rescate y su ajuste de $45 billones",
+      "resumen": "El Gobierno radicó ante el Congreso un mensaje de urgencia e insistencia para acelerar el Proyecto de Ley 477 de 2026, que busca un ajuste fiscal de $45 billones con recortes de gasto y cambios tributarios.",
+      "contexto": "La solicitud la firmó el presidente Abelardo de la Espriella y va dirigida a las mesas directivas del Senado y la Cámara y a sus comisiones terceras y cuartas. Con el mecanismo, la cámara correspondiente tiene 30 días para decidir y las comisiones pueden sesionar en conjunto. El Ministerio de Hacienda ha advertido sobre riesgos fiscales si no se atiende el déficit ante las necesidades de financiamiento de 2027.",
+      "afectados": [
+        "TES",
+        "Peso colombiano",
+        "Bancos",
+        "Finanzas públicas"
+      ],
+      "peso_alcista": 55,
+      "alcista": "Acelerar el trámite acorta el periodo de incertidumbre sobre cómo se cubrirá el hueco fiscal. Si el ajuste de $45 billones avanza, el mercado podría exigir menos prima por el riesgo de Colombia, lo que tiende a bajar las tasas de los TES y a subir su precio. Una menor percepción de riesgo también suele favorecer al peso y a las acciones locales, en especial a los bancos, que tienen muchos TES en su balance.",
+      "bajista": "El mensaje de urgencia no garantiza la aprobación: el proyecto aún depende de las mayorías en el Congreso. Si el trámite se enreda o el texto sale recortado, la reacción del mercado podría ser fuerte porque la expectativa ya está puesta en su aprobación. Además, los cambios tributarios y los recortes de gasto pueden frenar el consumo y la inversión, lo que pesaría sobre las utilidades de las empresas.",
+      "impacto": {
+        "conclusion": "Pesa algo más la lectura alcista, porque la medida busca reducir el riesgo fiscal que hoy presiona las tasas y el dólar, aunque el resultado depende del Congreso. Para quien invierte, el efecto llegará sobre todo por las tasas de los TES y por el peso, y será mayor cuando haya votaciones concretas.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "mixto",
+            "detalle": "Menor riesgo fiscal ayudaría a bancos y al mercado en general, pero más impuestos y menos gasto pueden restar ventas y utilidades."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "positivo",
+            "detalle": "Si el ajuste avanza, las tasas de los TES podrían bajar y su precio subir."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "Un avance tiende a fortalecer el peso y restar valor en pesos a lo que tienes en dólares; un tropiezo haría lo contrario."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "mixto",
+            "detalle": "Una menor presión sobre las tasas podría reducir con el tiempo lo que pagan los nuevos CDT."
+          }
+        ]
+      },
+      "mirar": "El inicio de la discusión conjunta en las comisiones terceras y cuartas y el plazo de 30 días que abre el mensaje de urgencia.",
+      "terminos": [
+        "Mensaje de urgencia",
+        "Necesidades de financiamiento",
+        "TES",
+        "Prima de riesgo país"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/gobierno-radico-mensaje-de-urgencia-para-tramitar-la-ley-de-rescate-economico-4517003"
+    },
+    {
+      "id": "2026-11-04-02",
+      "fecha": "2026-11-04",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 8,
+        "alcance": 3,
+        "materialidad": 3,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "Llega misión del FMI mientras el Gobierno explora un crédito de hasta US$5.000 millones",
+      "resumen": "Una misión técnica del FMI empieza esta semana reuniones con las autoridades económicas, mientras el Gobierno busca un préstamo de US$4.000 a US$5.000 millones a una tasa cercana al 4 %.",
+      "contexto": "Hacienda calcula que las necesidades de financiamiento de 2027 llegan a US$25.000 millones; el posible crédito cubriría entre 16 % y 20 % de esa cifra. El ministro Miguel Gómez dijo que el apoyo del FMI es necesario para recuperar el acceso a los mercados internacionales y que depende del ajuste propio del país. El vicepresidente José Manuel Restrepo advirtió que sin corregir el desbalance fiscal Colombia podría caer en default en 2027. El FMI valoró que se haya presentado el paquete fiscal, sin respaldar su contenido ni confirmar el préstamo.",
+      "afectados": [
+        "TES",
+        "Peso colombiano",
+        "Riesgo país",
+        "Finanzas públicas"
+      ],
+      "peso_alcista": 55,
+      "alcista": "Un crédito del FMI a una tasa cercana al 4 % sería una fuente de financiamiento más barata que salir a los mercados en medio de la desconfianza. Contar con ese respaldo podría bajar la prima de riesgo del país, lo que suele aliviar las tasas de los TES y dar soporte al peso. También enviaría una señal a otros prestamistas de que hay un plan de ajuste con seguimiento externo.",
+      "bajista": "El préstamo no está confirmado y, según el ministro, depende de que Colombia haga su propio ajuste, que aún no aprueba el Congreso. Que el Gobierno necesite al FMI muestra lo estrecho de la caja fiscal y la advertencia de un posible default en 2027 aumenta la cautela de los inversionistas. Aun si llega, el crédito cubriría como máximo una quinta parte de lo que se necesita para 2027.",
+      "impacto": {
+        "conclusion": "La lectura alcista pesa un poco más porque el apoyo del FMI abarataría parte del financiamiento y reduciría el riesgo percibido, pero todo está atado a la aprobación del ajuste fiscal. Para quien invierte, el canal principal son las tasas de los TES y el valor del peso.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "mixto",
+            "detalle": "Un respaldo externo mejora la confianza, pero el riesgo de default mencionado por el Gobierno pesa sobre el mercado local."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "mixto",
+            "detalle": "El crédito aliviaría las tasas de los TES; si no se concreta, la presión fiscal seguiría."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "Una entrada de dólares del FMI daría soporte al peso; la incertidumbre fiscal empuja en sentido contrario."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "Las conclusiones de la misión técnica del FMI y el avance de la Ley de Rescate en el Congreso.",
+      "terminos": [
+        "FMI",
+        "Necesidades de financiamiento",
+        "Default",
+        "Prima de riesgo país"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/mision-del-fmi-inicia-reuniones-mientras-el-gobierno-explora-credito-de-us-5-000-millones-4516695"
+    },
+    {
+      "id": "2026-11-04-03",
+      "fecha": "2026-11-04",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 8,
+        "alcance": 2,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "El dólar sube $48 y cierra en $3.242 tras el festivo",
+      "resumen": "El dólar en Colombia cerró el martes en $3.242, $48 más que el cierre de la semana anterior, con un mínimo de $3.216 y un máximo de $3.255 en la jornada.",
+      "contexto": "El precio promedio del día fue $3.239. El alza coincidió con las tensiones entre Estados Unidos e Irán, la discusión de la Ley de Rescate y las elecciones de mitad de mandato en Estados Unidos. El vicepresidente advirtió que sin esa ley el país podría caer en default en 2027. El Banco de la República mantuvo sus tasas y publicará las minutas de su reunión el viernes 6 de noviembre.",
+      "afectados": [
+        "Peso colombiano",
+        "TRM",
+        "Importadores",
+        "Exportadores"
+      ],
+      "peso_alcista": 40,
+      "alcista": "Un dólar más alto aumenta en pesos el valor de los ahorros e inversiones que tienes en el exterior. También mejora los ingresos en pesos de exportadores y de empresas que venden en dólares. Si las tensiones externas o la incertidumbre fiscal se calman, parte del alza podría revertirse con rapidez.",
+      "bajista": "La subida refleja más cautela de los inversionistas frente a Colombia, ligada al riesgo fiscal y a la tensión en Medio Oriente. Un dólar más caro encarece importaciones e insumos, lo que puede presionar la inflación y dificultar que bajen las tasas. Para las acciones locales, la mayor percepción de riesgo suele traducirse en menos apetito de los inversionistas extranjeros.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista, porque el movimiento responde a un mayor riesgo percibido sobre el país y no a mejores fundamentos. Para quien invierte, lo que se tiene en dólares gana valor en pesos, mientras el mercado local enfrenta más cautela.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "La mayor percepción de riesgo que empuja el dólar suele restar apetito por acciones colombianas."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "positivo",
+            "detalle": "Lo que tienes en dólares o en el exterior vale más en pesos."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "Las minutas del Banco de la República del viernes 6 de noviembre y si el dólar supera el nivel de $3.255.",
+      "terminos": [
+        "TRM",
+        "Revaluación del peso",
+        "Default"
+      ],
+      "fuente": "Valora Analitik",
+      "url": "https://www.valoraanalitik.com/dolar-en-colombia-se-disparo-este-martes-y-subio-casi-50/"
+    },
+    {
+      "id": "2026-11-04-04",
+      "fecha": "2026-11-04",
+      "categoria": "commodities",
+      "puntaje": {
+        "total": 7,
+        "alcance": 2,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "El Brent baja 1 % y se acerca a su menor nivel en casi cuatro semanas",
+      "resumen": "El petróleo Brent cayó US$1,33 (cerca de 1 %) el martes, hasta US$103,44 por barril, en camino a su cierre más bajo desde el 7 de octubre.",
+      "contexto": "El mercado sopesa las negociaciones para terminar las guerras en Ucrania e Irán frente al riesgo de nuevas interrupciones de suministro por ataques recientes. Un funcionario iraní dijo que Irán y Estados Unidos siguen lejos de un acuerdo, mientras Catar intensificó su mediación. Estados Unidos atacó la isla iraní de Qeshm, en una acción que otro funcionario describió como limitada. ING consideró prematuro dar por superados los riesgos de escalada.",
+      "afectados": [
+        "Ecopetrol",
+        "Petróleo",
+        "Finanzas públicas",
+        "Peso colombiano"
+      ],
+      "peso_alcista": 40,
+      "alcista": "Un petróleo algo más barato reduce la presión sobre los precios de los combustibles y sobre el costo que asume el Estado para estabilizarlos. Si las negociaciones de paz avanzan, bajaría la incertidumbre global, algo que suele favorecer a los mercados emergentes. El nivel del Brent sigue por encima de US$100, lo que mantiene ingresos altos para el sector petrolero.",
+      "bajista": "Colombia depende del petróleo para buena parte de sus exportaciones y de los ingresos del Gobierno, así que una caída del crudo resta recursos en un momento de estrechez fiscal. Ecopetrol y otras petroleras verían menores ingresos si la baja continúa. Menos dólares por exportaciones también tiende a debilitar el peso.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista, porque el petróleo es clave para las exportaciones, para Ecopetrol y para las cuentas fiscales, aunque el precio sigue alto. Para quien invierte, el efecto se concentra en las acciones petroleras y en el peso.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Un crudo más barato resta ingresos a Ecopetrol y a otras petroleras de la bolsa."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "Menos ingresos petroleros pueden debilitar el peso y elevar en pesos lo que tienes en dólares."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "El avance de la mediación de Catar entre Irán y Estados Unidos.",
+      "terminos": [
+        "Brent",
+        "Regalías"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/globoeconomia/crudo-cae-un-minimo-de-casi-cuatro-semanas-mientras-siguen-negociaciones-de-paz-4516830"
+    },
+    {
+      "id": "2026-11-04-05",
+      "fecha": "2026-11-04",
+      "categoria": "biotecnologia",
+      "formato": "hechos",
+      "empresa": "RYTM",
+      "fecha_noticia": "2026-11-03",
+      "titulo": "Rhythm vende US$92,1 millones de Imcivree en el tercer trimestre",
+      "resumen": "Rhythm Pharmaceuticals informó ventas de US$92,1 millones de su medicamento Imcivree entre julio y septiembre, 29 % más que en el trimestre anterior. Tuvo una pérdida neta de US$41,4 millones.",
+      "contexto": "Hace un año, en el mismo trimestre, las ventas fueron de US$51,3 millones. Estados Unidos aportó US$67,5 millones y el resto del mundo US$24,7 millones. La FDA aprobó el medicamento para la obesidad hipotalámica adquirida el 19 de marzo de 2026, y después llegaron aprobaciones en Japón, Canadá, Reino Unido y la Unión Europea. La compañía tenía unos US$320,9 millones en caja al 30 de septiembre y dice que le alcanzan para al menos 24 meses.",
+      "que_significa": "La obesidad hipotalámica aparece cuando se daña una zona del cerebro que controla el hambre, y la persona siente hambre todo el tiempo. Imcivree actúa sobre esa señal del hambre. Las ventas muestran cuántos pacientes están recibiendo el medicamento: la compañía reporta más de 700 solicitudes de inicio de tratamiento en Estados Unidos. Como la empresa aún pierde dinero, la caja disponible indica por cuánto tiempo puede seguir funcionando sin conseguir más recursos.",
+      "mirar": "Antes de terminar 2026, Rhythm espera iniciar un estudio de Fase 3 de bivamelagon en obesidad hipotalámica adquirida, y presentará cinco trabajos en ObesityWeek del 14 al 17 de noviembre.",
+      "terminos": [
+        "FDA",
+        "Fase 3",
+        "Fases de un ensayo clínico"
+      ],
+      "fuente": "Rhythm Pharmaceuticals (8-K, SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001649904/000162828026069106/q32026earningspr.htm"
+    },
     {
       "id": "2026-11-03-01",
       "fecha": "2026-11-03",

@@ -683,6 +683,10 @@
     {
       "termino": "Factura electrónica",
       "definicion": "Es el comprobante de una venta que el comercio genera en formato digital y reporta a la DIAN. Le permite a la autoridad tributaria saber qué se vendió, a quién y cuánto impuesto se cobró. Para quien invierte importa porque mejora el control de la evasión y puede cambiar la forma en que el Estado recauda o devuelve impuestos como el IVA."
+    },
+    {
+      "termino": "Mensaje de urgencia",
+      "definicion": "Herramienta que la Constitución le da al presidente para pedirle al Congreso que tramite un proyecto de ley más rápido. Permite que las comisiones del Senado y de la Cámara discutan el proyecto al mismo tiempo, en sesiones conjuntas, y fija un plazo para decidir. Le importa al inversionista porque acelera la llegada de reformas que pueden cambiar impuestos, gasto público y la confianza en las finanzas del país."
     }
   ]
 }
