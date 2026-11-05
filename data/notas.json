@@ -1,152 +1,95 @@
 {
-  "actualizado": "4 nov 2026, 5:48 a. m. (hora Bogotá)",
+  "actualizado": "5 nov 2026, 5:49 a. m. (hora Bogotá)",
   "notas": [
     {
-      "id": "2026-11-04-01",
-      "fecha": "2026-11-04",
-      "categoria": "politica",
+      "id": "2026-11-05-01",
+      "fecha": "2026-11-05",
+      "categoria": "macro",
       "puntaje": {
         "total": 9,
-        "alcance": 4,
-        "materialidad": 3,
-        "novedad": 1,
-        "fuente": 1
-      },
-      "titulo": "Gobierno pide trámite de urgencia para la Ley de Rescate y su ajuste de $45 billones",
-      "resumen": "El Gobierno radicó ante el Congreso un mensaje de urgencia e insistencia para acelerar el Proyecto de Ley 477 de 2026, que busca un ajuste fiscal de $45 billones con recortes de gasto y cambios tributarios.",
-      "contexto": "La solicitud la firmó el presidente Abelardo de la Espriella y va dirigida a las mesas directivas del Senado y la Cámara y a sus comisiones terceras y cuartas. Con el mecanismo, la cámara correspondiente tiene 30 días para decidir y las comisiones pueden sesionar en conjunto. El Ministerio de Hacienda ha advertido sobre riesgos fiscales si no se atiende el déficit ante las necesidades de financiamiento de 2027.",
-      "afectados": [
-        "TES",
-        "Peso colombiano",
-        "Bancos",
-        "Finanzas públicas"
-      ],
-      "peso_alcista": 55,
-      "alcista": "Acelerar el trámite acorta el periodo de incertidumbre sobre cómo se cubrirá el hueco fiscal. Si el ajuste de $45 billones avanza, el mercado podría exigir menos prima por el riesgo de Colombia, lo que tiende a bajar las tasas de los TES y a subir su precio. Una menor percepción de riesgo también suele favorecer al peso y a las acciones locales, en especial a los bancos, que tienen muchos TES en su balance.",
-      "bajista": "El mensaje de urgencia no garantiza la aprobación: el proyecto aún depende de las mayorías en el Congreso. Si el trámite se enreda o el texto sale recortado, la reacción del mercado podría ser fuerte porque la expectativa ya está puesta en su aprobación. Además, los cambios tributarios y los recortes de gasto pueden frenar el consumo y la inversión, lo que pesaría sobre las utilidades de las empresas.",
-      "impacto": {
-        "conclusion": "Pesa algo más la lectura alcista, porque la medida busca reducir el riesgo fiscal que hoy presiona las tasas y el dólar, aunque el resultado depende del Congreso. Para quien invierte, el efecto llegará sobre todo por las tasas de los TES y por el peso, y será mayor cuando haya votaciones concretas.",
-        "activos": [
-          {
-            "activo": "acciones",
-            "efecto": "mixto",
-            "detalle": "Menor riesgo fiscal ayudaría a bancos y al mercado en general, pero más impuestos y menos gasto pueden restar ventas y utilidades."
-          },
-          {
-            "activo": "renta_fija",
-            "efecto": "positivo",
-            "detalle": "Si el ajuste avanza, las tasas de los TES podrían bajar y su precio subir."
-          },
-          {
-            "activo": "dolar",
-            "efecto": "mixto",
-            "detalle": "Un avance tiende a fortalecer el peso y restar valor en pesos a lo que tienes en dólares; un tropiezo haría lo contrario."
-          },
-          {
-            "activo": "cdt",
-            "efecto": "mixto",
-            "detalle": "Una menor presión sobre las tasas podría reducir con el tiempo lo que pagan los nuevos CDT."
-          }
-        ]
-      },
-      "mirar": "El inicio de la discusión conjunta en las comisiones terceras y cuartas y el plazo de 30 días que abre el mensaje de urgencia.",
-      "terminos": [
-        "Mensaje de urgencia",
-        "Necesidades de financiamiento",
-        "TES",
-        "Prima de riesgo país"
-      ],
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/gobierno-radico-mensaje-de-urgencia-para-tramitar-la-ley-de-rescate-economico-4517003"
-    },
-    {
-      "id": "2026-11-04-02",
-      "fecha": "2026-11-04",
-      "categoria": "macro",
-      "puntaje": {
-        "total": 8,
         "alcance": 3,
         "materialidad": 3,
-        "novedad": 1,
-        "fuente": 1
-      },
-      "titulo": "Llega misión del FMI mientras el Gobierno explora un crédito de hasta US$5.000 millones",
-      "resumen": "Una misión técnica del FMI empieza esta semana reuniones con las autoridades económicas, mientras el Gobierno busca un préstamo de US$4.000 a US$5.000 millones a una tasa cercana al 4 %.",
-      "contexto": "Hacienda calcula que las necesidades de financiamiento de 2027 llegan a US$25.000 millones; el posible crédito cubriría entre 16 % y 20 % de esa cifra. El ministro Miguel Gómez dijo que el apoyo del FMI es necesario para recuperar el acceso a los mercados internacionales y que depende del ajuste propio del país. El vicepresidente José Manuel Restrepo advirtió que sin corregir el desbalance fiscal Colombia podría caer en default en 2027. El FMI valoró que se haya presentado el paquete fiscal, sin respaldar su contenido ni confirmar el préstamo.",
-      "afectados": [
-        "TES",
-        "Peso colombiano",
-        "Riesgo país",
-        "Finanzas públicas"
-      ],
-      "peso_alcista": 55,
-      "alcista": "Un crédito del FMI a una tasa cercana al 4 % sería una fuente de financiamiento más barata que salir a los mercados en medio de la desconfianza. Contar con ese respaldo podría bajar la prima de riesgo del país, lo que suele aliviar las tasas de los TES y dar soporte al peso. También enviaría una señal a otros prestamistas de que hay un plan de ajuste con seguimiento externo.",
-      "bajista": "El préstamo no está confirmado y, según el ministro, depende de que Colombia haga su propio ajuste, que aún no aprueba el Congreso. Que el Gobierno necesite al FMI muestra lo estrecho de la caja fiscal y la advertencia de un posible default en 2027 aumenta la cautela de los inversionistas. Aun si llega, el crédito cubriría como máximo una quinta parte de lo que se necesita para 2027.",
-      "impacto": {
-        "conclusion": "La lectura alcista pesa un poco más porque el apoyo del FMI abarataría parte del financiamiento y reduciría el riesgo percibido, pero todo está atado a la aprobación del ajuste fiscal. Para quien invierte, el canal principal son las tasas de los TES y el valor del peso.",
-        "activos": [
-          {
-            "activo": "acciones",
-            "efecto": "mixto",
-            "detalle": "Un respaldo externo mejora la confianza, pero el riesgo de default mencionado por el Gobierno pesa sobre el mercado local."
-          },
-          {
-            "activo": "renta_fija",
-            "efecto": "mixto",
-            "detalle": "El crédito aliviaría las tasas de los TES; si no se concreta, la presión fiscal seguiría."
-          },
-          {
-            "activo": "dolar",
-            "efecto": "mixto",
-            "detalle": "Una entrada de dólares del FMI daría soporte al peso; la incertidumbre fiscal empuja en sentido contrario."
-          },
-          {
-            "activo": "cdt",
-            "efecto": "neutral",
-            "detalle": "Sin efecto directo."
-          }
-        ]
-      },
-      "mirar": "Las conclusiones de la misión técnica del FMI y el avance de la Ley de Rescate en el Congreso.",
-      "terminos": [
-        "FMI",
-        "Necesidades de financiamiento",
-        "Default",
-        "Prima de riesgo país"
-      ],
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/mision-del-fmi-inicia-reuniones-mientras-el-gobierno-explora-credito-de-us-5-000-millones-4516695"
-    },
-    {
-      "id": "2026-11-04-03",
-      "fecha": "2026-11-04",
-      "categoria": "macro",
-      "puntaje": {
-        "total": 8,
-        "alcance": 2,
-        "materialidad": 3,
         "novedad": 2,
         "fuente": 1
       },
-      "titulo": "El dólar sube $48 y cierra en $3.242 tras el festivo",
-      "resumen": "El dólar en Colombia cerró el martes en $3.242, $48 más que el cierre de la semana anterior, con un mínimo de $3.216 y un máximo de $3.255 en la jornada.",
-      "contexto": "El precio promedio del día fue $3.239. El alza coincidió con las tensiones entre Estados Unidos e Irán, la discusión de la Ley de Rescate y las elecciones de mitad de mandato en Estados Unidos. El vicepresidente advirtió que sin esa ley el país podría caer en default en 2027. El Banco de la República mantuvo sus tasas y publicará las minutas de su reunión el viernes 6 de noviembre.",
+      "titulo": "El Banco de la República sube a 7,1 % su proyección de inflación para 2026",
+      "resumen": "El equipo técnico del Banco de la República elevó su estimación de inflación para 2026 a 7,1 %, desde 6,9 %, y recortó la de crecimiento del PIB a 2 %, desde 2,5 %.",
+      "contexto": "En su informe trimestral, publicado el 4 de noviembre, el equipo técnico también subió a 4,8 % la inflación esperada para 2027 y bajó a 1,7 % el crecimiento de ese año, desde 1,9 %. Atribuye el ajuste a un mayor efecto del fenómeno de El Niño en alimentos, precios regulados y la inflación básica, a un petróleo más caro, a mayores costos de transporte internacional y a tensiones geopolíticas. Según el informe, la demanda supera la capacidad productiva y se necesita una tasa contractiva; la tasa está en 12,25 % tras 300 puntos básicos de alzas en 2026.",
       "afectados": [
-        "Peso colombiano",
-        "TRM",
-        "Importadores",
-        "Exportadores"
+        "TES",
+        "Bancos",
+        "CDT",
+        "Consumo"
       ],
-      "peso_alcista": 40,
-      "alcista": "Un dólar más alto aumenta en pesos el valor de los ahorros e inversiones que tienes en el exterior. También mejora los ingresos en pesos de exportadores y de empresas que venden en dólares. Si las tensiones externas o la incertidumbre fiscal se calman, parte del alza podría revertirse con rapidez.",
-      "bajista": "La subida refleja más cautela de los inversionistas frente a Colombia, ligada al riesgo fiscal y a la tensión en Medio Oriente. Un dólar más caro encarece importaciones e insumos, lo que puede presionar la inflación y dificultar que bajen las tasas. Para las acciones locales, la mayor percepción de riesgo suele traducirse en menos apetito de los inversionistas extranjeros.",
+      "peso_alcista": 30,
+      "alcista": "Una tasa alta por más tiempo mantiene atractivos los rendimientos de los CDT y las cuentas de ahorro en pesos. Para quien compre TES nuevos, las tasas elevadas ofrecen rentabilidades altas. Además, un banco central que reconoce el riesgo inflacionario puede ganar credibilidad y ayudar a anclar las expectativas con el tiempo.",
+      "bajista": "Más inflación y menos crecimiento es una combinación difícil para las empresas y el consumo. El informe sugiere que las tasas seguirían altas más tiempo del que espera el mercado después de mediados del próximo año, lo que presiona a la baja el precio de los TES que ya están en el portafolio. Un crecimiento de 2 % en 2026 y 1,7 % en 2027 limita las ventas y las utilidades de los emisores de la BVC.",
       "impacto": {
-        "conclusion": "Pesa más la lectura bajista, porque el movimiento responde a un mayor riesgo percibido sobre el país y no a mejores fundamentos. Para quien invierte, lo que se tiene en dólares gana valor en pesos, mientras el mercado local enfrenta más cautela.",
+        "conclusion": "Pesa más la lectura bajista, porque el informe combina más inflación, menos crecimiento y una tasa contractiva por más tiempo. Para quien invierte, favorece el ahorro en pesos a tasas altas y es un viento en contra para las acciones y para los TES ya comprados.",
         "activos": [
           {
             "activo": "acciones",
             "efecto": "negativo",
-            "detalle": "La mayor percepción de riesgo que empuja el dólar suele restar apetito por acciones colombianas."
+            "detalle": "Un crecimiento menor y tasas altas por más tiempo pesan sobre las ventas y utilidades de las empresas."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "Si las tasas siguen altas más tiempo, el precio de los TES en el portafolio tiende a bajar."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "positivo",
+            "detalle": "Una tasa de política alta por más tiempo sostiene los rendimientos de CDT y ahorro en pesos."
+          }
+        ]
+      },
+      "mirar": "El dato de inflación de octubre del DANE y la próxima reunión de la junta del Banco de la República.",
+      "terminos": [
+        "Inflación",
+        "PIB",
+        "Fenómeno de El Niño",
+        "Inflación básica",
+        "Puntos básicos"
+      ],
+      "fuente": "La República (con Reuters)",
+      "url": "https://www.larepublica.co/economia/equipo-tecnico-de-banco-central-de-colombia-ve-mayor-inflacion-y-menor-crecimiento-economico-este-y-el-proximo-ano-4517960"
+    },
+    {
+      "id": "2026-11-05-02",
+      "fecha": "2026-11-05",
+      "categoria": "internacional",
+      "puntaje": {
+        "total": 7,
+        "alcance": 1,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "La TRM sube a $3.235,59 tras las elecciones de medio tiempo en EE. UU.",
+      "resumen": "La tasa representativa del mercado para el 4 de noviembre quedó en $3.235,59, $52,60 por encima de la del día anterior, en una jornada marcada por las elecciones legislativas de Estados Unidos.",
+      "contexto": "La TRM previa era de $3.182,99. Además de las elecciones, el mercado sigue la decisión de la Reserva Federal de dejar su tasa entre 3,75 % y 4,00 %, los datos de empleo de EE. UU. y la volatilidad del Brent por el conflicto en Medio Oriente. En Colombia, el Banco de la República mantuvo su tasa en 12,25 % en una votación 4-3 y anunció la compra directa de US$2.000 millones al Gobierno, fuera del mercado local. Analistas de Global66 citados por la fuente estiman un rango semanal de $3.160 a $3.250.",
+      "afectados": [
+        "Peso colombiano",
+        "Importadores",
+        "Exportadores",
+        "Inversiones en dólares"
+      ],
+      "peso_alcista": 45,
+      "alcista": "Un dólar más alto aumenta en pesos el valor de los ahorros e inversiones en el exterior. También mejora los ingresos en pesos de exportadores y de emisores que venden en dólares, como las petroleras. Si los resultados electorales en EE. UU. reducen la incertidumbre, la propia fuente plantea un escenario de corrección hacia $3.150–$3.190, lo que limitaría el efecto sobre precios internos.",
+      "bajista": "Un dólar más caro encarece las importaciones y puede presionar la inflación, que sigue lejos de la meta. Eso refuerza la postura cautelosa del Banco de la República, donde tres miembros ya votaron por subir la tasa. Si los datos de empleo de EE. UU. sorprenden al alza o se afianza un alza de la Fed en diciembre, la fuente ve la tasa de cambio entre $3.260 y $3.300.",
+      "impacto": {
+        "conclusion": "Pesa algo más la lectura bajista, porque el salto de la TRM llega con una inflación alta y un Banco de la República dividido. Para quien invierte, el efecto más directo está en el valor en pesos de lo que tiene en dólares; el resto depende de si el movimiento se sostiene.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
           },
           {
             "activo": "renta_fija",
@@ -156,7 +99,7 @@
           {
             "activo": "dolar",
             "efecto": "positivo",
-            "detalle": "Lo que tienes en dólares o en el exterior vale más en pesos."
+            "detalle": "Una TRM más alta aumenta el valor en pesos de los ahorros e inversiones en el exterior."
           },
           {
             "activo": "cdt",
@@ -165,45 +108,45 @@
           }
         ]
       },
-      "mirar": "Las minutas del Banco de la República del viernes 6 de noviembre y si el dólar supera el nivel de $3.255.",
+      "mirar": "Los datos de empleo de EE. UU. y las señales de la Reserva Federal sobre una posible alza en diciembre.",
       "terminos": [
         "TRM",
-        "Revaluación del peso",
-        "Default"
+        "Reserva Federal",
+        "Tasa de política monetaria"
       ],
-      "fuente": "Valora Analitik",
-      "url": "https://www.valoraanalitik.com/dolar-en-colombia-se-disparo-este-martes-y-subio-casi-50/"
+      "fuente": "Portafolio",
+      "url": "https://www.portafolio.co/economia/finanzas/el-dolar-en-colombia-pego-un-salto-asi-cotiza-la-divisa-tras-las-elecciones-de-medio-tiempo-en-estados-unidos-505683"
     },
     {
-      "id": "2026-11-04-04",
-      "fecha": "2026-11-04",
-      "categoria": "commodities",
+      "id": "2026-11-05-03",
+      "fecha": "2026-11-05",
+      "categoria": "region",
+      "pais": "Brasil",
       "puntaje": {
         "total": 7,
-        "alcance": 2,
-        "materialidad": 2,
+        "alcance": 1,
+        "materialidad": 3,
         "novedad": 2,
         "fuente": 1
       },
-      "titulo": "El Brent baja 1 % y se acerca a su menor nivel en casi cuatro semanas",
-      "resumen": "El petróleo Brent cayó US$1,33 (cerca de 1 %) el martes, hasta US$103,44 por barril, en camino a su cierre más bajo desde el 7 de octubre.",
-      "contexto": "El mercado sopesa las negociaciones para terminar las guerras en Ucrania e Irán frente al riesgo de nuevas interrupciones de suministro por ataques recientes. Un funcionario iraní dijo que Irán y Estados Unidos siguen lejos de un acuerdo, mientras Catar intensificó su mediación. Estados Unidos atacó la isla iraní de Qeshm, en una acción que otro funcionario describió como limitada. ING consideró prematuro dar por superados los riesgos de escalada.",
+      "titulo": "Brasil pausa los recortes: el banco central deja su tasa en 13,75 %",
+      "resumen": "El Comité de Política Monetaria del Banco Central do Brasil mantuvo el 4 de noviembre la tasa básica en 13,75 % anual y cerró así una racha de cinco recortes consecutivos.",
+      "contexto": "El ciclo de recortes empezó en marzo de 2026, cuando la tasa estaba en 15 %. La pausa era esperada después de que las expectativas de tasas empeoraran tras la reelección de Lula. Desde la segunda vuelta del 25 de octubre, el dólar subió 9,46 % frente al real, de R$4,98 a R$5,45 al cierre del miércoles, en medio de temores por una política fiscal expansiva. Brasil es la mayor economía de la región y un destino frecuente de los fondos y ETF latinoamericanos que compran inversionistas colombianos.",
       "afectados": [
-        "Ecopetrol",
-        "Petróleo",
-        "Finanzas públicas",
-        "Peso colombiano"
+        "Real brasileño",
+        "Bolsa de Brasil",
+        "ETF de América Latina"
       ],
       "peso_alcista": 40,
-      "alcista": "Un petróleo algo más barato reduce la presión sobre los precios de los combustibles y sobre el costo que asume el Estado para estabilizarlos. Si las negociaciones de paz avanzan, bajaría la incertidumbre global, algo que suele favorecer a los mercados emergentes. El nivel del Brent sigue por encima de US$100, lo que mantiene ingresos altos para el sector petrolero.",
-      "bajista": "Colombia depende del petróleo para buena parte de sus exportaciones y de los ingresos del Gobierno, así que una caída del crudo resta recursos en un momento de estrechez fiscal. Ecopetrol y otras petroleras verían menores ingresos si la baja continúa. Menos dólares por exportaciones también tiende a debilitar el peso.",
+      "alcista": "Mantener la tasa alta puede ayudar a frenar la caída del real, porque sostiene el atractivo de los activos en reales. Una moneda más estable reduciría las pérdidas en pesos de quien tiene fondos o acciones brasileñas. Además, la pausa muestra que el banco central responde a la presión sobre la moneda, lo que puede dar algo de confianza a los inversionistas.",
+      "bajista": "La pausa ocurre porque las expectativas empeoraron y por dudas sobre el manejo fiscal, no porque la inflación esté resuelta. Una tasa de 13,75 % por más tiempo frena el crédito y el crecimiento, lo que pesa sobre las empresas brasileñas. Con el real ya debilitado cerca de 9,5 % en pocos días, quien mide en pesos sus inversiones en Brasil ha visto caer su valor.",
       "impacto": {
-        "conclusion": "Pesa más la lectura bajista, porque el petróleo es clave para las exportaciones, para Ecopetrol y para las cuentas fiscales, aunque el precio sigue alto. Para quien invierte, el efecto se concentra en las acciones petroleras y en el peso.",
+        "conclusion": "Pesa más la lectura bajista, porque la decisión responde a un deterioro de la confianza tras las elecciones y a dudas fiscales. Para quien invierte desde Colombia, el canal principal es el valor en pesos de los fondos y acciones de Brasil, golpeado por la caída del real.",
         "activos": [
           {
             "activo": "acciones",
-            "efecto": "negativo",
-            "detalle": "Un crudo más barato resta ingresos a Ecopetrol y a otras petroleras de la bolsa."
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
           },
           {
             "activo": "renta_fija",
@@ -212,8 +155,8 @@
           },
           {
             "activo": "dolar",
-            "efecto": "mixto",
-            "detalle": "Menos ingresos petroleros pueden debilitar el peso y elevar en pesos lo que tienes en dólares."
+            "efecto": "negativo",
+            "detalle": "La caída del real reduce en pesos el valor de fondos, ETF y acciones expuestos a Brasil."
           },
           {
             "activo": "cdt",
@@ -222,33 +165,54 @@
           }
         ]
       },
-      "mirar": "El avance de la mediación de Catar entre Irán y Estados Unidos.",
+      "mirar": "Las primeras señales fiscales del gobierno reelegido y su efecto sobre el real.",
       "terminos": [
-        "Brent",
-        "Regalías"
+        "Tasa de política monetaria",
+        "Segunda vuelta electoral",
+        "ETF"
       ],
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/globoeconomia/crudo-cae-un-minimo-de-casi-cuatro-semanas-mientras-siguen-negociaciones-de-paz-4516830"
+      "fuente": "CNN Brasil",
+      "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/copom-novembro-2026/"
     },
     {
-      "id": "2026-11-04-05",
-      "fecha": "2026-11-04",
+      "id": "2026-11-05-04",
+      "fecha": "2026-11-05",
       "categoria": "biotecnologia",
       "formato": "hechos",
-      "empresa": "RYTM",
-      "fecha_noticia": "2026-11-03",
-      "titulo": "Rhythm vende US$92,1 millones de Imcivree en el tercer trimestre",
-      "resumen": "Rhythm Pharmaceuticals informó ventas de US$92,1 millones de su medicamento Imcivree entre julio y septiembre, 29 % más que en el trimestre anterior. Tuvo una pérdida neta de US$41,4 millones.",
-      "contexto": "Hace un año, en el mismo trimestre, las ventas fueron de US$51,3 millones. Estados Unidos aportó US$67,5 millones y el resto del mundo US$24,7 millones. La FDA aprobó el medicamento para la obesidad hipotalámica adquirida el 19 de marzo de 2026, y después llegaron aprobaciones en Japón, Canadá, Reino Unido y la Unión Europea. La compañía tenía unos US$320,9 millones en caja al 30 de septiembre y dice que le alcanzan para al menos 24 meses.",
-      "que_significa": "La obesidad hipotalámica aparece cuando se daña una zona del cerebro que controla el hambre, y la persona siente hambre todo el tiempo. Imcivree actúa sobre esa señal del hambre. Las ventas muestran cuántos pacientes están recibiendo el medicamento: la compañía reporta más de 700 solicitudes de inicio de tratamiento en Estados Unidos. Como la empresa aún pierde dinero, la caja disponible indica por cuánto tiempo puede seguir funcionando sin conseguir más recursos.",
-      "mirar": "Antes de terminar 2026, Rhythm espera iniciar un estudio de Fase 3 de bivamelagon en obesidad hipotalámica adquirida, y presentará cinco trabajos en ObesityWeek del 14 al 17 de noviembre.",
+      "empresa": "CYTK",
+      "fecha_noticia": "2026-11-04",
+      "titulo": "Cytokinetics vendió US$44,5 millones de su medicamento para el corazón en el trimestre",
+      "resumen": "Cytokinetics informó ingresos de US$47,6 millones en el tercer trimestre de 2026, de los cuales US$44,5 millones vinieron de las ventas de MYQORZO (aficamten). Un año antes sus ingresos fueron de US$1,9 millones.",
+      "contexto": "La pérdida neta del trimestre fue de US$190,1 millones, frente a US$306,2 millones un año antes. La compañía tenía unos US$1.600 millones en caja e inversiones al 30 de septiembre. Hasta esa fecha, cerca de 1.100 médicos habían recetado el medicamento y más de 2.800 pacientes lo habían recibido. También obtuvo autorización en Canadá y en el Reino Unido para pacientes con miocardiopatía hipertrófica obstructiva con síntomas.",
+      "que_significa": "La miocardiopatía hipertrófica es una enfermedad en la que el músculo del corazón se vuelve demasiado grueso. MYQORZO ya se vende, y estas cifras muestran cuánto dinero está entrando por esas ventas. La compañía aún gasta más de lo que gana, por eso registra pérdidas, pero tiene una caja grande para seguir funcionando. Ahora busca ampliar el uso del medicamento a la forma no obstructiva de la enfermedad, después de que un estudio cumplió su objetivo principal.",
+      "mirar": "La solicitud a la FDA para usar aficamten en la forma no obstructiva de la enfermedad, prevista para el cuarto trimestre de 2026.",
       "terminos": [
         "FDA",
-        "Fase 3",
-        "Fases de un ensayo clínico"
+        "Aprobado (FDA)",
+        "Pista de caja"
       ],
-      "fuente": "Rhythm Pharmaceuticals (8-K, SEC)",
-      "url": "https://www.sec.gov/Archives/edgar/data/0001649904/000162828026069106/q32026earningspr.htm"
+      "fuente": "Cytokinetics (formulario 8-K, SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001061983/000119312526447198/cytk-ex99_1.htm"
+    },
+    {
+      "id": "2026-11-05-05",
+      "fecha": "2026-11-05",
+      "categoria": "biotecnologia",
+      "formato": "hechos",
+      "empresa": "RCUS",
+      "fecha_noticia": "2026-11-04",
+      "titulo": "Arcus Biosciences reporta su tercer trimestre y alista nuevos estudios de casdatifan",
+      "resumen": "Arcus Biosciences informó ingresos de US$9 millones y una pérdida neta de US$128 millones en el tercer trimestre de 2026, y dijo que tiene caja para operar hasta 2029.",
+      "contexto": "Un año antes los ingresos fueron de US$26 millones y la pérdida de US$135 millones. Al 30 de septiembre tenía US$694 millones en caja; la proyección hasta 2029 incluye US$288 millones que recaudó en octubre con venta de acciones. Espera terminar de inscribir pacientes en el estudio PEAK-1 de casdatifan para cáncer de riñón en dos a tres meses, y empezar el estudio PEAK-20, en primera línea, en el cuarto trimestre de 2026.",
+      "que_significa": "Casdatifan es el medicamento principal de Arcus y se prueba contra un tipo de cáncer de riñón. PEAK-1 y PEAK-20 son estudios de Fase 3, la última etapa antes de pedir la aprobación. Terminar de inscribir pacientes es un paso necesario antes de tener resultados. La caja indica cuánto tiempo puede seguir investigando la compañía sin conseguir más dinero.",
+      "mirar": "El análisis intermedio del estudio PRISM-1 de quemliclustat, previsto para el cuarto trimestre de 2026.",
+      "terminos": [
+        "Fase 3",
+        "Fases de un ensayo clínico",
+        "Pista de caja"
+      ],
+      "fuente": "Arcus Biosciences (formulario 8-K, SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001724521/000172452126000056/a2026q38kexhibit991.htm"
     }
   ]
 }
