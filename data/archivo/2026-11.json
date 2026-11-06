@@ -2,6 +2,105 @@
   "mes": "2026-11",
   "notas": [
     {
+      "id": "2026-11-05-05",
+      "fecha": "2026-11-05",
+      "categoria": "biotecnologia",
+      "formato": "hechos",
+      "empresa": "RCUS",
+      "fecha_noticia": "2026-11-04",
+      "titulo": "Arcus Biosciences reporta su tercer trimestre y alista nuevos estudios de casdatifan",
+      "resumen": "Arcus Biosciences informó ingresos de US$9 millones y una pérdida neta de US$128 millones en el tercer trimestre de 2026, y dijo que tiene caja para operar hasta 2029.",
+      "contexto": "Un año antes los ingresos fueron de US$26 millones y la pérdida de US$135 millones. Al 30 de septiembre tenía US$694 millones en caja; la proyección hasta 2029 incluye US$288 millones que recaudó en octubre con venta de acciones. Espera terminar de inscribir pacientes en el estudio PEAK-1 de casdatifan para cáncer de riñón en dos a tres meses, y empezar el estudio PEAK-20, en primera línea, en el cuarto trimestre de 2026.",
+      "que_significa": "Casdatifan es el medicamento principal de Arcus y se prueba contra un tipo de cáncer de riñón. PEAK-1 y PEAK-20 son estudios de Fase 3, la última etapa antes de pedir la aprobación. Terminar de inscribir pacientes es un paso necesario antes de tener resultados. La caja indica cuánto tiempo puede seguir investigando la compañía sin conseguir más dinero.",
+      "mirar": "El análisis intermedio del estudio PRISM-1 de quemliclustat, previsto para el cuarto trimestre de 2026.",
+      "terminos": [
+        "Fase 3",
+        "Fases de un ensayo clínico",
+        "Pista de caja"
+      ],
+      "fuente": "Arcus Biosciences (formulario 8-K, SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001724521/000172452126000056/a2026q38kexhibit991.htm"
+    },
+    {
+      "id": "2026-11-05-04",
+      "fecha": "2026-11-05",
+      "categoria": "biotecnologia",
+      "formato": "hechos",
+      "empresa": "CYTK",
+      "fecha_noticia": "2026-11-04",
+      "titulo": "Cytokinetics vendió US$44,5 millones de su medicamento para el corazón en el trimestre",
+      "resumen": "Cytokinetics informó ingresos de US$47,6 millones en el tercer trimestre de 2026, de los cuales US$44,5 millones vinieron de las ventas de MYQORZO (aficamten). Un año antes sus ingresos fueron de US$1,9 millones.",
+      "contexto": "La pérdida neta del trimestre fue de US$190,1 millones, frente a US$306,2 millones un año antes. La compañía tenía unos US$1.600 millones en caja e inversiones al 30 de septiembre. Hasta esa fecha, cerca de 1.100 médicos habían recetado el medicamento y más de 2.800 pacientes lo habían recibido. También obtuvo autorización en Canadá y en el Reino Unido para pacientes con miocardiopatía hipertrófica obstructiva con síntomas.",
+      "que_significa": "La miocardiopatía hipertrófica es una enfermedad en la que el músculo del corazón se vuelve demasiado grueso. MYQORZO ya se vende, y estas cifras muestran cuánto dinero está entrando por esas ventas. La compañía aún gasta más de lo que gana, por eso registra pérdidas, pero tiene una caja grande para seguir funcionando. Ahora busca ampliar el uso del medicamento a la forma no obstructiva de la enfermedad, después de que un estudio cumplió su objetivo principal.",
+      "mirar": "La solicitud a la FDA para usar aficamten en la forma no obstructiva de la enfermedad, prevista para el cuarto trimestre de 2026.",
+      "terminos": [
+        "FDA",
+        "Aprobado (FDA)",
+        "Pista de caja"
+      ],
+      "fuente": "Cytokinetics (formulario 8-K, SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001061983/000119312526447198/cytk-ex99_1.htm"
+    },
+    {
+      "id": "2026-11-05-01",
+      "fecha": "2026-11-05",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 9,
+        "alcance": 3,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "El Banco de la República sube a 7,1 % su proyección de inflación para 2026",
+      "resumen": "El equipo técnico del Banco de la República elevó su estimación de inflación para 2026 a 7,1 %, desde 6,9 %, y recortó la de crecimiento del PIB a 2 %, desde 2,5 %.",
+      "contexto": "En su informe trimestral, publicado el 4 de noviembre, el equipo técnico también subió a 4,8 % la inflación esperada para 2027 y bajó a 1,7 % el crecimiento de ese año, desde 1,9 %. Atribuye el ajuste a un mayor efecto del fenómeno de El Niño en alimentos, precios regulados y la inflación básica, a un petróleo más caro, a mayores costos de transporte internacional y a tensiones geopolíticas. Según el informe, la demanda supera la capacidad productiva y se necesita una tasa contractiva; la tasa está en 12,25 % tras 300 puntos básicos de alzas en 2026.",
+      "afectados": [
+        "TES",
+        "Bancos",
+        "CDT",
+        "Consumo"
+      ],
+      "peso_alcista": 30,
+      "alcista": "Una tasa alta por más tiempo mantiene atractivos los rendimientos de los CDT y las cuentas de ahorro en pesos. Para quien compre TES nuevos, las tasas elevadas ofrecen rentabilidades altas. Además, un banco central que reconoce el riesgo inflacionario puede ganar credibilidad y ayudar a anclar las expectativas con el tiempo.",
+      "bajista": "Más inflación y menos crecimiento es una combinación difícil para las empresas y el consumo. El informe sugiere que las tasas seguirían altas más tiempo del que espera el mercado después de mediados del próximo año, lo que presiona a la baja el precio de los TES que ya están en el portafolio. Un crecimiento de 2 % en 2026 y 1,7 % en 2027 limita las ventas y las utilidades de los emisores de la BVC.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista, porque el informe combina más inflación, menos crecimiento y una tasa contractiva por más tiempo. Para quien invierte, favorece el ahorro en pesos a tasas altas y es un viento en contra para las acciones y para los TES ya comprados.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Un crecimiento menor y tasas altas por más tiempo pesan sobre las ventas y utilidades de las empresas."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "Si las tasas siguen altas más tiempo, el precio de los TES en el portafolio tiende a bajar."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "positivo",
+            "detalle": "Una tasa de política alta por más tiempo sostiene los rendimientos de CDT y ahorro en pesos."
+          }
+        ]
+      },
+      "mirar": "El dato de inflación de octubre del DANE y la próxima reunión de la junta del Banco de la República.",
+      "terminos": [
+        "Inflación",
+        "PIB",
+        "Fenómeno de El Niño",
+        "Inflación básica",
+        "Puntos básicos"
+      ],
+      "fuente": "La República (con Reuters)",
+      "url": "https://www.larepublica.co/economia/equipo-tecnico-de-banco-central-de-colombia-ve-mayor-inflacion-y-menor-crecimiento-economico-este-y-el-proximo-ano-4517960"
+    },
+    {
       "id": "2026-11-04-05",
       "fecha": "2026-11-04",
       "categoria": "biotecnologia",
@@ -257,16 +356,21 @@
   ],
   "urls": [
     "https://ifmnoticias.com/economicas/gobierno-advierte-riesgo-de-default-en-2027-si-el-congreso-no-aprueba-la-ley-de-rescate-economico/",
+    "https://www.cnnbrasil.com.br/economia/money/macroeconomia/copom-novembro-2026/",
     "https://www.infobae.com/economia/2026/11/02/las-acciones-argentinas-cayeron-por-sexta-rueda-seguida-el-riesgo-pais-supero-los-800-puntos-y-el-bcra-no-compro-reservas/",
     "https://www.lanacion.com.ar/economia/el-riesgo-pais-argentino-subio-en-octubre-hasta-seis-veces-lo-que-aumento-en-la-region-y-el-gobierno-nid01112026/",
     "https://www.larepublica.co/economia/el-ministerio-de-minas-y-energia-levanto-la-limitacion-programada-de-gas-natural-4516007",
+    "https://www.larepublica.co/economia/equipo-tecnico-de-banco-central-de-colombia-ve-mayor-inflacion-y-menor-crecimiento-economico-este-y-el-proximo-ano-4517960",
     "https://www.larepublica.co/economia/gobierno-radico-mensaje-de-urgencia-para-tramitar-la-ley-de-rescate-economico-4517003",
     "https://www.larepublica.co/economia/mision-del-fmi-inicia-reuniones-mientras-el-gobierno-explora-credito-de-us-5-000-millones-4516695",
     "https://www.larepublica.co/empresas/se-matricularon-279-387-vehiculos-nuevos-con-corte-a-octubre-un-alza-de-mas-de-39-4515970",
     "https://www.larepublica.co/finanzas/juan-carlos-echeverry-dejo-la-presidencia-de-banco-de-bogota-tras-cinco-meses-en-el-cargo-4515339",
     "https://www.larepublica.co/finanzas/ya-se-perfecciono-la-cesion-parcial-de-activos-pasivos-y-contratos-de-davibank-a-davivienda-4515969",
     "https://www.larepublica.co/globoeconomia/crudo-cae-un-minimo-de-casi-cuatro-semanas-mientras-siguen-negociaciones-de-paz-4516830",
+    "https://www.portafolio.co/economia/finanzas/el-dolar-en-colombia-pego-un-salto-asi-cotiza-la-divisa-tras-las-elecciones-de-medio-tiempo-en-estados-unidos-505683",
+    "https://www.sec.gov/Archives/edgar/data/0001061983/000119312526447198/cytk-ex99_1.htm",
     "https://www.sec.gov/Archives/edgar/data/0001649904/000162828026069106/q32026earningspr.htm",
+    "https://www.sec.gov/Archives/edgar/data/0001724521/000172452126000056/a2026q38kexhibit991.htm",
     "https://www.valoraanalitik.com/dolar-en-colombia-se-disparo-este-martes-y-subio-casi-50/",
     "https://www.valoraanalitik.com/gobierno-de-la-espriella-confirma-que-subira-iva-al-cafe-y-otros-alimentos-pero-explica-como-devolvera-ese-pago-a-millones-de-colombianos/"
   ]

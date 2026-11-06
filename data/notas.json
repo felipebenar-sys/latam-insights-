@@ -1,218 +1,159 @@
 {
-  "actualizado": "5 nov 2026, 5:49 a. m. (hora Bogotá)",
+  "actualizado": "6 nov 2026, 5:52 a. m. (hora Bogotá)",
   "notas": [
     {
-      "id": "2026-11-05-01",
-      "fecha": "2026-11-05",
-      "categoria": "macro",
-      "puntaje": {
-        "total": 9,
-        "alcance": 3,
-        "materialidad": 3,
-        "novedad": 2,
-        "fuente": 1
-      },
-      "titulo": "El Banco de la República sube a 7,1 % su proyección de inflación para 2026",
-      "resumen": "El equipo técnico del Banco de la República elevó su estimación de inflación para 2026 a 7,1 %, desde 6,9 %, y recortó la de crecimiento del PIB a 2 %, desde 2,5 %.",
-      "contexto": "En su informe trimestral, publicado el 4 de noviembre, el equipo técnico también subió a 4,8 % la inflación esperada para 2027 y bajó a 1,7 % el crecimiento de ese año, desde 1,9 %. Atribuye el ajuste a un mayor efecto del fenómeno de El Niño en alimentos, precios regulados y la inflación básica, a un petróleo más caro, a mayores costos de transporte internacional y a tensiones geopolíticas. Según el informe, la demanda supera la capacidad productiva y se necesita una tasa contractiva; la tasa está en 12,25 % tras 300 puntos básicos de alzas en 2026.",
-      "afectados": [
-        "TES",
-        "Bancos",
-        "CDT",
-        "Consumo"
-      ],
-      "peso_alcista": 30,
-      "alcista": "Una tasa alta por más tiempo mantiene atractivos los rendimientos de los CDT y las cuentas de ahorro en pesos. Para quien compre TES nuevos, las tasas elevadas ofrecen rentabilidades altas. Además, un banco central que reconoce el riesgo inflacionario puede ganar credibilidad y ayudar a anclar las expectativas con el tiempo.",
-      "bajista": "Más inflación y menos crecimiento es una combinación difícil para las empresas y el consumo. El informe sugiere que las tasas seguirían altas más tiempo del que espera el mercado después de mediados del próximo año, lo que presiona a la baja el precio de los TES que ya están en el portafolio. Un crecimiento de 2 % en 2026 y 1,7 % en 2027 limita las ventas y las utilidades de los emisores de la BVC.",
-      "impacto": {
-        "conclusion": "Pesa más la lectura bajista, porque el informe combina más inflación, menos crecimiento y una tasa contractiva por más tiempo. Para quien invierte, favorece el ahorro en pesos a tasas altas y es un viento en contra para las acciones y para los TES ya comprados.",
-        "activos": [
-          {
-            "activo": "acciones",
-            "efecto": "negativo",
-            "detalle": "Un crecimiento menor y tasas altas por más tiempo pesan sobre las ventas y utilidades de las empresas."
-          },
-          {
-            "activo": "renta_fija",
-            "efecto": "negativo",
-            "detalle": "Si las tasas siguen altas más tiempo, el precio de los TES en el portafolio tiende a bajar."
-          },
-          {
-            "activo": "dolar",
-            "efecto": "neutral",
-            "detalle": "Sin efecto directo."
-          },
-          {
-            "activo": "cdt",
-            "efecto": "positivo",
-            "detalle": "Una tasa de política alta por más tiempo sostiene los rendimientos de CDT y ahorro en pesos."
-          }
-        ]
-      },
-      "mirar": "El dato de inflación de octubre del DANE y la próxima reunión de la junta del Banco de la República.",
-      "terminos": [
-        "Inflación",
-        "PIB",
-        "Fenómeno de El Niño",
-        "Inflación básica",
-        "Puntos básicos"
-      ],
-      "fuente": "La República (con Reuters)",
-      "url": "https://www.larepublica.co/economia/equipo-tecnico-de-banco-central-de-colombia-ve-mayor-inflacion-y-menor-crecimiento-economico-este-y-el-proximo-ano-4517960"
-    },
-    {
-      "id": "2026-11-05-02",
-      "fecha": "2026-11-05",
-      "categoria": "internacional",
-      "puntaje": {
-        "total": 7,
-        "alcance": 1,
-        "materialidad": 3,
-        "novedad": 2,
-        "fuente": 1
-      },
-      "titulo": "La TRM sube a $3.235,59 tras las elecciones de medio tiempo en EE. UU.",
-      "resumen": "La tasa representativa del mercado para el 4 de noviembre quedó en $3.235,59, $52,60 por encima de la del día anterior, en una jornada marcada por las elecciones legislativas de Estados Unidos.",
-      "contexto": "La TRM previa era de $3.182,99. Además de las elecciones, el mercado sigue la decisión de la Reserva Federal de dejar su tasa entre 3,75 % y 4,00 %, los datos de empleo de EE. UU. y la volatilidad del Brent por el conflicto en Medio Oriente. En Colombia, el Banco de la República mantuvo su tasa en 12,25 % en una votación 4-3 y anunció la compra directa de US$2.000 millones al Gobierno, fuera del mercado local. Analistas de Global66 citados por la fuente estiman un rango semanal de $3.160 a $3.250.",
-      "afectados": [
-        "Peso colombiano",
-        "Importadores",
-        "Exportadores",
-        "Inversiones en dólares"
-      ],
-      "peso_alcista": 45,
-      "alcista": "Un dólar más alto aumenta en pesos el valor de los ahorros e inversiones en el exterior. También mejora los ingresos en pesos de exportadores y de emisores que venden en dólares, como las petroleras. Si los resultados electorales en EE. UU. reducen la incertidumbre, la propia fuente plantea un escenario de corrección hacia $3.150–$3.190, lo que limitaría el efecto sobre precios internos.",
-      "bajista": "Un dólar más caro encarece las importaciones y puede presionar la inflación, que sigue lejos de la meta. Eso refuerza la postura cautelosa del Banco de la República, donde tres miembros ya votaron por subir la tasa. Si los datos de empleo de EE. UU. sorprenden al alza o se afianza un alza de la Fed en diciembre, la fuente ve la tasa de cambio entre $3.260 y $3.300.",
-      "impacto": {
-        "conclusion": "Pesa algo más la lectura bajista, porque el salto de la TRM llega con una inflación alta y un Banco de la República dividido. Para quien invierte, el efecto más directo está en el valor en pesos de lo que tiene en dólares; el resto depende de si el movimiento se sostiene.",
-        "activos": [
-          {
-            "activo": "acciones",
-            "efecto": "neutral",
-            "detalle": "Sin efecto directo."
-          },
-          {
-            "activo": "renta_fija",
-            "efecto": "neutral",
-            "detalle": "Sin efecto directo."
-          },
-          {
-            "activo": "dolar",
-            "efecto": "positivo",
-            "detalle": "Una TRM más alta aumenta el valor en pesos de los ahorros e inversiones en el exterior."
-          },
-          {
-            "activo": "cdt",
-            "efecto": "neutral",
-            "detalle": "Sin efecto directo."
-          }
-        ]
-      },
-      "mirar": "Los datos de empleo de EE. UU. y las señales de la Reserva Federal sobre una posible alza en diciembre.",
-      "terminos": [
-        "TRM",
-        "Reserva Federal",
-        "Tasa de política monetaria"
-      ],
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/economia/finanzas/el-dolar-en-colombia-pego-un-salto-asi-cotiza-la-divisa-tras-las-elecciones-de-medio-tiempo-en-estados-unidos-505683"
-    },
-    {
-      "id": "2026-11-05-03",
-      "fecha": "2026-11-05",
-      "categoria": "region",
-      "pais": "Brasil",
-      "puntaje": {
-        "total": 7,
-        "alcance": 1,
-        "materialidad": 3,
-        "novedad": 2,
-        "fuente": 1
-      },
-      "titulo": "Brasil pausa los recortes: el banco central deja su tasa en 13,75 %",
-      "resumen": "El Comité de Política Monetaria del Banco Central do Brasil mantuvo el 4 de noviembre la tasa básica en 13,75 % anual y cerró así una racha de cinco recortes consecutivos.",
-      "contexto": "El ciclo de recortes empezó en marzo de 2026, cuando la tasa estaba en 15 %. La pausa era esperada después de que las expectativas de tasas empeoraran tras la reelección de Lula. Desde la segunda vuelta del 25 de octubre, el dólar subió 9,46 % frente al real, de R$4,98 a R$5,45 al cierre del miércoles, en medio de temores por una política fiscal expansiva. Brasil es la mayor economía de la región y un destino frecuente de los fondos y ETF latinoamericanos que compran inversionistas colombianos.",
-      "afectados": [
-        "Real brasileño",
-        "Bolsa de Brasil",
-        "ETF de América Latina"
-      ],
-      "peso_alcista": 40,
-      "alcista": "Mantener la tasa alta puede ayudar a frenar la caída del real, porque sostiene el atractivo de los activos en reales. Una moneda más estable reduciría las pérdidas en pesos de quien tiene fondos o acciones brasileñas. Además, la pausa muestra que el banco central responde a la presión sobre la moneda, lo que puede dar algo de confianza a los inversionistas.",
-      "bajista": "La pausa ocurre porque las expectativas empeoraron y por dudas sobre el manejo fiscal, no porque la inflación esté resuelta. Una tasa de 13,75 % por más tiempo frena el crédito y el crecimiento, lo que pesa sobre las empresas brasileñas. Con el real ya debilitado cerca de 9,5 % en pocos días, quien mide en pesos sus inversiones en Brasil ha visto caer su valor.",
-      "impacto": {
-        "conclusion": "Pesa más la lectura bajista, porque la decisión responde a un deterioro de la confianza tras las elecciones y a dudas fiscales. Para quien invierte desde Colombia, el canal principal es el valor en pesos de los fondos y acciones de Brasil, golpeado por la caída del real.",
-        "activos": [
-          {
-            "activo": "acciones",
-            "efecto": "neutral",
-            "detalle": "Sin efecto directo."
-          },
-          {
-            "activo": "renta_fija",
-            "efecto": "neutral",
-            "detalle": "Sin efecto directo."
-          },
-          {
-            "activo": "dolar",
-            "efecto": "negativo",
-            "detalle": "La caída del real reduce en pesos el valor de fondos, ETF y acciones expuestos a Brasil."
-          },
-          {
-            "activo": "cdt",
-            "efecto": "neutral",
-            "detalle": "Sin efecto directo."
-          }
-        ]
-      },
-      "mirar": "Las primeras señales fiscales del gobierno reelegido y su efecto sobre el real.",
-      "terminos": [
-        "Tasa de política monetaria",
-        "Segunda vuelta electoral",
-        "ETF"
-      ],
-      "fuente": "CNN Brasil",
-      "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/copom-novembro-2026/"
-    },
-    {
-      "id": "2026-11-05-04",
-      "fecha": "2026-11-05",
+      "id": "2026-11-06-03",
+      "fecha": "2026-11-06",
       "categoria": "biotecnologia",
       "formato": "hechos",
-      "empresa": "CYTK",
-      "fecha_noticia": "2026-11-04",
-      "titulo": "Cytokinetics vendió US$44,5 millones de su medicamento para el corazón en el trimestre",
-      "resumen": "Cytokinetics informó ingresos de US$47,6 millones en el tercer trimestre de 2026, de los cuales US$44,5 millones vinieron de las ventas de MYQORZO (aficamten). Un año antes sus ingresos fueron de US$1,9 millones.",
-      "contexto": "La pérdida neta del trimestre fue de US$190,1 millones, frente a US$306,2 millones un año antes. La compañía tenía unos US$1.600 millones en caja e inversiones al 30 de septiembre. Hasta esa fecha, cerca de 1.100 médicos habían recetado el medicamento y más de 2.800 pacientes lo habían recibido. También obtuvo autorización en Canadá y en el Reino Unido para pacientes con miocardiopatía hipertrófica obstructiva con síntomas.",
-      "que_significa": "La miocardiopatía hipertrófica es una enfermedad en la que el músculo del corazón se vuelve demasiado grueso. MYQORZO ya se vende, y estas cifras muestran cuánto dinero está entrando por esas ventas. La compañía aún gasta más de lo que gana, por eso registra pérdidas, pero tiene una caja grande para seguir funcionando. Ahora busca ampliar el uso del medicamento a la forma no obstructiva de la enfermedad, después de que un estudio cumplió su objetivo principal.",
-      "mirar": "La solicitud a la FDA para usar aficamten en la forma no obstructiva de la enfermedad, prevista para el cuarto trimestre de 2026.",
+      "empresa": "CELC",
+      "fecha_noticia": "2026-11-05",
+      "titulo": "Celcuity presenta su primer trimestre con su medicamento contra el cáncer de mama ya aprobado",
+      "resumen": "Celcuity informó una pérdida neta de US$73,3 millones en el tercer trimestre de 2026 y todavía no registró ventas de REVTORPYK (gedatolisib), porque los envíos empezaron el 30 de septiembre.",
+      "contexto": "La FDA aprobó REVTORPYK el 14 de julio de 2026 para un tipo de cáncer de mama avanzado (HR+/HER2-) sin la mutación PIK3CA, en pacientes que ya recibieron al menos un tratamiento hormonal. Un año antes, la pérdida del mismo trimestre había sido de US$43,8 millones; el aumento viene sobre todo de los gastos para lanzar el medicamento. La compañía tenía US$642,7 millones en caja e inversiones al 30 de septiembre y dice que le alcanzan para operar hasta 2029. En el tercer trimestre también pidió a la FDA ampliar el uso a pacientes que sí tienen la mutación PIK3CA.",
+      "que_significa": "Celcuity pasó de ser una compañía que solo investigaba a una que vende un medicamento. Por eso sus gastos subieron: ahora paga equipos de venta y distribución. Las ventas solo se cuentan cuando el medicamento se entrega, y por eso este trimestre aparecen en cero. La compañía informa que 91 % de las personas con seguro comercial o Medicare en EE. UU. tienen cobertura para el medicamento.",
+      "mirar": "La respuesta de la FDA a la solicitud para usar el medicamento en pacientes con la mutación PIK3CA.",
       "terminos": [
         "FDA",
-        "Aprobado (FDA)",
-        "Pista de caja"
+        "Cáncer de mama HR+/HER2-",
+        "Mutación PIK3CA"
       ],
-      "fuente": "Cytokinetics (formulario 8-K, SEC)",
-      "url": "https://www.sec.gov/Archives/edgar/data/0001061983/000119312526447198/cytk-ex99_1.htm"
+      "fuente": "GlobeNewswire (comunicado de Celcuity)",
+      "url": "https://www.globenewswire.com/news-release/2026/11/05/3396999/0/en/celcuity-inc-reports-third-quarter-2026-financial-results-and-provides-corporate-update.html"
     },
     {
-      "id": "2026-11-05-05",
-      "fecha": "2026-11-05",
+      "id": "2026-11-06-04",
+      "fecha": "2026-11-06",
       "categoria": "biotecnologia",
       "formato": "hechos",
-      "empresa": "RCUS",
-      "fecha_noticia": "2026-11-04",
-      "titulo": "Arcus Biosciences reporta su tercer trimestre y alista nuevos estudios de casdatifan",
-      "resumen": "Arcus Biosciences informó ingresos de US$9 millones y una pérdida neta de US$128 millones en el tercer trimestre de 2026, y dijo que tiene caja para operar hasta 2029.",
-      "contexto": "Un año antes los ingresos fueron de US$26 millones y la pérdida de US$135 millones. Al 30 de septiembre tenía US$694 millones en caja; la proyección hasta 2029 incluye US$288 millones que recaudó en octubre con venta de acciones. Espera terminar de inscribir pacientes en el estudio PEAK-1 de casdatifan para cáncer de riñón en dos a tres meses, y empezar el estudio PEAK-20, en primera línea, en el cuarto trimestre de 2026.",
-      "que_significa": "Casdatifan es el medicamento principal de Arcus y se prueba contra un tipo de cáncer de riñón. PEAK-1 y PEAK-20 son estudios de Fase 3, la última etapa antes de pedir la aprobación. Terminar de inscribir pacientes es un paso necesario antes de tener resultados. La caja indica cuánto tiempo puede seguir investigando la compañía sin conseguir más dinero.",
-      "mirar": "El análisis intermedio del estudio PRISM-1 de quemliclustat, previsto para el cuarto trimestre de 2026.",
+      "empresa": "PVLA",
+      "fecha_noticia": "2026-11-05",
+      "titulo": "Palvella espera la decisión de la FDA sobre su gel de rapamicina para febrero de 2027",
+      "resumen": "Palvella Therapeutics informó que la FDA aceptó con revisión prioritaria su solicitud de aprobación de QTORIN rapamicina para malformaciones linfáticas microquísticas, con fecha límite de decisión el 28 de febrero de 2027.",
+      "contexto": "En el tercer trimestre de 2026 la compañía tuvo una pérdida neta de US$24,6 millones, frente a US$11,3 millones un año antes, y cerró septiembre con US$236,7 millones en caja e inversiones. Si el medicamento es aprobado, planea lanzarlo en EE. UU. por su cuenta en el primer semestre de 2027. También espera iniciar en el cuarto trimestre de 2026 un estudio de Fase 3 en malformaciones venosas de la piel y un estudio de Fase 2 con otro producto, QTORIN pitavastatina.",
+      "que_significa": "Las malformaciones linfáticas microquísticas son una enfermedad rara en la que se forman bolsas anormales de líquido bajo la piel. Palvella busca tratarlas con un gel que se aplica sobre la piel. La revisión prioritaria significa que la FDA se compromete a decidir en menos tiempo de lo normal. La fecha de febrero de 2027 es el próximo paso clave para la compañía.",
+      "mirar": "La decisión de la FDA, prevista para el 28 de febrero de 2027.",
       "terminos": [
+        "FDA",
         "Fase 3",
-        "Fases de un ensayo clínico",
-        "Pista de caja"
+        "Fases de un ensayo clínico"
       ],
-      "fuente": "Arcus Biosciences (formulario 8-K, SEC)",
-      "url": "https://www.sec.gov/Archives/edgar/data/0001724521/000172452126000056/a2026q38kexhibit991.htm"
+      "fuente": "GlobeNewswire (comunicado de Palvella Therapeutics)",
+      "url": "https://www.globenewswire.com/news-release/2026/11/05/3396310/0/en/palvella-therapeutics-reports-third-quarter-2026-financial-results-and-provides-corporate-update.html"
+    },
+    {
+      "id": "2026-11-06-02",
+      "fecha": "2026-11-06",
+      "categoria": "bvc",
+      "puntaje": {
+        "total": 7,
+        "alcance": 1,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "ISA sube 8 % sus ingresos a septiembre, pero su utilidad cae 3 %",
+      "resumen": "Interconexión Eléctrica (ISA) reportó ingresos por $12,4 billones y un EBITDA de $7,09 billones entre enero y septiembre de 2026, ambos 8 % más que un año antes, mientras su utilidad neta bajó 3 %, a $1,79 billones.",
+      "contexto": "Solo en el tercer trimestre los ingresos fueron de $3,8 billones. La compañía atribuye el crecimiento del EBITDA a la actualización de sus contratos por inflación, a la construcción de proyectos, a la consolidación de IE Madeira en Brasil y a nuevas obras en operación; la caída de la utilidad la explica por variables macroeconómicas y su resultado financiero, y señala como factor principal el efecto de conversión por la revaluación del peso frente a otras monedas de la región. En nueve meses invirtió $5,2 billones (19 % más), de los cuales $2,1 billones fueron del tercer trimestre, y sumó adjudicaciones y cierres por US$2.708 millones, entre ellos la Ruta de los Lagos en Chile.",
+      "afectados": [
+        "ISA",
+        "Ecopetrol",
+        "Sector eléctrico",
+        "Peso colombiano"
+      ],
+      "peso_alcista": 50,
+      "alcista": "El negocio operativo sigue creciendo: ingresos y EBITDA suben 8 % gracias a contratos indexados a la inflación y a proyectos nuevos en Colombia, Brasil y Chile. La inversión de $5,2 billones y las adjudicaciones por US$2.708 millones amplían la base de ingresos futuros. Como los ingresos se ajustan con la inflación, la compañía tiene cierta protección en un entorno de precios altos.",
+      "bajista": "La utilidad neta cae 3 % pese al mayor EBITDA, lo que muestra que la revaluación del peso y el costo financiero reducen lo que llega al accionista. Buena parte del negocio está en Brasil y Chile, así que un peso colombiano fuerte disminuye el valor de esos resultados al convertirlos. Con tasas altas en la región, el costo de financiar un plan de inversión creciente pesa sobre las utilidades.",
+      "impacto": {
+        "conclusion": "Las dos lecturas están parejas: la operación crece y la cartera de proyectos se amplía, pero la utilidad retrocede por la conversión de monedas y el resultado financiero. Para quien tiene acciones de ISA o de Ecopetrol, su controlante, el resultado es mixto.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "mixto",
+            "detalle": "Ingresos y EBITDA crecen, pero la utilidad neta de ISA, emisor relevante de la BVC, cae 3 %."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "Los resultados del tercer trimestre de Ecopetrol, controlante de ISA, que se publican el 10 de noviembre.",
+      "terminos": [
+        "EBITDA",
+        "Revaluación del peso"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/empresas/isa-reporto-ingresos-por-12-4-billones-a-septiembre-crecieron-8-anual-4517860"
+    },
+    {
+      "id": "2026-11-06-01",
+      "fecha": "2026-11-06",
+      "categoria": "region",
+      "pais": "México",
+      "puntaje": {
+        "total": 7,
+        "alcance": 1,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Banxico sorprende con un recorte de su tasa a 6,25 % en votación dividida",
+      "resumen": "El Banco de México bajó su tasa de referencia 25 puntos básicos, de 6,5 % a 6,25 %, el 5 de noviembre, cuando el consenso esperaba que no la moviera en lo que queda de 2026.",
+      "contexto": "La decisión salió con tres votos a favor (la gobernadora Victoria Rodríguez Ceja y los subgobernadores José Gabriel Cuadra García y Omar Mejía Castelazo) y dos a favor de mantenerla (Galia Borja Gómez y Jonathan Heath). El comunicado indica que mantener la tasa en ese nivel por un periodo prolongado ayudará a que la inflación converja, lo que se lee como una pausa al menos hasta 2027. Con el recorte, el diferencial frente a la tasa de la Reserva Federal llegó a un mínimo récord de 225 puntos básicos. México es la segunda economía de la región y su peso es una referencia para las monedas latinoamericanas, incluido el peso colombiano.",
+      "afectados": [
+        "Peso mexicano",
+        "Bolsa de México",
+        "Monedas de la región"
+      ],
+      "peso_alcista": 45,
+      "alcista": "Una tasa más baja abarata el crédito en México y puede apoyar el consumo y la inversión, lo que favorece a las empresas listadas en ese país. Para quien tiene fondos o acciones mexicanas, un costo del dinero menor suele mejorar las valoraciones. Además, el banco central anticipa una pausa larga, lo que reduce la incertidumbre sobre nuevos movimientos.",
+      "bajista": "El recorte reduce a un mínimo récord la ventaja de tasas de México frente a EE. UU., lo que le resta atractivo al peso mexicano para los capitales que buscan rendimiento. La fuente vincula en parte con ese menor diferencial la depreciación de 6 % del peso en septiembre. Si el peso mexicano se debilita, las inversiones en ese país pierden valor al medirlas en pesos colombianos. Una votación dividida también puede generar dudas sobre la dirección del banco central.",
+      "impacto": {
+        "conclusion": "Pesa algo más la lectura bajista, porque el menor diferencial de tasas presiona al peso mexicano, y eso afecta directamente a quien tiene inversiones en México medidas en pesos colombianos. El apoyo a la actividad y a las acciones mexicanas compensa en parte ese efecto.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "Las acciones mexicanas pueden beneficiarse de tasas más bajas, pero un peso mexicano más débil reduce su valor medido en pesos colombianos."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La próxima decisión de la Reserva Federal en diciembre, que definirá si el diferencial de tasas con México se estrecha aún más.",
+      "terminos": [
+        "Tasa de política monetaria",
+        "Diferencial de tasas",
+        "Puntos básicos",
+        "Reserva Federal"
+      ],
+      "fuente": "El Financiero",
+      "url": "https://www.elfinanciero.com.mx/economia/2026/11/05/tasa-de-interes-del-banco-de-mexico-en-cuanto-quedo-hoy-5-de-noviembre/"
     }
   ]
 }
