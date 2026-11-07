@@ -687,6 +687,22 @@
     {
       "termino": "Mensaje de urgencia",
       "definicion": "Herramienta que la Constitución le da al presidente para pedirle al Congreso que tramite un proyecto de ley más rápido. Permite que las comisiones del Senado y de la Cámara discutan el proyecto al mismo tiempo, en sesiones conjuntas, y fija un plazo para decidir. Le importa al inversionista porque acelera la llegada de reformas que pueden cambiar impuestos, gasto público y la confianza en las finanzas del país."
+    },
+    {
+      "termino": "Margen operativo",
+      "definicion": "Es la parte de cada peso de ventas que le queda a una empresa después de pagar los costos y gastos de su operación, antes de intereses e impuestos. Se expresa como porcentaje de los ingresos. Si baja, la empresa gana menos por cada venta, aunque sus ingresos crezcan."
+    },
+    {
+      "termino": "Volumen bruto de mercancías (GMV)",
+      "definicion": "Es el valor total de los productos vendidos a través de una plataforma de comercio electrónico en un periodo, antes de descontar comisiones, devoluciones o costos. Sirve para medir qué tan grande es la actividad de un marketplace, aunque no es lo mismo que los ingresos de la empresa, que son solo una parte de ese valor."
+    },
+    {
+      "termino": "Nóminas no agrícolas",
+      "definicion": "Es el informe mensual del Departamento de Trabajo de EE. UU. que cuenta cuántos empleos se crearon o se perdieron fuera del sector agrícola. Es uno de los datos que más mira la Reserva Federal para decidir sus tasas de interés, por lo que suele mover el dólar, los bonos y las bolsas en todo el mundo."
+    },
+    {
+      "termino": "Miocardiopatía hipertrófica",
+      "definicion": "Es una enfermedad en la que el músculo del corazón se vuelve más grueso de lo normal. Eso hace que al corazón le cueste más llenarse de sangre y bombearla, y puede causar cansancio, falta de aire o dolor en el pecho."
     }
   ]
 }

@@ -1,81 +1,99 @@
 {
-  "actualizado": "6 nov 2026, 5:52 a. m. (hora Bogotá)",
+  "actualizado": "7 nov 2026, 5:47 a. m. (hora Bogotá)",
   "notas": [
     {
-      "id": "2026-11-06-03",
-      "fecha": "2026-11-06",
-      "categoria": "biotecnologia",
-      "formato": "hechos",
-      "empresa": "CELC",
-      "fecha_noticia": "2026-11-05",
-      "titulo": "Celcuity presenta su primer trimestre con su medicamento contra el cáncer de mama ya aprobado",
-      "resumen": "Celcuity informó una pérdida neta de US$73,3 millones en el tercer trimestre de 2026 y todavía no registró ventas de REVTORPYK (gedatolisib), porque los envíos empezaron el 30 de septiembre.",
-      "contexto": "La FDA aprobó REVTORPYK el 14 de julio de 2026 para un tipo de cáncer de mama avanzado (HR+/HER2-) sin la mutación PIK3CA, en pacientes que ya recibieron al menos un tratamiento hormonal. Un año antes, la pérdida del mismo trimestre había sido de US$43,8 millones; el aumento viene sobre todo de los gastos para lanzar el medicamento. La compañía tenía US$642,7 millones en caja e inversiones al 30 de septiembre y dice que le alcanzan para operar hasta 2029. En el tercer trimestre también pidió a la FDA ampliar el uso a pacientes que sí tienen la mutación PIK3CA.",
-      "que_significa": "Celcuity pasó de ser una compañía que solo investigaba a una que vende un medicamento. Por eso sus gastos subieron: ahora paga equipos de venta y distribución. Las ventas solo se cuentan cuando el medicamento se entrega, y por eso este trimestre aparecen en cero. La compañía informa que 91 % de las personas con seguro comercial o Medicare en EE. UU. tienen cobertura para el medicamento.",
-      "mirar": "La respuesta de la FDA a la solicitud para usar el medicamento en pacientes con la mutación PIK3CA.",
-      "terminos": [
-        "FDA",
-        "Cáncer de mama HR+/HER2-",
-        "Mutación PIK3CA"
+      "id": "2026-11-07-01",
+      "fecha": "2026-11-07",
+      "categoria": "internacional",
+      "puntaje": {
+        "total": 7,
+        "alcance": 2,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "EE. UU. crea 165.000 empleos en octubre y el dólar cierra la semana en $3.237",
+      "resumen": "La economía de Estados Unidos sumó 165.000 empleos en octubre, muy por encima de los 65.000 que esperaba el consenso, y el desempleo bajó a 4,1 %. En Colombia, el dólar cerró el viernes en $3.237, 9 pesos por encima de la TRM del día.",
+      "contexto": "Los datos de agosto y septiembre se revisaron al alza en 84.000 empleos en conjunto, y el promedio de creación de empleo de los últimos 12 meses es de 48.000. Los salarios subieron 3,1 % anual. En la jornada del viernes en Colombia, el dólar abrió en $3.232, tocó un máximo de $3.253 y un mínimo de $3.223, con negocios por cerca de US$1.049 millones; la TRM de la sesión fue de $3.228.",
+      "afectados": [
+        "Peso colombiano",
+        "TES",
+        "Reserva Federal",
+        "Bonos del Tesoro de EE. UU."
       ],
-      "fuente": "GlobeNewswire (comunicado de Celcuity)",
-      "url": "https://www.globenewswire.com/news-release/2026/11/05/3396999/0/en/celcuity-inc-reports-third-quarter-2026-financial-results-and-provides-corporate-update.html"
+      "peso_alcista": 40,
+      "alcista": "Un mercado laboral más fuerte de lo esperado indica que la economía de Estados Unidos sigue creciendo, lo que sostiene la demanda por exportaciones y el apetito por activos de riesgo. Para quien tiene inversiones en dólares, un dólar más firme frente al peso aumenta el valor en pesos de esos ahorros. Además, el desempleo en 4,1 % reduce el temor a una desaceleración brusca en el principal socio comercial de Colombia.",
+      "bajista": "Un empleo tan fuerte reduce la probabilidad de que la Reserva Federal baje sus tasas pronto, y eso tiende a fortalecer el dólar y a subir los rendimientos de los bonos del Tesoro. Ese movimiento suele presionar a la baja a las monedas emergentes como el peso y a los precios de los TES. Si el peso se debilita, se encarecen las importaciones y se complica la baja de la inflación en Colombia, lo que puede mantener altas las tasas locales.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista, porque el principal canal hacia Colombia es un dólar más firme y unas tasas internacionales altas por más tiempo, que afectan al peso y a la renta fija local. Para quien tiene ahorros en dólares, el efecto en pesos es favorable; para quien tiene TES, la presión va en contra del precio.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "Tasas altas en EE. UU. por más tiempo tienden a presionar al alza los rendimientos de los TES y a la baja su precio."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "positivo",
+            "detalle": "Un dólar más firme frente al peso aumenta el valor en pesos de los ahorros e inversiones en el exterior."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La TRM con la que abre el mercado cambiario el lunes y las próximas declaraciones de la Reserva Federal sobre sus tasas.",
+      "terminos": [
+        "Nóminas no agrícolas",
+        "Reserva Federal",
+        "TRM",
+        "TES"
+      ],
+      "fuente": "Semana",
+      "url": "https://www.semana.com/economia/macroeconomia/articulo/dolar-al-alza-la-moneda-cierra-mas-cara-la-jornada-del-viernes-6-de-noviembre/202610/"
     },
     {
-      "id": "2026-11-06-04",
-      "fecha": "2026-11-06",
-      "categoria": "biotecnologia",
-      "formato": "hechos",
-      "empresa": "PVLA",
-      "fecha_noticia": "2026-11-05",
-      "titulo": "Palvella espera la decisión de la FDA sobre su gel de rapamicina para febrero de 2027",
-      "resumen": "Palvella Therapeutics informó que la FDA aceptó con revisión prioritaria su solicitud de aprobación de QTORIN rapamicina para malformaciones linfáticas microquísticas, con fecha límite de decisión el 28 de febrero de 2027.",
-      "contexto": "En el tercer trimestre de 2026 la compañía tuvo una pérdida neta de US$24,6 millones, frente a US$11,3 millones un año antes, y cerró septiembre con US$236,7 millones en caja e inversiones. Si el medicamento es aprobado, planea lanzarlo en EE. UU. por su cuenta en el primer semestre de 2027. También espera iniciar en el cuarto trimestre de 2026 un estudio de Fase 3 en malformaciones venosas de la piel y un estudio de Fase 2 con otro producto, QTORIN pitavastatina.",
-      "que_significa": "Las malformaciones linfáticas microquísticas son una enfermedad rara en la que se forman bolsas anormales de líquido bajo la piel. Palvella busca tratarlas con un gel que se aplica sobre la piel. La revisión prioritaria significa que la FDA se compromete a decidir en menos tiempo de lo normal. La fecha de febrero de 2027 es el próximo paso clave para la compañía.",
-      "mirar": "La decisión de la FDA, prevista para el 28 de febrero de 2027.",
-      "terminos": [
-        "FDA",
-        "Fase 3",
-        "Fases de un ensayo clínico"
-      ],
-      "fuente": "GlobeNewswire (comunicado de Palvella Therapeutics)",
-      "url": "https://www.globenewswire.com/news-release/2026/11/05/3396310/0/en/palvella-therapeutics-reports-third-quarter-2026-financial-results-and-provides-corporate-update.html"
-    },
-    {
-      "id": "2026-11-06-02",
-      "fecha": "2026-11-06",
+      "id": "2026-11-07-02",
+      "fecha": "2026-11-07",
       "categoria": "bvc",
       "puntaje": {
         "total": 7,
-        "alcance": 1,
+        "alcance": 2,
         "materialidad": 3,
-        "novedad": 2,
+        "novedad": 1,
         "fuente": 1
       },
-      "titulo": "ISA sube 8 % sus ingresos a septiembre, pero su utilidad cae 3 %",
-      "resumen": "Interconexión Eléctrica (ISA) reportó ingresos por $12,4 billones y un EBITDA de $7,09 billones entre enero y septiembre de 2026, ambos 8 % más que un año antes, mientras su utilidad neta bajó 3 %, a $1,79 billones.",
-      "contexto": "Solo en el tercer trimestre los ingresos fueron de $3,8 billones. La compañía atribuye el crecimiento del EBITDA a la actualización de sus contratos por inflación, a la construcción de proyectos, a la consolidación de IE Madeira en Brasil y a nuevas obras en operación; la caída de la utilidad la explica por variables macroeconómicas y su resultado financiero, y señala como factor principal el efecto de conversión por la revaluación del peso frente a otras monedas de la región. En nueve meses invirtió $5,2 billones (19 % más), de los cuales $2,1 billones fueron del tercer trimestre, y sumó adjudicaciones y cierres por US$2.708 millones, entre ellos la Ruta de los Lagos en Chile.",
+      "titulo": "Ecopetrol anticipa utilidad de $4 a $5 billones en el tercer trimestre",
+      "resumen": "Ecopetrol proyecta una utilidad neta de entre $4 billones y $5 billones para el tercer trimestre de 2026, frente a $2,56 billones un año antes, con ingresos de $33 a $36 billones. Publicará sus resultados el 10 de noviembre.",
+      "contexto": "La empresa estima un EBITDA de $14 a $16,5 billones, un margen EBITDA de 42 % a 46 %, una caja de hasta $18 billones, un saldo del FEPC de $10 a $12 billones y una producción de 750.000 barriles equivalentes por día. En el segundo trimestre de 2026 había reportado ingresos de $40,2 billones y una utilidad de $6,1 billones. El Brent promedió cerca de US$91 en el tercer trimestre, frente a unos US$68 un año antes y US$97,7 en el segundo trimestre.",
       "afectados": [
-        "ISA",
         "Ecopetrol",
-        "Sector eléctrico",
+        "Finanzas públicas",
+        "Petróleo",
         "Peso colombiano"
       ],
-      "peso_alcista": 50,
-      "alcista": "El negocio operativo sigue creciendo: ingresos y EBITDA suben 8 % gracias a contratos indexados a la inflación y a proyectos nuevos en Colombia, Brasil y Chile. La inversión de $5,2 billones y las adjudicaciones por US$2.708 millones amplían la base de ingresos futuros. Como los ingresos se ajustan con la inflación, la compañía tiene cierta protección en un entorno de precios altos.",
-      "bajista": "La utilidad neta cae 3 % pese al mayor EBITDA, lo que muestra que la revaluación del peso y el costo financiero reducen lo que llega al accionista. Buena parte del negocio está en Brasil y Chile, así que un peso colombiano fuerte disminuye el valor de esos resultados al convertirlos. Con tasas altas en la región, el costo de financiar un plan de inversión creciente pesa sobre las utilidades.",
+      "peso_alcista": 60,
+      "alcista": "Una utilidad de hasta $5 billones sería casi el doble de la del mismo trimestre de 2025, gracias a un Brent mucho más alto que hace un año. Eso fortalece la capacidad de Ecopetrol para generar caja y pagar dividendos, de los que la Nación es el principal accionista. Unas mayores ganancias de la petrolera también ayudan a las cuentas del Gobierno, lo que puede aliviar la presión sobre la deuda pública.",
+      "bajista": "La proyección implica una caída frente a los $6,1 billones del segundo trimestre, en parte por un Brent más bajo y por el efecto del peso. El saldo del FEPC, de $10 a $12 billones, es dinero que el Gobierno le debe a Ecopetrol y que no ha entrado a su caja. Además, son proyecciones de la empresa; si el dato real del 10 de noviembre queda en la parte baja del rango, el mercado podría leerlo como una desaceleración.",
       "impacto": {
-        "conclusion": "Las dos lecturas están parejas: la operación crece y la cartera de proyectos se amplía, pero la utilidad retrocede por la conversión de monedas y el resultado financiero. Para quien tiene acciones de ISA o de Ecopetrol, su controlante, el resultado es mixto.",
+        "conclusion": "Pesa algo más la lectura alcista, porque la utilidad esperada casi duplica la de hace un año y sostiene el aporte de Ecopetrol a las finanzas públicas. Para quien tiene acciones colombianas, Ecopetrol es uno de los emisores de mayor peso en la bolsa; la confirmación llegará con los resultados oficiales.",
         "activos": [
           {
             "activo": "acciones",
-            "efecto": "mixto",
-            "detalle": "Ingresos y EBITDA crecen, pero la utilidad neta de ISA, emisor relevante de la BVC, cae 3 %."
+            "efecto": "positivo",
+            "detalle": "Mayores utilidades de Ecopetrol apoyan a uno de los emisores más grandes de la BVC."
           },
           {
             "activo": "renta_fija",
-            "efecto": "neutral",
-            "detalle": "Sin efecto directo."
+            "efecto": "mixto",
+            "detalle": "Más ingresos para la Nación vía dividendos ayudan a las cuentas fiscales, pero el saldo pendiente del FEPC sigue siendo una carga."
           },
           {
             "activo": "dolar",
@@ -89,39 +107,42 @@
           }
         ]
       },
-      "mirar": "Los resultados del tercer trimestre de Ecopetrol, controlante de ISA, que se publican el 10 de noviembre.",
+      "mirar": "La publicación de los resultados del tercer trimestre de Ecopetrol el 10 de noviembre.",
       "terminos": [
         "EBITDA",
-        "Revaluación del peso"
+        "Fondo de Estabilización de Precios de los Combustibles (FEPC)",
+        "Brent"
       ],
       "fuente": "La República",
-      "url": "https://www.larepublica.co/empresas/isa-reporto-ingresos-por-12-4-billones-a-septiembre-crecieron-8-anual-4517860"
+      "url": "https://www.larepublica.co/economia/utilidades-de-ecopetrol-llegarian-a-5-billones-en-el-tercer-trimestre-del-ano-4518789"
     },
     {
-      "id": "2026-11-06-01",
-      "fecha": "2026-11-06",
-      "categoria": "region",
-      "pais": "México",
+      "id": "2026-11-07-03",
+      "fecha": "2026-11-07",
+      "categoria": "portafolio",
+      "empresa": "MELI",
       "puntaje": {
-        "total": 7,
+        "total": 6,
         "alcance": 1,
-        "materialidad": 3,
+        "materialidad": 2,
         "novedad": 2,
         "fuente": 1
       },
-      "titulo": "Banxico sorprende con un recorte de su tasa a 6,25 % en votación dividida",
-      "resumen": "El Banco de México bajó su tasa de referencia 25 puntos básicos, de 6,5 % a 6,25 %, el 5 de noviembre, cuando el consenso esperaba que no la moviera en lo que queda de 2026.",
-      "contexto": "La decisión salió con tres votos a favor (la gobernadora Victoria Rodríguez Ceja y los subgobernadores José Gabriel Cuadra García y Omar Mejía Castelazo) y dos a favor de mantenerla (Galia Borja Gómez y Jonathan Heath). El comunicado indica que mantener la tasa en ese nivel por un periodo prolongado ayudará a que la inflación converja, lo que se lee como una pausa al menos hasta 2027. Con el recorte, el diferencial frente a la tasa de la Reserva Federal llegó a un mínimo récord de 225 puntos básicos. México es la segunda economía de la región y su peso es una referencia para las monedas latinoamericanas, incluido el peso colombiano.",
+      "titulo": "MercadoLibre crece 45 % en ingresos en el tercer trimestre, pero su margen operativo se estrecha",
+      "resumen": "MercadoLibre reportó ingresos de US$10.750 millones en el tercer trimestre de 2026, 45 % más que un año antes, y una utilidad neta de US$448 millones, 6 % más. Su utilidad operativa bajó 6 %, a US$676 millones.",
+      "contexto": "El margen operativo fue de 6,3 %, 40 puntos básicos menos que en el segundo trimestre, porque la empresa está invirtiendo en umbrales más bajos de envío gratis y en marketing. El volumen de mercancías vendidas creció 38 % en dólares, a US$22.818 millones, y los compradores activos llegaron a 94 millones. La cartera de crédito de Mercado Pago llegó a casi US$18.000 millones, 62 % más que hace un año, con una morosidad de 15 a 90 días de 7,0 %.",
       "afectados": [
-        "Peso mexicano",
-        "Bolsa de México",
-        "Monedas de la región"
+        "MercadoLibre",
+        "Mercado Pago",
+        "Brasil",
+        "México",
+        "Argentina"
       ],
-      "peso_alcista": 45,
-      "alcista": "Una tasa más baja abarata el crédito en México y puede apoyar el consumo y la inversión, lo que favorece a las empresas listadas en ese país. Para quien tiene fondos o acciones mexicanas, un costo del dinero menor suele mejorar las valoraciones. Además, el banco central anticipa una pausa larga, lo que reduce la incertidumbre sobre nuevos movimientos.",
-      "bajista": "El recorte reduce a un mínimo récord la ventaja de tasas de México frente a EE. UU., lo que le resta atractivo al peso mexicano para los capitales que buscan rendimiento. La fuente vincula en parte con ese menor diferencial la depreciación de 6 % del peso en septiembre. Si el peso mexicano se debilita, las inversiones en ese país pierden valor al medirlas en pesos colombianos. Una votación dividida también puede generar dudas sobre la dirección del banco central.",
+      "peso_alcista": 55,
+      "alcista": "Los ingresos crecieron 45 % y el volumen de mercancías 38 %, con alzas fuertes en sus tres mercados principales: Brasil, México y Argentina. El negocio financiero sigue ganando escala, con 93 millones de usuarios activos mensuales y una cartera que crece 62 %. La empresa presenta la caída del margen como una inversión deliberada para ganar clientes, lo que podría sostener el crecimiento en los próximos trimestres.",
+      "bajista": "La utilidad operativa cayó 6 % pese al fuerte aumento de ingresos, y la utilidad por acción de los primeros nueve meses es menor que la de 2025. El margen neto de envíos lleva varios trimestres bajando y el gasto en marketing subió. Además, una cartera de crédito que crece tan rápido, con morosidad de 7 %, eleva la exposición al riesgo de impago si se deteriora la economía en la región.",
       "impacto": {
-        "conclusion": "Pesa algo más la lectura bajista, porque el menor diferencial de tasas presiona al peso mexicano, y eso afecta directamente a quien tiene inversiones en México medidas en pesos colombianos. El apoyo a la actividad y a las acciones mexicanas compensa en parte ese efecto.",
+        "conclusion": "Pesa ligeramente más la lectura alcista, porque el crecimiento de ingresos, volumen y usuarios es amplio, aunque la rentabilidad se está sacrificando a propósito. Para quien tiene MercadoLibre en el exterior, la pregunta es si esa inversión en márgenes se traduce después en más utilidades.",
         "activos": [
           {
             "activo": "acciones",
@@ -136,7 +157,7 @@
           {
             "activo": "dolar",
             "efecto": "mixto",
-            "detalle": "Las acciones mexicanas pueden beneficiarse de tasas más bajas, pero un peso mexicano más débil reduce su valor medido en pesos colombianos."
+            "detalle": "Para quien tiene MELI, el crecimiento de ingresos es fuerte, pero la caída de la utilidad operativa pesa en contra."
           },
           {
             "activo": "cdt",
@@ -145,15 +166,78 @@
           }
         ]
       },
-      "mirar": "La próxima decisión de la Reserva Federal en diciembre, que definirá si el diferencial de tasas con México se estrecha aún más.",
+      "mirar": "La evolución del margen operativo y de la morosidad de la cartera de Mercado Pago en el informe del cuarto trimestre.",
       "terminos": [
-        "Tasa de política monetaria",
-        "Diferencial de tasas",
-        "Puntos básicos",
-        "Reserva Federal"
+        "Margen operativo",
+        "Volumen bruto de mercancías (GMV)",
+        "Cartera de crédito",
+        "Puntos básicos"
       ],
-      "fuente": "El Financiero",
-      "url": "https://www.elfinanciero.com.mx/economia/2026/11/05/tasa-de-interes-del-banco-de-mexico-en-cuanto-quedo-hoy-5-de-noviembre/"
+      "fuente": "MercadoLibre (formulario 8-K, SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001099590/000109959026000027/meli-20260930xex991.htm"
+    },
+    {
+      "id": "2026-11-07-04",
+      "fecha": "2026-11-07",
+      "categoria": "biotecnologia",
+      "formato": "hechos",
+      "empresa": "RVMD",
+      "fecha_noticia": "2026-11-04",
+      "titulo": "Revolution Medicines vende US$197,6 millones en las primeras semanas de su medicamento contra el cáncer de páncreas",
+      "resumen": "Revolution Medicines informó ventas de US$197,6 millones en el tercer trimestre de 2026 por RASONQUE (daraxonrasib), su medicamento para el cáncer de páncreas avanzado. Esas ventas cubren unas cinco semanas desde su aprobación.",
+      "contexto": "La FDA aprobó el medicamento el 26 de agosto de 2026 para pacientes con cáncer de páncreas metastásico que ya recibieron un tratamiento previo o que no pueden recibir quimioterapia combinada. En Europa, un comité de la agencia de medicamentos dio una opinión favorable y falta la decisión final de la Comisión Europea. La compañía tuvo una pérdida neta de US$407,5 millones en el trimestre y cerró septiembre con unos US$3.700 millones en caja.",
+      "que_significa": "Es la primera vez que la compañía vende un medicamento, después de años solo investigando. El dinero que entra por ventas ayuda a pagar sus otros estudios. La FDA también le dio una designación de terapia innovadora para usar el medicamento junto con quimioterapia en pacientes que no han recibido tratamiento, lo que puede acelerar su revisión. Ese uso se está probando en un estudio de Fase 3 que ya terminó de inscribir pacientes en EE. UU.",
+      "mirar": "El fin de la inscripción del estudio RASolve 301 en cáncer de pulmón, previsto para finales de noviembre de 2026.",
+      "terminos": [
+        "FDA",
+        "Aprobado (FDA)",
+        "Designación de terapia innovadora",
+        "Fase 3"
+      ],
+      "fuente": "Revolution Medicines (GlobeNewswire)",
+      "url": "https://www.globenewswire.com/news-release/2026/11/04/3395785/0/en/revolution-medicines-reports-third-quarter-2026-financial-results-and-update-on-corporate-progress.html"
+    },
+    {
+      "id": "2026-11-07-05",
+      "fecha": "2026-11-07",
+      "categoria": "biotecnologia",
+      "formato": "hechos",
+      "empresa": "EWTX",
+      "fecha_noticia": "2026-11-04",
+      "titulo": "Edgewise cierra septiembre con US$1.743,9 millones en caja y prepara una Fase 3 para el corazón",
+      "resumen": "Edgewise Therapeutics informó que tenía US$1.743,9 millones en caja al 30 de septiembre de 2026, tras vender su medicamento sevasemten a Servier. Planea iniciar antes de fin de año un estudio de Fase 3 de EDG-7500 en miocardiopatía hipertrófica.",
+      "contexto": "La venta de sevasemten a Servier se cerró en julio de 2026, con un pago inicial de US$1.396 millones. Por esa operación, la compañía registró una utilidad neta de US$1.166,2 millones en el trimestre, frente a una pérdida de US$40,7 millones un año antes. El nuevo estudio de EDG-7500 se basa en los datos de 12 semanas del estudio de Fase 2 CIRRUS-HCM, presentados en agosto.",
+      "que_significa": "Edgewise no vende medicamentos todavía; la ganancia del trimestre viene de haber vendido uno de sus proyectos, no de ventas. Con ese dinero puede financiar sus próximos estudios. EDG-7500 busca relajar un músculo del corazón que está demasiado grueso y rígido. La Fase 3 es el último paso de pruebas en personas antes de pedir la aprobación.",
+      "mirar": "El inicio del estudio de Fase 3 de EDG-7500, previsto para antes de terminar 2026.",
+      "terminos": [
+        "Miocardiopatía hipertrófica",
+        "Fase 3",
+        "Fase 2",
+        "Fases de un ensayo clínico"
+      ],
+      "fuente": "Edgewise Therapeutics (BioSpace)",
+      "url": "https://www.biospace.com/press-releases/edgewise-therapeutics-reports-third-quarter-2026-financial-results"
+    },
+    {
+      "id": "2026-11-07-06",
+      "fecha": "2026-11-07",
+      "categoria": "biotecnologia",
+      "formato": "hechos",
+      "empresa": "RLAY",
+      "fecha_noticia": "2026-11-04",
+      "titulo": "Relay espera terminar a mediados de 2027 la inscripción de su Fase 3 en cáncer de mama",
+      "resumen": "Relay Therapeutics informó que espera completar a mediados de 2027 la inscripción del estudio de Fase 3 ReDiscover-2, que prueba zovegalisib con fulvestrant en cáncer de mama HR+/HER2-. Cerró septiembre con US$848,6 millones en caja, que según la compañía le alcanzan hasta 2029.",
+      "contexto": "La compañía no tuvo ingresos en el trimestre y registró una pérdida neta de US$81,7 millones. Antes de fin de 2026 espera una respuesta de los reguladores para confirmar el diseño de otro estudio de Fase 3 en pacientes que empiezan tratamiento, que arrancaría a comienzos de 2027. El 14 de diciembre de 2026 presentará nuevos datos de zovegalisib en malformaciones vasculares en el congreso de hematología ASH.",
+      "que_significa": "Zovegalisib busca frenar una proteína alterada, causada por la mutación PIK3CA, que hace crecer algunas células sin control. Terminar de inscribir pacientes es un paso necesario antes de conocer los resultados del estudio. Tener caja hasta 2029 significa que la compañía puede seguir con sus estudios varios años sin necesitar más dinero, según sus propios cálculos.",
+      "mirar": "La presentación de datos de zovegalisib en el congreso ASH el 14 de diciembre de 2026.",
+      "terminos": [
+        "Fase 3",
+        "Cáncer de mama HR+/HER2-",
+        "Mutación PIK3CA",
+        "Pista de caja"
+      ],
+      "fuente": "Relay Therapeutics (GlobeNewswire)",
+      "url": "https://www.globenewswire.com/news-release/2026/11/04/3395819/0/en/relay-therapeutics-reports-third-quarter-2026-financial-results-and-corporate-updates.html"
     }
   ]
 }

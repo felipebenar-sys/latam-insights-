@@ -2,6 +2,46 @@
   "mes": "2026-11",
   "notas": [
     {
+      "id": "2026-11-06-04",
+      "fecha": "2026-11-06",
+      "categoria": "biotecnologia",
+      "formato": "hechos",
+      "empresa": "PVLA",
+      "fecha_noticia": "2026-11-05",
+      "titulo": "Palvella espera la decisión de la FDA sobre su gel de rapamicina para febrero de 2027",
+      "resumen": "Palvella Therapeutics informó que la FDA aceptó con revisión prioritaria su solicitud de aprobación de QTORIN rapamicina para malformaciones linfáticas microquísticas, con fecha límite de decisión el 28 de febrero de 2027.",
+      "contexto": "En el tercer trimestre de 2026 la compañía tuvo una pérdida neta de US$24,6 millones, frente a US$11,3 millones un año antes, y cerró septiembre con US$236,7 millones en caja e inversiones. Si el medicamento es aprobado, planea lanzarlo en EE. UU. por su cuenta en el primer semestre de 2027. También espera iniciar en el cuarto trimestre de 2026 un estudio de Fase 3 en malformaciones venosas de la piel y un estudio de Fase 2 con otro producto, QTORIN pitavastatina.",
+      "que_significa": "Las malformaciones linfáticas microquísticas son una enfermedad rara en la que se forman bolsas anormales de líquido bajo la piel. Palvella busca tratarlas con un gel que se aplica sobre la piel. La revisión prioritaria significa que la FDA se compromete a decidir en menos tiempo de lo normal. La fecha de febrero de 2027 es el próximo paso clave para la compañía.",
+      "mirar": "La decisión de la FDA, prevista para el 28 de febrero de 2027.",
+      "terminos": [
+        "FDA",
+        "Fase 3",
+        "Fases de un ensayo clínico"
+      ],
+      "fuente": "GlobeNewswire (comunicado de Palvella Therapeutics)",
+      "url": "https://www.globenewswire.com/news-release/2026/11/05/3396310/0/en/palvella-therapeutics-reports-third-quarter-2026-financial-results-and-provides-corporate-update.html"
+    },
+    {
+      "id": "2026-11-06-03",
+      "fecha": "2026-11-06",
+      "categoria": "biotecnologia",
+      "formato": "hechos",
+      "empresa": "CELC",
+      "fecha_noticia": "2026-11-05",
+      "titulo": "Celcuity presenta su primer trimestre con su medicamento contra el cáncer de mama ya aprobado",
+      "resumen": "Celcuity informó una pérdida neta de US$73,3 millones en el tercer trimestre de 2026 y todavía no registró ventas de REVTORPYK (gedatolisib), porque los envíos empezaron el 30 de septiembre.",
+      "contexto": "La FDA aprobó REVTORPYK el 14 de julio de 2026 para un tipo de cáncer de mama avanzado (HR+/HER2-) sin la mutación PIK3CA, en pacientes que ya recibieron al menos un tratamiento hormonal. Un año antes, la pérdida del mismo trimestre había sido de US$43,8 millones; el aumento viene sobre todo de los gastos para lanzar el medicamento. La compañía tenía US$642,7 millones en caja e inversiones al 30 de septiembre y dice que le alcanzan para operar hasta 2029. En el tercer trimestre también pidió a la FDA ampliar el uso a pacientes que sí tienen la mutación PIK3CA.",
+      "que_significa": "Celcuity pasó de ser una compañía que solo investigaba a una que vende un medicamento. Por eso sus gastos subieron: ahora paga equipos de venta y distribución. Las ventas solo se cuentan cuando el medicamento se entrega, y por eso este trimestre aparecen en cero. La compañía informa que 91 % de las personas con seguro comercial o Medicare en EE. UU. tienen cobertura para el medicamento.",
+      "mirar": "La respuesta de la FDA a la solicitud para usar el medicamento en pacientes con la mutación PIK3CA.",
+      "terminos": [
+        "FDA",
+        "Cáncer de mama HR+/HER2-",
+        "Mutación PIK3CA"
+      ],
+      "fuente": "GlobeNewswire (comunicado de Celcuity)",
+      "url": "https://www.globenewswire.com/news-release/2026/11/05/3396999/0/en/celcuity-inc-reports-third-quarter-2026-financial-results-and-provides-corporate-update.html"
+    },
+    {
       "id": "2026-11-05-05",
       "fecha": "2026-11-05",
       "categoria": "biotecnologia",
@@ -357,12 +397,16 @@
   "urls": [
     "https://ifmnoticias.com/economicas/gobierno-advierte-riesgo-de-default-en-2027-si-el-congreso-no-aprueba-la-ley-de-rescate-economico/",
     "https://www.cnnbrasil.com.br/economia/money/macroeconomia/copom-novembro-2026/",
+    "https://www.elfinanciero.com.mx/economia/2026/11/05/tasa-de-interes-del-banco-de-mexico-en-cuanto-quedo-hoy-5-de-noviembre/",
+    "https://www.globenewswire.com/news-release/2026/11/05/3396310/0/en/palvella-therapeutics-reports-third-quarter-2026-financial-results-and-provides-corporate-update.html",
+    "https://www.globenewswire.com/news-release/2026/11/05/3396999/0/en/celcuity-inc-reports-third-quarter-2026-financial-results-and-provides-corporate-update.html",
     "https://www.infobae.com/economia/2026/11/02/las-acciones-argentinas-cayeron-por-sexta-rueda-seguida-el-riesgo-pais-supero-los-800-puntos-y-el-bcra-no-compro-reservas/",
     "https://www.lanacion.com.ar/economia/el-riesgo-pais-argentino-subio-en-octubre-hasta-seis-veces-lo-que-aumento-en-la-region-y-el-gobierno-nid01112026/",
     "https://www.larepublica.co/economia/el-ministerio-de-minas-y-energia-levanto-la-limitacion-programada-de-gas-natural-4516007",
     "https://www.larepublica.co/economia/equipo-tecnico-de-banco-central-de-colombia-ve-mayor-inflacion-y-menor-crecimiento-economico-este-y-el-proximo-ano-4517960",
     "https://www.larepublica.co/economia/gobierno-radico-mensaje-de-urgencia-para-tramitar-la-ley-de-rescate-economico-4517003",
     "https://www.larepublica.co/economia/mision-del-fmi-inicia-reuniones-mientras-el-gobierno-explora-credito-de-us-5-000-millones-4516695",
+    "https://www.larepublica.co/empresas/isa-reporto-ingresos-por-12-4-billones-a-septiembre-crecieron-8-anual-4517860",
     "https://www.larepublica.co/empresas/se-matricularon-279-387-vehiculos-nuevos-con-corte-a-octubre-un-alza-de-mas-de-39-4515970",
     "https://www.larepublica.co/finanzas/juan-carlos-echeverry-dejo-la-presidencia-de-banco-de-bogota-tras-cinco-meses-en-el-cargo-4515339",
     "https://www.larepublica.co/finanzas/ya-se-perfecciono-la-cesion-parcial-de-activos-pasivos-y-contratos-de-davibank-a-davivienda-4515969",
