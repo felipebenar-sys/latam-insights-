@@ -1,9 +1,9 @@
 {
-  "actualizado": "8 nov 2026, 5:48 a. m. (hora Bogotá)",
+  "actualizado": "9 nov 2026, 5:46 a. m. (hora Bogotá)",
   "notas": [
     {
-      "id": "2026-11-08-01",
-      "fecha": "2026-11-08",
+      "id": "2026-11-09-01",
+      "fecha": "2026-11-09",
       "categoria": "politica",
       "puntaje": {
         "total": 8,
@@ -12,35 +12,35 @@
         "novedad": 1,
         "fuente": 1
       },
-      "titulo": "Ley de Rescate: el recorte de gasto pesaría menos de lo que anunció Hacienda",
-      "resumen": "Un análisis del tributarista Santiago Pardo y del Centro Democrático estima que el menor gasto aportaría cerca de 23% del ajuste fiscal de 2027, lejos del 70% que planteó el ministro de Hacienda, Miguel Gómez. El resto dependería de impuestos.",
-      "contexto": "Según el análisis, el impacto fiscal total de la Ley de Rescate en 2027 sería de 2,35% del PIB (unos $46,4 billones), y las medidas de gasto sumarían 0,58% del PIB (unos $11,6 billones); el recorte de nómina solo empezaría en 2028. El alza del IVA de la cerveza de 5% a 19% recaudaría $6,8 billones en 2027, casi el doble que la reducción de contratos. El Comité Autónomo de la Regla Fiscal proyecta un déficit total de 7,8% del PIB en 2026 y de 9,5% en 2027. El Gobierno tiene hasta el 16 de diciembre para aprobar la ley sin sesiones extraordinarias.",
+      "titulo": "Gobierno y congresistas abren negociación de la Ley de Rescate; el IVA concentra reparos",
+      "resumen": "Miembros del Gobierno y del Congreso tuvieron su primera reunión para buscar acuerdos sobre la Ley de Rescate, que busca recaudar $46 billones en 2027. El siguiente paso son mesas técnicas, y el plazo para aprobarla vence el 16 de diciembre.",
+      "contexto": "A la reunión, realizada en Barranquilla, asistieron el vicepresidente José Manuel Restrepo, el ministro de Hacienda, Miguel Gómez, y el ministro del Interior; la oposición no fue invitada. El Centro Democrático objeta el paso del IVA de 5% a 19% en algunos productos de la canasta básica y presentó una alternativa. El presidente del Senado, Honorio Henríquez, dijo que hay mucha resistencia al aumento del IVA. El Gobierno tiene hasta el 16 de diciembre, más posibles días de sesiones extraordinarias.",
       "afectados": [
         "Finanzas públicas",
         "TES",
-        "Consumidores",
-        "Peso colombiano"
+        "Peso colombiano",
+        "Consumo"
       ],
-      "peso_alcista": 40,
-      "alcista": "El proyecto sigue avanzando y, según un análisis de la consultora Orza, el Gobierno tendría cerca de 70% de los votos en las comisiones económicas del Congreso. Si la ley se aprueba, el recaudo adicional ayudaría a contener un déficit que hoy es muy alto. Eso podría reducir la presión sobre la deuda y sobre las tasas de los TES. Un ajuste aprobado también daría una señal de compromiso fiscal a los inversionistas extranjeros.",
-      "bajista": "Si el ajuste depende en cerca de 77% de impuestos, el golpe recae sobre el consumo y las empresas, con un alza del IVA en productos como la cerveza. Un ajuste más débil en gasto puede verse como menos duradero, lo que mantiene la duda sobre la sostenibilidad de la deuda. Sin ajuste, la deuda neta pasaría de 58,6% del PIB en 2025 a 82,1% en 2030 y rompería en 2029 el límite de la regla fiscal. Además, la oposición ya pide cambios, lo que puede demorar el trámite en un plazo corto.",
+      "peso_alcista": 55,
+      "alcista": "Que el Gobierno y bancadas cercanas se sienten a negociar reduce el riesgo de que la reforma se hunda sin alternativa. Un recaudo cercano a $46 billones en 2027 aliviaría las necesidades de financiamiento del Estado. Eso podría bajar la prima de riesgo país y sostener los precios de los TES. Las mesas técnicas abren espacio para ajustar los puntos más resistidos sin abandonar el ajuste.",
+      "bajista": "La resistencia al aumento del IVA aparece incluso en bancadas cercanas al Gobierno, y cambiar ese punto podría reducir el recaudo. El plazo es corto: algo más de seis semanas. Si el proyecto se diluye o no se aprueba, el mercado podría exigir más rentabilidad por la deuda colombiana. Un IVA más alto en la canasta básica también podría frenar el consumo.",
       "impacto": {
-        "conclusion": "Pesa algo más la lectura bajista: el análisis muestra que el ajuste descansa sobre todo en impuestos y que el trámite enfrenta reparos con poco tiempo. Para quien invierte, la noticia mantiene alta la incertidumbre fiscal, que es uno de los factores que sostienen las tasas de los TES y la prima de riesgo del país.",
+        "conclusion": "Pesa algo más la lectura alcista, porque la negociación ya empezó y hay un plazo definido, aunque el resultado del IVA sigue abierto. Para tu portafolio, el trámite de la reforma es una de las principales fuentes de movimiento de los TES y del peso en las próximas semanas.",
         "activos": [
           {
             "activo": "acciones",
-            "efecto": "negativo",
-            "detalle": "Más impuestos al consumo podrían afectar las ventas de empresas de consumo listadas en la BVC."
+            "efecto": "mixto",
+            "detalle": "Un ajuste fiscal creíble apoya la confianza, pero un IVA más alto podría pesar sobre empresas ligadas al consumo."
           },
           {
             "activo": "renta_fija",
             "efecto": "mixto",
-            "detalle": "La aprobación aliviaría las tasas de los TES, pero la duda sobre la calidad del ajuste las mantiene altas."
+            "detalle": "Los TES dependen de si la reforma se aprueba con un recaudo cercano al propuesto."
           },
           {
             "activo": "dolar",
             "efecto": "mixto",
-            "detalle": "La incertidumbre fiscal tiende a presionar el peso; una aprobación rápida podría moderar esa presión."
+            "detalle": "Avances en el Congreso podrían apoyar al peso; tropiezos podrían debilitarlo."
           },
           {
             "activo": "cdt",
@@ -49,52 +49,51 @@
           }
         ]
       },
-      "mirar": "El trámite en las comisiones económicas del Congreso antes del 16 de diciembre.",
+      "mirar": "La instalación de las mesas técnicas y el primer debate en las comisiones económicas antes del 16 de diciembre.",
       "terminos": [
-        "Regla fiscal",
         "IVA",
-        "Comité Autónomo de la Regla Fiscal (CARF)",
         "TES",
-        "PIB"
+        "Prima de riesgo país",
+        "Sesiones extraordinarias",
+        "Necesidades de financiamiento"
       ],
       "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/tributaria-no-cumpliria-ajuste-de-70-en-reduccion-de-gasto-y-30-en-impuestos-4519894"
+      "url": "https://www.larepublica.co/economia/asi-fue-la-primera-reunion-entre-miembros-del-congreso-y-gobierno-sobre-la-tributaria-4519991"
     },
     {
-      "id": "2026-11-08-02",
-      "fecha": "2026-11-08",
-      "categoria": "macro",
+      "id": "2026-11-09-02",
+      "fecha": "2026-11-09",
+      "categoria": "bvc",
       "puntaje": {
-        "total": 8,
-        "alcance": 3,
+        "total": 6,
+        "alcance": 1,
         "materialidad": 3,
         "novedad": 1,
         "fuente": 1
       },
-      "titulo": "Analistas esperan que la inflación de octubre suba de nuevo, hasta cerca de 6,38%",
-      "resumen": "En la encuesta de expectativas de Citi, 20 de 21 entidades anticipan que la inflación anual de octubre superará el 6,29% de septiembre. El DANE publicará el dato el próximo lunes.",
-      "contexto": "La inflación de septiembre, de 6,29%, fue la más alta en dos años. Las proyecciones van desde 6,25% (Asobancaria, la única que espera una baja) hasta 6,54% (Aval Asset Management). Los analistas señalan presiones en alojamiento, arriendos y tarifas de energía, y Banco de Bogotá menciona los primeros efectos del fenómeno de El Niño en las cosechas. El Banco de la República elevó a 7,1% su proyección de inflación para el cierre de 2026.",
+      "titulo": "Ecopetrol presenta resultados el martes; analistas esperan utilidad de $4 a $5 billones",
+      "resumen": "Ecopetrol publicará los resultados del tercer trimestre el martes 10 de noviembre. Los analistas esperan una utilidad neta de entre $4 y $5 billones.",
+      "contexto": "Las proyecciones citadas van de $4,13 billones (BTG Pactual) a $5 billones (Alianza Fiduciaria); Visión Davivienda estima $4,8 billones y Corficolombiana y Aval Casa de Bolsa, $4,6 billones. La incorporación de Brava y una mejor refinación serían los motores. Frente a los $6 billones del segundo trimestre sería una caída de hasta 16%, y frente a los $2,6 billones del tercer trimestre de 2025, un alza de 92%.",
       "afectados": [
-        "Banco de la República",
-        "TES",
-        "CDT",
-        "Consumidores"
+        "Ecopetrol",
+        "MSCI COLCAP",
+        "Sector petrolero"
       ],
-      "peso_alcista": 30,
-      "alcista": "Si el dato llega en la parte baja del rango, cerca de 6,30%, el mercado podría leer que la aceleración pierde fuerza. Eso aliviaría parte de la presión sobre las tasas de los TES. Los analistas esperan que los alimentos se moderen, lo que podría compensar el alza en servicios. Para quien tiene CDT, una inflación alta también sostiene tasas de captación elevadas.",
-      "bajista": "Casi todo el mercado espera otra subida, lo que alejaría la inflación de la meta del Banco de la República. Con una inflación al alza, es menos probable que la tasa de política monetaria baje pronto y más probable que siga alta por más tiempo. Eso presiona las tasas de los TES y, por tanto, el precio de los bonos que ya están en el portafolio. Unas tasas altas también encarecen el crédito y pesan sobre las acciones locales.",
+      "peso_alcista": 60,
+      "alcista": "Una utilidad en el rango esperado casi duplicaría la de hace un año, lo que mostraría el aporte de Brava y de la refinación. Ecopetrol es la acción de mayor peso para muchos portafolios locales, así que un buen resultado puede apoyar al índice. Resultados sólidos también respaldan la capacidad de pagar dividendos.",
+      "bajista": "Frente al trimestre anterior la utilidad bajaría hasta 16%, lo que puede leerse como pérdida de impulso. Si la cifra queda por debajo del rango de los analistas, la acción podría reaccionar a la baja. El debate político sobre una posible venta de participación de la Nación añade incertidumbre al título.",
       "impacto": {
-        "conclusion": "Pesa más la lectura bajista: el consenso apunta a una nueva aceleración de precios, que mantiene la presión sobre las tasas de interés. Para quien invierte, eso tiende a favorecer el ahorro en CDT y a afectar el precio de los TES y de las acciones colombianas.",
+        "conclusion": "Pesa más la lectura alcista, por el fuerte aumento esperado frente a 2025, aunque la comparación trimestral es menos favorable. Para quien tiene acciones colombianas, el dato del martes puede mover el MSCI COLCAP por el peso de Ecopetrol.",
         "activos": [
           {
             "activo": "acciones",
-            "efecto": "negativo",
-            "detalle": "Tasas altas por más tiempo encarecen el crédito y restan atractivo a las acciones locales."
+            "efecto": "positivo",
+            "detalle": "Una utilidad en el rango esperado respaldaría a Ecopetrol y al índice local."
           },
           {
             "activo": "renta_fija",
-            "efecto": "negativo",
-            "detalle": "Una inflación mayor presiona al alza las tasas de los TES y baja su precio."
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
           },
           {
             "activo": "dolar",
@@ -103,114 +102,53 @@
           },
           {
             "activo": "cdt",
-            "efecto": "positivo",
-            "detalle": "Tasas altas sostienen la rentabilidad de los CDT y del ahorro en pesos."
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
           }
         ]
       },
-      "mirar": "El dato de inflación de octubre que publicará el DANE el lunes.",
+      "mirar": "La publicación de los resultados del tercer trimestre de Ecopetrol el martes 10 de noviembre.",
       "terminos": [
-        "Inflación",
-        "Expectativas de inflación",
-        "Tasa de política monetaria",
-        "Fenómeno de El Niño"
+        "Utilidad neta",
+        "MSCI COLCAP"
       ],
       "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/mercado-financiero-anticipa-que-la-inflacion-repuntara-de-6-29-hasta-6-38-en-octubre-4519489"
+      "url": "https://www.larepublica.co/economia/incorporacion-de-brava-jalonaria-el-repunte-en-las-utilidades-de-ecopetrol-4520058"
     },
     {
-      "id": "2026-11-08-03",
-      "fecha": "2026-11-08",
-      "categoria": "region",
-      "pais": "Argentina",
+      "id": "2026-11-09-03",
+      "fecha": "2026-11-09",
+      "categoria": "commodities",
       "puntaje": {
-        "total": 7,
+        "total": 6,
         "alcance": 1,
-        "materialidad": 3,
+        "materialidad": 2,
         "novedad": 2,
         "fuente": 1
       },
-      "titulo": "El riesgo país de Argentina cerró la semana en 938 puntos, su nivel más alto en un año",
-      "resumen": "El riesgo país argentino terminó el viernes 6 de noviembre en 938 puntos básicos, tras subir más de 100 unidades en los últimos días. El índice Merval cayó 0,1%.",
-      "contexto": "Según la fuente, el indicador ya duplica el nivel de octubre. Los bonos globales en Nueva York subieron ese día, con alzas de entre 1% y 1,2% en los de 2035, 2041 y 2046. El dólar contado con liquidación cerró en $1.676,61 y el mayorista en $1.545,50. Argentina es una de las tres economías grandes de la región, y su riesgo país influye en cómo los inversionistas internacionales ven a América Latina.",
-      "afectados": [
-        "Bonos argentinos",
-        "Acciones argentinas",
-        "Riesgo país"
-      ],
-      "peso_alcista": 30,
-      "alcista": "Los bonos globales argentinos subieron el mismo viernes, lo que muestra algo de demanda después de las caídas. Si la presión se calma, los precios de los bonos podrían recuperarse desde niveles bajos. Algunos ADR argentinos, como IRSA, también cerraron al alza. Para quien tiene activos argentinos, el rebote parcial deja abierta una recuperación.",
-      "bajista": "Un riesgo país en su nivel más alto en un año indica que los inversionistas exigen más rendimiento para prestarle a Argentina. Eso encarece el financiamiento del país y suele pesar sobre sus bonos y acciones. La fuerte subida en pocos días muestra un aumento de la desconfianza. Si sigue, podría afectar el apetito por activos de la región.",
-      "impacto": {
-        "conclusion": "Pesa más la lectura bajista: el salto del riesgo país refleja más desconfianza, aunque los bonos rebotaron el viernes. Para quien invierte desde Colombia, el efecto se concentra en los activos argentinos o regionales medidos en pesos.",
-        "activos": [
-          {
-            "activo": "acciones",
-            "efecto": "neutral",
-            "detalle": "Sin efecto directo."
-          },
-          {
-            "activo": "renta_fija",
-            "efecto": "neutral",
-            "detalle": "Sin efecto directo."
-          },
-          {
-            "activo": "dolar",
-            "efecto": "negativo",
-            "detalle": "Los bonos, acciones o fondos de Argentina en el portafolio enfrentan más presión con un riesgo país al alza."
-          },
-          {
-            "activo": "cdt",
-            "efecto": "neutral",
-            "detalle": "Sin efecto directo."
-          }
-        ]
-      },
-      "mirar": "El comportamiento del riesgo país en la primera semana de negociación de noviembre.",
-      "terminos": [
-        "Riesgo país",
-        "Puntos básicos",
-        "Bono global",
-        "Dólar contado con liquidación (CCL)"
-      ],
-      "fuente": "C5N",
-      "url": "https://www.c5n.com/economia/riesgo-pais-bonos-acciones-argentinas-viernes-6-noviembre-2026"
-    },
-    {
-      "id": "2026-11-08-04",
-      "fecha": "2026-11-08",
-      "categoria": "politica",
-      "puntaje": {
-        "total": 6,
-        "alcance": 2,
-        "materialidad": 2,
-        "novedad": 1,
-        "fuente": 1
-      },
-      "titulo": "Centro Democrático pide cambios a la Ley de Rescate y vender más de Ecopetrol",
-      "resumen": "La bancada del Centro Democrático presentó propuestas a la Ley de Rescate: rechaza subir el IVA de 5% a 19% en varios productos y propone vender una parte adicional de la participación del Estado en Ecopetrol.",
-      "contexto": "El partido sugiere priorizar al sector solidario y a inversionistas institucionales en esa venta, evaluar activos como ISA y el oleoducto, y quitarle al presidente la designación de la dirección de Ecopetrol. También pide profundizar el recorte del gasto y, como alternativa, bajar impuestos como el de patrimonio y el de renta, a cambio de que las empresas compren durante cinco años bonos del Estado por el 20% de sus utilidades. El documento es un primer borrador de discusión.",
+      "titulo": "Primer pozo de GeoPark y Hocol en Llanos 86 produce más de 600 barriles diarios",
+      "resumen": "GeoPark y Hocol, filial de Ecopetrol, perforaron el primer pozo del bloque Llanos 86, en Meta, que produce más de 600 barriles diarios. Aún no se declara oficialmente como descubrimiento.",
+      "contexto": "Las dos empresas tienen 50% cada una del bloque, que recibieron en 2019. El pozo superó los 7.000 pies y se completó en ocho días y medio; falta consolidar información y hacer estudios técnicos. En el bloque vecino Llanos 123, según el presidente de GeoPark, Felipe Bayón, la producción pasó de cero a 8.000 barriles diarios en tres años. En 2024 las compañías completaron 653 km² de sísmica 3D en Llanos 86 y 104.",
       "afectados": [
         "Ecopetrol",
-        "ISA",
-        "Finanzas públicas",
-        "Consumidores"
+        "GeoPark",
+        "Producción petrolera"
       ],
-      "peso_alcista": 50,
-      "alcista": "Una venta adicional de acciones de Ecopetrol podría dar recursos al Estado sin subir tanto los impuestos. Más acciones en manos de inversionistas privados aumentaría la flotación y la liquidez del título en la BVC. Separar la dirección de Ecopetrol de la decisión presidencial podría verse como una mejora de gobierno corporativo. Un mayor recorte del gasto haría el ajuste más duradero.",
-      "bajista": "Son propuestas de un partido de oposición y no hay certeza de que entren al proyecto. Una venta grande de acciones de Ecopetrol podría presionar su precio mientras se coloca. Las diferencias sobre el IVA pueden demorar la aprobación de la ley en un plazo corto. Esa demora mantendría la incertidumbre sobre las finanzas públicas y las tasas de los TES.",
+      "peso_alcista": 65,
+      "alcista": "Un pozo con flujo en un bloque nuevo sugiere que aún hay recursos en yacimientos convencionales del país. Si se confirma, podría sumar producción y reservas a Ecopetrol, a través de Hocol, y a GeoPark. El antecedente de Llanos 123 muestra que estos bloques pueden crecer en pocos años. Más producción también implicaría más regalías.",
+      "bajista": "Todavía no es un descubrimiento oficial, y las pruebas podrían mostrar volúmenes menores. 600 barriles diarios es poco frente a la producción total de Ecopetrol. La exploración toma tiempo, así que cualquier aporte relevante tardaría años.",
       "impacto": {
-        "conclusion": "Las dos lecturas están parejas: las ideas podrían mejorar el ajuste y la liquidez de Ecopetrol, pero son solo propuestas y pueden alargar la discusión. Para quien invierte, lo relevante es seguir si alguna entra al texto que vote el Congreso.",
+        "conclusion": "Pesa más la lectura alcista, porque es un resultado nuevo y concreto, aunque su tamaño es pequeño y falta confirmarlo. Para quien tiene acciones de Ecopetrol, es una señal de exploración más que un cambio en sus cifras de corto plazo.",
         "activos": [
           {
             "activo": "acciones",
-            "efecto": "mixto",
-            "detalle": "Una venta de Ecopetrol aumentaría su liquidez, pero podría presionar el precio durante la colocación."
+            "efecto": "positivo",
+            "detalle": "Aporta una señal favorable para la exploración de Ecopetrol vía Hocol."
           },
           {
             "activo": "renta_fija",
-            "efecto": "mixto",
-            "detalle": "Un ajuste más sólido aliviaría los TES; una discusión más larga mantiene la incertidumbre."
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
           },
           {
             "activo": "dolar",
@@ -224,15 +162,14 @@
           }
         ]
       },
-      "mirar": "Si el Gobierno incluye alguna de estas propuestas en la ponencia de la Ley de Rescate.",
+      "mirar": "Los estudios técnicos que definan si el pozo se declara oficialmente como descubrimiento.",
       "terminos": [
-        "IVA",
-        "Gobierno corporativo",
-        "Desinversión",
-        "Ponencia"
+        "Pozo exploratorio",
+        "Sísmica 3D",
+        "Regalías"
       ],
       "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/centro-democratico-propuso-ajustes-a-la-tributaria-y-venta-de-participacion-de-ecopetrol-4519947"
+      "url": "https://www.larepublica.co/economia/el-bloque-llanos-86-abre-la-expectativa-de-nuevos-barriles-de-petroleo-4520061"
     }
   ]
 }

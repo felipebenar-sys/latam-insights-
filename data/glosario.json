@@ -703,6 +703,26 @@
     {
       "termino": "Miocardiopatía hipertrófica",
       "definicion": "Es una enfermedad en la que el músculo del corazón se vuelve más grueso de lo normal. Eso hace que al corazón le cueste más llenarse de sangre y bombearla, y puede causar cansancio, falta de aire o dolor en el pecho."
+    },
+    {
+      "termino": "Utilidad neta",
+      "definicion": "Es la ganancia que le queda a una empresa después de restar todos sus costos, gastos, intereses e impuestos. Es la base de la que salen los dividendos. Para quien tiene acciones, su evolución frente a lo que esperaba el mercado suele mover el precio de la acción."
+    },
+    {
+      "termino": "Sesiones extraordinarias",
+      "definicion": "Son sesiones del Congreso por fuera del periodo ordinario, convocadas por el Gobierno para tramitar temas puntuales. Le dan más tiempo a un proyecto para ser aprobado. Para quien invierte, indican que el plazo de una reforma no se agota necesariamente en la fecha de cierre ordinaria."
+    },
+    {
+      "termino": "Pozo exploratorio",
+      "definicion": "Es un pozo que se perfora para comprobar si en una zona hay petróleo o gas en cantidades que valga la pena producir. Un pozo con flujo no es todavía un descubrimiento oficial: primero se hacen pruebas y estudios. Si se confirma, puede aumentar las reservas y la producción futura de la empresa."
+    },
+    {
+      "termino": "Sísmica 3D",
+      "definicion": "Es una técnica que envía ondas al subsuelo y mide cómo rebotan para armar una imagen en tres dimensiones de las capas de roca. Las petroleras la usan para decidir dónde perforar. Reduce el riesgo de perforar pozos sin resultados."
+    },
+    {
+      "termino": "MSCI COLCAP",
+      "definicion": "Es el principal índice de la Bolsa de Valores de Colombia. Agrupa las acciones más grandes y negociadas del mercado local y se usa para medir cómo le va a la bolsa en general. Si tienes un fondo o ETF de acciones colombianas, su rendimiento suele seguir de cerca a este índice."
     }
   ]
 }

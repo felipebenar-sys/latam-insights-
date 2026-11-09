@@ -2,6 +2,123 @@
   "mes": "2026-11",
   "notas": [
     {
+      "id": "2026-11-08-02",
+      "fecha": "2026-11-08",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 8,
+        "alcance": 3,
+        "materialidad": 3,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "Analistas esperan que la inflación de octubre suba de nuevo, hasta cerca de 6,38%",
+      "resumen": "En la encuesta de expectativas de Citi, 20 de 21 entidades anticipan que la inflación anual de octubre superará el 6,29% de septiembre. El DANE publicará el dato el próximo lunes.",
+      "contexto": "La inflación de septiembre, de 6,29%, fue la más alta en dos años. Las proyecciones van desde 6,25% (Asobancaria, la única que espera una baja) hasta 6,54% (Aval Asset Management). Los analistas señalan presiones en alojamiento, arriendos y tarifas de energía, y Banco de Bogotá menciona los primeros efectos del fenómeno de El Niño en las cosechas. El Banco de la República elevó a 7,1% su proyección de inflación para el cierre de 2026.",
+      "afectados": [
+        "Banco de la República",
+        "TES",
+        "CDT",
+        "Consumidores"
+      ],
+      "peso_alcista": 30,
+      "alcista": "Si el dato llega en la parte baja del rango, cerca de 6,30%, el mercado podría leer que la aceleración pierde fuerza. Eso aliviaría parte de la presión sobre las tasas de los TES. Los analistas esperan que los alimentos se moderen, lo que podría compensar el alza en servicios. Para quien tiene CDT, una inflación alta también sostiene tasas de captación elevadas.",
+      "bajista": "Casi todo el mercado espera otra subida, lo que alejaría la inflación de la meta del Banco de la República. Con una inflación al alza, es menos probable que la tasa de política monetaria baje pronto y más probable que siga alta por más tiempo. Eso presiona las tasas de los TES y, por tanto, el precio de los bonos que ya están en el portafolio. Unas tasas altas también encarecen el crédito y pesan sobre las acciones locales.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista: el consenso apunta a una nueva aceleración de precios, que mantiene la presión sobre las tasas de interés. Para quien invierte, eso tiende a favorecer el ahorro en CDT y a afectar el precio de los TES y de las acciones colombianas.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Tasas altas por más tiempo encarecen el crédito y restan atractivo a las acciones locales."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "negativo",
+            "detalle": "Una inflación mayor presiona al alza las tasas de los TES y baja su precio."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "positivo",
+            "detalle": "Tasas altas sostienen la rentabilidad de los CDT y del ahorro en pesos."
+          }
+        ]
+      },
+      "mirar": "El dato de inflación de octubre que publicará el DANE el lunes.",
+      "terminos": [
+        "Inflación",
+        "Expectativas de inflación",
+        "Tasa de política monetaria",
+        "Fenómeno de El Niño"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/mercado-financiero-anticipa-que-la-inflacion-repuntara-de-6-29-hasta-6-38-en-octubre-4519489"
+    },
+    {
+      "id": "2026-11-08-01",
+      "fecha": "2026-11-08",
+      "categoria": "politica",
+      "puntaje": {
+        "total": 8,
+        "alcance": 3,
+        "materialidad": 3,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "Ley de Rescate: el recorte de gasto pesaría menos de lo que anunció Hacienda",
+      "resumen": "Un análisis del tributarista Santiago Pardo y del Centro Democrático estima que el menor gasto aportaría cerca de 23% del ajuste fiscal de 2027, lejos del 70% que planteó el ministro de Hacienda, Miguel Gómez. El resto dependería de impuestos.",
+      "contexto": "Según el análisis, el impacto fiscal total de la Ley de Rescate en 2027 sería de 2,35% del PIB (unos $46,4 billones), y las medidas de gasto sumarían 0,58% del PIB (unos $11,6 billones); el recorte de nómina solo empezaría en 2028. El alza del IVA de la cerveza de 5% a 19% recaudaría $6,8 billones en 2027, casi el doble que la reducción de contratos. El Comité Autónomo de la Regla Fiscal proyecta un déficit total de 7,8% del PIB en 2026 y de 9,5% en 2027. El Gobierno tiene hasta el 16 de diciembre para aprobar la ley sin sesiones extraordinarias.",
+      "afectados": [
+        "Finanzas públicas",
+        "TES",
+        "Consumidores",
+        "Peso colombiano"
+      ],
+      "peso_alcista": 40,
+      "alcista": "El proyecto sigue avanzando y, según un análisis de la consultora Orza, el Gobierno tendría cerca de 70% de los votos en las comisiones económicas del Congreso. Si la ley se aprueba, el recaudo adicional ayudaría a contener un déficit que hoy es muy alto. Eso podría reducir la presión sobre la deuda y sobre las tasas de los TES. Un ajuste aprobado también daría una señal de compromiso fiscal a los inversionistas extranjeros.",
+      "bajista": "Si el ajuste depende en cerca de 77% de impuestos, el golpe recae sobre el consumo y las empresas, con un alza del IVA en productos como la cerveza. Un ajuste más débil en gasto puede verse como menos duradero, lo que mantiene la duda sobre la sostenibilidad de la deuda. Sin ajuste, la deuda neta pasaría de 58,6% del PIB en 2025 a 82,1% en 2030 y rompería en 2029 el límite de la regla fiscal. Además, la oposición ya pide cambios, lo que puede demorar el trámite en un plazo corto.",
+      "impacto": {
+        "conclusion": "Pesa algo más la lectura bajista: el análisis muestra que el ajuste descansa sobre todo en impuestos y que el trámite enfrenta reparos con poco tiempo. Para quien invierte, la noticia mantiene alta la incertidumbre fiscal, que es uno de los factores que sostienen las tasas de los TES y la prima de riesgo del país.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Más impuestos al consumo podrían afectar las ventas de empresas de consumo listadas en la BVC."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "mixto",
+            "detalle": "La aprobación aliviaría las tasas de los TES, pero la duda sobre la calidad del ajuste las mantiene altas."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "La incertidumbre fiscal tiende a presionar el peso; una aprobación rápida podría moderar esa presión."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "El trámite en las comisiones económicas del Congreso antes del 16 de diciembre.",
+      "terminos": [
+        "Regla fiscal",
+        "IVA",
+        "Comité Autónomo de la Regla Fiscal (CARF)",
+        "TES",
+        "PIB"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/tributaria-no-cumpliria-ajuste-de-70-en-reduccion-de-gasto-y-30-en-impuestos-4519894"
+    },
+    {
       "id": "2026-11-07-06",
       "fecha": "2026-11-07",
       "categoria": "biotecnologia",
@@ -460,6 +577,7 @@
   "urls": [
     "https://ifmnoticias.com/economicas/gobierno-advierte-riesgo-de-default-en-2027-si-el-congreso-no-aprueba-la-ley-de-rescate-economico/",
     "https://www.biospace.com/press-releases/edgewise-therapeutics-reports-third-quarter-2026-financial-results",
+    "https://www.c5n.com/economia/riesgo-pais-bonos-acciones-argentinas-viernes-6-noviembre-2026",
     "https://www.cnnbrasil.com.br/economia/money/macroeconomia/copom-novembro-2026/",
     "https://www.elfinanciero.com.mx/economia/2026/11/05/tasa-de-interes-del-banco-de-mexico-en-cuanto-quedo-hoy-5-de-noviembre/",
     "https://www.globenewswire.com/news-release/2026/11/04/3395785/0/en/revolution-medicines-reports-third-quarter-2026-financial-results-and-update-on-corporate-progress.html",
@@ -468,10 +586,13 @@
     "https://www.globenewswire.com/news-release/2026/11/05/3396999/0/en/celcuity-inc-reports-third-quarter-2026-financial-results-and-provides-corporate-update.html",
     "https://www.infobae.com/economia/2026/11/02/las-acciones-argentinas-cayeron-por-sexta-rueda-seguida-el-riesgo-pais-supero-los-800-puntos-y-el-bcra-no-compro-reservas/",
     "https://www.lanacion.com.ar/economia/el-riesgo-pais-argentino-subio-en-octubre-hasta-seis-veces-lo-que-aumento-en-la-region-y-el-gobierno-nid01112026/",
+    "https://www.larepublica.co/economia/centro-democratico-propuso-ajustes-a-la-tributaria-y-venta-de-participacion-de-ecopetrol-4519947",
     "https://www.larepublica.co/economia/el-ministerio-de-minas-y-energia-levanto-la-limitacion-programada-de-gas-natural-4516007",
     "https://www.larepublica.co/economia/equipo-tecnico-de-banco-central-de-colombia-ve-mayor-inflacion-y-menor-crecimiento-economico-este-y-el-proximo-ano-4517960",
     "https://www.larepublica.co/economia/gobierno-radico-mensaje-de-urgencia-para-tramitar-la-ley-de-rescate-economico-4517003",
+    "https://www.larepublica.co/economia/mercado-financiero-anticipa-que-la-inflacion-repuntara-de-6-29-hasta-6-38-en-octubre-4519489",
     "https://www.larepublica.co/economia/mision-del-fmi-inicia-reuniones-mientras-el-gobierno-explora-credito-de-us-5-000-millones-4516695",
+    "https://www.larepublica.co/economia/tributaria-no-cumpliria-ajuste-de-70-en-reduccion-de-gasto-y-30-en-impuestos-4519894",
     "https://www.larepublica.co/economia/utilidades-de-ecopetrol-llegarian-a-5-billones-en-el-tercer-trimestre-del-ano-4518789",
     "https://www.larepublica.co/empresas/isa-reporto-ingresos-por-12-4-billones-a-septiembre-crecieron-8-anual-4517860",
     "https://www.larepublica.co/empresas/se-matricularon-279-387-vehiculos-nuevos-con-corte-a-octubre-un-alza-de-mas-de-39-4515970",
