@@ -1,21 +1,21 @@
 {
   "trm": {
-    "valor": 3228.26,
-    "vigente_desde": "2026-11-06",
-    "anterior": 3221.19,
-    "fuente": "Superintendencia Financiera vía Colombia.com"
+    "valor": 3237.83,
+    "vigente_desde": "2026-11-07",
+    "anterior": 3228.26,
+    "fuente": "Superintendencia Financiera vía RTA Noticias"
   },
   "brent": {
-    "valor": 117.64,
-    "cambio_pct": 1.4,
-    "fecha": "2026-10-30",
-    "fuente": "La República"
+    "valor": 98.32,
+    "cambio_pct": 0.03,
+    "fecha": "2026-11-06",
+    "fuente": "ICE vía EFE (Infobae)"
   },
   "colcap": {
-    "valor": 2484.99,
-    "cambio_pct": -0.9,
-    "fecha": "2026-11-05",
-    "fuente": "BVC vía La República"
+    "valor": 2485.26,
+    "cambio_pct": 0.03,
+    "fecha": "2026-11-06",
+    "fuente": "BVC vía Acciones y Valores"
   },
   "tasa_banrep": {
     "valor": 12.25,
@@ -26,5 +26,5 @@
     "periodo": "sep 2026",
     "fuente": "DANE"
   },
-  "actualizado": "2026-11-06"
+  "actualizado": "2026-11-09"
 }
