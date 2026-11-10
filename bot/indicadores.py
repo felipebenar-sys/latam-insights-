@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Actualiza con Yahoo Finance (librería yfinance):
-- Brent y MSCI COLCAP en data/mercado.json (último cierre y variación diaria).
+- Brent en data/mercado.json (último cierre y variación diaria). Yahoo no tiene
+  el índice MSCI COLCAP (solo el ETF iCOLCAP, que es otro número), así que el
+  COLCAP lo sigue actualizando la edición diaria con la nota de cierre de la BVC.
 - Los precios de cierre de los activos de Mi portafolio en data/precios.json.
 Lo corre la GitHub Action .github/workflows/indicadores.yml. Si un símbolo
 falla o trae algo inesperado, ese dato no cambia (el script sale sin error)."""
@@ -13,7 +15,6 @@ DATA = os.path.join(os.path.dirname(__file__), "..", "data")
 # Indicador -> símbolos de Yahoo que se prueban en orden.
 INDICADORES = {
     "brent": (["BZ=F"], "ICE vía Yahoo Finance"),
-    "colcap": (["^COLCAP", "COLCAP.CL", "ICOLCAP.CL"], "BVC vía Yahoo Finance"),
 }
 # Ticker de Mi portafolio -> símbolos de Yahoo que se prueban en orden.
 PORTAFOLIO = {
@@ -36,16 +37,13 @@ def ultimo_cierre(simbolo):
     h = h.dropna(subset=["Close"])
     if len(h) < 2:
         raise ValueError(f"{len(h)} cierres")
-    # Si la última fila es de hoy y el mercado sigue abierto, no es un cierre.
-    tz = h.index[-1].tzinfo
-    ahora = datetime.now(tz)
-    if h.index[-1].date() == ahora.date():
-        try:
-            fin = t.history_metadata["currentTradingPeriod"]["regular"]["end"]
-            if datetime.now(timezone.utc).timestamp() < fin:
-                h = h.iloc[:-1]
-        except Exception:
-            pass
+    # Antes de las 4 p. m. hora Bogotá, la fila de hoy no es un cierre (la sesión
+    # sigue abierta o, en el Brent, empezó la noche anterior): se descarta.
+    ahora = datetime.now(BOG)
+    if ahora.hour < 16:
+        h = h[[d.date() < ahora.date() for d in h.index]]
+    if len(h) < 2:
+        raise ValueError(f"{len(h)} cierres anteriores a hoy")
     c0, c1 = float(h["Close"].iloc[-2]), float(h["Close"].iloc[-1])
     try:
         moneda = t.history_metadata.get("currency", "")

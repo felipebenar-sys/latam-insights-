@@ -149,46 +149,55 @@
                     <div class="flex items-center gap-2 mb-1"><span class="text-amber-400 text-xs font-bold tracking-wider">NU</span><span class="text-stone-500 text-xs">NYSE</span><span class="ml-auto text-stone-500 text-[11px] uppercase tracking-wider">Acción</span></div>
                     <p class="text-white font-semibold">Nu Holdings</p>
                     <p class="text-stone-400 text-sm mt-1">Banco digital con operación en Brasil, México y Colombia.</p>
+                    <p class="text-sm mt-2" data-precio="NU"></p>
                 </li>
                 <li class="bg-stone-950 border border-stone-800 rounded-lg p-4">
                     <div class="flex items-center gap-2 mb-1"><span class="text-amber-400 text-xs font-bold tracking-wider">JPM</span><span class="text-stone-500 text-xs">NYSE</span><span class="ml-auto text-stone-500 text-[11px] uppercase tracking-wider">Acción</span></div>
                     <p class="text-white font-semibold">JPMorgan Chase</p>
                     <p class="text-stone-400 text-sm mt-1">Uno de los bancos más grandes de Estados Unidos.</p>
+                    <p class="text-sm mt-2" data-precio="JPM"></p>
                 </li>
                 <li class="bg-stone-950 border border-stone-800 rounded-lg p-4">
                     <div class="flex items-center gap-2 mb-1"><span class="text-amber-400 text-xs font-bold tracking-wider">MELI</span><span class="text-stone-500 text-xs">Nasdaq</span><span class="ml-auto text-stone-500 text-[11px] uppercase tracking-wider">Acción</span></div>
                     <p class="text-white font-semibold">MercadoLibre</p>
                     <p class="text-stone-400 text-sm mt-1">Comercio electrónico y pagos digitales (Mercado Pago) en América Latina.</p>
+                    <p class="text-sm mt-2" data-precio="MELI"></p>
                 </li>
                 <li class="bg-stone-950 border border-stone-800 rounded-lg p-4">
                     <div class="flex items-center gap-2 mb-1"><span class="text-amber-400 text-xs font-bold tracking-wider">RMS</span><span class="text-stone-500 text-xs">Euronext París</span><span class="ml-auto text-stone-500 text-[11px] uppercase tracking-wider">Acción</span></div>
                     <p class="text-white font-semibold">Hermès</p>
                     <p class="text-stone-400 text-sm mt-1">Casa francesa de artículos de lujo.</p>
+                    <p class="text-sm mt-2" data-precio="RMS"></p>
                 </li>
                 <li class="bg-stone-950 border border-stone-800 rounded-lg p-4">
                     <div class="flex items-center gap-2 mb-1"><span class="text-amber-400 text-xs font-bold tracking-wider">BN</span><span class="text-stone-500 text-xs">NYSE · TSX</span><span class="ml-auto text-stone-500 text-[11px] uppercase tracking-wider">Acción</span></div>
                     <p class="text-white font-semibold">Brookfield Corporation</p>
                     <p class="text-stone-400 text-sm mt-1">Inversión y gestión de activos alternativos: infraestructura, energía renovable, inmobiliario y seguros.</p>
+                    <p class="text-sm mt-2" data-precio="BN"></p>
                 </li>
                 <li class="bg-stone-950 border border-stone-800 rounded-lg p-4">
                     <div class="flex items-center gap-2 mb-1"><span class="text-amber-400 text-xs font-bold tracking-wider">PFGRUPOARG</span><span class="text-stone-500 text-xs">BVC</span><span class="ml-auto text-stone-500 text-[11px] uppercase tracking-wider">Acción</span></div>
                     <p class="text-white font-semibold">Grupo Argos (preferencial)</p>
                     <p class="text-stone-400 text-sm mt-1">Holding colombiano con inversiones en cemento, energía e infraestructura.</p>
+                    <p class="text-sm mt-2" data-precio="PFGRUPOARG"></p>
                 </li>
                 <li class="bg-stone-950 border border-stone-800 rounded-lg p-4">
                     <div class="flex items-center gap-2 mb-1"><span class="text-amber-400 text-xs font-bold tracking-wider">BVC</span><span class="text-stone-500 text-xs">BVC</span><span class="ml-auto text-stone-500 text-[11px] uppercase tracking-wider">Acción</span></div>
                     <p class="text-white font-semibold">Bolsa de Valores de Colombia</p>
                     <p class="text-stone-400 text-sm mt-1">La empresa que opera el mercado de valores colombiano.</p>
+                    <p class="text-sm mt-2" data-precio="BVC"></p>
                 </li>
                 <li class="bg-stone-950 border border-stone-800 rounded-lg p-4">
                     <div class="flex items-center gap-2 mb-1"><span class="text-amber-400 text-xs font-bold tracking-wider">TQQQ</span><span class="text-stone-500 text-xs">Nasdaq</span><span class="ml-auto text-stone-500 text-[11px] uppercase tracking-wider">ETF</span></div>
                     <p class="text-white font-semibold">ProShares UltraPro QQQ</p>
                     <p class="text-stone-400 text-sm mt-1">ETF apalancado: busca tres veces el rendimiento diario del índice Nasdaq-100.</p>
+                    <p class="text-sm mt-2" data-precio="TQQQ"></p>
                 </li>
                 <li class="bg-stone-950 border border-stone-800 rounded-lg p-4">
                     <div class="flex items-center gap-2 mb-1"><span class="text-amber-400 text-xs font-bold tracking-wider">COPX</span><span class="text-stone-500 text-xs">NYSE Arca</span><span class="ml-auto text-stone-500 text-[11px] uppercase tracking-wider">ETF</span></div>
                     <p class="text-white font-semibold">Global X Copper Miners ETF</p>
                     <p class="text-stone-400 text-sm mt-1">ETF de empresas mineras de cobre.</p>
+                    <p class="text-sm mt-2" data-precio="COPX"></p>
                 </li>
         </ul>
     </section>
@@ -211,9 +220,10 @@
         </div>
     </footer>
 
-    <script src="assets/notas.js?v=20261104a"></script>
+    <script src="assets/notas.js?v=20261110a"></script>
     <script>initMenu();</script>
     <script>renderBarra();</script>
+    <script>renderPrecios();</script>
 
 </body>
 </html>

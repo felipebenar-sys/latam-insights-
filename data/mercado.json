@@ -6,16 +6,16 @@
     "fuente": "Superintendencia Financiera vía datos.gov.co"
   },
   "brent": {
-    "valor": 90.61,
-    "cambio_pct": -2.12,
-    "fecha": "2026-11-10",
-    "fuente": "ICE vía Yahoo Finance"
+    "valor": 98.32,
+    "cambio_pct": 0.03,
+    "fecha": "2026-11-06",
+    "fuente": "ICE vía EFE (Infobae)"
   },
   "colcap": {
-    "valor": 24845.5,
-    "cambio_pct": -1.52,
-    "fecha": "2026-11-10",
-    "fuente": "BVC vía Yahoo Finance"
+    "valor": 2576.36,
+    "cambio_pct": 3.67,
+    "fecha": "2026-11-09",
+    "fuente": "BVC vía Valora Analitik"
   },
   "tasa_banrep": {
     "valor": 12.25,

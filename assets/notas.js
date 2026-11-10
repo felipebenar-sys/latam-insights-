@@ -751,6 +751,25 @@
         });
     };
 
+    // Página Mi portafolio: último precio de cierre de cada activo (data/precios.json)
+    window.renderPrecios = function () {
+        const num = v => Number(v).toLocaleString('es-CO', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+        const fecha = iso => String(iso || '').slice(0, 10).split('-').reverse().slice(0, 2).join('/');
+        const simb = { USD: 'US$', EUR: '€', COP: '$' };
+        fetch('data/precios.json', { cache: 'no-store' }).then(r => r.json()).then(p => {
+            document.querySelectorAll('[data-precio]').forEach(n => {
+                const a = (p.activos || {})[n.dataset.precio];
+                if (!a || !Number.isFinite(Number(a.valor))) return;
+                const pct = Number(a.cambio_pct);
+                const col = pct > 0 ? 'text-emerald-400' : pct < 0 ? 'text-rose-400' : 'text-stone-400';
+                const sig = pct > 0 ? '▲' : pct < 0 ? '▼' : '■';
+                n.innerHTML = `<span class="text-white font-semibold">${simb[a.moneda] || ''}${num(a.valor)}</span>` +
+                    (Number.isFinite(pct) ? ` <span class="${col}">${sig} ${num(Math.abs(pct))}%</span>` : '') +
+                    ` <span class="text-stone-500 text-xs">cierre ${fecha(a.fecha)} · ${a.moneda || ''}</span>`;
+            });
+        }).catch(() => {});
+    };
+
     // Página de glosario: términos del día (última edición) + glosario completo
     window.renderGlosario = function () {
         Promise.all([cargar(), fetch('data/glosario.json', { cache: 'no-store' }).then(r => r.json())]).then(([d, g]) => {
