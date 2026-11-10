@@ -2,6 +2,65 @@
   "mes": "2026-11",
   "notas": [
     {
+      "id": "2026-11-09-01",
+      "fecha": "2026-11-09",
+      "categoria": "politica",
+      "puntaje": {
+        "total": 8,
+        "alcance": 3,
+        "materialidad": 3,
+        "novedad": 1,
+        "fuente": 1
+      },
+      "titulo": "Gobierno y congresistas abren negociación de la Ley de Rescate; el IVA concentra reparos",
+      "resumen": "Miembros del Gobierno y del Congreso tuvieron su primera reunión para buscar acuerdos sobre la Ley de Rescate, que busca recaudar $46 billones en 2027. El siguiente paso son mesas técnicas, y el plazo para aprobarla vence el 16 de diciembre.",
+      "contexto": "A la reunión, realizada en Barranquilla, asistieron el vicepresidente José Manuel Restrepo, el ministro de Hacienda, Miguel Gómez, y el ministro del Interior; la oposición no fue invitada. El Centro Democrático objeta el paso del IVA de 5% a 19% en algunos productos de la canasta básica y presentó una alternativa. El presidente del Senado, Honorio Henríquez, dijo que hay mucha resistencia al aumento del IVA. El Gobierno tiene hasta el 16 de diciembre, más posibles días de sesiones extraordinarias.",
+      "afectados": [
+        "Finanzas públicas",
+        "TES",
+        "Peso colombiano",
+        "Consumo"
+      ],
+      "peso_alcista": 55,
+      "alcista": "Que el Gobierno y bancadas cercanas se sienten a negociar reduce el riesgo de que la reforma se hunda sin alternativa. Un recaudo cercano a $46 billones en 2027 aliviaría las necesidades de financiamiento del Estado. Eso podría bajar la prima de riesgo país y sostener los precios de los TES. Las mesas técnicas abren espacio para ajustar los puntos más resistidos sin abandonar el ajuste.",
+      "bajista": "La resistencia al aumento del IVA aparece incluso en bancadas cercanas al Gobierno, y cambiar ese punto podría reducir el recaudo. El plazo es corto: algo más de seis semanas. Si el proyecto se diluye o no se aprueba, el mercado podría exigir más rentabilidad por la deuda colombiana. Un IVA más alto en la canasta básica también podría frenar el consumo.",
+      "impacto": {
+        "conclusion": "Pesa algo más la lectura alcista, porque la negociación ya empezó y hay un plazo definido, aunque el resultado del IVA sigue abierto. Para tu portafolio, el trámite de la reforma es una de las principales fuentes de movimiento de los TES y del peso en las próximas semanas.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "mixto",
+            "detalle": "Un ajuste fiscal creíble apoya la confianza, pero un IVA más alto podría pesar sobre empresas ligadas al consumo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "mixto",
+            "detalle": "Los TES dependen de si la reforma se aprueba con un recaudo cercano al propuesto."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "mixto",
+            "detalle": "Avances en el Congreso podrían apoyar al peso; tropiezos podrían debilitarlo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La instalación de las mesas técnicas y el primer debate en las comisiones económicas antes del 16 de diciembre.",
+      "terminos": [
+        "IVA",
+        "TES",
+        "Prima de riesgo país",
+        "Sesiones extraordinarias",
+        "Necesidades de financiamiento"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/asi-fue-la-primera-reunion-entre-miembros-del-congreso-y-gobierno-sobre-la-tributaria-4519991"
+    },
+    {
       "id": "2026-11-08-02",
       "fecha": "2026-11-08",
       "categoria": "macro",
@@ -586,10 +645,13 @@
     "https://www.globenewswire.com/news-release/2026/11/05/3396999/0/en/celcuity-inc-reports-third-quarter-2026-financial-results-and-provides-corporate-update.html",
     "https://www.infobae.com/economia/2026/11/02/las-acciones-argentinas-cayeron-por-sexta-rueda-seguida-el-riesgo-pais-supero-los-800-puntos-y-el-bcra-no-compro-reservas/",
     "https://www.lanacion.com.ar/economia/el-riesgo-pais-argentino-subio-en-octubre-hasta-seis-veces-lo-que-aumento-en-la-region-y-el-gobierno-nid01112026/",
+    "https://www.larepublica.co/economia/asi-fue-la-primera-reunion-entre-miembros-del-congreso-y-gobierno-sobre-la-tributaria-4519991",
     "https://www.larepublica.co/economia/centro-democratico-propuso-ajustes-a-la-tributaria-y-venta-de-participacion-de-ecopetrol-4519947",
+    "https://www.larepublica.co/economia/el-bloque-llanos-86-abre-la-expectativa-de-nuevos-barriles-de-petroleo-4520061",
     "https://www.larepublica.co/economia/el-ministerio-de-minas-y-energia-levanto-la-limitacion-programada-de-gas-natural-4516007",
     "https://www.larepublica.co/economia/equipo-tecnico-de-banco-central-de-colombia-ve-mayor-inflacion-y-menor-crecimiento-economico-este-y-el-proximo-ano-4517960",
     "https://www.larepublica.co/economia/gobierno-radico-mensaje-de-urgencia-para-tramitar-la-ley-de-rescate-economico-4517003",
+    "https://www.larepublica.co/economia/incorporacion-de-brava-jalonaria-el-repunte-en-las-utilidades-de-ecopetrol-4520058",
     "https://www.larepublica.co/economia/mercado-financiero-anticipa-que-la-inflacion-repuntara-de-6-29-hasta-6-38-en-octubre-4519489",
     "https://www.larepublica.co/economia/mision-del-fmi-inicia-reuniones-mientras-el-gobierno-explora-credito-de-us-5-000-millones-4516695",
     "https://www.larepublica.co/economia/tributaria-no-cumpliria-ajuste-de-70-en-reduccion-de-gasto-y-30-en-impuestos-4519894",
