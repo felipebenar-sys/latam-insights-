@@ -4,6 +4,9 @@ on:
     - cron: "17 9 * * *"    # 4:17 a. m. hora Bogotá, antes de la edición de las 5:40
     - cron: "27 21 * * 1-5" # 4:27 p. m. hora Bogotá, después del cierre en Bogotá y Nueva York
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["bot/indicadores.py", ".github/workflows/indicadores.yml"]
 permissions:
   contents: write
 concurrency:
