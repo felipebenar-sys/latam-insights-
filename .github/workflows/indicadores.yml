@@ -1,0 +1,27 @@
+name: Indicadores y precios (Yahoo Finance)
+on:
+  schedule:
+    - cron: "17 9 * * *"    # 4:17 a. m. hora Bogotá, antes de la edición de las 5:40
+    - cron: "27 21 * * 1-5" # 4:27 p. m. hora Bogotá, después del cierre en Bogotá y Nueva York
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: indicadores
+jobs:
+  indicadores:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install --quiet yfinance
+      - run: python3 bot/indicadores.py
+      - run: python3 bot/publicar.py validar
+      - name: Commit si cambió
+        run: |
+          git add data/mercado.json data/precios.json 2>/dev/null || true
+          if git diff --cached --quiet; then echo "Sin cambios"; exit 0; fi
+          git config user.name "Stag Research"
+          git config user.email "stag-research@users.noreply.github.com"
+          git commit -m "Indicadores y precios $(date -u +%F)"
+          git pull --rebase origin main
+          git push origin HEAD:main
