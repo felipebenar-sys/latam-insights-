@@ -1,6 +1,49 @@
 {
-  "actualizado": "10 nov 2026, 5:49 a. m. (hora Bogotá)",
+  "actualizado": "10 nov 2026, 9:40 a. m. (hora Bogotá)",
   "notas": [
+    {
+      "id": "2026-11-10-04",
+      "fecha": "2026-11-10",
+      "categoria": "biotecnologia",
+      "formato": "hechos",
+      "empresa": "FTH",
+      "fecha_noticia": "2026-11-09",
+      "titulo": "Faeth: su tratamiento PIKTOR redujo el tumor en 33 % de las pacientes con cáncer de endometrio",
+      "resumen": "Faeth Therapeutics publicó los primeros resultados del estudio de Fase 2 PIK-201, en el que PIKTOR más quimioterapia (paclitaxel) redujo el tumor en 12 de 36 pacientes evaluadas con cáncer de endometrio avanzado. La compañía dijo que los resultados son positivos y que planea avanzar hacia un estudio de Fase 3, si los reguladores están de acuerdo.",
+      "contexto": "PIKTOR son dos pastillas, serabelisib y sapanisertib, que se toman juntas. El estudio incluyó 42 pacientes cuyo tumor tiene una mutación en la vía PI3K/AKT/mTOR y que ya habían recibido al menos un tratamiento; casi todas habían recibido inmunoterapia. En las pacientes con mutación PIK3CA, el tumor se redujo en 7 de 16, y en el grupo total la mitad de las pacientes pasó al menos 7,4 meses sin que la enfermedad avanzara. La FDA ya le había dado a esta combinación la designación Fast Track.",
+      "que_significa": "Algunos tumores de endometrio crecen porque tienen dañada una cadena de señales llamada PI3K/AKT/mTOR, que funciona como un acelerador de las células. PIKTOR busca frenar esa cadena en varios puntos a la vez. Un estudio de Fase 2 sirve para ver si el medicamento funciona en un grupo pequeño de pacientes; este estudio no tiene un grupo de comparación, así que no permite medir todavía cuánto aporta cada medicamento. El siguiente paso sería un estudio de Fase 3, más grande, que es el que suele pedir la FDA para aprobar un tratamiento. En seguridad, 2 de 42 pacientes dejaron el tratamiento por efectos secundarios y no hubo muertes relacionadas con él.",
+      "mirar": "El acuerdo con los reguladores sobre el diseño del estudio de Fase 3; la compañía no dio una fecha.",
+      "terminos": [
+        "Fase 2",
+        "Fase 3",
+        "Datos topline",
+        "Vía PI3K/AKT/mTOR",
+        "Designación Fast Track"
+      ],
+      "fuente": "Faeth Therapeutics (Business Wire)",
+      "url": "https://www.businesswire.com/news/home/20261109063698/en/"
+    },
+    {
+      "id": "2026-11-10-05",
+      "fecha": "2026-11-10",
+      "categoria": "biotecnologia",
+      "formato": "hechos",
+      "empresa": "IMNM",
+      "fecha_noticia": "2026-11-09",
+      "titulo": "Immunome presenta resultados del tercer trimestre; la FDA decidirá sobre varegacestat en abril de 2027",
+      "resumen": "Immunome reportó una pérdida neta de US$85,8 millones en el tercer trimestre y terminó septiembre con US$461,6 millones en caja e inversiones, que según la compañía le alcanzan hasta 2028. La FDA tiene como fecha límite el 28 de abril de 2027 para decidir sobre su medicamento varegacestat para tumores desmoides.",
+      "contexto": "La solicitud de aprobación de varegacestat fue aceptada por la FDA en julio de 2026, y en octubre la agencia europea de medicamentos (EMA) validó la solicitud en Europa. Su segundo medicamento, IM-1021, está en un estudio de Fase 1 en linfomas de células B: en 11 pacientes con linfoma difuso de células B grandes, el tumor se redujo en 7. La compañía también tiene en Fase 1 otros dos medicamentos contra tumores sólidos, IM-1617 e IM-3050.",
+      "que_significa": "Los tumores desmoides son crecimientos que no se extienden a otros órganos, pero pueden invadir los tejidos cercanos y causar dolor. Varegacestat es una pastilla que bloquea una señal que ayuda a esas células a crecer. IM-1021 es un conjugado anticuerpo-fármaco: un anticuerpo que reconoce la proteína ROR1 de las células del linfoma y les lleva un fármaco tóxico. Los datos de Fase 1 son de pocos pacientes y sirven sobre todo para medir la seguridad y buscar la dosis.",
+      "mirar": "El 14 de diciembre de 2026 la compañía presentará datos actualizados de IM-1021 en el congreso de hematología ASH.",
+      "terminos": [
+        "Fecha PDUFA",
+        "Fase 1",
+        "Conjugado anticuerpo-fármaco (ADC)",
+        "FDA"
+      ],
+      "fuente": "Immunome (Business Wire vía BioSpace)",
+      "url": "https://www.biospace.com/press-releases/immunome-reports-third-quarter-2026-financial-results-and-provides-business-update"
+    },
     {
       "id": "2026-11-10-03",
       "fecha": "2026-11-10",

@@ -4,14 +4,17 @@ La sección de noticias diarias se llama **Hoy** (página `yentonces.html`, dato
 
 Este archivo es la fuente única de reglas editoriales. Lo usa hoy la tarea programada de Claude y, más adelante, el script con la API de Anthropic. Si cambias una regla, cámbiala aquí.
 
+## Prioridades de la edición (decisión del dueño)
+Lo más importante de cada edición son **Biotecnología en Hoy** y **Mi portafolio**: publica **todas** las noticias relevantes de las 15 compañías de biotecnología y de los 9 activos de Mi portafolio, sin límite de cantidad. Del resto solo entran **una nota de Colombia y mercados** (la de mayor puntaje) y **una nota de La región** (la de mayor puntaje). Todo lo demás es ruido y no se publica. El tiempo de búsqueda se dedica primero a biotecnología y portafolio.
+
 ## Cuándo corre
 Una vez al día. La corrida empieza a las 5:40 a. m. hora Bogotá para que la edición quede publicada hacia las 6:00 a. m.: la sección Hoy debe quedar publicada en unos 20 minutos.
 
 ## Tiempo y eficiencia (obligatorio)
 1. **No leas los archivos de `data/` completos** (no hace falta: `estado` resume lo necesario) ni los reescribas a mano. Usa `python3 bot/publicar.py estado` para saber la fecha, si ya hay notas de hoy, los siguientes id, los indicadores actuales, los términos del glosario y la lista de URL ya publicadas (`/tmp/stag_urls.txt`). Para publicar, escribe las notas nuevas en un archivo temporal y agrégalas con `python3 bot/publicar.py agregar hoy|latam ARCHIVO.json`; los términos nuevos con `glosario ARCHIVO.json` (antes de agregar las notas) y los indicadores con `mercado ARCHIVO.json`. El script valida campos, términos, puntajes y URL repetidas y pone la hora real en `actualizado`; si rechaza algo, corrige el archivo temporal y vuelve a correrlo. Termina con `python3 bot/publicar.py validar`.
 2. **Una sola vez por fuente:** cada URL se intenta una vez. Si una página no responde, falla o pide permiso, sigue con la siguiente fuente de la lista; no busques sitios alternos fuera de los indicados aquí.
-3. **Lee primero los titulares:** revisa los RSS, preselecciona por título y descripción, y abre el artículo completo solo de las ~10 mejores candidatas de Hoy, de las ~4 mejores de La región y de las candidatas de Mi portafolio y biotecnología.
-4. **Una sola publicación:** cuando tengas todas las notas del día (Colombia y mercados, La región, Mi portafolio y biotecnología) y los indicadores, valida y publica todo en un solo commit ("Edición AAAA-MM-DD") y un push.
+3. **Lee primero los titulares:** revisa los RSS, preselecciona por título y descripción, y abre el artículo completo solo de las ~3 mejores candidatas de Colombia y mercados y de las ~2 mejores de La región; de Mi portafolio y biotecnología abre todas las candidatas.
+4. **Una sola publicación:** cuando tengas todas las notas del día (biotecnología, Mi portafolio, la nota de Colombia y mercados y la de La región) y los indicadores, valida y publica todo en un solo commit ("Edición AAAA-MM-DD") y un push.
 5. **Límite de tiempo:** si a las 6:05 a. m. (hora Bogotá) todavía estás buscando, deja de buscar y publica lo que tengas validado.
 
 ## Fuentes (RSS)
@@ -62,8 +65,8 @@ Excluidas de la sección Hoy: biotecnología (tiene su propia página, que no pu
    - **Materialidad (0–3):** 3 = mueve directamente tasas de interés, dólar, finanzas públicas o resultados de emisores grandes de la BVC; 2 = efecto indirecto o concentrado en un sector; 1 = efecto marginal; 0 = sin efecto económico.
    - **Novedad (0–2):** 2 = dato, decisión o hecho nuevo (cifra oficial, decisión de política, resultado, evento); 1 = anuncio, propuesta, proyección o negociación en curso; 0 = análisis, recopilación o seguimiento de algo ya conocido.
    - **Fuente (0–1):** 1 si el artículo trae cifras verificables y cita fuentes primarias; 0 si no.
-3. **Prioridad automática:** entran siempre, aunque su puntaje sea menor, las decisiones de tasa del Banco de la República, los datos del DANE (inflación, PIB, desempleo), las medidas del Ministerio de Hacienda con efecto fiscal y la información relevante de emisores de la BVC publicada en las últimas 24 horas.
-4. Publica las de mayor puntaje hasta completar **6 a 8 notas de Colombia y mercados** (todas las categorías menos `region`), con **máximo 3 por categoría**. Las de `region` se eligen aparte y se suman a esas (ver "La región"). No publiques candidatas con puntaje menor a 5 (salvo prioridad automática). Si un día (por ejemplo, un festivo) no hay suficientes candidatas con 5 o más, publica menos; nunca rellenes.
+3. **Prioridad automática:** tienen preferencia para ocupar el único cupo de Colombia y mercados, aunque su puntaje sea menor, las decisiones de tasa del Banco de la República, los datos del DANE (inflación, PIB, desempleo), las medidas del Ministerio de Hacienda con efecto fiscal y la información relevante de emisores de la BVC publicada en las últimas 24 horas.
+4. Publica **una sola nota de Colombia y mercados** (todas las categorías menos `region`, `portafolio` y `biotecnologia`): la de mayor puntaje. La de `region` se elige aparte (ver "La región"). No publiques candidatas con puntaje menor a 5 (salvo prioridad automática). Si un día no hay candidatas con 5 o más, no publiques ninguna; nunca rellenes.
 5. Ordena las notas de la edición de mayor a menor puntaje y guarda el puntaje en cada nota (campo `puntaje`).
 
 ## La región (categoría `region`)
@@ -73,7 +76,7 @@ La página Hoy incluye **La región**: lo más importante de las economías gran
 
 **Qué entra:** decisiones de tasa y comunicados de los bancos centrales (Banco Central do Brasil, Banxico, BCRA, Banco Central de Chile, BCRP); inflación, PIB, empleo y cifras fiscales oficiales; movimientos fuertes de la moneda, la bolsa o el riesgo país; elecciones, reformas y medidas económicas de gobierno; calificaciones soberanas; y hechos de grandes empresas de esos países que muevan su mercado. Mismas reglas de vigencia (~24 horas). Si la noticia es de un activo de Mi portafolio (por ejemplo MercadoLibre o Nu), va con categoría `portafolio` y no aquí.
 
-**Cuántas:** de 0 a 3 notas por día, con máximo 2 por país. Mínimo 5 puntos para entrar. Si un día no hay noticias regionales con 5 puntos o más, no publiques ninguna (nunca rellenes).
+**Cuántas:** una sola nota por día, la de mayor puntaje entre todos los países (0 si ninguna llega al mínimo). Mínimo 5 puntos para entrar. Si un día no hay noticias regionales con 5 puntos o más, no publiques ninguna (nunca rellenes).
 
 **Puntaje para La región:** los mismos cuatro criterios, con esta materialidad:
 - **Materialidad (0–3):** 3 = mueve las tasas, la moneda, la bolsa o las finanzas públicas de Brasil, México o Argentina, o afecta directamente a emisores de la BVC con negocios en ese país; 2 = efecto sectorial o indirecto, o un hecho macro mayor de Chile o Perú; 1 = efecto marginal; 0 = sin efecto económico.
@@ -257,7 +260,7 @@ Noticias de los activos que Stag Research tiene en Mi portafolio. Van **mezclada
 
 **Fuentes:** comunicados y resultados de cada compañía (página de inversionistas, formularios de la SEC 8-K, 6-K, 10-Q y 20-F), información relevante de la Superfinanciera para PFGRUPOARG y BVC, los RSS de Hoy y WebSearch por nombre de compañía (una búsqueda por activo). Para TQQQ y COPX solo entran hechos del propio fondo (cambios en el fondo, en su índice o en su emisor) o del activo que siguen cuando sea un dato importante (por ejemplo, un movimiento fuerte del Nasdaq-100 o del precio del cobre). **No uses** sitios de alertas automáticas de acciones, cambios de calificación de analistas sin otra información ni notas de "acciones para comprar".
 
-**Qué entra:** noticias de las últimas ~48 horas (72 en fines de semana o festivos): resultados, dividendos, recompras, emisiones, adquisiciones, cambios de gobierno corporativo o regulatorios y hechos del sector que afecten directamente al activo. Máximo **3 notas de portafolio** por edición, que se suman a las 6 a 8 de Colombia y mercados; aplican el umbral de puntaje 5 y la regla de nunca rellenar.
+**Qué entra:** noticias de las últimas ~48 horas (72 en fines de semana o festivos): resultados, dividendos, recompras, emisiones, adquisiciones, cambios de gobierno corporativo o regulatorios y hechos del sector que afecten directamente al activo. **Sin límite de notas de portafolio:** publica todas las noticias relevantes de los 9 activos (una nota por hecho). Aplica el umbral de puntaje 5 y la regla de nunca rellenar. Revisa cada activo, uno por uno.
 
 **Formato:** el de una nota de Hoy con `"categoria": "portafolio"` y `"empresa"` (el ticker de la lista). En `impacto`, el activo `dolar` explica el efecto para quien tiene ese activo en el exterior; las lecturas siguen siendo escenarios, nunca una recomendación de comprar, vender o mantener.
 
@@ -266,9 +269,9 @@ Noticias de las 15 compañías de la sección Biotecnología (ver la lista arrib
 
 **Reglas especiales (obligatorias):** sin opinión (sin lecturas alcista o bajista, ponderación, puntaje, impacto, afectados ni calificativos como "positivo", "negativo", "prometedor" o "decepcionante"; se puede decir que un estudio "cumplió su objetivo principal" cuando la compañía lo reporta así) y en lenguaje para un joven de 15 años. Valen las demás reglas obligatorias de Hoy.
 
-**Fuentes:** comunicados de cada compañía (página de inversionistas, GlobeNewswire, Business Wire, 8-K de la SEC), comunicados de la FDA y WebSearch. Para ahorrar tiempo, haz búsquedas agrupadas (varias compañías por búsqueda). **No entran** los avisos de bufetes de abogados que buscan demandantes, las notas promocionales ni los análisis del precio de la acción.
+**Fuentes:** comunicados de cada compañía (página de inversionistas, GlobeNewswire, Business Wire, PR Newswire, 8-K de la SEC), comunicados de la FDA y WebSearch. **Revisa las 15 compañías una por una**: busca con WebSearch el nombre de cada compañía con la fecha (por ejemplo, "Faeth Therapeutics November 9 2026", también con `businesswire.com` y `globenewswire.com`) y abre su página de noticias para inversionistas. Las búsquedas agrupadas de varias compañías pierden comunicados; úsalas solo como complemento. **No entran** los avisos de bufetes de abogados que buscan demandantes, las notas promocionales ni los análisis del precio de la acción.
 
-**Qué entra:** noticias de las últimas ~48 horas (72 en fines de semana o festivos): resultados de ensayos, resultados financieros, financiamiento, decisiones o designaciones regulatorias, presentaciones en congresos, alianzas y cambios relevantes de la administración. Máximo **3 notas de biotecnología** por edición, que se suman a las demás. Si no hay noticias, no publiques ninguna (nunca rellenes).
+**Qué entra:** noticias de las últimas ~48 horas (72 en fines de semana o festivos): resultados de ensayos, resultados financieros, financiamiento, decisiones o designaciones regulatorias, presentaciones en congresos, alianzas y cambios relevantes de la administración. **Sin límite de notas de biotecnología:** publica todas las noticias relevantes de las 15 compañías (una nota por comunicado sustantivo). No entran los avisos de simple participación en conferencias ni las concesiones de acciones a empleados (inducement grants). Si no hay noticias, no publiques ninguna (nunca rellenes).
 
 **Formato** (se agrega con `python3 bot/publicar.py agregar hoy ARCHIVO.json`, que valida el formato `hechos`):
 

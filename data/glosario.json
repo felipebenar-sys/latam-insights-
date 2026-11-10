@@ -723,6 +723,14 @@
     {
       "termino": "MSCI COLCAP",
       "definicion": "Es el principal índice de la Bolsa de Valores de Colombia. Agrupa las acciones más grandes y negociadas del mercado local y se usa para medir cómo le va a la bolsa en general. Si tienes un fondo o ETF de acciones colombianas, su rendimiento suele seguir de cerca a este índice."
+    },
+    {
+      "termino": "Conjugado anticuerpo-fármaco (ADC)",
+      "definicion": "Es un medicamento que une un anticuerpo, que reconoce y se pega a las células del tumor, con un fármaco tóxico que lleva adentro. Funciona como un misil guiado: el anticuerpo lleva el fármaco hasta la célula enferma y allí lo libera, para dañar menos las células sanas. Varias compañías de biotecnología desarrollan este tipo de medicamentos contra el cáncer."
+    },
+    {
+      "termino": "Fecha PDUFA",
+      "definicion": "Es la fecha límite que la FDA se fija para decidir si aprueba un medicamento después de aceptar la solicitud de la compañía. Para quien invierte en biotecnología es un evento clave, porque una aprobación o un rechazo puede cambiar mucho el valor de la empresa. La FDA puede decidir antes o, en algunos casos, extender el plazo."
     }
   ]
 }

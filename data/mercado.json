@@ -12,10 +12,10 @@
     "fuente": "ICE vía EFE (Infobae)"
   },
   "colcap": {
-    "valor": 2485.26,
-    "cambio_pct": 0.03,
-    "fecha": "2026-11-06",
-    "fuente": "BVC vía Acciones y Valores"
+    "valor": 2576.36,
+    "cambio_pct": 3.67,
+    "fecha": "2026-11-09",
+    "fuente": "BVC vía Valora Analitik"
   },
   "tasa_banrep": {
     "valor": 12.25,
@@ -26,5 +26,5 @@
     "periodo": "sep 2026",
     "fuente": "DANE"
   },
-  "actualizado": "2026-11-09"
+  "actualizado": "2026-11-10"
 }
