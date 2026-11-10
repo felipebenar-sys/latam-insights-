@@ -1,0 +1,77 @@
+{
+  "activos": {
+    "NU": {
+      "valor": 12.06,
+      "cambio_pct": -2.47,
+      "fecha": "2026-11-10",
+      "moneda": "USD",
+      "simbolo": "NU",
+      "fuente": "Yahoo Finance"
+    },
+    "JPM": {
+      "valor": 341.51,
+      "cambio_pct": -0.17,
+      "fecha": "2026-11-10",
+      "moneda": "USD",
+      "simbolo": "JPM",
+      "fuente": "Yahoo Finance"
+    },
+    "MELI": {
+      "valor": 1500.57,
+      "cambio_pct": -2.1,
+      "fecha": "2026-11-10",
+      "moneda": "USD",
+      "simbolo": "MELI",
+      "fuente": "Yahoo Finance"
+    },
+    "RMS": {
+      "valor": 1355.0,
+      "cambio_pct": 0.11,
+      "fecha": "2026-11-10",
+      "moneda": "EUR",
+      "simbolo": "RMS.PA",
+      "fuente": "Yahoo Finance"
+    },
+    "BN": {
+      "valor": 42.53,
+      "cambio_pct": -1.02,
+      "fecha": "2026-11-10",
+      "moneda": "USD",
+      "simbolo": "BN",
+      "fuente": "Yahoo Finance"
+    },
+    "PFGRUPOARG": {
+      "valor": 15960.0,
+      "cambio_pct": -0.25,
+      "fecha": "2026-11-10",
+      "moneda": "COP",
+      "simbolo": "PFGRUPOARG.CL",
+      "fuente": "Yahoo Finance"
+    },
+    "BVC": {
+      "valor": 16320.0,
+      "cambio_pct": -0.49,
+      "fecha": "2026-11-10",
+      "moneda": "COP",
+      "simbolo": "BVC.CL",
+      "fuente": "Yahoo Finance"
+    },
+    "TQQQ": {
+      "valor": 56.33,
+      "cambio_pct": -2.17,
+      "fecha": "2026-11-10",
+      "moneda": "USD",
+      "simbolo": "TQQQ",
+      "fuente": "Yahoo Finance"
+    },
+    "COPX": {
+      "valor": 72.52,
+      "cambio_pct": -3.63,
+      "fecha": "2026-11-10",
+      "moneda": "USD",
+      "simbolo": "COPX",
+      "fuente": "Yahoo Finance"
+    }
+  },
+  "actualizado": "2026-11-10"
+}
