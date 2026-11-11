@@ -1,41 +1,41 @@
 {
   "activos": {
     "NU": {
-      "valor": 12.36,
-      "cambio_pct": 2.74,
-      "fecha": "2026-11-09",
+      "valor": 12.08,
+      "cambio_pct": -2.27,
+      "fecha": "2026-11-10",
       "moneda": "USD",
       "simbolo": "NU",
       "fuente": "Yahoo Finance"
     },
     "JPM": {
-      "valor": 342.08,
-      "cambio_pct": 2.27,
-      "fecha": "2026-11-09",
+      "valor": 342.07,
+      "cambio_pct": -0.0,
+      "fecha": "2026-11-10",
       "moneda": "USD",
       "simbolo": "JPM",
       "fuente": "Yahoo Finance"
     },
     "MELI": {
-      "valor": 1532.68,
-      "cambio_pct": 1.5,
-      "fecha": "2026-11-09",
+      "valor": 1490.24,
+      "cambio_pct": -2.77,
+      "fecha": "2026-11-10",
       "moneda": "USD",
       "simbolo": "MELI",
       "fuente": "Yahoo Finance"
     },
     "RMS": {
-      "valor": 1353.5,
-      "cambio_pct": -0.66,
-      "fecha": "2026-11-09",
+      "valor": 1345.5,
+      "cambio_pct": -0.59,
+      "fecha": "2026-11-10",
       "moneda": "EUR",
       "simbolo": "RMS.PA",
       "fuente": "Yahoo Finance"
     },
     "BN": {
-      "valor": 42.97,
-      "cambio_pct": 3.84,
-      "fecha": "2026-11-09",
+      "valor": 42.39,
+      "cambio_pct": -1.35,
+      "fecha": "2026-11-10",
       "moneda": "USD",
       "simbolo": "BN",
       "fuente": "Yahoo Finance"
@@ -57,21 +57,21 @@
       "fuente": "Yahoo Finance"
     },
     "TQQQ": {
-      "valor": 57.58,
-      "cambio_pct": 10.2,
-      "fecha": "2026-11-09",
+      "valor": 56.56,
+      "cambio_pct": -1.77,
+      "fecha": "2026-11-10",
       "moneda": "USD",
       "simbolo": "TQQQ",
       "fuente": "Yahoo Finance"
     },
     "COPX": {
-      "valor": 75.25,
-      "cambio_pct": 5.61,
-      "fecha": "2026-11-09",
+      "valor": 72.87,
+      "cambio_pct": -3.16,
+      "fecha": "2026-11-10",
       "moneda": "USD",
       "simbolo": "COPX",
       "fuente": "Yahoo Finance"
     }
   },
-  "actualizado": "2026-11-10"
+  "actualizado": "2026-11-11"
 }
