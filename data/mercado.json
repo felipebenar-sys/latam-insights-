@@ -22,9 +22,9 @@
     "fuente": "Banco de la República"
   },
   "inflacion": {
-    "valor": 6.29,
-    "periodo": "sep 2026",
-    "fuente": "DANE"
+    "valor": 6.3,
+    "periodo": "oct 2026",
+    "fuente": "DANE vía La República"
   },
-  "actualizado": "2026-11-10"
+  "actualizado": "2026-11-11"
 }

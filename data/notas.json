@@ -1,140 +1,42 @@
 {
-  "actualizado": "10 nov 2026, 9:40 a. m. (hora Bogotá)",
+  "actualizado": "11 nov 2026, 5:49 a. m. (hora Bogotá)",
   "notas": [
     {
-      "id": "2026-11-10-04",
-      "fecha": "2026-11-10",
-      "categoria": "biotecnologia",
-      "formato": "hechos",
-      "empresa": "FTH",
-      "fecha_noticia": "2026-11-09",
-      "titulo": "Faeth: su tratamiento PIKTOR redujo el tumor en 33 % de las pacientes con cáncer de endometrio",
-      "resumen": "Faeth Therapeutics publicó los primeros resultados del estudio de Fase 2 PIK-201, en el que PIKTOR más quimioterapia (paclitaxel) redujo el tumor en 12 de 36 pacientes evaluadas con cáncer de endometrio avanzado. La compañía dijo que los resultados son positivos y que planea avanzar hacia un estudio de Fase 3, si los reguladores están de acuerdo.",
-      "contexto": "PIKTOR son dos pastillas, serabelisib y sapanisertib, que se toman juntas. El estudio incluyó 42 pacientes cuyo tumor tiene una mutación en la vía PI3K/AKT/mTOR y que ya habían recibido al menos un tratamiento; casi todas habían recibido inmunoterapia. En las pacientes con mutación PIK3CA, el tumor se redujo en 7 de 16, y en el grupo total la mitad de las pacientes pasó al menos 7,4 meses sin que la enfermedad avanzara. La FDA ya le había dado a esta combinación la designación Fast Track.",
-      "que_significa": "Algunos tumores de endometrio crecen porque tienen dañada una cadena de señales llamada PI3K/AKT/mTOR, que funciona como un acelerador de las células. PIKTOR busca frenar esa cadena en varios puntos a la vez. Un estudio de Fase 2 sirve para ver si el medicamento funciona en un grupo pequeño de pacientes; este estudio no tiene un grupo de comparación, así que no permite medir todavía cuánto aporta cada medicamento. El siguiente paso sería un estudio de Fase 3, más grande, que es el que suele pedir la FDA para aprobar un tratamiento. En seguridad, 2 de 42 pacientes dejaron el tratamiento por efectos secundarios y no hubo muertes relacionadas con él.",
-      "mirar": "El acuerdo con los reguladores sobre el diseño del estudio de Fase 3; la compañía no dio una fecha.",
-      "terminos": [
-        "Fase 2",
-        "Fase 3",
-        "Datos topline",
-        "Vía PI3K/AKT/mTOR",
-        "Designación Fast Track"
-      ],
-      "fuente": "Faeth Therapeutics (Business Wire)",
-      "url": "https://www.businesswire.com/news/home/20261109063698/en/"
-    },
-    {
-      "id": "2026-11-10-05",
-      "fecha": "2026-11-10",
-      "categoria": "biotecnologia",
-      "formato": "hechos",
-      "empresa": "IMNM",
-      "fecha_noticia": "2026-11-09",
-      "titulo": "Immunome presenta resultados del tercer trimestre; la FDA decidirá sobre varegacestat en abril de 2027",
-      "resumen": "Immunome reportó una pérdida neta de US$85,8 millones en el tercer trimestre y terminó septiembre con US$461,6 millones en caja e inversiones, que según la compañía le alcanzan hasta 2028. La FDA tiene como fecha límite el 28 de abril de 2027 para decidir sobre su medicamento varegacestat para tumores desmoides.",
-      "contexto": "La solicitud de aprobación de varegacestat fue aceptada por la FDA en julio de 2026, y en octubre la agencia europea de medicamentos (EMA) validó la solicitud en Europa. Su segundo medicamento, IM-1021, está en un estudio de Fase 1 en linfomas de células B: en 11 pacientes con linfoma difuso de células B grandes, el tumor se redujo en 7. La compañía también tiene en Fase 1 otros dos medicamentos contra tumores sólidos, IM-1617 e IM-3050.",
-      "que_significa": "Los tumores desmoides son crecimientos que no se extienden a otros órganos, pero pueden invadir los tejidos cercanos y causar dolor. Varegacestat es una pastilla que bloquea una señal que ayuda a esas células a crecer. IM-1021 es un conjugado anticuerpo-fármaco: un anticuerpo que reconoce la proteína ROR1 de las células del linfoma y les lleva un fármaco tóxico. Los datos de Fase 1 son de pocos pacientes y sirven sobre todo para medir la seguridad y buscar la dosis.",
-      "mirar": "El 14 de diciembre de 2026 la compañía presentará datos actualizados de IM-1021 en el congreso de hematología ASH.",
-      "terminos": [
-        "Fecha PDUFA",
-        "Fase 1",
-        "Conjugado anticuerpo-fármaco (ADC)",
-        "FDA"
-      ],
-      "fuente": "Immunome (Business Wire vía BioSpace)",
-      "url": "https://www.biospace.com/press-releases/immunome-reports-third-quarter-2026-financial-results-and-provides-business-update"
-    },
-    {
-      "id": "2026-11-10-03",
-      "fecha": "2026-11-10",
-      "categoria": "region",
-      "pais": "Argentina",
+      "id": "2026-11-11-01",
+      "fecha": "2026-11-11",
+      "categoria": "macro",
       "puntaje": {
-        "total": 6,
-        "alcance": 1,
-        "materialidad": 3,
-        "novedad": 1,
-        "fuente": 1
-      },
-      "titulo": "El riesgo país de Argentina baja 28 puntos y vuelve a cerca de 911",
-      "resumen": "El riesgo país argentino medido por JP Morgan cedía 28 puntos, a 911 puntos básicos, a media jornada del 9 de noviembre, en una sesión favorable para los mercados internacionales.",
-      "contexto": "El jueves anterior el indicador había superado los 900 puntos por primera vez desde octubre de 2025. Los bonos Bonares y Globales subían junto con los de otros emergentes, mientras que en Nueva York los ADR argentinos se movían en direcciones distintas: YPF caía 2,4 % y Vista Energy 1 %. No hubo operaciones en la bolsa local por un feriado. Argentina importa a quien invierte desde Colombia porque su deuda y sus acciones pesan en los fondos de renta variable y renta fija de mercados emergentes de la región.",
-      "afectados": [
-        "Bonos argentinos",
-        "ADR argentinos",
-        "Riesgo país"
-      ],
-      "peso_alcista": 55,
-      "alcista": "Una baja del riesgo país significa que los inversionistas exigen menos rendimiento por prestarle a Argentina, lo que sube el precio de sus bonos. El movimiento coincidió con un mejor ánimo global, con alzas fuertes en Wall Street, lo que favorece a los activos emergentes en general. Para quien tiene fondos de la región en dólares, una recuperación de la deuda argentina ayuda a su valorización. Además, el indicador se aleja un poco del nivel de 900 puntos que había cruzado la semana anterior.",
-      "bajista": "La baja es de una sola sesión y el indicador sigue en un nivel alto, después de haber subido a su máximo desde octubre de 2025. Los analistas citados en la fuente señalan que la presión sobre el riesgo país y la bolsa añade tensión al frente financiero, y vinculan parte del movimiento con la política de EE. UU. tras las elecciones de mitad de período. Los ADR de energía, como YPF y Vista, cayeron con el retroceso del petróleo. Sin operaciones locales por el feriado, la lectura del día es incompleta.",
-      "impacto": {
-        "conclusion": "Pesa algo más la lectura alcista, porque la caída del riesgo país mejora el precio de la deuda argentina en un día de apetito global por riesgo. Para quien invierte desde Colombia, el efecto se concentra en fondos o ETF de la región en dólares; es un movimiento de un día que no cambia por sí solo la tendencia.",
-        "activos": [
-          {
-            "activo": "acciones",
-            "efecto": "neutral",
-            "detalle": "Sin efecto directo."
-          },
-          {
-            "activo": "renta_fija",
-            "efecto": "neutral",
-            "detalle": "Sin efecto directo."
-          },
-          {
-            "activo": "dolar",
-            "efecto": "positivo",
-            "detalle": "Favorece a los fondos de deuda emergente y latinoamericana medidos en dólares."
-          },
-          {
-            "activo": "cdt",
-            "efecto": "neutral",
-            "detalle": "Sin efecto directo."
-          }
-        ]
-      },
-      "mirar": "Si el riesgo país se sostiene por debajo de 900 puntos cuando reabra la bolsa local y salgan los datos de inflación de la semana.",
-      "terminos": [
-        "Riesgo país",
-        "Puntos básicos",
-        "ADR"
-      ],
-      "fuente": "Infobae",
-      "url": "https://www.infobae.com/economia/2026/11/09/cae-el-riesgo-pais-argentino-en-una-sesion-positiva-para-los-mercados-internacionales/"
-    },
-    {
-      "id": "2026-11-10-01",
-      "fecha": "2026-11-10",
-      "categoria": "bvc",
-      "puntaje": {
-        "total": 8,
-        "alcance": 2,
+        "total": 9,
+        "alcance": 3,
         "materialidad": 3,
         "novedad": 2,
         "fuente": 1
       },
-      "titulo": "Ecopetrol coloca US$2.000 millones en bonos a 8 años con demanda de 3,5 veces",
-      "resumen": "Ecopetrol emitió el 9 de noviembre bonos internacionales por US$2.000 millones con vencimiento en 2034 y recibió órdenes por US$6.930 millones, la mayor demanda de sus emisiones externas en cinco años, según la compañía.",
-      "contexto": "Los bonos pagan un cupón de 7,875 % semestral y se colocaron con un rendimiento de 7,980 %. Con los recursos, Ecopetrol prepagará el 19 de noviembre US$810 millones de bonos emitidos en 2023 con cupón de 8,625 % y vencimiento en 2029, y refinanciará el crédito de corto plazo con el que compró su participación en Brava Energia. La compañía afirma que la operación sustituye deuda existente y no aumenta su endeudamiento; participaron más de 235 inversionistas y el Ministerio de Hacienda la autorizó ese mismo día.",
+      "titulo": "La inflación anual de Colombia sube a 6,30 % en octubre, por debajo de lo esperado",
+      "resumen": "El DANE informó que la inflación anual de octubre llegó a 6,30 %, frente a 6,29 % en septiembre. Los analistas esperaban en promedio 6,38 %, así que el dato subió menos de lo previsto.",
+      "contexto": "En la encuesta de Citi entre 21 entidades, 20 esperaban una aceleración y el promedio era 6,38 %. Restaurantes y hoteles (9,39 %), educación (7,44 %), salud (7,37 %) y alimentos (7,31 %) fueron las divisiones con mayores alzas anuales. El Banco de la República proyecta que la inflación cierre 2026 en 7,1 %, y el dato servirá de base para negociar el salario mínimo de 2027: los gremios hablan de un alza de entre 8 % y 9,5 % y la CUT propone cerca de 38,5 %.",
       "afectados": [
-        "Ecopetrol",
-        "Bonos de Ecopetrol",
-        "Deuda externa colombiana"
+        "TES",
+        "CDT",
+        "Banco de la República",
+        "Salario mínimo",
+        "Consumo"
       ],
-      "peso_alcista": 70,
-      "alcista": "Reemplazar bonos de 8,625 % con otros de 7,875 % reduce el costo de una parte de la deuda de Ecopetrol y alarga sus vencimientos. Una demanda de 3,5 veces el monto ofrecido, con inversionistas de varios continentes, muestra apetito por el riesgo de la petrolera pese a su calificación por debajo del grado de inversión. Según la compañía, el diferencial frente a la deuda soberana y a los bonos del Tesoro de EE. UU. fue el más bajo de sus emisiones internacionales recientes. Eso reduce el riesgo de refinanciación y protege la liquidez, algo que el mercado suele valorar en la acción.",
-      "bajista": "Un rendimiento cercano a 8 % en dólares sigue siendo alto y refleja la prima de riesgo que el mercado le exige a la compañía y al país. La operación no reduce el saldo total de la deuda: solo cambia su perfil. Parte de los recursos cubre el crédito usado en la compra de Brava Energia, de modo que el endeudamiento ligado a esa adquisición se vuelve de largo plazo. El resultado del negocio sigue dependiendo del precio del petróleo, que la emisión no cambia.",
+      "peso_alcista": 45,
+      "alcista": "El dato quedó por debajo del promedio esperado por el mercado, lo que reduce el temor a una aceleración más fuerte de los precios. Si la inflación se estabiliza cerca de este nivel, el Banco de la República tendría menos presión para endurecer su política. Eso puede aliviar las tasas de los TES y favorecer su precio. También ayuda a las acciones de empresas sensibles al consumo, si los hogares no pierden más poder de compra.",
+      "bajista": "La inflación sigue subiendo por cuarto mes y continúa muy por encima de la meta del Banco de la República. Las alzas en servicios como restaurantes, educación y salud suelen ser más difíciles de bajar. Además, un dato de 6,30 % como base para el salario mínimo puede llevar a un aumento alto que alimente la inflación de 2027. Todo eso apunta a tasas de interés altas por más tiempo, lo que pesa sobre los TES y las acciones.",
       "impacto": {
-        "conclusion": "Pesa más la lectura alcista: la compañía refinancia a menor cupón, alarga plazos y comprueba que tiene acceso amplio al mercado externo. Para quien invierte, la noticia reduce un riesgo de corto plazo de Ecopetrol, aunque no cambia su nivel de deuda ni su dependencia del crudo.",
+        "conclusion": "Pesa algo más la lectura bajista: aunque el dato sorprendió a la baja, la inflación sigue subiendo y lejos de la meta, lo que mantiene la expectativa de tasas altas por un buen tiempo. Para quien invierte, eso significa que los ahorros en pesos siguen bien remunerados, mientras los TES y las acciones dependen de que la inflación empiece a ceder en 2027.",
         "activos": [
           {
             "activo": "acciones",
-            "efecto": "positivo",
-            "detalle": "Menor riesgo de refinanciación y menor cupón en parte de la deuda del mayor emisor de la BVC."
+            "efecto": "negativo",
+            "detalle": "Tasas altas por más tiempo encarecen el crédito y restan atractivo a las acciones frente a la renta fija."
           },
           {
             "activo": "renta_fija",
-            "efecto": "positivo",
-            "detalle": "La alta demanda por deuda colombiana en dólares es una señal favorable para los bonos de emisores locales ya en el portafolio."
+            "efecto": "mixto",
+            "detalle": "El dato menor al esperado alivia algo las tasas, pero la inflación al alza limita la valorización de los TES."
           },
           {
             "activo": "dolar",
@@ -143,40 +45,79 @@
           },
           {
             "activo": "cdt",
+            "efecto": "positivo",
+            "detalle": "Con inflación alta, las tasas de los CDT y del ahorro en pesos tienden a mantenerse elevadas."
+          }
+        ]
+      },
+      "mirar": "La negociación del salario mínimo de 2027 y el dato de inflación de noviembre que publicará el DANE en diciembre.",
+      "terminos": [
+        "Inflación",
+        "Meta de inflación",
+        "Salario mínimo",
+        "TES"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/discusion-del-salario-minimo-para-el-otro-ano-se-perfila-con-6-30-de-inflacion-4520706"
+    },
+    {
+      "id": "2026-11-11-02",
+      "fecha": "2026-11-11",
+      "categoria": "region",
+      "pais": "Brasil",
+      "puntaje": {
+        "total": 7,
+        "alcance": 1,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "Banco Central de Brasil anticipa tasas altas por más tiempo y sube su proyección de inflación",
+      "resumen": "El acta del Copom, publicada el 10 de noviembre, dice que las expectativas de inflación se desanclaron y que hará falta mantener la tasa Selic, hoy en 13,75 %, alta por más tiempo. El banco subió su proyección de inflación a 5,6 % para 2026 y a 4,7 % para 2027.",
+      "contexto": "La semana anterior el Copom mantuvo la Selic en 13,75 % y cortó una racha de cinco recortes de 0,25 puntos que empezó en marzo, cuando la tasa estaba en 15 %. El acta atribuye la presión al petróleo por los conflictos en Medio Oriente, a los efectos de El Niño y a la caída del real, y advierte dudas sobre la sostenibilidad de la deuda. Ambas proyecciones quedan por encima del techo de la meta, de 4,5 %. Brasil es la mayor economía de la región y una de las más pesadas en los fondos y ETF latinoamericanos que compran los inversionistas colombianos.",
+      "afectados": [
+        "Real brasileño",
+        "Bolsa de Brasil",
+        "ETF de América Latina",
+        "Bonos de Brasil"
+      ],
+      "peso_alcista": 40,
+      "alcista": "Un banco central firme frente a la inflación puede devolver credibilidad a la política monetaria de Brasil. Tasas altas por más tiempo hacen más atractivos los activos en reales y pueden dar soporte a la moneda. Si las expectativas se vuelven a anclar, el camino de recortes podría retomarse más adelante con menos riesgo. Para quien tiene renta fija brasileña, la Selic alta mantiene rendimientos elevados.",
+      "bajista": "El acta reconoce que las expectativas de inflación se desanclaron y que la actividad ya muestra señales de desaceleración. Tasas altas por más tiempo frenan el crédito y las utilidades de las empresas, lo que pesa sobre la bolsa brasileña. Las dudas sobre la disciplina fiscal y la deuda suman riesgo. Para quien invierte desde Colombia en acciones o fondos de Brasil, eso puede traducirse en pérdidas medidas en pesos.",
+      "impacto": {
+        "conclusion": "Pesa más la lectura bajista: el propio banco central admite que perdió terreno frente a la inflación y que la economía se enfría, lo que suele pesar sobre la bolsa de Brasil. Para quien invierte desde Colombia, el efecto se concentra en las acciones, fondos y ETF expuestos a Brasil; el canal hacia las tasas colombianas es indirecto.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "negativo",
+            "detalle": "Tasas altas y una economía más lenta pueden pesar sobre las acciones y fondos brasileños medidos en pesos."
+          },
+          {
+            "activo": "cdt",
             "efecto": "neutral",
             "detalle": "Sin efecto directo."
           }
         ]
       },
-      "mirar": "El 19 de noviembre, fecha del prepago de los bonos de 2029, cuando se confirmará el precio final de recompra.",
+      "mirar": "La próxima decisión del Copom, prevista para el 9 de diciembre.",
       "terminos": [
-        "Bono global",
-        "Cupón de un bono",
-        "Bonos del Tesoro de EE. UU.",
-        "Prima de riesgo país"
+        "Copom",
+        "Tasa Selic",
+        "Expectativas de inflación",
+        "Meta de inflación"
       ],
-      "fuente": "Portafolio",
-      "url": "https://www.portafolio.co/negocios/empresas/ecopetrol-logro-colocar-us-2-000-millones-en-bonos-y-recibio-ofertas-por-us-6-930-millones-record-en-cinco-anos-506032"
-    },
-    {
-      "id": "2026-11-10-02",
-      "fecha": "2026-11-10",
-      "categoria": "biotecnologia",
-      "formato": "hechos",
-      "empresa": "TNGX",
-      "fecha_noticia": "2026-11-09",
-      "titulo": "Tango Therapeutics presenta sus resultados del tercer trimestre y su plan para 2027",
-      "resumen": "Tango Therapeutics informó una pérdida neta de US$68,4 millones en el tercer trimestre y terminó septiembre con US$977,5 millones en caja e inversiones. Planea iniciar en el primer semestre de 2027 un estudio de Fase 3 en cáncer de páncreas.",
-      "contexto": "Su medicamento principal, vopimetostat, es una pastilla que bloquea la proteína PRMT5. En un estudio de Fase 1/2 se combina con daraxonrasib, de Revolution Medicines, en pacientes con cáncer de páncreas que ya recibieron otros tratamientos; los datos presentados en el congreso ESMO de octubre mostraron que el tumor se redujo en 82 % de los pacientes evaluados. En noviembre empezó a reclutar pacientes para otra combinación, con ERAS-0015, en cáncer de páncreas y de pulmón.",
-      "que_significa": "Algunos tumores pierden un gen llamado MTAP, y eso los vuelve más sensibles a medicamentos que bloquean PRMT5. Tango busca atacar esos tumores combinando su pastilla con otra que frena la señal de crecimiento del gen RAS. El estudio de Fase 3 planeado comparará la combinación con la quimioterapia como primer tratamiento. La compañía dijo que su caja alcanza para su plan actual de operaciones y que hablará con los reguladores sobre una posible aprobación acelerada en pacientes ya tratados.",
-      "mirar": "En enero de 2027 la compañía espera publicar datos de vopimetostat solo en cáncer de pulmón y de TNG456 en pulmón y glioblastoma.",
-      "terminos": [
-        "Fase 1/2",
-        "Fase 3",
-        "Congreso ESMO"
-      ],
-      "fuente": "Tango Therapeutics (GlobeNewswire vía BioSpace)",
-      "url": "https://www.biospace.com/press-releases/tango-therapeutics-reports-third-quarter-2026-financial-results-and-provides-business-highlights"
+      "fuente": "Infobae (EFE)",
+      "url": "https://www.infobae.com/america/agencias/2026/11/10/el-emisor-brasileno-dice-que-la-inflacion-exige-mantener-los-tipos-elevados-por-mas-tiempo/"
     }
   ]
 }

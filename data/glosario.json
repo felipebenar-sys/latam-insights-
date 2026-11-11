@@ -731,6 +731,14 @@
     {
       "termino": "Fecha PDUFA",
       "definicion": "Es la fecha límite que la FDA se fija para decidir si aprueba un medicamento después de aceptar la solicitud de la compañía. Para quien invierte en biotecnología es un evento clave, porque una aprobación o un rechazo puede cambiar mucho el valor de la empresa. La FDA puede decidir antes o, en algunos casos, extender el plazo."
+    },
+    {
+      "termino": "Copom",
+      "definicion": "Es el Comité de Política Monetaria del Banco Central de Brasil, el grupo que decide la tasa de interés de referencia de ese país (la tasa Selic). Se reúne cada seis semanas y luego publica un acta en la que explica su decisión. Sus mensajes mueven el real, la bolsa y los bonos de Brasil, la economía más grande de América Latina."
+    },
+    {
+      "termino": "Tasa Selic",
+      "definicion": "Es la tasa de interés de referencia de Brasil, que fija el Copom del Banco Central de Brasil. Cuando sube, el crédito se encarece y los ahorros en reales rinden más; cuando baja, ocurre lo contrario. Es la base de las tasas de los bonos y depósitos en ese país."
     }
   ]
 }
