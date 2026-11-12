@@ -294,8 +294,9 @@
       ],
       "fuente_url": "https://www.globenewswire.com/news-release/2026/10/20/3385051/0/en/ascentage-pharma-s-lisaftoclax-granted-breakthrough-therapy-designation-in-china-for-treatment-na%C3%AFve-cll-sll.html",
       "endpoints": {
-        "estudio": "POLARIS-1 and POLARIS-2 (phase 3)",
+        "estudio": "China approval studies (phase 2) and POLARIS-1 and POLARIS-2 (phase 3, ongoing)",
         "items": [
+          "HQP1351CC201 and CC202 (phase 2, basis of the China approval): primary endpoints not confirmed in the sources reviewed",
           "POLARIS-1, MRD-negative complete response rate: above 60% at best, in the first dataset (company-reported)",
           "POLARIS-2, MMR rate: no results reported yet"
         ],
@@ -321,11 +322,12 @@
       ],
       "fuente_url": "https://www.manilatimes.net/2026/10/24/tmt-newswire/globenewswire/celcuity-presents-updated-results-from-the-pik3ca-mt-cohort-of-the-phase-3-viktoria-1-study-in-patients-with-hrher2-advanced-breast-cancer-at-the-esmo-congress-2026/2453187",
       "endpoints": {
-        "estudio": "VIKTORIA-2 (phase 3)",
+        "estudio": "VIKTORIA-1 (phase 3, basis of the FDA approval) and VIKTORIA-2 (ongoing)",
         "items": [
-          "PFS: no results reported yet"
+          "VIKTORIA-1, PFS (PIK3CA wild-type): triplet 9.3 months vs 2.0 months with fulvestrant alone (HR 0.24); doublet 7.4 months (HR 0.33)",
+          "VIKTORIA-2, PFS: no results reported yet"
         ],
-        "fuente_url": "https://celcuity.com/our-approach/viktoria-2"
+        "fuente_url": "https://www.targetedonc.com/view/fda-approves-gedatolisib-for-hr-her2-pik3ca-wild-type-advanced-breast-cancer"
       }
     },
     {
@@ -347,12 +349,13 @@
       ],
       "fuente_url": "https://www.manilatimes.net/2026/10/13/tmt-newswire/globenewswire/cytokinetics-announces-additional-data-from-acacia-hcm-presented-at-the-hfsa-annual-scientific-meeting-2026/2444088",
       "endpoints": {
-        "estudio": "ACACIA-HCM (phase 3, non-obstructive form)",
+        "estudio": "SEQUOIA-HCM (phase 3, basis of the FDA approval) and ACACIA-HCM (phase 3)",
         "items": [
-          "KCCQ-CSS at week 36: +3.0 points vs placebo (P=0.021)",
-          "pVO2 at week 36: +0.67 mL/kg/min vs placebo (P=0.003)"
+          "SEQUOIA-HCM, pVO2 at week 24: +1.7 mL/kg/min vs placebo (p<0.001)",
+          "ACACIA-HCM, KCCQ-CSS at week 36: +3.0 points vs placebo (P=0.021)",
+          "ACACIA-HCM, pVO2 at week 36: +0.67 mL/kg/min vs placebo (P=0.003)"
         ],
-        "fuente_url": "https://pace-cme.org/news/phase-3-study-with-aficamten-in-non-obstructive-hcm-meets-dual-primary-endpoints/2486976/"
+        "fuente_url": "https://www.escardio.org/news/press/press-releases/SEQUOIA-HCM-trial-meets-primary-endpoint-in-obstructive-hypertrophic-cardiomyopathy/"
       }
     },
     {
