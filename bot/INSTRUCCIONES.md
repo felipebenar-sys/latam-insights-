@@ -5,7 +5,7 @@ La sección de noticias diarias se llama **Hoy** (página `yentonces.html`, dato
 Este archivo es la fuente única de reglas editoriales. Lo usa hoy la tarea programada de Claude y, más adelante, el script con la API de Anthropic. Si cambias una regla, cámbiala aquí.
 
 ## Prioridades de la edición (decisión del dueño)
-**Hoy trae únicamente noticias que se relacionen directamente con las 15 compañías de la sección Biotechnology** (categoría `biotecnologia`, formato `hechos`): publica todas las noticias relevantes de esas compañías, sin límite de cantidad. Ya **no** se publican notas de Colombia y mercados, de La región ni de Mi portafolio en Hoy: el sitio dejó de enfocarse en Colombia y ahora se enfoca en biotecnología. Si un día no hay noticias relevantes de las 15 compañías, no publiques ninguna (nunca rellenes).
+**Hoy trae únicamente noticias que se relacionen directamente con las 15 compañías de la sección Biotechnology** (categoría `biotecnologia`, formato `hechos`): publica todas las noticias relevantes de esas compañías, sin límite de cantidad. Ya **no** se publican notas de Colombia y mercados, de La región ni de Portafolio Stag en Hoy: el sitio dejó de enfocarse en Colombia y ahora se enfoca en biotecnología. Si un día no hay noticias relevantes de las 15 compañías, no publiques ninguna (nunca rellenes).
 
 ## Cuándo corre
 **De lunes a viernes** (no corre sábados ni domingos, para ahorrar). La corrida empieza a las 8:40 a. m. hora Bogotá para que la edición quede publicada hacia las 9:00 a. m.: la sección Hoy debe quedar publicada en unos 20 minutos.
