@@ -296,8 +296,8 @@
       "endpoints": {
         "estudio": "POLARIS-1 and POLARIS-2 (phase 3)",
         "items": [
-          "POLARIS-1 (newly diagnosed Ph+ acute lymphoblastic leukemia): the share of patients with no detectable leukemia cells (MRD-negative) after the first treatment cycles. Sources differ on the exact timing, so check the company's materials.",
-          "POLARIS-2 (chronic-phase chronic myeloid leukemia): the major molecular response rate, meaning how many patients reach a big drop in leukemia cells in the blood."
+          "POLARIS-1, MRD-negative complete response rate: above 60% at best, in the first dataset (company-reported)",
+          "POLARIS-2, MMR rate: no results reported yet"
         ],
         "fuente_url": "https://www.cancernetwork.com/view/fda-and-ema-clear-phase-3-polaris-1-trial-in-newly-diagnosed-ph-all"
       }
@@ -323,7 +323,7 @@
       "endpoints": {
         "estudio": "VIKTORIA-2 (phase 3)",
         "items": [
-          "Progression-free survival (PFS): how long patients live without the cancer getting worse, measured by an independent review committee."
+          "PFS: no results reported yet"
         ],
         "fuente_url": "https://celcuity.com/our-approach/viktoria-2"
       }
@@ -349,8 +349,8 @@
       "endpoints": {
         "estudio": "ACACIA-HCM (phase 3, non-obstructive form)",
         "items": [
-          "Change in the KCCQ-CSS score at week 36: a questionnaire in which patients rate their symptoms.",
-          "Change in peak oxygen use during exercise (pVO2) at week 36: how well the body uses oxygen at maximum effort."
+          "KCCQ-CSS at week 36: +3.0 points vs placebo (P=0.021)",
+          "pVO2 at week 36: +0.67 mL/kg/min vs placebo (P=0.003)"
         ],
         "fuente_url": "https://pace-cme.org/news/phase-3-study-with-aficamten-in-non-obstructive-hcm-meets-dual-primary-endpoints/2486976/"
       }
@@ -380,7 +380,7 @@
       "endpoints": {
         "estudio": "CIRRUS-HCM (phase 2)",
         "items": [
-          "Safety and tolerability: how many side effects patients had and how well they handled the drug. Measures of how well it works were reported, but were not labeled as primary."
+          "Safety and tolerability: no numeric result reported"
         ],
         "fuente_url": "https://www.biospace.com/press-releases/edgewise-therapeutics-announces-positive-top-line-results-from-phase-2-cirrus-hcm-four-week-trial-of-edg-7500-in-hypertrophic-cardiomyopathy-hcm"
       }
@@ -410,7 +410,7 @@
       "endpoints": {
         "estudio": "Phase 2 study in advanced endometrial cancer",
         "items": [
-          "Objective response rate (ORR): the share of patients whose tumor shrinks by a set amount."
+          "ORR: 33% (confirmed), preliminary topline"
         ],
         "fuente_url": "https://trial.medpath.com/clinical-trial/17598040a7b1a910/nct06463028-randomized-open-label-clinical-trial-sapanisertib-serabelisib-paclitaxel-endometrial-cancer"
       }
@@ -436,8 +436,8 @@
       "endpoints": {
         "estudio": "OptimUM-02 (phase 2/3)",
         "items": [
-          "Phase 2 part: progression-free survival (PFS), how long patients live without the cancer getting worse, measured by an independent committee.",
-          "Phase 3 part: overall survival (OS), how long patients live. These data are still maturing."
+          "PFS (phase 2 part): 6.9 months vs 3.1 months (HR 0.42)",
+          "OS (phase 3 part): not reported yet"
         ],
         "fuente_url": "https://www.biospace.com/drug-development/ideaya-and-serviers-eye-cancer-drug-heads-to-fda-after-delivering-best-in-class-efficacy"
       }
@@ -467,7 +467,7 @@
       "endpoints": {
         "estudio": "RINGSIDE (phase 3)",
         "items": [
-          "Progression-free survival (PFS): how long patients live without the tumor growing, measured by an independent review committee."
+          "PFS: HR 0.16 vs placebo (84% lower risk of progression or death)"
         ],
         "fuente_url": "https://www.barchart.com/story/news/36621100/immunome-announces-positive-topline-results-from-phase-3-ringside-trial-of-varegacestat-in-patients-with-desmoid-tumors"
       }
@@ -497,7 +497,7 @@
       "endpoints": {
         "estudio": "KINSHIP-DCM (phase 2b/3)",
         "items": [
-          "The formal primary endpoint is not confirmed in the sources reviewed. The trial's stated goals are the effect on heart function on an echocardiogram, the effect on exercise capacity, and safety. Check the study record (NCT07210723)."
+          "Primary endpoint not confirmed in the sources reviewed; no results reported yet (study record NCT07210723)"
         ],
         "fuente_url": "https://ctv.veeva.com/study/a-study-of-the-efficacy-and-safety-of-danicamtiv-in-participants-with-symptomatic-genetic-and-famili"
       }
@@ -527,7 +527,7 @@
       "endpoints": {
         "estudio": "SELVA (phase 3)",
         "items": [
-          "Change in the mLM-IGA score at week 24: a 7-point scale in which a doctor rates how much the lesions have improved."
+          "mLM-IGA at week 24: +2.13 points on average (p<0.001)"
         ],
         "fuente_url": "https://practicaldermatology.com/news/phase-3-qtorin-rapamycin-meets-all-primary-secondary-endpoints-in-microcystic-lymphatic-malformations/2485806/"
       }
@@ -561,7 +561,7 @@
       "endpoints": {
         "estudio": "PEAK-1 (phase 3)",
         "items": [
-          "Progression-free survival (PFS): how long patients live without the cancer getting worse, measured by an independent review committee."
+          "PFS: no results reported yet"
         ],
         "fuente_url": "https://ctv.veeva.com/study/randomized-phase-3-trial-of-casdatifan-and-cabozantinib-versus-placebo-and-cabozantinib-in-patients"
       }
@@ -595,7 +595,7 @@
       "endpoints": {
         "estudio": "ReDiscover-2 (phase 3)",
         "items": [
-          "Progression-free survival (PFS): how long patients live without the cancer getting worse, measured by an independent review committee, in patients with PIK3CA kinase-domain mutations and in all patients."
+          "PFS: no results reported yet"
         ],
         "fuente_url": "https://relaytx.com/wp-content/uploads/2025/12/Rugo-SABCS-2025-ReD-2-TiP-poster_24Nov2025-for-print.pdf"
       }
@@ -625,8 +625,8 @@
       "endpoints": {
         "estudio": "RASolute 302 (phase 3, pancreatic cancer)",
         "items": [
-          "Progression-free survival (PFS): how long patients live without the cancer getting worse, measured by an independent review committee.",
-          "Overall survival (OS): how long patients live. Both are measured in patients whose tumors have a RAS G12 mutation."
+          "OS (RAS G12-mutant): median about 13.2 months vs about 6.6–6.7 months with chemotherapy (HR about 0.40)",
+          "PFS (RAS G12-mutant): 6-month rate 58.7% vs 31.7%"
         ],
         "fuente_url": "https://www.biospace.com/press-releases/daraxonrasib-demonstrates-unprecedented-overall-survival-benefit-in-pivotal-phase-3-rasolute-302-clinical-trial-in-patients-with-metastatic-pancreatic-cancer"
       }
@@ -656,7 +656,7 @@
       "endpoints": {
         "estudio": "TRANSCEND (phase 3)",
         "items": [
-          "Percent change in body mass index (BMI) after 52 weeks, compared with placebo."
+          "BMI change at 52 weeks: -19.8% vs placebo (company topline); a later dataset reported -18.8%"
         ],
         "fuente_url": "https://www.ajmc.com/view/setmelanotide-cuts-bmi-hunger-in-phase-3-trial-for-hypothalamic-obesity"
       }
@@ -686,7 +686,7 @@
       "endpoints": {
         "estudio": "Vopimetostat phase 1/2 study",
         "items": [
-          "In the expansion part of the study: anti-tumor activity, meaning how much tumors shrink. The formal primary endpoints of the combination with daraxonrasib are not confirmed in the sources reviewed. The planned phase 3 would use objective response rate and progression-free survival."
+          "Anti-tumor activity: ORR 82% with daraxonrasib (22 patients, previously treated). Formal primary endpoints of the combination not confirmed"
         ],
         "fuente_url": "https://www.onclive.com/view/vopimetostat-demonstrates-early-evidence-of-efficacy-in-mtap-deleted-solid-tumors"
       }
@@ -716,7 +716,7 @@
       "endpoints": {
         "estudio": "INLIGHT (phase 1/2)",
         "items": [
-          "Safety and tolerability: how many side effects patients had and how well they handled the drug."
+          "Safety and tolerability: no discontinuations and no serious adverse events reported in the single-dose phase 1 (company-reported)"
         ],
         "fuente_url": "https://ctv.veeva.com/study/a-phase-1-study-of-wve-007-in-adults-living-with-overweight-or-obesity"
       }
