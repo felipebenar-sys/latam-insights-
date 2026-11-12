@@ -20,7 +20,7 @@ Uso:
       Agrega al final solo los que no existan (la página los ordena).
 
   python3 bot/publicar.py mercado ARCHIVO.json
-      ARCHIVO contiene solo los indicadores que cambian (trm, brent, colcap,
+      ARCHIVO contiene solo los indicadores que cambian (brent, usdcop, colcap,
       tasa_banrep, inflacion). Reemplaza esos bloques y pone la fecha de hoy.
 
   python3 bot/publicar.py archivar
@@ -350,7 +350,7 @@ def mercado(ruta):
         cambios = json.load(f)
     datos = cargar("mercado.json")
     for k, v in cambios.items():
-        if k not in ("trm", "brent", "usdcop", "colcap", "tasa_banrep", "inflacion"):
+        if k not in ("brent", "usdcop", "colcap", "tasa_banrep", "inflacion"):
             sys.exit(f"Indicador desconocido: {k}")
         datos[k] = v
     datos["actualizado"] = ahora()[0]

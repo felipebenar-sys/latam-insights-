@@ -1,10 +1,4 @@
 {
-  "trm": {
-    "valor": 3297.07,
-    "vigente_desde": "2026-11-11",
-    "anterior": 3269.88,
-    "fuente": "Superintendencia Financiera vía datos.gov.co"
-  },
   "brent": {
     "valor": 91.99,
     "cambio_pct": 0.55,
