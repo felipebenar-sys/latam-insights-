@@ -501,7 +501,7 @@
         if (!m || !m.nombre) return '';
         const chip = (t, cls) => t ? `<span class="${cls} text-xs font-semibold px-2.5 py-1 rounded-md border">${esc(t)}</span>` : '';
         return `
-            <div class="mb-3">
+            <div data-sec="lead" class="mb-3">
                 <p class="text-stone-500 text-xs font-bold uppercase tracking-wider mb-1.5">Lead drug</p>
                 <div class="flex flex-wrap gap-1.5">
                     ${chip(m.nombre, 'bg-amber-400/10 text-amber-300 border-amber-400/30')}
@@ -517,28 +517,47 @@
     }
     function endpointsBloque(e) {
         if (!e || !(e.items || []).length) return '';
-        return `<div><p class="text-stone-500 text-xs font-bold uppercase tracking-wider mb-1">Primary endpoints</p>
+        return `<div data-sec="ep"><p class="text-stone-500 text-xs font-bold uppercase tracking-wider mb-1">Primary endpoints</p>
             ${e.estudio ? `<p class="text-stone-400 text-xs mb-1.5">${esc(e.estudio)}</p>` : ''}
             <ul class="space-y-1.5 list-disc pl-4 marker:text-amber-400/60">${e.items.map(t => `<li class="text-stone-300 text-sm leading-relaxed">${esc(t)}</li>`).join('')}</ul>
             ${e.fuente_url ? `<a href="${esc(safeUrl(e.fuente_url))}" target="_blank" rel="noopener noreferrer" class="tap-amplio text-stone-500 hover:text-amber-400 text-xs underline underline-offset-2 inline-block mt-1">Source</a>` : ''}</div>`;
+    }
+    // Alinea las secciones de las fichas de una misma fila (Status, Primary endpoints, etc. empiezan a la misma altura)
+    function alinearFichas() {
+        const cont = document.getElementById('bio-empresas');
+        if (!cont) return;
+        const fichas = [...cont.querySelectorAll('[data-ficha]')];
+        const secs = [...cont.querySelectorAll('[data-sec]')];
+        secs.forEach(e => { e.style.minHeight = ''; });
+        const cols = getComputedStyle(cont).gridTemplateColumns.split(' ').filter(Boolean).length;
+        if (cols < 2) return;
+        const tipos = ['head', 'lead', 'prox', 'que', 'estado', 'ep', 'hitos'];
+        for (let i = 0; i < fichas.length; i += cols) {
+            const fila = fichas.slice(i, i + cols);
+            tipos.forEach(t => {
+                const els = fila.map(f => f.querySelector(`[data-sec="${t}"]`)).filter(e => e && e.offsetHeight);
+                const max = Math.max(0, ...els.map(e => e.getBoundingClientRect().height));
+                if (max) els.forEach(e => { e.style.minHeight = max + 'px'; });
+            });
+        }
     }
     function fichaBiotech(c) {
         const prox = (c.hitos || [])[0];
         return `
         <div id="ficha-${esc(c.ticker)}" data-ficha="${esc(c.ticker)}" class="scroll-mt-32 group/ficha bg-stone-900 border border-stone-800 rounded-xl p-5 flex flex-col">
-            <div class="flex items-baseline justify-between gap-2 mb-2">
+            <div data-sec="head" class="flex items-baseline justify-between gap-2 mb-2">
                 <p class="text-white font-bold text-lg">${esc(c.nombre)}</p>
                 <span class="text-sky-300 text-xs font-semibold">${String(c.bolsa || '').includes(':') ? esc(c.bolsa) : `${esc(c.bolsa)}: ${esc(c.ticker)}`}</span>
             </div>
             ${medicamentoPrincipal(c.medicamento_principal)}
-            ${prox ? `<p class="text-sm text-stone-300 mb-3 group-has-[details[open]]/ficha:hidden"><span class="text-stone-500 text-xs font-bold uppercase tracking-wider block mb-1">Next milestone</span><span class="text-amber-400 text-xs">${esc(prox.fecha)}</span> · ${esc(prox.texto)}</p>` : ''}
+            ${prox ? `<p data-sec="prox" class="text-sm text-stone-300 mb-3 group-has-[details[open]]/ficha:hidden"><span class="text-stone-500 text-xs font-bold uppercase tracking-wider block mb-1">Next milestone</span><span class="text-amber-400 text-xs">${esc(prox.fecha)}</span> · ${esc(prox.texto)}</p>` : ''}
             <details class="group" open>
                 <summary class="tap-amplio cursor-pointer text-stone-400 hover:text-amber-400 text-xs font-semibold list-none [&::-webkit-details-marker]:hidden inline-flex items-center gap-1"><span class="group-open:hidden">See more about the company</span><span class="hidden group-open:inline">See less</span><span aria-hidden="true" class="transition group-open:rotate-180">▾</span></summary>
                 <div class="mt-3 space-y-3">
-                    <p class="text-stone-300 text-sm leading-relaxed"><span class="text-stone-500 text-xs font-bold uppercase tracking-wider block mb-1">What it does</span>${esc(c.que_hace)}</p>
-                    ${c.estado ? `<p class="text-stone-400 text-sm leading-relaxed"><span class="text-stone-500 text-xs font-bold uppercase tracking-wider block mb-1">Status</span>${esc(c.estado)}</p>` : ''}
+                    <p data-sec="que" class="text-stone-300 text-sm leading-relaxed"><span class="text-stone-500 text-xs font-bold uppercase tracking-wider block mb-1">What it does</span>${esc(c.que_hace)}</p>
+                    ${c.estado ? `<p data-sec="estado" class="text-stone-400 text-sm leading-relaxed"><span class="text-stone-500 text-xs font-bold uppercase tracking-wider block mb-1">Status</span>${esc(c.estado)}</p>` : ''}
                     ${endpointsBloque(c.endpoints)}
-                    <div><p class="text-stone-500 text-xs font-bold uppercase tracking-wider mb-1">Upcoming milestones</p>${hitosLista(c.hitos)}</div>
+                    <div data-sec="hitos"><p class="text-stone-500 text-xs font-bold uppercase tracking-wider mb-1">Upcoming milestones</p>${hitosLista(c.hitos)}</div>
                     ${c.fuente_url ? `<a href="${esc(safeUrl(c.fuente_url))}" target="_blank" rel="noopener noreferrer" class="tap-amplio text-stone-500 hover:text-amber-400 text-xs underline underline-offset-2 inline-block">Source</a>` : ''}
                 </div>
             </details>
@@ -701,6 +720,11 @@
             const cias = d.companias || [];
             cont.innerHTML = cias.length ? cias.map(fichaBiotech).join('') : vacio('No company profiles yet.');
             cont.removeAttribute('aria-busy');
+            alinearFichas();
+            cont.querySelectorAll('details').forEach(x => x.addEventListener('toggle', alinearFichas));
+            let tAl; addEventListener('resize', () => { clearTimeout(tAl); tAl = setTimeout(alinearFichas, 120); });
+            addEventListener('load', alinearFichas);
+            if (document.fonts && document.fonts.ready) document.fonts.ready.then(alinearFichas);
             const irFicha = t => {
                 const el = document.getElementById('ficha-' + t);
                 if (!el) return;
