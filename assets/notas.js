@@ -715,7 +715,7 @@
     };
 
 
-    // Barra superior: dólar (TRM oficial, datos.gov.co) y última actualización
+    // Barra superior: dólar/peso (USDCOP=X, Yahoo Finance) y última actualización
     window.renderBarra = function () {
         const el = document.getElementById('barra-mercado');
         if (!el) return;
@@ -729,25 +729,15 @@
             return ` <span class="${col}">${sig} ${num(Math.abs(pct))}%</span>`;
         };
         const set = (k, html) => { const n = q(k); if (n) n.innerHTML = html; };
-        const pintaTrm = (hoy, ant, vig) => {
-            if (!Number.isFinite(hoy)) return;
-            const pct = Number.isFinite(ant) && ant ? (hoy - ant) / ant * 100 : NaN;
-            set('trm', `<span class="text-white font-semibold">$${num(hoy)}</span>${var_(pct)} <span class="text-stone-500 hidden xl:inline">${fecha(vig)}</span>`);
-        };
         cargar().then(d => { if (d.actualizado) set('actualizado', d.actualizado.replace(/, \d{4}/, '').replace(/ \(hora Bogotá\)/, '')); }).catch(() => {});
         fetch('data/mercado.json', { cache: 'no-store' }).then(r => r.json()).then(m => {
-            if (m.trm) pintaTrm(Number(m.trm.valor), Number(m.trm.anterior), m.trm.vigente_desde);
+            if (m.usdcop) set('usdcop', `<span class="text-white font-semibold">$${num(m.usdcop.valor)}</span>${var_(Number(m.usdcop.cambio_pct))} <span class="text-stone-500 hidden xl:inline">${fecha(m.usdcop.fecha)}</span>`);
             if (m.brent) set('brent', `<span class="text-white font-semibold">US$${num(m.brent.valor)}</span>${var_(Number(m.brent.cambio_pct))} <span class="text-stone-500 hidden xl:inline">${fecha(m.brent.fecha)}</span>`);
             if (m.colcap) set('colcap', `<span class="text-white font-semibold">${num(m.colcap.valor)}</span>${var_(Number(m.colcap.cambio_pct))} <span class="text-stone-500 hidden xl:inline">${fecha(m.colcap.fecha)}</span>`);
             if (m.tasa_banrep) set('banrep', `<span class="text-white font-semibold">${num(m.tasa_banrep.valor)}%</span>`);
             if (m.inflacion) set('inflacion', `<span class="text-white font-semibold">${num(m.inflacion.valor)}%</span> <span class="text-stone-500">${m.inflacion.periodo || ''}</span>`);
         }).catch(() => {}).finally(() => {
-            // Si el navegador alcanza la fuente oficial, la TRM se actualiza con el dato más reciente
-            fetch('https://www.datos.gov.co/resource/32sa-8pi3.json?$order=vigenciadesde%20DESC&$limit=2')
-                .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
-                .then(rows => { if (rows && rows[0]) pintaTrm(Number(rows[0].valor), rows[1] ? Number(rows[1].valor) : NaN, rows[0].vigenciadesde); })
-                .catch(() => {})
-                .finally(() => el.querySelectorAll('[data-trm],[data-brent],[data-colcap],[data-banrep],[data-inflacion]').forEach(n => { if (n.querySelector('.sk')) n.textContent = 'n. d.'; }));
+            el.querySelectorAll('[data-usdcop],[data-brent],[data-colcap],[data-banrep],[data-inflacion]').forEach(n => { if (n.querySelector('.sk')) n.textContent = 'n. d.'; });
         });
     };
 
