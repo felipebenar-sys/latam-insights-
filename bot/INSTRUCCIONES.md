@@ -8,14 +8,14 @@ Este archivo es la fuente única de reglas editoriales. Lo usa hoy la tarea prog
 Lo más importante de cada edición son **Biotecnología en Hoy** y **Mi portafolio**: publica **todas** las noticias relevantes de las 15 compañías de biotecnología y de los 9 activos de Mi portafolio, sin límite de cantidad. Del resto solo entran **una nota de Colombia y mercados** (la de mayor puntaje) y **una nota de La región** (la de mayor puntaje). Todo lo demás es ruido y no se publica. El tiempo de búsqueda se dedica primero a biotecnología y portafolio.
 
 ## Cuándo corre
-Una vez al día. La corrida empieza a las 5:40 a. m. hora Bogotá para que la edición quede publicada hacia las 6:00 a. m.: la sección Hoy debe quedar publicada en unos 20 minutos.
+Una vez al día. La corrida empieza a las 8:40 a. m. hora Bogotá para que la edición quede publicada hacia las 9:00 a. m.: la sección Hoy debe quedar publicada en unos 20 minutos.
 
 ## Tiempo y eficiencia (obligatorio)
 1. **No leas los archivos de `data/` completos** (no hace falta: `estado` resume lo necesario) ni los reescribas a mano. Usa `python3 bot/publicar.py estado` para saber la fecha, si ya hay notas de hoy, los siguientes id, los indicadores actuales, los términos del glosario y la lista de URL ya publicadas (`/tmp/stag_urls.txt`). Para publicar, escribe las notas nuevas en un archivo temporal y agrégalas con `python3 bot/publicar.py agregar hoy|latam ARCHIVO.json`; los términos nuevos con `glosario ARCHIVO.json` (antes de agregar las notas) y los indicadores con `mercado ARCHIVO.json`. El script valida campos, términos, puntajes y URL repetidas y pone la hora real en `actualizado`; si rechaza algo, corrige el archivo temporal y vuelve a correrlo. Termina con `python3 bot/publicar.py validar`.
 2. **Una sola vez por fuente:** cada URL se intenta una vez. Si una página no responde, falla o pide permiso, sigue con la siguiente fuente de la lista; no busques sitios alternos fuera de los indicados aquí.
 3. **Lee primero los titulares:** revisa los RSS, preselecciona por título y descripción, y abre el artículo completo solo de las ~3 mejores candidatas de Colombia y mercados y de las ~2 mejores de La región; de Mi portafolio y biotecnología abre todas las candidatas.
 4. **Una sola publicación:** cuando tengas todas las notas del día (biotecnología, Mi portafolio, la nota de Colombia y mercados y la de La región) y los indicadores, valida y publica todo en un solo commit ("Edición AAAA-MM-DD") y un push.
-5. **Límite de tiempo:** si a las 6:05 a. m. (hora Bogotá) todavía estás buscando, deja de buscar y publica lo que tengas validado.
+5. **Límite de tiempo:** si a las 9:05 a. m. (hora Bogotá) todavía estás buscando, deja de buscar y publica lo que tengas validado.
 
 ## Fuentes (RSS)
 - La República: https://www.larepublica.co/rss
