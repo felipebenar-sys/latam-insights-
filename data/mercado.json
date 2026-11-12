@@ -26,5 +26,11 @@
     "periodo": "oct 2026",
     "fuente": "DANE vía La República"
   },
-  "actualizado": "2026-11-12"
+  "actualizado": "2026-11-12",
+  "usdcop": {
+    "valor": 3307.36,
+    "cambio_pct": 1.01,
+    "fecha": "2026-11-11",
+    "fuente": "Dólar/peso colombiano (mercado) vía Yahoo Finance"
+  }
 }

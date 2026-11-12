@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Actualiza con Yahoo Finance (librería yfinance):
-- Brent en data/mercado.json (último cierre y variación diaria). Yahoo no tiene
+- Brent y dólar/peso (USDCOP=X, cotización de mercado, no la TRM oficial) en
+  data/mercado.json (último cierre y variación diaria). Yahoo no tiene
   el índice MSCI COLCAP (solo el ETF iCOLCAP, que es otro número), así que el
   COLCAP lo sigue actualizando la edición diaria con la nota de cierre de la BVC.
 - Los precios de cierre de los activos de Mi portafolio en data/precios.json.
@@ -15,6 +16,7 @@ DATA = os.path.join(os.path.dirname(__file__), "..", "data")
 # Indicador -> símbolos de Yahoo que se prueban en orden.
 INDICADORES = {
     "brent": (["BZ=F"], "ICE vía Yahoo Finance"),
+    "usdcop": (["USDCOP=X"], "Dólar/peso colombiano (mercado) vía Yahoo Finance"),
 }
 # Ticker de Mi portafolio -> símbolos de Yahoo que se prueban en orden.
 PORTAFOLIO = {

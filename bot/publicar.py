@@ -350,7 +350,7 @@ def mercado(ruta):
         cambios = json.load(f)
     datos = cargar("mercado.json")
     for k, v in cambios.items():
-        if k not in ("trm", "brent", "colcap", "tasa_banrep", "inflacion"):
+        if k not in ("trm", "brent", "usdcop", "colcap", "tasa_banrep", "inflacion"):
             sys.exit(f"Indicador desconocido: {k}")
         datos[k] = v
     datos["actualizado"] = ahora()[0]
