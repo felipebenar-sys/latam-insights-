@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Pre-revisión de noticias (sin modelo de IA, sin tokens).
 
-Para los 15 de Biotecnología y los 9 activos de Mi portafolio busca titulares
+Para las 15 compañías de Biotechnology busca titulares
 recientes en Yahoo Finance (yfinance) y en Google News (RSS) y escribe
 data/pendientes.json con, por activo, los titulares candidatos. La edición
 diaria solo revisa a fondo los activos que tienen candidatos.
@@ -155,7 +155,6 @@ def main():
     with open(os.path.join(DATA, "biotech.json"), encoding="utf-8") as f:
         bio = json.load(f)["companias"]
     activos = [("biotecnologia", c["ticker"], c["nombre"], c["ticker"], "en") for c in bio]
-    activos += [("portafolio", k, n, s, i) for k, (n, s, i) in PORTAFOLIO.items()]
 
     resultado = []
     for grupo, clave, nombre, simbolo, idioma in activos:
