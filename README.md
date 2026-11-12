@@ -1,8 +1,8 @@
 # Stag Research
 
-Sitio web de **Stag Research**: análisis bursátil independiente sobre Colombia y América Latina.
+Sitio web de **Stag Research**: noticias y seguimiento de compañías de biotecnología.
 
-- **Hoy**: noticias clave de la BVC y emisores latinoamericanos, con un párrafo que explica el impacto para el inversionista.
+- **Hoy**: noticias diarias de las compañías de biotecnología que seguimos (ver **Biotechnology**), explicadas en lenguaje sencillo.
 - **Research** (libre acceso, próximamente): reportes de industria y de emisores de la BVC.
 
 Publicado con GitHub Pages desde la rama principal.
