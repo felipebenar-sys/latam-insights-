@@ -506,7 +506,7 @@
                 <div class="flex flex-wrap gap-1.5">
                     ${chip(m.nombre, 'bg-amber-400/10 text-amber-300 border-amber-400/30')}
                     ${m.fase ? `<button type="button" data-termino="${esc(m.fase)}" title="What does this stage mean?" class="bg-sky-400/10 text-sky-300 border-sky-400/30 hover:border-sky-300 text-xs font-semibold px-2.5 py-1 rounded-md border cursor-help inline-flex items-center gap-1">${esc(m.fase)}<span aria-hidden="true" class="text-sky-300/70 text-[10px] leading-none border border-sky-300/50 rounded-full w-3.5 h-3.5 inline-flex items-center justify-center">?</span></button>` : ''}
-                    ${chip(m.enfermedad, 'bg-stone-800 text-stone-200 border-stone-700')}
+                    ${m.enfermedad ? `<button type="button" data-termino="${esc(m.enfermedad)}" title="What is this disease?" class="bg-stone-800 text-stone-200 border-stone-700 hover:border-stone-400 text-xs font-semibold px-2.5 py-1 rounded-md border cursor-help inline-flex items-center gap-1">${esc(m.enfermedad)}<span aria-hidden="true" class="text-stone-400 text-[10px] leading-none border border-stone-500 rounded-full w-3.5 h-3.5 inline-flex items-center justify-center">?</span></button>` : ''}
                 </div>
             </div>`;
     }
@@ -514,6 +514,13 @@
         return (hitos || []).length
             ? `<ul class="space-y-2">${hitos.map(h => `<li class="text-sm text-stone-300 flex flex-col sm:flex-row sm:gap-3"><span class="text-amber-400 text-xs sm:w-28 sm:shrink-0 sm:pt-0.5">${esc(h.fecha)}</span><span>${esc(h.texto)}</span></li>`).join('')}</ul>`
             : '<p class="text-stone-500 text-sm">No confirmed dates.</p>';
+    }
+    function endpointsBloque(e) {
+        if (!e || !(e.items || []).length) return '';
+        return `<div><p class="text-stone-500 text-xs font-bold uppercase tracking-wider mb-1">Primary endpoints</p>
+            ${e.estudio ? `<p class="text-stone-400 text-xs mb-1.5">${esc(e.estudio)}</p>` : ''}
+            <ul class="space-y-1.5 list-disc pl-4 marker:text-amber-400/60">${e.items.map(t => `<li class="text-stone-300 text-sm leading-relaxed">${esc(t)}</li>`).join('')}</ul>
+            ${e.fuente_url ? `<a href="${esc(safeUrl(e.fuente_url))}" target="_blank" rel="noopener noreferrer" class="tap-amplio text-stone-500 hover:text-amber-400 text-xs underline underline-offset-2 inline-block mt-1">Source</a>` : ''}</div>`;
     }
     function fichaBiotech(c) {
         const prox = (c.hitos || [])[0];
@@ -530,6 +537,7 @@
                 <div class="mt-3 space-y-3">
                     <p class="text-stone-300 text-sm leading-relaxed"><span class="text-stone-500 text-xs font-bold uppercase tracking-wider block mb-1">What it does</span>${esc(c.que_hace)}</p>
                     ${c.estado ? `<p class="text-stone-400 text-sm leading-relaxed"><span class="text-stone-500 text-xs font-bold uppercase tracking-wider block mb-1">Status</span>${esc(c.estado)}</p>` : ''}
+                    ${endpointsBloque(c.endpoints)}
                     <div><p class="text-stone-500 text-xs font-bold uppercase tracking-wider mb-1">Upcoming milestones</p>${hitosLista(c.hitos)}</div>
                     ${c.fuente_url ? `<a href="${esc(safeUrl(c.fuente_url))}" target="_blank" rel="noopener noreferrer" class="tap-amplio text-stone-500 hover:text-amber-400 text-xs underline underline-offset-2 inline-block">Source</a>` : ''}
                 </div>
@@ -676,7 +684,7 @@
         const cont = document.getElementById('bio-empresas');
         initPopover();
         fetch('data/biotech.json', { cache: 'no-store' }).then(r => r.json()).then(d => {
-            FASES_BIO = d.fases || {};
+            FASES_BIO = Object.assign({}, d.fases || {}, d.enfermedades || {});
             if (d.panorama && (d.panorama.companias || []).length) {
                 document.getElementById('bio-panorama').innerHTML = panoramaBiotech(d.panorama);
                 if (d.panorama.actualizado) document.getElementById('bio-panorama-fecha').textContent = 'Data as of ' + d.panorama.actualizado;

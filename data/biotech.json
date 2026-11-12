@@ -292,7 +292,15 @@
           "fecha": "No confirmed date"
         }
       ],
-      "fuente_url": "https://www.globenewswire.com/news-release/2026/10/20/3385051/0/en/ascentage-pharma-s-lisaftoclax-granted-breakthrough-therapy-designation-in-china-for-treatment-na%C3%AFve-cll-sll.html"
+      "fuente_url": "https://www.globenewswire.com/news-release/2026/10/20/3385051/0/en/ascentage-pharma-s-lisaftoclax-granted-breakthrough-therapy-designation-in-china-for-treatment-na%C3%AFve-cll-sll.html",
+      "endpoints": {
+        "estudio": "POLARIS-1 and POLARIS-2 (phase 3)",
+        "items": [
+          "POLARIS-1 (newly diagnosed Ph+ acute lymphoblastic leukemia): the share of patients with no detectable leukemia cells (MRD-negative) after the first treatment cycles. Sources differ on the exact timing, so check the company's materials.",
+          "POLARIS-2 (chronic-phase chronic myeloid leukemia): the major molecular response rate, meaning how many patients reach a big drop in leukemia cells in the blood."
+        ],
+        "fuente_url": "https://www.cancernetwork.com/view/fda-and-ema-clear-phase-3-polaris-1-trial-in-newly-diagnosed-ph-all"
+      }
     },
     {
       "ticker": "CELC",
@@ -311,7 +319,14 @@
           "fecha": "No confirmed date"
         }
       ],
-      "fuente_url": "https://www.manilatimes.net/2026/10/24/tmt-newswire/globenewswire/celcuity-presents-updated-results-from-the-pik3ca-mt-cohort-of-the-phase-3-viktoria-1-study-in-patients-with-hrher2-advanced-breast-cancer-at-the-esmo-congress-2026/2453187"
+      "fuente_url": "https://www.manilatimes.net/2026/10/24/tmt-newswire/globenewswire/celcuity-presents-updated-results-from-the-pik3ca-mt-cohort-of-the-phase-3-viktoria-1-study-in-patients-with-hrher2-advanced-breast-cancer-at-the-esmo-congress-2026/2453187",
+      "endpoints": {
+        "estudio": "VIKTORIA-2 (phase 3)",
+        "items": [
+          "Progression-free survival (PFS): how long patients live without the cancer getting worse, measured by an independent review committee."
+        ],
+        "fuente_url": "https://celcuity.com/our-approach/viktoria-2"
+      }
     },
     {
       "ticker": "CYTK",
@@ -330,7 +345,15 @@
           "fecha": "Q4 2026"
         }
       ],
-      "fuente_url": "https://www.manilatimes.net/2026/10/13/tmt-newswire/globenewswire/cytokinetics-announces-additional-data-from-acacia-hcm-presented-at-the-hfsa-annual-scientific-meeting-2026/2444088"
+      "fuente_url": "https://www.manilatimes.net/2026/10/13/tmt-newswire/globenewswire/cytokinetics-announces-additional-data-from-acacia-hcm-presented-at-the-hfsa-annual-scientific-meeting-2026/2444088",
+      "endpoints": {
+        "estudio": "ACACIA-HCM (phase 3, non-obstructive form)",
+        "items": [
+          "Change in the KCCQ-CSS score at week 36: a questionnaire in which patients rate their symptoms.",
+          "Change in peak oxygen use during exercise (pVO2) at week 36: how well the body uses oxygen at maximum effort."
+        ],
+        "fuente_url": "https://pace-cme.org/news/phase-3-study-with-aficamten-in-non-obstructive-hcm-meets-dual-primary-endpoints/2486976/"
+      }
     },
     {
       "ticker": "EWTX",
@@ -353,7 +376,14 @@
           "fecha": "Before end of 2026"
         }
       ],
-      "fuente_url": "https://www.biospace.com/press-releases/edgewise-therapeutics-reports-second-quarter-2026-financial-results"
+      "fuente_url": "https://www.biospace.com/press-releases/edgewise-therapeutics-reports-second-quarter-2026-financial-results",
+      "endpoints": {
+        "estudio": "CIRRUS-HCM (phase 2)",
+        "items": [
+          "Safety and tolerability: how many side effects patients had and how well they handled the drug. Measures of how well it works were reported, but were not labeled as primary."
+        ],
+        "fuente_url": "https://www.biospace.com/press-releases/edgewise-therapeutics-announces-positive-top-line-results-from-phase-2-cirrus-hcm-four-week-trial-of-edg-7500-in-hypertrophic-cardiomyopathy-hcm"
+      }
     },
     {
       "ticker": "FTH",
@@ -376,7 +406,14 @@
           "fecha": "2027"
         }
       ],
-      "fuente_url": "https://investors.faeththerapeutics.com/news-releases"
+      "fuente_url": "https://investors.faeththerapeutics.com/news-releases",
+      "endpoints": {
+        "estudio": "Phase 2 study in advanced endometrial cancer",
+        "items": [
+          "Objective response rate (ORR): the share of patients whose tumor shrinks by a set amount."
+        ],
+        "fuente_url": "https://trial.medpath.com/clinical-trial/17598040a7b1a910/nct06463028-randomized-open-label-clinical-trial-sapanisertib-serabelisib-paclitaxel-endometrial-cancer"
+      }
     },
     {
       "ticker": "IDYA",
@@ -395,7 +432,15 @@
           "fecha": "Before end of 2026"
         }
       ],
-      "fuente_url": "https://media.ideayabio.com/2026-10-19-IDEAYA-Biosciences-and-Servier-Announce-Data-From-Three-Clinical-Trials-at-ESMO-2026-Supporting-the-Potential-of-Darovasertib-to-Become-a-Foundational-New-Therapy-for-Patients-Across-the-Treatment-Journey-of-Uveal-Melanoma"
+      "fuente_url": "https://media.ideayabio.com/2026-10-19-IDEAYA-Biosciences-and-Servier-Announce-Data-From-Three-Clinical-Trials-at-ESMO-2026-Supporting-the-Potential-of-Darovasertib-to-Become-a-Foundational-New-Therapy-for-Patients-Across-the-Treatment-Journey-of-Uveal-Melanoma",
+      "endpoints": {
+        "estudio": "OptimUM-02 (phase 2/3)",
+        "items": [
+          "Phase 2 part: progression-free survival (PFS), how long patients live without the cancer getting worse, measured by an independent committee.",
+          "Phase 3 part: overall survival (OS), how long patients live. These data are still maturing."
+        ],
+        "fuente_url": "https://www.biospace.com/drug-development/ideaya-and-serviers-eye-cancer-drug-heads-to-fda-after-delivering-best-in-class-efficacy"
+      }
     },
     {
       "ticker": "IMNM",
@@ -418,7 +463,14 @@
           "fecha": "Apr 28, 2027"
         }
       ],
-      "fuente_url": "https://www.biospace.com/press-releases/immunome-announces-ema-validation-of-marketing-authorization-application-for-varegacestat-for-the-treatment-of-adults-with-desmoid-tumors"
+      "fuente_url": "https://www.biospace.com/press-releases/immunome-announces-ema-validation-of-marketing-authorization-application-for-varegacestat-for-the-treatment-of-adults-with-desmoid-tumors",
+      "endpoints": {
+        "estudio": "RINGSIDE (phase 3)",
+        "items": [
+          "Progression-free survival (PFS): how long patients live without the tumor growing, measured by an independent review committee."
+        ],
+        "fuente_url": "https://www.barchart.com/story/news/36621100/immunome-announces-positive-topline-results-from-phase-3-ringside-trial-of-varegacestat-in-patients-with-desmoid-tumors"
+      }
     },
     {
       "ticker": "KARD",
@@ -441,7 +493,14 @@
           "fecha": "H1 2027"
         }
       ],
-      "fuente_url": "https://www.nasdaq.com/press-release/kardigan-reports-second-quarter-2026-financial-results-and-recent-business-updates"
+      "fuente_url": "https://www.nasdaq.com/press-release/kardigan-reports-second-quarter-2026-financial-results-and-recent-business-updates",
+      "endpoints": {
+        "estudio": "KINSHIP-DCM (phase 2b/3)",
+        "items": [
+          "The formal primary endpoint is not confirmed in the sources reviewed. The trial's stated goals are the effect on heart function on an echocardiogram, the effect on exercise capacity, and safety. Check the study record (NCT07210723)."
+        ],
+        "fuente_url": "https://ctv.veeva.com/study/a-study-of-the-efficacy-and-safety-of-danicamtiv-in-participants-with-symptomatic-genetic-and-famili"
+      }
     },
     {
       "ticker": "PVLA",
@@ -464,7 +523,14 @@
           "fecha": "H1 2027"
         }
       ],
-      "fuente_url": "https://www.globenewswire.com/news-release/2026/10/28/3390054/0/en/palvella-announces-fda-acceptance-and-priority-review-of-qtorin-rapamycin-nda-february-28-2027-pdufa-target-action-date-set.html"
+      "fuente_url": "https://www.globenewswire.com/news-release/2026/10/28/3390054/0/en/palvella-announces-fda-acceptance-and-priority-review-of-qtorin-rapamycin-nda-february-28-2027-pdufa-target-action-date-set.html",
+      "endpoints": {
+        "estudio": "SELVA (phase 3)",
+        "items": [
+          "Change in the mLM-IGA score at week 24: a 7-point scale in which a doctor rates how much the lesions have improved."
+        ],
+        "fuente_url": "https://practicaldermatology.com/news/phase-3-qtorin-rapamycin-meets-all-primary-secondary-endpoints-in-microcystic-lymphatic-malformations/2485806/"
+      }
     },
     {
       "ticker": "RCUS",
@@ -491,7 +557,14 @@
           "fecha": "H1 2027"
         }
       ],
-      "fuente_url": "https://s202.q4cdn.com/599190870/files/doc_news/Arcus-Presents-New-Data-from-ARC-20-that-Demonstrate-the-Opportunity-for-Casdatifan-to-Become-a-Foundational-Treatment-Across-All-Lin-N7V7C.pdf"
+      "fuente_url": "https://s202.q4cdn.com/599190870/files/doc_news/Arcus-Presents-New-Data-from-ARC-20-that-Demonstrate-the-Opportunity-for-Casdatifan-to-Become-a-Foundational-Treatment-Across-All-Lin-N7V7C.pdf",
+      "endpoints": {
+        "estudio": "PEAK-1 (phase 3)",
+        "items": [
+          "Progression-free survival (PFS): how long patients live without the cancer getting worse, measured by an independent review committee."
+        ],
+        "fuente_url": "https://ctv.veeva.com/study/randomized-phase-3-trial-of-casdatifan-and-cabozantinib-versus-placebo-and-cabozantinib-in-patients"
+      }
     },
     {
       "ticker": "RLAY",
@@ -518,7 +591,14 @@
           "fecha": "Early 2027"
         }
       ],
-      "fuente_url": "https://www.financialcontent.com/article/gnwcq-2026-8-6-relay-therapeutics-reports-second-quarter-2026-financial-results-and-corporate-updates"
+      "fuente_url": "https://www.financialcontent.com/article/gnwcq-2026-8-6-relay-therapeutics-reports-second-quarter-2026-financial-results-and-corporate-updates",
+      "endpoints": {
+        "estudio": "ReDiscover-2 (phase 3)",
+        "items": [
+          "Progression-free survival (PFS): how long patients live without the cancer getting worse, measured by an independent review committee, in patients with PIK3CA kinase-domain mutations and in all patients."
+        ],
+        "fuente_url": "https://relaytx.com/wp-content/uploads/2025/12/Rugo-SABCS-2025-ReD-2-TiP-poster_24Nov2025-for-print.pdf"
+      }
     },
     {
       "ticker": "RVMD",
@@ -541,7 +621,15 @@
           "fecha": "No confirmed date"
         }
       ],
-      "fuente_url": "https://ir.revmed.com/news-releases/news-release-details/us-fda-approves-revolution-medicines-rasonquetm-daraxonrasib"
+      "fuente_url": "https://ir.revmed.com/news-releases/news-release-details/us-fda-approves-revolution-medicines-rasonquetm-daraxonrasib",
+      "endpoints": {
+        "estudio": "RASolute 302 (phase 3, pancreatic cancer)",
+        "items": [
+          "Progression-free survival (PFS): how long patients live without the cancer getting worse, measured by an independent review committee.",
+          "Overall survival (OS): how long patients live. Both are measured in patients whose tumors have a RAS G12 mutation."
+        ],
+        "fuente_url": "https://www.biospace.com/press-releases/daraxonrasib-demonstrates-unprecedented-overall-survival-benefit-in-pivotal-phase-3-rasolute-302-clinical-trial-in-patients-with-metastatic-pancreatic-cancer"
+      }
     },
     {
       "ticker": "RYTM",
@@ -564,7 +652,14 @@
           "fecha": "Early 2027"
         }
       ],
-      "fuente_url": "https://www.globenewswire.com/news-release/2026/10/13/3380291/0/en/rhythm-pharmaceuticals-announces-commercial-launch-of-imcivree-setmelanotide-in-japan-for-patients-with-acquired-hypothalamic-obesity.html"
+      "fuente_url": "https://www.globenewswire.com/news-release/2026/10/13/3380291/0/en/rhythm-pharmaceuticals-announces-commercial-launch-of-imcivree-setmelanotide-in-japan-for-patients-with-acquired-hypothalamic-obesity.html",
+      "endpoints": {
+        "estudio": "TRANSCEND (phase 3)",
+        "items": [
+          "Percent change in body mass index (BMI) after 52 weeks, compared with placebo."
+        ],
+        "fuente_url": "https://www.ajmc.com/view/setmelanotide-cuts-bmi-hunger-in-phase-3-trial-for-hypothalamic-obesity"
+      }
     },
     {
       "ticker": "TNGX",
@@ -587,7 +682,14 @@
           "fecha": "H1 2027"
         }
       ],
-      "fuente_url": "https://finviz.com/news/407142/tango-presents-promising-results-from-phase-12-study-of-vopimetostat-and-daraxonrasib-in-pancreatic-cancer-and-provides-updates-to-development-strategy"
+      "fuente_url": "https://finviz.com/news/407142/tango-presents-promising-results-from-phase-12-study-of-vopimetostat-and-daraxonrasib-in-pancreatic-cancer-and-provides-updates-to-development-strategy",
+      "endpoints": {
+        "estudio": "Vopimetostat phase 1/2 study",
+        "items": [
+          "In the expansion part of the study: anti-tumor activity, meaning how much tumors shrink. The formal primary endpoints of the combination with daraxonrasib are not confirmed in the sources reviewed. The planned phase 3 would use objective response rate and progression-free survival."
+        ],
+        "fuente_url": "https://www.onclive.com/view/vopimetostat-demonstrates-early-evidence-of-efficacy-in-mtap-deleted-solid-tumors"
+      }
     },
     {
       "ticker": "WVE",
@@ -610,7 +712,30 @@
           "fecha": "Q4 2026"
         }
       ],
-      "fuente_url": "https://www.sec.gov/Archives/edgar/data/0001631574/000119312526432690/d120442dex991.htm"
+      "fuente_url": "https://www.sec.gov/Archives/edgar/data/0001631574/000119312526432690/d120442dex991.htm",
+      "endpoints": {
+        "estudio": "INLIGHT (phase 1/2)",
+        "items": [
+          "Safety and tolerability: how many side effects patients had and how well they handled the drug."
+        ],
+        "fuente_url": "https://ctv.veeva.com/study/a-phase-1-study-of-wve-007-in-adults-living-with-overweight-or-obesity"
+      }
     }
-  ]
+  ],
+  "enfermedades": {
+    "Chronic myeloid leukemia": "A cancer of the blood-forming cells in the bone marrow. A genetic change creates an abnormal protein called BCR-ABL1 that tells white blood cells to keep multiplying. It usually grows slowly, and pills that block that protein are the standard treatment.",
+    "Breast cancer": "A cancer that starts in the cells of the breast. There are several types, depending on proteins on the tumor cells. \"HR+/HER2-\" means the tumor responds to hormones but does not have the HER2 protein, which is the most common type.",
+    "Obstructive hypertrophic cardiomyopathy": "A disease, often inherited, in which the heart muscle becomes too thick. In the obstructive form, the thick muscle partly blocks blood from leaving the heart, which can cause shortness of breath, chest pain and fainting.",
+    "Hypertrophic cardiomyopathy": "A disease, often inherited, in which the heart muscle becomes too thick and stiff. It can block blood flow out of the heart (obstructive form) or not (non-obstructive form), and it can cause shortness of breath and tiredness.",
+    "Endometrial cancer": "A cancer that starts in the lining of the uterus (the endometrium). It is the most common cancer of the uterus, and it is often found early because it causes unusual bleeding.",
+    "Metastatic uveal melanoma": "A cancer that starts in pigment cells of the eye (the uvea). \"Metastatic\" means it has spread to other parts of the body, most often the liver. It is rare and has had few treatment options.",
+    "Desmoid tumors": "Soft-tissue tumors that do not spread to other organs, so they are not considered cancer in the usual sense, but they can grow, invade nearby tissue and cause pain.",
+    "Genetic dilated cardiomyopathy": "A disease in which the heart becomes enlarged and weak and cannot pump blood well. In the genetic form it is caused by inherited gene changes and can run in families.",
+    "Microcystic lymphatic malformations": "Birth lesions made of small fluid-filled pockets in the lymphatic vessels, usually in the skin. They can swell, leak fluid, bleed or get infected. Today there is no FDA-approved treatment for them.",
+    "Clear cell kidney cancer": "The most common type of kidney cancer. Its cells look pale or \"clear\" under the microscope. It often depends on a protein called HIF-2α to grow.",
+    "Metastatic pancreatic cancer": "Cancer of the pancreas, an organ behind the stomach that helps digest food and controls blood sugar, that has spread to other organs. It is one of the hardest cancers to treat, and many tumors have a mutation in the RAS gene.",
+    "Pancreatic cancer": "Cancer of the pancreas, an organ behind the stomach that helps digest food and controls blood sugar. It is often found late and is one of the hardest cancers to treat.",
+    "Acquired hypothalamic obesity": "Severe obesity that appears after damage to the hypothalamus, the part of the brain that controls hunger and energy use. The damage can come from a tumor, surgery or an injury, and it can cause constant hunger and fast weight gain.",
+    "Obesity": "A condition in which the body stores so much fat that it can harm health. It raises the risk of diabetes, heart disease and other problems."
+  }
 }
