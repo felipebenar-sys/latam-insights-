@@ -1,0 +1,26 @@
+{
+  "leido": "2026-11-12 10:09",
+  "url": "https://deudacolombiana.com",
+  "corte": "2026-09-30",
+  "deuda_bruta_billones_cop": 1185.4892,
+  "serie_ultimo_punto_billones_cop": 1185.4892,
+  "corte_anterior": {
+    "mes": "2026-08",
+    "deuda_bruta_billones_cop": 1169.0596,
+    "cambio_billones_cop": 16.4296
+  },
+  "hace_12_meses": {
+    "mes": "2025-09",
+    "deuda_bruta_billones_cop": 1175.2462,
+    "cambio_billones_cop": 10.243
+  },
+  "pib_porcentaje": "62.2",
+  "pib_2026_billones": "1.907B",
+  "intereses": {
+    "anio": "2025",
+    "billones_cop": "86B",
+    "porcentaje_pib": "4.7"
+  },
+  "datos_a": "Sept de 2026",
+  "nota": "Unidades: billones de pesos (1 billón = 1.000.000.000.000). 'Por colombiano' y el contador 'en vivo' del sitio son estimaciones no oficiales y no se incluyen aquí. Fuente: Ministerio de Hacienda e Investor Relations Colombia, vía deudacolombiana.com."
+}

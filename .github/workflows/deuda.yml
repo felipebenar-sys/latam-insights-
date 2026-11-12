@@ -1,0 +1,24 @@
+name: Cifras de la deuda pública (sin IA)
+on:
+  schedule:
+    - cron: "13 10 15 * *"  # día 15 a las 5:13 a. m. hora Bogotá, antes de la tarea de las 6:51
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: deuda
+jobs:
+  deuda:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 bot/deuda.py
+      - name: Commit si cambió
+        run: |
+          git add data/deuda_corte.json 2>/dev/null || true
+          if git diff --cached --quiet; then echo "Sin cambios"; exit 0; fi
+          git config user.name "Stag Research"
+          git config user.email "stag-research@users.noreply.github.com"
+          git commit -m "Cifras de la deuda pública $(date -u +%F)"
+          git pull --rebase origin main
+          git push origin HEAD:main

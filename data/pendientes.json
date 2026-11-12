@@ -1,0 +1,512 @@
+{
+  "fecha": "2026-11-12",
+  "generado": "2026-11-12 10:11",
+  "ventana_horas": 48,
+  "nota": "Pre-revisión automática de titulares. Revisa a fondo solo los activos 'con_noticias' y los 'sin_revisar'; los 'sin_noticias' no tuvieron titulares en la ventana.",
+  "activos": [
+    {
+      "clave": "AAPG",
+      "nombre": "Ascentage Pharma",
+      "estado": "sin_noticias",
+      "noticias": [],
+      "grupo": "biotecnologia"
+    },
+    {
+      "clave": "CELC",
+      "nombre": "Celcuity",
+      "estado": "sin_noticias",
+      "noticias": [],
+      "grupo": "biotecnologia"
+    },
+    {
+      "clave": "CYTK",
+      "nombre": "Cytokinetics",
+      "estado": "con_noticias",
+      "noticias": [
+        {
+          "titulo": "A Trio Of FDA Verdicts: BioXcel, Cytokinetics And Summit Await Key Decisions On Nov.14 - RTTNews",
+          "fuente": "RTTNews",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVHFOOTRhR0M4MmNVR3puRnFRdmN0R0hvcW03N2otYWJxb1J5Qm14UmtraVdZTWdHdWhNTGNMRnkyTTdhTTJMQ3Y5ajZqZDNkdU9TU0NQTnU5YkRkU2dGYXNYeUNkbV84czR2aFdTc183OWNqcllnVWF0VWhBc2RoUWRoV1RKc1FZVU42NTRyOGVESkJqbFc5MzRBaGx2WHNJbHh5aEw5Mk10OWhHbktmSFlJLWkySFViaF9hUVo3SHVXXzg?oc=5",
+          "fecha": "2026-11-11 07:19"
+        }
+      ],
+      "grupo": "biotecnologia"
+    },
+    {
+      "clave": "EWTX",
+      "nombre": "Edgewise Therapeutics",
+      "estado": "sin_noticias",
+      "noticias": [],
+      "grupo": "biotecnologia"
+    },
+    {
+      "clave": "FTH",
+      "nombre": "Faeth Therapeutics",
+      "estado": "con_noticias",
+      "noticias": [
+        {
+          "titulo": "Faeth Therapeutics Reports Phase 2 Results for PIKTOR in Endometrial Cancer - Oncodaily",
+          "fuente": "Oncodaily",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE93cVk0SVJ6R1pfNWQyWmppUHBFR2RXdTBoTVdEUlpwdnpvNXhIZy16clEwNkl4OHJIYUVERWxaR1lwZVBIUUI2ZjFrdU1aZVlBWmJxRnlFTUU1WDUxMFZsNDVlNnpjTG1JTlFsczVGZGJWZm51?oc=5",
+          "fecha": "2026-11-12 03:51"
+        },
+        {
+          "titulo": "Faeth’s PIKTOR Posts 33% ORR and 7.4-Month PFS in Pretreated Endometrial Cancer - The Clinical Trial Vanguard",
+          "fuente": "The Clinical Trial Vanguard",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWFRVOHpITkNVZnJJQ0s3b19OZG8zRnhSSVVUSndVdnhtS0IwZlBjbWMwT0NtajdYbWtpN3VidkpEOERpeTBqZmVJRzRVU1RyNE1fSXBSTDN1UnF3WmpsRi0yNi1UNGxBZGp0dk5TZmVIYl9lQllwS1R5cW1FRmg3dnItNmRmZVNEQU85Ym1BRmxVTHp6ZjMxekg2dzZ5Rlh4Q1BEb1dieVc2WGlxRmxwbW1RWQ?oc=5",
+          "fecha": "2026-11-10 12:20"
+        }
+      ],
+      "grupo": "biotecnologia"
+    },
+    {
+      "clave": "IDYA",
+      "nombre": "IDEAYA Biosciences",
+      "estado": "sin_noticias",
+      "noticias": [],
+      "grupo": "biotecnologia"
+    },
+    {
+      "clave": "IMNM",
+      "nombre": "Immunome",
+      "estado": "sin_noticias",
+      "noticias": [],
+      "grupo": "biotecnologia"
+    },
+    {
+      "clave": "KARD",
+      "nombre": "Kardigan",
+      "estado": "con_noticias",
+      "noticias": [
+        {
+          "titulo": "Kardigan Reports Third Quarter 2026 Financial Results and Recent Business Updates - Business Wire",
+          "fuente": "Business Wire",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQeTRMc2l5VlFHUWZPd255cEhKMU5VUnVoeGlTb1lzeVV3dFo4ZGFJSnVEenRjcGx4UXc3VGtiYThDVkFDU2hDUmhDSHZpNWY4ZXJsYUdabU50QWp1b2c1bHRxaHdhUmRLenNMTUdkVkd3QWlsajFIVWpQMGdqZnRjeU9JSTVHdEtfZ1poYVdhenU2UTBqUTdXTFRDOWtqUmtCTmx1YUtybEtlTldYM0FLWVRaTGN1RlVia3lEWkhQWk1oOGJPd3Q1UHRrUlhZV2JTSXFHSA?oc=5",
+          "fecha": "2026-11-12 07:00"
+        },
+        {
+          "titulo": "Kardigan to Participate in the Jefferies Global Healthcare Conference - Business Wire",
+          "fuente": "Business Wire",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdXNMdFdycVdlcFNLSi0yc1NlYUR3c1MxSjBjQU1ld0g3cjZfU3JMbkdUa2Nlc1RPUXBfbGtDTkN1akR1b0JOalhqYThPZUcyVWxZclVwc0JBSWJZOEZDMGZ5bXpYQWRXWWFmLWRoNWhUQ2RheWtSV0xhUlc4Ulp3VkVLMTc4WWwzYmJ5Njc1cmhNdV9IMzdHczFpelU5NmxhdHU1dEVLYjVqeFp4UkR6QWhWZHNYcmdWUTVNMW1qQ0lDUzhY?oc=5",
+          "fecha": "2026-11-11 07:00"
+        }
+      ],
+      "grupo": "biotecnologia"
+    },
+    {
+      "clave": "PVLA",
+      "nombre": "Palvella Therapeutics",
+      "estado": "con_noticias",
+      "noticias": [
+        {
+          "titulo": "Palvella Loss Doubles as FDA Reviews Rare Disease Drug - MyChesCo",
+          "fuente": "MyChesCo",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdXpPN0hsNWZpR2Z5c1hWc2JINEhWaG5aSVhwVTRxVlVQRUhnZmtRcU5IMWJNMTMyNlZDOXZEdkNma3dEaDlVMzJBR2JHT1JBS1pCcHVJTVRyZzdrSkttTXZINHhuRl9hVHgxSmpVSTEwWjZyNEpHUndhRnFjZWZROHVqTVBxUkU1WmpraHNfQkdpNEp4U0paaWlNTDd6UlNCS2NkbjBMVQ?oc=5",
+          "fecha": "2026-11-11 11:50"
+        }
+      ],
+      "grupo": "biotecnologia"
+    },
+    {
+      "clave": "RCUS",
+      "nombre": "Arcus Biosciences",
+      "estado": "sin_noticias",
+      "noticias": [],
+      "grupo": "biotecnologia"
+    },
+    {
+      "clave": "RLAY",
+      "nombre": "Relay Therapeutics",
+      "estado": "sin_noticias",
+      "noticias": [],
+      "grupo": "biotecnologia"
+    },
+    {
+      "clave": "RVMD",
+      "nombre": "Revolution Medicines",
+      "estado": "con_noticias",
+      "noticias": [
+        {
+          "titulo": "REVOLUTION MEDICINES INC (RVMD.MX) Q4 FY2025 earnings call transcript - Yahoo Finance",
+          "fuente": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOY0lnOFhCMkpWTWc3M1A5LTBuS2QxanRVQ3JzcF81ZFh5WEViSTFRZUs5c0ZuS21KZG50cW5qeVJHd0ZqTmdWLXhQODBWTlNPOFkybjlNUkprbUFlTkU5dnhqNDNHcXVoZnZCa1UzVjdEZEhvb3kzaXFrbzRQQThLSGpvM0hxbU9EcDhOU29CWWh5YXNS?oc=5",
+          "fecha": "2026-11-11 15:30"
+        },
+        {
+          "titulo": "Revolution Medicines, Inc. (RVMD.MX) interactive stock chart - Yahoo Finance UK",
+          "fuente": "Yahoo Finance UK",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1STDdsbi1jXzdiRXhESVVZMUpJaWZOTFVJUU43RzBiSWVmVDd3bEVYZDEyRUhibEZoWWFLNGY4QzBzRzFMMWE2aGctOU13ZFFwMjhibDQwOHZ3M05oWUE?oc=5",
+          "fecha": "2026-11-11 13:45"
+        },
+        {
+          "titulo": "Revolution Medicines' Anthony Mancini: “We're just getting started” as Rasonque nears EU approval - The Pharma Letter",
+          "fuente": "The Pharma Letter",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQSUJGWEpCVFU2OU14cl8yYnBtLVZ3aC0wOHhwVloyaFVTVmF3V0F2dEdHYlpQbFZqNHdVSUdVemkxNGRSX1ZBQjhfdkRtUTY5eTVzdEctOWlLV1NLY2EwdkZvTGh5a09MTFNJVFZ4ZWFocGJhb3ZZTDRQMjdiSzJTLUNkbTUwWGtKM2IwNldtM3FwSHFobjdSNmc2RGFiTFc1ZTRfMmtRcU5DQWlJVWZ5TUNld0NyZWlqaWl0VjZtQVRJRE0tdWNyUXhtMlBVckZRUTFn?oc=5",
+          "fecha": "2026-11-10 12:22"
+        }
+      ],
+      "grupo": "biotecnologia"
+    },
+    {
+      "clave": "RYTM",
+      "nombre": "Rhythm Pharmaceuticals",
+      "estado": "sin_noticias",
+      "noticias": [],
+      "grupo": "biotecnologia"
+    },
+    {
+      "clave": "TNGX",
+      "nombre": "Tango Therapeutics",
+      "estado": "sin_noticias",
+      "noticias": [],
+      "grupo": "biotecnologia"
+    },
+    {
+      "clave": "WVE",
+      "nombre": "Wave Life Sciences",
+      "estado": "con_noticias",
+      "noticias": [
+        {
+          "titulo": "Wave Life Sciences stock sets November 18 investor presentation - ad-hoc-news.de",
+          "fuente": "ad-hoc-news.de",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQ3ZYOHhLWEpIWlcxa3NVVWZzZ3NvRndiMmxkeFNHbzFGRDZKQlFUSm53UWxqQU5MMGZtSHJuRzN1dktMMFJkTXA3a0FIcjVCc0QwUXBjTkdJaUlNMDVibVNXYlVEdTVJZjMxRDkwYVNQOG5laDdwR2ZUcWk4Q2JXVUdPNEV0YlVTblM1NWcyeGZuYXZjazBkODV3MWQ2ajBMWDFqV2h4aVo4RlE4aG5JNXpNOElFT0ZkSHdkRTYtZGE5R1RZ?oc=5",
+          "fecha": "2026-11-12 08:16"
+        }
+      ],
+      "grupo": "biotecnologia"
+    },
+    {
+      "clave": "NU",
+      "nombre": "Nu Holdings",
+      "estado": "con_noticias",
+      "noticias": [
+        {
+          "titulo": "Nu Holdings earnings in focus as Brazil’s fintech giant faces tests - Investing.com",
+          "fuente": "Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSDh4WWRZeGpPNDFjQ1A1YVROTHBIOEZCajZuaExVUi1MV3pvRDBwLThZMUxIX1NQZ29TNU82SXR6bDB4ZHRlR0xSc3ZyYURYUld6QkExSXdwcnhkTWFxUTJtb1d0Q3ZCQ0E0TXVFYjVyZ3NQSXFoSENlWjU1SkU5bGVYYWt4SkJMSWNkcWlqaEFyQUY4LTlrMk1RcmJhdFdua3ZuN3FGdlRQNG9HaG9VLW9EdUJmaDhMZ3p3?oc=5",
+          "fecha": "2026-11-12 09:48"
+        },
+        {
+          "titulo": "Nu Holdings reports 6.9% loans overdue 90+ days but sees growth potential in primary user base. - Pluang",
+          "fuente": "Pluang",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPem5zWUFXT2FvZ1hXWEtjTFdwcTNkSTZaVE1MMG1vamI0Zk9ScXY2OFNHNGQ3ZEp2SmxYaXJ0cXE4ZnhWV0lhbHAyMUJ6OUZlRnZBdnNxeE9TMGlrZDFCNjFwWmZnT01NcG9zaW5VTlFUcVhPR2dScHltdlp1ekc1M1I3Vkx0WnV6dk5qVFc0QWFweUFfTzdjSHpZbU9MMmdO?oc=5",
+          "fecha": "2026-11-12 05:55"
+        },
+        {
+          "titulo": "(11/12/26) NU: Target this Financial Stock After Brazil Election Overreacti - www.moneyshow.com",
+          "fuente": "www.moneyshow.com",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWEtXWXZ4eHkxWDhqZnRkR215eGFQM0hJNHluRGFuOVV0V2NYbHMwYWVOdURKWjlmRHN0NFhRTWxOaDVhTnpaUXQ0c2toUDlPRXFOR1VIM3VwdGdtYWRDM1pLNHgyWDNSbkVSWENVSTdsRVlTYllpSlVnc3cxWmN4UzF6RnJHUFBHeGRiRGh6X0NWQmpKTkdYcnhkTXVhcV9PUExUTGNpZ3VUbUF4U25JUEhLUjVFRzFG?oc=5",
+          "fecha": "2026-11-12 00:08"
+        },
+        {
+          "titulo": "Binance to List Nu Holdings and Freedom Holding Perpetuals Nov. 12 - www.tokenpost.com",
+          "fuente": "www.tokenpost.com",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9Gd09nWmY3XzRVNHUtMnk2R2FXYWdOQ25jOGtvOTFNTWhOeHltOEU0ZkVtSjNGeGRISTFRMDIyT08zeGRTbTBxTlhkNUJHeHpvSG1KaVdVWVo?oc=5",
+          "fecha": "2026-11-11 20:57"
+        },
+        {
+          "titulo": "What Should Investors Do With Nu Holdings Ahead of Q3 Earnings? - Yahoo! Finance Canada",
+          "fuente": "Yahoo! Finance Canada",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcnJUdkVVcTBwOWJaSlFmS1cyMEFlSk92bGFxRHU3bmtQeUVVU0RpZ0hQbmViZmhKalI1bnV3UkwxbkZpVEkyTFhfcGx5Q1o3dWlDVE53cGZJSVRjUDFGbXVJdXVNWEhTalFlb3RMNWtPeVEwWGZueEhiZVFIMV9qWnpfU1ZKUQ?oc=5",
+          "fecha": "2026-11-11 12:24"
+        },
+        {
+          "titulo": "Nu Holdings stock analysis: why Nubank shares may soar after its earnings - Invezz",
+          "fuente": "Invezz",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUkU5bl90UUJPODBEZkphQlMyN1FWNEpTVk9PckpTV3QtSkk5MG9rM3lJbHpTOXY1eVdnVFFqR2RncEs1RkR6b2M3RWtxa2l1X0pQMmE5ZjN1RDd1ZHBoejZRWjNxYnNCZ0ZGeUxLUWk0S0VwUzNkeElIQTRBZS1NOHA2T1dGNDFxQjJPdG8wYzVVSDdob1UzMEV4ei0weDVBdmFLQWd0QXhBUHAyMkpOUg?oc=5",
+          "fecha": "2026-11-11 08:19"
+        }
+      ],
+      "grupo": "portafolio"
+    },
+    {
+      "clave": "JPM",
+      "nombre": "JPMorgan Chase",
+      "estado": "con_noticias",
+      "noticias": [
+        {
+          "titulo": "JPMorgan Holds $29 Billion in Data Center Loans as Lenders Turn “Reluctant” on AI Debt - TIKR.com",
+          "fuente": "TIKR.com",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeEFGUm5JSlFZazdVZGxQMjdsdE1OX0xEMFY3SEZzWTVVUDV3azRTX2tTQTZTejBJVXdHT2R1MktOUTVmMEFZSW5xTmhISEdydnNDVHlUZEZPcGFvUHllU0NRZF9pbEliajd2U05ieTFDLUM4endEeDFpS1pxRHhuSFJXVl9LYUNKcW00RmJxWFd1cEc2QUNLN3B0R1ZJakI5TEQ1Z1BFNmRxbEUtRWZv?oc=5",
+          "fecha": "2026-11-12 09:57"
+        },
+        {
+          "titulo": "JPMorgan Chase stock takes lead role in Anthropic IPO process - ad-hoc-news.de",
+          "fuente": "ad-hoc-news.de",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQaHIyVC1mUXJuaGVLZnlnSHVoUVJnWU5sVldENGdHNTNkMTFZVWVzZnd3SnlWemp4UE9ydWNaR2dBSlJKYUo4TFlIRkZqWXlHSE1fTm40UkZ1VGkzQ2JCamFleEhCcEVUOFBPZ1J6amZtMlpIOVEtS3J5QmFoOERoSk1zLWtDTlhSQ0FubDRYRGMtZ0tXRHpaQVZkNEtQNGVuamZlVnBOWGdJQXFDakhGbmh1LVZkRVQyU0VWNTJJYUM0UQ?oc=5",
+          "fecha": "2026-11-12 07:57"
+        },
+        {
+          "titulo": "JP Morgan Chase & (JPM): Fact sheet sets 2036 EURO STOXX 50 note with 75% threshold - Quantisnow",
+          "fuente": "Quantisnow",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVE5OdzZCcVc2WTBaZEo3akpRQU11eXF4d0ZGTk9tVU1Za180VnUwcm5NbG0xN2ZvZVRKc1h4N0wycmRObjJPVDd3dFEtLU5iZ0ZUU3MtTURlMFhCOW9CUThHWlBLWk5GVW5IdXRSbk90RXZfOE9Tcm1TRUxfLTdySFZDS0g3dHgtRDE0?oc=5",
+          "fecha": "2026-11-12 06:56"
+        },
+        {
+          "titulo": "JPMorgan Chase Gains 40% in Asia-Pacific Wealthy Investors Alternative Assets Growth - شبكة تواصل الإخبارية",
+          "fuente": "شبكة تواصل الإخبارية",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9HNVZRcnhRcW9VLTFCS2dkdlRWX3V2YWlBMHNtMDJFWE5CMVR1SEViZllUTHB3a3dPa2VJMFNrY0laYUhhcmF5aG1yeS1WVm9RV1NR?oc=5",
+          "fecha": "2026-11-12 06:55"
+        },
+        {
+          "titulo": "What Did JPMorgan (NYSE:JPM) Say in Boston? - Kalkine Media",
+          "fuente": "Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQWlJjQk11Y0JrT2pydGRiY3hCemZVUXFLbzZESy1naDRseXl4bW96NzNnT2RpZVBSTGlEMnRnVGRQX3kzdmkxRWw1cDdoNGVQQlliamJybWZUTzZZZjVCV2JCTFFQcFBORDZ4ZktjMVQwWVdfVzg0LXhVVzF3OWRoXzF2eTU1QVVNcVRfTg?oc=5",
+          "fecha": "2026-11-12 00:32"
+        },
+        {
+          "titulo": "JPMorgan Predicted Strong Wegovy Pill Sales (and Was Right). Is Novo Nordisk Stock a Buy Now? - The Motley Fool",
+          "fuente": "The Motley Fool",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeEJzRlF4dndGY3Y3SzZmWlpMQzFqcTc1R1RFeVduRGZ3eG51SFZmRG9TNjZadU1IRXBjX0F3Z0FPYWR6N1JHZlpUazZFZUxnZExDRVlaenVOQ1BHelM5X3o3Zmk4ZWx4NU04ekhlZWhRSTNNT3praVVBcVJfdE9SQldvc2hPV2xlX3Ryalg4TENOcEtCc0l4ZA?oc=5",
+          "fecha": "2026-11-11 21:15"
+        },
+        {
+          "titulo": "Indian companies ramp up overseas dealmaking amid growth push: JPMorgan - Livemint",
+          "fuente": "Livemint",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNMDZoY2RkaVNKakNzblZVeWlQcC1vckVkUkRrS3cycmpDNkhLMVlxbkJjclZVR29Od0NHLXFoamVXbkppSjZsazN4c3NsZXBWby1MQkZLWFlVMHlIazBJaHJxWU95UUtiZXJYRWV0X0plNHV4dm53Z2V5RUoyX2VxTWNnSnhVNWtLMjhvVUJzd0hXNTMtcTQxMjg3bTA4bHZwN2EzRi04TzBEM0NXT2RUMWllVTRFSmFma0s4ek5xQXhpU0U1MUNOZGRZa1FnU3FhY2wxZzlnRk1tcjRBUGdLNndYZkN6SVVuaVpNc0xNV21Xd9IB9wFBVV95cUxNd2hvTnpHR29zWXNSeDRwbUxTVlY0bXlDOUlkY2tiMXFDRXU5clJUSHlxaFhiNDhDeURyMkZWY29MVkc4WkVBRG5SdEdZTk5ySE9QV0I0Z19lUkY5MTZKdl9xYUV0VnNZOGF4WlVnUGhHWEd6TXBJVy11Qk5DcXBrQ0wtOS1hY2ctUVpzUFd3V2RsU0J3RzA1WTd3emRmTHRmeVllcndUSHZhdWVla19fblU2dFBkMFZ5dmZOVXVXVG1DUFpZS1oxVmZMbVBfbTRDMzVnVTN2THI4TkRwRmtNSzVxYlBqWHJHRVhFNjIyOVpTNVd5Ullv?oc=5",
+          "fecha": "2026-11-11 19:30"
+        },
+        {
+          "titulo": "JPMorgan Chase stock faces deeper AI credit test as exposure ranks second - ad-hoc-news.de",
+          "fuente": "ad-hoc-news.de",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPMTd6SjZGd25nQlB4TVZMYWtoS3p1aXczRmtqQXh2eHppZkU2cEZnWFAzYjlTZWRNMlBodkFocExRN3F2OHBSRE9ZWGJ0TVpiRWJZS2tnTFphZnFaSF9aNTZXT3g4Q0dwTmpZWWhlZkdvcFRKb2hCVG1DODhUMHh5LUFNNUgtY0RPS2MwN0pDdmp0QXEtRTVTUUdaV0xTYVRkejJlamFfaV8yOUVTR1d5QUpSY0c5VWNqc3VlNy1TREcxUGpSeUlySVFHWHB3MnBNQ3c?oc=5",
+          "fecha": "2026-11-11 11:10"
+        }
+      ],
+      "grupo": "portafolio"
+    },
+    {
+      "clave": "MELI",
+      "nombre": "MercadoLibre",
+      "estado": "con_noticias",
+      "noticias": [
+        {
+          "titulo": "MercadoLibre stock balances 45% Q3 growth against margin pressure - ad-hoc-news.de",
+          "fuente": "ad-hoc-news.de",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPWEp5Um5FWEpHMzdVSlBkTm9aWmFwNzJxOHotanBjOWV1blRteVp3eUdyU0JtbWo5X0hSMkVkVXBUNFBqeU5xaUZyZVNzb3BQMkJncElVMDhSR0NEdUtDYldCRm5kWGgxS29DUVJXd0FOdnRFWUF6SGFBWGd2R2xRV0FHcWRpY0Z4R2dYX19lZlZHNS12V0ZtSkh4M3ZSbEZxNk9tM1NWdjBxbERrcWdzXzdzZTU2dGxSNzlmLXRYbURMRDVUYUE?oc=5",
+          "fecha": "2026-11-12 07:43"
+        },
+        {
+          "titulo": "Michael Burry's Portfolio Adds Lululemon, JD.com, and MercadoLibre - KuCoin",
+          "fuente": "KuCoin",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPOWhTRk1waXlZWTN3ZTJRTmtnYlpLSm9rNmpCVFh0UjF1ZDI0N2RIX1R5NmVjTlRYalNRX2l5LUJFdHdJTFp2UjJIY0c0TmNvTEZhUXFibUdBNWRQUno2RTh6a3RRc1ViSmlEMllobXFxZmZQRzVBQVRRdjh0dk92NlpMZTFVRVZCT2RYaEVXNGcwdnkwMWZDeXFkdFFoQmM?oc=5",
+          "fecha": "2026-11-11 20:09"
+        },
+        {
+          "titulo": "MercadoLibre Keeps Sliding: Why Goldman Sachs Still Sees 41% Upside - TIKR.com",
+          "fuente": "TIKR.com",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ2pCeDVhWmZzV01qcjdNRnQ5SjY4S3paTFkyVmtfRi1YMERjUzJ0MWNaN05FMGdieUlwY3RJMmZkR2FqLXNQcXNNc1NraEJBUGtSZHhlOWhoN2V6S3BNamt6X3VQSzdKbld5YUljUW1hbGdVcjU2NGY4N01NS2d3WFhtcHBHUTdQUW5GVUJQanoyZVlIdUE?oc=5",
+          "fecha": "2026-11-11 19:27"
+        },
+        {
+          "titulo": "MercadoLibre (MELI) Stock Could Be Fairly Valued As Margin Pressure Builds - Yahoo! Finance Canada",
+          "fuente": "Yahoo! Finance Canada",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRGlIbXJEUU1fTDN6SmsySWt4VzhDYWo3U01RZlF0T0dzNmc5ZVlVN09nbk9sNld1VHoyZXN6a3ZBYkswSnhxN0lpZnhxR1NnTVMwcU5rTEQwcld1RUw2aGQ1bHFCT2JDeEVKZmx6ejh1SHdPU3c0bUZHYlR2ZlczbGp3dEtNX0ZvVnNjVnV3?oc=5",
+          "fecha": "2026-11-11 14:12"
+        },
+        {
+          "titulo": "MercadoLibre stock faces margin test after strong Q3 growth - ad-hoc-news.de",
+          "fuente": "ad-hoc-news.de",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNUtNbExtdmIyakdmUzNKa19Wdlk1ZFNxa1VyeUpHc1MxVmVYMllBU0VqcXFwb05GOXpmNElBdDZFbG1LV19wYjVIOGxSYWVNMXYwaFloZlpCcDF5Tl8yXzNpYkc1SmVWbnhybTVCMTh6UGw1bG04OHFYSGpoQUg4dWNjVWkyVWRDNVZDemQ2ZjNpOXFtcE9hcFR5V0hhdG5udk9yNVF4cjlFNC1LSFBGWUg1bi1OVXlBWGZ6azNLUQ?oc=5",
+          "fecha": "2026-11-11 10:29"
+        },
+        {
+          "titulo": "MercadoLibre Stock Fell 20% in a Month After Hitting a New 52-Week Low. Is the Selling Overdone? - TIKR.com",
+          "fuente": "TIKR.com",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSWZkaEI5dGo5TEpYLUlsdDl1NG1taWxMU0Y0SkEtcVpvUUxCdXdHaVV1WDM0QW1NUDVDZlNmM1k2V1pLTU9tNTZjZk1ZQm5IVTJmak8wVnJOY1ByakNsV0xpUDhuenRjY1pHZ0xISGtjaFdLalFMVm13MC1QQnRscFlfVEhOcDBZN0Q4YUFaTlB6LXpkMHdheHlaTVZPMHY5bjA0b3JsN3dOd3pEMnVuckJjSzhzbWlaUFlUMg?oc=5",
+          "fecha": "2026-11-11 10:10"
+        },
+        {
+          "titulo": "MercadoLibre Sinks 10% in a Week on a Profit Miss: “We Have Accepted a Lower Margin” - TIKR.com",
+          "fuente": "TIKR.com",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdlFmeEM0U1RncFREREVrOVU5QmgtN0tVOUtmb1lXcTdXbHp4eFl1aDRRN2FmWExEOHVKWnhJSzRLYWVaVURLYk9UWEhYTHNYd0oyRWtOTjhQaDdQNUZfalg1R21JMjgyLWxUTjhYdF9sT2JsOG56bHpDSkZuUFJuVHNiSGcydUtjdW5DencxMmN6a09waTBJSGZ0Vmw3ZTkxcUdZNkNScE02Zw?oc=5",
+          "fecha": "2026-11-11 09:18"
+        },
+        {
+          "titulo": "MercadoLibre stock grows 45% as Q3 margin falls to 6.3% - ad-hoc-news.de",
+          "fuente": "ad-hoc-news.de",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQR0J4bU9HZXRrZEtDSzktdGViU0hVZEVaTTY5YjFlWFVnNVV5TWNVbmN5aU51VVZMdjhMODcxNVJOTXNrdkJ5bzJMRW5RS2d6bkY4TlVET3NqdTN5WW8tSk1CZkdBNzdCRmpCYm9vUk5xUC0wRUpvVVBjQ1VLb3p3N0xmWXp2OG1uNU5QUk4zTTEta2tJNGQwVUowd3RVa2Vxd2JOZk5tZDZfNHM0aTgtUlJqMF9xeVE?oc=5",
+          "fecha": "2026-11-11 08:02"
+        }
+      ],
+      "grupo": "portafolio"
+    },
+    {
+      "clave": "RMS",
+      "nombre": "Hermès",
+      "estado": "con_noticias",
+      "noticias": [
+        {
+          "titulo": "Hermès among the biggest gainers in the CAC 40, +7.5% over one month - Idéal Investisseur",
+          "fuente": "Idéal Investisseur",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeE5aZlhiNDRlWHZzSW1QNDZsZzZ3LVY0dzBlR0FQWFBaSVFoWi1nUDVWNV9rNXBLd2NrSUN5a2tiSzBRczhQZmt5cGdEcnUxMU44M2Uta19ib2w3dnJ4NU9iNXZtR0dQYjRnT2lCLTE1WVNmQVl4bi0zNTl5RnFVWkZEOUh0TzdwallYbFlTc1c1VTh5cGJqeWZDMGhDWmEyRTJKSVZrc2wtVG9XQWpzTVpqZFFDNWdsMTcyWFQyZUZXZw?oc=5",
+          "fecha": "2026-11-12 06:10"
+        },
+        {
+          "titulo": "Hermès: the myth of scarcity is fading, but the resale business is growing - La conceria.it",
+          "fuente": "La conceria.it",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbXBQb2RCYVZqcmJUcGRlZFBxdDBXTnhPNm5faEZJRkdZMExQX3dsQktabkZZS0dKNmtFVmh6RHNfV2NQcnR6NjdwZm53aHdSNW1DQ1FQZXNlcno5RnhtNFlMY3NMNGJmUlJqdFpLNlRkM1lMUHpTR3dudWhrY3IydGlJSlZ4VVBtMHlIRlRIazJPWnBBN1drVElNYmtlblNKejdqVDVpZ1kzNFR6NFE?oc=5",
+          "fecha": "2026-11-12 03:12"
+        },
+        {
+          "titulo": "Hermès International stock faces China drag as leather goods hold up - ad-hoc-news.de",
+          "fuente": "ad-hoc-news.de",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQa2M5bEl3VWQxOWhtN3B3aDgwZjZ6c2QxbENscXlUN1hvbWlrOEt2MHF0MVczT3MzdTNueEN2bkJ0ZEZLU0xpWmZyVVJqc2xKMnktWXg3NnZaRDJFZ085NFJBQ2hER1l4ZzVxa2p1YXJnNjluNktVS2o3dkFLUVdidU85TVQtMWxFQk5ua1hqX2FZc1VXWE1Xb0psUEY0RlRXd1V4cVJVcUlqUHV5cVZNX09iWF9vWlpMQWpvUDJsOE5qZVR2YTUya1hxaw?oc=5",
+          "fecha": "2026-11-11 12:22"
+        },
+        {
+          "titulo": "David Walliams’ Hermes furniture auctioned off for more than £100,000 - The Telegraph",
+          "fuente": "The Telegraph",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaHdzMXlXQWpJWmVsaGZPdlh2aEdUaklibjIwUXhVTndNM1hNMmZYMFVheDNWdTdQa1F0OEFuQnZTOHEzZUxXZkhxaXk3NVp4VmdtdWJFUno5VXRzWE81aHdPUkZyMDZLang0YWlLemh1aFQ2UnI1WWthMXpycHRhTm5hUkJwMDYtR3BHcDA3MU12cU5xWGtObjJONjQzaERGOVNRTHJHcw?oc=5",
+          "fecha": "2026-11-11 12:12"
+        },
+        {
+          "titulo": "Hermès Opens New Williamsburg Boutique in Brooklyn - Modern Luxury",
+          "fuente": "Modern Luxury",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOR1lWUlhQbkJWWUxlcW9EdHVENDl1RXpTOWdPMU9UV0ZSQ254VzVUNi1FMFpJVHdqU09oZm9ZWHpzU0NHNzhCMmRob1U0TDllZ1AyYVQ2c0JmSy1nazgwbXdvcE01ZHJsSllNZ1Qxcm5pc2JqODAyWmZRbHc3dWRHN24yU3U2b0U?oc=5",
+          "fecha": "2026-11-11 11:38"
+        },
+        {
+          "titulo": "Hermès fall/winter 2026 collection finds beauty in the fleeting hours of dusk - Vogue Singapore",
+          "fuente": "Vogue Singapore",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBSN1JGZjJ2OGtQejNXT25zQU1IY3B6azVFc1A2WnU2dW5fUXZyNURtemVrTW5EYW9mbEpuLUpoMnF5bHhGSUMyTTk0dlhheUN1LUt1M0RpNFhrcTEzNUZ0b0NB?oc=5",
+          "fecha": "2026-11-11 11:16"
+        },
+        {
+          "titulo": "Hermès International stock shows split luxury demand picture - ad-hoc-news.de",
+          "fuente": "ad-hoc-news.de",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQlFnWkVVc3ZBUVg0QWVUY2JiUWVUaUNHQms0WTdGVXRxbWF2dHRJbWgxaHV6RlNRbVhNT3pTbzVmWnQ0NHNSUTdlTzVUWkVockthTEVrY2tHZmo5UGJqQW5FOERyZGd6UnQ1Ymlvc3d3U3EzSWhnbGFSYkc0QXd6d1lJei1jSVVrOWFNNUl4b3N5RGFTeDlxazBtZENwZE15aXZabDZXTEJyZldxSnNkMmEyTmdWX1Y5YjZvaDYxN2o?oc=5",
+          "fecha": "2026-11-11 05:49"
+        },
+        {
+          "titulo": "Wales Bonner Owner and the Hermès Question - finally offline",
+          "fuente": "finally offline",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOGEySlU5dHN2dXFBVnNIdG5OSjAzNGdTSVQ1VGN1anNST2ZhOHpfTWMtWDFwUHpJZzNhclVRanlrOXp5Y2tfU3ZxZ29fd0JNcWhuMEw2RW1kbHZZUXo0d0tpaV9TazdQM0VQVHN3Ykt3bUtndHhNTlJOeFFrNm5OWm5sSm1DNmFmR1BQSWhvWEcyLXQtRHRHU1d6b1NqQWJQbDEzeg?oc=5",
+          "fecha": "2026-11-11 01:17"
+        }
+      ],
+      "grupo": "portafolio"
+    },
+    {
+      "clave": "BN",
+      "nombre": "Brookfield Corporation",
+      "estado": "con_noticias",
+      "noticias": [
+        {
+          "titulo": "Up to $10 trillion riding on key AI question, says Brookfield CEO Bruce Flatt - Financial Post",
+          "fuente": "Financial Post",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQR0tmSjhYcEtrZGxnV2VHb0dwNGR3T1hYY3FTOU9MOVIxXzZkQlp2TWNzMUlBTkxjQ0I4Y0h3YThhd0dyakVqVDljNUxuMHVMcS1YZElTbHRyUDhmaFlfeXlNOGhZaUMwQldqVnNzWEZYNUFXODYtNUJMSGdWNWNYN3RWc0F3NEE?oc=5",
+          "fecha": "2026-11-12 09:29"
+        },
+        {
+          "titulo": "Brookfield Corporation distributable earnings rise 16% per share as it raises $25 billion - MLQ.ai",
+          "fuente": "MLQ.ai",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQi1sNkJxSDU1cFJTanpQYzRqSXNrT2gtX3pndUdiOFJfV3lCTk9QcWlJRkIzVjJ5VDc2ZzJzMW1hTmd1NEFCQTdpUE1nSktDN1JGWE1TejJCZWV1bmpJelJfampqNDgwOGp4ZTJPSWVjUThpM3FmMFhpQUZZMHp1WEEyZnkyX3dxWHpZNXo5d0pmX0RudEtmZm8wdmF3SWpucV90dktwSU9LMzVo?oc=5",
+          "fecha": "2026-11-12 08:06"
+        },
+        {
+          "titulo": "Brookfield reports 16% rise in earnings, strong asset management and wealth solutions growth. - Pluang",
+          "fuente": "Pluang",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZnVZVGFpU0VPNEFBeDk4RENlLUlzTXYzUV9kalBDTVZwNUNZWmp1RXY2OHpJYkdsQnZJdUp0TzhGX3NFcjFLQmNXdlVpemY3RzViRkgzUXN5Z1pxa0ZMeHJwZkZqemllcl84aWFibm1jczA0RVRQT1ZlXzgwLXdxbUNyX2Q3c3lKei1yVkxvcmhjUjFoWHM3OHZ6dw?oc=5",
+          "fecha": "2026-11-12 07:25"
+        },
+        {
+          "titulo": "Brookfield Wealth Solutions Announces Strong Third Quarter Results - The Manila Times",
+          "fuente": "The Manila Times",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVzB5bEMzZmpSeFVNR1Z5eUg2QlhnTDEzMmhCX2hKNUt4X0Vkc1k1N1E2LWdTRGd6UGR1VHFDR0dDcjVZUm1yaGw2TTl5Y241YWFCS3dVQlJRNnM2d2xVT3NYNWxSUkFpVUdJQ2xPR2M0QWtfYS1ya0p5RnBRTHBnd1RpSFdFaFRNUjZSNEFTZGxwM0tfOXpxanc4Z3JJSFJhNjJSOFZtdmhCbWN3WmQ1SF82STdwd1FfRXFpX25QRl85a2xGYTdFVGwwS2FFazlOZnVLRE9URdIB3AFBVV95cUxPYWN2N0d1ZXg3MExZcWh3R2t1OWtNdGtkOHhjSGJZNFVVUUZsVEU4TW9RZXBPZUZlUl9hYzR6clFlSHFUMlc2aU9wdkZTUERoRG5vSkFzMF81eUVWcXRzR1A0OWp2NzhOUy0xU1lhR19FUDdfQVd0U2JBOV9jZVlObmxSdHBCUFU5WjNRWlNfT3F6Rmd2dmhLX1VwVEN2eGppcjhDM01FN2RnRlFVUEdhM0p0XzVTaS1IZ3c1QV9VZkZSZFZYaHp4Vy1fR3E5di12WXdXMkRCTXh3UTBL?oc=5",
+          "fecha": "2026-11-12 07:24"
+        },
+        {
+          "titulo": "Brookfield stock gets new growth focus from 2026 Investor Day - ad-hoc-news.de",
+          "fuente": "ad-hoc-news.de",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPS1FqZEJPdW1FeWtoT2UxN3NGSkxmekFFLXVrWlNpaFBxWV9VMkRTS0VHdEs4TUhnUlNQekRfU1lScEVuR3NJSXpKZkpLSHBDb0lRNmNVbkJwcjREVTYxTEZJSGZrakFJb3hXZUhhMWViRDlpZ01JY21xTXlJay1rbnJOOXkwbENTMll0MzhmM3JWQmkwZnZfLXUwcGtpRWlnb0M2TzF1WDMwQmlVem94SEktcWtfNlJrMHdJV1Q2WUxoQQ?oc=5",
+          "fecha": "2026-11-12 07:24"
+        },
+        {
+          "titulo": "Brookfield Corporation Reports 16% Increase in Earnings - The Manila Times",
+          "fuente": "The Manila Times",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOY1JLeDFjbnFFQlNQS04tZC1XZ2tLbnkxc0hGLXl3LXlEWjZFUkVOV2piMHB2ZWRkVWdWSGRNTHZVTUZMUUsyZzIxeWpYTDVDNlloRmFBbzZYMXBVTkh4VC1mbFVBTW5fUXY3MFN4VTFsV3lsTzB5WWZMMWN0Y0dLM2Y2bmxKTTBBWHRFdWxmTUE0ekMtRUR2c0RSYTlzc0hOMnJrV0VYbVBBVUt4TEJSTl9UMHhrOFFKdkdxOG9ZLXE4SG9tSExrM2lKbWXSAcwBQVVfeXFMTmNSS3gxY25xRUJTUEtOLWQtV2drS255MXNIRi15dy15RFo2RVJFTldqYjBwdmVkZFVnVkhkTUx2VU1GTFFLMmcyMXlqWEw1QzZZaEZhQW82WDFwVU5IeFQtZmxVQU1uX1F2NzBTeFUxbFd5bE8weVlmTDFjdGNHSzNmNm5sSk0wQVh0RXVsZk1BNHpDLUVEdnNEUmE5c3NITjJya1dFWG1QQVVLeExCUk5fVDB4azhRSnZHcThvWS1xOEhvbUhMazNpSm1l?oc=5",
+          "fecha": "2026-11-12 07:24"
+        },
+        {
+          "titulo": "Institutional buying supports Brookfield stock as price consolidates above key support - Traders Union",
+          "fuente": "Traders Union",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNkp6Tk4wTGFXYmNvdHZ1MGs4R2FQSWVhM1N1YS13X3loZ3FGMHpsczZJS3FLZ1NwVjJVR3NNa0IwNW1FZ09CUEZoR2Zfd2lnVkJvaXY4eFB2aS1TWVJ1NGZOVzVhVTNTc19QY29tRER4MnkzaWZJNEl6ay1SWkJfcm5FS2hPMTc2dkk1RTNoamt4ZmxUdFM1Tw?oc=5",
+          "fecha": "2026-11-11 09:19"
+        },
+        {
+          "titulo": "Brookfield stock enters AI infrastructure test after BAM growth update - ad-hoc-news.de",
+          "fuente": "ad-hoc-news.de",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPVHpqWUtXNUlnVnFoZVlMdFB5dUFxazhpZnZtWEQ0SDVIV1VCcUFUNTR0MjFFX3RYbXV3cmZUYjNvWFBZX1IzdmhaVjJWR3Y4WnhuZFVnZ3J4cnRBb2x6eENqOGw4SWlzWHZNOVNGb1hoYUlQcjAyLWl5ejJ1aWRuY29MM0xIV2RiV19wNzFjRE9INXFucDZDTGZJOXBEMEI3dnBMbnBQSS1GbWZuVEtrQlhyd1hIbnp5VnNyd3FIQ2RZSTlSUkM5WXExeE9GZw?oc=5",
+          "fecha": "2026-11-11 07:50"
+        }
+      ],
+      "grupo": "portafolio"
+    },
+    {
+      "clave": "PFGRUPOARG",
+      "nombre": "Grupo Argos",
+      "estado": "con_noticias",
+      "noticias": [
+        {
+          "titulo": "Resultados de Cementos Argos: utilidad cayó 29,2 % en el tercer trimestre, golpeada por el dólar y mayores costos de energía - El Tiempo",
+          "fuente": "El Tiempo",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQamlyd2xta2R4eThNY1pzNU1CU3pXMXN5UU1Xc1RTeUswaTVtblV1MUp5MGlzbkUtMkVLTkhKTUVJd2pTR2ZiN1d5RThOMFFCeWw1NHphanUwRmhjNk5hc2JuaHIzOUU5ckRrN1pneVhtTFE2YXpQVkVLTFhBRmhSeFFhd3VnNVdoVjJEbVlVamtUX1hlYldweDlaZmJoamdxSXRKeUNGMjVYdm9DUUtaYTlKWFNUU0VWQ0ZyNDV2cEhZRjduU00xZXE0eWU1N3pvMERSS3FCelNhZnFQdjlUVEhTOTBqOGdZeTJVYm9jMmtYOV83WDczQmlFcmlfUUpX0gGGAkFVX3lxTE1haUtGei1aa1V6VE1jWWUyd1NkTlVta1lZTzlwOG53UlVJanVlTHBEV0o0S2xJWWJrdkMwWnd5bmpUUHVwdlpIbnRNcVliaU8zeExoTlItV2ZNS25aeEF6dXluZUFialRpMXVFUVc0YVV2S0d2RXBNWGJqeEdHYkJPQmRBTUZRcDlKX0hIZ3dybmR4SGJ2U196Si1zRGJhdHozeWhzZnI4aVlzQ1YyelVNQi1DWmFyMElmWEp6OHVhbEVtMzd5ZWIyaVo5dXZ3d2g5VG5VWW03d28wcTh5U0lEQzFUSHZNcXFJYjloWHlWa1FnM2lXZGY3cndWalEybER5LWV2M3c?oc=5",
+          "fecha": "2026-11-12 09:04"
+        },
+        {
+          "titulo": "Cementos Argos registró ingresos por $1,35 billones y un Ebitda de $327.000 millones - LaRepublica.co",
+          "fuente": "LaRepublica.co",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONlFGMnFiQW9OQXlTTldmNm1zdHYwX05DNUN0WEhSaUM4VzZHaTFMZDJET3NkNXQ1ZXY4Q2s2S2dqN09QVUtHVEFLVUN6STN4SGk1Y1lWRTAxQ3pTbkg2NjZlSDR6eHQtM1g3d3g2aTdqMi0xQ1E1akd6amhzRFNXVmpadkRvQS0xN1pMUTZuUkhjcFhoTWR4bEZEWmNweExISTVyVmluTGNJZWtLTWNobDNvZUdycENXMGpVOXpGOUFseF920gHEAUFVX3lxTE42UUYycWJBb05BeVNOV2Y2bXN0djBfTkM1Q3RYSFJpQzhXNkdpMUxkMkRPc2Q1dDVldjhDazZLZ2o3T1BVS0dUQUtVQ3pJM3hIaTVjWVZFMDFDelNuSDY2NmVINHp4dC0zWDd3eDZpN2oyLTFDUTVqR3pqaHNEU1dWalp2RG9BLTE3WkxRNm5SSGNwWGhNZHhsRkRaY3B4TEhJNXJWaW5MY0lla0tNY2hsM29lR3JwQ1cwalU5ekY5QWx4X3Y?oc=5",
+          "fecha": "2026-11-12 08:04"
+        },
+        {
+          "titulo": "Argos alcanzó ingresos por $3,88 billones al tercer trimestre de 2026 - Valora Analitik",
+          "fuente": "Valora Analitik",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQd3NSZWJjSFJQd1l0bjd2OVVHclNCSWQ3Yzh4WkRlZ2dDRHg1LTJjS0dYeU1IWUpyWE8tamluQ0RxVmhyZm9qc013QkF4SFBvTk96aTJxeHNLcnNZNy0xWkVOX1lPT29RMmpGQ2N1ZlFOSjlISUUwak1rXzRXYmIzX2VndWs4UG9LNGNpRXpINWdTeGVYMGx5YkxqTUpHcEFR0gGmAUFVX3lxTE56RW1WbGljZWNXczBMRTFKZDE5ZWQ2Y0pEc1poNE5raUp4eHNXeEdSbjVHdjdveVgtSTRKODhmOEptc29tSEtNT1l0ZER2TVZsRTBWTm1od0FGd0ZrMjhXdkYxb0dvUHBQQlFEa2F6NmpoRXU1amowVjZack5NVGU1R3RqS2dzSDd3UG1KcmZvZFQ5ak9zaTZHdDcwaGVGMzRrRHBBWFE?oc=5",
+          "fecha": "2026-11-12 06:45"
+        },
+        {
+          "titulo": "Transformación histórica en las aulas: Gobierno Nacional y Grupo Argos unen fuerzas con más de $110.000 millones para modernizar colegios en Bolívar y Antioquia - Revista el Congreso",
+          "fuente": "Revista el Congreso",
+          "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxORXVodVg0S2QxNXk3amNycmk4dkh3SWloR3hHa0xLTUwweFpIQlBwaXdvbkVVcGhHVV9SVWFMTTliajNIVEUwczUydkhJaDBFbnpKMUdRMzNNc1Nyc0pEQlN2X3czaWtTb3hhQWg0UGg5X2QzdTBPSFY2QW9xMFVtQ3lqcGRwV2Q5bmNpNU9pd0lEb2tyVEthNkg0TklXVFVOdDdHcjBycVFMUzFzOF9mM1VzWWpCQlk1MHQxUS1lajg2dkMtSFZqSmZYbkMzcHpUZHhGV1BPLUN0c21SVEpCWWFVQ1lBMGotYk8wbFJSTkJUMlV4S242NGRFeWVOVC1FZGFPWkgwN09QMWV4bHg4TnVwZW5rUXdJZTdyVkNvcEgzblF5Unptc3Nn?oc=5",
+          "fecha": "2026-11-11 21:18"
+        },
+        {
+          "titulo": "Adopta un Hogar entregó su cuarta vivienda gracias al liderazgo del Ministerio de Vivienda, la alianza con la Federación Nacional de Cafeteros y el trabajo de más de 50 voluntarios de Asulado - Grupo Argos",
+          "fuente": "Grupo Argos",
+          "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxPTUl6R1NFNGI0ZG1ldFNSdEJ4S0tOWUxfWWhEQlRROGRDM2RSbFBNbnZWODN2a3YzWXF0LXU0enZLd2o5Y3VCRm5wREZLOThSd1hvQ09SNHRXa1lGWmxTQ1pqTXFqX3JDUlZBbE1nMEJ1QUgwWHZhRkRGdHh3WlUwRHd6U19ZQmtCOFFSd3pqaVl1SUlhajBsUGpFVFl5TjZYYVcwSmRYdkRORnFiZzRSZm9TTVFoQTd4V1RscjFTMXM5bHY4b2RkMnBGckhiNkZJLWo5X0FlMF9nYW9VNUhUclczVUtEZ1BTVWFvcXFLcWhmcmYyTEVIUXpKU2dWNDNEX21BM1lhcHo0STk3N2llcVdlUy1LZTVvaFltd0tDejhOLS1qeVdlUEU2RlR4QUt6eGh6Y0hNMUExTEVSUVI4Ym1TbEFQT2I1Q1VZ?oc=5",
+          "fecha": "2026-11-11 14:34"
+        },
+        {
+          "titulo": "Grupo Argos apuesta por crecer y reconstruir a Colombia en 2027 | El Colombiano - El Colombiano",
+          "fuente": "El Colombiano",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPU0Z6cU54TGd6cG1YdkdhTk9qdXJ0S2xlRVJrb2ZaQkFMeTlRVXJkUEdOempGUXBfRTlHM1N1LVFkZ0IzR2tXRHhVMXpuOGZiZDNZQl8yQTBWRE5ZckZab2NRMktfcmRFRnN1Z3Y3SEJubHF6N0t2eXhkRWktOFBhU2tsV2tQWUVNZVBsTkQzVUhrcUJpNnlERnF0d0lkOVJjZFlnNTZJWHpOYW1iMlU2emVnMVc2bjRoRUZGQ1lSWXpPRWtKbEVNTi1MQ3UwQnZJ0gHWAUFVX3lxTFBWVnVkZE5pSGtjemVWSlVtcDRoQldJM28xWFF4VG5DUGlUQ1NKTjlDYmlPZW1zRktpTVRrZGlzSmxEVUxKbG9KVjUtNnp5cEJwWHRCQmc4aEJncFBhdWw2OUJQaXNlZnNtVU04ajNlYlM4djZ0QzJKVldFMUl4WjVwdkRyS2VaN1ZjUjE1MVZRTW1Ca0lmZks0N2FHaGdzYjFQcThJNnVDbmsxdzRGb3pXVTBKTEFFQW1VQ2FMSlNObl9NYmU3ZXhQaGJtZG9Yd0RoS2prbEE?oc=5",
+          "fecha": "2026-11-10 14:37"
+        }
+      ],
+      "grupo": "portafolio"
+    },
+    {
+      "clave": "BVC",
+      "nombre": "Bolsa de Valores de Colombia",
+      "estado": "sin_noticias",
+      "noticias": [],
+      "grupo": "portafolio"
+    },
+    {
+      "clave": "TQQQ",
+      "nombre": "ProShares UltraPro QQQ",
+      "estado": "sin_noticias",
+      "noticias": [],
+      "grupo": "portafolio"
+    },
+    {
+      "clave": "COPX",
+      "nombre": "Global X Copper Miners ETF",
+      "estado": "sin_noticias",
+      "noticias": [],
+      "grupo": "portafolio"
+    }
+  ]
+}
