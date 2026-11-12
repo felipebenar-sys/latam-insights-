@@ -575,7 +575,7 @@
             <p class="pp-sub">Each company's most advanced drug and its next step.</p>
             <table>
                 <colgroup><col class="c1"><col class="c2"><col class="c3"><col class="c4"><col class="c5"></colgroup>
-                <thead><tr><th>Company</th><th>Drug</th><th>Phase</th><th>Disease</th><th>Next milestone</th></tr></thead>
+                <thead><tr><th>Company</th><th>Drug</th><th>Phase</th><th>Disease</th><th>Next catalyst</th></tr></thead>
                 <tbody>${filas}</tbody>
             </table>`;
     }
@@ -606,7 +606,7 @@
         <div class="hidden md:block overflow-hidden rounded-xl border border-stone-800">
             <table class="w-full text-sm text-left">
                 <thead class="bg-stone-900 text-stone-500 text-xs uppercase tracking-wider">
-                    <tr><th class="px-4 py-3 font-bold">Company</th><th class="px-4 py-3 font-bold">Drug</th><th class="px-4 py-3 font-bold">Phase</th><th class="px-4 py-3 font-bold">Disease</th><th class="px-4 py-3 font-bold">Next milestone</th></tr>
+                    <tr><th class="px-4 py-3 font-bold">Company</th><th class="px-4 py-3 font-bold">Drug</th><th class="px-4 py-3 font-bold">Phase</th><th class="px-4 py-3 font-bold">Disease</th><th class="px-4 py-3 font-bold">Next catalyst</th></tr>
                 </thead>
                 <tbody class="divide-y divide-stone-800">${filas.map(c => `
                     <tr class="hover:bg-stone-900/60 align-top">
