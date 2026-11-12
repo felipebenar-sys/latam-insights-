@@ -6,9 +6,9 @@
     "fuente": "Superintendencia Financiera vía datos.gov.co"
   },
   "brent": {
-    "valor": 92.28,
-    "cambio_pct": -0.31,
-    "fecha": "2026-11-10",
+    "valor": 91.99,
+    "cambio_pct": 0.55,
+    "fecha": "2026-11-11",
     "fuente": "ICE vía Yahoo Finance"
   },
   "colcap": {
