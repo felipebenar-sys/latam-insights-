@@ -518,7 +518,7 @@
     function fichaBiotech(c) {
         const prox = (c.hitos || [])[0];
         return `
-        <div data-ficha="${esc(c.ticker)}" class="group/ficha bg-stone-900 border border-stone-800 rounded-xl p-5 flex flex-col">
+        <div id="ficha-${esc(c.ticker)}" data-ficha="${esc(c.ticker)}" class="scroll-mt-32 group/ficha bg-stone-900 border border-stone-800 rounded-xl p-5 flex flex-col">
             <div class="flex items-baseline justify-between gap-2 mb-2">
                 <p class="text-white font-bold text-lg">${esc(c.nombre)}</p>
                 <span class="text-sky-300 text-xs font-semibold">${String(c.bolsa || '').includes(':') ? esc(c.bolsa) : `${esc(c.bolsa)}: ${esc(c.ticker)}`}</span>
@@ -600,6 +600,7 @@
     function panoramaBiotech(pan) {
         const fase = f => `<button type="button" data-termino="${esc(f)}" class="bg-sky-400/10 text-sky-300 border border-sky-400/30 hover:border-sky-300 text-xs font-semibold px-2 py-0.5 rounded-md cursor-help whitespace-nowrap">${esc(f)}</button>`;
         const fuente = c => c.fuente_url ? `<a href="${esc(safeUrl(c.fuente_url))}" target="_blank" rel="noopener noreferrer" class="tap-amplio text-stone-500 hover:text-amber-400 underline underline-offset-2 text-xs">Source</a>` : '';
+        const tk = c => `<a href="#ficha-${esc(c.ticker)}" data-ir-ficha="${esc(c.ticker)}" title="See company details" class="tap-amplio text-sky-300 hover:text-amber-400 text-xs font-semibold underline decoration-dotted underline-offset-2">${esc(c.ticker)}</a>`;
         const filas = pan.companias || [];
         const tabla = `
         <div class="hidden md:block overflow-hidden rounded-xl border border-stone-800">
@@ -609,7 +610,7 @@
                 </thead>
                 <tbody class="divide-y divide-stone-800">${filas.map(c => `
                     <tr class="hover:bg-stone-900/60 align-top">
-                        <td class="px-4 py-3"><span class="text-white font-semibold">${esc(c.nombre)}</span> <span class="text-sky-300 text-xs">${esc(c.ticker)}</span></td>
+                        <td class="px-4 py-3"><span class="text-white font-semibold">${esc(c.nombre)}</span> ${tk(c)}</td>
                         <td class="px-4 py-3 text-amber-300">${esc(c.medicamento)}</td>
                         <td class="px-4 py-3">${fase(c.fase)}</td>
                         <td class="px-4 py-3 text-stone-300">${esc(c.enfermedad)}</td>
@@ -621,7 +622,7 @@
         const lista = `
         <ul class="md:hidden divide-y divide-stone-800 border-y border-stone-800">${filas.map(c => `
             <li class="py-3">
-                <div class="flex items-baseline justify-between gap-2"><span class="text-white font-semibold">${esc(c.nombre)}</span><span class="text-sky-300 text-xs">${esc(c.ticker)}</span></div>
+                <div class="flex items-baseline justify-between gap-2"><span class="text-white font-semibold">${esc(c.nombre)}</span>${tk(c)}</div>
                 <div class="flex flex-wrap items-center gap-x-2 gap-y-1 mt-1 text-sm"><span class="text-amber-300">${esc(c.medicamento)}</span>${fase(c.fase)}<span class="text-stone-400">${esc(c.enfermedad)}</span></div>
                 <p class="text-sm text-stone-300 mt-1"><span class="text-amber-400 text-xs">${esc(c.hito_fecha)}</span> · ${esc(c.hito)} ${fuente(c)}</p>
             </li>`).join('')}
@@ -692,6 +693,18 @@
             const cias = d.companias || [];
             cont.innerHTML = cias.length ? cias.map(fichaBiotech).join('') : vacio('No company profiles yet.');
             cont.removeAttribute('aria-busy');
+            const irFicha = t => {
+                const el = document.getElementById('ficha-' + t);
+                if (!el) return;
+                const det = el.querySelector('details'); if (det) det.open = true;
+                el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                el.classList.add('ring-2', 'ring-amber-400');
+                setTimeout(() => el.classList.remove('ring-2', 'ring-amber-400'), 1800);
+            };
+            document.querySelectorAll('[data-ir-ficha]').forEach(a => a.addEventListener('click', e => {
+                e.preventDefault(); history.replaceState(null, '', '#ficha-' + a.dataset.irFicha); irFicha(a.dataset.irFicha);
+            }));
+            if (/^#ficha-/.test(location.hash)) setTimeout(() => irFicha(decodeURIComponent(location.hash.slice(7))), 50);
             const f = document.getElementById('bio-empresas-fecha');
             if (f && d.actualizado) f.textContent = 'Data as of ' + d.actualizado;
         }).catch(() => { cont.innerHTML = vacio('We could not load this section right now.'); });
