@@ -704,6 +704,10 @@
         initPopover();
         fetch('data/biotech.json', { cache: 'no-store' }).then(r => r.json()).then(d => {
             FASES_BIO = Object.assign({}, d.fases || {}, d.enfermedades || {});
+            const porNombre = (x, y) => String(x.nombre).localeCompare(String(y.nombre), 'en', { sensitivity: 'base' });
+            if (d.panorama && d.panorama.companias) d.panorama.companias.sort(porNombre);
+            if (d.companias) d.companias.sort(porNombre);
+            const nTotal = document.getElementById('bio-total'); if (nTotal && (d.companias || []).length) nTotal.textContent = d.companias.length;
             if (d.panorama && (d.panorama.companias || []).length) {
                 document.getElementById('bio-panorama').innerHTML = panoramaBiotech(d.panorama);
                 if (d.panorama.actualizado) document.getElementById('bio-panorama-fecha').textContent = 'Data as of ' + d.panorama.actualizado;

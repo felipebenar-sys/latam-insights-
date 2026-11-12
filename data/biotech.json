@@ -15,6 +15,16 @@
     "actualizado": "Nov 1, 2026",
     "companias": [
       {
+        "nombre": "Arcus Biosciences",
+        "ticker": "RCUS",
+        "medicamento": "Casdatifan",
+        "fase": "Phase 3",
+        "enfermedad": "Clear cell kidney cancer",
+        "hito": "Start of the phase 3 study PEAK-20, as a first treatment",
+        "hito_fecha": "Before end of 2026",
+        "fuente_url": "https://s202.q4cdn.com/599190870/files/doc_news/Arcus-Presents-New-Data-from-ARC-20-that-Demonstrate-the-Opportunity-for-Casdatifan-to-Become-a-Foundational-Treatment-Across-All-Lin-N7V7C.pdf"
+      },
+      {
         "nombre": "Ascentage Pharma",
         "ticker": "AAPG",
         "medicamento": "Olverembatinib",
@@ -103,16 +113,6 @@
         "hito": "FDA deadline to decide on QTORIN rapamycin",
         "hito_fecha": "Feb 28, 2027",
         "fuente_url": "https://www.globenewswire.com/news-release/2026/10/28/3390054/0/en/palvella-announces-fda-acceptance-and-priority-review-of-qtorin-rapamycin-nda-february-28-2027-pdufa-target-action-date-set.html"
-      },
-      {
-        "nombre": "Arcus Biosciences",
-        "ticker": "RCUS",
-        "medicamento": "Casdatifan",
-        "fase": "Phase 3",
-        "enfermedad": "Clear cell kidney cancer",
-        "hito": "Start of the phase 3 study PEAK-20, as a first treatment",
-        "hito_fecha": "Before end of 2026",
-        "fuente_url": "https://s202.q4cdn.com/599190870/files/doc_news/Arcus-Presents-New-Data-from-ARC-20-that-Demonstrate-the-Opportunity-for-Casdatifan-to-Become-a-Foundational-Treatment-Across-All-Lin-N7V7C.pdf"
       },
       {
         "nombre": "Relay Therapeutics",
@@ -271,6 +271,40 @@
     ]
   },
   "companias": [
+    {
+      "ticker": "RCUS",
+      "nombre": "Arcus Biosciences",
+      "bolsa": "NYSE",
+      "medicamento_principal": {
+        "nombre": "Casdatifan",
+        "fase": "Phase 3",
+        "enfermedad": "Clear cell kidney cancer"
+      },
+      "que_hace": "Develops cancer drugs and drugs for inflammatory diseases. Casdatifan is a pill that blocks HIF-2α, a protein that drives the growth of the most common type of kidney cancer.",
+      "estado": "Its phase 3 study PEAK-1 compares casdatifan plus cabozantinib against cabozantinib alone. In data from the ARC-20 study presented in October 2026, with that combination as a second treatment, patients went a median of 14.5 months without the cancer getting worse.",
+      "hitos": [
+        {
+          "texto": "Start of the phase 3 study PEAK-20, as a first treatment",
+          "fecha": "Before end of 2026"
+        },
+        {
+          "texto": "Finishes enrolling patients for PEAK-1",
+          "fecha": "Before end of 2026"
+        },
+        {
+          "texto": "Results of quemliclustat in pancreatic cancer (PRISM-1)",
+          "fecha": "H1 2027"
+        }
+      ],
+      "fuente_url": "https://s202.q4cdn.com/599190870/files/doc_news/Arcus-Presents-New-Data-from-ARC-20-that-Demonstrate-the-Opportunity-for-Casdatifan-to-Become-a-Foundational-Treatment-Across-All-Lin-N7V7C.pdf",
+      "endpoints": {
+        "estudio": "PEAK-1 (phase 3)",
+        "items": [
+          "PFS: no results reported yet"
+        ],
+        "fuente_url": "https://ctv.veeva.com/study/randomized-phase-3-trial-of-casdatifan-and-cabozantinib-versus-placebo-and-cabozantinib-in-patients"
+      }
+    },
     {
       "ticker": "AAPG",
       "nombre": "Ascentage Pharma",
@@ -533,40 +567,6 @@
           "mLM-IGA at week 24: +2.13 points on average (p<0.001)"
         ],
         "fuente_url": "https://practicaldermatology.com/news/phase-3-qtorin-rapamycin-meets-all-primary-secondary-endpoints-in-microcystic-lymphatic-malformations/2485806/"
-      }
-    },
-    {
-      "ticker": "RCUS",
-      "nombre": "Arcus Biosciences",
-      "bolsa": "NYSE",
-      "medicamento_principal": {
-        "nombre": "Casdatifan",
-        "fase": "Phase 3",
-        "enfermedad": "Clear cell kidney cancer"
-      },
-      "que_hace": "Develops cancer drugs and drugs for inflammatory diseases. Casdatifan is a pill that blocks HIF-2α, a protein that drives the growth of the most common type of kidney cancer.",
-      "estado": "Its phase 3 study PEAK-1 compares casdatifan plus cabozantinib against cabozantinib alone. In data from the ARC-20 study presented in October 2026, with that combination as a second treatment, patients went a median of 14.5 months without the cancer getting worse.",
-      "hitos": [
-        {
-          "texto": "Start of the phase 3 study PEAK-20, as a first treatment",
-          "fecha": "Before end of 2026"
-        },
-        {
-          "texto": "Finishes enrolling patients for PEAK-1",
-          "fecha": "Before end of 2026"
-        },
-        {
-          "texto": "Results of quemliclustat in pancreatic cancer (PRISM-1)",
-          "fecha": "H1 2027"
-        }
-      ],
-      "fuente_url": "https://s202.q4cdn.com/599190870/files/doc_news/Arcus-Presents-New-Data-from-ARC-20-that-Demonstrate-the-Opportunity-for-Casdatifan-to-Become-a-Foundational-Treatment-Across-All-Lin-N7V7C.pdf",
-      "endpoints": {
-        "estudio": "PEAK-1 (phase 3)",
-        "items": [
-          "PFS: no results reported yet"
-        ],
-        "fuente_url": "https://ctv.veeva.com/study/randomized-phase-3-trial-of-casdatifan-and-cabozantinib-versus-placebo-and-cabozantinib-in-patients"
       }
     },
     {
