@@ -5,111 +5,32 @@ La sección de noticias diarias se llama **Hoy** (página `yentonces.html`, dato
 Este archivo es la fuente única de reglas editoriales. Lo usa hoy la tarea programada de Claude y, más adelante, el script con la API de Anthropic. Si cambias una regla, cámbiala aquí.
 
 ## Prioridades de la edición (decisión del dueño)
-**Hoy trae únicamente noticias que se relacionen directamente con las 15 compañías de la sección Biotechnology** (categoría `biotecnologia`, formato `hechos`): publica todas las noticias relevantes de esas compañías, sin límite de cantidad. Ya **no** se publican notas de Colombia y mercados, de La región ni de Mi portafolio en Hoy: el sitio dejó de enfocarse en Colombia y ahora se enfoca en biotecnología. Si un día no hay noticias relevantes de las 15 compañías, no publiques ninguna (nunca rellenes). Las secciones de abajo sobre Colombia, La región y Mi portafolio quedan como referencia histórica y **no se aplican**.
+**Hoy trae únicamente noticias que se relacionen directamente con las 15 compañías de la sección Biotechnology** (categoría `biotecnologia`, formato `hechos`): publica todas las noticias relevantes de esas compañías, sin límite de cantidad. Ya **no** se publican notas de Colombia y mercados, de La región ni de Mi portafolio en Hoy: el sitio dejó de enfocarse en Colombia y ahora se enfoca en biotecnología. Si un día no hay noticias relevantes de las 15 compañías, no publiques ninguna (nunca rellenes).
 
 ## Cuándo corre
 **De lunes a viernes** (no corre sábados ni domingos, para ahorrar). La corrida empieza a las 8:40 a. m. hora Bogotá para que la edición quede publicada hacia las 9:00 a. m.: la sección Hoy debe quedar publicada en unos 20 minutos.
 
 ## Tiempo y eficiencia (obligatorio)
-1. **No leas los archivos de `data/` completos** (no hace falta: `estado` resume lo necesario) ni los reescribas a mano. Usa `python3 bot/publicar.py estado` para saber la fecha, si ya hay notas de hoy, los siguientes id, los indicadores actuales, los términos del glosario y la lista de URL ya publicadas (`/tmp/stag_urls.txt`). Para publicar, escribe las notas nuevas en un archivo temporal y agrégalas con `python3 bot/publicar.py agregar hoy|latam ARCHIVO.json`; los términos nuevos con `glosario ARCHIVO.json` (antes de agregar las notas) y los indicadores con `mercado ARCHIVO.json`. El script valida campos, términos, puntajes y URL repetidas y pone la hora real en `actualizado`; si rechaza algo, corrige el archivo temporal y vuelve a correrlo. Termina con `python3 bot/publicar.py validar`.
+1. **No leas los archivos de `data/` completos** (no hace falta: `estado` resume lo necesario) ni los reescribas a mano. Usa `python3 bot/publicar.py estado` para saber la fecha, si ya hay notas de hoy, los siguientes id, los términos del glosario y la lista de URL ya publicadas (`/tmp/stag_urls.txt`). Para publicar, escribe las notas nuevas en un archivo temporal y agrégalas con `python3 bot/publicar.py agregar hoy|latam ARCHIVO.json`; los términos nuevos con `glosario ARCHIVO.json` (antes de agregar las notas) . El script valida campos, términos, puntajes y URL repetidas y pone la hora real en `actualizado`; si rechaza algo, corrige el archivo temporal y vuelve a correrlo. Termina con `python3 bot/publicar.py validar`.
 1b. **Pre-revisión automática (obligatorio, ahorra búsquedas):** antes de buscar noticias de biotecnología, corre `python3 -c "import json;d=json.load(open('data/pendientes.json'));print(d['fecha'],d['ventana_horas']);[print(a['grupo'],a['clave'],a['estado'],*[n['titulo']+' <'+n['url']+'>' for n in a['noticias']],sep=' | ') for a in d['activos']]"`. Ese archivo lo genera `bot/novedades.py` (GitHub Action, sin IA) con los titulares de las últimas 48 horas (96 los lunes) de las 15 compañías. **Si la fecha del archivo es la de hoy:** revisa a fondo (WebSearch con el nombre y la fecha, página de inversionistas y apertura del comunicado) **solo** los activos con estado `con_noticias` y `sin_revisar`; **no busques** los `sin_noticias`. Los titulares son pistas: confirma el hecho en la fuente primaria (comunicado, 8-K, FDA, Superfinanciera) y descarta lo que no cumpla las reglas. **Si el archivo no existe o su fecha no es la de hoy:** ignóralo y revisa las 15 compañías una por una, como antes.
 2. **Una sola vez por fuente:** cada URL se intenta una vez. Si una página no responde, falla o pide permiso, sigue con la siguiente fuente de la lista; no busques sitios alternos fuera de los indicados aquí.
-3. **Lee primero los titulares:** revisa los RSS, preselecciona por título y descripción, y abre el artículo completo solo de las ~3 mejores candidatas de Colombia y mercados y de las ~2 mejores de La región; de Mi portafolio y biotecnología abre todas las candidatas.
-4. **Una sola publicación:** cuando tengas todas las notas del día (biotecnología, Mi portafolio, la nota de Colombia y mercados y la de La región) y los indicadores, valida y publica todo en un solo commit ("Edición AAAA-MM-DD") y un push.
+3. **Lee primero los titulares:** usa la pre-revisión y abre el comunicado solo de las compañías con candidatas.
+4. **Una sola publicación:** cuando tengas todas las notas de biotecnología del día, valida y publica todo en un solo commit ("Edición AAAA-MM-DD") y un push.
 5. **Límite de tiempo:** si a las 9:05 a. m. (hora Bogotá) todavía estás buscando, deja de buscar y publica lo que tengas validado.
 
-## Fuentes (RSS)
-- La República: https://www.larepublica.co/rss
-- Portafolio, economía: https://www.portafolio.co/rss/economia.xml
-- Portafolio, negocios: https://www.portafolio.co/rss/negocios.xml
-- Portafolio, internacional: https://www.portafolio.co/rss/internacional.xml
-- Valora Analitik: https://www.valoraanalitik.com/feed/
-- El Tiempo, economía: https://www.eltiempo.com/rss/economia.xml
-- Semana, economía: https://www.semana.com/arc/outboundfeeds/rss/category/economia/?outputType=xml
-- Bloomberg Línea: https://www.bloomberglinea.com/arc/outboundfeeds/rss/?outputType=xml
+## Fuentes (solo biotecnología)
+**No se usan medios de Colombia ni de América Latina** (ni RSS ni portadas de La República, Portafolio, Valora Analitik, El Tiempo, Semana, Bloomberg Línea, InfoMoney, El Financiero, Ámbito, Infobae). No los consultes: gastan tokens y ya no son parte del sitio.
 
-Fuentes de **La región** (ver la sección "La región" abajo):
-- Brasil, InfoMoney (en portugués): https://www.infomoney.com.br/feed/
-- México, El Financiero, economía: https://www.elfinanciero.com.mx/arc/outboundfeeds/rss/category/economia/?outputType=xml
-- México, El Financiero, mercados: https://www.elfinanciero.com.mx/arc/outboundfeeds/rss/category/mercados/?outputType=xml
-- Argentina, Ámbito, economía: https://www.ambito.com/rss/pages/economia.xml
-- Argentina, Infobae, economía: https://www.infobae.com/arc/outboundfeeds/rss/category/economia/
-- Bloomberg Línea (el RSS general de arriba) también sirve para la región.
+Solo se usan las fuentes de cada compañía y de los reguladores (ver "Biotechnology en Hoy" abajo): página de inversionistas, GlobeNewswire, Business Wire, PR Newswire, 8-K de la SEC, comunicados de la FDA y WebSearch por nombre de compañía. Si WebFetch rechaza una URL por permiso (PROVENANCE_REQUIRED), no la reintentes: busca con WebSearch y abre las URL que devuelva.
 
-Páginas de portada (respaldo si un RSS falla; traen los titulares con sus enlaces):
-- La República: https://www.larepublica.co/
-- Valora Analitik: https://www.valoraanalitik.com/
-
-Chile y Perú no tienen RSS propio (los de Diario Financiero y Gestión se quitaron por fallar): sus noticias de alto impacto se buscan con WebSearch o en Bloomberg Línea.
-
-**Si WebFetch rechaza una URL por permiso** (error PROVENANCE_REQUIRED), no la reintentes: busca el medio con WebSearch y abre las URL que devuelva la búsqueda. Cualquier fuente que falle tres veces seguidas se quita de esta lista.
-
-X (Twitter) queda por fuera hasta que haya presupuesto para su API.
-
-## Qué noticias entran
-Solo noticias publicadas en las últimas ~24 horas sobre:
-- `bvc`: emisores listados en la Bolsa de Valores de Colombia (resultados, dividendos, información relevante, operaciones corporativas).
-- `macro`: macro Colombia (Banco de la República, inflación, tasa de cambio, TES, fiscal, regulación con impacto en mercado).
-- `commodities`: petróleo y commodities con impacto en Colombia.
-- `latam`: empresas latinoamericanas relevantes para el inversionista colombiano.
-- `internacional`: mercados internacionales (Reserva Federal, Wall Street, bonos de EE. UU., dólar global) cuando tengan efecto sobre Colombia.
-- `politica`: política económica y regulación (reformas, presupuesto, impuestos, pensiones, comercio exterior).
-- `sectores`: sectores reales (energía, construcción, vivienda, comercio, transporte, industria).
-- `region`: **La región**, noticias de Brasil, México y Argentina (y de Chile o Perú cuando sean de alto impacto). Tiene reglas propias: ver la sección "La región" abajo.
-
-Excluidas de la sección Hoy: biotecnología (tiene su propia página, que no publica noticias; ver "Biotecnología" abajo), opinión, entretenimiento, deportes, política sin impacto de mercado, contenido promocional.
-
-## Cómo se eligen las noticias (puntaje de relevancia)
-1. Revisa **todas** las fuentes y arma la lista de candidatas que cumplan los temas de arriba. Si una noticia aparece en varios medios, es una sola candidata (usa la fuente más completa). Descarta las URL ya publicadas (lista en `/tmp/stag_urls.txt`, que crea `python3 bot/publicar.py estado`).
-2. Califica cada candidata de 0 a 10 con estos criterios:
-   - **Alcance (0–4):** cuántos de los cuatro tipos de activo (acciones colombianas, renta fija, dólar/exterior, CDT y ahorro) tendrían un efecto distinto de "neutral". En la nota publicada debe coincidir con el número de activos no neutrales del bloque `impacto`.
-   - **Materialidad (0–3):** 3 = mueve directamente tasas de interés, dólar, finanzas públicas o resultados de emisores grandes de la BVC; 2 = efecto indirecto o concentrado en un sector; 1 = efecto marginal; 0 = sin efecto económico.
-   - **Novedad (0–2):** 2 = dato, decisión o hecho nuevo (cifra oficial, decisión de política, resultado, evento); 1 = anuncio, propuesta, proyección o negociación en curso; 0 = análisis, recopilación o seguimiento de algo ya conocido.
-   - **Fuente (0–1):** 1 si el artículo trae cifras verificables y cita fuentes primarias; 0 si no.
-3. **Prioridad automática:** tienen preferencia para ocupar el único cupo de Colombia y mercados, aunque su puntaje sea menor, las decisiones de tasa del Banco de la República, los datos del DANE (inflación, PIB, desempleo), las medidas del Ministerio de Hacienda con efecto fiscal y la información relevante de emisores de la BVC publicada en las últimas 24 horas.
-4. Publica **una sola nota de Colombia y mercados** (todas las categorías menos `region`, `portafolio` y `biotecnologia`): la de mayor puntaje. La de `region` se elige aparte (ver "La región"). No publiques candidatas con puntaje menor a 5 (salvo prioridad automática). Si un día no hay candidatas con 5 o más, no publiques ninguna; nunca rellenes.
-5. Ordena las notas de la edición de mayor a menor puntaje y guarda el puntaje en cada nota (campo `puntaje`).
-
-## La región (categoría `region`)
-La página Hoy incluye **La región**: lo más importante de las economías grandes de América Latina. Sus notas van mezcladas con las demás de la edición, ordenadas por puntaje, con una etiqueta del país. Se publica en la misma corrida y en el mismo archivo (`data/notas.json`), con `python3 bot/publicar.py agregar hoy`, en la misma edición y con la numeración normal de id.
-
-**Países:** Brasil, México y Argentina tienen prioridad. Chile y Perú entran solo con noticias de alto impacto (decisión de tasa del banco central, elecciones, crisis, cambio de calificación soberana). Cada nota lleva el campo `pais`: `"Brasil"`, `"México"`, `"Argentina"`, `"Chile"` o `"Perú"`.
-
-**Qué entra:** decisiones de tasa y comunicados de los bancos centrales (Banco Central do Brasil, Banxico, BCRA, Banco Central de Chile, BCRP); inflación, PIB, empleo y cifras fiscales oficiales; movimientos fuertes de la moneda, la bolsa o el riesgo país; elecciones, reformas y medidas económicas de gobierno; calificaciones soberanas; y hechos de grandes empresas de esos países que muevan su mercado. Mismas reglas de vigencia (~24 horas). Si la noticia es de un activo de Mi portafolio (por ejemplo MercadoLibre o Nu), va con categoría `portafolio` y no aquí.
-
-**Cuántas:** una sola nota por día, la de mayor puntaje entre todos los países (0 si ninguna llega al mínimo). Mínimo 5 puntos para entrar. Si un día no hay noticias regionales con 5 puntos o más, no publiques ninguna (nunca rellenes).
-
-**Puntaje para La región:** los mismos cuatro criterios, con esta materialidad:
-- **Materialidad (0–3):** 3 = mueve las tasas, la moneda, la bolsa o las finanzas públicas de Brasil, México o Argentina, o afecta directamente a emisores de la BVC con negocios en ese país; 2 = efecto sectorial o indirecto, o un hecho macro mayor de Chile o Perú; 1 = efecto marginal; 0 = sin efecto económico.
-- **Alcance (0–4)**, **Novedad (0–2)** y **Fuente (0–1)**: igual que en las demás notas.
-
-**Formato:** igual que cualquier nota de Hoy, más `pais`. Las lecturas alcista y bajista, `peso_alcista` y el bloque `impacto` se escriben desde la perspectiva de quien invierte desde Colombia:
-- `dolar` (ahorros e inversiones en dólares o en el exterior) es el activo que más se mueve: incluye acciones, ETF o fondos de ese país o de la región, medidos en pesos.
-- `acciones` se marca distinto de "neutral" solo si la noticia afecta a emisores de la BVC con negocios en ese país (por ejemplo, ISA o Grupo Energía Bogotá en Brasil, Perú o Chile) o al mercado colombiano por contagio regional, y el `detalle` explica cómo.
-- `renta_fija` y `cdt`: "neutral" salvo que haya un canal claro hacia las tasas en Colombia.
-- El `contexto` explica en una frase por qué esa economía le importa a quien invierte desde Colombia.
-- Las fuentes en portugués se cuentan en español, con tus palabras (nunca traduzcas frases textuales).
-
-## Formato de cada nota
-- `titulo`: titular propio, claro, máximo ~90 caracteres. No copies el titular del medio.
-- `resumen`: qué pasó, en 1 a 2 frases con tus palabras. Es lo que se ve en la portada.
-- `contexto`: antecedentes en 2 a 4 frases: cifras de comparación, causas y hechos relacionados, solo los que aparezcan en la fuente.
-- `afectados`: lista de 2 a 5 etiquetas cortas con quién se ve afectado (emisores, sectores o variables), por ejemplo "Ecopetrol", "Bancos", "Peso colombiano", "TES".
-- `alcista`: lectura alcista (bullish) en 3 a 5 frases: por qué podría ser positivo, para quién y por qué mecanismo.
-- `bajista`: lectura bajista (bearish) en 3 a 5 frases: por qué podría ser negativo, para quién y por qué mecanismo.
-- `peso_alcista`: ponderación de la lectura alcista, entero entre 20 y 80 en múltiplos de 5 (la bajista es 100 menos ese número). Refleja cuál de las dos lecturas tiene más sustento en la evidencia de la fuente, desde la perspectiva del mercado colombiano. Usa 50 solo cuando el balance sea realmente parejo; no lo uses por defecto.
-- `impacto`: cómo afecta la noticia al portafolio, después de ponderar las dos lecturas. Tiene dos partes:
-  - `conclusion`: 2 a 4 frases. Empieza diciendo qué lectura pesa más y por qué, y luego explica qué significa para quien invierte. Debe ser coherente con `peso_alcista` (la página calcula el "efecto neto" a partir de ese número: 70-80 positivo, 55-65 moderadamente positivo, 50 neutral, 35-45 moderadamente negativo, 20-30 negativo).
-  - `activos`: exactamente cuatro elementos, en este orden: `acciones` (acciones colombianas), `renta_fija` (TES y bonos ya en el portafolio: si las tasas suben, su precio baja), `dolar` (ahorros e inversiones en dólares o en el exterior, medidos en pesos) y `cdt` (CDT y ahorro en pesos: tasas altas los favorecen). Cada uno con `efecto` (`positivo`, `negativo`, `neutral` o `mixto`) y `detalle` (una frase con el porqué). Usa `neutral` con "Sin efecto directo." cuando la noticia no toque ese activo.
-  - Es un efecto general por tipo de activo, nunca una recomendación: no digas qué hacer con el portafolio.
-- `mirar`: el próximo dato, fecha o anuncio que confirmaría o cambiaría la lectura (1 frase).
-- `terminos`: lista de 2 a 5 términos técnicos usados en la nota que un inversionista no profesional podría no conocer (por ejemplo "TES", "Prima de riesgo país"). Cada término debe existir en `data/glosario.json` con exactamente el mismo nombre.
+## Qué entra
+Solo noticias de las últimas ~48 horas (96 los lunes) que se relacionen directamente con las 15 compañías de Biotechnology, en formato de solo hechos y sin puntaje. Todo lo demás se descarta.
 
 ## Reglas obligatorias
 1. **Derechos de autor:** nunca copies frases del artículo. Todo va con tus palabras, y siempre con el enlace a la fuente original.
 2. **Solo hechos de la fuente:** no inventes cifras, fechas ni citas. Si un dato no está en la fuente, no lo pongas. Ante la duda, omite.
 3. **No es recomendación:** prohibido "comprar", "vender", "mantener", precios objetivo o instrucciones de acción. Las lecturas son escenarios, no consejos.
-4. **Siempre los dos lados:** toda nota lleva lectura alcista y bajista, aunque uno de los lados sea más débil.
+4. **Sin lecturas de mercado:** las notas de biotecnología son de solo hechos (ver reglas especiales abajo).
 5. **Tono y público:** español neutro y profesional, dirigido a inversionistas no profesionales. La pregunta que responde cada nota es: ¿cómo afecta esto a mi portafolio? Claro y preciso, sin sensacionalismo y sin coloquialismos. Cuando la nota se dirija al lector, tutéalo ("tu portafolio", "si tienes TES"), como el resto del sitio; nunca uses "usted"; los términos técnicos se explican en el glosario.
 6. **Sin nombres propios del autor:** la firma es siempre Stag Research.
 7. **Sin menciones al proceso:** no indiques en las notas que fueron generadas automáticamente ni menciones herramientas o modelos.
@@ -124,25 +45,7 @@ La página `glosario.html` muestra los "Términos del día" (los de la edición 
 La definición va en 2 a 4 frases, en lenguaje sencillo para un inversionista no profesional: qué es y por qué le importa a quien invierte. Aquí sí puedes usar conocimiento general (no viene de la noticia), pero solo conceptos establecidos y sin cifras que cambien con el tiempo. No modifiques las definiciones existentes salvo para corregir un error.
 
 ## Indicadores (`data/mercado.json`)
-En cada edición actualiza los indicadores de la barra superior. Primero mira con `python3 bot/publicar.py estado` qué fechas tienen ya: si un indicador ya tiene el dato del último día hábil (por ejemplo, un sábado, domingo o festivo), no lo busques. Para cada indicador, intenta las fuentes en este orden, una vez cada una. **Si todas fallan (por ejemplo, con PROVENANCE_REQUIRED), haz una búsqueda con WebSearch** (por ejemplo, "precio Brent cierre [fecha]", "MSCI Colcap cierre [fecha]") y abre una o dos de las URL que devuelva. Acepta solo un dato con fecha explícita de un medio de noticias, una comisionista de bolsa o la entidad oficial (no widgets ni conversores de divisas). Si tampoco así hay un dato con fecha, conserva el valor anterior. En `fuente` pon el origen del dato y el medio (por ejemplo, "BVC vía Acciones y Valores").
-- **Dólar/peso (USD/COP):** la GitHub Action `.github/workflows/indicadores.yml` (script `bot/indicadores.py`, símbolo `USDCOP=X` de Yahoo Finance) lo actualiza sola, igual que el Brent. Es una cotización de mercado, no la TRM oficial. La edición diaria no lo toca ni lo busca.
-- **Brent:** la GitHub Action `.github/workflows/indicadores.yml` (script `bot/indicadores.py`, con Yahoo Finance) lo actualiza sola a las 4:17 a. m. y a las 4:27 p. m. hora Bogotá. Si `estado` ya muestra el cierre del último día hábil, no lo busques. Si no, (1) la nota diaria de La República sobre precios del dólar y del petróleo; (2) `https://www.larepublica.co/indicadores-economicos/commodities/petroleo`.
-- **Precios de Mi portafolio** (`data/precios.json`, se muestran en `portafolio.html`): los actualiza la misma GitHub Action. La edición diaria no los toca.
-- **MSCI COLCAP** (Yahoo Finance no tiene el índice, así que no es automático): la nota de cierre de la BVC de Valora Analitik o La República del último día hábil (en los RSS o en sus portadas): último valor, variación porcentual y fecha.
-- **Tasa del Banco de la República** e **inflación anual:** actualízalas solo cuando una noticia o fuente oficial informe un cambio (decisión de la junta del Banco de la República; dato mensual del IPC del DANE). Si no hay cambio, deja el valor anterior.
-
-Si una fuente no responde, conserva el valor anterior de ese indicador. El MSCI COLCAP se actualiza todos los días hábiles: revisa que su fecha corresponda al último día hábil antes de publicar. Formato:
-
-```json
-{
-  "usdcop": { "valor": 3307.36, "cambio_pct": 1.01, "fecha": "2026-11-11", "fuente": "Dólar/peso colombiano (mercado) vía Yahoo Finance" },
-  "brent": { "valor": 104.72, "cambio_pct": 0.42, "fecha": "2026-10-09", "fuente": "Investing.com" },
-  "colcap": { "valor": 2531.23, "cambio_pct": 0.23, "fecha": "2026-10-09", "fuente": "BVC vía La República" },
-  "tasa_banrep": { "valor": 12.25, "fuente": "Banco de la República" },
-  "inflacion": { "valor": 6.29, "periodo": "sep 2026", "fuente": "DANE" },
-  "actualizado": "AAAA-MM-DD"
-}
-```
+**La corrida diaria ya no busca indicadores** (COLCAP, tasa del Banco de la República, inflación): no uses medios colombianos para eso. Los de Yahoo Finance (USD/COP, Brent) los sigue actualizando la GitHub Action `indicadores.yml` sin IA.
 
 
 ## Biotechnology (`data/biotech.json`, página `biotecnologia.html`; en el menú se llama Biotechnology)
@@ -184,88 +87,7 @@ Si una fuente no responde, conserva el valor anterior de ese indicador. El MSCI 
 Valida el archivo con `python3 -m json.tool data/biotech.json` y `python3 bot/publicar.py validar` antes del commit ("Biotecnología: actualización mensual AAAA-MM").
 
 ## Dónde se publica
-Se agrega al inicio del arreglo `notas` de `data/notas.json` y se actualiza `actualizado`, siempre con `python3 bot/publicar.py agregar hoy ARCHIVO.json` (el archivo lleva `{"notas": [...]}`). La hora de `actualizado` debe ser la hora real de publicación; el script la toma del reloj, así que nunca la escribas de memoria ni la estimes. Formato: "12 oct 2026, 9:15 a. m. (hora Bogotá)". Esquema de cada nota:
-
-```json
-{
-  "id": "2026-10-12-01",
-  "fecha": "2026-10-12",
-  "categoria": "bvc | macro | commodities | latam | internacional | politica | sectores | region",
-  "pais": "solo en categoría region: Brasil | México | Argentina | Chile | Perú",
-  "puntaje": { "total": 8, "alcance": 3, "materialidad": 3, "novedad": 1, "fuente": 1 },
-  "titulo": "",
-  "resumen": "",
-  "contexto": "",
-  "afectados": ["", ""],
-  "peso_alcista": 55,
-  "alcista": "",
-  "bajista": "",
-  "impacto": {
-    "conclusion": "",
-    "activos": [
-      { "activo": "acciones", "efecto": "negativo", "detalle": "" },
-      { "activo": "renta_fija", "efecto": "positivo", "detalle": "" },
-      { "activo": "dolar", "efecto": "neutral", "detalle": "Sin efecto directo." },
-      { "activo": "cdt", "efecto": "positivo", "detalle": "" }
-    ]
-  },
-  "mirar": "",
-  "terminos": ["TES", "Prima de riesgo país"],
-  "fuente": "Portafolio",
-  "url": "https://..."
-}
-```
-
-La portada (`index.html`) muestra las 3 notas más recientes en versión corta (título y resumen) y la página `yentonces.html` muestra la edición completa y el archivo histórico. Ambas leen ese archivo mediante `assets/notas.js`. El aviso legal ya está fijo al final de cada página.
-
-## Informe mensual de la deuda pública (dentro de Hoy)
-Se publica el día 15 de cada mes, en una tarea programada aparte. Es una nota de **solo hechos** dentro de la sección Hoy: sin lecturas alcista o bajista, sin ponderación, sin puntaje y sin impacto por activo.
-
-**Fuente:** https://deudacolombiana.com (reloj de la deuda pública bruta del Gobierno Nacional Central, con datos del Ministerio de Hacienda e Investor Relations Colombia). **Primero lee `data/deuda_corte.json`**, que genera `bot/deuda.py` (GitHub Action, sin IA, el día 15 a las 5:13 a. m. hora Bogotá) con las cifras ya extraídas de la página: corte, deuda bruta en billones de pesos, cambio frente al mes anterior y a 12 meses, % del PIB, PIB 2026 e intereses. Úsalo si su campo `leido` es de hoy. **Solo si el archivo no existe o `leido` no es de hoy**, léela con WebFetch una sola vez. **No leas ni cites el contador en vivo ni «por colombiano»**: son estimaciones no oficiales y el archivo no las incluye. Usa solo las cifras oficiales con su fecha de corte; el contador "en tiempo real" del sitio es una estimación y, si lo mencionas, dilo así. Si la página no carga o no trae un corte con fecha, no publiques nada y termina con "NO PUBLICADO:" y la razón.
-
-**Qué entra:** la deuda bruta total del último corte, la deuda como porcentaje del PIB, los intereses y el PIB que informe el archivo y cómo cambió frente al corte anterior y a 12 meses (campos `corte_anterior` y `hace_12_meses`). Convierte billones de pesos a texto claro (por ejemplo, 1.185,5 billones de pesos). Si el corte no cambió desde el informe del mes pasado (`python3 bot/publicar.py estado` muestra el último informe de la deuda con su corte y cifras), dilo en el resumen en lugar de repetir las cifras como si fueran nuevas.
-
-**Reglas:** las mismas reglas obligatorias de Hoy (derechos de autor, solo hechos de la fuente, sin recomendaciones, tuteo, firma Stag Research, sin menciones al proceso), más: prohibidos los calificativos como "preocupante", "alarmante", "positivo" o "negativo". Solo cifras y su explicación en lenguaje sencillo.
-
-**Formato** (se agrega con `python3 bot/publicar.py agregar hoy ARCHIVO.json`, que valida el formato `informe`):
-
-```json
-{
-  "id": "AAAA-MM-DD-01",
-  "fecha": "AAAA-MM-DD",
-  "categoria": "deuda",
-  "formato": "informe",
-  "fecha_noticia": "AAAA-MM-DD (fecha de corte de los datos)",
-  "titulo": "",
-  "resumen": "Qué muestra el último corte, 1 a 2 frases.",
-  "datos": [
-    { "etiqueta": "Deuda bruta", "valor": "" },
-    { "etiqueta": "Deuda / PIB", "valor": "" },
-    { "etiqueta": "Cambio en 12 meses", "valor": "" },
-    { "etiqueta": "Intereses del último año", "valor": "" }
-  ],
-  "contexto": "Comparación con cortes anteriores y hechos relacionados que traiga la fuente, 2 a 4 frases.",
-  "que_significa": "Explicación sencilla de las cifras, 2 a 4 frases, sin opinión.",
-  "mirar": "El próximo dato o fecha relevante (1 frase).",
-  "terminos": ["Deuda pública", "PIB"],
-  "fuente": "Deuda Colombiana (datos del Ministerio de Hacienda)",
-  "url": "https://deudacolombiana.com"
-}
-```
-
-`datos` lleva de 3 a 8 cifras cortas. Como la URL siempre es la misma, el script permite repetirla en notas de categoría `deuda`. Commit "Informe deuda pública AAAA-MM" y push a main.
-
-
-## Mi portafolio (dentro de Hoy, categoría `portafolio`)
-Noticias de los activos que Stag Research tiene en Mi portafolio. Van **mezcladas con las demás notas de Hoy**, ordenadas por puntaje, con el **formato completo** de Hoy (contexto, afectados, lecturas alcista y bajista, `peso_alcista`, `impacto` con los cuatro activos, `puntaje`, `mirar`, `terminos`) y todas sus reglas obligatorias. La página les pone el sello "En Mi portafolio" para que el lector sepa que hay una posición.
-
-**Activos (solo estos):** Nu Holdings (`NU`), JPMorgan Chase (`JPM`), MercadoLibre (`MELI`), Hermès (`RMS`, Euronext París), Brookfield Corporation (`BN`), Grupo Argos preferencial (`PFGRUPOARG`, BVC; las noticias de Grupo Argos sirven para esta acción), Bolsa de Valores de Colombia (`BVC`), ProShares UltraPro QQQ (`TQQQ`) y Global X Copper Miners ETF (`COPX`).
-
-**Fuentes:** comunicados y resultados de cada compañía (página de inversionistas, formularios de la SEC 8-K, 6-K, 10-Q y 20-F), información relevante de la Superfinanciera para PFGRUPOARG y BVC, los RSS de Hoy y WebSearch por nombre de compañía (una búsqueda por activo). Para TQQQ y COPX solo entran hechos del propio fondo (cambios en el fondo, en su índice o en su emisor) o del activo que siguen cuando sea un dato importante (por ejemplo, un movimiento fuerte del Nasdaq-100 o del precio del cobre). **No uses** sitios de alertas automáticas de acciones, cambios de calificación de analistas sin otra información ni notas de "acciones para comprar".
-
-**Qué entra:** noticias de las últimas ~48 horas (96 los lunes o después de un festivo): resultados, dividendos, recompras, emisiones, adquisiciones, cambios de gobierno corporativo o regulatorios y hechos del sector que afecten directamente al activo. **Sin límite de notas de portafolio:** publica todas las noticias relevantes de los 9 activos (una nota por hecho). Aplica el umbral de puntaje 5 y la regla de nunca rellenar. Revisa uno por uno los activos que indique la pre-revisión (paso 1b de «Tiempo y eficiencia»); si no hay pre-revisión de hoy, los 9.
-
-**Formato:** el de una nota de Hoy con `"categoria": "portafolio"` y `"empresa"` (el ticker de la lista). En `impacto`, el activo `dolar` explica el efecto para quien tiene ese activo en el exterior; las lecturas siguen siendo escenarios, nunca una recomendación de comprar, vender o mantener.
+Siempre con `python3 bot/publicar.py agregar hoy ARCHIVO.json` (el archivo lleva `{"notas": [...]}`), que agrega al inicio de `data/notas.json` y pone la hora real en `actualizado`; nunca la escribas a mano. El formato de cada nota está en "Biotechnology en Hoy". La portada (`index.html`) muestra las 3 notas más recientes y `yentonces.html` la edición completa, ambas con `assets/notas.js`.
 
 ## Biotechnology en Hoy (categoría `biotecnologia`, formato `hechos`)
 Noticias de las 15 compañías de la sección Biotecnología (ver la lista arriba). Van **mezcladas con las demás notas de Hoy**, en formato de **solo hechos**.
