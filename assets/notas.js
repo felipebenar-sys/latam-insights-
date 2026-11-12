@@ -12,7 +12,7 @@
         st.textContent = '@media (pointer:coarse){[data-termino],.tap-amplio{position:relative}[data-termino]::after,.tap-amplio::after{content:"";position:absolute;left:-6px;right:-6px;top:-12px;bottom:-12px}}';
         document.head.appendChild(st);
     }
-    const CAT = { bvc: 'BVC', macro: 'Macro Colombia', commodities: 'Commodities', latam: 'LatAm', internacional: 'Mercados internacionales', politica: 'Política económica', sectores: 'Sectores', region: 'La región', deuda: 'Deuda pública', portafolio: 'Mi portafolio', biotecnologia: 'Biotechnology' };
+    const CAT = { bvc: 'BVC', macro: 'Macro Colombia', commodities: 'Commodities', latam: 'LatAm', internacional: 'Mercados internacionales', politica: 'Política económica', sectores: 'Sectores', region: 'La región', deuda: 'Deuda pública', portafolio: 'Portafolio Stag', biotecnologia: 'Biotechnology' };
     const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
     const slug = t => String(t).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
     const safeUrl = u => /^https?:\/\//i.test(u || '') ? u : '#';
@@ -122,7 +122,7 @@
         return `
             <div class="flex flex-wrap items-center gap-2 mb-3 text-xs">
                 ${n.empresa ? `<span class="bg-sky-400/10 text-sky-300 border border-sky-400/20 px-2 py-0.5 rounded-full font-semibold">${esc(n.empresa)}</span>` : ''}
-                ${n.categoria === 'portafolio' ? `<a href="portafolio.html" title="Stag Research tiene una posición en este activo" class="bg-violet-400/10 text-violet-300 border border-violet-400/30 px-2 py-0.5 rounded-full font-semibold hover:border-violet-300">En Mi portafolio</a>` : ''}
+                ${n.categoria === 'portafolio' ? `<a href="portafolio.html" title="Stag Research tiene una posición en este activo" class="bg-violet-400/10 text-violet-300 border border-violet-400/30 px-2 py-0.5 rounded-full font-semibold hover:border-violet-300">En Portafolio Stag</a>` : ''}
                 ${n.pais ? `<span class="bg-sky-400/10 text-sky-300 border border-sky-400/20 px-2 py-0.5 rounded-full font-semibold">${esc(n.pais)}</span>` : ''}
                 ${n.categoria === 'portafolio' ? '' : `<span class="bg-amber-400/10 text-amber-400 border border-amber-400/20 px-2 py-0.5 rounded-full font-semibold">${esc(CAT[n.categoria] || n.categoria)}</span>`}
                 ${n.fecha_noticia ? `<span class="text-stone-500">${n.formato === 'informe' ? 'Datos con corte al' : 'Noticia del'} ${fmtFecha(n.fecha_noticia)}</span>` : ''}
@@ -775,7 +775,7 @@
         });
     };
 
-    // Página Mi portafolio: último precio de cierre de cada activo (data/precios.json)
+    // Página Portafolio Stag: último precio de cierre de cada activo (data/precios.json)
     window.renderPrecios = function () {
         const num = v => Number(v).toLocaleString('es-CO', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
         const fecha = iso => String(iso || '').slice(0, 10).split('-').reverse().slice(0, 2).join('/');
