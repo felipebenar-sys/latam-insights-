@@ -12,9 +12,9 @@
     "fuente": "ICE vía Yahoo Finance"
   },
   "colcap": {
-    "valor": 2576.36,
-    "cambio_pct": 3.67,
-    "fecha": "2026-11-09",
+    "valor": 2486.39,
+    "cambio_pct": -1.65,
+    "fecha": "2026-11-11",
     "fuente": "BVC vía Valora Analitik"
   },
   "tasa_banrep": {
@@ -26,5 +26,5 @@
     "periodo": "oct 2026",
     "fuente": "DANE vía La República"
   },
-  "actualizado": "2026-11-11"
+  "actualizado": "2026-11-12"
 }

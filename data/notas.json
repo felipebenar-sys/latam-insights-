@@ -1,68 +1,9 @@
 {
-  "actualizado": "11 nov 2026, 5:49 a. m. (hora Bogotá)",
+  "actualizado": "12 nov 2026, 8:49 a. m. (hora Bogotá)",
   "notas": [
     {
-      "id": "2026-11-11-01",
-      "fecha": "2026-11-11",
-      "categoria": "macro",
-      "puntaje": {
-        "total": 9,
-        "alcance": 3,
-        "materialidad": 3,
-        "novedad": 2,
-        "fuente": 1
-      },
-      "titulo": "La inflación anual de Colombia sube a 6,30 % en octubre, por debajo de lo esperado",
-      "resumen": "El DANE informó que la inflación anual de octubre llegó a 6,30 %, frente a 6,29 % en septiembre. Los analistas esperaban en promedio 6,38 %, así que el dato subió menos de lo previsto.",
-      "contexto": "En la encuesta de Citi entre 21 entidades, 20 esperaban una aceleración y el promedio era 6,38 %. Restaurantes y hoteles (9,39 %), educación (7,44 %), salud (7,37 %) y alimentos (7,31 %) fueron las divisiones con mayores alzas anuales. El Banco de la República proyecta que la inflación cierre 2026 en 7,1 %, y el dato servirá de base para negociar el salario mínimo de 2027: los gremios hablan de un alza de entre 8 % y 9,5 % y la CUT propone cerca de 38,5 %.",
-      "afectados": [
-        "TES",
-        "CDT",
-        "Banco de la República",
-        "Salario mínimo",
-        "Consumo"
-      ],
-      "peso_alcista": 45,
-      "alcista": "El dato quedó por debajo del promedio esperado por el mercado, lo que reduce el temor a una aceleración más fuerte de los precios. Si la inflación se estabiliza cerca de este nivel, el Banco de la República tendría menos presión para endurecer su política. Eso puede aliviar las tasas de los TES y favorecer su precio. También ayuda a las acciones de empresas sensibles al consumo, si los hogares no pierden más poder de compra.",
-      "bajista": "La inflación sigue subiendo por cuarto mes y continúa muy por encima de la meta del Banco de la República. Las alzas en servicios como restaurantes, educación y salud suelen ser más difíciles de bajar. Además, un dato de 6,30 % como base para el salario mínimo puede llevar a un aumento alto que alimente la inflación de 2027. Todo eso apunta a tasas de interés altas por más tiempo, lo que pesa sobre los TES y las acciones.",
-      "impacto": {
-        "conclusion": "Pesa algo más la lectura bajista: aunque el dato sorprendió a la baja, la inflación sigue subiendo y lejos de la meta, lo que mantiene la expectativa de tasas altas por un buen tiempo. Para quien invierte, eso significa que los ahorros en pesos siguen bien remunerados, mientras los TES y las acciones dependen de que la inflación empiece a ceder en 2027.",
-        "activos": [
-          {
-            "activo": "acciones",
-            "efecto": "negativo",
-            "detalle": "Tasas altas por más tiempo encarecen el crédito y restan atractivo a las acciones frente a la renta fija."
-          },
-          {
-            "activo": "renta_fija",
-            "efecto": "mixto",
-            "detalle": "El dato menor al esperado alivia algo las tasas, pero la inflación al alza limita la valorización de los TES."
-          },
-          {
-            "activo": "dolar",
-            "efecto": "neutral",
-            "detalle": "Sin efecto directo."
-          },
-          {
-            "activo": "cdt",
-            "efecto": "positivo",
-            "detalle": "Con inflación alta, las tasas de los CDT y del ahorro en pesos tienden a mantenerse elevadas."
-          }
-        ]
-      },
-      "mirar": "La negociación del salario mínimo de 2027 y el dato de inflación de noviembre que publicará el DANE en diciembre.",
-      "terminos": [
-        "Inflación",
-        "Meta de inflación",
-        "Salario mínimo",
-        "TES"
-      ],
-      "fuente": "La República",
-      "url": "https://www.larepublica.co/economia/discusion-del-salario-minimo-para-el-otro-ano-se-perfila-con-6-30-de-inflacion-4520706"
-    },
-    {
-      "id": "2026-11-11-02",
-      "fecha": "2026-11-11",
+      "id": "2026-11-12-01",
+      "fecha": "2026-11-12",
       "categoria": "region",
       "pais": "Brasil",
       "puntaje": {
@@ -72,20 +13,77 @@
         "novedad": 2,
         "fuente": 1
       },
-      "titulo": "Banco Central de Brasil anticipa tasas altas por más tiempo y sube su proyección de inflación",
-      "resumen": "El acta del Copom, publicada el 10 de noviembre, dice que las expectativas de inflación se desanclaron y que hará falta mantener la tasa Selic, hoy en 13,75 %, alta por más tiempo. El banco subió su proyección de inflación a 5,6 % para 2026 y a 4,7 % para 2027.",
-      "contexto": "La semana anterior el Copom mantuvo la Selic en 13,75 % y cortó una racha de cinco recortes de 0,25 puntos que empezó en marzo, cuando la tasa estaba en 15 %. El acta atribuye la presión al petróleo por los conflictos en Medio Oriente, a los efectos de El Niño y a la caída del real, y advierte dudas sobre la sostenibilidad de la deuda. Ambas proyecciones quedan por encima del techo de la meta, de 4,5 %. Brasil es la mayor economía de la región y una de las más pesadas en los fondos y ETF latinoamericanos que compran los inversionistas colombianos.",
+      "titulo": "La inflación de Brasil sube solo 0,14 % en octubre y queda por debajo de lo esperado",
+      "resumen": "El IPCA de Brasil, su índice oficial de precios al consumidor, aumentó 0,14 % en octubre según el IBGE, menos que el 0,25 % que esperaba el mercado. En doce meses la inflación quedó en 4,63 %.",
+      "contexto": "El dato fue publicado por el IBGE el jueves 12 de noviembre. Un sondeo de Reuters anticipaba 0,25 % para el mes y 4,73 % en doce meses, así que ambas cifras salieron por debajo del pronóstico. Brasil es la mayor economía de América Latina y su inflación orienta las decisiones del Banco Central do Brasil sobre la tasa Selic, que influyen en el real y en los activos de la región que tiene quien invierte desde Colombia.",
       "afectados": [
         "Real brasileño",
+        "Tasa Selic",
         "Bolsa de Brasil",
-        "ETF de América Latina",
-        "Bonos de Brasil"
+        "Inversiones en la región"
       ],
-      "peso_alcista": 40,
-      "alcista": "Un banco central firme frente a la inflación puede devolver credibilidad a la política monetaria de Brasil. Tasas altas por más tiempo hacen más atractivos los activos en reales y pueden dar soporte a la moneda. Si las expectativas se vuelven a anclar, el camino de recortes podría retomarse más adelante con menos riesgo. Para quien tiene renta fija brasileña, la Selic alta mantiene rendimientos elevados.",
-      "bajista": "El acta reconoce que las expectativas de inflación se desanclaron y que la actividad ya muestra señales de desaceleración. Tasas altas por más tiempo frenan el crédito y las utilidades de las empresas, lo que pesa sobre la bolsa brasileña. Las dudas sobre la disciplina fiscal y la deuda suman riesgo. Para quien invierte desde Colombia en acciones o fondos de Brasil, eso puede traducirse en pérdidas medidas en pesos.",
+      "peso_alcista": 60,
+      "alcista": "Una inflación menor a la esperada le da al Banco Central do Brasil más margen para no endurecer su política. Eso puede aliviar las tasas de largo plazo en Brasil y favorecer a las acciones brasileñas, sobre todo a las que dependen del consumo y del crédito. Para quien tiene fondos o ETF de Brasil o de América Latina, medidos en pesos, un mercado brasileño más tranquilo puede sostener su valor. También reduce el riesgo de un choque inflacionario en la región.",
+      "bajista": "Un solo mes no cambia la tendencia: el Banco Central do Brasil acaba de decir que la inflación exige mantener las tasas altas por más tiempo, así que el dato podría no traducirse en recortes pronto. Si las tasas altas se mantienen, el crédito y la actividad en Brasil siguen presionados. Además, una inflación más baja con tasas altas puede reducir el atractivo relativo del real si el mercado empieza a anticipar recortes, lo que afectaría a quien tiene activos en esa moneda.",
       "impacto": {
-        "conclusion": "Pesa más la lectura bajista: el propio banco central admite que perdió terreno frente a la inflación y que la economía se enfría, lo que suele pesar sobre la bolsa de Brasil. Para quien invierte desde Colombia, el efecto se concentra en las acciones, fondos y ETF expuestos a Brasil; el canal hacia las tasas colombianas es indirecto.",
+        "conclusion": "Pesa algo más la lectura alcista, porque el dato salió por debajo del pronóstico tanto en el mes como en doce meses, lo que reduce la presión sobre las tasas en Brasil. Para quien invierte desde Colombia, el efecto se concentra en las inversiones en Brasil o en la región; en los activos locales no hay un canal directo.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "positivo",
+            "detalle": "Menos presión sobre las tasas en Brasil puede favorecer a los fondos y ETF de Brasil y de la región, medidos en pesos."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          }
+        ]
+      },
+      "mirar": "La próxima reunión del Copom del Banco Central do Brasil, donde se verá si el dato cambia su mensaje sobre la tasa Selic.",
+      "terminos": [
+        "IPCA",
+        "Tasa Selic",
+        "Copom"
+      ],
+      "fuente": "InfoMoney (datos del IBGE)",
+      "url": "https://www.infomoney.com.br/economia/ipca-inflacao-outubro-2026-dados-ibge/"
+    },
+    {
+      "id": "2026-11-12-02",
+      "fecha": "2026-11-12",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 6,
+        "alcance": 1,
+        "materialidad": 2,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "El dólar baja $21 y cierra en $3.283 en una jornada sin mercado de contado",
+      "resumen": "El dólar en Colombia cerró el miércoles 11 de noviembre en $3.283, frente a $3.304,29 del cierre anterior, y volvió a quedar por debajo de los $3.300.",
+      "contexto": "La jornada operó en modalidad Next Day, sin mercado de contado local, por el festivo bancario de Veteranos en EE. UU. El dólar abrió en $3.292, tocó un máximo de $3.311,20 y un mínimo de $3.271. En el exterior, el índice DXY subía cerca de 0,6 % y el Brent avanzaba 1,11 % a US$92,51 por barril, por preocupaciones de oferta en Medio Oriente que incluyen nuevos ataques a barcos en el estrecho de Ormuz. El mercado de contado regresaba el jueves 12 de noviembre a las 8:00 a. m.",
+      "afectados": [
+        "Peso colombiano",
+        "TRM",
+        "Importadores",
+        "Exportadores"
+      ],
+      "peso_alcista": 55,
+      "alcista": "Un dólar más barato reduce el costo de los bienes importados y de la deuda en dólares de empresas y Gobierno. Si se mantiene, ayuda a contener la inflación, que sigue lejos de la meta, y con eso alivia la presión sobre las tasas. El repunte del Brent también es un soporte para los ingresos en dólares del país, que suelen favorecer al peso.",
+      "bajista": "La baja ocurrió en una jornada atípica, sin mercado de contado, por lo que puede no reflejar la tendencia con la oferta y demanda normales. El dólar global seguía fuerte, con el DXY al alza, y eso puede presionar de nuevo al peso cuando el mercado opere con normalidad. Además, el precio sigue muy cerca de los $3.300, un nivel que ha superado en varias sesiones recientes.",
+      "impacto": {
+        "conclusion": "Pesa ligeramente más la lectura alcista para el mercado local, porque un peso más fuerte ayuda a contener la inflación, aunque el movimiento fue pequeño y en una jornada sin mercado de contado. Para quien invierte, el efecto principal está en el valor en pesos de las inversiones en dólares.",
         "activos": [
           {
             "activo": "acciones",
@@ -100,7 +98,7 @@
           {
             "activo": "dolar",
             "efecto": "negativo",
-            "detalle": "Tasas altas y una economía más lenta pueden pesar sobre las acciones y fondos brasileños medidos en pesos."
+            "detalle": "Un dólar más bajo reduce el valor en pesos de los ahorros e inversiones en dólares o en el exterior."
           },
           {
             "activo": "cdt",
@@ -109,15 +107,15 @@
           }
         ]
       },
-      "mirar": "La próxima decisión del Copom, prevista para el 9 de diciembre.",
+      "mirar": "La TRM y el cierre del dólar en la jornada de contado del 12 de noviembre, el primero con el mercado operando con normalidad.",
       "terminos": [
-        "Copom",
-        "Tasa Selic",
-        "Expectativas de inflación",
-        "Meta de inflación"
+        "TRM",
+        "Índice DXY",
+        "Brent",
+        "Estrecho de Ormuz"
       ],
-      "fuente": "Infobae (EFE)",
-      "url": "https://www.infobae.com/america/agencias/2026/11/10/el-emisor-brasileno-dice-que-la-inflacion-exige-mantener-los-tipos-elevados-por-mas-tiempo/"
+      "fuente": "Valora Analitik",
+      "url": "https://www.valoraanalitik.com/dolar-en-colombia-cayo-este-miercoles-y-cerro-por-debajo-de-3-300-tras-jornada-next-day-por-festivo-en-ee-uu/"
     }
   ]
 }

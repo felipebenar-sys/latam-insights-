@@ -2,6 +2,65 @@
   "mes": "2026-11",
   "notas": [
     {
+      "id": "2026-11-11-01",
+      "fecha": "2026-11-11",
+      "categoria": "macro",
+      "puntaje": {
+        "total": 9,
+        "alcance": 3,
+        "materialidad": 3,
+        "novedad": 2,
+        "fuente": 1
+      },
+      "titulo": "La inflación anual de Colombia sube a 6,30 % en octubre, por debajo de lo esperado",
+      "resumen": "El DANE informó que la inflación anual de octubre llegó a 6,30 %, frente a 6,29 % en septiembre. Los analistas esperaban en promedio 6,38 %, así que el dato subió menos de lo previsto.",
+      "contexto": "En la encuesta de Citi entre 21 entidades, 20 esperaban una aceleración y el promedio era 6,38 %. Restaurantes y hoteles (9,39 %), educación (7,44 %), salud (7,37 %) y alimentos (7,31 %) fueron las divisiones con mayores alzas anuales. El Banco de la República proyecta que la inflación cierre 2026 en 7,1 %, y el dato servirá de base para negociar el salario mínimo de 2027: los gremios hablan de un alza de entre 8 % y 9,5 % y la CUT propone cerca de 38,5 %.",
+      "afectados": [
+        "TES",
+        "CDT",
+        "Banco de la República",
+        "Salario mínimo",
+        "Consumo"
+      ],
+      "peso_alcista": 45,
+      "alcista": "El dato quedó por debajo del promedio esperado por el mercado, lo que reduce el temor a una aceleración más fuerte de los precios. Si la inflación se estabiliza cerca de este nivel, el Banco de la República tendría menos presión para endurecer su política. Eso puede aliviar las tasas de los TES y favorecer su precio. También ayuda a las acciones de empresas sensibles al consumo, si los hogares no pierden más poder de compra.",
+      "bajista": "La inflación sigue subiendo por cuarto mes y continúa muy por encima de la meta del Banco de la República. Las alzas en servicios como restaurantes, educación y salud suelen ser más difíciles de bajar. Además, un dato de 6,30 % como base para el salario mínimo puede llevar a un aumento alto que alimente la inflación de 2027. Todo eso apunta a tasas de interés altas por más tiempo, lo que pesa sobre los TES y las acciones.",
+      "impacto": {
+        "conclusion": "Pesa algo más la lectura bajista: aunque el dato sorprendió a la baja, la inflación sigue subiendo y lejos de la meta, lo que mantiene la expectativa de tasas altas por un buen tiempo. Para quien invierte, eso significa que los ahorros en pesos siguen bien remunerados, mientras los TES y las acciones dependen de que la inflación empiece a ceder en 2027.",
+        "activos": [
+          {
+            "activo": "acciones",
+            "efecto": "negativo",
+            "detalle": "Tasas altas por más tiempo encarecen el crédito y restan atractivo a las acciones frente a la renta fija."
+          },
+          {
+            "activo": "renta_fija",
+            "efecto": "mixto",
+            "detalle": "El dato menor al esperado alivia algo las tasas, pero la inflación al alza limita la valorización de los TES."
+          },
+          {
+            "activo": "dolar",
+            "efecto": "neutral",
+            "detalle": "Sin efecto directo."
+          },
+          {
+            "activo": "cdt",
+            "efecto": "positivo",
+            "detalle": "Con inflación alta, las tasas de los CDT y del ahorro en pesos tienden a mantenerse elevadas."
+          }
+        ]
+      },
+      "mirar": "La negociación del salario mínimo de 2027 y el dato de inflación de noviembre que publicará el DANE en diciembre.",
+      "terminos": [
+        "Inflación",
+        "Meta de inflación",
+        "Salario mínimo",
+        "TES"
+      ],
+      "fuente": "La República",
+      "url": "https://www.larepublica.co/economia/discusion-del-salario-minimo-para-el-otro-ano-se-perfila-con-6-30-de-inflacion-4520706"
+    },
+    {
       "id": "2026-11-10-05",
       "fecha": "2026-11-10",
       "categoria": "biotecnologia",
@@ -766,11 +825,13 @@
     "https://www.globenewswire.com/news-release/2026/11/04/3395819/0/en/relay-therapeutics-reports-third-quarter-2026-financial-results-and-corporate-updates.html",
     "https://www.globenewswire.com/news-release/2026/11/05/3396310/0/en/palvella-therapeutics-reports-third-quarter-2026-financial-results-and-provides-corporate-update.html",
     "https://www.globenewswire.com/news-release/2026/11/05/3396999/0/en/celcuity-inc-reports-third-quarter-2026-financial-results-and-provides-corporate-update.html",
+    "https://www.infobae.com/america/agencias/2026/11/10/el-emisor-brasileno-dice-que-la-inflacion-exige-mantener-los-tipos-elevados-por-mas-tiempo/",
     "https://www.infobae.com/economia/2026/11/02/las-acciones-argentinas-cayeron-por-sexta-rueda-seguida-el-riesgo-pais-supero-los-800-puntos-y-el-bcra-no-compro-reservas/",
     "https://www.infobae.com/economia/2026/11/09/cae-el-riesgo-pais-argentino-en-una-sesion-positiva-para-los-mercados-internacionales/",
     "https://www.lanacion.com.ar/economia/el-riesgo-pais-argentino-subio-en-octubre-hasta-seis-veces-lo-que-aumento-en-la-region-y-el-gobierno-nid01112026/",
     "https://www.larepublica.co/economia/asi-fue-la-primera-reunion-entre-miembros-del-congreso-y-gobierno-sobre-la-tributaria-4519991",
     "https://www.larepublica.co/economia/centro-democratico-propuso-ajustes-a-la-tributaria-y-venta-de-participacion-de-ecopetrol-4519947",
+    "https://www.larepublica.co/economia/discusion-del-salario-minimo-para-el-otro-ano-se-perfila-con-6-30-de-inflacion-4520706",
     "https://www.larepublica.co/economia/el-bloque-llanos-86-abre-la-expectativa-de-nuevos-barriles-de-petroleo-4520061",
     "https://www.larepublica.co/economia/el-ministerio-de-minas-y-energia-levanto-la-limitacion-programada-de-gas-natural-4516007",
     "https://www.larepublica.co/economia/equipo-tecnico-de-banco-central-de-colombia-ve-mayor-inflacion-y-menor-crecimiento-economico-este-y-el-proximo-ano-4517960",
