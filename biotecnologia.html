@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stag Research | Biotechnology</title>
-    <meta name="description" content="Biotechnology en Stag Research: qué hacen 15 compañías de medicamentos, en qué etapa está su medicamento principal y cuáles son sus próximos pasos, explicado en lenguaje sencillo.">
+    <meta name="description" content="Biotechnology at Stag Research: what 15 drug companies do, what stage their lead drug is in and what their next steps are, explained in plain language.">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
     <style type="text/tailwindcss">
@@ -55,7 +55,7 @@
     </style>
 </head>
 <body class="bg-stone-950 text-stone-100 antialiased">
-    <a href="#contenido" class="saltar">Saltar al contenido</a>
+    <a href="#contenido" class="saltar">Skip to content</a>
 
     <!-- HEADER -->
     <header class="border-b border-stone-800 bg-stone-900/80 sticky top-0 z-50 backdrop-blur">
@@ -64,46 +64,46 @@
                 <span class="text-amber-400">Stag</span><span class="text-white"> Research</span>
             </a>
             <nav class="hidden lg:flex items-center space-x-8 text-sm font-medium text-stone-300">
-                <a href="yentonces.html" class="hover:text-amber-400 transition">Hoy</a>
+                <a href="yentonces.html" class="hover:text-amber-400 transition">Today</a>
                 <a href="biotecnologia.html" class="text-amber-400" aria-current="page">Biotechnology</a>
                 <a href="research.html" class="hover:text-amber-400 transition">Research</a>
                 <a href="opinion.html" class="hover:text-amber-400 transition">@Diario de un noCFA</a>
-                <a href="portafolio.html" class="hover:text-amber-400 transition">Mi portafolio</a>
+                <a href="portafolio.html" class="hover:text-amber-400 transition">My portfolio</a>
                 <div class="relative" data-dropdown>
-                    <button type="button" class="inline-flex items-center gap-1 hover:text-amber-400 transition" aria-haspopup="true" aria-expanded="false">Herramientas
+                    <button type="button" class="inline-flex items-center gap-1 hover:text-amber-400 transition" aria-haspopup="true" aria-expanded="false">Tools
                         <svg viewBox="0 0 20 20" class="w-4 h-4 fill-current" aria-hidden="true"><path d="M5.3 7.3a1 1 0 0 1 1.4 0L10 10.6l3.3-3.3a1 1 0 1 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 0-1.4z"/></svg>
                     </button>
                     <div class="hidden absolute left-1/2 -translate-x-1/2 top-full mt-3 w-56 bg-stone-900 border border-stone-700 rounded-lg shadow-2xl p-1.5 z-50" data-menu>
-                        <a href="herramientas.html" class="block px-4 py-2.5 rounded-md text-stone-200 hover:bg-stone-800/60">Páginas útiles</a>
-                        <a href="glosario.html" class="block px-4 py-2.5 rounded-md text-stone-200 hover:bg-stone-800/60">Glosario</a>
+                        <a href="herramientas.html" class="block px-4 py-2.5 rounded-md text-stone-200 hover:bg-stone-800/60">Useful pages</a>
+                        <a href="glosario.html" class="block px-4 py-2.5 rounded-md text-stone-200 hover:bg-stone-800/60">Glossary</a>
                     </div>
                 </div>
             </nav>
             <div class="flex items-center gap-2">
-                <a href="yentonces.html" class="bg-amber-400 hover:bg-amber-300 text-stone-950 font-semibold px-4 py-2 rounded-lg text-sm transition whitespace-nowrap">Edición de hoy</a>
-                <button id="menu-btn" type="button" class="lg:hidden p-2 rounded-lg border border-stone-700 text-stone-200" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu-movil">
+                <a href="yentonces.html" class="bg-amber-400 hover:bg-amber-300 text-stone-950 font-semibold px-4 py-2 rounded-lg text-sm transition whitespace-nowrap">Today's edition</a>
+                <button id="menu-btn" type="button" class="lg:hidden p-2 rounded-lg border border-stone-700 text-stone-200" aria-label="Open menu" aria-expanded="false" aria-controls="menu-movil">
                     <svg viewBox="0 0 24 24" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></svg>
                 </button>
             </div>
         </div>
         <nav id="menu-movil" class="hidden lg:hidden border-t border-stone-800 px-2 py-2 text-sm font-medium">
-            <a href="yentonces.html" class="block px-4 py-3 rounded-lg text-stone-200 hover:bg-stone-800/60">Hoy</a>
+            <a href="yentonces.html" class="block px-4 py-3 rounded-lg text-stone-200 hover:bg-stone-800/60">Today</a>
             <a href="biotecnologia.html" class="block px-4 py-3 rounded-lg text-amber-400 hover:bg-stone-800/60" aria-current="page">Biotechnology</a>
             <a href="research.html" class="block px-4 py-3 rounded-lg text-stone-200 hover:bg-stone-800/60">Research</a>
             <a href="opinion.html" class="block px-4 py-3 rounded-lg text-stone-200 hover:bg-stone-800/60">@Diario de un noCFA</a>
-            <a href="portafolio.html" class="block px-4 py-3 rounded-lg text-stone-200 hover:bg-stone-800/60">Mi portafolio</a>
-            <p class="px-4 pt-3 pb-1 text-stone-500 text-xs uppercase tracking-wider">Herramientas</p>
-            <a href="herramientas.html" class="block pl-8 pr-4 py-2.5 rounded-lg text-stone-200 hover:bg-stone-800/60">Páginas útiles</a>
-            <a href="glosario.html" class="block pl-8 pr-4 py-2.5 rounded-lg text-stone-200 hover:bg-stone-800/60">Glosario</a>
+            <a href="portafolio.html" class="block px-4 py-3 rounded-lg text-stone-200 hover:bg-stone-800/60">My portfolio</a>
+            <p class="px-4 pt-3 pb-1 text-stone-500 text-xs uppercase tracking-wider">Tools</p>
+            <a href="herramientas.html" class="block pl-8 pr-4 py-2.5 rounded-lg text-stone-200 hover:bg-stone-800/60">Useful pages</a>
+            <a href="glosario.html" class="block pl-8 pr-4 py-2.5 rounded-lg text-stone-200 hover:bg-stone-800/60">Glossary</a>
         </nav>
-        <div id="barra-mercado" class="border-t border-stone-800/70 text-xs" aria-label="Indicadores de mercado">
+        <div id="barra-mercado" class="border-t border-stone-800/70 text-xs" aria-label="Market indicators">
             <div class="max-w-6xl mx-auto px-4 sm:px-6 py-1.5 min-h-[1.875rem] flex flex-nowrap items-center gap-x-4 overflow-x-auto whitespace-nowrap text-stone-400 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
                 <span>USD/COP <span data-usdcop><span class="sk sk-tick" aria-hidden="true"></span></span></span>
                 <span>Brent <span data-brent><span class="sk sk-tick" aria-hidden="true"></span></span></span>
                 <span>COLCAP <span data-colcap><span class="sk sk-tick" aria-hidden="true"></span></span></span>
                 <span>BanRep <span data-banrep><span class="sk sk-tick" aria-hidden="true"></span></span></span>
-                <span>Inflación <span data-inflacion><span class="sk sk-tick" aria-hidden="true"></span></span></span>
-                <span class="ml-auto pl-2">Act. <span data-actualizado class="text-stone-200">—</span></span>
+                <span>Inflation <span data-inflacion><span class="sk sk-tick" aria-hidden="true"></span></span></span>
+                <span class="ml-auto pl-2">Updated <span data-actualizado class="text-stone-200">—</span></span>
             </div>
         </div>
     </header>
@@ -112,45 +112,45 @@
 
     <!-- ENCABEZADO -->
     <section class="pt-5 sm:pt-6 pb-5 px-4 sm:px-6 max-w-6xl mx-auto">
-        <span class="text-sky-300 text-xs font-semibold uppercase tracking-wider">Empresas</span>
+        <span class="text-sky-300 text-xs font-semibold uppercase tracking-wider">Companies</span>
         <h1 class="serif text-4xl sm:text-5xl font-bold text-white mt-2 mb-3">Biotechnology</h1>
-        <p class="text-base sm:text-lg text-stone-400 mb-4">Las compañías de medicamentos que seguimos: qué hacen, en qué etapa está su medicamento principal y cuáles son sus próximos pasos. Explicado tan claro que no necesitas ser médico para entenderlo.</p>
-        <p class="text-stone-500 text-sm border-l-2 border-sky-400/40 pl-3">Esta sección es solo informativa: no incluye lecturas alcistas o bajistas, ponderaciones ni opiniones sobre las compañías o sus acciones. Se actualiza el primer día de cada mes.</p>
+        <p class="text-base sm:text-lg text-stone-400 mb-4">The drug companies we follow: what they do, what stage their lead drug is in and what their next steps are. Explained so clearly that you don't need to be a doctor to understand it.</p>
+        <p class="text-stone-500 text-sm border-l-2 border-sky-400/40 pl-3">This section is informational only: it includes no bullish or bearish readings, weightings or opinions about the companies or their stocks. It is updated on the first day of each month.</p>
     </section>
 
     <!-- PANORAMA: tabla compacta de referencia (sin noticias) -->
     <section id="bio-panorama-wrap" class="pb-8 px-4 sm:px-6 max-w-6xl mx-auto hidden">
         <div class="flex flex-wrap items-baseline justify-between gap-2 mb-1">
-            <h2 class="text-white font-semibold text-lg">Panorama de biotecnológicas</h2>
+            <h2 class="text-white font-semibold text-lg">Biotech overview</h2>
             <div class="flex items-center gap-3">
                 <span class="text-stone-500 text-xs" id="bio-panorama-fecha"></span>
                 <button type="button" id="bio-pdf-btn" class="inline-flex items-center gap-1.5 border border-stone-700 hover:border-amber-400 hover:text-amber-400 text-stone-200 text-xs font-semibold px-3 py-1.5 rounded-lg transition">
                     <svg viewBox="0 0 20 20" class="w-4 h-4 fill-current" aria-hidden="true"><path d="M10 2a1 1 0 0 1 1 1v7.6l2.3-2.3a1 1 0 1 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 1 1 1.4-1.4L9 10.6V3a1 1 0 0 1 1-1zM4 15a1 1 0 0 1 1 1v1h10v-1a1 1 0 1 1 2 0v2a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1z"/></svg>
-                    Descargar PDF
+                    Download PDF
                 </button>
             </div>
         </div>
-        <p class="text-stone-500 text-sm mb-4">El medicamento más avanzado de cada compañía y su próximo paso. Toca la fase para ver qué significa.</p>
+        <p class="text-stone-500 text-sm mb-4">Each company's most advanced drug and its next step. Tap the phase to see what it means.</p>
         <div id="bio-panorama"></div>
     </section>
 
     <!-- CALENDARIO DEL MES: qué pasa este mes con estas compañías (se actualiza el día 1) -->
     <section id="bio-calendario-wrap" class="pb-8 px-4 sm:px-6 max-w-6xl mx-auto hidden">
         <div class="flex flex-wrap items-baseline justify-between gap-2 mb-1 border-t border-stone-800 pt-6">
-            <h2 class="text-white font-semibold text-lg">Qué ver este mes <span class="text-stone-400 font-normal" id="bio-calendario-mes"></span></h2>
+            <h2 class="text-white font-semibold text-lg">What to watch this month <span class="text-stone-400 font-normal" id="bio-calendario-mes"></span></h2>
             <span class="text-stone-500 text-xs" id="bio-calendario-fecha"></span>
         </div>
-        <p class="text-stone-500 text-sm mb-4">Resultados trimestrales, datos de estudios, decisiones de la FDA y congresos de las compañías, día por día. "Estimada" indica que la compañía aún no ha confirmado la fecha.</p>
+        <p class="text-stone-500 text-sm mb-4">Quarterly results, study data, FDA decisions and company conferences, day by day. "Estimated" means the company has not yet confirmed the date.</p>
         <div id="bio-calendario"></div>
     </section>
 
     <!-- COMPAÑÍAS -->
     <section class="pb-12 px-4 sm:px-6 max-w-6xl mx-auto">
         <div class="flex flex-wrap items-baseline justify-between gap-2 mb-4 border-t border-stone-800 pt-6">
-            <h2 class="text-white font-semibold text-lg">Las compañías</h2>
+            <h2 class="text-white font-semibold text-lg">The companies</h2>
             <span class="text-stone-500 text-xs" id="bio-empresas-fecha"></span>
         </div>
-        <div id="bio-empresas" class="grid md:grid-cols-3 gap-5" aria-busy="true"><span class="sr-only">Cargando…</span><div class="sk-card min-h-[13rem]"><div class="flex gap-2"><span class="sk sk-chip"></span></div><span class="sk sk-titulo"></span><span class="sk sk-linea" style="width:100%"></span><span class="sk sk-linea" style="width:94%"></span><span class="sk sk-linea" style="width:70%"></span></div><div class="sk-card min-h-[13rem]"><div class="flex gap-2"><span class="sk sk-chip"></span></div><span class="sk sk-titulo"></span><span class="sk sk-linea" style="width:100%"></span><span class="sk sk-linea" style="width:94%"></span><span class="sk sk-linea" style="width:70%"></span></div><div class="sk-card min-h-[13rem]"><div class="flex gap-2"><span class="sk sk-chip"></span></div><span class="sk sk-titulo"></span><span class="sk sk-linea" style="width:100%"></span><span class="sk sk-linea" style="width:94%"></span><span class="sk sk-linea" style="width:70%"></span></div></div>
+        <div id="bio-empresas" class="grid md:grid-cols-3 gap-5" aria-busy="true"><span class="sr-only">Loading…</span><div class="sk-card min-h-[13rem]"><div class="flex gap-2"><span class="sk sk-chip"></span></div><span class="sk sk-titulo"></span><span class="sk sk-linea" style="width:100%"></span><span class="sk sk-linea" style="width:94%"></span><span class="sk sk-linea" style="width:70%"></span></div><div class="sk-card min-h-[13rem]"><div class="flex gap-2"><span class="sk sk-chip"></span></div><span class="sk sk-titulo"></span><span class="sk sk-linea" style="width:100%"></span><span class="sk sk-linea" style="width:94%"></span><span class="sk sk-linea" style="width:70%"></span></div><div class="sk-card min-h-[13rem]"><div class="flex gap-2"><span class="sk sk-chip"></span></div><span class="sk sk-titulo"></span><span class="sk sk-linea" style="width:100%"></span><span class="sk sk-linea" style="width:94%"></span><span class="sk sk-linea" style="width:70%"></span></div></div>
     </section>
 
 
@@ -160,19 +160,19 @@
     <footer class="border-t border-stone-800 bg-stone-950 py-8 text-xs text-stone-500">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 space-y-4">
             <div class="space-y-4">
-                    <p class="text-stone-300 font-semibold text-sm">Aviso legal y descargo de responsabilidad</p>
-                    <p><span class="text-stone-200 font-semibold">Todo el contenido</span> publicado por Stag Research en este sitio, incluidos los análisis diarios, la cobertura de compañías, el glosario, las columnas de opinión y los reportes de research, <span class="text-stone-200 font-semibold">tiene fines exclusivamente informativos, educativos y de investigación independiente. No constituye asesoría de inversión</span>, recomendación personalizada, oferta, solicitud ni invitación a comprar, vender o mantener valores o cualquier otro instrumento financiero.</p>
-            <p>Stag Research no es una entidad vigilada por la Superintendencia Financiera de Colombia, no administra recursos de terceros y no presta servicios de intermediación ni de asesoría en el mercado de valores. El contenido no tiene en cuenta tus objetivos, tu situación financiera ni tu perfil de riesgo.</p>
-            <p>La información se basa en fuentes públicas que consideramos confiables, pero no garantizamos su exactitud, integridad ni actualidad. Las opiniones, estimaciones y valoraciones reflejan el criterio de Stag Research a la fecha de publicación y pueden cambiar sin previo aviso. Las rentabilidades pasadas no garantizan resultados futuros. Invertir en valores implica riesgos, incluida la posible pérdida del capital invertido.</p>
-            <p><span class="text-stone-300 font-semibold">Datos de mercado.</span> Los indicadores que se muestran en el sitio provienen de fuentes públicas y se actualizan una vez al día. Pueden tener rezago frente al mercado en tiempo real, así como errores, omisiones o demoras en su actualización, y no deben usarse para operar.</p>
-            <p><span class="text-stone-300 font-semibold">Conflictos de interés.</span> Stag Research, sus colaboradores o personas vinculadas a ellos pueden tener, ahora o en el futuro, posiciones en los valores o en los emisores mencionados en este sitio. Ten en cuenta esta posibilidad al evaluar el contenido.</p>
-            <p>Antes de tomar cualquier decisión de inversión, consulta con un asesor profesional debidamente autorizado. Stag Research y sus colaboradores no se hacen responsables por decisiones tomadas con base en este contenido.</p>
+                    <p class="text-stone-300 font-semibold text-sm">Legal notice and disclaimer</p>
+                    <p><span class="text-stone-200 font-semibold">All content</span> published by Stag Research on this site, including daily analyses, company coverage, the glossary, opinion columns and research reports, <span class="text-stone-200 font-semibold">is for informational, educational and independent research purposes only. It does not constitute investment advice</span>, a personalized recommendation, or an offer, solicitation or invitation to buy, sell or hold securities or any other financial instrument.</p>
+            <p>Stag Research is not an entity supervised by the Superintendencia Financiera de Colombia, does not manage third-party funds and does not provide brokerage or advisory services in the securities market. The content does not take into account your objectives, financial situation or risk profile.</p>
+            <p>The information is based on public sources we consider reliable, but we do not guarantee its accuracy, completeness or timeliness. Opinions, estimates and valuations reflect Stag Research's judgment as of the publication date and may change without notice. Past returns do not guarantee future results. Investing in securities involves risks, including the possible loss of the capital invested.</p>
+            <p><span class="text-stone-300 font-semibold">Market data.</span> The indicators shown on the site come from public sources and are updated once a day. They may lag the real-time market and may contain errors, omissions or update delays, and should not be used for trading.</p>
+            <p><span class="text-stone-300 font-semibold">Conflicts of interest.</span> Stag Research, its collaborators or persons related to them may hold, now or in the future, positions in the securities or issuers mentioned on this site. Keep this possibility in mind when evaluating the content.</p>
+            <p>Before making any investment decision, consult a duly authorized professional advisor. Stag Research and its collaborators are not responsible for decisions made based on this content.</p>
             </div>
-            <p class="pt-4 border-t border-stone-900">© 2026 Stag Research. Todos los derechos reservados.</p>
+            <p class="pt-4 border-t border-stone-900">© 2026 Stag Research. All rights reserved.</p>
         </div>
     </footer>
 
-    <script src="assets/notas.js?v=20261104a"></script>
+    <script src="assets/notas.js?v=20261112a"></script>
     <script>initMenu();</script>
     <script>renderBarra();</script>
     <script>renderBiotech();</script>

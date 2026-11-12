@@ -312,6 +312,7 @@
             });
         });
     }
+    let FASES_BIO = {};
     function initPopover() {
         if (document.getElementById('pop-termino')) return;
         const pop = document.createElement('div');
@@ -323,6 +324,17 @@
             const b = e.target.closest('[data-termino]');
             if (!b) { if (!e.target.closest('#pop-termino')) cerrar(); return; }
             e.preventDefault();
+            if (FASES_BIO[b.dataset.termino]) {
+                pop.innerHTML = `<p class="serif text-base font-bold text-white mb-1">${esc(b.dataset.termino)}</p>
+                    <p class="text-stone-300 leading-relaxed">${esc(FASES_BIO[b.dataset.termino])}</p>`;
+                pop.classList.remove('hidden');
+                const r = b.getBoundingClientRect(), w = Math.min(320, innerWidth - 24);
+                pop.style.width = w + 'px';
+                pop.style.left = Math.max(12, Math.min(r.left, innerWidth - w - 12)) + 'px';
+                const h = pop.offsetHeight;
+                pop.style.top = (r.bottom + 8 + h < innerHeight ? r.bottom + 8 : Math.max(12, r.top - h - 8)) + 'px';
+                return;
+            }
             cargarGlosario().then(G => {
                 const t = G[slug(b.dataset.termino)];
                 if (!t) { location.href = 'glosario.html#' + slug(b.dataset.termino); return; }
@@ -490,10 +502,10 @@
         const chip = (t, cls) => t ? `<span class="${cls} text-xs font-semibold px-2.5 py-1 rounded-md border">${esc(t)}</span>` : '';
         return `
             <div class="mb-3">
-                <p class="text-stone-500 text-xs font-bold uppercase tracking-wider mb-1.5">Medicamento principal</p>
+                <p class="text-stone-500 text-xs font-bold uppercase tracking-wider mb-1.5">Lead drug</p>
                 <div class="flex flex-wrap gap-1.5">
                     ${chip(m.nombre, 'bg-amber-400/10 text-amber-300 border-amber-400/30')}
-                    ${m.fase ? `<button type="button" data-termino="${esc(m.fase)}" title="¿Qué significa esta etapa?" class="bg-sky-400/10 text-sky-300 border-sky-400/30 hover:border-sky-300 text-xs font-semibold px-2.5 py-1 rounded-md border cursor-help inline-flex items-center gap-1">${esc(m.fase)}<span aria-hidden="true" class="text-sky-300/70 text-[10px] leading-none border border-sky-300/50 rounded-full w-3.5 h-3.5 inline-flex items-center justify-center">?</span></button>` : ''}
+                    ${m.fase ? `<button type="button" data-termino="${esc(m.fase)}" title="What does this stage mean?" class="bg-sky-400/10 text-sky-300 border-sky-400/30 hover:border-sky-300 text-xs font-semibold px-2.5 py-1 rounded-md border cursor-help inline-flex items-center gap-1">${esc(m.fase)}<span aria-hidden="true" class="text-sky-300/70 text-[10px] leading-none border border-sky-300/50 rounded-full w-3.5 h-3.5 inline-flex items-center justify-center">?</span></button>` : ''}
                     ${chip(m.enfermedad, 'bg-stone-800 text-stone-200 border-stone-700')}
                 </div>
             </div>`;
@@ -501,7 +513,7 @@
     function hitosLista(hitos) {
         return (hitos || []).length
             ? `<ul class="space-y-2">${hitos.map(h => `<li class="text-sm text-stone-300 flex flex-col sm:flex-row sm:gap-3"><span class="text-amber-400 text-xs sm:w-28 sm:shrink-0 sm:pt-0.5">${esc(h.fecha)}</span><span>${esc(h.texto)}</span></li>`).join('')}</ul>`
-            : '<p class="text-stone-500 text-sm">Sin fechas confirmadas.</p>';
+            : '<p class="text-stone-500 text-sm">No confirmed dates.</p>';
     }
     function fichaBiotech(c) {
         const prox = (c.hitos || [])[0];
@@ -512,14 +524,14 @@
                 <span class="text-sky-300 text-xs font-semibold">${String(c.bolsa || '').includes(':') ? esc(c.bolsa) : `${esc(c.bolsa)}: ${esc(c.ticker)}`}</span>
             </div>
             ${medicamentoPrincipal(c.medicamento_principal)}
-            ${prox ? `<p class="text-sm text-stone-300 mb-3 group-has-[details[open]]/ficha:hidden"><span class="text-stone-500 text-xs font-bold uppercase tracking-wider block mb-1">Próximo hito</span><span class="text-amber-400 text-xs">${esc(prox.fecha)}</span> · ${esc(prox.texto)}</p>` : ''}
+            ${prox ? `<p class="text-sm text-stone-300 mb-3 group-has-[details[open]]/ficha:hidden"><span class="text-stone-500 text-xs font-bold uppercase tracking-wider block mb-1">Next milestone</span><span class="text-amber-400 text-xs">${esc(prox.fecha)}</span> · ${esc(prox.texto)}</p>` : ''}
             <details class="group" open>
-                <summary class="tap-amplio cursor-pointer text-stone-400 hover:text-amber-400 text-xs font-semibold list-none [&::-webkit-details-marker]:hidden inline-flex items-center gap-1"><span class="group-open:hidden">Ver más de la compañía</span><span class="hidden group-open:inline">Ver menos</span><span aria-hidden="true" class="transition group-open:rotate-180">▾</span></summary>
+                <summary class="tap-amplio cursor-pointer text-stone-400 hover:text-amber-400 text-xs font-semibold list-none [&::-webkit-details-marker]:hidden inline-flex items-center gap-1"><span class="group-open:hidden">See more about the company</span><span class="hidden group-open:inline">See less</span><span aria-hidden="true" class="transition group-open:rotate-180">▾</span></summary>
                 <div class="mt-3 space-y-3">
-                    <p class="text-stone-300 text-sm leading-relaxed"><span class="text-stone-500 text-xs font-bold uppercase tracking-wider block mb-1">Qué hace</span>${esc(c.que_hace)}</p>
-                    ${c.estado ? `<p class="text-stone-400 text-sm leading-relaxed"><span class="text-stone-500 text-xs font-bold uppercase tracking-wider block mb-1">Estado</span>${esc(c.estado)}</p>` : ''}
-                    <div><p class="text-stone-500 text-xs font-bold uppercase tracking-wider mb-1">Próximos hitos</p>${hitosLista(c.hitos)}</div>
-                    ${c.fuente_url ? `<a href="${esc(safeUrl(c.fuente_url))}" target="_blank" rel="noopener noreferrer" class="tap-amplio text-stone-500 hover:text-amber-400 text-xs underline underline-offset-2 inline-block">Fuente</a>` : ''}
+                    <p class="text-stone-300 text-sm leading-relaxed"><span class="text-stone-500 text-xs font-bold uppercase tracking-wider block mb-1">What it does</span>${esc(c.que_hace)}</p>
+                    ${c.estado ? `<p class="text-stone-400 text-sm leading-relaxed"><span class="text-stone-500 text-xs font-bold uppercase tracking-wider block mb-1">Status</span>${esc(c.estado)}</p>` : ''}
+                    <div><p class="text-stone-500 text-xs font-bold uppercase tracking-wider mb-1">Upcoming milestones</p>${hitosLista(c.hitos)}</div>
+                    ${c.fuente_url ? `<a href="${esc(safeUrl(c.fuente_url))}" target="_blank" rel="noopener noreferrer" class="tap-amplio text-stone-500 hover:text-amber-400 text-xs underline underline-offset-2 inline-block">Source</a>` : ''}
                 </div>
             </details>
         </div>`;
@@ -559,11 +571,11 @@
                 <td><span class="pp-hf">${esc(c.hito_fecha)}</span>${esc(c.hito)}</td>
             </tr>`).join('');
         return `
-            <div class="pp-cab"><h1>Panorama de biotecnológicas</h1>${pan.actualizado ? `<span class="pp-fecha">Datos al ${esc(pan.actualizado)}</span>` : ''}</div>
-            <p class="pp-sub">El medicamento más avanzado de cada compañía y su próximo paso.</p>
+            <div class="pp-cab"><h1>Biotech overview</h1>${pan.actualizado ? `<span class="pp-fecha">Data as of ${esc(pan.actualizado)}</span>` : ''}</div>
+            <p class="pp-sub">Each company's most advanced drug and its next step.</p>
             <table>
                 <colgroup><col class="c1"><col class="c2"><col class="c3"><col class="c4"><col class="c5"></colgroup>
-                <thead><tr><th>Compañía</th><th>Medicamento</th><th>Fase</th><th>Enfermedad</th><th>Próximo hito</th></tr></thead>
+                <thead><tr><th>Company</th><th>Drug</th><th>Phase</th><th>Disease</th><th>Next milestone</th></tr></thead>
                 <tbody>${filas}</tbody>
             </table>`;
     }
@@ -580,20 +592,20 @@
             const titulo = document.title;
             const fin = () => { document.body.classList.remove('imprimir-panorama'); document.title = titulo; window.removeEventListener('afterprint', fin); };
             document.body.classList.add('imprimir-panorama');
-            document.title = 'Panorama de biotecnologicas';   // nombre sugerido del archivo al guardar como PDF
+            document.title = 'Biotech overview';   // nombre sugerido del archivo al guardar como PDF
             window.addEventListener('afterprint', fin);
             window.print();
         });
     }
     function panoramaBiotech(pan) {
         const fase = f => `<button type="button" data-termino="${esc(f)}" class="bg-sky-400/10 text-sky-300 border border-sky-400/30 hover:border-sky-300 text-xs font-semibold px-2 py-0.5 rounded-md cursor-help whitespace-nowrap">${esc(f)}</button>`;
-        const fuente = c => c.fuente_url ? `<a href="${esc(safeUrl(c.fuente_url))}" target="_blank" rel="noopener noreferrer" class="tap-amplio text-stone-500 hover:text-amber-400 underline underline-offset-2 text-xs">Fuente</a>` : '';
+        const fuente = c => c.fuente_url ? `<a href="${esc(safeUrl(c.fuente_url))}" target="_blank" rel="noopener noreferrer" class="tap-amplio text-stone-500 hover:text-amber-400 underline underline-offset-2 text-xs">Source</a>` : '';
         const filas = pan.companias || [];
         const tabla = `
         <div class="hidden md:block overflow-hidden rounded-xl border border-stone-800">
             <table class="w-full text-sm text-left">
                 <thead class="bg-stone-900 text-stone-500 text-xs uppercase tracking-wider">
-                    <tr><th class="px-4 py-3 font-bold">Compañía</th><th class="px-4 py-3 font-bold">Medicamento</th><th class="px-4 py-3 font-bold">Fase</th><th class="px-4 py-3 font-bold">Enfermedad</th><th class="px-4 py-3 font-bold">Próximo hito</th></tr>
+                    <tr><th class="px-4 py-3 font-bold">Company</th><th class="px-4 py-3 font-bold">Drug</th><th class="px-4 py-3 font-bold">Phase</th><th class="px-4 py-3 font-bold">Disease</th><th class="px-4 py-3 font-bold">Next milestone</th></tr>
                 </thead>
                 <tbody class="divide-y divide-stone-800">${filas.map(c => `
                     <tr class="hover:bg-stone-900/60 align-top">
@@ -618,24 +630,24 @@
     }
     // Calendario del mes (biotecnología): qué pasa este mes con las compañías, solo hechos
     const TIPO_CAL = {
-        'Resultados': 'bg-stone-800 text-stone-200 border-stone-700',
-        'Datos clínicos': 'bg-sky-400/10 text-sky-300 border-sky-400/30',
+        'Earnings': 'bg-stone-800 text-stone-200 border-stone-700',
+        'Clinical data': 'bg-sky-400/10 text-sky-300 border-sky-400/30',
         'FDA': 'bg-violet-400/10 text-violet-300 border-violet-400/30',
-        'Congreso': 'bg-amber-400/10 text-amber-300 border-amber-400/30',
-        'Otro': 'bg-stone-800 text-stone-300 border-stone-700'
+        'Conference': 'bg-amber-400/10 text-amber-300 border-amber-400/30',
+        'Other': 'bg-stone-800 text-stone-300 border-stone-700'
     };
     function calendarioBiotech(cal) {
         const hoy = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Bogota', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
         const evs = cal.eventos || [];
         const conFecha = evs.filter(e => e.fecha).sort((a, b) => a.fecha.localeCompare(b.fecha));
         const sinFecha = evs.filter(e => !e.fecha);
-        const chip = t => `<span class="border ${TIPO_CAL[t] || TIPO_CAL.Otro} text-[11px] font-semibold px-2 py-0.5 rounded-md whitespace-nowrap">${esc(t)}</span>`;
+        const chip = t => `<span class="border ${TIPO_CAL[t] || TIPO_CAL.Other} text-[11px] font-semibold px-2 py-0.5 rounded-md whitespace-nowrap">${esc(t)}</span>`;
         const fila = e => `
             <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
                 <span class="text-sky-300 text-xs font-bold">${esc(e.ticker)}</span>${chip(e.tipo)}
-                ${e.confirmada === false ? '<span class="text-stone-500 text-[11px] uppercase tracking-wider">Estimada</span>' : ''}
+                ${e.confirmada === false ? '<span class="text-stone-500 text-[11px] uppercase tracking-wider">Estimated</span>' : ''}
             </div>
-            <p class="text-stone-200 text-sm mt-1">${esc(e.evento)}${e.fuente_url ? ` <a href="${esc(safeUrl(e.fuente_url))}" target="_blank" rel="noopener noreferrer" class="tap-amplio text-stone-500 hover:text-amber-400 underline underline-offset-2 text-xs">Fuente</a>` : ''}</p>`;
+            <p class="text-stone-200 text-sm mt-1">${esc(e.evento)}${e.fuente_url ? ` <a href="${esc(safeUrl(e.fuente_url))}" target="_blank" rel="noopener noreferrer" class="tap-amplio text-stone-500 hover:text-amber-400 underline underline-offset-2 text-xs">Source</a>` : ''}</p>`;
         const porDia = {};
         conFecha.forEach(e => (porDia[e.fecha] ||= []).push(e));
         const dias = Object.keys(porDia).map(f => {
@@ -645,17 +657,17 @@
             return `<li class="flex gap-4 py-3 ${pasado ? 'opacity-50' : ''}">
                 <div class="w-14 shrink-0 self-start text-center rounded-lg border ${f === hoy ? 'border-amber-400 bg-amber-400/10' : 'border-stone-800 bg-stone-900'} py-1.5">
                     <p class="text-white text-xl font-bold leading-none">${d}</p>
-                    <p class="text-stone-500 text-[11px] uppercase mt-1">${dt.toLocaleDateString('es-CO', { weekday: 'short' }).replace('.', '')}</p>
+                    <p class="text-stone-500 text-[11px] uppercase mt-1">${dt.toLocaleDateString('en-US', { weekday: 'short' }).replace('.', '')}</p>
                 </div>
                 <div class="flex-1 min-w-0 space-y-3">${porDia[f].map(e => `<div>${fila(e)}</div>`).join('')}</div>
             </li>`;
         }).join('');
         const resto = sinFecha.length ? `
             <div class="mt-4 border-t border-stone-800 pt-4">
-                <p class="text-stone-500 text-xs font-bold uppercase tracking-wider mb-2">Este mes, sin fecha exacta</p>
+                <p class="text-stone-500 text-xs font-bold uppercase tracking-wider mb-2">This month, no exact date</p>
                 <ul class="grid sm:grid-cols-2 gap-x-6 gap-y-3">${sinFecha.map(e => `<li>${fila(e)}${e.cuando ? `<p class="text-stone-500 text-xs mt-0.5">${esc(e.cuando)}</p>` : ''}</li>`).join('')}</ul>
             </div>` : '';
-        if (!dias && !resto) return `<p class="text-stone-400 text-sm">Este mes no hay eventos anunciados con fecha para estas compañías.</p>`;
+        if (!dias && !resto) return `<p class="text-stone-400 text-sm">There are no events announced with a date this month for these companies.</p>`;
         return `<ul class="divide-y divide-stone-800">${dias}</ul>${resto}`;
     }
 
@@ -663,9 +675,10 @@
         const cont = document.getElementById('bio-empresas');
         initPopover();
         fetch('data/biotech.json', { cache: 'no-store' }).then(r => r.json()).then(d => {
+            FASES_BIO = d.fases || {};
             if (d.panorama && (d.panorama.companias || []).length) {
                 document.getElementById('bio-panorama').innerHTML = panoramaBiotech(d.panorama);
-                if (d.panorama.actualizado) document.getElementById('bio-panorama-fecha').textContent = 'Datos al ' + d.panorama.actualizado;
+                if (d.panorama.actualizado) document.getElementById('bio-panorama-fecha').textContent = 'Data as of ' + d.panorama.actualizado;
                 document.getElementById('bio-panorama-wrap').classList.remove('hidden');
                 prepararPdfPanorama(d.panorama);
             }
@@ -673,15 +686,15 @@
             if (cw && d.calendario) {
                 document.getElementById('bio-calendario').innerHTML = calendarioBiotech(d.calendario);
                 const t = document.getElementById('bio-calendario-mes'); if (t && d.calendario.mes_texto) t.textContent = d.calendario.mes_texto;
-                const f = document.getElementById('bio-calendario-fecha'); if (f && d.calendario.actualizado) f.textContent = 'Datos al ' + d.calendario.actualizado;
+                const f = document.getElementById('bio-calendario-fecha'); if (f && d.calendario.actualizado) f.textContent = 'Data as of ' + d.calendario.actualizado;
                 cw.classList.remove('hidden');
             }
             const cias = d.companias || [];
-            cont.innerHTML = cias.length ? cias.map(fichaBiotech).join('') : vacio('Aún no hay fichas de compañías.');
+            cont.innerHTML = cias.length ? cias.map(fichaBiotech).join('') : vacio('No company profiles yet.');
             cont.removeAttribute('aria-busy');
             const f = document.getElementById('bio-empresas-fecha');
-            if (f && d.actualizado) f.textContent = 'Datos al ' + d.actualizado;
-        }).catch(() => { cont.innerHTML = vacio('No pudimos cargar esta sección en este momento.'); });
+            if (f && d.actualizado) f.textContent = 'Data as of ' + d.actualizado;
+        }).catch(() => { cont.innerHTML = vacio('We could not load this section right now.'); });
     };
 
 

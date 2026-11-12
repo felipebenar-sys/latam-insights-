@@ -49,12 +49,14 @@ La definición va en 2 a 4 frases, en lenguaje sencillo para un inversionista no
 
 
 ## Biotechnology (`data/biotech.json`, página `biotecnologia.html`; en el menú se llama Biotechnology)
+**Idioma (decisión del dueño): todo el contenido de `data/biotech.json` y de la página Biotechnology va en inglés** (valores de texto, fechas como "Before end of 2026", "Q4 2026", "H1 2027", "Feb 28, 2027", y actualizado como "Nov 1, 2026"). Las claves JSON no cambian. Las notas de biotecnología en Hoy siguen en español. Los mismos tonos y reglas valen en inglés: frases cortas, sin jerga, para un joven de 15 años, sin opinión.
+
 **La corrida diaria no modifica `data/biotech.json`** ni esta página, que no tiene noticias: solo la tabla "Panorama de biotecnológicas" y las fichas de las compañías. Las noticias de estas 15 compañías se publican en Hoy, con formato de solo hechos (ver "Biotecnología en Hoy" abajo).
 
 **Actualización mensual:** el día 1 de cada mes (o cuando el dueño lo pida) se revisa cada compañía y se actualizan, solo con hechos confirmados por una fuente:
 - `panorama.companias`: una fila por compañía con `nombre`, `ticker`, `medicamento`, `fase`, `enfermedad`, `hito` (el próximo paso), `hito_fecha` y `fuente_url`. Ordenadas por ticker.
 - `companias`: una ficha por compañía, en el mismo orden y con las mismas compañías que el panorama, con `ticker`, `nombre`, `bolsa`, `medicamento_principal` (`nombre`, `fase`, `enfermedad`), `que_hace`, `estado`, `hitos` (`texto`, `fecha`) y `fuente_url`.
-- `panorama.actualizado` y `actualizado`: la fecha de la revisión, en formato "1 nov 2026".
+- `panorama.actualizado` y `actualizado`: la fecha de la revisión, en formato "Nov 1, 2026".
 
 **Compañías (15):** Ascentage Pharma (AAPG), Celcuity (CELC), Cytokinetics (CYTK), Edgewise Therapeutics (EWTX), Faeth Therapeutics (FTH), IDEAYA Biosciences (IDYA), Immunome (IMNM), Kardigan (KARD), Palvella Therapeutics (PVLA), Arcus Biosciences (RCUS), Relay Therapeutics (RLAY), Revolution Medicines (RVMD), Rhythm Pharmaceuticals (RYTM), Tango Therapeutics (TNGX) y Wave Life Sciences (WVE). Solo el dueño agrega o quita compañías.
 
@@ -65,21 +67,21 @@ La definición va en 2 a 4 frases, en lenguaje sencillo para un inversionista no
 **Reglas (obligatorias):**
 1. **Sin opinión:** nada de lecturas alcistas o bajistas, ponderaciones, puntajes, recomendaciones ni calificativos como "positivo", "bueno", "prometedor" o "decepcionante". Solo hechos. Se puede decir que un estudio "cumplió su objetivo principal" o "dio resultados positivos" cuando la compañía lo reporta así.
 2. **Lenguaje para un joven de 15 años:** frases cortas y sin jerga. `que_hace` explica en 1 o 2 frases qué hace la compañía y cómo funciona su medicamento principal, en una imagen simple. `estado` no repite lo que ya muestran los recuadros (nombre, fase, enfermedad ni la palabra "aprobado"): cuenta solo lo adicional (para qué pacientes está aprobado, designaciones de la FDA, resultado del último estudio), en 1 o 2 frases.
-3. **Fases válidas:** "Fase 1", "Fase 1/2", "Fase 2", "Fase 2/3", "Fase 2b/3", "Fase 3", "En revisión FDA", "Aprobado (FDA)" o "Aprobado (China)" (u otro país entre paréntesis). Cada fase usada debe existir en `data/glosario.json`, porque la página la explica al tocarla.
+3. **Fases válidas:** "Phase 1", "Phase 1/2", "Phase 2", "Phase 2/3", "Phase 2b/3", "Phase 3", "Under FDA review", "Approved (FDA)" o "Approved (China)" (u otro país entre paréntesis). Cada fase usada debe existir en el bloque `fases` de `data/biotech.json` (nombre de la fase -> explicación en inglés), porque la página la explica al tocarla.
 4. **Hechos solo de la fuente:** no uses cifras ni fechas que no estén en una fuente; si un dato no aparece, no lo pongas. Firma Stag Research y sin menciones al proceso.
 
 **Calendario "Qué ver este mes"** (`calendario` en `data/biotech.json`, se reemplaza completo cada mes): los eventos de las 15 compañías que caen en el mes que empieza, solo hechos de una fuente.
-- Tipos (campo `tipo`, exactamente uno de estos): `Resultados` (presentación de resultados trimestrales o anuales), `Datos clínicos` (resultados topline, datos intermedios o finales de un estudio), `FDA` (fecha límite PDUFA, reunión de comité asesor u otra decisión regulatoria; también EMA u otro regulador, dicho en `evento`), `Congreso` (presentación en un congreso médico, con el nombre del congreso) y `Otro` (día del inversionista, inicio o fin de un estudio con fecha, etc.).
-- Cada evento: `fecha` (AAAA-MM-DD; o `null` si la compañía solo dijo "este mes" o una ventana dentro del mes, y entonces `cuando` dice la ventana, por ejemplo "segunda quincena de noviembre"), `ticker`, `tipo`, `evento` (una frase corta en lenguaje sencillo, sin opinión), `confirmada` (`true` si la compañía o el regulador publicaron la fecha; `false` si es una estimación de un calendario de resultados de terceros, que entonces debe ser una fuente seria y se nombra en `fuente_url`) y `fuente_url`.
+- Tipos (campo `tipo`, exactamente uno de estos): `Earnings` (presentación de resultados trimestrales o anuales), `Clinical data` (resultados topline, datos intermedios o finales de un estudio), `FDA` (fecha límite PDUFA, reunión de comité asesor u otra decisión regulatoria; también EMA u otro regulador, dicho en `evento`), `Conference` (presentación en un congreso médico, con el nombre del congreso) y `Other` (día del inversionista, inicio o fin de un estudio con fecha, etc.).
+- Cada evento: `fecha` (AAAA-MM-DD; o `null` si la compañía solo dijo "este mes" o una ventana dentro del mes, y entonces `cuando` dice la ventana, por ejemplo "second half of November"), `ticker`, `tipo`, `evento` (una frase corta en lenguaje sencillo, sin opinión), `confirmada` (`true` si la compañía o el regulador publicaron la fecha; `false` si es una estimación de un calendario de resultados de terceros, que entonces debe ser una fuente seria y se nombra en `fuente_url`) y `fuente_url`.
 - Solo eventos dentro del mes. Los de "fin de año", "cuarto trimestre" o "segundo semestre" no entran salvo que la compañía precise que caen en el mes. No inventes fechas.
-- Campos del bloque: `mes` (AAAA-MM), `mes_texto` (por ejemplo "noviembre 2026"), `actualizado` (formato "1 nov 2026") y `eventos`.
+- Campos del bloque: `mes` (AAAA-MM), `mes_texto` (por ejemplo "noviembre 2026"), `actualizado` (formato "Nov 1, 2026") y `eventos`.
 
 ```json
 "calendario": {
-  "mes": "2026-11", "mes_texto": "noviembre 2026", "actualizado": "1 nov 2026",
+  "mes": "2026-11", "mes_texto": "November 2026", "actualizado": "Nov 1, 2026",
   "eventos": [
-    { "fecha": "2026-11-04", "ticker": "CYTK", "tipo": "Resultados", "evento": "Presenta sus resultados del tercer trimestre.", "confirmada": true, "fuente_url": "https://..." },
-    { "fecha": null, "cuando": "segunda quincena de noviembre", "ticker": "XXXX", "tipo": "Datos clínicos", "evento": "...", "confirmada": true, "fuente_url": "https://..." }
+    { "fecha": "2026-11-04", "ticker": "CYTK", "tipo": "Earnings", "evento": "Reports its third-quarter results.", "confirmada": true, "fuente_url": "https://..." },
+    { "fecha": null, "cuando": "second half of November", "ticker": "XXXX", "tipo": "Clinical data", "evento": "...", "confirmada": true, "fuente_url": "https://..." }
   ]
 }
 ```
