@@ -1,7 +1,7 @@
 name: Pre-revisión de noticias (sin IA)
 on:
   schedule:
-    - cron: "47 12 * * 1-5"  # 7:47 a. m. hora Bogotá, lunes a viernes, antes de la edición de las 8:40
+    - cron: "7 11 * * 1-5"   # 6:07 a. m. hora Bogotá, lunes a viernes, antes de la edición de las 7:10
   workflow_dispatch:
 permissions:
   contents: write
