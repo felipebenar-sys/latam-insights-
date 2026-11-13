@@ -1,8 +1,8 @@
 {
   "brent": {
-    "valor": 91.99,
-    "cambio_pct": 0.55,
-    "fecha": "2026-11-11",
+    "valor": 95.24,
+    "cambio_pct": 2.67,
+    "fecha": "2026-11-12",
     "fuente": "ICE vía Yahoo Finance"
   },
   "colcap": {
@@ -22,9 +22,9 @@
   },
   "actualizado": "2026-11-12",
   "usdcop": {
-    "valor": 3307.36,
-    "cambio_pct": 1.01,
-    "fecha": "2026-11-11",
+    "valor": 3302.04,
+    "cambio_pct": 0.69,
+    "fecha": "2026-11-13",
     "fuente": "Dólar/peso colombiano (mercado) vía Yahoo Finance"
   }
 }
