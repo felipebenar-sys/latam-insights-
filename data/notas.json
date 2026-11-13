@@ -1,121 +1,26 @@
 {
-  "actualizado": "12 nov 2026, 8:49 a. m. (hora Bogotá)",
+  "actualizado": "13 nov 2026, 10:11 a. m. (hora Bogotá)",
   "notas": [
     {
-      "id": "2026-11-12-01",
-      "fecha": "2026-11-12",
-      "categoria": "region",
-      "pais": "Brasil",
-      "puntaje": {
-        "total": 7,
-        "alcance": 1,
-        "materialidad": 3,
-        "novedad": 2,
-        "fuente": 1
-      },
-      "titulo": "La inflación de Brasil sube solo 0,14 % en octubre y queda por debajo de lo esperado",
-      "resumen": "El IPCA de Brasil, su índice oficial de precios al consumidor, aumentó 0,14 % en octubre según el IBGE, menos que el 0,25 % que esperaba el mercado. En doce meses la inflación quedó en 4,63 %.",
-      "contexto": "El dato fue publicado por el IBGE el jueves 12 de noviembre. Un sondeo de Reuters anticipaba 0,25 % para el mes y 4,73 % en doce meses, así que ambas cifras salieron por debajo del pronóstico. Brasil es la mayor economía de América Latina y su inflación orienta las decisiones del Banco Central do Brasil sobre la tasa Selic, que influyen en el real y en los activos de la región que tiene quien invierte desde Colombia.",
-      "afectados": [
-        "Real brasileño",
-        "Tasa Selic",
-        "Bolsa de Brasil",
-        "Inversiones en la región"
-      ],
-      "peso_alcista": 60,
-      "alcista": "Una inflación menor a la esperada le da al Banco Central do Brasil más margen para no endurecer su política. Eso puede aliviar las tasas de largo plazo en Brasil y favorecer a las acciones brasileñas, sobre todo a las que dependen del consumo y del crédito. Para quien tiene fondos o ETF de Brasil o de América Latina, medidos en pesos, un mercado brasileño más tranquilo puede sostener su valor. También reduce el riesgo de un choque inflacionario en la región.",
-      "bajista": "Un solo mes no cambia la tendencia: el Banco Central do Brasil acaba de decir que la inflación exige mantener las tasas altas por más tiempo, así que el dato podría no traducirse en recortes pronto. Si las tasas altas se mantienen, el crédito y la actividad en Brasil siguen presionados. Además, una inflación más baja con tasas altas puede reducir el atractivo relativo del real si el mercado empieza a anticipar recortes, lo que afectaría a quien tiene activos en esa moneda.",
-      "impacto": {
-        "conclusion": "Pesa algo más la lectura alcista, porque el dato salió por debajo del pronóstico tanto en el mes como en doce meses, lo que reduce la presión sobre las tasas en Brasil. Para quien invierte desde Colombia, el efecto se concentra en las inversiones en Brasil o en la región; en los activos locales no hay un canal directo.",
-        "activos": [
-          {
-            "activo": "acciones",
-            "efecto": "neutral",
-            "detalle": "Sin efecto directo."
-          },
-          {
-            "activo": "renta_fija",
-            "efecto": "neutral",
-            "detalle": "Sin efecto directo."
-          },
-          {
-            "activo": "dolar",
-            "efecto": "positivo",
-            "detalle": "Menos presión sobre las tasas en Brasil puede favorecer a los fondos y ETF de Brasil y de la región, medidos en pesos."
-          },
-          {
-            "activo": "cdt",
-            "efecto": "neutral",
-            "detalle": "Sin efecto directo."
-          }
-        ]
-      },
-      "mirar": "La próxima reunión del Copom del Banco Central do Brasil, donde se verá si el dato cambia su mensaje sobre la tasa Selic.",
+      "id": "2026-11-13-01",
+      "fecha": "2026-11-13",
+      "categoria": "biotecnologia",
+      "formato": "hechos",
+      "empresa": "KARD",
+      "fecha_noticia": "2026-11-12",
+      "titulo": "Kardigan reporta su tercer trimestre: US$591,4 millones en caja y datos de danicamtiv esperados en el segundo trimestre de 2027",
+      "resumen": "Kardigan publicó sus resultados del tercer trimestre de 2026. Terminó septiembre con US$591,4 millones en efectivo e inversiones y una pérdida neta de US$58,6 millones en el trimestre.",
+      "contexto": "La caja subió desde US$335,5 millones a finales de 2025, sobre todo por el dinero de su salida a bolsa en junio de 2026. En el trimestre gastó US$64,4 millones en investigación y desarrollo (US$49,1 millones un año antes) y US$22,2 millones en gastos generales y administrativos (US$9,9 millones un año antes). La pérdida neta fue de US$58,6 millones, frente a US$60,2 millones en el mismo trimestre de 2025. La compañía tiene tres medicamentos en estudio para enfermedades del corazón.",
+      "que_significa": "Kardigan todavía no vende medicamentos, así que vive del dinero que ha levantado. La compañía dice que su caja alcanza para llevar sus tres programas hasta resultados clínicos y para empezar estudios de Fase 3. Su medicamento principal, danicamtiv, busca ayudar al músculo del corazón a contraerse con más fuerza en pacientes con miocardiopatía dilatada de origen genético; el estudio KINSHIP-DCM terminó de inscribir pacientes en un grupo de la parte Fase 2b y ya inscribe en la parte Fase 3. El estudio KATALYST-AV de ataciguat, para estrechez moderada de la válvula aórtica, completó la inscripción de 156 pacientes. El estudio KARDINAL-ASH de tonlamarsen, para presión arterial muy alta tras una hospitalización, sigue inscribiendo pacientes.",
+      "mirar": "Los datos topline de la parte Fase 2b del estudio KINSHIP-DCM de danicamtiv, esperados en el segundo trimestre de 2027.",
       "terminos": [
-        "IPCA",
-        "Tasa Selic",
-        "Copom"
+        "Fase 2b/3",
+        "Miocardiopatía dilatada",
+        "Datos topline",
+        "Pista de caja"
       ],
-      "fuente": "InfoMoney (datos del IBGE)",
-      "url": "https://www.infomoney.com.br/economia/ipca-inflacao-outubro-2026-dados-ibge/"
-    },
-    {
-      "id": "2026-11-12-02",
-      "fecha": "2026-11-12",
-      "categoria": "macro",
-      "puntaje": {
-        "total": 6,
-        "alcance": 1,
-        "materialidad": 2,
-        "novedad": 2,
-        "fuente": 1
-      },
-      "titulo": "El dólar baja $21 y cierra en $3.283 en una jornada sin mercado de contado",
-      "resumen": "El dólar en Colombia cerró el miércoles 11 de noviembre en $3.283, frente a $3.304,29 del cierre anterior, y volvió a quedar por debajo de los $3.300.",
-      "contexto": "La jornada operó en modalidad Next Day, sin mercado de contado local, por el festivo bancario de Veteranos en EE. UU. El dólar abrió en $3.292, tocó un máximo de $3.311,20 y un mínimo de $3.271. En el exterior, el índice DXY subía cerca de 0,6 % y el Brent avanzaba 1,11 % a US$92,51 por barril, por preocupaciones de oferta en Medio Oriente que incluyen nuevos ataques a barcos en el estrecho de Ormuz. El mercado de contado regresaba el jueves 12 de noviembre a las 8:00 a. m.",
-      "afectados": [
-        "Peso colombiano",
-        "TRM",
-        "Importadores",
-        "Exportadores"
-      ],
-      "peso_alcista": 55,
-      "alcista": "Un dólar más barato reduce el costo de los bienes importados y de la deuda en dólares de empresas y Gobierno. Si se mantiene, ayuda a contener la inflación, que sigue lejos de la meta, y con eso alivia la presión sobre las tasas. El repunte del Brent también es un soporte para los ingresos en dólares del país, que suelen favorecer al peso.",
-      "bajista": "La baja ocurrió en una jornada atípica, sin mercado de contado, por lo que puede no reflejar la tendencia con la oferta y demanda normales. El dólar global seguía fuerte, con el DXY al alza, y eso puede presionar de nuevo al peso cuando el mercado opere con normalidad. Además, el precio sigue muy cerca de los $3.300, un nivel que ha superado en varias sesiones recientes.",
-      "impacto": {
-        "conclusion": "Pesa ligeramente más la lectura alcista para el mercado local, porque un peso más fuerte ayuda a contener la inflación, aunque el movimiento fue pequeño y en una jornada sin mercado de contado. Para quien invierte, el efecto principal está en el valor en pesos de las inversiones en dólares.",
-        "activos": [
-          {
-            "activo": "acciones",
-            "efecto": "neutral",
-            "detalle": "Sin efecto directo."
-          },
-          {
-            "activo": "renta_fija",
-            "efecto": "neutral",
-            "detalle": "Sin efecto directo."
-          },
-          {
-            "activo": "dolar",
-            "efecto": "negativo",
-            "detalle": "Un dólar más bajo reduce el valor en pesos de los ahorros e inversiones en dólares o en el exterior."
-          },
-          {
-            "activo": "cdt",
-            "efecto": "neutral",
-            "detalle": "Sin efecto directo."
-          }
-        ]
-      },
-      "mirar": "La TRM y el cierre del dólar en la jornada de contado del 12 de noviembre, el primero con el mercado operando con normalidad.",
-      "terminos": [
-        "TRM",
-        "Índice DXY",
-        "Brent",
-        "Estrecho de Ormuz"
-      ],
-      "fuente": "Valora Analitik",
-      "url": "https://www.valoraanalitik.com/dolar-en-colombia-cayo-este-miercoles-y-cerro-por-debajo-de-3-300-tras-jornada-next-day-por-festivo-en-ee-uu/"
+      "fuente": "Kardigan (comunicado vía Business Wire)",
+      "url": "https://finance.yahoo.com/healthcare/articles/kardigan-reports-third-quarter-2026-120000895.html"
     }
   ]
 }
