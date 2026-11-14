@@ -1,77 +1,77 @@
 {
   "activos": {
     "NU": {
-      "valor": 11.83,
-      "cambio_pct": -3.98,
-      "fecha": "2026-11-12",
+      "valor": 13.22,
+      "cambio_pct": 11.75,
+      "fecha": "2026-11-13",
       "moneda": "USD",
       "simbolo": "NU",
       "fuente": "Yahoo Finance"
     },
     "JPM": {
-      "valor": 342.82,
-      "cambio_pct": -0.17,
-      "fecha": "2026-11-12",
+      "valor": 346.19,
+      "cambio_pct": 0.98,
+      "fecha": "2026-11-13",
       "moneda": "USD",
       "simbolo": "JPM",
       "fuente": "Yahoo Finance"
     },
     "MELI": {
-      "valor": 1475.09,
-      "cambio_pct": -2.44,
-      "fecha": "2026-11-12",
+      "valor": 1491.49,
+      "cambio_pct": 1.11,
+      "fecha": "2026-11-13",
       "moneda": "USD",
       "simbolo": "MELI",
       "fuente": "Yahoo Finance"
     },
     "RMS": {
-      "valor": 1352.5,
-      "cambio_pct": -0.07,
-      "fecha": "2026-11-12",
+      "valor": 1341.5,
+      "cambio_pct": -0.81,
+      "fecha": "2026-11-13",
       "moneda": "EUR",
       "simbolo": "RMS.PA",
       "fuente": "Yahoo Finance"
     },
     "BN": {
-      "valor": 41.64,
-      "cambio_pct": -1.0,
-      "fecha": "2026-11-12",
+      "valor": 40.97,
+      "cambio_pct": -1.61,
+      "fecha": "2026-11-13",
       "moneda": "USD",
       "simbolo": "BN",
       "fuente": "Yahoo Finance"
     },
     "PFGRUPOARG": {
-      "valor": 15600.0,
-      "cambio_pct": 4.14,
+      "valor": 14980.0,
+      "cambio_pct": 0.0,
       "fecha": "2026-11-13",
       "moneda": "COP",
       "simbolo": "PFGRUPOARG.CL",
       "fuente": "Yahoo Finance"
     },
     "BVC": {
-      "valor": 16140.0,
-      "cambio_pct": -1.1,
+      "valor": 16320.0,
+      "cambio_pct": 0.0,
       "fecha": "2026-11-13",
       "moneda": "COP",
       "simbolo": "BVC.CL",
       "fuente": "Yahoo Finance"
     },
     "TQQQ": {
-      "valor": 59.88,
-      "cambio_pct": -0.93,
-      "fecha": "2026-11-12",
+      "valor": 57.68,
+      "cambio_pct": -3.67,
+      "fecha": "2026-11-13",
       "moneda": "USD",
       "simbolo": "TQQQ",
       "fuente": "Yahoo Finance"
     },
     "COPX": {
-      "valor": 71.01,
-      "cambio_pct": -3.28,
-      "fecha": "2026-11-12",
+      "valor": 69.23,
+      "cambio_pct": -2.51,
+      "fecha": "2026-11-13",
       "moneda": "USD",
       "simbolo": "COPX",
       "fuente": "Yahoo Finance"
     }
   },
-  "actualizado": "2026-11-13"
+  "actualizado": "2026-11-14"
 }
