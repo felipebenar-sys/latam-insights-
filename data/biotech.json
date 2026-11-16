@@ -1,5 +1,5 @@
 {
-  "actualizado": "Nov 1, 2026",
+  "actualizado": "Nov 16, 2026",
   "fases": {
     "Phase 1": "First test of a drug in people, usually in a small group. The question it tries to answer: is it safe, and what dose can be given without causing serious harm? It does not yet try to prove that the drug works.",
     "Phase 1/2": "A study that joins two stages into one. First it answers the phase 1 question (is it safe, and what dose should be used?) and then, with the chosen dose, it starts answering the phase 2 question (are there signs that it works?).",
@@ -12,7 +12,7 @@
     "Approved (China)": "China's drug regulator has authorized selling it there, but it is not yet approved in the U.S. The remaining question is whether it can be approved in other countries, and for that the company keeps running studies, usually phase 3."
   },
   "panorama": {
-    "actualizado": "Nov 1, 2026",
+    "actualizado": "Nov 16, 2026",
     "companias": [
       {
         "nombre": "Arcus Biosciences",
@@ -22,7 +22,7 @@
         "enfermedad": "Clear cell kidney cancer",
         "hito": "Start of the phase 3 study PEAK-20, as a first treatment",
         "hito_fecha": "Before end of 2026",
-        "fuente_url": "https://s202.q4cdn.com/599190870/files/doc_news/Arcus-Presents-New-Data-from-ARC-20-that-Demonstrate-the-Opportunity-for-Casdatifan-to-Become-a-Foundational-Treatment-Across-All-Lin-N7V7C.pdf"
+        "fuente_url": "https://s202.q4cdn.com/599190870/files/doc_news/Arcus-Biosciences-Reports-Third-Quarter-2026-Financial-Results-and-Provides-a-Pipeline-Update-2026.pdf"
       },
       {
         "nombre": "Ascentage Pharma",
@@ -30,9 +30,9 @@
         "medicamento": "Olverembatinib",
         "fase": "Approved (China)",
         "enfermedad": "Chronic myeloid leukemia",
-        "hito": "Lisaftoclax added to the list of drugs covered by China's health system",
-        "hito_fecha": "Before end of 2026",
-        "fuente_url": "https://www.globenewswire.com/news-release/2026/10/20/3385051/0/en/ascentage-pharma-s-lisaftoclax-granted-breakthrough-therapy-designation-in-china-for-treatment-na%C3%AFve-cll-sll.html"
+        "hito": "Data from several studies, including olverembatinib combinations, at the ASH congress",
+        "hito_fecha": "Dec 12–15, 2026",
+        "fuente_url": "https://www.biospace.com/press-releases/ascentage-pharma-to-present-data-from-multiple-trials-including-an-oral-presentation-of-apg-5918-at-ash-2026"
       },
       {
         "nombre": "Celcuity",
@@ -40,9 +40,9 @@
         "medicamento": "Gedatolisib (REVTORPYK)",
         "fase": "Approved (FDA)",
         "enfermedad": "Advanced HR+/HER2- breast cancer",
-        "hito": "Phase 3 study VIKTORIA-2, as a first treatment, is still ongoing",
-        "hito_fecha": "No confirmed date",
-        "fuente_url": "https://www.manilatimes.net/2026/10/24/tmt-newswire/globenewswire/celcuity-presents-updated-results-from-the-pik3ca-mt-cohort-of-the-phase-3-viktoria-1-study-in-patients-with-hrher2-advanced-breast-cancer-at-the-esmo-congress-2026/2453187"
+        "hito": "Submits VIKTORIA-1 data to regulators outside the U.S.",
+        "hito_fecha": "Late 2026 or early 2027",
+        "fuente_url": "https://www.globenewswire.com/news-release/2026/11/09/3398409/0/en/celcuity-announces-fda-acceptance-of-snda-for-revtorpyk-gedatolisib-for-hr-her2-pik3ca-mutant-locally-advanced-or-metastatic-breast-cancer.html"
       },
       {
         "nombre": "Cytokinetics",
@@ -52,7 +52,7 @@
         "enfermedad": "Obstructive hypertrophic cardiomyopathy",
         "hito": "Application to the FDA for the non-obstructive form of the disease",
         "hito_fecha": "Q4 2026",
-        "fuente_url": "https://www.manilatimes.net/2026/10/13/tmt-newswire/globenewswire/cytokinetics-announces-additional-data-from-acacia-hcm-presented-at-the-hfsa-annual-scientific-meeting-2026/2444088"
+        "fuente_url": "https://www.biospace.com/press-releases/cytokinetics-announces-prescribing-information-for-myqorzo-aficamten-expanded-to-include-data-from-phase-3-maple-hcm"
       },
       {
         "nombre": "Edgewise Therapeutics",
@@ -61,8 +61,8 @@
         "fase": "Phase 2",
         "enfermedad": "Hypertrophic cardiomyopathy",
         "hito": "Start of the phase 3 study of EDG-7500",
-        "hito_fecha": "Q4 2026",
-        "fuente_url": "https://www.biopharmawatch.com/news/EWTX/edgewise-therapeutics-announces-sale-of-sevasemten-for-up-to-2-65-billion-strengthening-ba-ewtx-20260601"
+        "hito_fecha": "Before end of 2026",
+        "fuente_url": "https://www.biospace.com/press-releases/edgewise-therapeutics-reports-third-quarter-2026-financial-results"
       },
       {
         "nombre": "Faeth Therapeutics",
@@ -70,9 +70,9 @@
         "medicamento": "PIKTOR",
         "fase": "Phase 2",
         "enfermedad": "Endometrial cancer",
-        "hito": "First results (topline) of the phase 2 study in endometrial cancer",
-        "hito_fecha": "Before end of 2026",
-        "fuente_url": "https://investors.faeththerapeutics.com/news-releases"
+        "hito": "Interim data from the breast cancer study PIK-101, which will also test PIKTOR with Roche's giredestrant",
+        "hito_fecha": "2027",
+        "fuente_url": "https://www.biospace.com/press-releases/faeth-reports-positive-preliminary-phase-2-topline-results-from-the-pik-201-trial-evaluating-piktor-in-combination-with-paclitaxel-in-patients-with-advanced-endometrial-cancer"
       },
       {
         "nombre": "IDEAYA Biosciences",
@@ -80,9 +80,9 @@
         "medicamento": "Darovasertib",
         "fase": "Phase 2/3",
         "enfermedad": "Metastatic uveal melanoma",
-        "hito": "Finishes submitting the approval application to the FDA together with crizotinib, as a first treatment",
+        "hito": "Start of phase 3 studies of IDE849, another of its drugs, in small cell lung cancer",
         "hito_fecha": "Before end of 2026",
-        "fuente_url": "https://media.ideayabio.com/2026-10-19-IDEAYA-Biosciences-and-Servier-Announce-Data-From-Three-Clinical-Trials-at-ESMO-2026-Supporting-the-Potential-of-Darovasertib-to-Become-a-Foundational-New-Therapy-for-Patients-Across-the-Treatment-Journey-of-Uveal-Melanoma"
+        "fuente_url": "https://www.prnewswire.com/news-releases/ideaya-biosciences-reports-financial-results-for-the-third-quarter-2026-and-provides-a-business-update-302926978.html"
       },
       {
         "nombre": "Immunome",
@@ -90,9 +90,9 @@
         "medicamento": "Varegacestat",
         "fase": "Under FDA review",
         "enfermedad": "Desmoid tumors",
-        "hito": "First data on IM-1021, another of its drugs, in lymphoma",
-        "hito_fecha": "Before end of 2026",
-        "fuente_url": "https://www.biospace.com/press-releases/immunome-announces-ema-validation-of-marketing-authorization-application-for-varegacestat-for-the-treatment-of-adults-with-desmoid-tumors"
+        "hito": "Updated data on IM-1021, another of its drugs, in lymphoma at the ASH congress",
+        "hito_fecha": "Dec 14, 2026",
+        "fuente_url": "https://www.sec.gov/Archives/edgar/data/0001472012/000119312526453556/imnm-ex99_1.htm"
       },
       {
         "nombre": "Kardigan",
@@ -101,8 +101,8 @@
         "fase": "Phase 2b/3",
         "enfermedad": "Genetic dilated cardiomyopathy",
         "hito": "First results (topline) of the phase 2b part of KINSHIP-DCM",
-        "hito_fecha": "H1 2027",
-        "fuente_url": "https://www.nasdaq.com/press-release/kardigan-reports-second-quarter-2026-financial-results-and-recent-business-updates"
+        "hito_fecha": "Q2 2027",
+        "fuente_url": "https://www.sec.gov/Archives/edgar/data/0002123613/000119312526456885/ck0002123613-ex99_1.htm"
       },
       {
         "nombre": "Palvella Therapeutics",
@@ -110,9 +110,9 @@
         "medicamento": "QTORIN rapamycin",
         "fase": "Under FDA review",
         "enfermedad": "Microcystic lymphatic malformations",
-        "hito": "FDA deadline to decide on QTORIN rapamycin",
-        "hito_fecha": "Feb 28, 2027",
-        "fuente_url": "https://www.globenewswire.com/news-release/2026/10/28/3390054/0/en/palvella-announces-fda-acceptance-and-priority-review-of-qtorin-rapamycin-nda-february-28-2027-pdufa-target-action-date-set.html"
+        "hito": "Start of a phase 3 study of QTORIN rapamycin in cutaneous venous malformations",
+        "hito_fecha": "Q4 2026",
+        "fuente_url": "https://www.globenewswire.com/news-release/2026/11/05/3396310/0/en/palvella-therapeutics-reports-third-quarter-2026-financial-results-and-provides-corporate-update.html"
       },
       {
         "nombre": "Relay Therapeutics",
@@ -120,9 +120,9 @@
         "medicamento": "Zovegalisib",
         "fase": "Phase 3",
         "enfermedad": "Breast cancer",
-        "hito": "Enrollment update for the phase 3 study ReDiscover-2",
-        "hito_fecha": "Before end of 2026",
-        "fuente_url": "https://www.financialcontent.com/article/gnwcq-2026-8-6-relay-therapeutics-reports-second-quarter-2026-financial-results-and-corporate-updates"
+        "hito": "Data and regulatory update in vascular malformations at the ASH congress",
+        "hito_fecha": "Dec 14, 2026",
+        "fuente_url": "https://www.globenewswire.com/news-release/2026/11/04/3395819/0/en/relay-therapeutics-reports-third-quarter-2026-financial-results-and-corporate-updates.html"
       },
       {
         "nombre": "Revolution Medicines",
@@ -130,9 +130,9 @@
         "medicamento": "Daraxonrasib (RASONQUE)",
         "fase": "Approved (FDA)",
         "enfermedad": "Metastatic pancreatic cancer",
-        "hito": "End of enrollment in the phase 3 lung cancer study (RASolve 301)",
-        "hito_fecha": "2026",
-        "fuente_url": "https://ir.revmed.com/news-releases/news-release-details/us-fda-approves-revolution-medicines-rasonquetm-daraxonrasib"
+        "hito": "Sites close enrollment in the phase 3 lung cancer study (RASolve 301)",
+        "hito_fecha": "End of November 2026",
+        "fuente_url": "https://ir.revmed.com/news-releases/news-release-details/revolution-medicines-reports-third-quarter-2026-financial"
       },
       {
         "nombre": "Rhythm Pharmaceuticals",
@@ -142,7 +142,7 @@
         "enfermedad": "Acquired hypothalamic obesity",
         "hito": "Start of the phase 3 study of bivamelagon, another drug acting on the same pathway",
         "hito_fecha": "Before end of 2026",
-        "fuente_url": "https://www.globenewswire.com/news-release/2026/10/13/3380291/0/en/rhythm-pharmaceuticals-announces-commercial-launch-of-imcivree-setmelanotide-in-japan-for-patients-with-acquired-hypothalamic-obesity.html"
+        "fuente_url": "https://www.sec.gov/Archives/edgar/data/0001649904/000162828026069106/q32026earningspr.htm"
       },
       {
         "nombre": "Tango Therapeutics",
@@ -151,8 +151,8 @@
         "fase": "Phase 1/2",
         "enfermedad": "Pancreatic cancer",
         "hito": "Data on vopimetostat alone in lung cancer",
-        "hito_fecha": "H2 2026",
-        "fuente_url": "https://finviz.com/news/407142/tango-presents-promising-results-from-phase-12-study-of-vopimetostat-and-daraxonrasib-in-pancreatic-cancer-and-provides-updates-to-development-strategy"
+        "hito_fecha": "January 2027",
+        "fuente_url": "https://www.biospace.com/press-releases/tango-therapeutics-reports-third-quarter-2026-financial-results-and-provides-business-highlights"
       },
       {
         "nombre": "Wave Life Sciences",
@@ -160,16 +160,16 @@
         "medicamento": "WVE-007",
         "fase": "Phase 1/2",
         "enfermedad": "Obesity",
-        "hito": "Data from the single 600 mg dose in the INLIGHT study",
+        "hito": "Data from repeated doses of WVE-006, another of its drugs",
         "hito_fecha": "Q4 2026",
-        "fuente_url": "https://www.sec.gov/Archives/edgar/data/0001631574/000119312526432690/d120442dex991.htm"
+        "fuente_url": "https://ir.wavelifesciences.com/news-releases/news-release-details/wave-life-sciences-highlights-wve-007-inhbe-sirna-progress"
       }
     ]
   },
   "calendario": {
     "mes": "2026-11",
     "mes_texto": "November 2026",
-    "actualizado": "Nov 3, 2026",
+    "actualizado": "Nov 16, 2026",
     "eventos": [
       {
         "fecha": "2026-11-03",
@@ -199,15 +199,31 @@
         "fecha": "2026-11-04",
         "ticker": "CYTK",
         "tipo": "Earnings",
-        "evento": "Reports its third-quarter results.",
+        "evento": "Reported its third-quarter results.",
         "confirmada": true,
-        "fuente_url": "https://finviz.com/news/405790/cytokinetics-to-announce-third-quarter-results-on-november-4-2026"
+        "fuente_url": "https://ir.cytokinetics.com/press-releases/press-release-details/2026/Cytokinetics-Reports-Third-Quarter-2026-Financial-Results-and-Provides-Business-Update/default.aspx"
+      },
+      {
+        "fecha": "2026-11-04",
+        "ticker": "EWTX",
+        "tipo": "Earnings",
+        "evento": "Reported its third-quarter results.",
+        "confirmada": true,
+        "fuente_url": "https://www.biospace.com/press-releases/edgewise-therapeutics-reports-third-quarter-2026-financial-results"
+      },
+      {
+        "fecha": "2026-11-04",
+        "ticker": "RCUS",
+        "tipo": "Earnings",
+        "evento": "Reported its third-quarter results.",
+        "confirmada": true,
+        "fuente_url": "https://s202.q4cdn.com/599190870/files/doc_news/Arcus-Biosciences-Reports-Third-Quarter-2026-Financial-Results-and-Provides-a-Pipeline-Update-2026.pdf"
       },
       {
         "fecha": "2026-11-04",
         "ticker": "RLAY",
         "tipo": "Earnings",
-        "evento": "Reports its third-quarter results.",
+        "evento": "Reported its third-quarter results.",
         "confirmada": true,
         "fuente_url": "https://www.globenewswire.com/news-release/2026/10/28/3390754/0/en/relay-therapeutics-to-announce-third-quarter-2026-financial-results-and-corporate-highlights-on-november-4-2026.html"
       },
@@ -215,7 +231,7 @@
         "fecha": "2026-11-04",
         "ticker": "RVMD",
         "tipo": "Earnings",
-        "evento": "Reports its third-quarter results.",
+        "evento": "Reported its third-quarter results.",
         "confirmada": true,
         "fuente_url": "https://www.globenewswire.com/news-release/2026/10/21/3385895/0/en/revolution-medicines-to-report-financial-results-for-third-quarter-2026-after-market-close-on-november-4-2026.html"
       },
@@ -223,7 +239,7 @@
         "fecha": "2026-11-04",
         "ticker": "WVE",
         "tipo": "Other",
-        "evento": "Virtual research day for investors.",
+        "evento": "Held a virtual research day for investors.",
         "confirmada": true,
         "fuente_url": "https://www.globenewswire.com/news-release/2026/10/19/3383431/0/en/index.html"
       },
@@ -231,7 +247,7 @@
         "fecha": "2026-11-05",
         "ticker": "CELC",
         "tipo": "Earnings",
-        "evento": "Reports its third-quarter results.",
+        "evento": "Reported its third-quarter results.",
         "confirmada": true,
         "fuente_url": "https://www.globenewswire.com/news-release/2026/10/29/3391271/0/en/celcuity-schedules-release-of-third-quarter-2026-financial-results-and-webcast-conference-call.html"
       },
@@ -239,7 +255,7 @@
         "fecha": "2026-11-05",
         "ticker": "PVLA",
         "tipo": "Earnings",
-        "evento": "Reports its third-quarter results.",
+        "evento": "Reported its third-quarter results.",
         "confirmada": true,
         "fuente_url": "https://www.biopharmawatch.com/news/PVLA/palvella-therapeutics-q3-2026-results-update"
       },
@@ -247,17 +263,99 @@
         "fecha": "2026-11-06",
         "ticker": "CYTK",
         "tipo": "Conference",
-        "evento": "Three presentations on aficamten at the HCMS scientific sessions, held alongside the American Heart Association (AHA) congress.",
+        "evento": "Gave three presentations on aficamten at the HCMS scientific sessions, held alongside the American Heart Association (AHA) congress.",
         "confirmada": true,
         "fuente_url": "https://www.biospace.com/press-releases/cytokinetics-announces-three-upcoming-presentations-at-the-hypertrophic-cardiomyopathy-medical-society-hcms-scientific-sessions-held-in-collaboration-with-the-american-heart-association-scientific-sessions-2026"
+      },
+      {
+        "fecha": "2026-11-09",
+        "ticker": "CELC",
+        "tipo": "FDA",
+        "evento": "The FDA accepted for review its application for patients with a PIK3CA mutation; decision due Jun 25, 2027.",
+        "confirmada": true,
+        "fuente_url": "https://www.globenewswire.com/news-release/2026/11/09/3398409/0/en/celcuity-announces-fda-acceptance-of-snda-for-revtorpyk-gedatolisib-for-hr-her2-pik3ca-mutant-locally-advanced-or-metastatic-breast-cancer.html"
+      },
+      {
+        "fecha": "2026-11-09",
+        "ticker": "FTH",
+        "tipo": "Clinical data",
+        "evento": "Reported first results (topline) of its phase 2 study PIK-201 in endometrial cancer.",
+        "confirmada": true,
+        "fuente_url": "https://www.biospace.com/press-releases/faeth-reports-positive-preliminary-phase-2-topline-results-from-the-pik-201-trial-evaluating-piktor-in-combination-with-paclitaxel-in-patients-with-advanced-endometrial-cancer"
+      },
+      {
+        "fecha": "2026-11-09",
+        "ticker": "IMNM",
+        "tipo": "Earnings",
+        "evento": "Reported its third-quarter results.",
+        "confirmada": true,
+        "fuente_url": "https://www.sec.gov/Archives/edgar/data/0001472012/000119312526453556/imnm-ex99_1.htm"
+      },
+      {
+        "fecha": "2026-11-09",
+        "ticker": "TNGX",
+        "tipo": "Earnings",
+        "evento": "Reported its third-quarter results.",
+        "confirmada": true,
+        "fuente_url": "https://www.biospace.com/press-releases/tango-therapeutics-reports-third-quarter-2026-financial-results-and-provides-business-highlights"
+      },
+      {
+        "fecha": "2026-11-12",
+        "ticker": "KARD",
+        "tipo": "Earnings",
+        "evento": "Reported its third-quarter results.",
+        "confirmada": true,
+        "fuente_url": "https://www.sec.gov/Archives/edgar/data/0002123613/000119312526456885/ck0002123613-ex99_1.htm"
+      },
+      {
+        "fecha": "2026-11-14",
+        "ticker": "WVE",
+        "tipo": "Conference",
+        "evento": "Presented new WVE-007 data at ObesityWeek 2026, including six-month data from the 600 mg dose.",
+        "confirmada": true,
+        "fuente_url": "https://ir.wavelifesciences.com/news-releases/news-release-details/wave-life-sciences-highlights-wve-007-inhbe-sirna-progress"
+      },
+      {
+        "fecha": "2026-11-15",
+        "ticker": "AAPG",
+        "tipo": "Other",
+        "evento": "China added lisaftoclax to its public reimbursement list and renewed coverage of olverembatinib, starting Jan 1, 2027.",
+        "confirmada": true,
+        "fuente_url": "https://www.biospace.com/press-releases/ascentage-pharma-announces-inclusion-of-lisaftoclax-in-chinas-2026-national-reimbursement-drug-list-and-successful-renewal-of-coverage-for-olverembatinib"
+      },
+      {
+        "fecha": "2026-11-16",
+        "ticker": "CYTK",
+        "tipo": "FDA",
+        "evento": "The FDA added the results of the MAPLE-HCM study to the label of MYQORZO.",
+        "confirmada": true,
+        "fuente_url": "https://www.biospace.com/press-releases/cytokinetics-announces-prescribing-information-for-myqorzo-aficamten-expanded-to-include-data-from-phase-3-maple-hcm"
       },
       {
         "fecha": "2026-11-16",
         "ticker": "IDYA",
         "tipo": "Other",
-        "evento": "Research and development day in London.",
+        "evento": "Research and development day for investors in London.",
         "confirmada": true,
         "fuente_url": "https://media.ideayabio.com/2026-11-03-IDEAYA-Biosciences-Reports-Financial-Results-for-the-Third-Quarter-2026-and-Provides-a-Business-Update"
+      },
+      {
+        "fecha": null,
+        "cuando": "November 6–9",
+        "ticker": "KARD",
+        "tipo": "Conference",
+        "evento": "Presentations on tonlamarsen and ataciguat at the American Heart Association (AHA) congress.",
+        "confirmada": true,
+        "fuente_url": "https://www.sec.gov/Archives/edgar/data/0002123613/000119312526456885/ck0002123613-ex99_1.htm"
+      },
+      {
+        "fecha": null,
+        "cuando": "end of November",
+        "ticker": "RVMD",
+        "tipo": "Other",
+        "evento": "Study sites expected to close enrollment in the phase 3 lung cancer study RASolve 301.",
+        "confirmada": true,
+        "fuente_url": "https://ir.revmed.com/news-releases/news-release-details/revolution-medicines-reports-third-quarter-2026-financial"
       },
       {
         "fecha": null,
@@ -288,15 +386,15 @@
           "fecha": "Before end of 2026"
         },
         {
-          "texto": "Finishes enrolling patients for PEAK-1",
-          "fecha": "Before end of 2026"
+          "texto": "Interim analysis of quemliclustat in pancreatic cancer (PRISM-1)",
+          "fecha": "Q4 2026"
         },
         {
-          "texto": "Results of quemliclustat in pancreatic cancer (PRISM-1)",
-          "fecha": "H1 2027"
+          "texto": "Finishes enrolling patients for PEAK-1",
+          "fecha": "Within 2–3 months of Nov 4, 2026"
         }
       ],
-      "fuente_url": "https://s202.q4cdn.com/599190870/files/doc_news/Arcus-Presents-New-Data-from-ARC-20-that-Demonstrate-the-Opportunity-for-Casdatifan-to-Become-a-Foundational-Treatment-Across-All-Lin-N7V7C.pdf",
+      "fuente_url": "https://s202.q4cdn.com/599190870/files/doc_news/Arcus-Biosciences-Reports-Third-Quarter-2026-Financial-Results-and-Provides-a-Pipeline-Update-2026.pdf",
       "endpoints": {
         "estudio": "PEAK-1 (phase 3)",
         "items": [
@@ -315,18 +413,18 @@
         "enfermedad": "Chronic myeloid leukemia"
       },
       "que_hace": "Develops and sells cancer drugs, mostly for blood cancers. Olverembatinib blocks BCR-ABL1, the protein that makes chronic myeloid leukemia cells grow, even when the tumor no longer responds to other treatments.",
-      "estado": "Sold in China for patients with the T315I mutation or who did not respond to earlier treatments. In China it also has lisaftoclax approved, for another leukemia, which received breakthrough therapy designation as a first treatment in October 2026.",
+      "estado": "Sold in China for patients with the T315I mutation or who did not respond to earlier treatments. In November 2026 China added its other approved drug, lisaftoclax (for another leukemia), to its public reimbursement list and renewed coverage of olverembatinib, starting Jan 1, 2027.",
       "hitos": [
         {
-          "texto": "Lisaftoclax added to the list of drugs covered by China's health system",
-          "fecha": "Before end of 2026"
+          "texto": "Data from several studies, including olverembatinib combinations, at the ASH congress",
+          "fecha": "Dec 12–15, 2026"
         },
         {
           "texto": "Still enrolling patients in three phase 3 studies of olverembatinib (POLARIS-1, 2 and 3)",
           "fecha": "No confirmed date"
         }
       ],
-      "fuente_url": "https://www.globenewswire.com/news-release/2026/10/20/3385051/0/en/ascentage-pharma-s-lisaftoclax-granted-breakthrough-therapy-designation-in-china-for-treatment-na%C3%AFve-cll-sll.html",
+      "fuente_url": "https://www.biospace.com/press-releases/ascentage-pharma-announces-inclusion-of-lisaftoclax-in-chinas-2026-national-reimbursement-drug-list-and-successful-renewal-of-coverage-for-olverembatinib",
       "endpoints": {
         "estudio": "China approval studies (phase 2) and POLARIS-1 and POLARIS-2 (phase 3, ongoing)",
         "items": [
@@ -347,14 +445,26 @@
         "enfermedad": "Breast cancer"
       },
       "que_hace": "Develops gedatolisib (brand name REVTORPYK), a breast cancer drug that blocks several parts of the PI3K/AKT/mTOR pathway, a circuit tumor cells use to grow.",
-      "estado": "Sold in the U.S. for patients with advanced HR+/HER2- breast cancer without a PIK3CA mutation. In October 2026 it presented data from the group with that mutation: with the three-drug combination that includes gedatolisib, 59% of patients responded, versus 33% with alpelisib and fulvestrant.",
+      "estado": "Sold in the U.S. for patients with advanced HR+/HER2- breast cancer without a PIK3CA mutation. In November 2026 the FDA accepted for review its application to also treat patients with that mutation.",
       "hitos": [
+        {
+          "texto": "Submits VIKTORIA-1 data to regulators outside the U.S.",
+          "fecha": "Late 2026 or early 2027"
+        },
+        {
+          "texto": "Start of a phase 2 study with darolutamide in prostate cancer",
+          "fecha": "H1 2027"
+        },
+        {
+          "texto": "FDA deadline to decide on use in patients with a PIK3CA mutation",
+          "fecha": "Jun 25, 2027"
+        },
         {
           "texto": "Phase 3 study VIKTORIA-2, as a first treatment, is still ongoing",
           "fecha": "No confirmed date"
         }
       ],
-      "fuente_url": "https://www.manilatimes.net/2026/10/24/tmt-newswire/globenewswire/celcuity-presents-updated-results-from-the-pik3ca-mt-cohort-of-the-phase-3-viktoria-1-study-in-patients-with-hrher2-advanced-breast-cancer-at-the-esmo-congress-2026/2453187",
+      "fuente_url": "https://www.globenewswire.com/news-release/2026/11/09/3398409/0/en/celcuity-announces-fda-acceptance-of-snda-for-revtorpyk-gedatolisib-for-hr-her2-pik3ca-mutant-locally-advanced-or-metastatic-breast-cancer.html",
       "endpoints": {
         "estudio": "VIKTORIA-1 (phase 3, basis of the FDA approval) and VIKTORIA-2 (ongoing)",
         "items": [
@@ -374,14 +484,26 @@
         "enfermedad": "Obstructive hypertrophic cardiomyopathy"
       },
       "que_hace": "Develops drugs that adjust how hard a muscle contracts. Aficamten (brand name MYQORZO) slows a heart muscle that contracts too much and thickens, which makes it harder for blood to leave the heart.",
-      "estado": "Sold in the U.S. since December 2025 for adults with symptoms, and also approved in China, the European Union and the United Kingdom. In the non-obstructive form of the disease, its ACACIA-HCM study gave positive results.",
+      "estado": "Sold in the U.S. since December 2025 for adults with symptoms, and also approved in China, the European Union, the United Kingdom and Canada. In November 2026 the FDA added to its label the results of the MAPLE-HCM study, which compared it with metoprolol.",
       "hitos": [
         {
           "texto": "Application to the FDA for the non-obstructive form of the disease",
           "fecha": "Q4 2026"
+        },
+        {
+          "texto": "Launch in the United Kingdom",
+          "fecha": "Q4 2026"
+        },
+        {
+          "texto": "Results of the CEDAR-HCM study in teenagers",
+          "fecha": "Early 2027"
+        },
+        {
+          "texto": "Application in Europe for the non-obstructive form of the disease",
+          "fecha": "Early 2027"
         }
       ],
-      "fuente_url": "https://www.manilatimes.net/2026/10/13/tmt-newswire/globenewswire/cytokinetics-announces-additional-data-from-acacia-hcm-presented-at-the-hfsa-annual-scientific-meeting-2026/2444088",
+      "fuente_url": "https://www.biospace.com/press-releases/cytokinetics-announces-prescribing-information-for-myqorzo-aficamten-expanded-to-include-data-from-phase-3-maple-hcm",
       "endpoints": {
         "estudio": "SEQUOIA-HCM (phase 3, basis of the FDA approval) and ACACIA-HCM (phase 3)",
         "items": [
@@ -402,18 +524,14 @@
         "enfermedad": "Hypertrophic cardiomyopathy"
       },
       "que_hace": "Develops drugs for heart diseases. EDG-7500 acts on the machinery that makes the heart muscle contract, to treat hypertrophic cardiomyopathy, in which the walls of the heart become too thick.",
-      "estado": "Its phase 2 study CIRRUS-HCM gave positive results in June 2026. In July 2026 it sold its muscular dystrophy business to Servier and received US$1.55 billion in cash.",
+      "estado": "Its phase 2 study CIRRUS-HCM gave positive results in June 2026. In July 2026 it sold its muscular dystrophy business to Servier, and in October it started a phase 2 study of another drug, EDG-15400, in heart failure.",
       "hitos": [
         {
           "texto": "Start of the phase 3 study of EDG-7500",
-          "fecha": "Q4 2026"
-        },
-        {
-          "texto": "Start of a phase 2 study of EDG-15400 in heart failure",
           "fecha": "Before end of 2026"
         }
       ],
-      "fuente_url": "https://www.biospace.com/press-releases/edgewise-therapeutics-reports-second-quarter-2026-financial-results",
+      "fuente_url": "https://www.biospace.com/press-releases/edgewise-therapeutics-reports-third-quarter-2026-financial-results",
       "endpoints": {
         "estudio": "CIRRUS-HCM (phase 2)",
         "items": [
@@ -432,18 +550,18 @@
         "enfermedad": "Endometrial cancer"
       },
       "que_hace": "Develops PIKTOR, a combination of two pills (serabelisib and sapanisertib) that blocks the PI3K/AKT/mTOR pathway at two different points, for endometrial and breast cancer. It used to be called Sensei Biotherapeutics.",
-      "estado": "Not approved yet. It has FDA Fast Track designation in advanced endometrial cancer; in October 2026 it showed data in mice with breast cancer, where it slowed the tumor as much as or more than gedatolisib.",
+      "estado": "It has FDA Fast Track designation in advanced endometrial cancer. In November 2026 the company reported positive first results of its phase 2 study PIK-201: with paclitaxel, the tumor shrank in 12 of 36 patients (33%) who had already received other treatments.",
       "hitos": [
         {
-          "texto": "First results (topline) of the phase 2 study in endometrial cancer",
-          "fecha": "Before end of 2026"
+          "texto": "Interim data from the breast cancer study PIK-101, which will also test PIKTOR with Roche's giredestrant",
+          "fecha": "2027"
         },
         {
-          "texto": "Interim data from the breast cancer study",
-          "fecha": "2027"
+          "texto": "Move to a phase 3 study in endometrial cancer, if regulators agree",
+          "fecha": "No confirmed date"
         }
       ],
-      "fuente_url": "https://investors.faeththerapeutics.com/news-releases",
+      "fuente_url": "https://www.biospace.com/press-releases/faeth-reports-positive-preliminary-phase-2-topline-results-from-the-pik-201-trial-evaluating-piktor-in-combination-with-paclitaxel-in-patients-with-advanced-endometrial-cancer",
       "endpoints": {
         "estudio": "Phase 2 study in advanced endometrial cancer",
         "items": [
@@ -462,14 +580,22 @@
         "enfermedad": "Metastatic uveal melanoma"
       },
       "que_hace": "Develops precision cancer drugs. Darovasertib is a pill that blocks the PKC protein, which is switched on by mutations found in almost all melanomas of the eye (uveal melanoma).",
-      "estado": "It has FDA Fast Track designation in the metastatic disease and breakthrough therapy designation as a treatment before surgery. In the OptimUM-02 study, together with crizotinib, patients went a median of 6.9 months without the cancer getting worse, versus 3.1 months with other treatments.",
+      "estado": "In the third quarter of 2026 it finished submitting the approval application to the FDA, together with crizotinib. It has FDA Fast Track designation in the metastatic disease; in the OptimUM-02 study patients went a median of 6.9 months without the cancer getting worse, versus 3.1 months with other treatments.",
       "hitos": [
         {
-          "texto": "Finishes submitting the approval application to the FDA together with crizotinib, as a first treatment",
+          "texto": "Start of phase 3 studies of IDE849, another of its drugs, in small cell lung cancer",
           "fecha": "Before end of 2026"
+        },
+        {
+          "texto": "First global data on IDE849",
+          "fecha": "End of 2026 or early 2027"
+        },
+        {
+          "texto": "FDA decision to accept the approval application for review",
+          "fecha": "No confirmed date"
         }
       ],
-      "fuente_url": "https://media.ideayabio.com/2026-10-19-IDEAYA-Biosciences-and-Servier-Announce-Data-From-Three-Clinical-Trials-at-ESMO-2026-Supporting-the-Potential-of-Darovasertib-to-Become-a-Foundational-New-Therapy-for-Patients-Across-the-Treatment-Journey-of-Uveal-Melanoma",
+      "fuente_url": "https://www.prnewswire.com/news-releases/ideaya-biosciences-reports-financial-results-for-the-third-quarter-2026-and-provides-a-business-update-302926978.html",
       "endpoints": {
         "estudio": "OptimUM-02 (phase 2/3)",
         "items": [
@@ -492,7 +618,11 @@
       "estado": "The FDA accepted the application for review in July 2026, and in October the European agency (EMA) validated the application for Europe. In the phase 3 study RINGSIDE it cut the risk of the disease getting worse by 84%, compared with placebo.",
       "hitos": [
         {
-          "texto": "First data on IM-1021, another of its drugs, in lymphoma",
+          "texto": "Updated data on IM-1021, another of its drugs, in lymphoma at the ASH congress",
+          "fecha": "Dec 14, 2026"
+        },
+        {
+          "texto": "Start of the phase 1 study of IM-1340",
           "fecha": "Before end of 2026"
         },
         {
@@ -500,7 +630,7 @@
           "fecha": "Apr 28, 2027"
         }
       ],
-      "fuente_url": "https://www.biospace.com/press-releases/immunome-announces-ema-validation-of-marketing-authorization-application-for-varegacestat-for-the-treatment-of-adults-with-desmoid-tumors",
+      "fuente_url": "https://www.sec.gov/Archives/edgar/data/0001472012/000119312526453556/imnm-ex99_1.htm",
       "endpoints": {
         "estudio": "RINGSIDE (phase 3)",
         "items": [
@@ -519,18 +649,22 @@
         "enfermedad": "Genetic dilated cardiomyopathy"
       },
       "que_hace": "Develops drugs for heart diseases that have no approved treatment. Danicamtiv aims to help the muscle of a heart that is enlarged and weak because of genetic causes contract with more force again.",
-      "estado": "In July 2026 it finished enrolling the first group of patients in its KINSHIP-DCM study and is already enrolling for the phase 3 part. It went public in June 2026.",
+      "estado": "It finished enrolling both groups of patients in the phase 2b part of its KINSHIP-DCM study and is enrolling for the phase 3 part. It went public in June 2026.",
       "hitos": [
         {
           "texto": "First results (topline) of the phase 2b part of KINSHIP-DCM",
+          "fecha": "Q2 2027"
+        },
+        {
+          "texto": "Update on the phase 3 study of ataciguat in aortic valve stenosis",
           "fecha": "H1 2027"
         },
         {
-          "texto": "Results of ataciguat in aortic valve stenosis",
-          "fecha": "H1 2027"
+          "texto": "Results (topline) of ataciguat in the KATALYST-AV study",
+          "fecha": "H2 2027"
         }
       ],
-      "fuente_url": "https://www.nasdaq.com/press-release/kardigan-reports-second-quarter-2026-financial-results-and-recent-business-updates",
+      "fuente_url": "https://www.sec.gov/Archives/edgar/data/0002123613/000119312526456885/ck0002123613-ex99_1.htm",
       "endpoints": {
         "estudio": "KINSHIP-DCM (phase 2b/3)",
         "items": [
@@ -552,6 +686,10 @@
       "estado": "In October 2026 the FDA accepted the application and granted priority review. It has breakthrough therapy, Fast Track and orphan drug designations; in its phase 3 study SELVA it met all six efficacy goals.",
       "hitos": [
         {
+          "texto": "Start of a phase 3 study of QTORIN rapamycin in cutaneous venous malformations",
+          "fecha": "Q4 2026"
+        },
+        {
           "texto": "FDA deadline to decide on QTORIN rapamycin",
           "fecha": "Feb 28, 2027"
         },
@@ -560,7 +698,7 @@
           "fecha": "H1 2027"
         }
       ],
-      "fuente_url": "https://www.globenewswire.com/news-release/2026/10/28/3390054/0/en/palvella-announces-fda-acceptance-and-priority-review-of-qtorin-rapamycin-nda-february-28-2027-pdufa-target-action-date-set.html",
+      "fuente_url": "https://www.globenewswire.com/news-release/2026/11/05/3396310/0/en/palvella-therapeutics-reports-third-quarter-2026-financial-results-and-provides-corporate-update.html",
       "endpoints": {
         "estudio": "SELVA (phase 3)",
         "items": [
@@ -582,19 +720,23 @@
       "estado": "Not approved yet. It has FDA breakthrough therapy designation; its ongoing phase 3 study is called ReDiscover-2.",
       "hitos": [
         {
-          "texto": "Enrollment update for the phase 3 study ReDiscover-2",
+          "texto": "Data and regulatory update in vascular malformations at the ASH congress",
+          "fecha": "Dec 14, 2026"
+        },
+        {
+          "texto": "FDA update to confirm the design of the first-line phase 3 study",
           "fecha": "Before end of 2026"
         },
         {
-          "texto": "Data and regulatory update in vascular malformations",
-          "fecha": "Before end of 2026"
-        },
-        {
-          "texto": "Expected start of a new first-line phase 3 study",
+          "texto": "Start of the first-line phase 3 study, with atirmociclib",
           "fecha": "Early 2027"
+        },
+        {
+          "texto": "Finishes enrolling patients for ReDiscover-2",
+          "fecha": "Mid-2027"
         }
       ],
-      "fuente_url": "https://www.financialcontent.com/article/gnwcq-2026-8-6-relay-therapeutics-reports-second-quarter-2026-financial-results-and-corporate-updates",
+      "fuente_url": "https://www.globenewswire.com/news-release/2026/11/04/3395819/0/en/relay-therapeutics-reports-third-quarter-2026-financial-results-and-corporate-updates.html",
       "endpoints": {
         "estudio": "ReDiscover-2 (phase 3)",
         "items": [
@@ -613,18 +755,26 @@
         "enfermedad": "Metastatic pancreatic cancer"
       },
       "que_hace": "Develops pills against cancers that depend on the RAS protein, a kind of growth switch that stays on in many tumors, such as pancreatic and lung tumors.",
-      "estado": "Approved in August 2026 for adults who have already been treated or who cannot receive combination chemotherapy, whether or not they have a RAS mutation. The European agency (EMA) has started reviewing it.",
+      "estado": "Approved in August 2026 for adults who have already been treated or who cannot receive combination chemotherapy, whether or not they have a RAS mutation. In October 2026 the European agency's committee (CHMP) recommended approving it in Europe for patients already treated.",
       "hitos": [
         {
-          "texto": "End of enrollment in the phase 3 lung cancer study (RASolve 301)",
-          "fecha": "2026"
+          "texto": "Sites close enrollment in the phase 3 lung cancer study (RASolve 301)",
+          "fecha": "End of November 2026"
         },
         {
-          "texto": "Decision by the European agency (EMA)",
+          "texto": "Finishes worldwide enrollment of RASolute 303, as a first treatment in pancreatic cancer",
+          "fecha": "H1 2027"
+        },
+        {
+          "texto": "First results of RASolve 301",
+          "fecha": "2027"
+        },
+        {
+          "texto": "Decision by the European Commission",
           "fecha": "No confirmed date"
         }
       ],
-      "fuente_url": "https://ir.revmed.com/news-releases/news-release-details/us-fda-approves-revolution-medicines-rasonquetm-daraxonrasib",
+      "fuente_url": "https://ir.revmed.com/news-releases/news-release-details/revolution-medicines-reports-third-quarter-2026-financial",
       "endpoints": {
         "estudio": "RASolute 302 (phase 3, pancreatic cancer)",
         "items": [
@@ -651,11 +801,11 @@
           "fecha": "Before end of 2026"
         },
         {
-          "texto": "Launch in European countries",
-          "fecha": "Early 2027"
+          "texto": "Launch in Europe, starting with Germany",
+          "fecha": "2027"
         }
       ],
-      "fuente_url": "https://www.globenewswire.com/news-release/2026/10/13/3380291/0/en/rhythm-pharmaceuticals-announces-commercial-launch-of-imcivree-setmelanotide-in-japan-for-patients-with-acquired-hypothalamic-obesity.html",
+      "fuente_url": "https://www.sec.gov/Archives/edgar/data/0001649904/000162828026069106/q32026earningspr.htm",
       "endpoints": {
         "estudio": "TRANSCEND (phase 3)",
         "items": [
@@ -678,14 +828,14 @@
       "hitos": [
         {
           "texto": "Data on vopimetostat alone in lung cancer",
-          "fecha": "H2 2026"
+          "fecha": "January 2027"
         },
         {
           "texto": "Start of the phase 3 study in pancreatic cancer, as a first treatment",
           "fecha": "H1 2027"
         }
       ],
-      "fuente_url": "https://finviz.com/news/407142/tango-presents-promising-results-from-phase-12-study-of-vopimetostat-and-daraxonrasib-in-pancreatic-cancer-and-provides-updates-to-development-strategy",
+      "fuente_url": "https://www.biospace.com/press-releases/tango-therapeutics-reports-third-quarter-2026-financial-results-and-provides-business-highlights",
       "endpoints": {
         "estudio": "Vopimetostat phase 1/2 study",
         "items": [
@@ -704,18 +854,18 @@
         "enfermedad": "Obesity"
       },
       "que_hace": "Develops RNA drugs, which switch off or correct specific genes. WVE-007 switches off the INHBE gene with the goal of losing fat without losing muscle.",
-      "estado": "In the first part of the INLIGHT study, a single dose reduced total fat and belly fat while keeping muscle. It is now testing it in phase 2a studies, alone and combined with tirzepatide, a drug from the Ozempic family (incretins).",
+      "estado": "In the INLIGHT study, a single dose reduced belly fat while keeping muscle; in November 2026 it showed six-month data from the 600 mg dose with similar results. It is now testing it in phase 2a studies, alone and combined with tirzepatide, a drug from the Ozempic family (incretins).",
       "hitos": [
         {
-          "texto": "Data from the single 600 mg dose in the INLIGHT study",
+          "texto": "Data from repeated doses of WVE-006, another of its drugs",
           "fecha": "Q4 2026"
         },
         {
-          "texto": "Start of a study on keeping weight off after stopping incretins",
-          "fecha": "Q4 2026"
+          "texto": "Six-month data from the phase 2a studies of WVE-007",
+          "fecha": "2027"
         }
       ],
-      "fuente_url": "https://www.sec.gov/Archives/edgar/data/0001631574/000119312526432690/d120442dex991.htm",
+      "fuente_url": "https://ir.wavelifesciences.com/news-releases/news-release-details/wave-life-sciences-highlights-wve-007-inhbe-sirna-progress",
       "endpoints": {
         "estudio": "INLIGHT (phase 1/2)",
         "items": [
