@@ -1,26 +1,27 @@
 {
-  "actualizado": "13 nov 2026, 10:11 a. m. (hora Bogotá)",
+  "actualizado": "16 nov 2026, 7:16 a. m. (hora Bogotá)",
   "notas": [
     {
-      "id": "2026-11-13-01",
-      "fecha": "2026-11-13",
+      "id": "2026-11-16-01",
+      "fecha": "2026-11-16",
       "categoria": "biotecnologia",
       "formato": "hechos",
-      "empresa": "KARD",
-      "fecha_noticia": "2026-11-12",
-      "titulo": "Kardigan reporta su tercer trimestre: US$591,4 millones en caja y datos de danicamtiv esperados en el segundo trimestre de 2027",
-      "resumen": "Kardigan publicó sus resultados del tercer trimestre de 2026. Terminó septiembre con US$591,4 millones en efectivo e inversiones y una pérdida neta de US$58,6 millones en el trimestre.",
-      "contexto": "La caja subió desde US$335,5 millones a finales de 2025, sobre todo por el dinero de su salida a bolsa en junio de 2026. En el trimestre gastó US$64,4 millones en investigación y desarrollo (US$49,1 millones un año antes) y US$22,2 millones en gastos generales y administrativos (US$9,9 millones un año antes). La pérdida neta fue de US$58,6 millones, frente a US$60,2 millones en el mismo trimestre de 2025. La compañía tiene tres medicamentos en estudio para enfermedades del corazón.",
-      "que_significa": "Kardigan todavía no vende medicamentos, así que vive del dinero que ha levantado. La compañía dice que su caja alcanza para llevar sus tres programas hasta resultados clínicos y para empezar estudios de Fase 3. Su medicamento principal, danicamtiv, busca ayudar al músculo del corazón a contraerse con más fuerza en pacientes con miocardiopatía dilatada de origen genético; el estudio KINSHIP-DCM terminó de inscribir pacientes en un grupo de la parte Fase 2b y ya inscribe en la parte Fase 3. El estudio KATALYST-AV de ataciguat, para estrechez moderada de la válvula aórtica, completó la inscripción de 156 pacientes. El estudio KARDINAL-ASH de tonlamarsen, para presión arterial muy alta tras una hospitalización, sigue inscribiendo pacientes.",
-      "mirar": "Los datos topline de la parte Fase 2b del estudio KINSHIP-DCM de danicamtiv, esperados en el segundo trimestre de 2027.",
+      "empresa": "CYTK",
+      "fecha_noticia": "2026-11-16",
+      "titulo": "La FDA agrega a la etiqueta de Myqorzo los datos del estudio que lo comparó con metoprolol",
+      "resumen": "Cytokinetics informó que la FDA aprobó una solicitud suplementaria para que la ficha técnica de Myqorzo (aficamten) en EE. UU. incluya los resultados del estudio de fase 3 MAPLE-HCM. El uso aprobado del medicamento no cambia.",
+      "contexto": "Myqorzo fue aprobado por la FDA en diciembre de 2025 para adultos con miocardiopatía hipertrófica obstructiva con síntomas, con base en el estudio SEQUOIA-HCM, y también está aprobado en China, la Unión Europea, el Reino Unido y Canadá. MAPLE-HCM comparó Myqorzo con metoprolol, un betabloqueador de uso habitual, cada uno como único tratamiento. Según la compañía, el estudio cumplió su objetivo principal (el cambio en el consumo máximo de oxígeno durante el ejercicio a la semana 24) y mejoró de forma significativa cinco de seis objetivos secundarios. El efecto adverso más frecuente con Myqorzo fue la presión arterial alta (15% frente a 3% con metoprolol).",
+      "que_significa": "La ficha técnica es el documento oficial que usan los médicos para saber cómo y cuándo recetar un medicamento. Ahora la de Myqorzo incluye una comparación directa contra un tratamiento que muchos pacientes ya reciben. La compañía dice que es el único inhibidor de miosina cardíaca con esta comparación en su etiqueta de EE. UU. La advertencia de riesgo de falla cardíaca y el programa especial de seguridad del medicamento siguen igual.",
+      "mirar": "Cytokinetics planea presentar en el cuarto trimestre de 2026 una solicitud suplementaria para usar aficamten en la miocardiopatía hipertrófica no obstructiva, con base en el estudio ACACIA-HCM.",
       "terminos": [
-        "Fase 2b/3",
-        "Miocardiopatía dilatada",
-        "Datos topline",
-        "Pista de caja"
+        "FDA",
+        "Solicitud suplementaria (sNDA)",
+        "Ficha técnica (prospecto)",
+        "Miocardiopatía hipertrófica",
+        "Fase 3"
       ],
-      "fuente": "Kardigan (comunicado vía Business Wire)",
-      "url": "https://finance.yahoo.com/healthcare/articles/kardigan-reports-third-quarter-2026-120000895.html"
+      "fuente": "Cytokinetics (GlobeNewswire)",
+      "url": "https://www.globenewswire.com/news-release/2026/11/16/3403219/35409/en/cytokinetics-announces-prescribing-information-for-myqorzo-aficamten-expanded-to-include-data-from-phase-3-maple-hcm.html"
     }
   ]
 }

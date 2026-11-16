@@ -2,6 +2,27 @@
   "mes": "2026-11",
   "notas": [
     {
+      "id": "2026-11-13-01",
+      "fecha": "2026-11-13",
+      "categoria": "biotecnologia",
+      "formato": "hechos",
+      "empresa": "KARD",
+      "fecha_noticia": "2026-11-12",
+      "titulo": "Kardigan reporta su tercer trimestre: US$591,4 millones en caja y datos de danicamtiv esperados en el segundo trimestre de 2027",
+      "resumen": "Kardigan publicó sus resultados del tercer trimestre de 2026. Terminó septiembre con US$591,4 millones en efectivo e inversiones y una pérdida neta de US$58,6 millones en el trimestre.",
+      "contexto": "La caja subió desde US$335,5 millones a finales de 2025, sobre todo por el dinero de su salida a bolsa en junio de 2026. En el trimestre gastó US$64,4 millones en investigación y desarrollo (US$49,1 millones un año antes) y US$22,2 millones en gastos generales y administrativos (US$9,9 millones un año antes). La pérdida neta fue de US$58,6 millones, frente a US$60,2 millones en el mismo trimestre de 2025. La compañía tiene tres medicamentos en estudio para enfermedades del corazón.",
+      "que_significa": "Kardigan todavía no vende medicamentos, así que vive del dinero que ha levantado. La compañía dice que su caja alcanza para llevar sus tres programas hasta resultados clínicos y para empezar estudios de Fase 3. Su medicamento principal, danicamtiv, busca ayudar al músculo del corazón a contraerse con más fuerza en pacientes con miocardiopatía dilatada de origen genético; el estudio KINSHIP-DCM terminó de inscribir pacientes en un grupo de la parte Fase 2b y ya inscribe en la parte Fase 3. El estudio KATALYST-AV de ataciguat, para estrechez moderada de la válvula aórtica, completó la inscripción de 156 pacientes. El estudio KARDINAL-ASH de tonlamarsen, para presión arterial muy alta tras una hospitalización, sigue inscribiendo pacientes.",
+      "mirar": "Los datos topline de la parte Fase 2b del estudio KINSHIP-DCM de danicamtiv, esperados en el segundo trimestre de 2027.",
+      "terminos": [
+        "Fase 2b/3",
+        "Miocardiopatía dilatada",
+        "Datos topline",
+        "Pista de caja"
+      ],
+      "fuente": "Kardigan (comunicado vía Business Wire)",
+      "url": "https://finance.yahoo.com/healthcare/articles/kardigan-reports-third-quarter-2026-120000895.html"
+    },
+    {
       "id": "2026-11-11-01",
       "fecha": "2026-11-11",
       "categoria": "macro",
@@ -813,6 +834,7 @@
     }
   ],
   "urls": [
+    "https://finance.yahoo.com/healthcare/articles/kardigan-reports-third-quarter-2026-120000895.html",
     "https://ifmnoticias.com/economicas/gobierno-advierte-riesgo-de-default-en-2027-si-el-congreso-no-aprueba-la-ley-de-rescate-economico/",
     "https://www.biospace.com/press-releases/edgewise-therapeutics-reports-third-quarter-2026-financial-results",
     "https://www.biospace.com/press-releases/immunome-reports-third-quarter-2026-financial-results-and-provides-business-update",

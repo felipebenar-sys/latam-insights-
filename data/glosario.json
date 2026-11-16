@@ -743,6 +743,14 @@
     {
       "termino": "Miocardiopatía dilatada",
       "definicion": "Enfermedad en la que el corazón se agranda y su músculo se vuelve delgado y débil, por lo que bombea menos sangre. Algunas formas son genéticas y se heredan en la familia. Para quien invierte, es una enfermedad con pocas opciones de tratamiento específicas, por lo que los medicamentos que la atacan pueden tener un mercado importante si llegan a aprobarse."
+    },
+    {
+      "termino": "Solicitud suplementaria (sNDA)",
+      "definicion": "Es la solicitud que una compañía presenta a la FDA para cambiar algo de un medicamento que ya está aprobado, por ejemplo agregar datos de un nuevo estudio a su etiqueta o usarlo en otros pacientes. Si la FDA la aprueba, la información oficial del medicamento se actualiza. Para quien invierte importa porque puede ampliar el uso o la forma en que los médicos ven el medicamento."
+    },
+    {
+      "termino": "Ficha técnica (prospecto)",
+      "definicion": "Es el documento oficial aprobado por el regulador que explica para qué sirve un medicamento, cómo se usa, qué estudios lo respaldan y cuáles son sus riesgos. Los médicos lo usan como referencia y las compañías solo pueden promocionar lo que dice. Por eso, cuando se agrega información nueva, la compañía puede comunicarla a los médicos."
     }
   ]
 }
