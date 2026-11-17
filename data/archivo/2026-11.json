@@ -2,6 +2,28 @@
   "mes": "2026-11",
   "notas": [
     {
+      "id": "2026-11-16-01",
+      "fecha": "2026-11-16",
+      "categoria": "biotecnologia",
+      "formato": "hechos",
+      "empresa": "CYTK",
+      "fecha_noticia": "2026-11-16",
+      "titulo": "La FDA agrega a la etiqueta de Myqorzo los datos del estudio que lo comparó con metoprolol",
+      "resumen": "Cytokinetics informó que la FDA aprobó una solicitud suplementaria para que la ficha técnica de Myqorzo (aficamten) en EE. UU. incluya los resultados del estudio de fase 3 MAPLE-HCM. El uso aprobado del medicamento no cambia.",
+      "contexto": "Myqorzo fue aprobado por la FDA en diciembre de 2025 para adultos con miocardiopatía hipertrófica obstructiva con síntomas, con base en el estudio SEQUOIA-HCM, y también está aprobado en China, la Unión Europea, el Reino Unido y Canadá. MAPLE-HCM comparó Myqorzo con metoprolol, un betabloqueador de uso habitual, cada uno como único tratamiento. Según la compañía, el estudio cumplió su objetivo principal (el cambio en el consumo máximo de oxígeno durante el ejercicio a la semana 24) y mejoró de forma significativa cinco de seis objetivos secundarios. El efecto adverso más frecuente con Myqorzo fue la presión arterial alta (15% frente a 3% con metoprolol).",
+      "que_significa": "La ficha técnica es el documento oficial que usan los médicos para saber cómo y cuándo recetar un medicamento. Ahora la de Myqorzo incluye una comparación directa contra un tratamiento que muchos pacientes ya reciben. La compañía dice que es el único inhibidor de miosina cardíaca con esta comparación en su etiqueta de EE. UU. La advertencia de riesgo de falla cardíaca y el programa especial de seguridad del medicamento siguen igual.",
+      "mirar": "Cytokinetics planea presentar en el cuarto trimestre de 2026 una solicitud suplementaria para usar aficamten en la miocardiopatía hipertrófica no obstructiva, con base en el estudio ACACIA-HCM.",
+      "terminos": [
+        "FDA",
+        "Solicitud suplementaria (sNDA)",
+        "Ficha técnica (prospecto)",
+        "Miocardiopatía hipertrófica",
+        "Fase 3"
+      ],
+      "fuente": "Cytokinetics (GlobeNewswire)",
+      "url": "https://www.globenewswire.com/news-release/2026/11/16/3403219/35409/en/cytokinetics-announces-prescribing-information-for-myqorzo-aficamten-expanded-to-include-data-from-phase-3-maple-hcm.html"
+    },
+    {
       "id": "2026-11-13-01",
       "fecha": "2026-11-13",
       "categoria": "biotecnologia",
@@ -847,6 +869,7 @@
     "https://www.globenewswire.com/news-release/2026/11/04/3395819/0/en/relay-therapeutics-reports-third-quarter-2026-financial-results-and-corporate-updates.html",
     "https://www.globenewswire.com/news-release/2026/11/05/3396310/0/en/palvella-therapeutics-reports-third-quarter-2026-financial-results-and-provides-corporate-update.html",
     "https://www.globenewswire.com/news-release/2026/11/05/3396999/0/en/celcuity-inc-reports-third-quarter-2026-financial-results-and-provides-corporate-update.html",
+    "https://www.globenewswire.com/news-release/2026/11/16/3403219/35409/en/cytokinetics-announces-prescribing-information-for-myqorzo-aficamten-expanded-to-include-data-from-phase-3-maple-hcm.html",
     "https://www.infobae.com/america/agencias/2026/11/10/el-emisor-brasileno-dice-que-la-inflacion-exige-mantener-los-tipos-elevados-por-mas-tiempo/",
     "https://www.infobae.com/economia/2026/11/02/las-acciones-argentinas-cayeron-por-sexta-rueda-seguida-el-riesgo-pais-supero-los-800-puntos-y-el-bcra-no-compro-reservas/",
     "https://www.infobae.com/economia/2026/11/09/cae-el-riesgo-pais-argentino-en-una-sesion-positiva-para-los-mercados-internacionales/",

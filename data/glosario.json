@@ -751,6 +751,18 @@
     {
       "termino": "Ficha técnica (prospecto)",
       "definicion": "Es el documento oficial aprobado por el regulador que explica para qué sirve un medicamento, cómo se usa, qué estudios lo respaldan y cuáles son sus riesgos. Los médicos lo usan como referencia y las compañías solo pueden promocionar lo que dice. Por eso, cuando se agrega información nueva, la compañía puede comunicarla a los médicos."
+    },
+    {
+      "termino": "Degradador selectivo del receptor de estrógeno (SERD)",
+      "definicion": "Es un tipo de medicamento contra el cáncer de mama que se pega al receptor de estrógeno de las células tumorales y hace que la célula lo destruya. Sin ese receptor, el tumor pierde una de las señales que usa para crecer. A quien invierte le importa porque es una de las familias de medicamentos más usadas en el cáncer de mama HR+, y muchas compañías prueban combinaciones con ella."
+    },
+    {
+      "termino": "Solicitud IND",
+      "definicion": "Es la solicitud que una compañía presenta a la FDA para poder probar por primera vez un medicamento nuevo en personas en Estados Unidos (IND significa Investigational New Drug). Incluye los resultados de los estudios en laboratorio y en animales. Para quien invierte, marca el paso de un medicamento de la etapa de laboratorio a los ensayos clínicos."
+    },
+    {
+      "termino": "Lista Nacional de Reembolso de Medicamentos de China (NRDL)",
+      "definicion": "Es la lista de medicamentos que paga el seguro médico público de China. Para entrar, las compañías negocian el precio con el Gobierno, normalmente con descuentos grandes. Para quien invierte importa porque estar en la lista hace que muchos más pacientes puedan pagar el medicamento, lo que suele aumentar las ventas en ese país."
     }
   ]
 }

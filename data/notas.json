@@ -1,27 +1,66 @@
 {
-  "actualizado": "16 nov 2026, 7:16 a. m. (hora Bogotá)",
+  "actualizado": "17 nov 2026, 7:24 a. m. (hora Bogotá)",
   "notas": [
     {
-      "id": "2026-11-16-01",
-      "fecha": "2026-11-16",
+      "id": "2026-11-17-01",
+      "fecha": "2026-11-17",
       "categoria": "biotecnologia",
       "formato": "hechos",
-      "empresa": "CYTK",
+      "empresa": "FTH",
       "fecha_noticia": "2026-11-16",
-      "titulo": "La FDA agrega a la etiqueta de Myqorzo los datos del estudio que lo comparó con metoprolol",
-      "resumen": "Cytokinetics informó que la FDA aprobó una solicitud suplementaria para que la ficha técnica de Myqorzo (aficamten) en EE. UU. incluya los resultados del estudio de fase 3 MAPLE-HCM. El uso aprobado del medicamento no cambia.",
-      "contexto": "Myqorzo fue aprobado por la FDA en diciembre de 2025 para adultos con miocardiopatía hipertrófica obstructiva con síntomas, con base en el estudio SEQUOIA-HCM, y también está aprobado en China, la Unión Europea, el Reino Unido y Canadá. MAPLE-HCM comparó Myqorzo con metoprolol, un betabloqueador de uso habitual, cada uno como único tratamiento. Según la compañía, el estudio cumplió su objetivo principal (el cambio en el consumo máximo de oxígeno durante el ejercicio a la semana 24) y mejoró de forma significativa cinco de seis objetivos secundarios. El efecto adverso más frecuente con Myqorzo fue la presión arterial alta (15% frente a 3% con metoprolol).",
-      "que_significa": "La ficha técnica es el documento oficial que usan los médicos para saber cómo y cuándo recetar un medicamento. Ahora la de Myqorzo incluye una comparación directa contra un tratamiento que muchos pacientes ya reciben. La compañía dice que es el único inhibidor de miosina cardíaca con esta comparación en su etiqueta de EE. UU. La advertencia de riesgo de falla cardíaca y el programa especial de seguridad del medicamento siguen igual.",
-      "mirar": "Cytokinetics planea presentar en el cuarto trimestre de 2026 una solicitud suplementaria para usar aficamten en la miocardiopatía hipertrófica no obstructiva, con base en el estudio ACACIA-HCM.",
+      "titulo": "Faeth firma un acuerdo con Roche para probar PIKTOR junto a giredestrant en cáncer de mama",
+      "resumen": "Faeth Therapeutics firmó un acuerdo de colaboración y suministro con Roche para estudiar su combinación PIKTOR junto con giredestrant, un medicamento experimental de Roche, en pacientes con cáncer de mama avanzado HR+/HER2-.",
+      "contexto": "Faeth patrocinará y hará el estudio de fase 1b/2 llamado FTH-PIK-101, y Roche le entregará el giredestrant. Faeth conserva todos los derechos sobre PIKTOR. PIKTOR es una combinación de dos pastillas, serabelisib y sapanisertib, que bloquea la vía PI3K/AKT/mTOR en varios puntos. Ese estudio recibió a su primer paciente en abril de 2026.",
+      "que_significa": "Roche no le compra nada a Faeth: solo pone uno de sus medicamentos para que Faeth lo combine con el suyo en el estudio. Según la compañía, cuando la vía PI3K/AKT/mTOR se activa, el cáncer de mama HR+/HER2- puede dejar de responder a los tratamientos hormonales; por eso quiere probar PIKTOR junto a un medicamento que ataca el receptor de estrógeno. La compañía no dio el número de pacientes ni los términos económicos del acuerdo.",
+      "mirar": "Faeth espera datos intermedios del estudio FTH-PIK-101 en 2027.",
       "terminos": [
-        "FDA",
-        "Solicitud suplementaria (sNDA)",
-        "Ficha técnica (prospecto)",
-        "Miocardiopatía hipertrófica",
-        "Fase 3"
+        "Degradador selectivo del receptor de estrógeno (SERD)",
+        "Cáncer de mama HR+/HER2-",
+        "Vía PI3K/AKT/mTOR",
+        "Fase 1/2"
       ],
-      "fuente": "Cytokinetics (GlobeNewswire)",
-      "url": "https://www.globenewswire.com/news-release/2026/11/16/3403219/35409/en/cytokinetics-announces-prescribing-information-for-myqorzo-aficamten-expanded-to-include-data-from-phase-3-maple-hcm.html"
+      "fuente": "Business Wire (comunicado de Faeth Therapeutics)",
+      "url": "https://www.businesswire.com/news/home/20261116192980/en/"
+    },
+    {
+      "id": "2026-11-17-02",
+      "fecha": "2026-11-17",
+      "categoria": "biotecnologia",
+      "formato": "hechos",
+      "empresa": "IDYA",
+      "fecha_noticia": "2026-11-15",
+      "titulo": "IDEAYA elige a IDE101 como su próximo candidato contra tumores sin el gen CDKN2A",
+      "resumen": "IDEAYA Biosciences nombró a IDE101 como su siguiente candidato a medicamento. Es una molécula diseñada para tumores que perdieron el gen CDKN2A, que normalmente actúa como freno del crecimiento de las células.",
+      "contexto": "Según la compañía, IDE101 bloquea dos proteínas llamadas CDK y fue diseñada con su plataforma de diseño por computador. La falta de CDKN2A aparece en cerca de 10% a 15% de los tumores sólidos y en cerca de 70% del cáncer de páncreas más común. IDEAYA reportó actividad en modelos de laboratorio, solo y combinado con inhibidores de RAS y de MTAP.",
+      "que_significa": "IDE101 todavía no se ha probado en personas: está en la etapa de laboratorio. La compañía planea estudiarlo solo, junto con inhibidores de RAS en cáncer de páncreas y junto con IDE892, su propio medicamento en fase 1, en tumores sin el gen MTAP. Antes de probarlo en pacientes necesita terminar estudios de seguridad y pedir permiso a la FDA.",
+      "mirar": "IDEAYA planea presentar la solicitud IND a la FDA en el primer semestre de 2027, si los estudios previos terminan de forma satisfactoria.",
+      "terminos": [
+        "Estudio preclínico",
+        "Solicitud IND",
+        "FDA"
+      ],
+      "fuente": "PR Newswire (comunicado de IDEAYA Biosciences)",
+      "url": "https://www.placera.se/pressmeddelanden/ideaya-biosciences-ideaya-biosciences-announces-development-candidate-nomination-of-ide101-a-potential-first-in-class-inhibitor-targeting-cdkn2a-deficiency-in-solid-tumors-20261115"
+    },
+    {
+      "id": "2026-11-17-03",
+      "fecha": "2026-11-17",
+      "categoria": "biotecnologia",
+      "formato": "hechos",
+      "empresa": "AAPG",
+      "fecha_noticia": "2026-11-15",
+      "titulo": "China incluye lisaftoclax en su lista de medicamentos pagados por el seguro público y renueva olverembatinib",
+      "resumen": "Ascentage Pharma informó que su medicamento lisaftoclax entra por primera vez a la lista de reembolso del seguro público de China (NRDL) de 2026, y que la cobertura de olverembatinib se renovó tras una nueva negociación. La lista actualizada rige desde el 1 de enero de 2027.",
+      "contexto": "Lisaftoclax queda cubierto para adultos con leucemia linfocítica crónica o linfoma linfocítico pequeño que ya recibieron al menos un tratamiento, incluido un inhibidor de BTK; fue aprobado en China en julio de 2025. Olverembatinib queda cubierto para adultos con leucemia mieloide crónica que no respondieron o no toleraron otros tratamientos, o que tienen la mutación T315I; fue aprobado en China en noviembre de 2021. Según la compañía, todas las indicaciones aprobadas de ambos medicamentos quedan cubiertas.",
+      "que_significa": "Estar en esta lista hace que el seguro público chino pague buena parte del medicamento, así que más pacientes pueden acceder a él. Según el comunicado, ninguno de los dos está aprobado todavía por la FDA en Estados Unidos. La compañía no publicó el precio negociado.",
+      "mirar": "La nueva cobertura empieza a regir el 1 de enero de 2027.",
+      "terminos": [
+        "Lista Nacional de Reembolso de Medicamentos de China (NRDL)",
+        "Aprobado (China)",
+        "FDA"
+      ],
+      "fuente": "GlobeNewswire (comunicado de Ascentage Pharma)",
+      "url": "https://www.stocktitan.net/news/AAPG/ascentage-pharma-announces-inclusion-of-lisaftoclax-in-china-s-2026-qoxlj4i0dsgr.html"
     }
   ]
 }
