@@ -1,6 +1,6 @@
 {
-  "fecha": "2026-11-18",
-  "generado": "2026-11-18 14:22",
+  "fecha": "2026-11-19",
+  "generado": "2026-11-19 14:28",
   "ventana_horas": 48,
   "nota": "Pre-revisión automática de titulares. Revisa a fondo solo los activos 'con_noticias' y los 'sin_revisar'; los 'sin_noticias' no tuvieron titulares en la ventana.",
   "activos": [
@@ -10,10 +10,10 @@
       "estado": "con_noticias",
       "noticias": [
         {
-          "titulo": "Analysts Offer Insights on Healthcare Companies: Medtronic (MDT), Arcus Biosciences (RCUS) and Summit Therapeutics (SMMT) - The Globe and Mail",
-          "fuente": "The Globe and Mail",
-          "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOUWU1NlZUZFQtdl9Eb3JGOTBqc0RzVU5id1BGb0pxOHM0bGpXcUVURDNUSkZHa0xOTUQ1MDllTDRnZ3lGNVRfazNYR0VEaWhSUzFEUmViU1NPUmcxRzRzOVdER1IyOU9rcTRtV3dPRlBjMXFhemZHVVM2emdJWVJSQnJZb2g3aENIVXJia1lBZVRFM1ByTVVYNnkydXhfSFlhUmUzZXEtUFJrN0Jfdy1MSHhYNXVKYXFobU1TR2ROd2pMSi11VHFpakhBOHVfVGNHQk5EWUlBRDI2eDJlUGhDWU84Y0dCd1F0VGZwc2phNFNHaEtsRXp6M0lsWEtDWkRsY1k5bG5WV1g2QmNzSkFKbHYwNU54Q2QyV2NmT0VjUVN4LW8?oc=5",
-          "fecha": "2026-11-17 06:03"
+          "titulo": "Caught Out By Arcus Biosciences' Slide? Here's What Bears Saw - Yahoo Finance Singapore",
+          "fuente": "Yahoo Finance Singapore",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZnM4UmZWcHprbW41TmhKZ2JmdVAtX0p1T1dnOTd6MnVsZE5RYkdsbWMzRTZJVjlvcElpUUtxc3g3MWdyaUI0OXJJQ2dzQ2JOeGpQSmxld1dhR3VEMUVKZVZxVFlfWjhNcTNRNUFSbDBDN0JPbEIzYUxra0pWRHBBTHp1UjUwYXVwdWZQM3J3?oc=5",
+          "fecha": "2026-11-18 15:11"
         }
       ],
       "grupo": "biotecnologia"
@@ -28,12 +28,6 @@
           "fuente": "Global Banking & Finance Review",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVUw1cG1aVk1SWjNrVGplWGxFQlRyZFlYalVLR1hva1JyWWpOWFRNeDdqU2pfeUt3UU5lSmJLNkk2aW1QYmZBcGc4YVpvcXV0LUdnSWtCWUczVEhLcUJxNHBJRVplcXRJbjFOVUVCVlRGVWUzWk05TWdKV1NTRG80aUo3SC1pSGY3Zl8yek9sTENEaFlsX09WSDBmM21WTmJfUlBFVQ?oc=5",
           "fecha": "2026-11-18 08:50"
-        },
-        {
-          "titulo": "What Does China's NRDL Listing Mean for Ascentage (NASDAQ:AAPG)? - Kalkine Media",
-          "fuente": "Kalkine Media",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQX0x0ckk0TUN0WXV3NktwM0xhVHlhUFltbnRRenFHdVlfWDNmaDg4QjQ5Q3VTZy1PN0lUQUNaNm9vQzRQRmFwZlpvTVJaRjM5M1ZvWmIwX1MtckFTTTUyOUpoWnJNTU1ET01vV1IyMElIaHZZUDhMcGRMT2hVaERYTkVTRU5sN0pUVElXbDJVUnJMNll0clM4QWg3R203T3cyOXNneDAxaW0?oc=5",
-          "fecha": "2026-11-16 22:47"
         }
       ],
       "grupo": "biotecnologia"
@@ -51,22 +45,22 @@
       "estado": "con_noticias",
       "noticias": [
         {
+          "titulo": "Cytokinetics Stock: Trading, Earnings and Momentum - Kalkine India",
+          "fuente": "Kalkine India",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQaWJzMjc4Y1lucUFnVW1rN0xNVUxreVRFNUpkd0Fkb2RxR05QX3l4eHUzMjNDaVFQdTJpX3ZFNTgtbzFJMU1mc3ltVEVzNHQ2RGRGZmFBUnZPMWIyM2FzMjF3Rm11aDZCNW1WeG1qODRXRGdzZXBNZlZsLTFVMGtBbU9CR19tb0ZZa3laVXp4UkhqY3ZBRjgyZjlCOHNhNjBWLXlUdlduQVQ5aERUaVdodk5IMzhZYkd6QVMzejFFdzZ1UnhJek13Y3lpVEx1b3RqUnRJWXVyd1M3YU9PTm5YNmtVcmo?oc=5",
+          "fecha": "2026-11-19 05:20"
+        },
+        {
+          "titulo": "Cytokinetics CEO Robert I. Blum Executes 7,500 Share Option Exercise and Sale on November 16, 2026 - Kalkine Media",
+          "fuente": "Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNRzFUbzZoNFlBeVBmTm9KS2NxWExzU2d1eWxOWklpdXdPTXotRHg1YWpOdmpPdldEWXFBXzFnbTRWcHVMRFdfNWdkRWNpRGpqb29tbHl0cFl5YkFZT2JRM3BETEdtS2FRZDR1ZGxXazROR1RFZzFLRDhKNWlLY1Q2UmtNbklqLTZsaWFpMnJWWjc1U0dFX292MndOVkFsY1QtemRXTjIzdjZqLXhjdVg4bXVlNGtWZFl3bmUyVlI0bVdTNDNXQ0dSTGlycEtvRkE1MnJhOGhMems4QQ?oc=5",
+          "fecha": "2026-11-18 19:20"
+        },
+        {
           "titulo": "Cytokinetics, Incorporated (CYTK) options chain - Yahoo Finance Singapore",
           "fuente": "Yahoo Finance Singapore",
           "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPcTFJTERMc3NSNkNHRmtnSUhycWF0QnozNUFvWmxsd2hFV3pWSDNpejRZX1RuYWFETmIwMzZmSzdDNTJtOHN4VEtBTzdCdl9TTkZoZ2RlRTVsbFo2UHZER2xmbkZsRFpYU1Y2RVI5b1BhSHZIaHpBcmcwZ0pCYUp3azlUWXQzbkFJNFJ3Rw?oc=5",
           "fecha": "2026-11-17 21:42"
-        },
-        {
-          "titulo": "Cytokinetics at Jefferies: launch gains and label expansion By Investing.com - Investing.com Nigeria",
-          "fuente": "Investing.com Nigeria",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOV2QwMDJjc3A5TkVFMTJLdUdhZWxXQ0lKZmdXOXR3NDV2OGxqd2JXVzRWTnVRcU5FTEUxTG1SUGRqUUtMVzFUcnAxcGcxekpqNUhXeEc4VERvak8zWXZaV3dsWXlIemhxNmxjcG5nNDE1ZDVQWGRGaUhZNlNMQUVUd21VaEdJMVRTS1RBaFRLcmxkSmMzdC1DWFdoWXFjakdwdGxYWGVKVjVwNjRSZmx0VFZBNDVnLWpISTBn?oc=5",
-          "fecha": "2026-11-17 07:09"
-        },
-        {
-          "titulo": "Cytokinetics Announces Inducement Grants Under Nasdaq Listing Rule 5635(c)(4) - Yahoo Finance",
-          "fuente": "Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbE5tQlEwd0tQaE5DVXVrOXhQMk9hRnNaVGEwS1RNVE5YMXp0NjgxVTQzazhOdXNfZERRdWhVdUlKTVlpdGE0VTEtVHNwV0xGUGlwcE9EV0lIWXl2ZE5zeVB6YndORnQxOF85V2NBemJOSDhDamNBSDRQRW42eXcxX080UmREenlSMHJfOWV3d3g1aVBjMk45OEhNN0JfVXNPQnFGSS01dFI1S2M?oc=5",
-          "fecha": "2026-11-16 16:00"
         }
       ],
       "grupo": "biotecnologia"
@@ -84,6 +78,12 @@
       "estado": "con_noticias",
       "noticias": [
         {
+          "titulo": "Faeth Therapeutics stock as Roche joins PIKTOR breast cancer trial - ad-hoc-news.de",
+          "fuente": "ad-hoc-news.de",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSV92c1dsV0hQMzNYVEt3VlNpNENsZnFOSEFTblE0VVVudlJWTkFpaGZVWVBubHZEcHJMREczVzZJMlJESHZQVUJ4bjhadWdmSmVIanNad2dHQzFPWm1BZVJrWG5mUElyWDVpYjk2azQ3Nlo2LXkxSG52LXhjMEw4d3owZW90THdwRTdPVmRibHZYbGZNYkVkRGNqMU9zM1dqc0p1c0gwNDhOWFdoWWd3SWNpa3poSW5TS1Q0amtnRkIzY2c?oc=5",
+          "fecha": "2026-11-18 20:29"
+        },
+        {
           "titulo": "Why is Faeth Therapeutics stock surging today? - Investing.com",
           "fuente": "Investing.com",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMWNieDNCYWFzOFNQcFh1TENNSzUxY0hVY3lSbGttNC1OM2ZXYWpZd05RR0ZYeHJUVVl1b291QlhobFFUV1R2TjlSODdjUDJtanJkSFgzYjdfb3lhUHJFVHY3TWN3QkxHenV4OW5VREJzVlM0VnJRUmFJeGVXVGFCd01QOVJyY3dJRFE4Q1lIWGpUNGk2ZTBfbS1wQ1RkSVUwVkIxMWJITFBJeDQ?oc=5",
@@ -94,30 +94,6 @@
           "fuente": "Kalkine",
           "url": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxPbHdRRGYtT2hlQU9FR2JRZ0EtNko0alVGNGxHV2dRMmN3emxKVVhiNUxOXzBuTFd2dGdRVzRTaEJVOVM1dDJiVkFFMnkzazhxUzRCdUo2MVNnbnQ3NXNGN0RQdkZZS055cWg1c0tvV2RxRy1hZjQzU1loOF8yY296cHlXSVlHYmtPRzN6Uk5xUURRdlNVWDRPVm5raTBJeFhCRy1YdXV1Z0V2emhhTDNqSUg0bDFIajVSMlZNQkpvak15ZHpsb2s0eGVrb05qUzdnWEFCdHZPYV9jOE9QdWdIRlpETS1yakpnRDJVY0JvOWFXY25ETTQwZ09kM2pkbDcydHdJbWgtMmJnTmZQczlwVFdIT1dMR3hvOGVBS0gtU2VERmdack9XZTZSQWU5SDVEWXpNVnl6OVlRTGxvbUwtRmdBQVQtbVJOaE5aRktiTUw5RXFabmMyRm9tTGpPZk5LbDN3MFRzbXVWUXo3Mzc4YWFWcERDeEpVQl8w?oc=5",
           "fecha": "2026-11-18 07:06"
-        },
-        {
-          "titulo": "Faeth Therapeutics stock gets $60 target on Roche collaboration - Investing.com",
-          "fuente": "Investing.com",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOOEQ0c1c3VURSak1tcl9sM3RqMW5DYUp0OXlOYWhfNkZ5QWtyeGtOQTFHcm03WW50SnB5b1RocUt2UEpXYkFheE5JdFpFNmt3NmhQVXhmeEhjMVpEcnZjUVB2dWVlV3MwUnRHdmlBRWo1aDdRZnBZNnB6bVcyOUNnVWl5ZXd2YXpQcDZUc1E3YUZpVEpUZ05XMzFCTWxOWTF2SkdMeDg5bHp6WVg1RGFtck9XQ2o0dGtWM3RVMmVYZw?oc=5",
-          "fecha": "2026-11-17 07:26"
-        },
-        {
-          "titulo": "Faeth Thera inks clinical trial collaboration with Roche - The Pharma Letter",
-          "fuente": "The Pharma Letter",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNb21rQy1VNFFZTEd5amt6NUdmMHJ6VkZ1UzlGbFFQdWstVmRfNWpNeC01ZHpJdkYzWXd1ekZEeS1KNjJBdlp3b0F2aHM4aHozYV9BeWR6UTdlUXZYYVJrSWRJX3hmdHFJT21tTFFxM1dUTTZnZmtqc2dTN2dkRExnd0swQ1MxeGxrTFVPM1hwU2txc2V5MkVtZWRiRUtTOVJkSVlr?oc=5",
-          "fecha": "2026-11-17 05:16"
-        },
-        {
-          "titulo": "Faeth to test PIKTOR plus Roche's giredestrant in advanced HR+/HER2- breast cancer - Dealroom",
-          "fuente": "Dealroom",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNC1qOWhPMzVhaTRfODBjaG01VVZBV2N4bGNoNzFxYmpZMS1VWUFKcVRIaExUVmhPUEpBRU9hUG83bWlYbWQyRkM1U3ZodnhPQWsyOEZLSjVaZXNfeHBaeDNBeXZLNHkySFFxT3VXeW5TOVpMWW45MHhrUTltUFFzR2Q1eEFPYjBrQmpXdXJCNjdEeWxmamhRQzFiQ1A0UDgyTE1sYmdzczZmUnRmM05INk9uTThwZw?oc=5",
-          "fecha": "2026-11-17 02:22"
-        },
-        {
-          "titulo": "Faeth partners with Roche for breast cancer drug trial By Investing.com - Investing.com India",
-          "fuente": "Investing.com India",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNclB3dVBiMnZ1alVEQjlDeDAyWlJ2RXFxcllkS0hxcU16cVAzOFZydm9qRnhRR3N2T09Ja1ZwcndqbUZrcjAzMGs3NkpZQXpiOWQ3dGI3WjVEUzM0c0t4N3F2REFLZHVUQ2c5VjZ5LUotejVxNzY5UC0xNllTeFgxcWF1amQzTWNVQXowZ1AyazZBNk9SZnBEMTh2NGZrRXh4NFZUNlhoc2xPRTgxVWZaaFN6bzhRUQ?oc=5",
-          "fecha": "2026-11-16 19:11"
         }
       ],
       "grupo": "biotecnologia"
@@ -134,46 +110,10 @@
           "fecha": "2026-11-17 20:12"
         },
         {
-          "titulo": "Ideaya Biosciences stock hits 52-week low at 26.8 USD By Investing.com - Investing.com Nigeria",
+          "titulo": "IDEAYA Biosciences at Jefferies: darovasertib nears approval By Investing.com - Investing.com Nigeria",
           "fuente": "Investing.com Nigeria",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSlJLWmU2QmZEa1l2cnhtdFNvQVE0eGxQVzEweFlQRTZ4dHRRalpuNVlfdENLa2w5TW01cFNPdEZtX0NQZXgzQlBSbmZOVzRsQXg2UUtWeVN1UlZacTZLV24zVVh3bXJvUnhUWWY1U0RUelNuNXc5MGxPR0RrN3d3TzNPcDIwZkxEbWFmaDdDZ05GcUx1ck9aeXZfVkFfNW14OUstQ3dLRThMOUM3NWpOQ0hn?oc=5",
-          "fecha": "2026-11-17 13:28"
-        },
-        {
-          "titulo": "US Midday Movers: SLS Surges 171% While CRM and IDYA Slide - Business Upturn",
-          "fuente": "Business Upturn",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMWVYUEY4UFpkb09zVEZWR0lIOFNBZHUxMkRMOXNWMEtCemd1cFRRYmlBVUlfalYwRTgybjlKS2tudVFndnF4NFJGbXRwaFRSZUlUcDFRYVVaVXZzYVplOUZNdHNERVB6SjB5UmdpdmlZRXFXdEdIN09jd0tudlN4TXowRkhaS3hkWFdpbHVpRmFmR3BwYzBfY0o3ZlhFY2FtenFheHpWZms?oc=5",
-          "fecha": "2026-11-17 12:25"
-        },
-        {
-          "titulo": "IDEAYA Biosciences at Jefferies: darovasertib nears approval - Investing.com",
-          "fuente": "Investing.com",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbmMydzE3X05NWDNMRGZuWkV2RnJGVmFubE9XV1FhUUFObVg5QkJ5ZkNsam56YnVGQ21PeGNCNzYwOHZNUnN3c2ZwdW5hWEwxUHdsbUdGcVlfQjd3OHQ2NktyWHhhMWZkQ1ZTeGdSZ3pyTS1uMm5rOVhkSG9qWHNnVmZ3Y2J5aUF3b200ZHhiVUQwWFhJenRxNXIzcWRZVjdwdDNGdjQ1NEx4dzVKdXAxaHRhZ3Jmdw?oc=5",
-          "fecha": "2026-11-17 09:01"
-        },
-        {
-          "titulo": "IDEAYA clears FDA Type C meeting for IDE849 registrational plan in neuroendocrine carcinomas - Dealroom",
-          "fuente": "Dealroom",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTEdLV2k5dVhnenAxV2RtSVVWekRyOXlyYWM0RFVUa0ZwMDY4cWxsa1VtbmhYWVRpTW9Vd1FFZTVUSjhfOWdjc0NFOFJVTHZ3QXBERk8zVkdVZzB2YzVpN2lDMVJocnNnRnZIN3lNOEhMai1CcDNoSE5DQjd3bXQ5VTBrV01mSjVrQ0ZNV3g2OHRPTjR1eEd3RW1CVy1iNzh5aU5yYWJtVjExeC1QNDEwLTNYMmI1U21ZVXR2ZW40T2VxdEJt?oc=5",
-          "fecha": "2026-11-17 02:22"
-        },
-        {
-          "titulo": "Is IDEAYA (NASDAQ:IDYA) Nominating a New Tumor Candidate? - Kalkine Media",
-          "fuente": "Kalkine Media",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPelJEa19xT1l4WU9NNFowb050SXh1SF9YWFRJczNYc0dUcXI1T2JuVFdPbW5oM0JfZ3AxUloyTlhGYm52dkpYZm5tdFdzc0dNUWhEM2l3RDZhVlFaXy1zYmxoSXpTNVFlTDNDRFNtb1VGQUVvSDg0czdSLU55VDFMZkF4eDc3aFFBbFFGcURQUVBUczhrMjNqdEI4enAzeC1i?oc=5",
-          "fecha": "2026-11-17 01:53"
-        },
-        {
-          "titulo": "Ideaya Plans IDE849 Cohort for About 90 Patients With Neuroendocrine Cancer - TOKENPOST",
-          "fuente": "TOKENPOST",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9qZEl5Nm9NS2syNER4eGhzRWNmRF9GaG1URHdrWnpWTk1PTU5vQWpNM1ctVTJGTWx3NGJnemR0anRrajdtTFVaTlVrNUN1VzFXY2FSOG5OM00?oc=5",
-          "fecha": "2026-11-16 17:19"
-        },
-        {
-          "titulo": "Ideaya plans registration trials for IDE849 in cancer treatment By Investing.com - Investing.com Canada",
-          "fuente": "Investing.com Canada",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVUo1ZDlNelRWMjFQOWpZb3F1VHBhNWFFQlRNaW5oX21yNWVJSy04NUl5TThTa1FCTHZfV2l0N19KajVsVzEtMXVFR252cVUwN2JuUzVwVHJDbHVyRXp5TmtZLXVDUnMzUXh6YWF4WUVlNjl1ZVhZYWJWMzJKdmpzamN6Ymc5RU8tN2d0OExoRU9uZGdpQlg1Zi1LSFFoaFlYZ04tTzFWdXFFWnREYnBPdy1lQjJRSnhsaEFMVDdKWUFaQQ?oc=5",
-          "fecha": "2026-11-16 16:33"
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOY0N2Z1l3ZGFWQzAwNFp5cjROOHRzM0VSUXdLLXpTbDhXaUhLbzlYNk9EV2V3VVpJcXVVN0k5WWt5SHRwQU9DUV8tcnBEZW1EU2FXaTFYd1NzWTFmcHZySmF3XzNfZDJFS2lVel9POF9LcS1Eal9telJYRFlKOEtoZVJlSjQwOW1YLVduUWJ6ZmFrVlVwb1Nnc2VtcGZSX2VPSEFncWJmZENxUmNlcDdCdGFSdWJHN1JpZDZkUQ?oc=5",
+          "fecha": "2026-11-17 14:38"
         }
       ],
       "grupo": "biotecnologia"
@@ -188,22 +128,34 @@
     {
       "clave": "KARD",
       "nombre": "Kardigan",
-      "estado": "con_noticias",
-      "noticias": [
-        {
-          "titulo": "Analysts Offer Insights on Healthcare Companies: Kardigan, Inc. (KARD), Moderna (MRNA) and Revvity (RVTY) - The Globe and Mail",
-          "fuente": "The Globe and Mail",
-          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNSHB6dHR2TkNrdjhQcFlMSjR3TWdlUUxpMnNwckx5ejFqdHJRTm9vVV9MTlRoaEg4cTBSdG1RemhXRDNRdDdBTFNMLXpqWXFUQWliNHZXX1d3TjZBRXBVZjlycnc5c0Q2cnFsaW5ZaDhfbTJxbWdBcndPS0RFQ1V2TVJoMFdOWHdwVHljYVdKdm1CaVQ4QnVtTk52M00zMlcybUlNSzc2VjR0R0RocmJxQVczUWpqejFhZTRMbHFTdXlOdjlubzdhMFpKMFpLRDBIRFpBWVRHcG9LQ2tWbm45eTZHSk9hbE5FcWhfRlNIdjdKOUp2bUsxNHF1VTZ0NmQzNHBtTjIxQ0x1WUVV?oc=5",
-          "fecha": "2026-11-17 10:04"
-        }
-      ],
+      "estado": "sin_noticias",
+      "noticias": [],
       "grupo": "biotecnologia"
     },
     {
       "clave": "PVLA",
       "nombre": "Palvella Therapeutics",
-      "estado": "sin_noticias",
-      "noticias": [],
+      "estado": "con_noticias",
+      "noticias": [
+        {
+          "titulo": "Palvella Therapeutics (PVLA) Stock Looks Above Fair Value After 51% Gain - Yahoo Finance Singapore",
+          "fuente": "Yahoo Finance Singapore",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOMXBqRWdxUmtjMmJhcjVXMFJ2T1d1cVloNGpWNkZpQ09YUF81b0NyRjVTYnZqTkY1NWVOOEV1M2ZFdU8yZnNlWlVSR1NxTTdNUmV3NzU4eTFUa3A1NmRWME50MXBTVVFSZVhVSFVnTWlia2w5OWg5Wm9wZS1wUWdHS2dWVTNQdlJqbUhGMFpCNGY?oc=5",
+          "fecha": "2026-11-19 08:10"
+        },
+        {
+          "titulo": "Palvella Therapeutics Announces QTORIN™ Docetaxel, a New QTORIN™ Program for the Treatment of Extramammary Paget’s Disease (EMPD) - Yahoo Finance",
+          "fuente": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUkhPZlZZOXoxSFV1eFVrWDhoMXF6dHZWQXZFQXNOZk5oZmlaZm11cV83a3NURkZPM3Z5R0hEb2NJLV8yNTJqOGRlZXU2Ym10UjltN1M2WC1vMm1ubGZRWHptY3ZqQ29tX0UwM3lJZXJPc1RnQ3BrUzRPeGh1TFFhVHNVbFhpcFFUVVVBN0RadTE2YldqeWNIT21sT21UblVFblI1WUVMQmNvYmFqbGc?oc=5",
+          "fecha": "2026-11-19 07:30"
+        },
+        {
+          "titulo": "Palvella Therapeutics to Host Webcast to Introduce New QTORIN™ Program - GlobeNewswire",
+          "fuente": "GlobeNewswire",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeG9qLXJfUzBReEFQWlBHWGlXSHowQWFDR3J2eHpFei1RSkNDU0wtbGJtbE1veTBQMnMtUkk3LURhdktWZGRJZS1VXzBJVU9fY2VWbFM2azhrQ3ppLVVDOHVBSGxvNjVoakI2dTN5QUFtZnR6UjVHVXl4TEQzc3pZZUxrYVJaRDRPcWVQdHotbDNWcS16MGlfd3pJQlQtWXZ6THo1bjdjRGtGcFBZLXlKWXp0OVExcTVOcXIySXVTSldIaUg3WkJyMWdGYUNXMU8wbE93RHhmeUY?oc=5",
+          "fecha": "2026-11-18 17:00"
+        }
+      ],
       "grupo": "biotecnologia"
     },
     {
@@ -212,10 +164,10 @@
       "estado": "con_noticias",
       "noticias": [
         {
-          "titulo": "Relay Therapeutics at Jefferies: cash, trials and a dual-track push By Investing.com - Investing.com India",
-          "fuente": "Investing.com India",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPc3NnbTl5SEdqcGxMTzFtajdwOG9sYjFjMzN1U1dQc3F3OEtqdmx3bzM3N1ZFZUNaNDZRMG04SEF6Y2FmVzNZeW1MRjRaaVlRaFZib1lVN0tCbHRYNjVYejdtZEdJcXNsTFhJM0t1RUZPd0JvbURVdExhQ2hjSVBlaGo3dk9rZXhwVTQ0R0dWaXp4MXhaZXJwYWxmTUJOQmpDQkxvY0xQRUxvQ21FUUtKVkRjVjlOX2hDendzbHFRYnlNa3c?oc=5",
-          "fecha": "2026-11-18 11:30"
+          "titulo": "Relay Therapeutics at Jefferies: cash, trials and a dual-track push - Investing.com",
+          "fuente": "Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdnhZcnQzUkxXd2hEQTVnTlFRbGZzaVRqWmdmN3lZTXdyVjRwQ1VrV2QwbWZNVFVYWERobmZHalRIV3VKTEZ6bGNxcHNVaGZVQ0RPT0JGeEYycEtxcmJiWC03NW0wNGRQUFVGeDZvOThzSVJGTnVfNUJTN0gyTVZkdGpWVDQyOEU4YklSaHZNZnVaeF9RU0JHVmZpanhkRkNwd3pDUjBlN1k2bU9sOWo1MXpBSW5DMkZMSWszRA?oc=5",
+          "fecha": "2026-11-18 11:46"
         },
         {
           "titulo": "Dispatches from Jefferies: Latent Labs on AI, Relay’s PI3Kα ambitions and Biohaven’s protein degrader approach - Endpoints News",
@@ -232,6 +184,18 @@
       "estado": "con_noticias",
       "noticias": [
         {
+          "titulo": "Revolution Medicines Received the California Life Sciences Pantheon Award for Biopharma Product of the Year - Oncodaily",
+          "fuente": "Oncodaily",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBZclA0c1A1M1pzb0xBYnpHc1BzZjFzUDRhdV9USVJDLW1HRV9YY3d5clRFR1VmdWdYanRMTUJHOGZxb3d1d3pIY2NYLU92XzNZZEdnYkNlUTctS0tNeFJHVnVDYnhEZXZoVlE?oc=5",
+          "fecha": "2026-11-18 18:12"
+        },
+        {
+          "titulo": "Revolution Medicines, Inc. (RVMD) Options Chain - Yahoo Finance - Yahoo! Finance Canada",
+          "fuente": "Yahoo! Finance Canada",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNkw5WXJmNGFNTnJGYnZjMDZfUWxIQW9vY0M4VHVCT0lRVmkwajRVRDRpaFN0LTF4RVBMQThiNFFzSnlRYmJKbWZVb1dXSEhpbWlhNGRsRlcyb05IRFFuNUlLS3h0c2ozUThreWdCbU9fdnZxYjFROWVVOGtSMTllOVdZWVBEV1Y2MjJ4bzR4Z2wydw?oc=5",
+          "fecha": "2026-11-18 05:59"
+        },
+        {
           "titulo": "Revolution Medicines’ Rasonque gains EC authorisation for pancreatic cancer - Pharmaceutical Technology",
           "fuente": "Pharmaceutical Technology",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPY1JsSE1EMTIxRVJqd2dPa2Ztc1NHbWhxZXlXb3cxWDNCVmZ4b3l5cS1NZmh5VjJZQ011VW5LOURtazNYOUVmWTd4a3ZadHNtNW5vdjRJNkRXUGdWcWhCNGM5RUFDbVFBcTE4UU82VVl2OTRhYmpaUnRWaUE1VDBFX1JVd3QwdmN2cjJ6aTZsOUxyYjlfVHY5RTVrMUZpcDg?oc=5",
@@ -242,18 +206,6 @@
           "fuente": "Oncodaily",
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5PckF3UDRFTnJ6b0lMbG1qSkxTdV9LQ2FfcU92T2tWTVl0VzktaEdfYXY4bVR0eGdWYWZSdnVfRnFST0wtQ1I3TkJ1RllqT2dLNUM3UFI5RkFVUDMxMlR5NDBvWG9zRjlnQkl0SnRwTEF2Mmg5dlpmR3ljT3Vxdw?oc=5",
           "fecha": "2026-11-18 03:39"
-        },
-        {
-          "titulo": "Revolution Medicines' Rasonque wins EU approval for metastatic pancreatic cancer - AllSci",
-          "fuente": "AllSci",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1vNEphajJMVXNNQmdEaHI0VU5LWlRUOTRrMU9XaHR0RTBUaXhXaWs0TE0xbDUxRWFOTks2b0Vwb2hlcEZrN0xva2Z5UUZpZzdOQ0RYSjFVdkJyNDdQSUtDY0dvRklLbGlWR2tSQjRJMGtSLXRUN3NrS2tTTQ?oc=5",
-          "fecha": "2026-11-17 13:07"
-        },
-        {
-          "titulo": "Revolution Medicines Wins EU Nod for Rasonque in Pancreatic Cancer - Yahoo Finance",
-          "fuente": "Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQU0hWUS1NTElsb1dCTHl2WTlINWFzN1FuREhZdHhhVmhHRE9Kb2R0Z0l0V2MzcFQyWEZ3RFNqQUZsX2pvdEZHSHY0TE5QOXRjVGJMXy1fLUx2eUh6NDdzM0l3eVdpdl8wa05mTkpWNldYeVBybC1lMUtvSm11Y1NlbHMwWUZPci1jdzZWYmotQWVDMkxVSXZBYQ?oc=5",
-          "fecha": "2026-11-17 12:13"
         }
       ],
       "grupo": "biotecnologia"
@@ -264,28 +216,16 @@
       "estado": "con_noticias",
       "noticias": [
         {
-          "titulo": "Rhythm Pharmaceuticals' Japan Breakthrough: IMCIVREE Launch Opens a New International Growth Market! - Smartkarma",
-          "fuente": "Smartkarma",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxObDhvbmEzdGJGLWhnS3NMNlB6REFWQjBvNXk0OTNYZHpzcTJwZUhRQVBPVFczdTJOYUIxN1FtRlJra1ZOa1hVY1RtZUxFc3c2bm1qWmotamZqcUNYZmZGdEg4RENfa0NmeXIzWGYtcXpwRk9MNnBBcEQ0YXkzZzRYU0Fycm1FbFlaT3ZidUJuRmtjbFl3UVgxejduVTFDbjBfall1N0lraXI0aFlfaU95MVVkYUt3YkpyLWNfQkY0QzNwdUpyQXprLUFHM0prdw?oc=5",
-          "fecha": "2026-11-18 11:01"
+          "titulo": "Rhythm Pharmaceuticals Shares: Volume, Earnings and Technical Readings - Kalkine India",
+          "fuente": "Kalkine India",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPTHBuLURGNHpBUG1jb0ZXZ0o3R3E0LTVGOXFWSTY2QWNtUGNZRDhSdWhnTlROOUFKQXd2ZzdRZHR0XzV5ZVBxcmFyODZ3MXYwWTFTRDhVeWhEVS1BNXN0SmY1T2pHUXZ2MkRoZHVsOFBmOHpIUHhNMDdLZGFFZkZiaU5MZzRnSVZIcHpJX3ZUSHFUWlRDQlllQ1lxSU82c1drM2dRZUluNVpBc2hJQkVpWjZOVTBRQjQxcjluQ1hUMlNPZ0ppMFZHd2ZmV2lTdC1uc3YzOUpBQTJqdkhIa3RCZ0NSTlU1cnlLSkhZ?oc=5",
+          "fecha": "2026-11-19 05:16"
         },
         {
-          "titulo": "Rhythm Pharmaceuticals Shares Rise 5.4% by 12:22 p.m. ET - www.tokenpost.com",
-          "fuente": "www.tokenpost.com",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE14ZUMyc3czLURiSlhla3FBaGptUHR3QjB0QUpKS3NNVHZucTZlV2VFVm42VGZoZnFuN2pJZjhJTFl2UmZaODR6Z1Mya2tmWFBRWEhGY3ZYZE4?oc=5",
-          "fecha": "2026-11-17 12:36"
-        },
-        {
-          "titulo": "Rhythm Pharmaceuticals’ setmelanotide shows 18.8% BMI reduction in two-year trial - BusinessLine",
-          "fuente": "BusinessLine",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPMVhRYlh3NFBCRVVwdXdXRFdfdlM0RURBQlpZWEZtWXNCbXlwUUNaRVFHc1NnMnZocWk5dEhacUQtU00yWndYTVBLNFJjeFMzdnhqaW5KenBaWFVzLTBlYUxUcWtETXlTX3BSeTQ4ZURVWFhXYTNIUC1ZX1lzT281aTJKNWV4dXJUUVpRZVZQNlJ2ejVSZG9VTldQWVpqd05UQXBReWxWRDVCRmFfZXctUU1sLW82cnZFdUNROTJ4eFhxRVRfUzEtSWIyZF9wekpFQkI2T3FEdERzd2RqeVHSAeQBQVVfeXFMTTREd0tnalBYdGFQZ3hPaFFmXzVQbFZMYzBQUW5ueGVoNlVQNTJzWENxUWV6bVNuQXNHRl82RGZPS0JNQTZBR2VvcndWS19tUmxIYldoVHc4cEJoeXRha2FjOXJJZU5LX3pqbEhNM3B1Q09JeEpqVllCTS0yX0NMeUpkRlVtWTlYV3NKWmJfVy1Fd3NZejB1WE4ybGFVQW8tZ2tVM2NlcGptM3o2c0wybEdqRDR4VEsyU3RfdTU4T2VOc3M5aGVwemVWYjdOTVNEOTd5c0R3b183dUFIQ2tLRnAwcXFz?oc=5",
-          "fecha": "2026-11-16 20:58"
-        },
-        {
-          "titulo": "Rhythm Pharmaceuticals Announces Presentation of New Data at ObesityWeek® 2026 - GlobeNewswire",
-          "fuente": "GlobeNewswire",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNYzR6S0hZX2dRVWpyWHgtbXBRTnFHMUdEUjdkOXZuMUdIaWo3clhqSWZtcUNKMm9EZ2dOX2tyVzhWcnlYUmp4VHJIZEw1YkdvZ3ptZE5EZ2pWdmZGbEpLM25PUlV4WUFHZWdUalFqQTByT01BWEtlU3VXckFGUXFWMzBaaFY4UGdITVpQWEh0OGNvMmIzcWxmMkVhaTc3R0lFZ0J0NWdEcGt0OVBqcGtCUWdoWnVpZzRwUUItRTdmdzllVjNCT1FLaVVRRldSN1lWQWJxLU9iVHFxWTFhNFo0ZEJtNA?oc=5",
-          "fecha": "2026-11-16 16:00"
+          "titulo": "Lilly Faces Potential Bidding Contest for Rhythm Pharmaceuticals - cwibc.co.id",
+          "fuente": "cwibc.co.id",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9XSnpjT2pwNzZtbmpOd25pTUppN2JYeFprdE1MU3J3QmhOVUVHY3VPUXNjdjFQclZKYXJZeG5tNG93U2JvQklMTjFEWkFMekk4VHNpaVBYZW9zNU5YQzhhdktpcEs2QlFSTnlKRWYtYjh1Tm5nR1E?oc=5",
+          "fecha": "2026-11-18 17:38"
         }
       ],
       "grupo": "biotecnologia"
@@ -310,16 +250,16 @@
       "estado": "con_noticias",
       "noticias": [
         {
-          "titulo": "Wave Life Sciences stock highlights WVE-007 obesity trial progress - ad-hoc-news.de",
-          "fuente": "ad-hoc-news.de",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOS3lYVlRKNjU5X2pDZVdleFVCVzdWMXVJZnpvdGR5ZnlRTDZ4MlIxdFF0bDMwbEhjbHR3RXZnVEFjYWlnZEhMWmVkVnd3NkVoNWNCcGhfY3JpaXlad3BkQkRKZTAwUnRHSDhab3lhQ3YzRFRrZ2lhb2tyc28zUFFTZnRvZmZndjgtalF5YktOdFlCWWJVOEFjUjdsWE0tcGhIQ05zT0FQczJLMkRHQjNIaUhUNHVCZUtVOUl3WHdfRXFONTROUXFBVw?oc=5",
-          "fecha": "2026-11-17 07:50"
+          "titulo": "Wave Life Sciences shareholders approve equity plan amendment and board re-elections - Investing.com",
+          "fuente": "Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOMEtTOTIxcWVBcFJNNk9VRGNKdXcyM2N5azEwRTdxRDBXdy1fWjZKcTAwQVhLN0h5ZEt0TnVoT2xhZXpBYkVyR3lkbWZTdkJONDI2VC1KX2I4RmVtNHFZX3VCTjlOVzE5S3RpRWVKNWhaTTd2M0c0UXJPd1RMa3hubUpRclR3SS1XUWQ1azRYNWt1cnVLT0lLNWF4Z0UtcHp1c28ycVBkdVVKU0FIUjRuYlNJSkFUeU5NOVVFSXRlejRtUWlGczN0MDZwT1Z5cXFXU01JTG5R?oc=5",
+          "fecha": "2026-11-18 18:07"
         },
         {
-          "titulo": "What Did Wave Life Sciences (NASDAQ:WVE) Show on INHBE at ObesityWeek? - Kalkine Media",
-          "fuente": "Kalkine Media",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPb2MwRUZGNC1pbjh5Y3ZTcDl3YW9Cd1c2U1Jmd0dYYWtSdHdleng4SmkteXFNcUV5YXJrbFlQM29seGJiLWd1TEtqWG9XbUNiWm91UlI4X3VNdEpiLXBiU0pxLWVON0dlbkRFYlh5UWNmTlRMclBfNVBDZ2NXbUFtRE9BcVRPVU9xaEtDWXprNjVHWTgtOWYwMnd0dG9WM2ozclZEOU9jYlFqcDBqeVg4bGR3?oc=5",
-          "fecha": "2026-11-16 22:47"
+          "titulo": "Form 8K WAVE LIFE SCIENCES For: 18 November By Investing.com - Investing.com India",
+          "fuente": "Investing.com India",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNM1FueWQxelM2dndIZUNxZXU2X1E1enlpc3FneUpwUHQtOGdyVWVSRVdnbTh4UlNwRUJ0WkxFWk1wQTdPd1Zmdy03aUl2OHN5Mk95dFl2bXdmZ1BTU19iVU5hYVhsbVV2OGlvMGNuUy1Yd1d2Y2p4NHREMFJtQXJvX21hQk55ck1QM1NHZnRQZmZIcXBQbUtEay1oXzNYOWN6MndWdHdB?oc=5",
+          "fecha": "2026-11-18 17:44"
         }
       ],
       "grupo": "biotecnologia"
