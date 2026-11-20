@@ -763,6 +763,10 @@
     {
       "termino": "Lista Nacional de Reembolso de Medicamentos de China (NRDL)",
       "definicion": "Es la lista de medicamentos que paga el seguro médico público de China. Para entrar, las compañías negocian el precio con el Gobierno, normalmente con descuentos grandes. Para quien invierte importa porque estar en la lista hace que muchos más pacientes puedan pagar el medicamento, lo que suele aumentar las ventas en ese país."
+    },
+    {
+      "termino": "Vía 505(b)(2)",
+      "definicion": "Es un camino de aprobación de la FDA para medicamentos que usan una sustancia ya conocida, pero en una forma, dosis o uso nuevos. La compañía puede apoyarse en estudios publicados o en datos de aprobaciones anteriores, en lugar de repetir todos los estudios desde cero. Para quien invierte importa porque puede reducir el tiempo y el costo de llevar un producto al mercado, aunque la FDA sigue exigiendo pruebas de que funciona y es seguro."
     }
   ]
 }
