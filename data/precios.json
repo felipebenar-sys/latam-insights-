@@ -1,9 +1,9 @@
 {
   "activos": {
     "NU": {
-      "valor": 12.08,
-      "cambio_pct": -2.03,
-      "fecha": "2026-11-18",
+      "valor": 11.82,
+      "cambio_pct": -2.15,
+      "fecha": "2026-11-19",
       "moneda": "USD",
       "simbolo": "NU",
       "fuente": "Yahoo Finance"
@@ -25,9 +25,9 @@
       "fuente": "Yahoo Finance"
     },
     "RMS": {
-      "valor": 1278.5,
-      "cambio_pct": -0.16,
-      "fecha": "2026-11-18",
+      "valor": 1272.0,
+      "cambio_pct": -0.51,
+      "fecha": "2026-11-19",
       "moneda": "EUR",
       "simbolo": "RMS.PA",
       "fuente": "Yahoo Finance"
@@ -50,8 +50,8 @@
     },
     "BVC": {
       "valor": 16000.0,
-      "cambio_pct": 0.63,
-      "fecha": "2026-11-18",
+      "cambio_pct": 0.0,
+      "fecha": "2026-11-19",
       "moneda": "COP",
       "simbolo": "BVC.CL",
       "fuente": "Yahoo Finance"
@@ -73,5 +73,5 @@
       "fuente": "Yahoo Finance"
     }
   },
-  "actualizado": "2026-11-19"
+  "actualizado": "2026-11-20"
 }
