@@ -9,17 +9,17 @@
       "fuente": "Yahoo Finance"
     },
     "JPM": {
-      "valor": 324.11,
-      "cambio_pct": -1.77,
-      "fecha": "2026-11-18",
+      "valor": 320.22,
+      "cambio_pct": -1.2,
+      "fecha": "2026-11-19",
       "moneda": "USD",
       "simbolo": "JPM",
       "fuente": "Yahoo Finance"
     },
     "MELI": {
-      "valor": 1423.11,
-      "cambio_pct": -0.95,
-      "fecha": "2026-11-18",
+      "valor": 1355.49,
+      "cambio_pct": -4.75,
+      "fecha": "2026-11-19",
       "moneda": "USD",
       "simbolo": "MELI",
       "fuente": "Yahoo Finance"
@@ -33,17 +33,17 @@
       "fuente": "Yahoo Finance"
     },
     "BN": {
-      "valor": 39.39,
-      "cambio_pct": -0.51,
-      "fecha": "2026-11-18",
+      "valor": 38.94,
+      "cambio_pct": -1.14,
+      "fecha": "2026-11-19",
       "moneda": "USD",
       "simbolo": "BN",
       "fuente": "Yahoo Finance"
     },
     "PFGRUPOARG": {
-      "valor": 14800.0,
-      "cambio_pct": -1.99,
-      "fecha": "2026-11-18",
+      "valor": 15380.0,
+      "cambio_pct": 3.92,
+      "fecha": "2026-11-19",
       "moneda": "COP",
       "simbolo": "PFGRUPOARG.CL",
       "fuente": "Yahoo Finance"
@@ -57,17 +57,17 @@
       "fuente": "Yahoo Finance"
     },
     "TQQQ": {
-      "valor": 52.44,
-      "cambio_pct": 1.22,
-      "fecha": "2026-11-18",
+      "valor": 49.01,
+      "cambio_pct": -6.54,
+      "fecha": "2026-11-19",
       "moneda": "USD",
       "simbolo": "TQQQ",
       "fuente": "Yahoo Finance"
     },
     "COPX": {
-      "valor": 61.19,
-      "cambio_pct": -6.31,
-      "fecha": "2026-11-18",
+      "valor": 59.28,
+      "cambio_pct": -3.12,
+      "fecha": "2026-11-19",
       "moneda": "USD",
       "simbolo": "COPX",
       "fuente": "Yahoo Finance"
