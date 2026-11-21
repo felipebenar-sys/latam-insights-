@@ -41,17 +41,17 @@
       "fuente": "Yahoo Finance"
     },
     "PFGRUPOARG": {
-      "valor": 15380.0,
-      "cambio_pct": 3.92,
-      "fecha": "2026-11-19",
+      "valor": 14640.0,
+      "cambio_pct": -4.81,
+      "fecha": "2026-11-20",
       "moneda": "COP",
       "simbolo": "PFGRUPOARG.CL",
       "fuente": "Yahoo Finance"
     },
     "BVC": {
-      "valor": 16000.0,
-      "cambio_pct": 0.0,
-      "fecha": "2026-11-19",
+      "valor": 15820.0,
+      "cambio_pct": -1.12,
+      "fecha": "2026-11-20",
       "moneda": "COP",
       "simbolo": "BVC.CL",
       "fuente": "Yahoo Finance"
