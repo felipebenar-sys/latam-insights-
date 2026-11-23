@@ -767,6 +767,14 @@
     {
       "termino": "Vía 505(b)(2)",
       "definicion": "Es un camino de aprobación de la FDA para medicamentos que usan una sustancia ya conocida, pero en una forma, dosis o uso nuevos. La compañía puede apoyarse en estudios publicados o en datos de aprobaciones anteriores, en lugar de repetir todos los estudios desde cero. Para quien invierte importa porque puede reducir el tiempo y el costo de llevar un producto al mercado, aunque la FDA sigue exigiendo pruebas de que funciona y es seguro."
+    },
+    {
+      "termino": "Tasa de respuesta objetiva (ORR)",
+      "definicion": "Es el porcentaje de pacientes de un estudio cuyo tumor se encogió de forma clara (respuesta parcial) o desapareció en las imágenes (respuesta completa). Es una de las primeras señales de si un medicamento contra el cáncer funciona. Para quien invierte, sirve para comparar un tratamiento con otros, aunque no dice por sí sola cuánto tiempo viven los pacientes."
+    },
+    {
+      "termino": "Supervivencia libre de progresión (PFS)",
+      "definicion": "Es el tiempo que pasa desde que un paciente empieza un tratamiento hasta que su cáncer vuelve a crecer o el paciente muere. Suele darse como una mediana: la mitad de los pacientes estuvo más tiempo y la otra mitad, menos. Los reguladores la usan a menudo para decidir aprobaciones, por eso es un dato que mueve a las compañías de biotecnología."
     }
   ]
 }
