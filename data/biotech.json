@@ -1,5 +1,5 @@
 {
-  "actualizado": "Nov 16, 2026",
+  "actualizado": "Nov 23, 2026",
   "fases": {
     "Phase 1": "First test of a drug in people, usually in a small group. The question it tries to answer: is it safe, and what dose can be given without causing serious harm? It does not yet try to prove that the drug works.",
     "Phase 1/2": "A study that joins two stages into one. First it answers the phase 1 question (is it safe, and what dose should be used?) and then, with the chosen dose, it starts answering the phase 2 question (are there signs that it works?).",
@@ -12,7 +12,7 @@
     "Approved (China)": "China's drug regulator has authorized selling it there, but it is not yet approved in the U.S. The remaining question is whether it can be approved in other countries, and for that the company keeps running studies, usually phase 3."
   },
   "panorama": {
-    "actualizado": "Nov 16, 2026",
+    "actualizado": "Nov 23, 2026",
     "companias": [
       {
         "nombre": "Arcus Biosciences",
@@ -60,9 +60,9 @@
         "medicamento": "EDG-7500",
         "fase": "Phase 2",
         "enfermedad": "Hypertrophic cardiomyopathy",
-        "hito": "Start of the phase 3 study of EDG-7500",
-        "hito_fecha": "Before end of 2026",
-        "fuente_url": "https://www.biospace.com/press-releases/edgewise-therapeutics-reports-third-quarter-2026-financial-results"
+        "hito": "Start of the phase 3 study STRATUS-HCM of EDG-7500",
+        "hito_fecha": "Q4 2026",
+        "fuente_url": "https://finviz.com/news/416926/edgewise-therapeutics-announces-productive-end-of-phase-2-meeting-with-fda-for-edg-7500-in-hcm-phase-3-protocol-features-tolerability-based-dose-escalation-without-safety-echo-monitoring"
       },
       {
         "nombre": "Faeth Therapeutics",
@@ -169,7 +169,7 @@
   "calendario": {
     "mes": "2026-11",
     "mes_texto": "November 2026",
-    "actualizado": "Nov 16, 2026",
+    "actualizado": "Nov 23, 2026",
     "eventos": [
       {
         "fecha": "2026-11-03",
@@ -253,6 +253,14 @@
       },
       {
         "fecha": "2026-11-05",
+        "ticker": "EWTX",
+        "tipo": "FDA",
+        "evento": "Reported its end-of-phase 2 meeting with the FDA for EDG-7500 and submitted the protocol of the phase 3 study STRATUS-HCM.",
+        "confirmada": true,
+        "fuente_url": "https://finviz.com/news/416926/edgewise-therapeutics-announces-productive-end-of-phase-2-meeting-with-fda-for-edg-7500-in-hcm-phase-3-protocol-features-tolerability-based-dose-escalation-without-safety-echo-monitoring"
+      },
+      {
+        "fecha": "2026-11-05",
         "ticker": "PVLA",
         "tipo": "Earnings",
         "evento": "Reported its third-quarter results.",
@@ -266,6 +274,14 @@
         "evento": "Gave three presentations on aficamten at the HCMS scientific sessions, held alongside the American Heart Association (AHA) congress.",
         "confirmada": true,
         "fuente_url": "https://www.biospace.com/press-releases/cytokinetics-announces-three-upcoming-presentations-at-the-hypertrophic-cardiomyopathy-medical-society-hcms-scientific-sessions-held-in-collaboration-with-the-american-heart-association-scientific-sessions-2026"
+      },
+      {
+        "fecha": "2026-11-06",
+        "ticker": "KARD",
+        "tipo": "Other",
+        "evento": "Finished enrolling 156 patients in KATALYST-AV, the phase 2b study of ataciguat in aortic valve stenosis.",
+        "confirmada": true,
+        "fuente_url": "https://www.biopharmawatch.com/news/KARD/kardigan-phase-2b-katalyst-av-trial-enrollment-complete"
       },
       {
         "fecha": "2026-11-09",
@@ -324,6 +340,14 @@
         "fuente_url": "https://www.biospace.com/press-releases/ascentage-pharma-announces-inclusion-of-lisaftoclax-in-chinas-2026-national-reimbursement-drug-list-and-successful-renewal-of-coverage-for-olverembatinib"
       },
       {
+        "fecha": "2026-11-15",
+        "ticker": "IDYA",
+        "tipo": "Other",
+        "evento": "Named IDE101, a drug for tumors without the CDKN2A gene, as its next development candidate.",
+        "confirmada": true,
+        "fuente_url": "https://www.placera.se/pressmeddelanden/ideaya-biosciences-ideaya-biosciences-announces-development-candidate-nomination-of-ide101-a-potential-first-in-class-inhibitor-targeting-cdkn2a-deficiency-in-solid-tumors-20261115"
+      },
+      {
         "fecha": "2026-11-16",
         "ticker": "CYTK",
         "tipo": "FDA",
@@ -333,11 +357,43 @@
       },
       {
         "fecha": "2026-11-16",
+        "ticker": "FTH",
+        "tipo": "Other",
+        "evento": "Signed a collaboration and supply agreement with Roche to test PIKTOR with giredestrant in breast cancer.",
+        "confirmada": true,
+        "fuente_url": "https://www.businesswire.com/news/home/20261116192980/en/"
+      },
+      {
+        "fecha": "2026-11-16",
         "ticker": "IDYA",
         "tipo": "Other",
         "evento": "Research and development day for investors in London.",
         "confirmada": true,
         "fuente_url": "https://media.ideayabio.com/2026-11-03-IDEAYA-Biosciences-Reports-Financial-Results-for-the-Third-Quarter-2026-and-Provides-a-Business-Update"
+      },
+      {
+        "fecha": "2026-11-16",
+        "ticker": "RVMD",
+        "tipo": "FDA",
+        "evento": "The European Commission approved RASONQUE for adults with metastatic pancreatic cancer who have already been treated.",
+        "confirmada": true,
+        "fuente_url": "https://ir.revmed.com/news-releases/news-release-details/european-commission-approves-revolution-medicines-rasonquer/"
+      },
+      {
+        "fecha": "2026-11-19",
+        "ticker": "PVLA",
+        "tipo": "Other",
+        "evento": "Announced QTORIN docetaxel, a new gel in development for extramammary Paget's disease.",
+        "confirmada": true,
+        "fuente_url": "https://www.sec.gov/Archives/edgar/data/1583648/000119312526467823/pvla-ex99_1.htm"
+      },
+      {
+        "fecha": "2026-11-19",
+        "ticker": "RVMD",
+        "tipo": "Conference",
+        "evento": "Presented updated data of RASONQUE plus chemotherapy as a first treatment in pancreatic cancer at the ENA 2026 congress.",
+        "confirmada": true,
+        "fuente_url": "https://www.biospace.com/press-releases/revolution-medicines-presents-updated-phase-1-2-data-for-rasonque-daraxonrasib-plus-chemotherapy-in-first-line-metastatic-pancreatic-cancer-at-ena-2026"
       },
       {
         "fecha": null,
@@ -362,9 +418,9 @@
         "cuando": "November 14–17",
         "ticker": "RYTM",
         "tipo": "Conference",
-        "evento": "Five presentations at ObesityWeek 2026, including the final two-year phase 3 results of setmelanotide in acquired hypothalamic obesity.",
+        "evento": "Five presentations at ObesityWeek 2026, including the two-year phase 3 results of setmelanotide in acquired hypothalamic obesity.",
         "confirmada": true,
-        "fuente_url": "https://www.globenewswire.com/news-release/2026/11/03/3394041/0/en/rhythm-pharmaceuticals-reports-third-quarter-2026-financial-results-and-business-update.html"
+        "fuente_url": "https://finviz.com/news/423443/rhythm-pharmaceuticals-announces-presentation-of-new-data-at-obesityweek-2026"
       }
     ]
   },
@@ -524,14 +580,14 @@
         "enfermedad": "Hypertrophic cardiomyopathy"
       },
       "que_hace": "Develops drugs for heart diseases. EDG-7500 acts on the machinery that makes the heart muscle contract, to treat hypertrophic cardiomyopathy, in which the walls of the heart become too thick.",
-      "estado": "Its phase 2 study CIRRUS-HCM gave positive results in June 2026. In July 2026 it sold its muscular dystrophy business to Servier, and in October it started a phase 2 study of another drug, EDG-15400, in heart failure.",
+      "estado": "Its phase 2 study CIRRUS-HCM gave positive results in June 2026. In November 2026 it held its end-of-phase 2 meeting with the FDA and submitted the protocol of STRATUS-HCM, a phase 3 study in about 600 adults with both forms of the disease.",
       "hitos": [
         {
-          "texto": "Start of the phase 3 study of EDG-7500",
-          "fecha": "Before end of 2026"
+          "texto": "Start of the phase 3 study STRATUS-HCM of EDG-7500",
+          "fecha": "Q4 2026"
         }
       ],
-      "fuente_url": "https://www.biospace.com/press-releases/edgewise-therapeutics-reports-third-quarter-2026-financial-results",
+      "fuente_url": "https://finviz.com/news/416926/edgewise-therapeutics-announces-productive-end-of-phase-2-meeting-with-fda-for-edg-7500-in-hcm-phase-3-protocol-features-tolerability-based-dose-escalation-without-safety-echo-monitoring",
       "endpoints": {
         "estudio": "CIRRUS-HCM (phase 2)",
         "items": [
@@ -589,6 +645,10 @@
         {
           "texto": "First global data on IDE849",
           "fecha": "End of 2026 or early 2027"
+        },
+        {
+          "texto": "Application to the FDA (IND) to start testing IDE101, a new drug for tumors without the CDKN2A gene",
+          "fecha": "H1 2027"
         },
         {
           "texto": "FDA decision to accept the approval application for review",
@@ -649,7 +709,7 @@
         "enfermedad": "Genetic dilated cardiomyopathy"
       },
       "que_hace": "Develops drugs for heart diseases that have no approved treatment. Danicamtiv aims to help the muscle of a heart that is enlarged and weak because of genetic causes contract with more force again.",
-      "estado": "It finished enrolling both groups of patients in the phase 2b part of its KINSHIP-DCM study and is enrolling for the phase 3 part. It went public in June 2026.",
+      "estado": "It finished enrolling both groups of patients in the phase 2b part of its KINSHIP-DCM study and is enrolling for the phase 3 part. In November 2026 it also finished enrolling 156 patients in KATALYST-AV, the phase 2b study of its drug ataciguat in aortic valve stenosis.",
       "hitos": [
         {
           "texto": "First results (topline) of the phase 2b part of KINSHIP-DCM",
@@ -660,7 +720,11 @@
           "fecha": "H1 2027"
         },
         {
-          "texto": "Results (topline) of ataciguat in the KATALYST-AV study",
+          "texto": "Results (topline) of ataciguat in the KATALYST-AV study, at week 48",
+          "fecha": "H2 2027"
+        },
+        {
+          "texto": "Results (topline) of tonlamarsen in the KARDINAL-ASH study",
           "fecha": "H2 2027"
         }
       ],
@@ -695,6 +759,10 @@
         },
         {
           "texto": "Possible U.S. launch, if approved",
+          "fecha": "H1 2027"
+        },
+        {
+          "texto": "Meeting with the FDA on QTORIN docetaxel, a new gel for extramammary Paget's disease, before a phase 2 study",
           "fecha": "H1 2027"
         }
       ],
@@ -755,7 +823,7 @@
         "enfermedad": "Metastatic pancreatic cancer"
       },
       "que_hace": "Develops pills against cancers that depend on the RAS protein, a kind of growth switch that stays on in many tumors, such as pancreatic and lung tumors.",
-      "estado": "Approved in August 2026 for adults who have already been treated or who cannot receive combination chemotherapy, whether or not they have a RAS mutation. In October 2026 the European agency's committee (CHMP) recommended approving it in Europe for patients already treated.",
+      "estado": "Approved in the U.S. (August 2026) and in the European Union (November 2026) for adults who have already been treated, whether or not they have a RAS mutation. In November 2026, with chemotherapy as a first treatment, tumors shrank clearly in 60.7% of 61 patients in a phase 1/2 study.",
       "hitos": [
         {
           "texto": "Sites close enrollment in the phase 3 lung cancer study (RASolve 301)",
@@ -768,13 +836,9 @@
         {
           "texto": "First results of RASolve 301",
           "fecha": "2027"
-        },
-        {
-          "texto": "Decision by the European Commission",
-          "fecha": "No confirmed date"
         }
       ],
-      "fuente_url": "https://ir.revmed.com/news-releases/news-release-details/revolution-medicines-reports-third-quarter-2026-financial",
+      "fuente_url": "https://ir.revmed.com/news-releases/news-release-details/european-commission-approves-revolution-medicines-rasonquer/",
       "endpoints": {
         "estudio": "RASolute 302 (phase 3, pancreatic cancer)",
         "items": [
@@ -794,7 +858,7 @@
         "enfermedad": "Acquired hypothalamic obesity"
       },
       "que_hace": "Develops drugs for rare diseases that cause extreme hunger and obesity due to failures in the MC4R pathway, the brain circuit that regulates appetite. Setmelanotide (brand name IMCIVREE) is an injection that activates that pathway.",
-      "estado": "In the U.S. it has been approved for this disease since March 2026, and before that for several genetic obesities. It is also authorized in Europe and the United Kingdom, and it went on sale in Japan in October 2026.",
+      "estado": "In the U.S. it has been approved for this disease since March 2026, and before that for several genetic obesities; it is also authorized in Europe and the United Kingdom, and went on sale in Japan in October 2026. At ObesityWeek in November 2026, patients who took it for two years had lowered their BMI by 18.8% on average.",
       "hitos": [
         {
           "texto": "Start of the phase 3 study of bivamelagon, another drug acting on the same pathway",
