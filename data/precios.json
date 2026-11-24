@@ -50,8 +50,8 @@
     },
     "BVC": {
       "valor": 15820.0,
-      "cambio_pct": -1.12,
-      "fecha": "2026-11-20",
+      "cambio_pct": 0.0,
+      "fecha": "2026-11-23",
       "moneda": "COP",
       "simbolo": "BVC.CL",
       "fuente": "Yahoo Finance"
@@ -73,5 +73,5 @@
       "fuente": "Yahoo Finance"
     }
   },
-  "actualizado": "2026-11-23"
+  "actualizado": "2026-11-24"
 }
