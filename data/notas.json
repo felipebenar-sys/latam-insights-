@@ -1,28 +1,44 @@
 {
-  "actualizado": "23 nov 2026, 7:15 a. m. (hora Bogotá)",
+  "actualizado": "24 nov 2026, 7:14 a. m. (hora Bogotá)",
   "notas": [
     {
-      "id": "2026-11-23-01",
-      "fecha": "2026-11-23",
+      "id": "2026-11-24-01",
+      "fecha": "2026-11-24",
       "categoria": "biotecnologia",
       "formato": "hechos",
-      "empresa": "RVMD",
-      "fecha_noticia": "2026-11-19",
-      "titulo": "Revolution Medicines presenta nuevos datos de RASONQUE con quimioterapia como primer tratamiento del cáncer de páncreas",
-      "resumen": "Revolution Medicines presentó en el congreso ENA 2026, en Barcelona, datos actualizados de su estudio de Fase 1/2 RMC-GI-102 con RASONQUE (daraxonrasib) más quimioterapia en 61 pacientes con cáncer de páncreas metastásico que no habían recibido tratamiento. El tumor se encogió de forma clara en el 60,7% de los pacientes y el 76,6% seguía con vida al año.",
-      "contexto": "Los pacientes recibieron 200 mg de RASONQUE junto con dos medicamentos de quimioterapia, gemcitabina y nab-paclitaxel. Los datos van hasta el 28 de septiembre de 2026, con un seguimiento mediano de 18,3 meses. RASONQUE ya está aprobado en Estados Unidos y, desde el 16 de noviembre, en la Unión Europea, para pacientes con cáncer de páncreas metastásico que ya recibieron otro tratamiento. La FDA le dio a esta combinación la designación de terapia innovadora para pacientes sin tratamiento previo.",
-      "que_significa": "Según la compañía, en el 8,2% de los pacientes el tumor dejó de verse en las imágenes, y en el 90,2% la enfermedad quedó controlada. La mitad de los pacientes pasó 12,8 meses o más sin que el cáncer volviera a crecer, y las respuestas duraron una mediana de 11,1 meses. La compañía dijo que la seguridad fue parecida a la de datos anteriores. Estos resultados vienen de un estudio pequeño y sin grupo de comparación; la prueba que puede llevar a usar el medicamento como primer tratamiento es la Fase 3 RASolute 303, que compara RASONQUE solo y RASONQUE con quimioterapia contra la quimioterapia sola.",
-      "mirar": "Los resultados del estudio de Fase 3 RASolute 303; la compañía no dio fecha en este comunicado.",
+      "empresa": "RCUS",
+      "fecha_noticia": "2026-11-23",
+      "titulo": "Arcus Biosciences detiene el estudio de fase 3 PRISM-1 de quemliclustat en cáncer de páncreas",
+      "resumen": "Arcus Biosciences informó el 23 de noviembre que suspende el estudio de fase 3 PRISM-1 porque quemliclustat no alcanzó la meta fijada de supervivencia global en un análisis intermedio.",
+      "contexto": "PRISM-1 probaba quemliclustat junto con la quimioterapia gemcitabina y nab-paclitaxel, frente a placebo con la misma quimioterapia, en pacientes con cáncer de páncreas metastásico que no habían recibido tratamiento. El objetivo principal era la supervivencia global. La decisión sigue la recomendación del Comité Independiente de Monitoreo de Datos, que revisó un análisis intermedio previsto desde el inicio.",
+      "que_significa": "En el análisis intermedio, sumar quemliclustat dio resultados parecidos a los de la quimioterapia sola, tanto en el objetivo principal como en los secundarios. La compañía dijo que no hubo diferencias en efectos adversos ni en toxicidad. Como el estudio no alcanzó el límite de eficacia que se había fijado, se detiene. Esto significa que quemliclustat no seguirá este camino hacia la aprobación en cáncer de páncreas.",
+      "mirar": "Los próximos resultados trimestrales de Arcus, donde la compañía suele actualizar su lista de estudios.",
       "terminos": [
-        "Fase 1/2",
         "Fase 3",
-        "Tasa de respuesta objetiva (ORR)",
-        "Supervivencia libre de progresión (PFS)",
-        "Designación de terapia innovadora",
-        "FDA"
+        "Supervivencia global (OS)",
+        "Análisis intermedio",
+        "Comité Independiente de Monitoreo de Datos"
       ],
-      "fuente": "Revolution Medicines (comunicado vía BioSpace)",
-      "url": "https://www.biospace.com/press-releases/revolution-medicines-presents-updated-phase-1-2-data-for-rasonque-daraxonrasib-plus-chemotherapy-in-first-line-metastatic-pancreatic-cancer-at-ena-2026"
+      "fuente": "Arcus Biosciences (formulario 8-K, SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001724521/000172452126000061/rcus-20261123.htm"
+    },
+    {
+      "id": "2026-11-24-02",
+      "fecha": "2026-11-24",
+      "categoria": "biotecnologia",
+      "formato": "hechos",
+      "empresa": "KARD",
+      "fecha_noticia": "2026-11-23",
+      "titulo": "Kardigan nombra a Erik Ingelsson como director científico",
+      "resumen": "Kardigan anunció el 23 de noviembre que Erik Ingelsson, médico con doctorado, es su nuevo director científico. Dirigirá la investigación de la compañía y la estrategia de sus futuros medicamentos.",
+      "contexto": "Ingelsson llega desde Wave Life Sciences, donde era director científico desde mayo de 2024. Antes dirigió el descubrimiento de nuevos blancos para medicamentos en GSK, con más de 300 científicos, y fue profesor de medicina cardiovascular en Stanford. Estudió medicina y obtuvo un doctorado en epidemiología en la Universidad de Uppsala.",
+      "que_significa": "Kardigan desarrolla medicamentos para enfermedades del corazón y la circulación. El director científico decide qué investigar y qué medicamentos nuevos llevar a estudios. La compañía destacó que Ingelsson lleva más de 20 años usando la genética humana para encontrar blancos de medicamentos. Su salida también deja un cambio en Wave Life Sciences, otra de las compañías que sigue esta sección.",
+      "mirar": "Los datos de danicamtiv que Kardigan espera para el segundo trimestre de 2027.",
+      "terminos": [
+        "Director científico (CSO)"
+      ],
+      "fuente": "Kardigan (comunicado vía Business Wire)",
+      "url": "https://ir.kardigan.bio/news-releases/news-release-details/kardigan-announces-appointment-erik-ingelsson-md-phd-chief"
     }
   ]
 }

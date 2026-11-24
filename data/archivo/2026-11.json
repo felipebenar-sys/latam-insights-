@@ -2,6 +2,29 @@
   "mes": "2026-11",
   "notas": [
     {
+      "id": "2026-11-23-01",
+      "fecha": "2026-11-23",
+      "categoria": "biotecnologia",
+      "formato": "hechos",
+      "empresa": "RVMD",
+      "fecha_noticia": "2026-11-19",
+      "titulo": "Revolution Medicines presenta nuevos datos de RASONQUE con quimioterapia como primer tratamiento del cáncer de páncreas",
+      "resumen": "Revolution Medicines presentó en el congreso ENA 2026, en Barcelona, datos actualizados de su estudio de Fase 1/2 RMC-GI-102 con RASONQUE (daraxonrasib) más quimioterapia en 61 pacientes con cáncer de páncreas metastásico que no habían recibido tratamiento. El tumor se encogió de forma clara en el 60,7% de los pacientes y el 76,6% seguía con vida al año.",
+      "contexto": "Los pacientes recibieron 200 mg de RASONQUE junto con dos medicamentos de quimioterapia, gemcitabina y nab-paclitaxel. Los datos van hasta el 28 de septiembre de 2026, con un seguimiento mediano de 18,3 meses. RASONQUE ya está aprobado en Estados Unidos y, desde el 16 de noviembre, en la Unión Europea, para pacientes con cáncer de páncreas metastásico que ya recibieron otro tratamiento. La FDA le dio a esta combinación la designación de terapia innovadora para pacientes sin tratamiento previo.",
+      "que_significa": "Según la compañía, en el 8,2% de los pacientes el tumor dejó de verse en las imágenes, y en el 90,2% la enfermedad quedó controlada. La mitad de los pacientes pasó 12,8 meses o más sin que el cáncer volviera a crecer, y las respuestas duraron una mediana de 11,1 meses. La compañía dijo que la seguridad fue parecida a la de datos anteriores. Estos resultados vienen de un estudio pequeño y sin grupo de comparación; la prueba que puede llevar a usar el medicamento como primer tratamiento es la Fase 3 RASolute 303, que compara RASONQUE solo y RASONQUE con quimioterapia contra la quimioterapia sola.",
+      "mirar": "Los resultados del estudio de Fase 3 RASolute 303; la compañía no dio fecha en este comunicado.",
+      "terminos": [
+        "Fase 1/2",
+        "Fase 3",
+        "Tasa de respuesta objetiva (ORR)",
+        "Supervivencia libre de progresión (PFS)",
+        "Designación de terapia innovadora",
+        "FDA"
+      ],
+      "fuente": "Revolution Medicines (comunicado vía BioSpace)",
+      "url": "https://www.biospace.com/press-releases/revolution-medicines-presents-updated-phase-1-2-data-for-rasonque-daraxonrasib-plus-chemotherapy-in-first-line-metastatic-pancreatic-cancer-at-ena-2026"
+    },
+    {
       "id": "2026-11-20-01",
       "fecha": "2026-11-20",
       "categoria": "biotecnologia",
@@ -943,6 +966,7 @@
     "https://ifmnoticias.com/economicas/gobierno-advierte-riesgo-de-default-en-2027-si-el-congreso-no-aprueba-la-ley-de-rescate-economico/",
     "https://www.biospace.com/press-releases/edgewise-therapeutics-reports-third-quarter-2026-financial-results",
     "https://www.biospace.com/press-releases/immunome-reports-third-quarter-2026-financial-results-and-provides-business-update",
+    "https://www.biospace.com/press-releases/revolution-medicines-presents-updated-phase-1-2-data-for-rasonque-daraxonrasib-plus-chemotherapy-in-first-line-metastatic-pancreatic-cancer-at-ena-2026",
     "https://www.biospace.com/press-releases/tango-therapeutics-reports-third-quarter-2026-financial-results-and-provides-business-highlights",
     "https://www.businesswire.com/news/home/20261109063698/en/",
     "https://www.businesswire.com/news/home/20261116192980/en/",

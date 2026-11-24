@@ -775,6 +775,22 @@
     {
       "termino": "Supervivencia libre de progresión (PFS)",
       "definicion": "Es el tiempo que pasa desde que un paciente empieza un tratamiento hasta que su cáncer vuelve a crecer o el paciente muere. Suele darse como una mediana: la mitad de los pacientes estuvo más tiempo y la otra mitad, menos. Los reguladores la usan a menudo para decidir aprobaciones, por eso es un dato que mueve a las compañías de biotecnología."
+    },
+    {
+      "termino": "Supervivencia global (OS)",
+      "definicion": "Mide cuánto tiempo viven los pacientes desde que empiezan un tratamiento, sin importar la causa. En cáncer es el objetivo más exigente de un estudio: si un medicamento la mejora, los pacientes viven más. Para quien invierte, un estudio que no mejora la supervivencia global casi siempre deja al medicamento sin camino a la aprobación en esa enfermedad."
+    },
+    {
+      "termino": "Análisis intermedio",
+      "definicion": "Revisión de los datos de un ensayo clínico antes de que termine, hecha en un momento fijado desde el inicio. Un comité independiente mira los resultados y puede recomendar seguir, cambiar o detener el estudio. Para quien invierte, es un momento clave porque puede adelantar una buena o una mala noticia."
+    },
+    {
+      "termino": "Comité Independiente de Monitoreo de Datos",
+      "definicion": "Grupo de expertos que no trabaja para la compañía y que revisa en secreto los datos de un ensayo mientras avanza. Su tarea es proteger a los pacientes y decir si el estudio debe seguir o detenerse. Sus recomendaciones suelen mover mucho el precio de las acciones de las biotecnológicas."
+    },
+    {
+      "termino": "Director científico (CSO)",
+      "definicion": "Persona que dirige la investigación de una compañía de biotecnología: decide qué enfermedades estudiar y qué medicamentos nuevos desarrollar. Para quien invierte, el cambio de esta persona importa porque influye en los futuros productos de la empresa."
     }
   ]
 }
