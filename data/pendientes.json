@@ -1,6 +1,6 @@
 {
-  "fecha": "2026-11-24",
-  "generado": "2026-11-24 16:07",
+  "fecha": "2026-11-25",
+  "generado": "2026-11-25 15:27",
   "ventana_horas": 48,
   "nota": "Pre-revisión automática de titulares. Revisa a fondo solo los activos 'con_noticias' y los 'sin_revisar'; los 'sin_noticias' no tuvieron titulares en la ventana.",
   "activos": [
@@ -16,46 +16,10 @@
           "fecha": "2026-11-24 14:13"
         },
         {
-          "titulo": "Arcus Biosciences drops Phase III quemliclustat study for pancreatic cancer - The Pharma Letter",
-          "fuente": "The Pharma Letter",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPeVNnTjU2bXNTbGRzYXhGTEtrb3hHZ2trN2szcjVXNU9TWTlKN3BJRlhndGdWQzhlT0czZ04zQWdITERDdWtVOW9Fc2M0dUR6M25lZW4ybG4wcl9HN1RRdDJsNS14MFktRTktYU9KUXpRWHFRQ2lfS3B5aW11b2x3cUswc09xWDZjTGVWTDJVRFcyZURfSnF5Y2tCNTdXQ2FMUGxoUjBCcE9Yb2JKSjgzV1dTRU9URHo2MjhR?oc=5",
-          "fecha": "2026-11-24 07:40"
-        },
-        {
-          "titulo": "Arcus Biosciences Stops Phase 3 Quemliclustat Trial in Pancreatic Cancer - Oncodaily",
-          "fuente": "Oncodaily",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1DbDA1Vk95TG5ITFhzSVZwclJXMkRocjAySzB5ZzAyX2xaYWhFSUxNZFFyTUI1d1dzSi1rdG1kd2lZNDlndkpVelRNVG5OQ3loMnM0bXc4Um4zRGVnTlF4T1Q3WUJSV3JCbTZ5ODc2bUlQNjdTMEU2a1hQUWM?oc=5",
-          "fecha": "2026-11-23 13:47"
-        },
-        {
-          "titulo": "Arcus halts late-stage pancreatic cancer trial after failed interim analysis - Reuters",
-          "fuente": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOSFVlcGdNazE1cU1SVm5CdWVtbzQyUFh3cHZSUDExX1JlTXdqS2laVGs3cUcteEtldjFxX3FzMHhpVGxIM1dkNUgzTWhJdmtqMDRWam5EVUoyOVQ3aGNWZ1RoNTdRcUhkWkF5LV95S2RNS20zenVvMEI0Y2FURWxlVGd6T0ZvZWdsYlFiX0JRV3dELUx0RE14RkItSW84WS1DbnRDVnZVcHpEMnZXejZ0Zl9iOEttcTQwWnRUeWVfcGtKVXBTeGR6Wm5vWjlEYno3RE9jOU1tY2ozMXFxMGt3d05R?oc=5",
-          "fecha": "2026-11-23 13:46"
-        },
-        {
-          "titulo": "Arcus Halts Phase 3 Pancreatic Cancer Trial - Wisevoter",
-          "fuente": "Wisevoter",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMmtVOWhBTnlzdVJWUzBzYzNMLVpQUkRkRnZpeVNVSVljRGgwWmpYSGVPY2FZTndjS0pQMU9jQWdqaDgtbXZuUHRGRVZLdVBEV3JHc3ZENkVnMF82MllMNko1dkRiVmp5bjJkR0FaOTFFQksybktiZzYwdndlczM5REdqeEZPUkRZTUE?oc=5",
-          "fecha": "2026-11-23 13:11"
-        },
-        {
-          "titulo": "Arcus strikes out with pancreatic cancer drug trial - pharmaphorum",
-          "fuente": "pharmaphorum",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRlMweTczLTRic1BadFE5a08tLVp4ajdIVW9JUUM1NWxSMGZNZlFDb0lxMldOR2w0N1hFa0JNeWwtN2ZRVEE5RkZSYnJoY19LVXVjOXBDeVliR2ZibGV3YTdfVWk1U3FIaXY1ZlB4VXNxb0EtbG80QnRIUjZubWZ0QXdR?oc=5",
-          "fecha": "2026-11-23 12:27"
-        },
-        {
-          "titulo": "Arcus halts phase 3 pancreatic cancer study of CD73 inhibitor that looked destined to fail - Fierce Biotech",
-          "fuente": "Fierce Biotech",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQ2dUeG40cFJoZW9BcXdkYmJ2Tzd4cm9VSzk2SUFjTWx2QmV3LTRiM1R1bWE1cDdsLTVWdVlselZpNElUNGkySXpSZlZPU1dlMk4tRE5aSjlVNjZ1TE0zb05ub2FNTWhpRTJ5eTZrRkNVV0QzWDdxYnV3MlZWZDhCWnZLcUFqT1RRNXRpRE1YRGFLck82R1hMa3pUS3NzQjBC?oc=5",
-          "fecha": "2026-11-23 09:45"
-        },
-        {
-          "titulo": "Arcus Biosciences ends Phase 3 PRISM-1 trial for pancreatic cancer therapy - Investing.com",
-          "fuente": "Investing.com",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZm9lY2ctOUMxUzVHZnVpTHlUb2E4cXVCdEJuYk0wMlcxeUpPS0xpTF9RTkt1Vkd6Zk1ESk1zMTJ0NXZVYVJGYWNTYXppM25LYmVuQ3ZIbHhCaXFIR0luZjRJYzdybHFrbUlFSi0zNFN3ZVpLcHJoUzRDeHZhTlM1amVaa0cyM0VIQnZlTzI3MUVCbHFxMXNJTkJ0QVBuRGx3NnROT2d0aFVuYVRGeUYwbDRicTBFcGI0MGgwS05ITHF6NGdEZ1NYWQ?oc=5",
-          "fecha": "2026-11-23 09:06"
+          "titulo": "Arcus Biosciences ends Phase 3 PRISM-1 trial for pancreatic cancer therapy - Investing.com Australia",
+          "fuente": "Investing.com Australia",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOU3ZmaUM1TDlUbjRtU24xLUwxVm5LS0EzMGE2ZkRDbjhjWXJPaW9BMVFaVkZxdlg3QkRFVE13TV9HdlRxdGUyOXQ0djI1dkJlRXc2VXFOTWloMGg4bUN1U3hwQmdEZlBrNXkwOWotVEpkaGMxOHozcnBGQWt4eVctS3M5MFduc2NDWTcxVDluVVBLclRYY0ViTEdmNC1ld0xQdUZxaUoyS0xUNXdtdk80ZWZPVmZVSGx3U0NaTzQ1VkNDbHZ4WTNTX2xxSng0LVU?oc=5",
+          "fecha": "2026-11-24 08:15"
         }
       ],
       "grupo": "biotecnologia"
@@ -63,22 +27,22 @@
     {
       "clave": "AAPG",
       "nombre": "Ascentage Pharma",
-      "estado": "con_noticias",
-      "noticias": [
-        {
-          "titulo": "Ascentage Pharma (SEHK:6855) Stock Could Stay Pricey As China Reimbursement Expands - Yahoo Finance",
-          "fuente": "Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQ0pOOWUyYTJQU1l6anU5Ui0zMWJ3bl9EbmVtWTF2c0JwSnhCajlBeFE2d3NJV19Xc1M0NmhQYWx0TXhLc3BEVnZFNzkzd3h0NHpxYnhaX1pIaERyb1hhRnpuQWFERDJ5aEJwMkR1aGdXMC1JS1NzNnBUTlNQSVlObGEydmNGZTFxdUN2aG5ueVJvYVJHYWVfUkVpcEJtQQ?oc=5",
-          "fecha": "2026-11-23 14:13"
-        }
-      ],
+      "estado": "sin_noticias",
+      "noticias": [],
       "grupo": "biotecnologia"
     },
     {
       "clave": "CELC",
       "nombre": "Celcuity",
-      "estado": "sin_noticias",
-      "noticias": [],
+      "estado": "con_noticias",
+      "noticias": [
+        {
+          "titulo": "What's Going On With Celcuity Stock?",
+          "fuente": "Trefis",
+          "url": "https://www.trefis.com/stock/celc/articles/628969/what-s-going-on-with-celcuity-stock/2026-11-25",
+          "fecha": "2026-11-25 13:49"
+        }
+      ],
       "grupo": "biotecnologia"
     },
     {
@@ -129,40 +93,10 @@
       "estado": "con_noticias",
       "noticias": [
         {
-          "titulo": "Kardigan appoints Erik Ingelsson as CSO - The Pharma Letter",
-          "fuente": "The Pharma Letter",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVkZqdkt6WEFlSWh1a1NuY05oZXhaUHhTdlhtdnRLcEw2TmROWkJiTzcxVkNDdmdfTFVUZm5QVmZHYWFfclV1dnRndk1CNHVrR0RkaU9SR0ZPOFgwaEJzbS1WUGNmXzhCZ3c2UXdnRWl2SlotM19kdlM5WFFVRndVaHVMSTc4TnA0OXlOVA?oc=5",
-          "fecha": "2026-11-23 10:53"
-        },
-        {
-          "titulo": "Kardigan names Erik Ingelsson as chief scientific officer By Investing.com - Investing.com South Africa",
-          "fuente": "Investing.com South Africa",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcUJlS28wRUt3WTFTSDRtcGg3UjhkRGVFRldkY21RdHpYSUI2MmljcTVaZXB4bEIyWkZjbUpBekp1ZE5yUUo2U05LbEExMDBEUDdVak5yQ0J6WFVjZndBdkpQR2ZRNGtja3NJOWVkdmo1N3g3WjVJY2pKMnpPanVta2dmZ2FSZEViZ1VNd3lnaHJ3NWlhS1FQbndMM3BMdURWUkwtTW5WMnRkdWk0ai01Ui1ESWFoaXc1V2c?oc=5",
-          "fecha": "2026-11-23 08:34"
-        },
-        {
-          "titulo": "Kardigan Appoints Former Wave Life Sciences Executive Erik Ingelsson as Chief Scientific Officer - citybiz",
-          "fuente": "citybiz",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQcHY2ckg5QkpqZVd2MVlBSEFhY0hHRm1RM1JuSUJaem5ZY1NWZ1h2c2RaVXJCSzhocE1zTW1FUVFibXFWam03cTFaTFBuU2FxN2VBU2Z2S3JDejVpZFlRS29hRzZub2tjdkE4X2ZCdjZxT0FyRldBeXduTFZCNHM5SXlBNnJORUYwTGNzb0wydF9kUFB3OExuYnBocXl0UGJRZlg5V28tdUVZZ3JaMHF0dTNRRGhEYjFSX2pMUmdISWZjV2NGbUl6QnlDUHJKWmtz?oc=5",
-          "fecha": "2026-11-23 08:17"
-        },
-        {
-          "titulo": "Kardigan names Erik Ingelsson as chief scientific officer - Investing.com",
-          "fuente": "Investing.com",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPOHZ0SHRnMzR2VW1paHp6OTJubzhwTTJreHFYUmN3Z3lEbE5jTTFFV3JTUkgyS1ZNOEJVNlF4d1QxNmd2UXQ5YlA2cXk4NmIwLUVKeHVFQjdzQWJBbGNOQmZLSWNKcERJbFR2MnV1X2ZMV0ZGRjU5ZTNlcVdnSmUtY2dnRkt4YnBLaUM2U2RrTzltaVhGX05wTVRJcUl5N3lQVk8wSGxFN1NDLWlhV0ZSelJOUlE?oc=5",
-          "fecha": "2026-11-23 07:16"
-        },
-        {
-          "titulo": "CA-KARDIGAN - Black Hills Pioneer",
-          "fuente": "Black Hills Pioneer",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUm8xV2o4ZDMwZzhHdFV4NGk2Rl90SFEyemJqVmxLVFF4aHdRSlk0NGh2MWpHQUpodFhJWkQ1ZVZyU0pjV3FTWFFzWVltMlJXVHFUQW9BWFU3OHNOTUU0V2ZNMTl3R0J6TklhS0hHMlFFWlpjU0hiWHB2enlSalg2SWY3b19uRUVsbHpDbnZWRDYxVHA1V1dhWDdIMU5wbFJy?oc=5",
-          "fecha": "2026-11-23 07:02"
-        },
-        {
-          "titulo": "Kardigan Announces the Appointment of Erik Ingelsson, M.D., Ph.D., as Chief Scientific Officer - The Joplin Globe",
-          "fuente": "The Joplin Globe",
-          "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOZTNJR2hDZHhoZkhPckR6WEVKVl9pRVczVUt3T3lzV19LNVM4V2s5WFN1NGJCQlZrY0FabDl1TzFKeWRJNVlQZGRDXzBEcXRjMWttcGN0ajllWXhWZXVKdUh3ajlXN2czUmducmRZclhyeVpiTUc3eXdlSW9teU9IZEZ6WWMtd3hFMENnVVg2QTg0cXhyY3ZyejNWM2FNSzdiR19jYWVzYmRSV2tRbEhnaENpM3E2b0RFeWxPTE5wSXk0aTdFdnY1ZjlVWHZyZnljVjhyTEZ3MENhb3FlakJSSkx6bWxCNktpalhJQjJxcEdObEgwOW1ORmQ0czF0QUExRzFQWU15QzJINFBVLTEtUExyVVAtMnNvblNRcw?oc=5",
-          "fecha": "2026-11-23 07:02"
+          "titulo": "Kardigan names Erik Ingelsson as CSO - Medical Buyer",
+          "fuente": "Medical Buyer",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE0zVGtaMUNuR0xRV0hRN1BCRnVycjEzU215YU96ZmRRbXIzcjE1dDNMbkxSNzYzRFdQdU1SQl9EajhVNUNRckYycmdRZDNVdEwtNUNBRUJseWtudVlyS2tDeTAwcjRVSVFIQ0Q5a2FjYmN5dw?oc=5",
+          "fecha": "2026-11-24 07:35"
         }
       ],
       "grupo": "biotecnologia"
@@ -187,34 +121,28 @@
       "estado": "con_noticias",
       "noticias": [
         {
+          "titulo": "Revolution Medicines (RVMD) On Fresh RASONQUE Data And A Narrative Of Undervaluation - Yahoo Finance",
+          "fuente": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQU3ZmLVZlREJUZE4zMEhPVEdkR0MzcHhjQVMycDBKTEZaS3lBRnJyRHg5VW1wRTRRRjcwZ1EyVVNsRVpTR1hCNUtBbGxHbVhGSEwxZ25la3NXX1p3NHFkdG5CWnB3aHczSWZNSUpxOHd5ZkYzOVJFYU1CdlUya1RBb1FySjR6UXQ0YmlwbGs3RGRrdDZHS2g5Wlg1V0dyZG1PcWpKZkExTTM?oc=5",
+          "fecha": "2026-11-25 12:11"
+        },
+        {
+          "titulo": "What Explains The Rise In Revolution Medicines Stock? - Yahoo Finance",
+          "fuente": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSUF5c3gxX0l6THB2S0VWNEtoU2t2RnE3Y014clhJc0cxX2wtLUNxMVlDUWk2a1BIOEVrUy1jTGVKSWJmSUpyVmRCYlJjaE56aGFUa1JqeHREa1kyZWhVQ1VmRmtla0dWT2JoMlJLUHNqYXZRYzhDaU5LOXM1Q0Y1eF95WnFtSGppR1V4XzNuTy0yRmZVRU1wM1pGWWtnTDQ4dDdr?oc=5",
+          "fecha": "2026-11-25 10:45"
+        },
+        {
+          "titulo": "What Explains The Rise In Revolution Medicines Stock?",
+          "fuente": "Trefis",
+          "url": "https://www.trefis.com/stock/rvmd/articles/628988/what-explains-the-rise-in-revolution-medicines-stock/2026-11-25",
+          "fecha": "2026-11-25 10:45"
+        },
+        {
           "titulo": "Revolution Medicines rated buy with $190 target after promising pancreatic cancer drug launch. - Pluang",
           "fuente": "Pluang",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdmI2WXhMZnFIbHpESW1reWhNMDdKQ1FITVEwSVIwMTlIc3pQbndmMGxnQnJUY2ctOUFzcGZHRE5PZjk2OEpjaVBvZTE3VlFxNXptakpibTcxZGRIVGZLaUx2aExDT2QtTDFpQmJ2cFd2YUpoRkVOUGhRT3VyZW43RlBZaTBxRmJ4S1dzR01MbWV2Nm5nNU80QnVqbURyZW41QWc?oc=5",
           "fecha": "2026-11-24 04:05"
-        },
-        {
-          "titulo": "RBC Says Revolution Medicines Still Leads The RAS Drug Race - Finimize",
-          "fuente": "Finimize",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNjBJOGtYYzZEeU94WFc4XzhJa1pXSm9aLV9ickJxc0VYRk5vWDFMckpybW42MEktZ1hiSFowX1c4T3JfeXJ6OHQyenNUVU1neklIQy1ELVVBbVNVSFVOcENQbU54aTJZWUkzaVBqYTFCYVRINGpXejVrTnZGUklBSW5OV2x4WXZrY0NTLTRpMmVIUQ?oc=5",
-          "fecha": "2026-11-23 12:38"
-        },
-        {
-          "titulo": "Revolution’s RAS inhibitor shows frontline potential in pancreatic cancer trial - Clinical Trials Arena",
-          "fuente": "Clinical Trials Arena",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcmdPMnE1YkdVQlBjODFYaDA4aWxWUHh1TU9GMGI1ZThDQmZ6V2k5NXdDeV92aW5ySmVIMnNoZTBpNWU3RzVaV0hIRy0zODY0eFRkR3MyVE1qR3JxQ1VjLXdCWjdGVGZNME1ENE5fcm9NcVdFbFIwWU9GeHRUd21oOW5ERHUtdjVXUnRBYjJudk82ZGVWR09GVE1LN292UQ?oc=5",
-          "fecha": "2026-11-23 09:54"
-        },
-        {
-          "titulo": "Revolution tests Rasonque earlier in pancreatic cancer - The Pharma Letter",
-          "fuente": "The Pharma Letter",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVFpELTBhUVdXRHRRM1FNdzh4N3l2UlJ5MVJ0NUY5SjJicW1WX0tkalFYeEIxVzhNaEFUTWI2R1YzdGt4TDY1cFNCM09ETWZoR1ZfMlFKYTFrbEdEblhmWkZGSld5c0ZLcXlFdjhKX0hlRnNPbE4zMXE5SWZ4bWNJQ3ltbHF6NExFLTVEMzV2d3ZEZkVkTzkyZjB5TkpCc00?oc=5",
-          "fecha": "2026-11-23 07:33"
-        },
-        {
-          "titulo": "Revolution Medicines (NASDAQ:RVMD) Edges Higher as Biotech Sidesteps the AI Rout - kalkine.com",
-          "fuente": "kalkine.com",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOR1UxTnJ6MFZ2S2RHODRfMk55eXh3bUVnTEtraERSc3Z3V1p5WkJFNmZxVS1ONDVLN0pxTnpJMVRVMzRULWVJeDRQUnc1Y0VyQ3FONEplaVE1ME5NMHNFMVBBZ1hIUmpwaTBYY3RoQlNKWU03bV9rTXE3UEE4NGxWM1RQbHJqbE9UazJpNEhZMldHV1I5YWhCLVgydkR4MTU1ZE5HWXNBZXEzUjFlLXRaS1Q2dw?oc=5",
-          "fecha": "2026-11-23 05:18"
         }
       ],
       "grupo": "biotecnologia"
@@ -225,16 +153,16 @@
       "estado": "con_noticias",
       "noticias": [
         {
+          "titulo": "Citizens Cuts Rhythm Pharmaceuticals (RYTM) PT, but Its Pipeline Holds Promise - Yahoo Finance",
+          "fuente": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZUFGajFnZHlJcGp2SlBzd0hnOEpJOVNGLUlrNDBjM0kzQWFNWG5rUWExZHZoM0s2VEJDcGlFbmJFdV9BVjRKSDdGZVJ3R3RGalR1cDFldS1VX2tqN2k3V0N2OF94dEl2WkdPZkFwNEc4TWwtd1o5YXdrUlhoWE1HSDRjaDREV05sWlNPS0dQRy05OWJpcnFYc1FLT3c1TTJ4TEM5MVdGQjdTUQ?oc=5",
+          "fecha": "2026-11-25 11:16"
+        },
+        {
           "titulo": "Will Rhythm Pharmaceuticals (NASDAQ:RYTM) Grow Stronger After Its New Deal? - Kalkine Media",
           "fuente": "Kalkine Media",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWUtoQUFVM09SWFNUODZmeHFRZEI0OG82ZE52eXpkTzJJdlA3MHdENTN3c3NadkpHY18zUnpvWHFqand3dHNBS2V3UGIxbWQ5VE5hMGZZdG5XR1p0dERNbkg5eUhCT0ZmWmRaQWl5TDllUW9hd3h2SnVubndULWQ5WWN3UmF4TmtBQnUtNHkwQ1ZkQWVVRTN5cmdETmpvaUdHY3JyM0tzZ0dQMXM3VmFjejVkMFZRSWZD?oc=5",
           "fecha": "2026-11-24 13:25"
-        },
-        {
-          "titulo": "Discipline and Rules-Based Execution in RYTM Response - Stock Traders Daily",
-          "fuente": "Stock Traders Daily",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQN2ZYZlU2OC0yeEFmUWhsTUtlMUkyazgwNW55RmptSGllNVFvc0ZXNW8yc01ZQXE0RUY1ajM5YkE5czVFRjNkdmJfNVd2bjRydUIzWXYxR0dEbXRyQkxfVGhSN0dXZHVud2JLVW9fUFdQbVJ3ZzdEM3Z1a3VFLXVWamtYTTQ1TGpyQ1MtSkRjdmowUXJ1T2xpUHV0ZVZoSU1HMmtlRlNVQURUbVhLbzRGQjRFTzU1Y2FpZ2tYNTZPa0ZNaGFVdHZaTW83SFN1NDA?oc=5",
-          "fecha": "2026-11-23 03:50"
         }
       ],
       "grupo": "biotecnologia"
@@ -256,12 +184,6 @@
           "fuente": "Longevity.Technology",
           "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQclFodDB1NDRBNUZCTzdkRFhjMDYtNmdqMHJ2Z3dXTktBR0Y0ZXl4RXJvSl9KVFhNTjlXMTFNVTFLSWpMWU5qWFJSUUl4SHdaQmdnX2UyeDlDRjlNWVlZeUZFWlUwZm9iOU1PdUg1RmZPNWEzOGYzSmxVN0JkNDkySVo4eDRBd25GNmdxcw?oc=5",
           "fecha": "2026-11-23 17:42"
-        },
-        {
-          "titulo": "Kardigan Appoints Former Wave Life Sciences Executive Erik Ingelsson as Chief Scientific Officer - citybiz",
-          "fuente": "citybiz",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQcHY2ckg5QkpqZVd2MVlBSEFhY0hHRm1RM1JuSUJaem5ZY1NWZ1h2c2RaVXJCSzhocE1zTW1FUVFibXFWam03cTFaTFBuU2FxN2VBU2Z2S3JDejVpZFlRS29hRzZub2tjdkE4X2ZCdjZxT0FyRldBeXduTFZCNHM5SXlBNnJORUYwTGNzb0wydF9kUFB3OExuYnBocXl0UGJRZlg5V28tdUVZZ3JaMHF0dTNRRGhEYjFSX2pMUmdISWZjV2NGbUl6QnlDUHJKWmtz?oc=5",
-          "fecha": "2026-11-23 08:17"
         }
       ],
       "grupo": "biotecnologia"
