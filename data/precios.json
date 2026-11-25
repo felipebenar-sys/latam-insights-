@@ -25,9 +25,9 @@
       "fuente": "Yahoo Finance"
     },
     "RMS": {
-      "valor": 1245.0,
-      "cambio_pct": 1.59,
-      "fecha": "2026-11-23",
+      "valor": 1251.0,
+      "cambio_pct": 0.48,
+      "fecha": "2026-11-24",
       "moneda": "EUR",
       "simbolo": "RMS.PA",
       "fuente": "Yahoo Finance"
@@ -73,5 +73,5 @@
       "fuente": "Yahoo Finance"
     }
   },
-  "actualizado": "2026-11-24"
+  "actualizado": "2026-11-25"
 }
