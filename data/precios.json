@@ -1,25 +1,25 @@
 {
   "activos": {
     "NU": {
-      "valor": 11.86,
-      "cambio_pct": 0.51,
-      "fecha": "2026-11-24",
+      "valor": 12.36,
+      "cambio_pct": 4.22,
+      "fecha": "2026-11-25",
       "moneda": "USD",
       "simbolo": "NU",
       "fuente": "Yahoo Finance"
     },
     "JPM": {
-      "valor": 317.1,
-      "cambio_pct": 0.14,
-      "fecha": "2026-11-24",
+      "valor": 316.74,
+      "cambio_pct": -0.11,
+      "fecha": "2026-11-25",
       "moneda": "USD",
       "simbolo": "JPM",
       "fuente": "Yahoo Finance"
     },
     "MELI": {
-      "valor": 1450.31,
-      "cambio_pct": 1.77,
-      "fecha": "2026-11-24",
+      "valor": 1467.3,
+      "cambio_pct": 1.17,
+      "fecha": "2026-11-25",
       "moneda": "USD",
       "simbolo": "MELI",
       "fuente": "Yahoo Finance"
@@ -33,41 +33,41 @@
       "fuente": "Yahoo Finance"
     },
     "BN": {
-      "valor": 39.48,
-      "cambio_pct": 0.92,
-      "fecha": "2026-11-24",
+      "valor": 40.32,
+      "cambio_pct": 2.13,
+      "fecha": "2026-11-25",
       "moneda": "USD",
       "simbolo": "BN",
       "fuente": "Yahoo Finance"
     },
     "PFGRUPOARG": {
-      "valor": 14760.0,
-      "cambio_pct": -1.07,
-      "fecha": "2026-11-24",
+      "valor": 14740.0,
+      "cambio_pct": -0.14,
+      "fecha": "2026-11-25",
       "moneda": "COP",
       "simbolo": "PFGRUPOARG.CL",
       "fuente": "Yahoo Finance"
     },
     "BVC": {
-      "valor": 16240.0,
-      "cambio_pct": 2.65,
-      "fecha": "2026-11-24",
+      "valor": 16260.0,
+      "cambio_pct": 0.12,
+      "fecha": "2026-11-25",
       "moneda": "COP",
       "simbolo": "BVC.CL",
       "fuente": "Yahoo Finance"
     },
     "TQQQ": {
-      "valor": 46.19,
-      "cambio_pct": -5.93,
-      "fecha": "2026-11-24",
+      "valor": 45.28,
+      "cambio_pct": -1.97,
+      "fecha": "2026-11-25",
       "moneda": "USD",
       "simbolo": "TQQQ",
       "fuente": "Yahoo Finance"
     },
     "COPX": {
-      "valor": 57.58,
-      "cambio_pct": -4.27,
-      "fecha": "2026-11-24",
+      "valor": 58.66,
+      "cambio_pct": 1.88,
+      "fecha": "2026-11-25",
       "moneda": "USD",
       "simbolo": "COPX",
       "fuente": "Yahoo Finance"
