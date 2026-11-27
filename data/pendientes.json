@@ -1,6 +1,6 @@
 {
-  "fecha": "2026-11-26",
-  "generado": "2026-11-26 15:07",
+  "fecha": "2026-11-27",
+  "generado": "2026-11-27 14:54",
   "ventana_horas": 48,
   "nota": "Pre-revisión automática de titulares. Revisa a fondo solo los activos 'con_noticias' y los 'sin_revisar'; los 'sin_noticias' no tuvieron titulares en la ventana.",
   "activos": [
@@ -10,16 +10,16 @@
       "estado": "con_noticias",
       "noticias": [
         {
+          "titulo": "Weekly Buzz: RDNT, COGT Win FDA Nod; SNY Buys INSM; GSK, DWTX Hit Goals; RCUS Halts Phase 3 Trial - RTTNews",
+          "fuente": "RTTNews",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObTR3bXQwWEdoLWhlMUZQU3QwT1pOb3RraVVGNEN3MlpZMGp4YlBmVFdFN1h3R1NvVHhUd1dKSzFHcFJxaVNyV1pnNVMzM3ZNMHg4YnhLNjZ4VGprNlRtZzZEREttRHZ2NVZFQUVyeUNPVmpZaUp5czl1N0paU1pzUG92ektuZnNvSUlmc3RVZzYtS0dUS2NnMVNlcFZ0WnNYb2JWSS12aTJqdVFsM3NrbXd0TFRGc1dUaW1rMDY3OS05X1ZmbUJB?oc=5",
+          "fecha": "2026-11-27 10:13"
+        },
+        {
           "titulo": "Arcus halts a major pancreatic cancer trial after its experimental CD73 inhibitor fails to improve survival - Medical Daily",
           "fuente": "Medical Daily",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVVFVTFJ6WnlYY0s0QUFHRlI5SUl5MmRYLTM3S3I0OXEzcWgxVjRSb0c0akhBTjlxX25zNVpTZUlMWGE0ZnRCdXhLR2J0dXhLY3hrSTVoeWZxZGJxOTZnb0VpSnpVR3Z6bUl1WXo0Q20xMTJkUnZPQVRPMlZlYTU4d1c1VlAtMG5kRDZlQkZka2lveTc1TDgwX1NUVQ?oc=5",
           "fecha": "2026-11-26 10:33"
-        },
-        {
-          "titulo": "Arcus Biosciences Announces New Employment Inducement Grants - Quantisnow",
-          "fuente": "Quantisnow",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVHhCTUFfV2hmR0s1VUJFc0Nnc3hRampKRXZLS2xRaEgydklESnFPbGo4S0t2TmpMTllNd0RyS1ZJeXk3Y3BTOGZNbEFVa0VMWWhqUlp6QUxlVzlHRWx5XzF6WS1zbU5ONDF6NEpmMjFFUjYtcDNqZDN1aUVHMWFiSWlBcjVjN3BjV0JsYXRYdTNWWVVLMUJXWHF6MTA4N2l6MHlDd0ZB?oc=5",
-          "fecha": "2026-11-24 18:02"
         }
       ],
       "grupo": "biotecnologia"
@@ -34,21 +34,8 @@
     {
       "clave": "CELC",
       "nombre": "Celcuity",
-      "estado": "con_noticias",
-      "noticias": [
-        {
-          "titulo": "What's Going On With Celcuity Stock?",
-          "fuente": "Trefis",
-          "url": "https://www.trefis.com/stock/celc/articles/628969/what-s-going-on-with-celcuity-stock/2026-11-25",
-          "fecha": "2026-11-25 13:49"
-        },
-        {
-          "titulo": "Celcuity (CELC) Stock Leaves Book Value Questions Unanswered - Yahoo Finance",
-          "fuente": "Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWFA4SXB6SU9hM1JBVnRMYlE5TWhzemc5bUNwQ2pGUDBxZGRtbkUzZmJIVzZjX2N6R0djY19ERTZ4TURkeS1OT3plSmJoME50dmFjcU9YWXVheVhkVnFMT3dEYWhyRXk1WDl6OUpJWjFiUFUzeGc3SjV4YXJQTjFKSHRCSW9wbG42X2hxU19iZ3c1NEU5MFVtWU1WYVU?oc=5",
-          "fecha": "2026-11-25 06:07"
-        }
-      ],
+      "estado": "sin_noticias",
+      "noticias": [],
       "grupo": "biotecnologia"
     },
     {
@@ -68,8 +55,15 @@
     {
       "clave": "EWTX",
       "nombre": "Edgewise Therapeutics",
-      "estado": "sin_noticias",
-      "noticias": [],
+      "estado": "con_noticias",
+      "noticias": [
+        {
+          "titulo": "Edgewise Therapeutics stock hits all-time high of 48.78 USD - Investing.com",
+          "fuente": "Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQamsyUVRKZno1ZkdhdTJnRnRTamRDZnZ0Zjd6dzFyaFZnVVc5QjVwbk1wUXVJZ2VEV0RzR0dCaERVdy13UVhyblotNTRQM2ctamQtYlpRZVNaSGJ4VzRqd09nV0xuZjJxVG11Q3NXakZtZlczZFRvU05tRnVTRloxQWhPNzNHcl9JQ2xuZEdLUUJzcXZWSjlWY0M0M1VRRlBXd25adDdGeU1ORnlaQkp1VHpsT3U?oc=5",
+          "fecha": "2026-11-27 10:16"
+        }
+      ],
       "grupo": "biotecnologia"
     },
     {
@@ -99,10 +93,10 @@
       "estado": "con_noticias",
       "noticias": [
         {
-          "titulo": "Fair Value models flagged Kardigan as overvalued before 50% plunge - Investing.com",
-          "fuente": "Investing.com",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNVN4a2dpdnowTlV3YXNzZ1RjR1NoSWFrRm51RURIOTRxOGZ3RVEwOFFweklYVEF4bFFPZzRuSWVBQ2pIdEFmNHU3dFpidHRzaUFEM1JHWDEwM244MXN6TjcyUWM5SEhOVmtWMmExZVpwd010S3VqUjRRdy14WjlBNXQ1SmF6OTRjZW1KbjYzSkdYeWFGRjlCbHpHRDdrVGJhSFBaQkF3SnhFZFN5eGNaaGdjaTdZVFUxalVzMnlaMzlOM2xf?oc=5",
-          "fecha": "2026-11-26 06:32"
+          "titulo": "Fair Value models flagged Kardigan as overvalued before 50% plunge By Investing.com - Investing.com Nigeria",
+          "fuente": "Investing.com Nigeria",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSnp5ZFk5MWltXzFNelRac1NUaEdoMjVFMlFCQmJDazlNekFBZ2Q0TUd3Z2h3OFAyOHB5TEphbHFDelNIX2hGQlhYTzVNYjhaRHJCaHdqQTVFUi1kUE1OSWhVdEljREhOUUwzUjRGV3A3UVdLNmgzcDlwR1h3V2tXQW9Idy1oem1VMDhMQm1qWWRSMW9Qc1Vnb05HM0F4cUpPNTl2LWNXVkdTcWtFU293Njd6MTZHeHJBOGNJcUNUUWVNaThV?oc=5",
+          "fecha": "2026-11-27 00:12"
         }
       ],
       "grupo": "biotecnologia"
@@ -149,24 +143,6 @@
           "fuente": "Yahoo Finance",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSlE5aldvWUt3NWhJWVRvWE5YcjhSbHRwd0VCRkZxb3VWWGRVaDlmdFM3VTdvVDEzVGRwZ29BbDZPQjhuMjBmX3ZDNGlOckRyRi1KS3Jra2hiSjhvUEZJXzhEY19vZGN3T0c0TVQ2aDliWVdqUmlBVjJnamdaX1hicm1BR3NHZ3d4d0NEb29vaFpyMjRTZ1Y1S2JlQmozd0J3RWtXekpR?oc=5",
           "fecha": "2026-11-25 16:12"
-        },
-        {
-          "titulo": "Revolution Medicines (RVMD) On Fresh RASONQUE Data And A Narrative Of Undervaluation - Yahoo Finance",
-          "fuente": "Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQU3ZmLVZlREJUZE4zMEhPVEdkR0MzcHhjQVMycDBKTEZaS3lBRnJyRHg5VW1wRTRRRjcwZ1EyVVNsRVpTR1hCNUtBbGxHbVhGSEwxZ25la3NXX1p3NHFkdG5CWnB3aHczSWZNSUpxOHd5ZkYzOVJFYU1CdlUya1RBb1FySjR6UXQ0YmlwbGs3RGRrdDZHS2g5Wlg1V0dyZG1PcWpKZkExTTM?oc=5",
-          "fecha": "2026-11-25 12:11"
-        },
-        {
-          "titulo": "What Explains The Rise In Revolution Medicines Stock? - Yahoo Finance",
-          "fuente": "Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSUF5c3gxX0l6THB2S0VWNEtoU2t2RnE3Y014clhJc0cxX2wtLUNxMVlDUWk2a1BIOEVrUy1jTGVKSWJmSUpyVmRCYlJjaE56aGFUa1JqeHREa1kyZWhVQ1VmRmtla0dWT2JoMlJLUHNqYXZRYzhDaU5LOXM1Q0Y1eF95WnFtSGppR1V4XzNuTy0yRmZVRU1wM1pGWWtnTDQ4dDdr?oc=5",
-          "fecha": "2026-11-25 10:45"
-        },
-        {
-          "titulo": "What Explains The Rise In Revolution Medicines Stock?",
-          "fuente": "Trefis",
-          "url": "https://www.trefis.com/stock/rvmd/articles/628988/what-explains-the-rise-in-revolution-medicines-stock/2026-11-25",
-          "fecha": "2026-11-25 10:45"
         }
       ],
       "grupo": "biotecnologia"
@@ -174,15 +150,8 @@
     {
       "clave": "RYTM",
       "nombre": "Rhythm Pharmaceuticals",
-      "estado": "con_noticias",
-      "noticias": [
-        {
-          "titulo": "Citizens Cuts Rhythm Pharmaceuticals (RYTM) PT, but Its Pipeline Holds Promise - Yahoo Finance",
-          "fuente": "Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZUFGajFnZHlJcGp2SlBzd0hnOEpJOVNGLUlrNDBjM0kzQWFNWG5rUWExZHZoM0s2VEJDcGlFbmJFdV9BVjRKSDdGZVJ3R3RGalR1cDFldS1VX2tqN2k3V0N2OF94dEl2WkdPZkFwNEc4TWwtd1o5YXdrUlhoWE1HSDRjaDREV05sWlNPS0dQRy05OWJpcnFYc1FLT3c1TTJ4TEM5MVdGQjdTUQ?oc=5",
-          "fecha": "2026-11-25 14:16"
-        }
-      ],
+      "estado": "sin_noticias",
+      "noticias": [],
       "grupo": "biotecnologia"
     },
     {
