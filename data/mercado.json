@@ -1,8 +1,8 @@
 {
   "brent": {
-    "valor": 92.2,
-    "cambio_pct": -2.55,
-    "fecha": "2026-11-26",
+    "valor": 90.84,
+    "cambio_pct": -3.98,
+    "fecha": "2026-11-27",
     "fuente": "ICE vía Yahoo Finance"
   },
   "colcap": {
@@ -20,7 +20,7 @@
     "periodo": "oct 2026",
     "fuente": "DANE vía La República"
   },
-  "actualizado": "2026-11-26",
+  "actualizado": "2026-11-27",
   "usdcop": {
     "valor": 3547.19,
     "cambio_pct": -0.29,

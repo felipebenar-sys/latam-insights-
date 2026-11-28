@@ -1,25 +1,25 @@
 {
   "activos": {
     "NU": {
-      "valor": 12.36,
-      "cambio_pct": 4.22,
-      "fecha": "2026-11-25",
+      "valor": 12.91,
+      "cambio_pct": 4.45,
+      "fecha": "2026-11-27",
       "moneda": "USD",
       "simbolo": "NU",
       "fuente": "Yahoo Finance"
     },
     "JPM": {
-      "valor": 316.74,
-      "cambio_pct": -0.11,
-      "fecha": "2026-11-25",
+      "valor": 322.96,
+      "cambio_pct": 1.96,
+      "fecha": "2026-11-27",
       "moneda": "USD",
       "simbolo": "JPM",
       "fuente": "Yahoo Finance"
     },
     "MELI": {
-      "valor": 1467.3,
-      "cambio_pct": 1.17,
-      "fecha": "2026-11-25",
+      "valor": 1532.92,
+      "cambio_pct": 4.47,
+      "fecha": "2026-11-27",
       "moneda": "USD",
       "simbolo": "MELI",
       "fuente": "Yahoo Finance"
@@ -33,17 +33,17 @@
       "fuente": "Yahoo Finance"
     },
     "BN": {
-      "valor": 40.32,
-      "cambio_pct": 2.13,
-      "fecha": "2026-11-25",
+      "valor": 41.37,
+      "cambio_pct": 2.6,
+      "fecha": "2026-11-27",
       "moneda": "USD",
       "simbolo": "BN",
       "fuente": "Yahoo Finance"
     },
     "PFGRUPOARG": {
-      "valor": 15140.0,
-      "cambio_pct": 2.71,
-      "fecha": "2026-11-26",
+      "valor": 15260.0,
+      "cambio_pct": 0.79,
+      "fecha": "2026-11-27",
       "moneda": "COP",
       "simbolo": "PFGRUPOARG.CL",
       "fuente": "Yahoo Finance"
@@ -57,17 +57,17 @@
       "fuente": "Yahoo Finance"
     },
     "TQQQ": {
-      "valor": 45.28,
-      "cambio_pct": -1.97,
-      "fecha": "2026-11-25",
+      "valor": 48.85,
+      "cambio_pct": 7.88,
+      "fecha": "2026-11-27",
       "moneda": "USD",
       "simbolo": "TQQQ",
       "fuente": "Yahoo Finance"
     },
     "COPX": {
-      "valor": 58.66,
-      "cambio_pct": 1.88,
-      "fecha": "2026-11-25",
+      "valor": 61.34,
+      "cambio_pct": 4.57,
+      "fecha": "2026-11-27",
       "moneda": "USD",
       "simbolo": "COPX",
       "fuente": "Yahoo Finance"
