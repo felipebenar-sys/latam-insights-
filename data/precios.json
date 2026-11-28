@@ -25,9 +25,9 @@
       "fuente": "Yahoo Finance"
     },
     "RMS": {
-      "valor": 1272.5,
-      "cambio_pct": 1.64,
-      "fecha": "2026-11-26",
+      "valor": 1283.5,
+      "cambio_pct": 0.86,
+      "fecha": "2026-11-27",
       "moneda": "EUR",
       "simbolo": "RMS.PA",
       "fuente": "Yahoo Finance"
@@ -51,7 +51,7 @@
     "BVC": {
       "valor": 16260.0,
       "cambio_pct": 0.0,
-      "fecha": "2026-11-26",
+      "fecha": "2026-11-27",
       "moneda": "COP",
       "simbolo": "BVC.CL",
       "fuente": "Yahoo Finance"
@@ -73,5 +73,5 @@
       "fuente": "Yahoo Finance"
     }
   },
-  "actualizado": "2026-11-27"
+  "actualizado": "2026-11-28"
 }
